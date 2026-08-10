@@ -3,6 +3,5 @@ package-lock.json
 package.json
 *.html
 !template.html
-!docs/index.html
 __pycache__/
 .DS_Store
