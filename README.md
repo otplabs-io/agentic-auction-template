@@ -19,9 +19,9 @@ self-contained file. Override with `-o path.html`.
 | `test.js` | 63 headless assertions (`npm install jsdom` first, then `node test.js <built.html>`) |
 | `sample_payload.json` | Synthetic data for layout work — invented prices, `"sample": true` |
 | `mksample.py` | Regenerates the synthetic payload |
-| `price_cache.py` | Dedupe + persistent market-price cache used during valuation |
+| `price_cache.py` | Deduplication during valuation (persistent cache present but disabled) |
 | `test_price_cache.py` | 48 assertions covering key normalisation, TTL, dedupe |
-| `price_cache.csv` | The accumulated cache. Grows weekly; commit it back each run |
+| `price_cache.csv` | Empty seed for the cache. Unused while the cache is disabled |
 
 ## Schema 2 — the buyer's premium
 
@@ -59,31 +59,33 @@ Verify by extracting the CBDT bitmaps and looking at them — a silently dropped
 glyph looks identical to a CSS problem otherwise.
 
 
-## Price cache
+## Price cache — currently disabled
 
-Valuation reuses recent prices instead of re-fetching every wine every week.
+Only the deduplication half of `price_cache.py` is in use. The persistent cache
+is off, because the CSV would have to be committed back to this repo every week
+for it to survive.
 
     import price_cache as pc
-    cache = pc.load()                       # price_cache.csv
-    plan  = pc.plan(survivor_lots, cache)   # dedupe + hit/miss split
-    print(pc.report(plan['stats']))
-    # ...look up only plan['fetch']...
-    pc.put(cache, key, price, source, source_type)
-    pc.save(cache)
+    plan = pc.plan(survivor_lots, {})     # empty dict: dedupe only
+    print(pc.report(plan['stats']).splitlines()[0])
 
-Two independent savings. **Dedupe** collapses several lots of the same wine,
-vintage and size into one lookup -- free, no staleness risk. **Caching** reuses
-a price fetched within its TTL: 60 days for a real price, 21 for
-`insufficient`, because an unlisted wine can become listed.
+Dedupe collapses several lots of the same wine, vintage and size into one
+lookup. It is arithmetic on the current export, so it carries no staleness risk
+and needs no stored state. Passing `{}` means `price_cache.csv` is never read or
+written.
+
+`pc.report` prints a second line about cache hit rate; drop it while the cache
+is off, since a permanent "0% hit rate" is noise.
+
+**Re-enabling** is one line -- `pc.load('price_cache.csv')` instead of `{}`,
+plus `pc.put`/`pc.save` as prices are found. Prices are then reused within their
+TTL (60 days; 21 for `insufficient`) and cited with their fetch date via
+`pc.cite(row)`, so reuse stays visible. The tradeoff is that `price_cache.csv`
+must be committed after every run or the cache silently starts empty.
 
 The key is `normalised wine | vintage | millilitres`. Normalisation folds case,
 accents and punctuation but never drops words -- 'Tondonia Reserva' and
 'Tondonia Gran Reserva' are different wines at different prices, and 750ml is
 not a magnum. `test_price_cache.py` asserts those pairs stay distinct.
-
-Reuse stays visible: `pc.cite(row)` renders
-`Wine-Searcher average retail, vintage-specific (cached 2026-07-14, 27d old)`,
-so a stale number is legible in the dashboard rather than silently assumed
-current.
 
 Run the tests with `python3 test_price_cache.py`.
