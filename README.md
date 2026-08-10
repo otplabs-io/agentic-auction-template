@@ -19,6 +19,9 @@ self-contained file. Override with `-o path.html`.
 | `test.js` | 63 headless assertions (`npm install jsdom` first, then `node test.js <built.html>`) |
 | `sample_payload.json` | Synthetic data for layout work — invented prices, `"sample": true` |
 | `mksample.py` | Regenerates the synthetic payload |
+| `price_cache.py` | Dedupe + persistent market-price cache used during valuation |
+| `test_price_cache.py` | 48 assertions covering key normalisation, TTL, dedupe |
+| `price_cache.csv` | The accumulated cache. Grows weekly; commit it back each run |
 
 ## Schema 2 — the buyer's premium
 
@@ -54,3 +57,33 @@ Only needed if the country list changes.
 
 Verify by extracting the CBDT bitmaps and looking at them — a silently dropped
 glyph looks identical to a CSS problem otherwise.
+
+
+## Price cache
+
+Valuation reuses recent prices instead of re-fetching every wine every week.
+
+    import price_cache as pc
+    cache = pc.load()                       # price_cache.csv
+    plan  = pc.plan(survivor_lots, cache)   # dedupe + hit/miss split
+    print(pc.report(plan['stats']))
+    # ...look up only plan['fetch']...
+    pc.put(cache, key, price, source, source_type)
+    pc.save(cache)
+
+Two independent savings. **Dedupe** collapses several lots of the same wine,
+vintage and size into one lookup -- free, no staleness risk. **Caching** reuses
+a price fetched within its TTL: 60 days for a real price, 21 for
+`insufficient`, because an unlisted wine can become listed.
+
+The key is `normalised wine | vintage | millilitres`. Normalisation folds case,
+accents and punctuation but never drops words -- 'Tondonia Reserva' and
+'Tondonia Gran Reserva' are different wines at different prices, and 750ml is
+not a magnum. `test_price_cache.py` asserts those pairs stay distinct.
+
+Reuse stays visible: `pc.cite(row)` renders
+`Wine-Searcher average retail, vintage-specific (cached 2026-07-14, 27d old)`,
+so a stale number is legible in the dashboard rather than silently assumed
+current.
+
+Run the tests with `python3 test_price_cache.py`.
