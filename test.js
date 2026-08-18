@@ -37,7 +37,8 @@ ok('funnel populated', $('#funnelBody').children.length >= 6);
 ok('summary metrics rendered', $$('#summary .metric').length >= 5);
 
 console.log('\n— default sort: % below market, descending —');
-const pctIdx = 11;   // _wl,country,wine,vint,format,region,subregion,qty,reserve,buyer,market,pct
+const pctIdx = 12;   // _wl,country,type,wine,vint,format,region,subregion,qty,reserve,buyer,market,pct
+const WINE_IDX = 3, TYPE_IDX = 2, RES_IDX = 9, BUY_IDX = 10;
 const pcts = rows().map(tr => parseInt(cellText(tr, pctIdx)));
 ok('sorted descending', pcts.every((v, i) => i === 0 || pcts[i-1] >= v),
    pcts.slice(0, 5).join(', '));
@@ -62,29 +63,63 @@ ok('flag carries country name', /France|Italy|Spain|Portugal|Austria/.test(flagS
 ok('font-face embedded', /@font-face[\s\S]*FlagEmoji[\s\S]*base64/.test(html));
 ok('no remote font file reference', !/fonts\.gstatic\.com\/s\//.test(html));
 
+console.log('\n— wine-type swatch —');
+const TYPES = ['Red','Rose','Orange','White','Sparkling','Dessert'];
+const swatchClass = tr => {
+  const el = tr.children[TYPE_IDX].querySelector('.wt');
+  return el ? (el.className.match(/wt-(\w+)/) || [])[1] : null;
+};
+ok('every row carries a swatch', rows().every(tr => swatchClass(tr) !== null));
+ok('swatch class matches the payload type', (() => {
+  const byId = new Map(payload.deals.map(d => [d.id, d.wine_type]));
+  return rows().every(tr => {
+    const id = Number(tr.querySelector('.wine a').href.split('/').pop());
+    return swatchClass(tr) === byId.get(id);
+  });
+})());
+ok('only the six judged types appear',
+   rows().every(tr => TYPES.includes(swatchClass(tr))));
+ok('sample exercises all six swatches',
+   TYPES.every(t => payload.deals.some(d => d.wine_type === t)),
+   TYPES.filter(t => !payload.deals.some(d => d.wine_type === t)).join(',') || 'all present');
+const sw = $$('#body tr .wt');
+ok('swatch names itself for hover and screen readers',
+   sw.every(e => e.title && e.getAttribute('aria-label') === e.title), sw[0].title);
+ok('Rose renders accented but is stored unaccented', (() => {
+  const el = $$('#body tr .wt').find(e => /wt-Rose\b/.test(e.className));
+  return el && el.title === 'Rosé';
+})());
+ok('the six colours are defined in CSS',
+   TYPES.every(t => new RegExp('\\.wt-' + t + '\\{background:').test(html)));
+ok('pale swatches carry a darker ring so they are not invisible',
+   /\.wt-White,\.wt-Sparkling\{box-shadow:/.test(html));
+ok('swatch column has no text content', cellText(rows()[0], TYPE_IDX) === '',
+   JSON.stringify(cellText(rows()[0], TYPE_IDX)));
+
 console.log('\n— region decomposition —');
 const sample = payload.deals[0];
 ok('region_path has 3 levels', sample.region_path.length === 3, JSON.stringify(sample.region_path));
 const railFacets = $$('#railBody [data-facet]').map(e => e.dataset.facet);
 ok('country/region/subregion are separate filters',
    ['country','region','subregion'].every(k => railFacets.includes(k)));
+ok('wine type is its own filter group', railFacets.includes('wtype'), railFacets.join(', '));
 
 console.log('\n— sorting by a text column —');
 const wineTh = $('#head th[data-col="wine"]');
 wineTh.dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
-const names = rows().map(tr => cellText(tr, 2));
+const names = rows().map(tr => cellText(tr, WINE_IDX));
 ok('wine sorts A→Z on first click',
    names.every((v, i) => i === 0 || names[i-1].localeCompare(names[i]) <= 0),
    names.slice(0, 3).join(' | '));
 $('#head th[data-col="wine"]').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
-const names2 = rows().map(tr => cellText(tr, 2));
+const names2 = rows().map(tr => cellText(tr, WINE_IDX));
 ok('second click reverses', names2[0] === names[names.length - 1],
    names2[0] + ' vs ' + names[names.length - 1]);
 ok('aria-sort is set', $('#head th[data-col="wine"]').getAttribute('aria-sort') === 'descending');
 
 console.log('\n— numeric sort is numeric, not lexical —');
 $('#head th[data-col="reserve"]').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
-const res = rows().map(tr => Number(cellText(tr, 8).replace(/[$,]/g, '')));
+const res = rows().map(tr => Number(cellText(tr, RES_IDX).replace(/[$,]/g, '')));
 ok('reserve sorts numerically', res.every((v, i) => i === 0 || res[i-1] >= v),
    res.slice(0, 5).join(', '));
 
@@ -139,6 +174,43 @@ function search(text) {
 }
 
 (async () => {
+  console.log('\n— wine-type filter and sort —');
+  const wtOpts = $$('#railBody input[data-facet="wtype"]').map(e => e.value);
+  ok('every judged type is offered as a filter',
+     TYPES.every(t => wtOpts.includes(t)), wtOpts.join(', '));
+  ok('filter options are shelf-ordered, not alphabetical',
+     wtOpts.join(',') === TYPES.filter(t => wtOpts.includes(t)).join(','), wtOpts.join(','));
+  ok('rail options show the swatch beside the name',
+     $$('#railBody [data-facet="wtype"]').length > 0 &&
+     $('#railBody .fgroup[data-facet="wtype"] .opt .wt') !== null);
+
+  const cbSp = $('#railBody input[data-facet="wtype"][value="Sparkling"]');
+  cbSp.checked = true;
+  cbSp.dispatchEvent(new window.Event('change', { bubbles: true }));
+  const expectSp = payload.deals.filter(d => d.wine_type === 'Sparkling').length;
+  ok('Sparkling filter applied', rows().length === expectSp, rows().length + ' vs ' + expectSp);
+  ok('chip names the type', /Sparkling/.test($('#chips').textContent), $('#chips').textContent.trim());
+  await new Promise(r => setTimeout(r, 260));
+  ok('type filter round-trips through the hash', /[#&]wt=Sparkling/.test(window.location.hash),
+     window.location.hash);
+  $('#btnClear').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+  ok('cleared back to every lot', rows().length === payload.deals.length);
+
+  $('#head th[data-col="wine_type"]').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+  const ranks = rows().map(tr => TYPES.indexOf(swatchClass(tr)));
+  ok('type sorts by shelf order, not by name',
+     ranks.every((v, i) => i === 0 || ranks[i-1] >= v),
+     rows().slice(0, 6).map(swatchClass).join(' > '));
+  ok('sorting by type does not drop rows', rows().length === payload.deals.length);
+  $('#btnClear').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+  $('#head th[data-col="pct_below"]').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+
+  await search('sparkling');
+  ok('global search finds a type by name',
+     rows().length === payload.deals.filter(d => d.wine_type === 'Sparkling').length,
+     rows().length + '');
+  await search('');
+
   await search('rhone');
   const nRhone = rows().length;
   ok('"rhone" matches Rhône', nRhone > 0, nRhone + ' rows');
@@ -166,8 +238,8 @@ function search(text) {
   const bcol = $$('#head th').map(th => th.textContent.replace(/[▲▼]/g,'').trim());
   ok('Buyer price column present', bcol.includes('Buyer price'), bcol.join(' | '));
   const r0 = rows()[0];
-  const shownRes = Number(cellText(r0, 8).replace(/[$,]/g,''));
-  const shownBuy = Number(cellText(r0, 9).replace(/[$,]/g,''));
+  const shownRes = Number(cellText(r0, RES_IDX).replace(/[$,]/g,''));
+  const shownBuy = Number(cellText(r0, BUY_IDX).replace(/[$,]/g,''));
   ok('buyer price rendered above reserve in the row',
      shownBuy > shownRes && Math.abs(shownBuy - shownRes*(1+rate)) <= 1.5,
      shownRes + ' -> ' + shownBuy);
@@ -223,6 +295,12 @@ function search(text) {
   ok('no market/discount columns in unvalued',
      !heads.some(h => /Market price|% Below|Tag/i.test(h)), heads.join(' | '));
   ok('unvalued still links out', $('#body tr .wine a').href.includes('/BuyWine/Item/'));
+  ok('unvalued rows carry a swatch -- a missing price is no excuse for a missing type',
+     rows().every(tr => tr.querySelector('.wt') !== null));
+  ok('unvalued types come from the payload',
+     rows().every(tr => TYPES.includes((tr.querySelector('.wt').className.match(/wt-(\w+)/)||[])[1])));
+  ok('wine type filters the unvalued view too',
+     $$('#railBody input[data-facet="wtype"]').length > 0);
 
   console.log('\n— CSV —');
   $('#tabDeals').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
@@ -235,6 +313,14 @@ function search(text) {
   ok('CSV produced', copied && copied.split('\r\n').length === rows().length + 1,
      copied ? (copied.split('\r\n').length - 1) + ' data rows' : 'nothing copied');
   ok('CSV carries buyer price', /Buyer price/.test(copied.split('\r\n')[0]));
+  ok('CSV carries a Type column', /(^|,)Type(,|$)/.test(copied.split('\r\n')[0]),
+     copied.split('\r\n')[0]);
+  ok('CSV writes type names, not swatch markup', (() => {
+    const head = copied.split('\r\n')[0].split(',');
+    const i = head.indexOf('Type');
+    return i >= 0 && copied.split('\r\n').slice(1).every(l =>
+      l === '' || ['Red','Rosé','Orange','White','Sparkling','Dessert'].includes(l.split(',')[i]));
+  })());
   ok('CSV header has Country and Link', /^Country,/.test(copied) && /Link$/m.test(copied.split('\r\n')[0]));
   ok('CSV quotes fields containing commas',
      copied.split('\r\n').slice(1).every(l => (l.match(/"/g) || []).length % 2 === 0));

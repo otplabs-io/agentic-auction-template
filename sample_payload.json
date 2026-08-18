@@ -1,5 +1,5 @@
 {
- "schema": 2,
+ "schema": 3,
  "sample": true,
  "auction_date": "2026-08-09",
  "premium_rate": 0.17,
@@ -11,7 +11,7 @@
   "after_condition": 329,
   "valued": 301,
   "unvalued": 8,
-  "deals": 77
+  "deals": 88
  },
  "deals": [
   {
@@ -35,7 +35,8 @@
    "flag": "",
    "condition": "",
    "source": "Recent auction hammer, comparable lot",
-   "source_type": "auction"
+   "source_type": "auction",
+   "wine_type": "Red"
   },
   {
    "id": 10814625,
@@ -58,7 +59,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher all-vintage average",
-   "source_type": "ws_allvintage"
+   "source_type": "ws_allvintage",
+   "wine_type": "Red"
   },
   {
    "id": 10814647,
@@ -81,7 +83,8 @@
    "flag": "Benchmark 1er cru",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10814669,
@@ -104,7 +107,8 @@
    "flag": "",
    "condition": "Torn label, wine unaffected",
    "source": "Wine-Searcher average retail, adjacent vintage (2018)",
-   "source_type": "ws_adjacent"
+   "source_type": "ws_adjacent",
+   "wine_type": "Red"
   },
   {
    "id": 10814702,
@@ -127,7 +131,8 @@
    "flag": "",
    "condition": "",
    "source": "Single retailer listing (Wine-Searcher)",
-   "source_type": "ws_single_retailer"
+   "source_type": "ws_single_retailer",
+   "wine_type": "White"
   },
   {
    "id": 10814707,
@@ -150,7 +155,8 @@
    "flag": "Seldom at auction",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "White"
   },
   {
    "id": 10814728,
@@ -173,7 +179,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10814741,
@@ -196,7 +203,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10814745,
@@ -219,7 +227,8 @@
    "flag": "",
    "condition": "Torn label, wine unaffected",
    "source": "Single retailer listing (Wine-Searcher)",
-   "source_type": "ws_single_retailer"
+   "source_type": "ws_single_retailer",
+   "wine_type": "Red"
   },
   {
    "id": 10814761,
@@ -242,7 +251,8 @@
    "flag": "Benchmark 5ème cru",
    "condition": "",
    "source": "Wine-Searcher average retail, adjacent vintage (2011)",
-   "source_type": "ws_adjacent"
+   "source_type": "ws_adjacent",
+   "wine_type": "Red"
   },
   {
    "id": 10814769,
@@ -265,7 +275,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher all-vintage average",
-   "source_type": "ws_allvintage"
+   "source_type": "ws_allvintage",
+   "wine_type": "Red"
   },
   {
    "id": 10814780,
@@ -288,7 +299,8 @@
    "flag": "",
    "condition": "",
    "source": "Recent auction hammer, comparable lot",
-   "source_type": "auction"
+   "source_type": "auction",
+   "wine_type": "Red"
   },
   {
    "id": 10814801,
@@ -311,7 +323,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10814809,
@@ -334,7 +347,8 @@
    "flag": "",
    "condition": "",
    "source": "Recent auction hammer, comparable lot",
-   "source_type": "auction"
+   "source_type": "auction",
+   "wine_type": "Red"
   },
   {
    "id": 10814841,
@@ -357,7 +371,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10814851,
@@ -380,7 +395,8 @@
    "flag": "",
    "condition": "Nicked capsule",
    "source": "Wine-Searcher average retail, adjacent vintage (2017)",
-   "source_type": "ws_adjacent"
+   "source_type": "ws_adjacent",
+   "wine_type": "Red"
   },
   {
    "id": 10814877,
@@ -403,7 +419,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, adjacent vintage (2020)",
-   "source_type": "ws_adjacent"
+   "source_type": "ws_adjacent",
+   "wine_type": "White"
   },
   {
    "id": 10814888,
@@ -426,7 +443,8 @@
    "flag": "",
    "condition": "Bin-soiled label",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "White"
   },
   {
    "id": 10814892,
@@ -449,7 +467,8 @@
    "flag": "Bucket-list Chenin",
    "condition": "",
    "source": "Wine-Searcher all-vintage average",
-   "source_type": "ws_allvintage"
+   "source_type": "ws_allvintage",
+   "wine_type": "White"
   },
   {
    "id": 10814913,
@@ -472,7 +491,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10814916,
@@ -495,7 +515,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10814933,
@@ -518,7 +539,8 @@
    "flag": "Reference Alsace Riesling",
    "condition": "",
    "source": "Single retailer listing (Wine-Searcher)",
-   "source_type": "ws_single_retailer"
+   "source_type": "ws_single_retailer",
+   "wine_type": "White"
   },
   {
    "id": 10814938,
@@ -541,7 +563,8 @@
    "flag": "",
    "condition": "",
    "source": "Recent auction hammer, comparable lot",
-   "source_type": "auction"
+   "source_type": "auction",
+   "wine_type": "White"
   },
   {
    "id": 10814976,
@@ -564,7 +587,8 @@
    "flag": "",
    "condition": "Bin-soiled label",
    "source": "Single retailer listing (Wine-Searcher)",
-   "source_type": "ws_single_retailer"
+   "source_type": "ws_single_retailer",
+   "wine_type": "Red"
   },
   {
    "id": 10814995,
@@ -587,7 +611,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher all-vintage average",
-   "source_type": "ws_allvintage"
+   "source_type": "ws_allvintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815020,
@@ -610,7 +635,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, adjacent vintage (2015)",
-   "source_type": "ws_adjacent"
+   "source_type": "ws_adjacent",
+   "wine_type": "Red"
   },
   {
    "id": 10815039,
@@ -633,7 +659,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, adjacent vintage (2014)",
-   "source_type": "ws_adjacent"
+   "source_type": "ws_adjacent",
+   "wine_type": "Red"
   },
   {
    "id": 10815054,
@@ -656,7 +683,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, adjacent vintage (2016)",
-   "source_type": "ws_adjacent"
+   "source_type": "ws_adjacent",
+   "wine_type": "Red"
   },
   {
    "id": 10815064,
@@ -679,7 +707,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815093,
@@ -702,7 +731,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "White"
   },
   {
    "id": 10815131,
@@ -725,7 +755,8 @@
    "flag": "",
    "condition": "",
    "source": "Recent auction hammer, comparable lot",
-   "source_type": "auction"
+   "source_type": "auction",
+   "wine_type": "Red"
   },
   {
    "id": 10815154,
@@ -748,7 +779,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815181,
@@ -771,7 +803,8 @@
    "flag": "Benchmark Riserva",
    "condition": "Faded label",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815204,
@@ -794,7 +827,8 @@
    "flag": "Benchmark Riserva",
    "condition": "Nicked capsule",
    "source": "Single retailer listing (Wine-Searcher)",
-   "source_type": "ws_single_retailer"
+   "source_type": "ws_single_retailer",
+   "wine_type": "Red"
   },
   {
    "id": 10815231,
@@ -817,7 +851,8 @@
    "flag": "",
    "condition": "Faded label",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815256,
@@ -840,7 +875,8 @@
    "flag": "",
    "condition": "",
    "source": "Recent auction hammer, comparable lot",
-   "source_type": "auction"
+   "source_type": "auction",
+   "wine_type": "Red"
   },
   {
    "id": 10815282,
@@ -863,7 +899,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815299,
@@ -886,7 +923,8 @@
    "flag": "",
    "condition": "",
    "source": "Single retailer listing (Wine-Searcher)",
-   "source_type": "ws_single_retailer"
+   "source_type": "ws_single_retailer",
+   "wine_type": "Red"
   },
   {
    "id": 10815308,
@@ -909,7 +947,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815327,
@@ -932,7 +971,8 @@
    "flag": "",
    "condition": "Nicked capsule",
    "source": "Wine-Searcher all-vintage average",
-   "source_type": "ws_allvintage"
+   "source_type": "ws_allvintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815330,
@@ -955,7 +995,8 @@
    "flag": "",
    "condition": "",
    "source": "Recent auction hammer, comparable lot",
-   "source_type": "auction"
+   "source_type": "auction",
+   "wine_type": "Red"
   },
   {
    "id": 10815337,
@@ -978,7 +1019,8 @@
    "flag": "",
    "condition": "Nicked capsule",
    "source": "Single retailer listing (Wine-Searcher)",
-   "source_type": "ws_single_retailer"
+   "source_type": "ws_single_retailer",
+   "wine_type": "Red"
   },
   {
    "id": 10815354,
@@ -1001,7 +1043,8 @@
    "flag": "",
    "condition": "Torn label, wine unaffected",
    "source": "Wine-Searcher all-vintage average",
-   "source_type": "ws_allvintage"
+   "source_type": "ws_allvintage",
+   "wine_type": "White"
   },
   {
    "id": 10815383,
@@ -1024,7 +1067,8 @@
    "flag": "",
    "condition": "",
    "source": "Single retailer listing (Wine-Searcher)",
-   "source_type": "ws_single_retailer"
+   "source_type": "ws_single_retailer",
+   "wine_type": "White"
   },
   {
    "id": 10815395,
@@ -1047,7 +1091,8 @@
    "flag": "",
    "condition": "Scuffed label",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "White"
   },
   {
    "id": 10815441,
@@ -1070,7 +1115,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, adjacent vintage (2020)",
-   "source_type": "ws_adjacent"
+   "source_type": "ws_adjacent",
+   "wine_type": "Red"
   },
   {
    "id": 10815459,
@@ -1093,7 +1139,8 @@
    "flag": "",
    "condition": "Scuffed label",
    "source": "Wine-Searcher all-vintage average",
-   "source_type": "ws_allvintage"
+   "source_type": "ws_allvintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815481,
@@ -1116,7 +1163,8 @@
    "flag": "",
    "condition": "",
    "source": "Single retailer listing (Wine-Searcher)",
-   "source_type": "ws_single_retailer"
+   "source_type": "ws_single_retailer",
+   "wine_type": "Red"
   },
   {
    "id": 10815491,
@@ -1139,7 +1187,8 @@
    "flag": "Benchmark traditional Rioja",
    "condition": "Nicked capsule",
    "source": "Single retailer listing (Wine-Searcher)",
-   "source_type": "ws_single_retailer"
+   "source_type": "ws_single_retailer",
+   "wine_type": "Red"
   },
   {
    "id": 10815517,
@@ -1162,7 +1211,8 @@
    "flag": "",
    "condition": "Torn label, wine unaffected",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815540,
@@ -1185,7 +1235,8 @@
    "flag": "",
    "condition": "Faded label",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815563,
@@ -1208,7 +1259,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher all-vintage average",
-   "source_type": "ws_allvintage"
+   "source_type": "ws_allvintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815585,
@@ -1231,7 +1283,8 @@
    "flag": "",
    "condition": "",
    "source": "Recent auction hammer, comparable lot",
-   "source_type": "auction"
+   "source_type": "auction",
+   "wine_type": "Red"
   },
   {
    "id": 10815595,
@@ -1254,7 +1307,8 @@
    "flag": "",
    "condition": "Scuffed label",
    "source": "Wine-Searcher average retail, adjacent vintage (2016)",
-   "source_type": "ws_adjacent"
+   "source_type": "ws_adjacent",
+   "wine_type": "Red"
   },
   {
    "id": 10815610,
@@ -1277,7 +1331,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815616,
@@ -1300,7 +1355,8 @@
    "flag": "",
    "condition": "",
    "source": "Single retailer listing (Wine-Searcher)",
-   "source_type": "ws_single_retailer"
+   "source_type": "ws_single_retailer",
+   "wine_type": "Red"
   },
   {
    "id": 10815620,
@@ -1323,7 +1379,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher all-vintage average",
-   "source_type": "ws_allvintage"
+   "source_type": "ws_allvintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815626,
@@ -1346,7 +1403,8 @@
    "flag": "",
    "condition": "",
    "source": "Single retailer listing (Wine-Searcher)",
-   "source_type": "ws_single_retailer"
+   "source_type": "ws_single_retailer",
+   "wine_type": "Red"
   },
   {
    "id": 10815639,
@@ -1369,7 +1427,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815642,
@@ -1392,7 +1451,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815648,
@@ -1415,7 +1475,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "White"
   },
   {
    "id": 10815669,
@@ -1438,7 +1499,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "White"
   },
   {
    "id": 10815695,
@@ -1461,7 +1523,8 @@
    "flag": "",
    "condition": "Scuffed label",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815704,
@@ -1484,7 +1547,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815728,
@@ -1507,7 +1571,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, adjacent vintage (2016)",
-   "source_type": "ws_adjacent"
+   "source_type": "ws_adjacent",
+   "wine_type": "Red"
   },
   {
    "id": 10815743,
@@ -1530,7 +1595,8 @@
    "flag": "",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815781,
@@ -1553,7 +1619,8 @@
    "flag": "Rarely exported",
    "condition": "",
    "source": "Single retailer listing (Wine-Searcher)",
-   "source_type": "ws_single_retailer"
+   "source_type": "ws_single_retailer",
+   "wine_type": "Red"
   },
   {
    "id": 10815801,
@@ -1576,7 +1643,8 @@
    "flag": "",
    "condition": "Bin-soiled label",
    "source": "Wine-Searcher all-vintage average",
-   "source_type": "ws_allvintage"
+   "source_type": "ws_allvintage",
+   "wine_type": "White"
   },
   {
    "id": 10815829,
@@ -1599,7 +1667,8 @@
    "flag": "",
    "condition": "",
    "source": "Single retailer listing (Wine-Searcher)",
-   "source_type": "ws_single_retailer"
+   "source_type": "ws_single_retailer",
+   "wine_type": "White"
   },
   {
    "id": 10815847,
@@ -1622,7 +1691,8 @@
    "flag": "",
    "condition": "Nicked capsule",
    "source": "Wine-Searcher all-vintage average",
-   "source_type": "ws_allvintage"
+   "source_type": "ws_allvintage",
+   "wine_type": "White"
   },
   {
    "id": 10815869,
@@ -1645,7 +1715,8 @@
    "flag": "Reference Wachau",
    "condition": "",
    "source": "Wine-Searcher average retail, adjacent vintage (2017)",
-   "source_type": "ws_adjacent"
+   "source_type": "ws_adjacent",
+   "wine_type": "White"
   },
   {
    "id": 10815893,
@@ -1668,7 +1739,8 @@
    "flag": "Reference Wachau",
    "condition": "",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "White"
   },
   {
    "id": 10815920,
@@ -1691,7 +1763,8 @@
    "flag": "",
    "condition": "",
    "source": "Single retailer listing (Wine-Searcher)",
-   "source_type": "ws_single_retailer"
+   "source_type": "ws_single_retailer",
+   "wine_type": "White"
   },
   {
    "id": 10815936,
@@ -1714,7 +1787,8 @@
    "flag": "",
    "condition": "Bin-soiled label",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "White"
   },
   {
    "id": 10815958,
@@ -1737,7 +1811,8 @@
    "flag": "Grand cru of Austria",
    "condition": "",
    "source": "Wine-Searcher average retail, adjacent vintage (2016)",
-   "source_type": "ws_adjacent"
+   "source_type": "ws_adjacent",
+   "wine_type": "White"
   },
   {
    "id": 10815972,
@@ -1760,7 +1835,8 @@
    "flag": "",
    "condition": "Scuffed label",
    "source": "Wine-Searcher all-vintage average",
-   "source_type": "ws_allvintage"
+   "source_type": "ws_allvintage",
+   "wine_type": "Red"
   },
   {
    "id": 10815986,
@@ -1783,7 +1859,272 @@
    "flag": "",
    "condition": "Nicked capsule",
    "source": "Wine-Searcher average retail, vintage-specific",
-   "source_type": "ws_vintage"
+   "source_type": "ws_vintage",
+   "wine_type": "Red"
+  },
+  {
+   "id": 10816014,
+   "wine": "Pierre Péters Cuvée de Réserve Blanc de Blancs Grand Cru",
+   "vintage": null,
+   "format": "750ml",
+   "region_raw": "France, Champagne, Le Mesnil-sur-Oger",
+   "region_path": [
+    "France",
+    "Champagne",
+    "Le Mesnil-sur-Oger"
+   ],
+   "country_code": "FR",
+   "qty": 2,
+   "reserve": 45.0,
+   "buyer_price": 52.65,
+   "market": 84.0,
+   "pct_below": 0.3732,
+   "tag": "Good",
+   "flag": "",
+   "condition": "",
+   "source": "Wine-Searcher average retail, vintage-specific",
+   "source_type": "ws_vintage",
+   "wine_type": "Sparkling"
+  },
+  {
+   "id": 10816023,
+   "wine": "Bérêche & Fils Brut Réserve",
+   "vintage": null,
+   "format": "750ml",
+   "region_raw": "France, Champagne, Ludes",
+   "region_path": [
+    "France",
+    "Champagne",
+    "Ludes"
+   ],
+   "country_code": "FR",
+   "qty": 3,
+   "reserve": 31.0,
+   "buyer_price": 36.27,
+   "market": 90.0,
+   "pct_below": 0.597,
+   "tag": "Steal",
+   "flag": "",
+   "condition": "",
+   "source": "Wine-Searcher average retail, vintage-specific",
+   "source_type": "ws_vintage",
+   "wine_type": "Sparkling"
+  },
+  {
+   "id": 10816034,
+   "wine": "Raventós i Blanc L'Hereu Reserva Brut",
+   "vintage": 2020,
+   "format": "3.0L",
+   "region_raw": "Spain, Conca del Riu Anoia, Sant Sadurní d'Anoia",
+   "region_path": [
+    "Spain",
+    "Conca del Riu Anoia",
+    "Sant Sadurní d'Anoia"
+   ],
+   "country_code": "ES",
+   "qty": 1,
+   "reserve": 95.0,
+   "buyer_price": 111.15,
+   "market": 149.60000000000002,
+   "pct_below": 0.257,
+   "tag": "Good",
+   "flag": "",
+   "condition": "",
+   "source": "Wine-Searcher average retail, vintage-specific",
+   "source_type": "ws_vintage",
+   "wine_type": "Sparkling"
+  },
+  {
+   "id": 10816054,
+   "wine": "Domaine Tempier Bandol Rosé",
+   "vintage": 2021,
+   "format": "750ml",
+   "region_raw": "France, Provence, Bandol",
+   "region_path": [
+    "France",
+    "Provence",
+    "Bandol"
+   ],
+   "country_code": "FR",
+   "qty": 1,
+   "reserve": 27.0,
+   "buyer_price": 31.59,
+   "market": 60.0,
+   "pct_below": 0.4735,
+   "tag": "Great",
+   "flag": "Reference Provence rosé",
+   "condition": "",
+   "source": "Wine-Searcher average retail, adjacent vintage (2020)",
+   "source_type": "ws_adjacent",
+   "wine_type": "Rose"
+  },
+  {
+   "id": 10816083,
+   "wine": "Château Simone Palette Rosé",
+   "vintage": 2021,
+   "format": "750ml",
+   "region_raw": "France, Provence, Palette",
+   "region_path": [
+    "France",
+    "Provence",
+    "Palette"
+   ],
+   "country_code": "FR",
+   "qty": 6,
+   "reserve": 49.0,
+   "buyer_price": 57.33,
+   "market": 109.0,
+   "pct_below": 0.474,
+   "tag": "Great",
+   "flag": "",
+   "condition": "",
+   "source": "Recent auction hammer, comparable lot",
+   "source_type": "auction",
+   "wine_type": "Rose"
+  },
+  {
+   "id": 10816100,
+   "wine": "Château Simone Palette Rosé",
+   "vintage": 2019,
+   "format": "750ml",
+   "region_raw": "France, Provence, Palette",
+   "region_path": [
+    "France",
+    "Provence",
+    "Palette"
+   ],
+   "country_code": "FR",
+   "qty": 1,
+   "reserve": 42.0,
+   "buyer_price": 49.14,
+   "market": 88.0,
+   "pct_below": 0.4416,
+   "tag": "Great",
+   "flag": "",
+   "condition": "",
+   "source": "Recent auction hammer, comparable lot",
+   "source_type": "auction",
+   "wine_type": "Rose"
+  },
+  {
+   "id": 10816123,
+   "wine": "Radikon Ribolla Gialla",
+   "vintage": 2015,
+   "format": "750ml",
+   "region_raw": "Italy, Friuli-Venezia Giulia, Collio",
+   "region_path": [
+    "Italy",
+    "Friuli-Venezia Giulia",
+    "Collio"
+   ],
+   "country_code": "IT",
+   "qty": 1,
+   "reserve": 54.0,
+   "buyer_price": 63.18,
+   "market": 119.0,
+   "pct_below": 0.4691,
+   "tag": "Great",
+   "flag": "Skin-contact landmark",
+   "condition": "Scuffed label",
+   "source": "Wine-Searcher average retail, vintage-specific",
+   "source_type": "ws_vintage",
+   "wine_type": "Orange"
+  },
+  {
+   "id": 10816144,
+   "wine": "Radikon Ribolla Gialla",
+   "vintage": 2016,
+   "format": "750ml",
+   "region_raw": "Italy, Friuli-Venezia Giulia, Collio",
+   "region_path": [
+    "Italy",
+    "Friuli-Venezia Giulia",
+    "Collio"
+   ],
+   "country_code": "IT",
+   "qty": 6,
+   "reserve": 71.0,
+   "buyer_price": 83.07,
+   "market": 132.0,
+   "pct_below": 0.3707,
+   "tag": "Good",
+   "flag": "Skin-contact landmark",
+   "condition": "",
+   "source": "Recent auction hammer, comparable lot",
+   "source_type": "auction",
+   "wine_type": "Orange"
+  },
+  {
+   "id": 10816169,
+   "wine": "Paraschos Amphoreus Ribolla Gialla",
+   "vintage": 2016,
+   "format": "750ml",
+   "region_raw": "Italy, Friuli-Venezia Giulia, Collio",
+   "region_path": [
+    "Italy",
+    "Friuli-Venezia Giulia",
+    "Collio"
+   ],
+   "country_code": "IT",
+   "qty": 1,
+   "reserve": 38.0,
+   "buyer_price": 44.46,
+   "market": 70.0,
+   "pct_below": 0.3649,
+   "tag": "Good",
+   "flag": "",
+   "condition": "",
+   "source": "Wine-Searcher average retail, vintage-specific",
+   "source_type": "ws_vintage",
+   "wine_type": "Orange"
+  },
+  {
+   "id": 10816194,
+   "wine": "Château Doisy-Daëne Barsac",
+   "vintage": 2011,
+   "format": "3.0L",
+   "region_raw": "France, Bordeaux, Barsac",
+   "region_path": [
+    "France",
+    "Bordeaux",
+    "Barsac"
+   ],
+   "country_code": "FR",
+   "qty": 2,
+   "reserve": 95.0,
+   "buyer_price": 111.15,
+   "market": 277.20000000000005,
+   "pct_below": 0.599,
+   "tag": "Steal",
+   "flag": "",
+   "condition": "",
+   "source": "Wine-Searcher average retail, vintage-specific",
+   "source_type": "ws_vintage",
+   "wine_type": "Dessert"
+  },
+  {
+   "id": 10816211,
+   "wine": "Château Doisy-Daëne Barsac",
+   "vintage": 2015,
+   "format": "750ml",
+   "region_raw": "France, Bordeaux, Barsac",
+   "region_path": [
+    "France",
+    "Bordeaux",
+    "Barsac"
+   ],
+   "country_code": "FR",
+   "qty": 1,
+   "reserve": 18.0,
+   "buyer_price": 21.06,
+   "market": 59.0,
+   "pct_below": 0.6431,
+   "tag": "Steal",
+   "flag": "",
+   "condition": "",
+   "source": "Wine-Searcher all-vintage average",
+   "source_type": "ws_allvintage",
+   "wine_type": "Dessert"
   }
  ],
  "unvalued": [
@@ -1799,8 +2140,9 @@
     "Morey-Saint-Denis"
    ],
    "country_code": "FR",
-   "reserve": 45.0,
-   "condition": "Bin-soiled label"
+   "reserve": 38.0,
+   "wine_type": "Red",
+   "condition": "Scuffed label"
   },
   {
    "id": 10817407,
@@ -1814,7 +2156,8 @@
     "Barolo"
    ],
    "country_code": "IT",
-   "reserve": 74.0,
+   "reserve": 95.0,
+   "wine_type": "Red",
    "condition": "Bin-soiled label"
   },
   {
@@ -1829,8 +2172,9 @@
     "Rioja Alta"
    ],
    "country_code": "ES",
-   "reserve": 88.0,
-   "condition": "Scuffed label"
+   "reserve": 95.0,
+   "wine_type": "Red",
+   "condition": ""
   },
   {
    "id": 10817421,
@@ -1844,8 +2188,9 @@
     "Bairrada"
    ],
    "country_code": "PT",
-   "reserve": 74.0,
-   "condition": "Bin-soiled label"
+   "reserve": 88.0,
+   "wine_type": "Red",
+   "condition": "Scuffed label"
   },
   {
    "id": 10817428,
@@ -1859,7 +2204,8 @@
     "Joching"
    ],
    "country_code": "AT",
-   "reserve": 66.0,
+   "reserve": 52.0,
+   "wine_type": "White",
    "condition": "Bin-soiled label"
   },
   {
@@ -1874,7 +2220,8 @@
     "Château-Chalon"
    ],
    "country_code": "FR",
-   "reserve": 74.0,
+   "reserve": 52.0,
+   "wine_type": "White",
    "condition": ""
   },
   {
@@ -1889,8 +2236,9 @@
     "Alba"
    ],
    "country_code": "IT",
-   "reserve": 66.0,
-   "condition": ""
+   "reserve": 45.0,
+   "wine_type": "Red",
+   "condition": "Scuffed label"
   },
   {
    "id": 10817449,
@@ -1904,8 +2252,9 @@
     "Dão"
    ],
    "country_code": "PT",
-   "reserve": 66.0,
-   "condition": "Bin-soiled label"
+   "reserve": 74.0,
+   "wine_type": "Red",
+   "condition": ""
   }
  ]
 }

@@ -38,6 +38,16 @@
   --great-bg:#8FC988; --great-fg:#224E29; --great-bar:#47955A;
   --steal-bg:#14713C; --steal-fg:#FFFFFF; --steal-bar:#14713C;
 
+  /* Wine type. Judged from the wine, not read off a column in the export --
+     the export has no such field. Hue is the whole signal here, so the two
+     pale swatches lean on a darker ring rather than on fill alone. */
+  --wt-red:#6B1B2E;         /* burgundy  */
+  --wt-white:#EFE0B0;       /* cream     */
+  --wt-rose:#F2A5B6;        /* pink      */
+  --wt-sparkling:#FFFFFF;   /* white     */
+  --wt-dessert:#7A4A21;     /* brown     */
+  --wt-orange:#E08A2E;      /* orange    */
+
   --sans:'IBM Plex Sans',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;
   --serif:'IBM Plex Serif',ui-serif,Georgia,'Times New Roman',serif;
   --mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
@@ -229,6 +239,27 @@ tbody tr.watched:hover{background:#FDF9E8}
 .wine a::after{content:"↗";font-family:var(--sans);font-size:9px;color:var(--mute);margin-left:4px;vertical-align:2px}
 .cflag{font-family:'FlagEmoji',var(--sans);font-size:15px;line-height:1;cursor:default}
 .cflag.fallback{font-family:var(--mono);font-size:10.5px;color:var(--slate);letter-spacing:.04em}
+/* ---------- wine-type swatch ---------- */
+.wt{
+  display:inline-block;width:13px;height:13px;border-radius:3px;
+  vertical-align:-2px;flex:none;cursor:default;
+  box-shadow:inset 0 0 0 1px rgba(20,24,28,.20);
+}
+.wt-Red{background:var(--wt-red)}
+.wt-White{background:var(--wt-white)}
+.wt-Rose{background:var(--wt-rose)}
+.wt-Sparkling{background:var(--wt-sparkling)}
+.wt-Dessert{background:var(--wt-dessert)}
+.wt-Orange{background:var(--wt-orange)}
+/* cream and white read as "empty cell" against a white row without this */
+.wt-White,.wt-Sparkling{box-shadow:inset 0 0 0 1px rgba(20,24,28,.42)}
+.wtcell{width:22px;text-align:center}
+/* in the filter rail the swatch sits ahead of the type name */
+.opt .wt{margin-right:-2px}
+@media (forced-colors:active){
+  .wt{forced-color-adjust:none;border:1px solid CanvasText}
+}
+
 .trunc{max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--slate)}
 .dash{color:#C3CAD1}
 .soft{color:var(--mute)}

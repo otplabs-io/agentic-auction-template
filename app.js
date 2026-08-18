@@ -48,11 +48,29 @@ var SRC_LABEL = {
 function lvl(r,i){ return (r.region_path && r.region_path[i]) || ''; }
 function link(id){ return 'https://www.winebid.com/BuyWine/Item/'+id; }
 
+/* ---------- wine type ---------- */
+/* The analyst's judgment of what is in the bottle -- the export has no such
+   column. Stored unaccented so it survives a URL hash and a CSV round-trip;
+   rendered with the accent. Ordered the way a list reads rather than
+   alphabetically, so Red sits at one end and Dessert at the other. */
+var WT_ORDER = ['Red','Rose','Orange','White','Sparkling','Dessert'];
+var WT_LABEL = {Red:'Red',Rose:'Rosé',Orange:'Orange',White:'White',
+                Sparkling:'Sparkling',Dessert:'Dessert'};
+var WT_RANK = {};
+WT_ORDER.forEach(function(t,i){ WT_RANK[t] = i+1; });
+function wtLabel(t){ return WT_LABEL[t] || t || ''; }
+function wtSwatch(t){
+  if(!t) return '<span class="dash">—</span>';
+  var n = esc(wtLabel(t));
+  return '<span class="wt wt-'+esc(t)+'" title="'+n+'" role="img" aria-label="'+n+'"></span>';
+}
+
 /* ---------- searchable text ---------- */
 [DEALS,UNVAL].forEach(function(set){
   set.forEach(function(r){
     r._country = ccName(r.country_code);
-    r._search = fold([r.wine,r.region_raw,r.condition,r.flag,r.source,r._country,r.vintage,r.format].join(' '));
+    r._search = fold([r.wine,r.region_raw,r.condition,r.flag,r.source,r._country,
+                      r.vintage,r.format,wtLabel(r.wine_type)].join(' '));
   });
 });
 
@@ -60,8 +78,11 @@ function link(id){ return 'https://www.winebid.com/BuyWine/Item/'+id; }
 var COLS_DEALS = [
   {k:'_wl',   label:'',        sortable:false, cls:'', csv:false,
    render:function(r){ return '<input class="wl" type="checkbox" data-id="'+r.id+'" aria-label="Watch lot '+r.id+'"'+(state.watch.has(r.id)?' checked':'')+'>'; }},
-  {k:'country', label:'',      type:'text', get:function(r){return r._country;},
+  {k:'country', label:'', hint:'country', type:'text', get:function(r){return r._country;},
    render:function(r){ return flagCell(r.country_code); }},
+  {k:'wine_type', label:'', hint:'wine type', type:'rank', cls:'wtcell',
+   get:function(r){return WT_RANK[r.wine_type]||0;},
+   render:function(r){ return wtSwatch(r.wine_type); }},
   {k:'wine',  label:'Wine',    type:'text', cls:'wine', get:function(r){return fold(r.wine);},
    render:function(r){ return '<a href="'+link(r.id)+'" target="_blank" rel="noopener noreferrer">'+esc(r.wine)+'</a>'; }},
   {k:'vintage',label:'Vint',   type:'num', cls:'num', get:function(r){return r.vintage==null?-1:r.vintage;},
@@ -100,8 +121,11 @@ var COLS_DEALS = [
 ];
 
 var COLS_UNVAL = [
-  {k:'country', label:'', type:'text', get:function(r){return r._country;},
+  {k:'country', label:'', hint:'country', type:'text', get:function(r){return r._country;},
    render:function(r){ return flagCell(r.country_code); }},
+  {k:'wine_type', label:'', hint:'wine type', type:'rank', cls:'wtcell',
+   get:function(r){return WT_RANK[r.wine_type]||0;},
+   render:function(r){ return wtSwatch(r.wine_type); }},
   {k:'wine', label:'Wine', type:'text', cls:'wine', get:function(r){return fold(r.wine);},
    render:function(r){ return '<a href="'+link(r.id)+'" target="_blank" rel="noopener noreferrer">'+esc(r.wine)+'</a>'; }},
   {k:'vintage',label:'Vint', type:'num', cls:'num', get:function(r){return r.vintage==null?-1:r.vintage;},
@@ -125,6 +149,9 @@ var FACETS = {
   region:   {label:'Region',     of:function(r){return lvl(r,1);},       disp:function(v){return v;},         cascade:1},
   subregion:{label:'Subregion',  of:function(r){return lvl(r,2);},       disp:function(v){return v;},         cascade:2},
   format:   {label:'Format',     of:function(r){return r.format;},       disp:function(v){return v;}},
+  wtype:    {label:'Wine type',  of:function(r){return r.wine_type;},    disp:function(v){return wtLabel(v);},
+             mark:function(v){return '<span class="wt wt-'+esc(v)+'" aria-hidden="true"></span>';},
+             order:WT_ORDER},
   tag:      {label:'Deal tag',   of:function(r){return r.tag;},          disp:function(v){return v;}, order:['Steal','Great','Good']},
   src:      {label:'Market source', of:function(r){return r.source_type;}, disp:function(v){return SRC_LABEL[v]||v;}}
 };
@@ -136,16 +163,16 @@ var RANGES = {
   vintage: {label:'Vintage',        of:function(r){return r.vintage;},   fmt:function(v){return String(Math.round(v));}, step:1}
 };
 var VIEWS = {
-  deals:   {rows:DEALS, cols:COLS_DEALS, facets:['country','region','subregion','format','tag','src'],
+  deals:   {rows:DEALS, cols:COLS_DEALS, facets:['country','region','subregion','wtype','format','tag','src'],
             ranges:['pct','buyer','reserve','market','vintage'], defaultSort:{col:'pct_below',dir:-1}},
-  unvalued:{rows:UNVAL, cols:COLS_UNVAL, facets:['country','region','subregion','format'],
+  unvalued:{rows:UNVAL, cols:COLS_UNVAL, facets:['country','region','subregion','wtype','format'],
             ranges:['reserve','vintage'], defaultSort:{col:'reserve',dir:-1}}
 };
 
 /* ---------- state ---------- */
 var state = {
   view:'deals', q:'',
-  sel:{country:[],region:[],subregion:[],format:[],tag:[],src:[]},
+  sel:{country:[],region:[],subregion:[],wtype:[],format:[],tag:[],src:[]},
   rng:{},               /* key -> [lo,hi] or null when untouched */
   sort:{col:'pct_below',dir:-1},
   standouts:false, watchOnly:false,
@@ -229,7 +256,7 @@ function sorted(rows){
 }
 
 /* ---------- URL hash ---------- */
-var HKEYS = {country:'c',region:'rg',subregion:'sr',format:'fmt',tag:'tag',src:'src'};
+var HKEYS = {country:'c',region:'rg',subregion:'sr',wtype:'wt',format:'fmt',tag:'tag',src:'src'};
 function writeHash(){
   var p = [];
   if(state.view!=='deals') p.push('v='+state.view);
@@ -304,16 +331,17 @@ function buildRail(){
   cfg.facets.forEach(function(key){
     var opts = facetOptions(key), sel = state.sel[key];
     if(!opts.length) return;
-    var open = sel.length>0 || key==='country' || key==='tag';
+    var open = sel.length>0 || key==='country' || key==='tag' || key==='wtype';
     html += '<details class="fgroup"'+(open?' open':'')+' data-facet="'+key+'">'+
       '<summary><span class="caret">▶</span>'+esc(FACETS[key].label)+
       (sel.length?'<span class="count">'+sel.length+'</span>':'')+'</summary>'+
       '<div class="fbody'+(opts.length>8?' scrolly':'')+'">';
     opts.forEach(function(o){
       var on = sel.indexOf(o.v)>=0;
+      var mark = FACETS[key].mark ? FACETS[key].mark(o.v) : '';
       html += '<label class="opt'+(o.n===0&&!on?' off':'')+'">'+
         '<input type="checkbox" data-facet="'+key+'" value="'+esc(o.v)+'"'+(on?' checked':'')+'>'+
-        '<span class="lab">'+esc(o.label)+'</span><span class="n">'+o.n+'</span></label>';
+        mark+'<span class="lab">'+esc(o.label)+'</span><span class="n">'+o.n+'</span></label>';
     });
     html += '</div></details>';
   });
@@ -396,7 +424,7 @@ function buildTable(){
     if(c.sortable===false) return '<th style="width:26px"></th>';
     var on = state.sort.col===c.k;
     var ar = on ? (state.sort.dir>0?'ascending':'descending') : 'none';
-    return '<th data-col="'+c.k+'" aria-sort="'+ar+'" title="Sort by '+esc(c.label||'country')+'">'+
+    return '<th data-col="'+c.k+'" aria-sort="'+ar+'" title="Sort by '+esc(c.label||c.hint||c.k)+'">'+
       esc(c.label)+'<span class="arrow">'+(on&&state.sort.dir>0?'▲':'▼')+'</span></th>';
   }).join('');
 
@@ -481,9 +509,12 @@ function buildFunnel(){
 function csv(){
   var cfg = VIEWS[state.view];
   var cols = cfg.cols.filter(function(c){ return c.csv!==false; });
-  var head = cols.map(function(c){ return c.k==='country'?'Country':c.label; }).concat(['Link']);
+  var head = cols.map(function(c){
+    return c.k==='country' ? 'Country' : c.k==='wine_type' ? 'Type' : c.label;
+  }).concat(['Link']);
   function cell(r,c){
     if(c.k==='country') return r._country;
+    if(c.k==='wine_type') return wtLabel(r.wine_type);
     if(c.k==='pct_below') return r.pct_below==null?'':(Math.round(r.pct_below*1000)/10)+'%';
     if(c.k==='reserve') return r.reserve==null?'':r.reserve;
     if(c.k==='buyer_price') return r.buyer_price==null?'':r.buyer_price;

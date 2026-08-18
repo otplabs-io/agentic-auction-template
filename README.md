@@ -16,12 +16,51 @@ self-contained file. Override with `-o path.html`.
 | `app.js` | Filtering, sorting, search, watchlist, CSV, URL state |
 | `flags_b64.txt` | Noto Color Emoji subset (AT/ES/FR/IT/PT), base64 woff2, OFL 1.1 |
 | `flags.woff2` | Same font, unencoded, kept for regeneration |
-| `test.js` | 63 headless assertions (`npm install jsdom` first, then `node test.js <built.html>`) |
+| `test.js` | 88 headless assertions (`npm install jsdom` first, then `node test.js <built.html>`) |
 | `sample_payload.json` | Synthetic data for layout work — invented prices, `"sample": true` |
 | `mksample.py` | Regenerates the synthetic payload |
 | `price_cache.py` | Deduplication during valuation (persistent cache present but disabled) |
 | `test_price_cache.py` | 48 assertions covering key normalisation, TTL, dedupe |
 | `price_cache.csv` | Empty seed for the cache. Unused while the cache is disabled |
+
+## Schema 3 — wine type
+
+Every lot carries `wine_type`: one of `Red`, `White`, `Rose`, `Sparkling`,
+`Dessert`, `Orange`. It is a judgment call, not a column in the WineBid export
+— the export has no such field — so it is made upstream, per lot, from the
+producer, appellation and cuvée name.
+
+It is **required**, on valued and unvalued lots alike. A type is derived from
+the wine's name, not from its price, so a lot with no market price has no
+excuse for having no type. Making it optional would let a week where the
+classification was skipped ship a column of blanks that looks like data.
+
+`Rose` is stored unaccented so it survives a URL hash and a CSV round-trip
+intact; the dashboard renders it as *Rosé*.
+
+The dashboard shows it as a colour swatch beside the country flag, with the
+type name on hover and as the screen-reader label:
+
+| Type | Swatch | Hex |
+|---|---|---|
+| Red | burgundy | `#6B1B2E` |
+| White | cream | `#EFE0B0` |
+| Rosé | pink | `#F2A5B6` |
+| Sparkling | white | `#FFFFFF` |
+| Dessert | brown | `#7A4A21` |
+| Orange | orange | `#E08A2E` |
+
+Cream and white would read as an empty cell against a white row, so both carry
+a darker ring. The column sorts in shelf order — Red, Rosé, Orange, White,
+Sparkling, Dessert — rather than alphabetically, and the filter rail lists the
+types in that same order with a swatch beside each name.
+
+Dessert is a legal value even though dessert wines are screened out upstream:
+the screen is heuristic, and a survivor that turns out to be dessert should be
+visible as one rather than mislabelled.
+
+Schema 2 payloads are rejected rather than defaulted, for the same reason
+blanks are: a missing type is a gap in the work, not a rendering problem.
 
 ## Schema 2 — the buyer's premium
 
@@ -35,7 +74,8 @@ re-reading an old file would overstate every discount.
 
 ## The validator refuses to build on
 
-- `schema` != 2, missing required fields, duplicate item IDs
+- `schema` != 3, missing required fields, duplicate item IDs
+- a `wine_type` outside the six allowed values, on a valued or unvalued lot
 - a reserve over $150, a `pct_below` under 25%
 - `buyer_price` that isn't `reserve x (1 + premium_rate)`
 - `pct_below` that disagrees with `(market - buyer_price) / market` by more than 0.5pt
