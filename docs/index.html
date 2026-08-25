@@ -12,7 +12,7 @@
 <!-- Published to a public URL while the auction is still open: keep the
      bidding shortlist out of search results. -->
 <meta name="robots" content="noindex, nofollow, noarchive">
-<title>WineBid Deals</title>
+<title>WineBid Scout</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
@@ -233,8 +233,6 @@ thead th[aria-sort="none"] .arrow{visibility:hidden}
 tbody td{padding:7px 10px;border-bottom:1px solid #EEF1F3;vertical-align:middle}
 tbody tr:last-child td{border-bottom:0}
 tbody tr:hover{background:#F7F9FB}
-tbody tr.watched{background:#FFFDF2}
-tbody tr.watched:hover{background:#FDF9E8}
 
 .num{font-family:var(--mono);text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
 .wine{font-family:var(--serif);font-size:13.5px;font-weight:500;min-width:250px;max-width:340px}
@@ -282,7 +280,6 @@ tbody tr.watched:hover{background:#FDF9E8}
 .tag.Great{background:var(--great-bg);color:var(--great-fg);box-shadow:inset 0 0 0 1px #77B870}
 .tag.Steal{background:var(--steal-bg);color:var(--steal-fg)}
 .standout{color:var(--accent);font-size:11.5px;font-style:italic;max-width:150px;display:inline-block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:bottom}
-.wl{width:14px;height:14px;accent-color:#C08A1E;cursor:pointer;margin:0}
 
 .tfoot{
   display:flex;align-items:center;justify-content:space-between;gap:12px;
@@ -301,6 +298,7 @@ tbody tr.watched:hover{background:#FDF9E8}
 .toast.on{transform:translateX(-50%) translateY(0);opacity:1}
 
 .mobileSort{display:none}
+.resultsBar{display:none}
 
 @media (max-width:1000px){
   .shell{grid-template-columns:minmax(0,1fr)}
@@ -314,11 +312,14 @@ tbody tr.watched:hover{background:#FDF9E8}
 /* ---------- phone layout ----------
    Desktop/tablet keep the data table as-is above this point. Below 640px the
    grid can't work as a table -- there's no room for a dozen columns -- so
-   rows become stacked cards instead: a compact header line (watch box, flag,
-   type swatch, wine name, deal tag) followed by labelled detail rows built
-   from each <td>'s data-label (see app.js buildTable()). Column order in the
-   markup is unchanged; MOBILE_ORDER only re-flows the *visual* order via
-   flexbox, so this stays a pure presentation layer over the same DOM. */
+   rows become stacked cards instead: a compact header line (flag, type
+   swatch, wine name, deal tag) followed by labelled detail rows built from
+   each <td>'s data-label (see app.js buildTable()). Column order in the
+   markup is unchanged; the per-column "order" rules below only re-flow the
+   *visual* order via flexbox, so this stays a pure presentation layer over
+   the same DOM. The masthead's Filters button is hidden here in favour of
+   #railToggleMobile in .resultsBar -- a search-results-page placement,
+   right above the list it filters, instead of a header button. */
 @media (max-width:640px){
   body{font-size:13.5px}
   .masthead{flex-wrap:wrap;gap:10px;padding:10px 14px;row-gap:8px}
@@ -327,15 +328,26 @@ tbody tr.watched:hover{background:#FDF9E8}
   .masthead .spacer{display:none}
   .search{order:4;flex:1 1 100%}
   .search input{width:100%}
-  #railToggle{order:1}
-  #btnCsv{order:2;padding:7px 10px}
-  .summary,.funnel-body{padding:0 14px}
-  .funnel-body,.summary{gap:0}
-  .metric{padding:9px 16px 10px 0;margin-right:16px}
+  #railToggle{display:none}
+  #btnCsv{padding:7px 10px}
+  .funnel-body{padding:0 14px}
+  .funnel-body{gap:0}
   .shell{padding:12px 14px 32px}
 
+  /* summary metrics: never wrap to a second line -- scroll horizontally
+     instead, with a trailing fade as the affordance for that gesture */
+  .summary{
+    flex-wrap:nowrap;overflow-x:auto;padding:0 14px;
+    -webkit-overflow-scrolling:touch;scroll-snap-type:x proximity;
+    mask-image:linear-gradient(to right,#000 calc(100% - 28px),transparent);
+    -webkit-mask-image:linear-gradient(to right,#000 calc(100% - 28px),transparent);
+  }
+  .metric{padding:9px 16px 10px 0;margin-right:16px;flex:0 0 auto;white-space:nowrap;scroll-snap-align:start}
+
+  .resultsBar{display:flex;gap:8px;margin-bottom:10px}
+  #railToggleMobile{flex:none}
   .mobileSort{
-    display:block;width:100%;margin-bottom:10px;
+    display:block;flex:1;min-width:0;
     border:1px solid var(--rule);border-radius:7px;background:var(--surface);
     padding:8px 11px;font:inherit;font-size:12.5px;color:var(--ink);
   }
@@ -349,12 +361,10 @@ tbody tr.watched:hover{background:#FDF9E8}
     padding:10px 12px;border-bottom:1px solid var(--rule);
   }
   #grid tbody tr:last-child{border-bottom:0}
-  #grid tbody tr.watched{background:#FFFDF2}
   #grid td{
     border-bottom:0;padding:3px 0;vertical-align:baseline;
   }
   /* card-header cells: sit inline, no label, fixed order */
-  #grid td[data-col="_wl"]{order:1;padding:0}
   #grid td[data-col="country"]{order:2}
   #grid td[data-col="wine_type"]{order:3}
   #grid td[data-col="wine"]{
@@ -401,7 +411,7 @@ tbody tr.watched:hover{background:#FDF9E8}
 
 <header class="masthead">
   <div class="brand">
-    <b>WineBid Deals</b>
+    <b>WineBid Scout</b>
     <span id="auctionLabel"></span>
   </div>
   <div class="views" role="tablist" aria-label="Views">
@@ -413,7 +423,7 @@ tbody tr.watched:hover{background:#FDF9E8}
     <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
     <input id="q" type="search" placeholder="Search wines, regions, notes" aria-label="Search">
   </div>
-  <button class="ghost" id="railToggle" aria-pressed="false">Filters</button>
+  <button class="ghost railToggleBtn" id="railToggle" aria-pressed="false">Filters</button>
   <button class="ghost" id="btnCsv">Copy CSV</button>
 </header>
 
@@ -439,7 +449,10 @@ tbody tr.watched:hover{background:#FDF9E8}
   </aside>
 
   <main>
-    <select id="mobileSort" class="mobileSort" aria-label="Sort by"></select>
+    <div class="resultsBar">
+      <button class="ghost railToggleBtn" id="railToggleMobile" aria-pressed="false">Filters</button>
+      <select id="mobileSort" class="mobileSort" aria-label="Sort by"></select>
+    </div>
     <div class="chips" id="chips"></div>
     <div class="panel">
       <div class="tablewrap">
@@ -543,8 +556,6 @@ function wtSwatch(t){
 
 /* ---------- view definitions ---------- */
 var COLS_DEALS = [
-  {k:'_wl',   label:'',        sortable:false, cls:'', csv:false,
-   render:function(r){ return '<input class="wl" type="checkbox" data-id="'+r.id+'" aria-label="Watch lot '+r.id+'"'+(state.watch.has(r.id)?' checked':'')+'>'; }},
   {k:'country', label:'', hint:'country', type:'text', get:function(r){return r._country;},
    render:function(r){ return flagCell(r.country_code); }},
   {k:'wine_type', label:'', hint:'wine type', type:'rank', cls:'wtcell',
@@ -642,8 +653,7 @@ var state = {
   sel:{country:[],region:[],subregion:[],wtype:[],format:[],tag:[],src:[]},
   rng:{},               /* key -> [lo,hi] or null when untouched */
   sort:{col:'pct_below',dir:-1},
-  standouts:false, watchOnly:false,
-  watch:new Set()
+  standouts:false
 };
 var BOUNDS = {};        /* view -> key -> [min,max] */
 
@@ -674,7 +684,6 @@ function matches(r, except){
   }
   if(state.view==='deals'){
     if(state.standouts && !r.flag) return false;
-    if(state.watchOnly && !state.watch.has(r.id)) return false;
   }
   var cfg = VIEWS[state.view];
   for(var fi=0;fi<cfg.facets.length;fi++){
@@ -702,7 +711,6 @@ function activeCount(){
   cfg.ranges.forEach(function(k){ if(rngTouched(k)) n++; });
   if(state.q) n++;
   if(state.view==='deals' && state.standouts) n++;
-  if(state.view==='deals' && state.watchOnly) n++;
   return n;
 }
 
@@ -767,8 +775,6 @@ function writeHash(){
   var d = VIEWS[state.view].defaultSort;
   if(state.sort.col!==d.col || state.sort.dir!==d.dir) p.push('so='+state.sort.col+':'+(state.sort.dir>0?'a':'d'));
   if(state.standouts) p.push('st=1');
-  if(state.watchOnly) p.push('wo=1');
-  if(state.watch.size) p.push('w='+Array.from(state.watch).join(','));
   var h = p.join('&');
   var target = h ? '#'+h : location.pathname+location.search;
   /* Chrome gives local files an opaque origin, and some builds reject
@@ -799,8 +805,6 @@ function readHash(){
       var s = v.split(':'); state.sort = {col:s[0], dir:s[1]==='a'?1:-1};
     }
     else if(k==='st') state.standouts = v==='1';
-    else if(k==='wo') state.watchOnly = v==='1';
-    else if(k==='w') v.split(',').forEach(function(id){ if(id) state.watch.add(Number(id)); });
   });
 }
 
@@ -878,8 +882,6 @@ function buildRail(){
     html += '<details class="fgroup" open><summary><span class="caret">▶</span>Shortlists</summary><div class="fbody">'+
       '<label class="opt"><input type="checkbox" id="fStandouts"'+(state.standouts?' checked':'')+'>'+
       '<span class="lab">Standouts only</span><span class="n">'+DEALS.filter(function(r){return r.flag;}).length+'</span></label>'+
-      '<label class="opt"><input type="checkbox" id="fWatch"'+(state.watchOnly?' checked':'')+'>'+
-      '<span class="lab">Watchlist only</span><span class="n">'+state.watch.size+'</span></label>'+
       '</div></details>';
   }
   document.getElementById('railBody').innerHTML = html;
@@ -900,7 +902,6 @@ function buildChips(){
     }
   });
   if(state.view==='deals' && state.standouts) out.push(chip('','Standouts only','standouts',''));
-  if(state.view==='deals' && state.watchOnly) out.push(chip('','Watchlist only','watchonly',''));
   document.getElementById('chips').innerHTML = out.join('');
 }
 function chip(label,val,kind,arg){
@@ -910,10 +911,10 @@ function chip(label,val,kind,arg){
 
 /* ---------- rendering: table ---------- */
 /* Columns in this set form the compact "card header" line on the narrow
-   (phone) layout -- watch box, flag, type swatch, wine name, deal tag --
-   instead of stacking as a labelled row like everything else. Desktop
-   ignores this entirely; it only feeds the mobile CSS via data-label. */
-var MOBILE_HEADER_COLS = {_wl:1, country:1, wine_type:1, wine:1, tag:1};
+   (phone) layout -- flag, type swatch, wine name, deal tag -- instead of
+   stacking as a labelled row like everything else. Desktop ignores this
+   entirely; it only feeds the mobile CSS via data-label. */
+var MOBILE_HEADER_COLS = {country:1, wine_type:1, wine:1, tag:1};
 var lastRows = [];
 function buildTable(){
   var cfg = VIEWS[state.view];
@@ -946,7 +947,7 @@ function buildTable(){
         var lbl = (c.label && !MOBILE_HEADER_COLS[c.k]) ? ' data-label="'+esc(c.label)+'"' : '';
         tds += '<td data-col="'+esc(c.k)+'"'+lbl+(c.cls?' class="'+c.cls+'"':'')+'>'+c.render(r)+'</td>';
       }
-      html[i] = '<tr'+(state.watch.has(r.id)?' class="watched"':'')+'>'+tds+'</tr>';
+      html[i] = '<tr>'+tds+'</tr>';
     }
     body.innerHTML = html.join('');
   }
@@ -975,16 +976,13 @@ function buildSummary(){
   var ps = rows.map(function(r){return r.pct_below;}).filter(function(x){return x!=null;}).sort(function(a,b){return a-b;});
   var med = ps.length ? (ps.length%2 ? ps[(ps.length-1)/2] : (ps[ps.length/2-1]+ps[ps.length/2])/2) : null;
   var best = ps.length ? ps[ps.length-1] : null;
-  var sum = rows.reduce(function(s,r){return s+(r.buyer_price||0);},0);
 
   el.innerHTML =
     metric('Lots shown', rows.length+' <small>of '+DEALS.length+'</small>')+
     '<div class="metric"><span class="k">By tier</span><span class="v tierdots">'+
       '<i class="s">'+by.Steal+'</i><i class="r">'+by.Great+'</i><i class="g">'+by.Good+'</i></span></div>'+
     metric('Median discount', med==null?'—':pct(med))+
-    metric('Best discount', best==null?'—':pct(best))+
-    metric('Total if won', usd(sum))+
-    metric('Watchlist', state.watch.size);
+    metric('Best discount', best==null?'—':pct(best));
 }
 function metric(k,v){ return '<div class="metric"><span class="k">'+k+'</span><span class="v">'+v+'</span></div>'; }
 
@@ -1084,7 +1082,6 @@ document.getElementById('railBody').addEventListener('change', function(e){
     });
     render();
   } else if(t.id==='fStandouts'){ state.standouts = t.checked; render(); }
-  else if(t.id==='fWatch'){ state.watchOnly = t.checked; render(); }
 });
 
 document.getElementById('railBody').addEventListener('input', function(e){
@@ -1130,16 +1127,6 @@ document.getElementById('mobileSort').addEventListener('change', function(e){
   buildTable(); writeHash();
 });
 
-document.getElementById('body').addEventListener('change', function(e){
-  if(!e.target.classList.contains('wl')) return;
-  var id = Number(e.target.dataset.id);
-  if(e.target.checked) state.watch.add(id); else state.watch.delete(id);
-  e.target.closest('tr').classList.toggle('watched', state.watch.has(id));
-  buildSummary(); writeHash();
-  if(state.watchOnly) render();
-  else { var c = document.querySelector('#railBody #fWatch'); if(c) c.parentNode.querySelector('.n').textContent = state.watch.size; }
-});
-
 document.getElementById('chips').addEventListener('click', function(e){
   var b = e.target.closest('button[data-chip]'); if(!b) return;
   var kind = b.dataset.chip, arg = b.dataset.arg;
@@ -1148,7 +1135,6 @@ document.getElementById('chips').addEventListener('click', function(e){
     state.sel[k] = state.sel[k].filter(function(x){return x!==v;}); }
   else if(kind==='range') delete state.rng[arg];
   else if(kind==='standouts') state.standouts=false;
-  else if(kind==='watchonly') state.watchOnly=false;
   render();
 });
 
@@ -1172,16 +1158,26 @@ Array.prototype.forEach.call(document.querySelectorAll('.views button'), functio
 
 function clearAll(){
   Object.keys(state.sel).forEach(function(k){ state.sel[k] = []; });
-  state.rng = {}; state.q = ''; state.standouts = false; state.watchOnly = false;
+  state.rng = {}; state.q = ''; state.standouts = false;
   document.getElementById('q').value = '';
   render();
 }
 document.getElementById('btnClear').addEventListener('click', clearAll);
 document.getElementById('btnClear2').addEventListener('click', clearAll);
 document.getElementById('btnCsv').addEventListener('click', copyCsv);
-document.getElementById('railToggle').addEventListener('click', function(){
+
+/* Two buttons open the same filter rail: #railToggle lives in the masthead
+   (tablet width) and #railToggleMobile sits above the results list (phone
+   width, see template CSS) -- a search-results-page placement rather than a
+   header button. Both drive the same .rail.open toggle. */
+function toggleRail(btn){
   var r = document.getElementById('rail'), on = r.classList.toggle('open');
-  this.setAttribute('aria-pressed', String(on));
+  document.querySelectorAll('.railToggleBtn').forEach(function(b){
+    b.setAttribute('aria-pressed', String(on));
+  });
+}
+Array.prototype.forEach.call(document.querySelectorAll('.railToggleBtn'), function(btn){
+  btn.addEventListener('click', function(){ toggleRail(btn); });
 });
 
 /* ---------- boot ---------- */
@@ -1189,7 +1185,7 @@ computeBounds();
 readHash();
 document.getElementById('auctionLabel').textContent =
   (P.auction_date ? 'Auction ending '+P.auction_date : '') + (P.sample ? ' · sample' : '');
-document.title = 'WineBid Deals'+(P.auction_date?' — '+P.auction_date:'');
+document.title = 'WineBid Scout'+(P.auction_date?' — '+P.auction_date:'');
 if(P.sample) document.getElementById('sampleBanner').hidden = false;
 document.getElementById('q').value = state.q;
 Array.prototype.forEach.call(document.querySelectorAll('.views button'), function(b){

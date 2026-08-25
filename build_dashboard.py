@@ -125,7 +125,7 @@ def build(payload_path, out_path):
     # </script> inside the JSON island would close the tag early
     data = json.dumps(p, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
 
-    html = html.replace('__TITLE__', 'WineBid Deals')
+    html = html.replace('__TITLE__', 'WineBid Scout')
     html = html.replace('__FONT__', font)
     html = html.replace('__PAYLOAD__', data)
     html = html.replace('__APP__', app)

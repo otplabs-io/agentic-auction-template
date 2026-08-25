@@ -76,8 +76,6 @@ function wtSwatch(t){
 
 /* ---------- view definitions ---------- */
 var COLS_DEALS = [
-  {k:'_wl',   label:'',        sortable:false, cls:'', csv:false,
-   render:function(r){ return '<input class="wl" type="checkbox" data-id="'+r.id+'" aria-label="Watch lot '+r.id+'"'+(state.watch.has(r.id)?' checked':'')+'>'; }},
   {k:'country', label:'', hint:'country', type:'text', get:function(r){return r._country;},
    render:function(r){ return flagCell(r.country_code); }},
   {k:'wine_type', label:'', hint:'wine type', type:'rank', cls:'wtcell',
@@ -175,8 +173,7 @@ var state = {
   sel:{country:[],region:[],subregion:[],wtype:[],format:[],tag:[],src:[]},
   rng:{},               /* key -> [lo,hi] or null when untouched */
   sort:{col:'pct_below',dir:-1},
-  standouts:false, watchOnly:false,
-  watch:new Set()
+  standouts:false
 };
 var BOUNDS = {};        /* view -> key -> [min,max] */
 
@@ -207,7 +204,6 @@ function matches(r, except){
   }
   if(state.view==='deals'){
     if(state.standouts && !r.flag) return false;
-    if(state.watchOnly && !state.watch.has(r.id)) return false;
   }
   var cfg = VIEWS[state.view];
   for(var fi=0;fi<cfg.facets.length;fi++){
@@ -235,7 +231,6 @@ function activeCount(){
   cfg.ranges.forEach(function(k){ if(rngTouched(k)) n++; });
   if(state.q) n++;
   if(state.view==='deals' && state.standouts) n++;
-  if(state.view==='deals' && state.watchOnly) n++;
   return n;
 }
 
@@ -300,8 +295,6 @@ function writeHash(){
   var d = VIEWS[state.view].defaultSort;
   if(state.sort.col!==d.col || state.sort.dir!==d.dir) p.push('so='+state.sort.col+':'+(state.sort.dir>0?'a':'d'));
   if(state.standouts) p.push('st=1');
-  if(state.watchOnly) p.push('wo=1');
-  if(state.watch.size) p.push('w='+Array.from(state.watch).join(','));
   var h = p.join('&');
   var target = h ? '#'+h : location.pathname+location.search;
   /* Chrome gives local files an opaque origin, and some builds reject
@@ -332,8 +325,6 @@ function readHash(){
       var s = v.split(':'); state.sort = {col:s[0], dir:s[1]==='a'?1:-1};
     }
     else if(k==='st') state.standouts = v==='1';
-    else if(k==='wo') state.watchOnly = v==='1';
-    else if(k==='w') v.split(',').forEach(function(id){ if(id) state.watch.add(Number(id)); });
   });
 }
 
@@ -411,8 +402,6 @@ function buildRail(){
     html += '<details class="fgroup" open><summary><span class="caret">▶</span>Shortlists</summary><div class="fbody">'+
       '<label class="opt"><input type="checkbox" id="fStandouts"'+(state.standouts?' checked':'')+'>'+
       '<span class="lab">Standouts only</span><span class="n">'+DEALS.filter(function(r){return r.flag;}).length+'</span></label>'+
-      '<label class="opt"><input type="checkbox" id="fWatch"'+(state.watchOnly?' checked':'')+'>'+
-      '<span class="lab">Watchlist only</span><span class="n">'+state.watch.size+'</span></label>'+
       '</div></details>';
   }
   document.getElementById('railBody').innerHTML = html;
@@ -433,7 +422,6 @@ function buildChips(){
     }
   });
   if(state.view==='deals' && state.standouts) out.push(chip('','Standouts only','standouts',''));
-  if(state.view==='deals' && state.watchOnly) out.push(chip('','Watchlist only','watchonly',''));
   document.getElementById('chips').innerHTML = out.join('');
 }
 function chip(label,val,kind,arg){
@@ -443,10 +431,10 @@ function chip(label,val,kind,arg){
 
 /* ---------- rendering: table ---------- */
 /* Columns in this set form the compact "card header" line on the narrow
-   (phone) layout -- watch box, flag, type swatch, wine name, deal tag --
-   instead of stacking as a labelled row like everything else. Desktop
-   ignores this entirely; it only feeds the mobile CSS via data-label. */
-var MOBILE_HEADER_COLS = {_wl:1, country:1, wine_type:1, wine:1, tag:1};
+   (phone) layout -- flag, type swatch, wine name, deal tag -- instead of
+   stacking as a labelled row like everything else. Desktop ignores this
+   entirely; it only feeds the mobile CSS via data-label. */
+var MOBILE_HEADER_COLS = {country:1, wine_type:1, wine:1, tag:1};
 var lastRows = [];
 function buildTable(){
   var cfg = VIEWS[state.view];
@@ -479,7 +467,7 @@ function buildTable(){
         var lbl = (c.label && !MOBILE_HEADER_COLS[c.k]) ? ' data-label="'+esc(c.label)+'"' : '';
         tds += '<td data-col="'+esc(c.k)+'"'+lbl+(c.cls?' class="'+c.cls+'"':'')+'>'+c.render(r)+'</td>';
       }
-      html[i] = '<tr'+(state.watch.has(r.id)?' class="watched"':'')+'>'+tds+'</tr>';
+      html[i] = '<tr>'+tds+'</tr>';
     }
     body.innerHTML = html.join('');
   }
@@ -508,16 +496,13 @@ function buildSummary(){
   var ps = rows.map(function(r){return r.pct_below;}).filter(function(x){return x!=null;}).sort(function(a,b){return a-b;});
   var med = ps.length ? (ps.length%2 ? ps[(ps.length-1)/2] : (ps[ps.length/2-1]+ps[ps.length/2])/2) : null;
   var best = ps.length ? ps[ps.length-1] : null;
-  var sum = rows.reduce(function(s,r){return s+(r.buyer_price||0);},0);
 
   el.innerHTML =
     metric('Lots shown', rows.length+' <small>of '+DEALS.length+'</small>')+
     '<div class="metric"><span class="k">By tier</span><span class="v tierdots">'+
       '<i class="s">'+by.Steal+'</i><i class="r">'+by.Great+'</i><i class="g">'+by.Good+'</i></span></div>'+
     metric('Median discount', med==null?'—':pct(med))+
-    metric('Best discount', best==null?'—':pct(best))+
-    metric('Total if won', usd(sum))+
-    metric('Watchlist', state.watch.size);
+    metric('Best discount', best==null?'—':pct(best));
 }
 function metric(k,v){ return '<div class="metric"><span class="k">'+k+'</span><span class="v">'+v+'</span></div>'; }
 
@@ -617,7 +602,6 @@ document.getElementById('railBody').addEventListener('change', function(e){
     });
     render();
   } else if(t.id==='fStandouts'){ state.standouts = t.checked; render(); }
-  else if(t.id==='fWatch'){ state.watchOnly = t.checked; render(); }
 });
 
 document.getElementById('railBody').addEventListener('input', function(e){
@@ -663,16 +647,6 @@ document.getElementById('mobileSort').addEventListener('change', function(e){
   buildTable(); writeHash();
 });
 
-document.getElementById('body').addEventListener('change', function(e){
-  if(!e.target.classList.contains('wl')) return;
-  var id = Number(e.target.dataset.id);
-  if(e.target.checked) state.watch.add(id); else state.watch.delete(id);
-  e.target.closest('tr').classList.toggle('watched', state.watch.has(id));
-  buildSummary(); writeHash();
-  if(state.watchOnly) render();
-  else { var c = document.querySelector('#railBody #fWatch'); if(c) c.parentNode.querySelector('.n').textContent = state.watch.size; }
-});
-
 document.getElementById('chips').addEventListener('click', function(e){
   var b = e.target.closest('button[data-chip]'); if(!b) return;
   var kind = b.dataset.chip, arg = b.dataset.arg;
@@ -681,7 +655,6 @@ document.getElementById('chips').addEventListener('click', function(e){
     state.sel[k] = state.sel[k].filter(function(x){return x!==v;}); }
   else if(kind==='range') delete state.rng[arg];
   else if(kind==='standouts') state.standouts=false;
-  else if(kind==='watchonly') state.watchOnly=false;
   render();
 });
 
@@ -705,16 +678,26 @@ Array.prototype.forEach.call(document.querySelectorAll('.views button'), functio
 
 function clearAll(){
   Object.keys(state.sel).forEach(function(k){ state.sel[k] = []; });
-  state.rng = {}; state.q = ''; state.standouts = false; state.watchOnly = false;
+  state.rng = {}; state.q = ''; state.standouts = false;
   document.getElementById('q').value = '';
   render();
 }
 document.getElementById('btnClear').addEventListener('click', clearAll);
 document.getElementById('btnClear2').addEventListener('click', clearAll);
 document.getElementById('btnCsv').addEventListener('click', copyCsv);
-document.getElementById('railToggle').addEventListener('click', function(){
+
+/* Two buttons open the same filter rail: #railToggle lives in the masthead
+   (tablet width) and #railToggleMobile sits above the results list (phone
+   width, see template CSS) -- a search-results-page placement rather than a
+   header button. Both drive the same .rail.open toggle. */
+function toggleRail(btn){
   var r = document.getElementById('rail'), on = r.classList.toggle('open');
-  this.setAttribute('aria-pressed', String(on));
+  document.querySelectorAll('.railToggleBtn').forEach(function(b){
+    b.setAttribute('aria-pressed', String(on));
+  });
+}
+Array.prototype.forEach.call(document.querySelectorAll('.railToggleBtn'), function(btn){
+  btn.addEventListener('click', function(){ toggleRail(btn); });
 });
 
 /* ---------- boot ---------- */
@@ -722,7 +705,7 @@ computeBounds();
 readHash();
 document.getElementById('auctionLabel').textContent =
   (P.auction_date ? 'Auction ending '+P.auction_date : '') + (P.sample ? ' · sample' : '');
-document.title = 'WineBid Deals'+(P.auction_date?' — '+P.auction_date:'');
+document.title = 'WineBid Scout'+(P.auction_date?' — '+P.auction_date:'');
 if(P.sample) document.getElementById('sampleBanner').hidden = false;
 document.getElementById('q').value = state.q;
 Array.prototype.forEach.call(document.querySelectorAll('.views button'), function(b){

@@ -34,11 +34,11 @@ ok('all deals shown initially', rows().length === payload.deals.length,
    rows().length + ' vs ' + payload.deals.length);
 ok('sample banner visible', !$('#sampleBanner').hidden);
 ok('funnel populated', $('#funnelBody').children.length >= 6);
-ok('summary metrics rendered', $$('#summary .metric').length >= 5);
+ok('summary metrics rendered', $$('#summary .metric').length >= 4);
 
 console.log('\n— default sort: % below market, descending —');
-const pctIdx = 12;   // _wl,country,type,wine,vint,format,region,subregion,qty,reserve,buyer,market,pct
-const WINE_IDX = 3, TYPE_IDX = 2, RES_IDX = 9, BUY_IDX = 10;
+const pctIdx = 11;   // country,type,wine,vint,format,region,subregion,qty,reserve,buyer,market,pct
+const WINE_IDX = 2, TYPE_IDX = 1, RES_IDX = 8, BUY_IDX = 9;
 const pcts = rows().map(tr => parseInt(cellText(tr, pctIdx)));
 ok('sorted descending', pcts.every((v, i) => i === 0 || pcts[i-1] >= v),
    pcts.slice(0, 5).join(', '));
@@ -245,10 +245,6 @@ function search(text) {
      shownRes + ' -> ' + shownBuy);
   ok('footer states the basis', /Buyer price = reserve \+ 17% premium/.test($('#footNote').textContent),
      $('#footNote').textContent);
-  ok('total reflects buyer price, not reserve',
-     Math.abs(payload.deals.reduce((s,d)=>s+d.buyer_price,0)
-       - Number($$('#summary .metric')[4].querySelector('.v').textContent.replace(/[$,]/g,''))) < 2,
-     $$('#summary .metric')[4].textContent);
 
   console.log('\n— range filter —');
   const pctLo = $('#railBody input[data-range="pct"][data-side="lo"]');
@@ -263,16 +259,8 @@ function search(text) {
   ok('range filter applied', n50 === expect50, n50 + ' vs ' + expect50);
   ok('histogram rendered behind the slider', $$('#railBody [data-range="pct"] .hist span').length === 16);
 
-  console.log('\n— watchlist —');
-  const wl = $('#body tr .wl');
-  const wlId = Number(wl.dataset.id);
-  wl.checked = true;
-  wl.dispatchEvent(new window.Event('change', { bubbles: true }));
-  ok('row marked watched', $('#body tr').classList.contains('watched'));
-  await new Promise(r => setTimeout(r, 300));   // hash writes are debounced
-  ok('watchlist in hash', window.location.hash.includes('w=' + wlId), window.location.hash);
-
   console.log('\n— URL hash round-trip —');
+  await new Promise(r => setTimeout(r, 300));   // hash writes are debounced
   const hash = window.location.hash;
   const rowCountBefore = rows().length;
   const sortBefore = $('#head th[aria-sort]:not([aria-sort="none"])').dataset.col;
@@ -283,7 +271,6 @@ function search(text) {
      D2.querySelectorAll('#body tr').length + ' vs ' + rowCountBefore);
   ok('restored sort column',
      D2.querySelector('#head th[aria-sort]:not([aria-sort="none"])').dataset.col === sortBefore);
-  ok('restored watchlist', D2.querySelector('#body tr.watched') !== null);
   ok('restored range chip', /below market/i.test(D2.querySelector('#chips').textContent),
      D2.querySelector('#chips').textContent.trim());
 
