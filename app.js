@@ -255,6 +255,34 @@ function sorted(rows){
   });
 }
 
+/* ---------- mobile sort select ----------
+   The phone layout (<=640px, see template CSS) hides <thead>, so clicking a
+   column header to sort isn't reachable there. This <select> drives the same
+   state.sort/buildTable()/writeHash() path the desktop header click does --
+   it's a second control on the same state, not a parallel implementation. */
+var SORT_DIR_WORD = {
+  text: {1:'A→Z', '-1':'Z→A'},
+  num:  {1:'Low→High', '-1':'High→Low'},
+  rank: {1:'Low→High', '-1':'High→Low'}
+};
+function buildMobileSort(){
+  var sel = document.getElementById('mobileSort');
+  if(!sel) return;
+  var cfg = VIEWS[state.view];
+  var opts = [];
+  cfg.cols.forEach(function(c){
+    if(c.sortable===false) return;
+    var lbl = c.label || (c.hint ? c.hint.charAt(0).toUpperCase()+c.hint.slice(1) : c.k);
+    var words = SORT_DIR_WORD[c.type] || SORT_DIR_WORD.num;
+    var first = c.type==='text' ? 1 : -1;
+    [first, -first].forEach(function(dir){
+      opts.push('<option value="'+c.k+':'+dir+'">'+esc(lbl)+' ('+words[dir]+')</option>');
+    });
+  });
+  sel.innerHTML = opts.join('');
+  sel.value = state.sort.col+':'+state.sort.dir;
+}
+
 /* ---------- URL hash ---------- */
 var HKEYS = {country:'c',region:'rg',subregion:'sr',wtype:'wt',format:'fmt',tag:'tag',src:'src'};
 function writeHash(){
@@ -414,6 +442,11 @@ function chip(label,val,kind,arg){
 }
 
 /* ---------- rendering: table ---------- */
+/* Columns in this set form the compact "card header" line on the narrow
+   (phone) layout -- watch box, flag, type swatch, wine name, deal tag --
+   instead of stacking as a labelled row like everything else. Desktop
+   ignores this entirely; it only feeds the mobile CSS via data-label. */
+var MOBILE_HEADER_COLS = {_wl:1, country:1, wine_type:1, wine:1, tag:1};
 var lastRows = [];
 function buildTable(){
   var cfg = VIEWS[state.view];
@@ -443,12 +476,14 @@ function buildTable(){
       var r = rows[i], tds = '';
       for(var j=0;j<cfg.cols.length;j++){
         var c = cfg.cols[j];
-        tds += '<td'+(c.cls?' class="'+c.cls+'"':'')+'>'+c.render(r)+'</td>';
+        var lbl = (c.label && !MOBILE_HEADER_COLS[c.k]) ? ' data-label="'+esc(c.label)+'"' : '';
+        tds += '<td data-col="'+esc(c.k)+'"'+lbl+(c.cls?' class="'+c.cls+'"':'')+'>'+c.render(r)+'</td>';
       }
       html[i] = '<tr'+(state.watch.has(r.id)?' class="watched"':'')+'>'+tds+'</tr>';
     }
     body.innerHTML = html.join('');
   }
+  buildMobileSort();
 
   var total = cfg.rows.length;
   document.getElementById('footCount').textContent =
@@ -619,6 +654,12 @@ document.getElementById('head').addEventListener('click', function(e){
   var col = VIEWS[state.view].cols.filter(function(c){return c.k===k;})[0];
   if(state.sort.col===k) state.sort.dir *= -1;
   else state.sort = {col:k, dir:(col.type==='text'?1:-1)};
+  buildTable(); writeHash();
+});
+
+document.getElementById('mobileSort').addEventListener('change', function(e){
+  var parts = e.target.value.split(':');
+  state.sort = {col:parts[0], dir:Number(parts[1])};
   buildTable(); writeHash();
 });
 

@@ -94,6 +94,6 @@ Reporting only deals and unvalued invites reading `deals / (deals + unvalued)` a
 
 ## Environment notes
 
-- **JSDOM does not accurately model computed-style CSS cascade.** Author-origin rules can override UA `[hidden]` behavior in ways JSDOM won't catch. Rendered browser output is the final verification. (This is how the sample-banner bug survived a passing test suite.)
+- **JSDOM does not accurately model computed-style CSS cascade.** Author-origin rules can override UA `[hidden]` behavior in ways JSDOM won't catch. Rendered browser output is the final verification. (This is how the sample-banner bug survived a passing test suite — fixed 2026-08-24 with an explicit `.sample-banner[hidden]{display:none!important}` rule. The general lesson stands for any future rendering change: run `test.js`, then also check a real browser.)
 - **Embedded commas in CSV note fields** consistently break `pandas.read_csv` column alignment. Reliable fix: post-append `csv.reader` pass detecting rows with an extra field, rejoining the overflow into column 3, rewriting with `csv.writer`.
 - **`exec(open('value_add.py').read().split('batch1 =')[0])`** loads function definitions from a script without executing any example batch in the body.

@@ -256,9 +256,11 @@ Field notes:
 
 `toolkit/` is a clone of https://github.com/otplabs-io/agentic-auction-template. Unlike the chat workflow, do **not** re-clone each week — it persists. `git -C toolkit pull` occasionally.
 
-Do not edit `template.html` or `app.js` during a normal run. Renderer changes are a separate task, made in the repo, with `node test.js` re-run afterward.
+Do not edit `template.html` or `app.js` during a normal run. Renderer changes are a separate task, made in the repo, with `node test.js` re-run afterward **and** a real-browser check — JSDOM does not accurately model the computed-style CSS cascade (see `known-limits.md`), so a passing suite is necessary but not sufficient for a rendering change.
 
-**Pending upstream fix:** `.sample-banner[hidden]{display:none!important}` needs applying to `template.html` — a CSS cascade bug renders the sample banner even when `sample` is omitted. JSDOM does not catch it; rendered browser output is the final verification.
+**Fixed 2026-08-24:** the sample-banner CSS cascade bug (`.sample-banner[hidden]` wasn't beating the author-origin `display:flex`) is resolved — `.sample-banner[hidden]{display:none!important}` is in `template.html`. `test.js`'s "sample banner visible" assertion still legitimately fails on real data (it's asserting the banner *shows*, which is only true for `sample_payload.json`); that's unrelated to the bug that was fixed and expected to keep failing.
+
+**Mobile layout (added 2026-08-24):** below 640px, `#grid` renders as stacked cards instead of a table — a compact header line (watch box, flag, type swatch, wine name, deal tag) plus labelled detail rows, with a `<select id="mobileSort">` standing in for the (hidden) sortable column headers. Desktop/tablet (>640px) are visually and behaviorally unchanged. Driven entirely by `data-col`/`data-label` attributes `app.js` already puts on every `<td>` plus CSS `order`/`::before` — no duplicate rendering path, no new payload fields. Verify any future column changes to `COLS_DEALS`/`COLS_UNVAL` still read sensibly in the mobile order list in `template.html`'s `@media (max-width:640px)` block.
 
 ## Reporting discipline
 
