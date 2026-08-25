@@ -19,9 +19,10 @@ self-contained file. Override with `-o path.html`.
 | `test.js` | 88 headless assertions (`npm install jsdom` first, then `node test.js <built.html>`) |
 | `sample_payload.json` | Synthetic data for layout work — invented prices, `"sample": true` |
 | `mksample.py` | Regenerates the synthetic payload |
-| `price_cache.py` | Deduplication during valuation (persistent cache present but disabled) |
+| `price_cache.py` | Deduplication during valuation; persistent cache off in chat, on under `local_setup/` |
 | `test_price_cache.py` | 48 assertions covering key normalisation, TTL, dedupe |
-| `price_cache.csv` | Empty seed for the cache. Unused while the cache is disabled |
+| `price_cache.csv` | Empty seed for the cache. Unused by the chat workflow; used by `local_setup/` |
+| `local_setup/` | Drop-in config for running the whole weekly workflow in Claude Code |
 
 ## Schema 3 — wine type
 
@@ -99,7 +100,13 @@ Verify by extracting the CBDT bitmaps and looking at them — a silently dropped
 glyph looks identical to a CSS problem otherwise.
 
 
-## Price cache — currently disabled
+## Price cache — depends on where you run
+
+Whether the persistent half of `price_cache.py` is in use depends on the
+environment. In the chat workflow it is **off**; under `local_setup/` it is
+**on**. Deduplication is always on in both.
+
+### Chat workflow — disabled
 
 Only the deduplication half of `price_cache.py` is in use. The persistent cache
 is off, because the CSV would have to be committed back to this repo every week
@@ -117,11 +124,23 @@ written.
 `pc.report` prints a second line about cache hit rate; drop it while the cache
 is off, since a permanent "0% hit rate" is noise.
 
+### Claude Code (`local_setup/`) — enabled
+
 **Re-enabling** is one line -- `pc.load('price_cache.csv')` instead of `{}`,
 plus `pc.put`/`pc.save` as prices are found. Prices are then reused within their
 TTL (60 days; 21 for `insufficient`) and cited with their fetch date via
-`pc.cite(row)`, so reuse stays visible. The tradeoff is that `price_cache.csv`
-must be committed after every run or the cache silently starts empty.
+`pc.cite(row)`, so reuse stays visible.
+
+The tradeoff that keeps it off in chat -- `price_cache.csv` must be committed
+after every run or the cache silently starts empty -- disappears on a local
+disk, where the file simply persists between sessions. This is the main reason
+the workflow moved: a week with 469 unique wines costs roughly one web search
+each on a cold cache, and only the delta on a warm one.
+
+The cache is keyed on wine identity, not lot id, so a cached price stays valid
+even when screening is redone from scratch. On the 2026-08-23 run a full
+re-screen matched 491 of 491 unique keys against the prior valuations and
+needed zero new searches.
 
 The key is `normalised wine | vintage | millilitres`. Normalisation folds case,
 accents and punctuation but never drops words -- 'Tondonia Reserva' and
@@ -129,3 +148,38 @@ accents and punctuation but never drops words -- 'Tondonia Reserva' and
 not a magnum. `test_price_cache.py` asserts those pairs stay distinct.
 
 Run the tests with `python3 test_price_cache.py`.
+
+
+## Running the weekly workflow locally — `local_setup/`
+
+The renderer in this repo is only the last step of a larger weekly workflow:
+screen the WineBid export, classify each survivor's wine type, value every
+survivor against the market, tag deals, then build the dashboard. `local_setup/`
+holds the configuration for running that whole pipeline in Claude Code rather
+than in a chat session.
+
+| File | Purpose |
+|---|---|
+| `SETUP.md` | Install checklist — start here |
+| `CLAUDE.md` | The workflow itself: screening rules, classification traps, source order, deal tiers, schema 3 |
+| `known-limits.md` | Operational constraints: the search cap, the fortified-wine screen gap, which `test.js` failures are expected on real data |
+| `.claude/commands/execute.md` | The `/execute` slash command |
+
+Copy them into a working folder (not this repo), clone this repo inside it as
+`toolkit/`, and drop the weekly `.xlsx` into `inbox/`. `SETUP.md` has the
+specifics.
+
+**Why local.** The pipeline is long-running: a large week is several hundred
+sourced price lookups, which does not fit a single chat session. Local disk also
+makes the persistent price cache viable, which is what turns the second and
+subsequent weeks cheap.
+
+**What `CLAUDE.md` carries that the renderer can't.** Screening and
+classification rules accumulate corrections that are invisible from the payload
+alone -- word-bounded colour regexes (`Château Montrose` is not a rosé), the
+Port-shipper producer-identity check (a bare `Portugal` region and a shipper
+name is a Vintage Port with no style word in the row), white-only Rhône
+varietals that otherwise default to Red, and multi-colour cuvée lines that
+genuinely cannot be resolved from the export and must be hedged explicitly.
+Each was a real miss caught in review. They live in `CLAUDE.md` so the next run
+starts where the last one finished.
