@@ -160,14 +160,18 @@ than in a chat session.
 
 | File | Purpose |
 |---|---|
-| `SETUP.md` | Install checklist — start here |
+| `SETUP.md` | Install checklist for the Code tab in Claude Desktop — start here |
 | `CLAUDE.md` | The workflow itself: screening rules, classification traps, source order, deal tiers, schema 3 |
 | `known-limits.md` | Operational constraints: the search cap, the fortified-wine screen gap, which `test.js` failures are expected on real data |
 | `.claude/commands/execute.md` | The `/execute` slash command |
+| `.claude/settings.json` | Permission allowlist and the raised search cap |
 
-Copy them into a working folder (not this repo), clone this repo inside it as
-`toolkit/`, and drop the weekly `.xlsx` into `inbox/`. `SETUP.md` has the
-specifics.
+Copy them into a working folder (not this repo), point the desktop app's Code
+tab at it, and let Claude clone this repo inside it as `toolkit/`. Drop the
+weekly `.xlsx` into `inbox/` and run `/execute`. `SETUP.md` has the specifics.
+
+The same files work from the CLI unchanged — desktop and CLI share
+configuration — so only the launch steps in `SETUP.md` are desktop-specific.
 
 **Why local.** The pipeline is long-running: a large week is several hundred
 sourced price lookups, which does not fit a single chat session. Local disk also
