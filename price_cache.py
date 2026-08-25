@@ -50,7 +50,7 @@ def norm_format(fmt):
     for word, ml in _SIZE_WORDS.items():
         if word in s:
             return ml
-    m = re.search(r'(\d+(?:\.\d+)?)\s*(ml|cl|l|liter|litre)\b', s)
+    m = re.search(r'(\d+(?:\.\d+)?)\s*(ml|cl|l|liter|litre|ltr)\b', s)
     if not m:
         m2 = re.search(r'(\d+(?:\.\d+)?)', s)
         return int(round(float(m2.group(1)))) if m2 else 750

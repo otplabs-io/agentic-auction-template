@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<!--
+  WineBid Weekly Deal Finder — dashboard
+  Flag glyphs: subset of Noto Color Emoji, © Google, licensed under the SIL Open
+  Font License 1.1 (https://scripts.sil.org/OFL). Subset contains the regional
+  indicator ligatures for AT, ES, FR, IT, PT only.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Published to a public URL while the auction is still open: keep the
+     bidding shortlist out of search results. -->
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>WineBid Deals</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+@font-face{
+  font-family:'FlagEmoji';
+  src:url(data:font/woff2;base64,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) format('woff2');
+  font-display:block;
+}
+:root{
+  --paper:#F2F4F5;
+  --surface:#FFFFFF;
+  --ink:#14181C;
+  --slate:#5C6672;
+  --mute:#8B95A1;
+  --rule:#DDE2E6;
+  --accent:#2E4A78;
+  --accent-soft:#E8EDF5;
+
+  /* One hue, three intensities. Every tier is a deal worth winning, so nothing
+     here is a warning colour -- the ramp encodes degree, not good vs bad. */
+  --good-bg:#D8E9D3;  --good-fg:#3F5F47;  --good-bar:#8FB795;
+  --great-bg:#8FC988; --great-fg:#224E29; --great-bar:#47955A;
+  --steal-bg:#14713C; --steal-fg:#FFFFFF; --steal-bar:#14713C;
+
+  /* Wine type. Judged from the wine, not read off a column in the export --
+     the export has no such field. Hue is the whole signal here, so the two
+     pale swatches lean on a darker ring rather than on fill alone. */
+  --wt-red:#6B1B2E;         /* burgundy  */
+  --wt-white:#EFE0B0;       /* cream     */
+  --wt-rose:#F2A5B6;        /* pink      */
+  --wt-sparkling:#FFFFFF;   /* white     */
+  --wt-dessert:#7A4A21;     /* brown     */
+  --wt-orange:#E08A2E;      /* orange    */
+
+  --sans:'IBM Plex Sans',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;
+  --serif:'IBM Plex Serif',ui-serif,Georgia,'Times New Roman',serif;
+  --mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+
+  --rail:272px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:var(--sans); font-size:13px; line-height:1.45;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--accent)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+/* ---------- masthead ---------- */
+.masthead{
+  position:sticky;top:0;z-index:60;
+  background:var(--surface);border-bottom:1px solid var(--rule);
+  display:flex;align-items:center;gap:20px;
+  padding:12px 20px;
+}
+.brand{display:flex;flex-direction:column;gap:1px;margin-right:4px}
+.brand b{
+  font-family:var(--serif);font-weight:600;font-size:16px;letter-spacing:-.01em;
+}
+.brand span{
+  font-family:var(--mono);font-size:10.5px;color:var(--mute);
+  letter-spacing:.06em;text-transform:uppercase;
+}
+.views{display:flex;gap:2px;background:var(--paper);padding:3px;border-radius:7px}
+.views button{
+  border:0;background:transparent;padding:5px 13px;border-radius:5px;
+  font-size:12.5px;font-weight:500;color:var(--slate);cursor:pointer;
+}
+.views button[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(20,24,28,.10)}
+.masthead .spacer{flex:1}
+
+.search{position:relative}
+.search input{
+  width:260px;padding:7px 11px 7px 30px;
+  border:1px solid var(--rule);border-radius:7px;background:var(--surface);
+  font:inherit;font-size:12.5px;
+}
+.search input::placeholder{color:var(--mute)}
+.search svg{position:absolute;left:9px;top:8px;width:13px;height:13px;stroke:var(--mute);fill:none;stroke-width:2}
+
+.ghost{
+  border:1px solid var(--rule);background:var(--surface);
+  padding:7px 12px;border-radius:7px;font-size:12.5px;font-weight:500;
+  cursor:pointer;white-space:nowrap;
+}
+.ghost:hover{border-color:var(--mute)}
+.ghost[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+#railToggle{display:none}
+
+/* ---------- sample banner ---------- */
+.sample-banner{
+  background:#FFF6DA;border-bottom:1px solid #E9D89A;color:#6B5310;
+  padding:8px 20px;font-size:12.5px;display:flex;gap:8px;align-items:baseline;
+}
+.sample-banner b{font-weight:600}
+
+/* ---------- summary ---------- */
+.summary{
+  background:var(--surface);border-bottom:1px solid var(--rule);
+  display:flex;flex-wrap:wrap;gap:0;padding:0 20px;
+}
+.metric{padding:11px 22px 12px 0;margin-right:22px;border-right:1px solid var(--rule)}
+.metric:last-child{border-right:0}
+.metric .k{
+  font-family:var(--mono);font-size:10px;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--mute);display:block;margin-bottom:2px;
+}
+.metric .v{font-family:var(--mono);font-size:17px;font-weight:500;letter-spacing:-.02em}
+.metric .v small{font-size:11.5px;color:var(--mute);font-weight:400;letter-spacing:0}
+.tierdots{display:flex;gap:10px;align-items:baseline}
+.tierdots i{font-style:normal;font-family:var(--mono);font-size:14px;font-weight:500;display:flex;gap:5px;align-items:center}
+.tierdots i::before{content:"";width:8px;height:8px;border-radius:2px;display:block}
+.tierdots .g::before{background:var(--good-bar)}
+.tierdots .r::before{background:var(--great-bar)}
+.tierdots .s::before{background:var(--steal-bar)}
+
+/* ---------- funnel ---------- */
+.funnel{background:var(--surface);border-bottom:1px solid var(--rule)}
+.funnel > summary{
+  padding:8px 20px;cursor:pointer;font-size:12px;color:var(--slate);
+  font-weight:500;list-style:none;display:flex;align-items:center;gap:7px;
+}
+.funnel > summary::-webkit-details-marker{display:none}
+.funnel > summary::before{content:"▸";color:var(--mute);font-size:10px}
+.funnel[open] > summary::before{content:"▾"}
+.funnel-body{padding:2px 20px 16px;display:flex;flex-wrap:wrap;gap:0}
+.fstep{padding-right:18px;margin-right:18px;border-right:1px solid var(--rule);min-width:88px}
+.fstep:last-child{border-right:0}
+.fstep .k{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);display:block}
+.fstep .v{font-family:var(--mono);font-size:15px}
+.fstep .d{font-size:11px;color:#B4342A}
+
+/* ---------- layout ---------- */
+.shell{display:grid;grid-template-columns:var(--rail) minmax(0,1fr);gap:16px;padding:16px 20px 40px;align-items:start}
+
+/* ---------- filter rail ---------- */
+.rail{position:sticky;top:65px;max-height:calc(100vh - 82px);overflow-y:auto;padding-right:2px}
+.rail-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.rail-head h2{font-size:11px;font-family:var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin:0;font-weight:500}
+.linkbtn{background:none;border:0;padding:0;color:var(--accent);font-size:12px;cursor:pointer;text-decoration:underline}
+.linkbtn[disabled]{color:var(--mute);cursor:default;text-decoration:none}
+
+.fgroup{background:var(--surface);border:1px solid var(--rule);border-radius:8px;margin-bottom:8px;overflow:hidden}
+.fgroup > summary{
+  padding:9px 11px;cursor:pointer;font-weight:600;font-size:12.5px;
+  list-style:none;display:flex;align-items:center;justify-content:space-between;gap:6px;
+}
+.fgroup > summary::-webkit-details-marker{display:none}
+.fgroup > summary .caret{color:var(--mute);font-size:9px;transition:transform .15s}
+.fgroup[open] > summary .caret{transform:rotate(90deg)}
+.fgroup .count{
+  font-family:var(--mono);font-size:10px;background:var(--accent);color:#fff;
+  border-radius:9px;padding:1px 6px;margin-left:auto;
+}
+.fbody{padding:2px 11px 11px}
+.opt{display:flex;align-items:center;gap:8px;padding:3px 0;cursor:pointer;font-size:12.5px}
+.opt input{margin:0;accent-color:var(--accent);width:14px;height:14px;flex:none}
+.opt .lab{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.opt .n{font-family:var(--mono);font-size:10.5px;color:var(--mute);flex:none}
+.opt.off{opacity:.4}
+.subtle{font-size:11.5px;color:var(--mute);padding:3px 0}
+.scrolly{max-height:196px;overflow-y:auto}
+
+/* dual range */
+.range{padding:4px 2px 2px}
+.range .vals{display:flex;justify-content:space-between;font-family:var(--mono);font-size:11px;color:var(--slate);margin-bottom:5px}
+.track{position:relative;height:26px}
+.track .hist{position:absolute;inset:0 0 11px 0;display:flex;align-items:flex-end;gap:1px}
+.track .hist span{flex:1;background:var(--rule);border-radius:1px 1px 0 0;min-height:1px}
+.track .hist span.on{background:#B9C6D8}
+.track .rail-line{position:absolute;left:0;right:0;bottom:8px;height:3px;background:var(--rule);border-radius:2px}
+.track .fill{position:absolute;bottom:8px;height:3px;background:var(--accent);border-radius:2px}
+.track input[type=range]{
+  position:absolute;left:0;right:0;bottom:0;width:100%;height:20px;margin:0;
+  -webkit-appearance:none;appearance:none;background:none;pointer-events:none;
+}
+.track input[type=range]::-webkit-slider-thumb{
+  -webkit-appearance:none;pointer-events:auto;width:14px;height:14px;border-radius:50%;
+  background:var(--surface);border:2px solid var(--accent);cursor:grab;box-shadow:0 1px 2px rgba(0,0,0,.2);
+}
+.track input[type=range]:focus-visible::-webkit-slider-thumb{outline:2px solid var(--accent);outline-offset:2px}
+.note{font-size:11px;color:var(--mute);margin-top:5px;line-height:1.35}
+
+/* ---------- chips ---------- */
+.chips:empty{display:none}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;align-items:center}
+.chip{
+  display:inline-flex;align-items:center;gap:6px;background:var(--accent-soft);
+  color:var(--accent);border:1px solid #C9D6E8;border-radius:20px;
+  padding:3px 5px 3px 10px;font-size:11.5px;font-weight:500;
+}
+.chip b{font-weight:600}
+.chip button{border:0;background:none;cursor:pointer;color:var(--accent);opacity:.65;font-size:13px;line-height:1;padding:0 3px}
+.chip button:hover{opacity:1}
+
+/* ---------- table ---------- */
+.panel{background:var(--surface);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
+.tablewrap{overflow:auto;max-height:calc(100vh - 262px);min-height:240px;overscroll-behavior:contain}
+table{border-collapse:separate;border-spacing:0;width:100%;font-size:12.5px}
+thead th{
+  position:sticky;top:0;z-index:20;background:var(--surface);
+  border-bottom:1px solid var(--rule);text-align:left;
+  padding:9px 10px;white-space:nowrap;font-weight:600;font-size:11px;
+  letter-spacing:.03em;text-transform:uppercase;color:var(--slate);cursor:pointer;
+  user-select:none;
+}
+thead th:hover{color:var(--ink)}
+thead th .arrow{color:var(--accent);font-size:9px;margin-left:3px}
+thead th[aria-sort="none"] .arrow{visibility:hidden}
+tbody td{padding:7px 10px;border-bottom:1px solid #EEF1F3;vertical-align:middle}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover{background:#F7F9FB}
+tbody tr.watched{background:#FFFDF2}
+tbody tr.watched:hover{background:#FDF9E8}
+
+.num{font-family:var(--mono);text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.wine{font-family:var(--serif);font-size:13.5px;font-weight:500;min-width:250px;max-width:340px}
+.wine a{text-decoration:none;color:var(--ink);border-bottom:1px solid transparent}
+.wine a:hover{border-bottom-color:var(--accent);color:var(--accent)}
+.wine a::after{content:"↗";font-family:var(--sans);font-size:9px;color:var(--mute);margin-left:4px;vertical-align:2px}
+.cflag{font-family:'FlagEmoji',var(--sans);font-size:15px;line-height:1;cursor:default}
+.cflag.fallback{font-family:var(--mono);font-size:10.5px;color:var(--slate);letter-spacing:.04em}
+/* ---------- wine-type swatch ---------- */
+.wt{
+  display:inline-block;width:13px;height:13px;border-radius:3px;
+  vertical-align:-2px;flex:none;cursor:default;
+  box-shadow:inset 0 0 0 1px rgba(20,24,28,.20);
+}
+.wt-Red{background:var(--wt-red)}
+.wt-White{background:var(--wt-white)}
+.wt-Rose{background:var(--wt-rose)}
+.wt-Sparkling{background:var(--wt-sparkling)}
+.wt-Dessert{background:var(--wt-dessert)}
+.wt-Orange{background:var(--wt-orange)}
+/* cream and white read as "empty cell" against a white row without this */
+.wt-White,.wt-Sparkling{box-shadow:inset 0 0 0 1px rgba(20,24,28,.42)}
+.wtcell{width:22px;text-align:center}
+/* in the filter rail the swatch sits ahead of the type name */
+.opt .wt{margin-right:-2px}
+@media (forced-colors:active){
+  .wt{forced-color-adjust:none;border:1px solid CanvasText}
+}
+
+.trunc{max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--slate)}
+.dash{color:#C3CAD1}
+.soft{color:var(--mute)}
+
+.pctcell{min-width:104px}
+.pctrow{display:flex;align-items:center;gap:7px}
+.pctrow .v{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:12.5px;width:38px;text-align:right;flex:none}
+.bar{flex:1;height:5px;background:#EEF1F3;border-radius:3px;overflow:hidden;min-width:34px}
+.bar i{display:block;height:100%;border-radius:3px}
+
+.tag{
+  display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;
+  font-weight:600;letter-spacing:.02em;
+}
+.tag.Good{background:var(--good-bg);color:var(--good-fg);box-shadow:inset 0 0 0 1px #BFD9B9}
+.tag.Great{background:var(--great-bg);color:var(--great-fg);box-shadow:inset 0 0 0 1px #77B870}
+.tag.Steal{background:var(--steal-bg);color:var(--steal-fg)}
+.standout{color:var(--accent);font-size:11.5px;font-style:italic;max-width:150px;display:inline-block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:bottom}
+.wl{width:14px;height:14px;accent-color:#C08A1E;cursor:pointer;margin:0}
+
+.tfoot{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding:9px 12px;border-top:1px solid var(--rule);background:#FAFBFC;
+  font-size:11.5px;color:var(--slate);
+}
+.empty{padding:46px 24px;text-align:center}
+.empty h3{margin:0 0 6px;font-family:var(--serif);font-size:16px;font-weight:500}
+.empty p{margin:0 0 14px;color:var(--slate)}
+
+.toast{
+  position:fixed;bottom:20px;left:50%;transform:translateX(-50%) translateY(70px);
+  background:var(--ink);color:#fff;padding:9px 15px;border-radius:7px;font-size:12.5px;
+  opacity:0;transition:transform .22s,opacity .22s;pointer-events:none;z-index:99;
+}
+.toast.on{transform:translateX(-50%) translateY(0);opacity:1}
+
+@media (max-width:1000px){
+  .shell{grid-template-columns:minmax(0,1fr)}
+  .rail{position:static;max-height:none;display:none}
+  .rail.open{display:block}
+  #railToggle{display:inline-block}
+  .tablewrap{max-height:none}
+  .search input{width:150px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important;animation:none!important}
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="brand">
+    <b>WineBid Deals</b>
+    <span id="auctionLabel"></span>
+  </div>
+  <div class="views" role="tablist" aria-label="Views">
+    <button role="tab" id="tabDeals" aria-selected="true" data-view="deals">Deals</button>
+    <button role="tab" id="tabUnvalued" aria-selected="false" data-view="unvalued">Unvalued</button>
+  </div>
+  <div class="spacer"></div>
+  <div class="search">
+    <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+    <input id="q" type="search" placeholder="Search wines, regions, notes" aria-label="Search">
+  </div>
+  <button class="ghost" id="railToggle" aria-pressed="false">Filters</button>
+  <button class="ghost" id="btnCsv">Copy CSV</button>
+</header>
+
+<div id="sampleBanner" hidden class="sample-banner">
+  <b>Sample data.</b>
+  <span>Every price in this file is invented for layout testing. Nothing here is a real valuation — do not bid from it.</span>
+</div>
+
+<div class="summary" id="summary"></div>
+
+<details class="funnel" id="funnelPanel">
+  <summary>Screening funnel</summary>
+  <div class="funnel-body" id="funnelBody"></div>
+</details>
+
+<div class="shell">
+  <aside class="rail" id="rail" aria-label="Filters">
+    <div class="rail-head">
+      <h2>Filters</h2>
+      <button class="linkbtn" id="btnClear" disabled>Clear all</button>
+    </div>
+    <div id="railBody"></div>
+  </aside>
+
+  <main>
+    <div class="chips" id="chips"></div>
+    <div class="panel">
+      <div class="tablewrap">
+        <table id="grid">
+          <thead><tr id="head"></tr></thead>
+          <tbody id="body"></tbody>
+        </table>
+      </div>
+      <div id="emptyState" hidden class="empty">
+        <h3>No lots match</h3>
+        <p id="emptyWhy"></p>
+        <button class="ghost" id="btnClear2">Clear all filters</button>
+      </div>
+      <div class="tfoot">
+        <span id="footCount"></span>
+        <span id="footNote"></span>
+      </div>
+    </div>
+  </main>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script type="application/json" id="payload">{"schema":3,"auction_date":"2026-08-30","premium_rate":0.17,"generated":"2026-08-25T01:41:12Z","funnel":{"total":2922,"after_country":879,"after_dessert":868,"after_price":584,"after_condition":549,"valued":476,"unvalued":73,"deals":177},"deals":[{"id":10857145,"wine":"Albert Boxler Pinot Gris Sommerberg","vintage":2017,"format":"750ml","region_raw":"France, Alsace, Sommerberg","region_path":["France","Alsace","Sommerberg"],"country_code":"FR","wine_type":"White","qty":2,"reserve":40.0,"condition":"","buyer_price":46.8,"market":80.0,"pct_below":0.415,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857150,"wine":"Albert Boxler Riesling Reserve","vintage":2017,"format":"750ml","region_raw":"France, Alsace","region_path":["France","Alsace"],"country_code":"FR","wine_type":"White","qty":3,"reserve":35.0,"condition":"","buyer_price":40.95,"market":57.0,"pct_below":0.2816,"tag":"Good","flag":"","source":"Single retailer listing (~$57), no Wine-Searcher average in snippet","source_type":"ws_single_retailer"},{"id":10864025,"wine":"Allegrini La Grola Classico Superiore","vintage":1995,"format":"750ml","region_raw":"Italy, Veneto, Valpolicella","region_path":["Italy","Veneto","Valpolicella"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":15.0,"condition":"Base neck fill; Light label condition issue","buyer_price":17.55,"market":30.0,"pct_below":0.415,"tag":"Great","flag":"","source":"Estimate - no price found in search","source_type":"estimate"},{"id":10863678,"wine":"Azelia Barolo Cerretta","vintage":2016,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":3,"reserve":75.0,"condition":"","buyer_price":87.75,"market":141.0,"pct_below":0.3777,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10863741,"wine":"B. Levet Côte-Rôtie","vintage":2021,"format":"1.5ltr","region_raw":"France, Rhône Valley, Northern Rhône","region_path":["France","Rhône Valley","Northern Rhône"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":100.0,"condition":"","buyer_price":117.0,"market":246.4,"pct_below":0.5252,"tag":"Great","flag":"","source":"Wine-Searcher average retail, adjacent cuvee (parcel not specified on lot)","source_type":"ws_adjacent"},{"id":10857845,"wine":"Bodegas Pinea Korde","vintage":2021,"format":"750ml","region_raw":"Spain, Castilla-Leon, Ribera del Duero","region_path":["Spain","Castilla-Leon","Ribera del Duero"],"country_code":"ES","wine_type":"Red","qty":3,"reserve":40.0,"condition":"Light label condition issue","buyer_price":46.8,"market":75.0,"pct_below":0.376,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857846,"wine":"Bodegas Pinea Korde","vintage":2021,"format":"750ml","region_raw":"Spain, Castilla-Leon, Ribera del Duero","region_path":["Spain","Castilla-Leon","Ribera del Duero"],"country_code":"ES","wine_type":"Red","qty":3,"reserve":40.0,"condition":"","buyer_price":46.8,"market":75.0,"pct_below":0.376,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857828,"wine":"Bodegas Pinea Ribera del Duero 17","vintage":2019,"format":"750ml","region_raw":"Spain, Castilla-Leon, Ribera del Duero","region_path":["Spain","Castilla-Leon","Ribera del Duero"],"country_code":"ES","wine_type":"Red","qty":8,"reserve":40.0,"condition":"","buyer_price":46.8,"market":65.0,"pct_below":0.28,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage not confirmed specific to 2019","source_type":"ws_allvintage"},{"id":10857827,"wine":"Bodegas Pinea Ribera del Duero 17","vintage":2019,"format":"750ml","region_raw":"Spain, Castilla-Leon, Ribera del Duero","region_path":["Spain","Castilla-Leon","Ribera del Duero"],"country_code":"ES","wine_type":"Red","qty":1,"reserve":40.0,"condition":"Light label condition issue","buyer_price":46.8,"market":65.0,"pct_below":0.28,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage not confirmed specific to 2019","source_type":"ws_allvintage"},{"id":10857747,"wine":"Bollinger B13","vintage":null,"format":"750ml","region_raw":"France, Champagne","region_path":["France","Champagne"],"country_code":"FR","wine_type":"Sparkling","qty":1,"reserve":100.0,"condition":"","buyer_price":117.0,"market":177.0,"pct_below":0.339,"tag":"Good","flag":"Bollinger's limited-edition base-vintage blend; a distinctive, less commonly seen bottling","source":"Wine-Searcher average retail, vintage-specific (2013 base)","source_type":"ws_vintage"},{"id":10857695,"wine":"Brendan Stater-West Saumur Rouge","vintage":2020,"format":"750ml","region_raw":"France, Loire Valley, Saumur","region_path":["France","Loire Valley","Saumur"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":20.0,"condition":"Light label condition issue","buyer_price":23.4,"market":53.0,"pct_below":0.5585,"tag":"Steal","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857722,"wine":"Brendan Stater-West Saumur Rouge","vintage":2022,"format":"750ml","region_raw":"France, Loire Valley, Saumur","region_path":["France","Loire Valley","Saumur"],"country_code":"FR","wine_type":"Red","qty":11,"reserve":20.0,"condition":"","buyer_price":23.4,"market":63.0,"pct_below":0.6286,"tag":"Steal","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10863724,"wine":"Bruno Clair Marsannay Les Longeroies","vintage":2022,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":65.0,"condition":"","buyer_price":76.05,"market":112.0,"pct_below":0.321,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857164,"wine":"Burlotto Barolo Acclivi","vintage":2013,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":140.0,"condition":"","buyer_price":163.8,"market":245.0,"pct_below":0.3314,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10858136,"wine":"Castello Banfi Brunello di Montalcino","vintage":2015,"format":"1.5ltr","region_raw":"Italy, Tuscany, Brunello di Montalcino","region_path":["Italy","Tuscany","Brunello di Montalcino"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":80.0,"condition":"","buyer_price":93.6,"market":173.8,"pct_below":0.4614,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10858281,"wine":"Castello Banfi Summus","vintage":2014,"format":"750ml","region_raw":"Italy, Tuscany","region_path":["Italy","Tuscany"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":35.0,"condition":"","buyer_price":40.95,"market":87.0,"pct_below":0.5293,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10858280,"wine":"Castello Banfi Summus","vintage":2016,"format":"750ml","region_raw":"Italy, Tuscany","region_path":["Italy","Tuscany"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":35.0,"condition":"","buyer_price":40.95,"market":89.0,"pct_below":0.5399,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857741,"wine":"Cecchi Val delle Rose Maremma Toscana Aurelio","vintage":2016,"format":"750ml","region_raw":"Italy, Tuscany, Maremma Toscana","region_path":["Italy","Tuscany","Maremma Toscana"],"country_code":"IT","wine_type":"Rose","qty":3,"reserve":25.0,"condition":"","buyer_price":29.25,"market":39.0,"pct_below":0.25,"tag":"Good","flag":"","source":"Wine-Searcher average retail, adjacent-vintage (2017) used as substitute","source_type":"ws_adjacent"},{"id":10857777,"wine":"Cecchi Val delle Rose Maremma Toscana Aurelio","vintage":2017,"format":"750ml","region_raw":"Italy, Tuscany, Maremma Toscana","region_path":["Italy","Tuscany","Maremma Toscana"],"country_code":"IT","wine_type":"Rose","qty":1,"reserve":25.0,"condition":"Light label condition issue","buyer_price":29.25,"market":39.0,"pct_below":0.25,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857880,"wine":"Ceretto Barolo Bricco Rocche","vintage":1998,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":2,"reserve":95.0,"condition":"Base neck fill; Light label condition issue","buyer_price":111.15,"market":250.0,"pct_below":0.5554,"tag":"Steal","flag":"","source":"Estimate: Ceretto Bricco Rocche (flagship single-hectare cru) retails $300-450 at current release; the 1998 (excellent vintage, 92-93pt) is a sought after but mature collector bottle, typically trading somewhat below current-release price","source_type":"estimate"},{"id":10863728,"wine":"Chandon de Briailles Pernand-Vergelesses Ile des Vergelesses","vintage":2015,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":60.0,"condition":"","buyer_price":70.2,"market":124.0,"pct_below":0.4339,"tag":"Great","flag":"","source":"Wine-Searcher average retail, all-vintage average","source_type":"ws_allvintage"},{"id":10864418,"wine":"Charles Van Canneyt Bourgogne Rouge","vintage":2013,"format":"750ml","region_raw":"France, Burgundy, Bourgogne","region_path":["France","Burgundy","Bourgogne"],"country_code":"FR","wine_type":"Red","qty":55,"reserve":25.0,"condition":"","buyer_price":29.25,"market":39.0,"pct_below":0.25,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857839,"wine":"Château Bellevue","vintage":2021,"format":"750ml","region_raw":"France, Bordeaux, St.-Émilion","region_path":["France","Bordeaux","St.-Émilion"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":40.0,"condition":"","buyer_price":46.8,"market":70.0,"pct_below":0.3314,"tag":"Good","flag":"","source":"Wine-Searcher average retail, all-vintage average","source_type":"ws_allvintage"},{"id":10864357,"wine":"Château Branaire-Ducru","vintage":1982,"format":"750ml","region_raw":"France, Bordeaux, St.-Julien","region_path":["France","Bordeaux","St.-Julien"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":135.0,"condition":"Light capsule condition issue; Very top shoulder fill; Label condition issue","buyer_price":157.95,"market":263.0,"pct_below":0.3994,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10863736,"wine":"Château Calon-Segur","vintage":2019,"format":"750ml","region_raw":"France, Bordeaux, St.-Estephe","region_path":["France","Bordeaux","St.-Estephe"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":115.0,"condition":"","buyer_price":134.55,"market":185.0,"pct_below":0.2727,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10864352,"wine":"Château Canon","vintage":1983,"format":"750ml","region_raw":"France, Bordeaux, St.-Émilion","region_path":["France","Bordeaux","St.-Émilion"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":100.0,"condition":"Light capsule condition issue; Light label condition issue","buyer_price":117.0,"market":329.0,"pct_below":0.6444,"tag":"Steal","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10858005,"wine":"Château Dassault","vintage":2016,"format":"750ml","region_raw":"France, Bordeaux, St.-Émilion","region_path":["France","Bordeaux","St.-Émilion"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":40.0,"condition":"","buyer_price":46.8,"market":65.0,"pct_below":0.28,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857756,"wine":"Chateau de Beaucastel Châteauneuf-du-Pape","vintage":2006,"format":"750ml","region_raw":"France, Rhône Valley, Southern Rhône","region_path":["France","Rhône Valley","Southern Rhône"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":80.0,"condition":"Light label condition issue","buyer_price":93.6,"market":146.5,"pct_below":0.3611,"tag":"Good","flag":"","source":"Wine-Searcher average retail, adjacent vintages averaged (no 2006-specific listing found)","source_type":"ws_adjacent"},{"id":10863686,"wine":"Chateau de La Tour Clos Vougeot","vintage":2014,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":140.0,"condition":"","buyer_price":163.8,"market":345.0,"pct_below":0.5252,"tag":"Great","flag":"Grand Cru monopole; benchmark producer for the appellation","source":"Wine-Searcher average retail (ex-tax), vintage-specific (Vieilles Vignes Grand Cru bottling)","source_type":"ws_vintage"},{"id":10864494,"wine":"Château De Malle","vintage":1971,"format":"750ml","region_raw":"France, Bordeaux, Sauternes","region_path":["France","Bordeaux","Sauternes"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":70.0,"condition":"Light capsule condition issue; Label condition issue","buyer_price":81.9,"market":150.0,"pct_below":0.454,"tag":"Great","flag":"55-year-old Sauternes estate red; rare bottle age, priced from estimate not a listed comp","source":"Estimate based on general knowledge of comparable 2nd Cru Classe Sauternes from a strong vintage at this age","source_type":"estimate"},{"id":10863654,"wine":"Chateau des Tours Côtes du Rhône Reserve","vintage":2014,"format":"750ml","region_raw":"France, Rhône Valley, Southern Rhône","region_path":["France","Rhône Valley","Southern Rhône"],"country_code":"FR","wine_type":"Red","qty":3,"reserve":120.0,"condition":"","buyer_price":140.4,"market":250.0,"pct_below":0.4384,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific (91/100 rating tied to average price)","source_type":"ws_vintage"},{"id":10864515,"wine":"Château Grand-Mayne","vintage":1989,"format":"750ml","region_raw":"France, Bordeaux, St.-Émilion","region_path":["France","Bordeaux","St.-Émilion"],"country_code":"FR","wine_type":"Red","qty":9,"reserve":75.0,"condition":"Capsule condition issue; Light label condition issue","buyer_price":87.75,"market":130.0,"pct_below":0.325,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10864516,"wine":"Château Grand-Mayne","vintage":1989,"format":"750ml","region_raw":"France, Bordeaux, St.-Émilion","region_path":["France","Bordeaux","St.-Émilion"],"country_code":"FR","wine_type":"Red","qty":3,"reserve":75.0,"condition":"Capsule condition issue","buyer_price":87.75,"market":130.0,"pct_below":0.325,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10858309,"wine":"Château Lalande","vintage":2022,"format":"750ml","region_raw":"France, Bordeaux, St.-Julien","region_path":["France","Bordeaux","St.-Julien"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":25.0,"condition":"","buyer_price":29.25,"market":39.0,"pct_below":0.25,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific (Château Lalande, St-Julien)","source_type":"ws_vintage"},{"id":10864451,"wine":"Château L'Arrosee","vintage":1966,"format":"750ml","region_raw":"France, Bordeaux, St.-Émilion","region_path":["France","Bordeaux","St.-Émilion"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":115.0,"condition":"Light capsule condition issue; Top shoulder fill; Light label condition issue","buyer_price":134.55,"market":218.0,"pct_below":0.3828,"tag":"Good","flag":"60-year-old bottle; genuine bucket-list rarity at auction","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857012,"wine":"Château Lascombes","vintage":2006,"format":"750ml","region_raw":"France, Bordeaux, Margaux","region_path":["France","Bordeaux","Margaux"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":75.0,"condition":"","buyer_price":87.75,"market":147.0,"pct_below":0.4031,"tag":"Great","flag":"","source":"Wine-Searcher average retail (ex-tax), vintage-specific","source_type":"ws_vintage"},{"id":10864080,"wine":"Château Leoville-Barton","vintage":2019,"format":"750ml","region_raw":"France, Bordeaux, St.-Julien","region_path":["France","Bordeaux","St.-Julien"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":90.0,"condition":"","buyer_price":105.3,"market":148.0,"pct_below":0.2885,"tag":"Good","flag":"","source":"Wine-Searcher average retail (ex-tax), vintage-specific","source_type":"ws_vintage"},{"id":10857936,"wine":"Château Mongravey","vintage":2020,"format":"750ml","region_raw":"France, Bordeaux, Margaux","region_path":["France","Bordeaux","Margaux"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":25.0,"condition":"","buyer_price":29.25,"market":55.0,"pct_below":0.4682,"tag":"Great","flag":"","source":"Wine-Searcher average retail (ex-tax), vintage-specific","source_type":"ws_vintage"},{"id":10857937,"wine":"Château Mongravey","vintage":2021,"format":"750ml","region_raw":"France, Bordeaux, Margaux","region_path":["France","Bordeaux","Margaux"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":25.0,"condition":"","buyer_price":29.25,"market":43.0,"pct_below":0.3198,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857019,"wine":"Château Pavie-Macquin","vintage":2000,"format":"750ml","region_raw":"France, Bordeaux, St.-Émilion","region_path":["France","Bordeaux","St.-Émilion"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":135.0,"condition":"","buyer_price":157.95,"market":213.0,"pct_below":0.2585,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10858311,"wine":"Château Tournefeuille","vintage":2019,"format":"750ml","region_raw":"France, Bordeaux, Lalande de Pomerol","region_path":["France","Bordeaux","Lalande de Pomerol"],"country_code":"FR","wine_type":"Red","qty":3,"reserve":25.0,"condition":"","buyer_price":29.25,"market":39.0,"pct_below":0.25,"tag":"Good","flag":"","source":"Wine-Searcher average retail, adjacent vintage (2020) used as proxy","source_type":"ws_adjacent"},{"id":10858169,"wine":"Château Tournefeuille","vintage":2020,"format":"750ml","region_raw":"France, Bordeaux, Lalande de Pomerol","region_path":["France","Bordeaux","Lalande de Pomerol"],"country_code":"FR","wine_type":"Red","qty":11,"reserve":25.0,"condition":"","buyer_price":29.25,"market":39.0,"pct_below":0.25,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10864419,"wine":"Christian Moreau Chablis Valmur","vintage":2007,"format":"750ml","region_raw":"France, Burgundy, Chablis","region_path":["France","Burgundy","Chablis"],"country_code":"FR","wine_type":"White","qty":4,"reserve":85.0,"condition":"","buyer_price":99.45,"market":148.0,"pct_below":0.328,"tag":"Good","flag":"","source":"Wine-Searcher average retail, all-vintage average (current pricing, not 2007-specific)","source_type":"ws_allvintage"},{"id":10864420,"wine":"Christian Moreau Chablis Valmur","vintage":2007,"format":"750ml","region_raw":"France, Burgundy, Chablis","region_path":["France","Burgundy","Chablis"],"country_code":"FR","wine_type":"White","qty":2,"reserve":85.0,"condition":"Light label condition issue","buyer_price":99.45,"market":148.0,"pct_below":0.328,"tag":"Good","flag":"","source":"Wine-Searcher average retail, all-vintage average (current pricing, not 2007-specific)","source_type":"ws_allvintage"},{"id":10864350,"wine":"Clos des Papes Châteauneuf-du-Pape","vintage":2008,"format":"1.5ltr","region_raw":"France, Rhône Valley, Southern Rhône","region_path":["France","Rhône Valley","Southern Rhône"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":150.0,"condition":"","buyer_price":175.5,"market":250.8,"pct_below":0.3002,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific (scaled to magnum)","source_type":"ws_vintage"},{"id":10864351,"wine":"Clos des Papes Châteauneuf-du-Pape","vintage":2008,"format":"1.5ltr","region_raw":"France, Rhône Valley, Southern Rhône","region_path":["France","Rhône Valley","Southern Rhône"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":150.0,"condition":"Light label condition issue","buyer_price":175.5,"market":250.8,"pct_below":0.3002,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific (scaled to magnum)","source_type":"ws_vintage"},{"id":10863688,"wine":"Clos Du Moulin aux Moines Pommard Clos Orgelot","vintage":2018,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":60.0,"condition":"","buyer_price":70.2,"market":98.0,"pct_below":0.2837,"tag":"Good","flag":"","source":"Wine-Searcher average retail, all-vintage average (vintage not specified in listing)","source_type":"ws_allvintage"},{"id":10863689,"wine":"Clos Du Moulin aux Moines Pommard Clos Orgelot","vintage":2018,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":60.0,"condition":"Light label condition issue","buyer_price":70.2,"market":98.0,"pct_below":0.2837,"tag":"Good","flag":"","source":"Wine-Searcher average retail, all-vintage average (vintage not specified in listing)","source_type":"ws_allvintage"},{"id":10864359,"wine":"Cos d'Estournel","vintage":1970,"format":"750ml","region_raw":"France, Bordeaux, St.-Estephe","region_path":["France","Bordeaux","St.-Estephe"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":135.0,"condition":"Light capsule condition issue; Very top shoulder fill; Light label condition issue","buyer_price":157.95,"market":228.0,"pct_below":0.3072,"tag":"Good","flag":"56-year-old 2nd-growth Bordeaux; rare bottle age for auction","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857857,"wine":"Cos d'Estournel","vintage":2011,"format":"750ml","region_raw":"France, Bordeaux, St.-Estephe","region_path":["France","Bordeaux","St.-Estephe"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":125.0,"condition":"","buyer_price":146.25,"market":211.0,"pct_below":0.3069,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10863636,"wine":"Domaine de Fa Fleurie Roche Guillon","vintage":2016,"format":"750ml","region_raw":"France, Beaujolais, Fleurie","region_path":["France","Beaujolais","Fleurie"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":20.0,"condition":"","buyer_price":23.4,"market":35.0,"pct_below":0.3314,"tag":"Good","flag":"","source":"Estimate based on category/producer norms","source_type":"estimate"},{"id":10857814,"wine":"Domaine des Lambrays Morey St. Denis 1er Cru Les Loups","vintage":2020,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":4,"reserve":125.0,"condition":"","buyer_price":146.25,"market":222.0,"pct_below":0.3412,"tag":"Good","flag":"Lambrays is a Grand Cru domain; even this village-adjacent bottling is a reference pour","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857331,"wine":"Domaine du Collier Saumur Blanc","vintage":2016,"format":"750ml","region_raw":"France, Loire Valley, Saumur","region_path":["France","Loire Valley","Saumur"],"country_code":"FR","wine_type":"White","qty":2,"reserve":50.0,"condition":"","buyer_price":58.5,"market":90.0,"pct_below":0.35,"tag":"Good","flag":"","source":"Estimate using adjacent-vintage Wine-Searcher data (2019 average $126)","source_type":"ws_adjacent"},{"id":10857288,"wine":"Domaine du Collier Saumur Blanc","vintage":2018,"format":"750ml","region_raw":"France, Loire Valley, Saumur","region_path":["France","Loire Valley","Saumur"],"country_code":"FR","wine_type":"White","qty":1,"reserve":55.0,"condition":"","buyer_price":64.35,"market":105.0,"pct_below":0.3871,"tag":"Good","flag":"","source":"Estimate using adjacent-vintage Wine-Searcher data (2019 average $126)","source_type":"ws_adjacent"},{"id":10857266,"wine":"Domaine du Collier Saumur Blanc","vintage":2019,"format":"750ml","region_raw":"France, Loire Valley, Saumur","region_path":["France","Loire Valley","Saumur"],"country_code":"FR","wine_type":"White","qty":1,"reserve":55.0,"condition":"","buyer_price":64.35,"market":126.0,"pct_below":0.4893,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857303,"wine":"Domaine du Collier Saumur Blanc","vintage":2019,"format":"750ml","region_raw":"France, Loire Valley, Saumur","region_path":["France","Loire Valley","Saumur"],"country_code":"FR","wine_type":"White","qty":1,"reserve":55.0,"condition":"Light label condition issue","buyer_price":64.35,"market":126.0,"pct_below":0.4893,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10863700,"wine":"Domaine du Pegau Chateauneuf-du-Pape Cuvee Reservee","vintage":2015,"format":"750ml","region_raw":"France, Rhône Valley, Southern Rhône","region_path":["France","Rhône Valley","Southern Rhône"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":65.0,"condition":"","buyer_price":76.05,"market":104.0,"pct_below":0.2688,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific (averaged two snippet figures)","source_type":"ws_vintage"},{"id":10863745,"wine":"Domaine du Pegau Chateauneuf-du-Pape Cuvee Reservee","vintage":2015,"format":"1.5ltr","region_raw":"France, Rhône Valley, Southern Rhône","region_path":["France","Rhône Valley","Southern Rhône"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":130.0,"condition":"","buyer_price":152.1,"market":228.0,"pct_below":0.3329,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific (scaled from 750ml)","source_type":"ws_vintage"},{"id":10857715,"wine":"Domaine du Pelican Arbois Savagnin Ouillé","vintage":2018,"format":"750ml","region_raw":"France, Jura, Arbois","region_path":["France","Jura","Arbois"],"country_code":"FR","wine_type":"White","qty":4,"reserve":40.0,"condition":"","buyer_price":46.8,"market":90.0,"pct_below":0.48,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857716,"wine":"Domaine du Pelican Arbois Savagnin Ouillé","vintage":2018,"format":"750ml","region_raw":"France, Jura, Arbois","region_path":["France","Jura","Arbois"],"country_code":"FR","wine_type":"White","qty":1,"reserve":40.0,"condition":"Light label condition issue","buyer_price":46.8,"market":90.0,"pct_below":0.48,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10864810,"wine":"Domaine du Vieux Telegraphe Châteauneuf-du-Pape","vintage":2008,"format":"750ml","region_raw":"France, Rhône Valley, Southern Rhône","region_path":["France","Rhône Valley","Southern Rhône"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":75.0,"condition":"Light label condition issue","buyer_price":87.75,"market":117.0,"pct_below":0.25,"tag":"Good","flag":"","source":"Wine-Searcher average retail, adjacent vintage (2007) used as proxy for 2008","source_type":"ws_adjacent"},{"id":10857724,"wine":"Domaine Grosbois Chinon Gabare","vintage":2020,"format":"750ml","region_raw":"France, Loire Valley, Touraine","region_path":["France","Loire Valley","Touraine"],"country_code":"FR","wine_type":"Red","qty":4,"reserve":25.0,"condition":"","buyer_price":29.25,"market":42.0,"pct_below":0.3036,"tag":"Good","flag":"","source":"Wine-Searcher average retail (vintage not explicitly tagged in snippet)","source_type":"ws_allvintage"},{"id":10857723,"wine":"Domaine Grosbois Chinon Gabare","vintage":2020,"format":"750ml","region_raw":"France, Loire Valley, Touraine","region_path":["France","Loire Valley","Touraine"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":25.0,"condition":"Light label condition issue","buyer_price":29.25,"market":42.0,"pct_below":0.3036,"tag":"Good","flag":"","source":"Wine-Searcher average retail (vintage not explicitly tagged in snippet)","source_type":"ws_allvintage"},{"id":10857187,"wine":"Domaine Guiberteau Saumur Blanc","vintage":2022,"format":"750ml","region_raw":"France, Loire Valley, Saumur","region_path":["France","Loire Valley","Saumur"],"country_code":"FR","wine_type":"White","qty":1,"reserve":30.0,"condition":"","buyer_price":35.1,"market":58.0,"pct_below":0.3948,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857329,"wine":"Domaine Guiberteau Saumur Blanc Brézé Clos des Carmes","vintage":2016,"format":"750ml","region_raw":"France, Loire Valley, Saumur","region_path":["France","Loire Valley","Saumur"],"country_code":"FR","wine_type":"White","qty":1,"reserve":75.0,"condition":"","buyer_price":87.75,"market":143.0,"pct_below":0.3864,"tag":"Good","flag":"","source":"Wine-Searcher average retail, all-vintage average (2016-specific price not isolated in snippet)","source_type":"ws_allvintage"},{"id":10857564,"wine":"Domaine Guiberteau Saumur Brézé Blanc","vintage":2018,"format":"750ml","region_raw":"France, Loire Valley, Saumur","region_path":["France","Loire Valley","Saumur"],"country_code":"FR","wine_type":"White","qty":1,"reserve":60.0,"condition":"","buyer_price":70.2,"market":114.0,"pct_below":0.3842,"tag":"Good","flag":"","source":"Wine-Searcher average retail (USA), vintage-specific","source_type":"ws_vintage"},{"id":10857412,"wine":"Domaine Guiberteau Saumur Brézé Blanc","vintage":2019,"format":"750ml","region_raw":"France, Loire Valley, Saumur","region_path":["France","Loire Valley","Saumur"],"country_code":"FR","wine_type":"White","qty":1,"reserve":60.0,"condition":"","buyer_price":70.2,"market":97.0,"pct_below":0.2763,"tag":"Good","flag":"","source":"Wine-Searcher average retail (USA), vintage-specific","source_type":"ws_vintage"},{"id":10857357,"wine":"Domaine Guiberteau Saumur Èpieds Les Chapaudaises","vintage":2020,"format":"750ml","region_raw":"France, Loire Valley, Saumur","region_path":["France","Loire Valley","Saumur"],"country_code":"FR","wine_type":"White","qty":1,"reserve":45.0,"condition":"","buyer_price":52.65,"market":76.75,"pct_below":0.314,"tag":"Good","flag":"","source":"Wine-Searcher retailer prices, vintage-specific","source_type":"ws_vintage"},{"id":10857325,"wine":"Domaine Guiberteau Saumur Rouge","vintage":2018,"format":"750ml","region_raw":"France, Loire Valley, Saumur","region_path":["France","Loire Valley","Saumur"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":40.0,"condition":"","buyer_price":46.8,"market":65.0,"pct_below":0.28,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857390,"wine":"Domaine Huet Vouvray Le Haut-Lieu Moelleux Premiere Trie","vintage":2022,"format":"750ml","region_raw":"France, Loire Valley, Touraine","region_path":["France","Loire Valley","Touraine"],"country_code":"FR","wine_type":"Dessert","qty":1,"reserve":35.0,"condition":"","buyer_price":40.95,"market":92.0,"pct_below":0.5549,"tag":"Steal","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857391,"wine":"Domaine Huet Vouvray Le Mont Moelleux","vintage":2003,"format":"750ml","region_raw":"France, Loire Valley, Vouvray","region_path":["France","Loire Valley","Vouvray"],"country_code":"FR","wine_type":"Dessert","qty":1,"reserve":60.0,"condition":"","buyer_price":70.2,"market":146.67,"pct_below":0.5214,"tag":"Great","flag":"","source":"Wine-Searcher listing, vintage-specific","source_type":"ws_vintage"},{"id":10857363,"wine":"Domaine Huet Vouvray Le Mont Moelleux Premiere Trie","vintage":2018,"format":"750ml","region_raw":"France, Loire Valley, Vouvray","region_path":["France","Loire Valley","Vouvray"],"country_code":"FR","wine_type":"Dessert","qty":2,"reserve":45.0,"condition":"Light label condition issue","buyer_price":52.65,"market":102.0,"pct_below":0.4838,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857362,"wine":"Domaine Huet Vouvray Le Mont Moelleux Premiere Trie","vintage":2018,"format":"750ml","region_raw":"France, Loire Valley, Vouvray","region_path":["France","Loire Valley","Vouvray"],"country_code":"FR","wine_type":"Dessert","qty":1,"reserve":45.0,"condition":"","buyer_price":52.65,"market":102.0,"pct_below":0.4838,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857389,"wine":"Domaine Huet Vouvray Le Mont Moelleux Premiere Trie","vintage":2022,"format":"750ml","region_raw":"France, Loire Valley, Touraine","region_path":["France","Loire Valley","Touraine"],"country_code":"FR","wine_type":"Dessert","qty":1,"reserve":45.0,"condition":"","buyer_price":52.65,"market":102.0,"pct_below":0.4838,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857697,"wine":"Domaine Jean Fournier Bourgogne Blanc Origines Cuvée Speciale","vintage":2019,"format":"750ml","region_raw":"France, Burgundy, Bourgogne","region_path":["France","Burgundy","Bourgogne"],"country_code":"FR","wine_type":"White","qty":10,"reserve":25.0,"condition":"","buyer_price":29.25,"market":41.0,"pct_below":0.2866,"tag":"Good","flag":"","source":"Aggregated retail pricing (~$41), not confirmed as a Wine-Searcher-branded snippet","source_type":"ws_single_retailer"},{"id":10857720,"wine":"Domaine Jean Fournier Bourgogne Blanc Origines Cuvée Speciale","vintage":2019,"format":"750ml","region_raw":"France, Burgundy, Bourgogne","region_path":["France","Burgundy","Bourgogne"],"country_code":"FR","wine_type":"White","qty":1,"reserve":25.0,"condition":"Light label condition issue","buyer_price":29.25,"market":41.0,"pct_below":0.2866,"tag":"Good","flag":"","source":"Aggregated retail pricing (~$41), not confirmed as a Wine-Searcher-branded snippet","source_type":"ws_single_retailer"},{"id":10857680,"wine":"Domaine Laroche Chablis St. Martin","vintage":2021,"format":"750ml","region_raw":"France, Burgundy, Chablis","region_path":["France","Burgundy","Chablis"],"country_code":"FR","wine_type":"White","qty":1,"reserve":25.0,"condition":"","buyer_price":29.25,"market":39.0,"pct_below":0.25,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857727,"wine":"Domaine Laroche Chablis St. Martin","vintage":2021,"format":"750ml","region_raw":"France, Burgundy, Chablis","region_path":["France","Burgundy","Chablis"],"country_code":"FR","wine_type":"White","qty":1,"reserve":25.0,"condition":"Light label condition issue","buyer_price":29.25,"market":39.0,"pct_below":0.25,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857728,"wine":"Domaine Laroche Chablis St. Martin","vintage":2022,"format":"750ml","region_raw":"France, Burgundy, Chablis","region_path":["France","Burgundy","Chablis"],"country_code":"FR","wine_type":"White","qty":1,"reserve":25.0,"condition":"","buyer_price":29.25,"market":39.0,"pct_below":0.25,"tag":"Good","flag":"","source":"Wine-Searcher average retail for 2021 vintage used as adjacent-vintage proxy","source_type":"ws_adjacent"},{"id":10858266,"wine":"Domaine Les Pallieres Gigondas","vintage":1998,"format":"750ml","region_raw":"France, Rhône Valley, Southern Rhône","region_path":["France","Rhône Valley","Southern Rhône"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":30.0,"condition":"","buyer_price":35.1,"market":53.0,"pct_below":0.3377,"tag":"Good","flag":"","source":"Wine-Searcher average retail, cited in context of the 1998 vintage","source_type":"ws_vintage"},{"id":10863652,"wine":"Domaine Parent Pommard Les Épenots","vintage":2019,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":100.0,"condition":"","buyer_price":117.0,"market":208.0,"pct_below":0.4375,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10863653,"wine":"Domaine Perrot-Minot Gevrey Chambertin","vintage":2016,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":80.0,"condition":"","buyer_price":93.6,"market":174.0,"pct_below":0.4621,"tag":"Great","flag":"","source":"Retailer listing, Gevrey-Chambertin Vieilles Vignes 2016 bottling used as closest match","source_type":"ws_single_retailer"},{"id":10863722,"wine":"Domaine Robert Chevillon Nuits-Saint-Georges Les Pruliers","vintage":2016,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":3,"reserve":80.0,"condition":"","buyer_price":93.6,"market":166.0,"pct_below":0.4361,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10863720,"wine":"Domaine Vincent Dauvissat Irancy","vintage":2018,"format":"750ml","region_raw":"France, Burgundy, Irancy","region_path":["France","Burgundy","Irancy"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":60.0,"condition":"","buyer_price":70.2,"market":113.0,"pct_below":0.3788,"tag":"Good","flag":"","source":"Wine-Searcher, vintage-specific ex-tax price","source_type":"ws_vintage"},{"id":10856957,"wine":"Faiveley Chambolle Musigny La Combe d'Orveau","vintage":2008,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":100.0,"condition":"Light label condition issue","buyer_price":117.0,"market":234.0,"pct_below":0.5,"tag":"Great","flag":"","source":"Wine-Searcher, all-vintage average price","source_type":"ws_allvintage"},{"id":10873042,"wine":"Fattoria di Felsina Chianti Classico Riserva Rancia","vintage":2013,"format":"750ml","region_raw":"Italy, Tuscany, Chianti Classico","region_path":["Italy","Tuscany","Chianti Classico"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":40.0,"condition":"","buyer_price":46.8,"market":66.0,"pct_below":0.2909,"tag":"Good","flag":"","source":"Wine-Searcher, vintage-specific average price (ex-tax)","source_type":"ws_vintage"},{"id":10863681,"wine":"Fiorenzo Nada Barbaresco Manzola","vintage":2016,"format":"750ml","region_raw":"Italy, Piedmont, Barbaresco","region_path":["Italy","Piedmont","Barbaresco"],"country_code":"IT","wine_type":"Red","qty":4,"reserve":35.0,"condition":"","buyer_price":40.95,"market":74.0,"pct_below":0.4466,"tag":"Great","flag":"","source":"Wine-Searcher, vintage-specific average price (ex-tax)","source_type":"ws_vintage"},{"id":10857192,"wine":"Franck Balthazar Cornas Les Chaillot","vintage":2014,"format":"750ml","region_raw":"France, Rhône Valley, Northern Rhône","region_path":["France","Rhône Valley","Northern Rhône"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":75.0,"condition":"","buyer_price":87.75,"market":125.0,"pct_below":0.298,"tag":"Good","flag":"","source":"Wine-Searcher, vintage-specific average price (ex-tax)","source_type":"ws_vintage"},{"id":10857229,"wine":"Franck Balthazar Cornas Les Chaillot","vintage":2015,"format":"750ml","region_raw":"France, Rhône Valley, Northern Rhône","region_path":["France","Rhône Valley","Northern Rhône"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":75.0,"condition":"","buyer_price":87.75,"market":130.0,"pct_below":0.325,"tag":"Good","flag":"","source":"Wine-Searcher, vintage-specific average price (ex-tax)","source_type":"ws_vintage"},{"id":10857299,"wine":"G.D. Vajra Barolo Bricco delle Viole","vintage":2011,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":70.0,"condition":"","buyer_price":81.9,"market":110.0,"pct_below":0.2555,"tag":"Good","flag":"","source":"Wine-Searcher average retail, adjacent vintage used as proxy","source_type":"ws_adjacent"},{"id":10857247,"wine":"G.D. Vajra Barolo Bricco delle Viole","vintage":2012,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":65.0,"condition":"","buyer_price":76.05,"market":110.0,"pct_below":0.3086,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857298,"wine":"G.D. Vajra Barolo Bricco delle Viole","vintage":2018,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":2,"reserve":55.0,"condition":"","buyer_price":64.35,"market":89.0,"pct_below":0.277,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857248,"wine":"G.D. Vajra Barolo Ravera","vintage":2012,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":80.0,"condition":"","buyer_price":93.6,"market":197.0,"pct_below":0.5249,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857133,"wine":"G.D. Vajra Barolo Ravera","vintage":2014,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":50.0,"condition":"","buyer_price":58.5,"market":98.0,"pct_below":0.4031,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857300,"wine":"G.D. Vajra Barolo Ravera","vintage":2018,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":50.0,"condition":"","buyer_price":58.5,"market":99.0,"pct_below":0.4091,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10865150,"wine":"G.H. Mumm Brut Grand Cordon Rose","vintage":null,"format":"750ml","region_raw":"France, Champagne","region_path":["France","Champagne"],"country_code":"FR","wine_type":"Sparkling","qty":12,"reserve":35.0,"condition":"","buyer_price":40.95,"market":67.0,"pct_below":0.3888,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857812,"wine":"Georges Lignier Morey-St.-Denis Clos des Ormes","vintage":2017,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":75.0,"condition":"Light label condition issue","buyer_price":87.75,"market":120.0,"pct_below":0.2687,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857688,"wine":"Georges Lignier Morey-St.-Denis Clos des Ormes","vintage":2018,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":9,"reserve":70.0,"condition":"","buyer_price":81.9,"market":120.0,"pct_below":0.3175,"tag":"Good","flag":"","source":"Wine-Searcher average retail, adjacent vintage used as proxy","source_type":"ws_adjacent"},{"id":10857813,"wine":"Georges Lignier Morey-St.-Denis Clos des Ormes","vintage":2018,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":3,"reserve":70.0,"condition":"Light label condition issue","buyer_price":81.9,"market":120.0,"pct_below":0.3175,"tag":"Good","flag":"","source":"Wine-Searcher average retail, adjacent vintage used as proxy","source_type":"ws_adjacent"},{"id":10863641,"wine":"Giacomo Conterno Barbera d'Alba Francia","vintage":2016,"format":"750ml","region_raw":"Italy, Piedmont, Barbera di Alba","region_path":["Italy","Piedmont","Barbera di Alba"],"country_code":"IT","wine_type":"Red","qty":4,"reserve":70.0,"condition":"","buyer_price":81.9,"market":116.0,"pct_below":0.294,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10863739,"wine":"Gianni Brunelli Brunello di Montalcino","vintage":2018,"format":"1.5ltr","region_raw":"Italy, Tuscany, Brunello di Montalcino","region_path":["Italy","Tuscany","Brunello di Montalcino"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":110.0,"condition":"","buyer_price":128.7,"market":198.0,"pct_below":0.35,"tag":"Good","flag":"","source":"Estimate based on producer/appellation quality, scaled to magnum","source_type":"estimate"},{"id":10856976,"wine":"Giovanni Manzone Barolo Bricat","vintage":2003,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":45.0,"condition":"Light label condition issue","buyer_price":52.65,"market":75.0,"pct_below":0.298,"tag":"Good","flag":"","source":"Estimate based on producer/vineyard quality and vintage age","source_type":"estimate"},{"id":10857135,"wine":"Giuseppe E Figlio (Mauro) Mascarello Barolo Rocche Villero in Castiglione Falletto","vintage":2019,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":110.0,"condition":"","buyer_price":128.7,"market":190.0,"pct_below":0.3226,"tag":"Good","flag":"Mauro Mascarello (Monprivato) is among the most allocated names in Barolo; uncommon to see at auction","source":"Estimate based on producer/cru quality","source_type":"estimate"},{"id":10857136,"wine":"Giuseppe E Figlio (Mauro) Mascarello Barolo Santo Stefano di Perno","vintage":2019,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":105.0,"condition":"","buyer_price":122.85,"market":207.0,"pct_below":0.4065,"tag":"Great","flag":"Mauro Mascarello (Monprivato) is among the most allocated names in Barolo; uncommon to see at auction","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857788,"wine":"Guidobono Segretevigne Extra Brut","vintage":2018,"format":"750ml","region_raw":"Italy, Piedmont","region_path":["Italy","Piedmont"],"country_code":"IT","wine_type":"Sparkling","qty":2,"reserve":20.0,"condition":"Light label condition issue","buyer_price":23.4,"market":32.0,"pct_below":0.2688,"tag":"Good","flag":"","source":"Wine-Searcher, general average (not vintage-split)","source_type":"ws_allvintage"},{"id":10863756,"wine":"Guillaume Gilles Cornas","vintage":2020,"format":"1.5ltr","region_raw":"France, Rhône Valley, Northern Rhône","region_path":["France","Rhône Valley","Northern Rhône"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":120.0,"condition":"","buyer_price":140.4,"market":246.0,"pct_below":0.4293,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific, scaled to magnum","source_type":"ws_vintage"},{"id":10863768,"wine":"I Paglieri - Roagna Barbaresco Albesani","vintage":2018,"format":"750ml","region_raw":"Italy, Piedmont, Barbaresco","region_path":["Italy","Piedmont","Barbaresco"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":85.0,"condition":"","buyer_price":99.45,"market":175.0,"pct_below":0.4317,"tag":"Great","flag":"","source":"Estimate based on sibling Roagna 2018 Barbaresco cru pricing","source_type":"estimate"},{"id":10863769,"wine":"I Paglieri - Roagna Barbaresco Faset","vintage":2018,"format":"750ml","region_raw":"Italy, Piedmont, Barbaresco","region_path":["Italy","Piedmont","Barbaresco"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":70.0,"condition":"","buyer_price":81.9,"market":174.0,"pct_below":0.5293,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10863629,"wine":"I Paglieri - Roagna Barbaresco Gallina","vintage":2018,"format":"750ml","region_raw":"Italy, Piedmont, Barbaresco","region_path":["Italy","Piedmont","Barbaresco"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":75.0,"condition":"","buyer_price":87.75,"market":175.0,"pct_below":0.4986,"tag":"Great","flag":"","source":"Estimate based on sibling Roagna 2018 Barbaresco cru pricing","source_type":"estimate"},{"id":10863771,"wine":"I Paglieri - Roagna Barolo e La Pira","vintage":2018,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":110.0,"condition":"","buyer_price":128.7,"market":378.0,"pct_below":0.6595,"tag":"Steal","flag":"Roagna is a cult traditionalist producer rarely seen this far under retail","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857237,"wine":"Jean-Baptiste Souillard Crozes-Hermitage Les Baties","vintage":2018,"format":"750ml","region_raw":"France, Rhône Valley, Northern Rhône","region_path":["France","Rhône Valley","Northern Rhône"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":35.0,"condition":"","buyer_price":40.95,"market":55.0,"pct_below":0.2555,"tag":"Good","flag":"","source":"Estimate based on sibling Souillard Crozes-Hermitage cuvee pricing","source_type":"estimate"},{"id":10857415,"wine":"Jean-Baptiste Souillard Crozes-Hermitage Tenay","vintage":2018,"format":"750ml","region_raw":"France, Rhône Valley, Northern Rhône","region_path":["France","Rhône Valley","Northern Rhône"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":35.0,"condition":"","buyer_price":40.95,"market":59.0,"pct_below":0.3059,"tag":"Good","flag":"","source":"Wine-Searcher, general average","source_type":"ws_allvintage"},{"id":10857768,"wine":"Le Chemin du Roi Brut","vintage":null,"format":"375ml","region_raw":"France, Champagne","region_path":["France","Champagne"],"country_code":"FR","wine_type":"Sparkling","qty":4,"reserve":25.0,"condition":"","buyer_price":29.25,"market":94.0,"pct_below":0.6888,"tag":"Steal","flag":"","source":"Wine-Searcher average retail, scaled from 750ml","source_type":"ws_vintage"},{"id":10857755,"wine":"Le Chemin du Roi Brut Rosé","vintage":null,"format":"750ml","region_raw":"France, Champagne","region_path":["France","Champagne"],"country_code":"FR","wine_type":"Sparkling","qty":6,"reserve":75.0,"condition":"","buyer_price":87.75,"market":311.0,"pct_below":0.7178,"tag":"Steal","flag":"","source":"Wine-Searcher average retail","source_type":"ws_vintage"},{"id":10863740,"wine":"Le Vieux Donjon Châteauneuf-du-Pape","vintage":2017,"format":"1.5ltr","region_raw":"France, Rhône Valley, Southern Rhône","region_path":["France","Rhône Valley","Southern Rhône"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":100.0,"condition":"","buyer_price":117.0,"market":156.2,"pct_below":0.251,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific, scaled to magnum","source_type":"ws_vintage"},{"id":10863754,"wine":"Le Vieux Donjon Châteauneuf-du-Pape","vintage":2019,"format":"1.5ltr","region_raw":"France, Rhône Valley, Southern Rhône","region_path":["France","Rhône Valley","Southern Rhône"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":100.0,"condition":"","buyer_price":117.0,"market":169.4,"pct_below":0.3093,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific (750ml base scaled to magnum)","source_type":"ws_vintage"},{"id":10863755,"wine":"Le Vieux Donjon Châteauneuf-du-Pape","vintage":2020,"format":"1.5ltr","region_raw":"France, Rhône Valley, Southern Rhône","region_path":["France","Rhône Valley","Southern Rhône"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":90.0,"condition":"","buyer_price":105.3,"market":147.4,"pct_below":0.2856,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific (750ml base scaled to magnum)","source_type":"ws_vintage"},{"id":10863616,"wine":"Le Vieux Donjon Châteauneuf-du-Pape","vintage":2021,"format":"750ml","region_raw":"France, Rhône Valley, Southern Rhône","region_path":["France","Rhône Valley","Southern Rhône"],"country_code":"FR","wine_type":"Red","qty":4,"reserve":35.0,"condition":"","buyer_price":40.95,"market":66.0,"pct_below":0.3795,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857439,"wine":"Luciano Sandrone Barbera d' Alba","vintage":2016,"format":"750ml","region_raw":"Italy, Piedmont, Barbera di Alba","region_path":["Italy","Piedmont","Barbera di Alba"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":25.0,"condition":"","buyer_price":29.25,"market":45.0,"pct_below":0.35,"tag":"Good","flag":"","source":"Wine-Searcher-sourced average store price, not clearly vintage-dated","source_type":"ws_allvintage"},{"id":10857402,"wine":"Luciano Sandrone Barolo Aleste","vintage":2014,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":85.0,"condition":"","buyer_price":99.45,"market":275.0,"pct_below":0.6384,"tag":"Steal","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857324,"wine":"Luciano Sandrone Barolo Le Vigne","vintage":2014,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":70.0,"condition":"","buyer_price":81.9,"market":124.0,"pct_below":0.3395,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10856960,"wine":"Lucien Boillot & Fils Gevrey-Chambertin Les Cherbaudes","vintage":2008,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":75.0,"condition":"Light label condition issue","buyer_price":87.75,"market":179.0,"pct_below":0.5098,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10856956,"wine":"Lucien Boillot & Fils Gevrey-Chambertin Les Cherbaudes","vintage":2008,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":75.0,"condition":"Light capsule condition issue; Light label condition issue","buyer_price":87.75,"market":179.0,"pct_below":0.5098,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10864713,"wine":"Lupe-Cholet Nuits-St.-Georges Chateau Gris","vintage":1983,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":90.0,"condition":"Light capsule condition issue; Light label condition issue","buyer_price":105.3,"market":350.99,"pct_below":0.7,"tag":"Steal","flag":"","source":"Wine.com retail listing (historical, now sold out)","source_type":"ws_single_retailer"},{"id":10864756,"wine":"M. Chapoutier Cote-Rotie La Mordoree","vintage":1998,"format":"750ml","region_raw":"France, Rhône Valley, Northern Rhône","region_path":["France","Rhône Valley","Northern Rhône"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":130.0,"condition":"Light capsule condition issue; Light label condition issue","buyer_price":152.1,"market":204.0,"pct_below":0.2544,"tag":"Good","flag":"","source":"Wine-Searcher, all-vintage average","source_type":"ws_allvintage"},{"id":10857374,"wine":"M. Marengo Barolo","vintage":2016,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":2,"reserve":25.0,"condition":"","buyer_price":29.25,"market":50.0,"pct_below":0.415,"tag":"Great","flag":"","source":"Wine-Searcher, vintage-specific average retail (ex-tax)","source_type":"ws_vintage"},{"id":10857811,"wine":"Maison la Berthaude Châteauneuf-du-Pape Vignes Centenaires Reserve V.V.","vintage":2018,"format":"750ml","region_raw":"France, Rhône Valley, Southern Rhône","region_path":["France","Rhône Valley","Southern Rhône"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":20.0,"condition":"Light label condition issue","buyer_price":23.4,"market":65.0,"pct_below":0.64,"tag":"Steal","flag":"","source":"Estimate based on producer/appellation/cuvee quality; no price surfaced in search","source_type":"estimate"},{"id":10857806,"wine":"Maison la Berthaude Châteauneuf-du-Pape Vignes Centenaires Reserve V.V.","vintage":2018,"format":"750ml","region_raw":"France, Rhône Valley, Southern Rhône","region_path":["France","Rhône Valley","Southern Rhône"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":20.0,"condition":"","buyer_price":23.4,"market":65.0,"pct_below":0.64,"tag":"Steal","flag":"","source":"Estimate based on producer/appellation/cuvee quality; no price surfaced in search","source_type":"estimate"},{"id":10864527,"wine":"Marchand-Grillot Gevrey-Chambertin Petite Chapelle","vintage":2009,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":4,"reserve":90.0,"condition":"","buyer_price":105.3,"market":157.0,"pct_below":0.3293,"tag":"Good","flag":"","source":"Wine-Searcher, all-vintage average (vintage not confirmed as 2009)","source_type":"ws_allvintage"},{"id":10857694,"wine":"Mongeard-Mugneret Nuits-St.-Georges Les Plateaux","vintage":2018,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":50.0,"condition":"","buyer_price":58.5,"market":152.0,"pct_below":0.6151,"tag":"Steal","flag":"","source":"Single reputable retailer listing (Vinissimus UK, GBP 119.60)","source_type":"ws_single_retailer"},{"id":10864251,"wine":"Monteverro Toscana Terra di Monteverro","vintage":2018,"format":"750ml","region_raw":"Italy, Tuscany","region_path":["Italy","Tuscany"],"country_code":"IT","wine_type":"Red","qty":11,"reserve":25.0,"condition":"","buyer_price":29.25,"market":51.0,"pct_below":0.4265,"tag":"Great","flag":"","source":"Wine-Searcher, vintage-specific average retail","source_type":"ws_vintage"},{"id":10864596,"wine":"Morey-Blanc Meursault","vintage":2004,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"White","qty":6,"reserve":70.0,"condition":"","buyer_price":81.9,"market":143.0,"pct_below":0.4273,"tag":"Great","flag":"","source":"Wine-Searcher average retail, appears to reflect this wine but not confirmed vintage-specific","source_type":"ws_allvintage"},{"id":10864690,"wine":"Morey-Blanc Meursault Gouttes d'Or","vintage":2004,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"White","qty":11,"reserve":85.0,"condition":"","buyer_price":99.45,"market":175.0,"pct_below":0.4317,"tag":"Great","flag":"","source":"Estimate based on Morey-Blanc Meursault village pricing plus premier cru premium for Gouttes d'Or vineyard","source_type":"estimate"},{"id":10864691,"wine":"Morey-Blanc Meursault Gouttes d'Or","vintage":2004,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"White","qty":1,"reserve":85.0,"condition":"Light label condition issue","buyer_price":99.45,"market":175.0,"pct_below":0.4317,"tag":"Great","flag":"","source":"Estimate based on Morey-Blanc Meursault village pricing plus premier cru premium for Gouttes d'Or vineyard","source_type":"estimate"},{"id":10863757,"wine":"Nervi Conterno Gattinara","vintage":2015,"format":"1.5ltr","region_raw":"Italy, Piedmont, Gattinara","region_path":["Italy","Piedmont","Gattinara"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":110.0,"condition":"","buyer_price":128.7,"market":211.2,"pct_below":0.3906,"tag":"Good","flag":"","source":"Wine-Searcher all-vintage average retail ($96/750ml), scaled to magnum","source_type":"ws_allvintage"},{"id":10857882,"wine":"Numanthia-Termes Termanthia","vintage":2010,"format":"750ml","region_raw":"Spain, Castilla-Leon, Toro","region_path":["Spain","Castilla-Leon","Toro"],"country_code":"ES","wine_type":"Red","qty":2,"reserve":140.0,"condition":"","buyer_price":163.8,"market":273.0,"pct_below":0.4,"tag":"Great","flag":"Termanthia is Numanthia's flagship old-vine Toro cuvee; benchmark for the region","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857883,"wine":"Numanthia-Termes Termanthia","vintage":2010,"format":"750ml","region_raw":"Spain, Castilla-Leon, Toro","region_path":["Spain","Castilla-Leon","Toro"],"country_code":"ES","wine_type":"Red","qty":1,"reserve":140.0,"condition":"Light capsule condition issue","buyer_price":163.8,"market":273.0,"pct_below":0.4,"tag":"Great","flag":"Termanthia is Numanthia's flagship old-vine Toro cuvee; benchmark for the region","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857569,"wine":"Olga Raffault Chinon Champ-Chenin Blanc","vintage":2013,"format":"750ml","region_raw":"France, Loire Valley, Touraine","region_path":["France","Loire Valley","Touraine"],"country_code":"FR","wine_type":"White","qty":1,"reserve":30.0,"condition":"Label condition issue","buyer_price":35.1,"market":48.0,"pct_below":0.2687,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage not explicitly confirmed","source_type":"ws_allvintage"},{"id":10857436,"wine":"Olga Raffault Chinon Les Picasses","vintage":2009,"format":"750ml","region_raw":"France, Loire Valley, Touraine","region_path":["France","Loire Valley","Touraine"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":45.0,"condition":"","buyer_price":52.65,"market":73.0,"pct_below":0.2788,"tag":"Good","flag":"","source":"Multiple retailer listings, vintage-specific ($69.99-$75.99)","source_type":"ws_vintage"},{"id":10857146,"wine":"Ostertag Riesling Heissenberg","vintage":2018,"format":"750ml","region_raw":"France, Alsace","region_path":["France","Alsace"],"country_code":"FR","wine_type":"White","qty":1,"reserve":25.0,"condition":"","buyer_price":29.25,"market":65.0,"pct_below":0.55,"tag":"Steal","flag":"","source":"Wine-Searcher average retail, vintage-specific (USA avg)","source_type":"ws_vintage"},{"id":10857718,"wine":"Paolo Bea Montefalco Sagrantino Secco Cerrete","vintage":2015,"format":"750ml","region_raw":"Italy, Umbria, Montefalco Sagrantino","region_path":["Italy","Umbria","Montefalco Sagrantino"],"country_code":"IT","wine_type":"Red","qty":5,"reserve":120.0,"condition":"","buyer_price":140.4,"market":193.0,"pct_below":0.2725,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857896,"wine":"Pascal Clément Bourgogne Pinot Noir","vintage":2016,"format":"750ml","region_raw":"France, Burgundy, Bourgogne","region_path":["France","Burgundy","Bourgogne"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":20.0,"condition":"Light capsule condition issue; Light label condition issue","buyer_price":23.4,"market":51.0,"pct_below":0.5412,"tag":"Great","flag":"","source":"Wine-Searcher average retail, all-vintage average","source_type":"ws_allvintage"},{"id":10857893,"wine":"Pascal Clément Bourgogne Pinot Noir","vintage":2017,"format":"750ml","region_raw":"France, Burgundy, Bourgogne","region_path":["France","Burgundy","Bourgogne"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":20.0,"condition":"","buyer_price":23.4,"market":51.0,"pct_below":0.5412,"tag":"Great","flag":"","source":"Wine-Searcher average retail, all-vintage average","source_type":"ws_allvintage"},{"id":10857894,"wine":"Pascal Clément Bourgogne Pinot Noir","vintage":2017,"format":"750ml","region_raw":"France, Burgundy, Bourgogne","region_path":["France","Burgundy","Bourgogne"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":20.0,"condition":"Light capsule condition issue; Light label condition issue","buyer_price":23.4,"market":51.0,"pct_below":0.5412,"tag":"Great","flag":"","source":"Wine-Searcher average retail, all-vintage average","source_type":"ws_allvintage"},{"id":10857895,"wine":"Pascal Clément Bourgogne Pinot Noir","vintage":2017,"format":"750ml","region_raw":"France, Burgundy, Bourgogne","region_path":["France","Burgundy","Bourgogne"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":20.0,"condition":"Light label condition issue","buyer_price":23.4,"market":51.0,"pct_below":0.5412,"tag":"Great","flag":"","source":"Wine-Searcher average retail, all-vintage average","source_type":"ws_allvintage"},{"id":10865164,"wine":"Perrier-Jouet Grand Brut (Label #7)","vintage":null,"format":"750ml","region_raw":"France, Champagne","region_path":["France","Champagne"],"country_code":"FR","wine_type":"Sparkling","qty":30,"reserve":40.0,"condition":"","buyer_price":46.8,"market":64.0,"pct_below":0.2688,"tag":"Good","flag":"","source":"Wine-Searcher average retail, USA average","source_type":"ws_vintage"},{"id":10857466,"wine":"Philippe Alliet Chinon Coteau de Noiré","vintage":2018,"format":"750ml","region_raw":"France, Loire Valley, Touraine","region_path":["France","Loire Valley","Touraine"],"country_code":"FR","wine_type":"Red","qty":2,"reserve":35.0,"condition":"","buyer_price":40.95,"market":65.0,"pct_below":0.37,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10864968,"wine":"Pierre Morey Monthélie","vintage":2006,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","qty":21,"reserve":35.0,"condition":"","buyer_price":40.95,"market":55.0,"pct_below":0.2555,"tag":"Good","flag":"","source":"Estimate based on producer/appellation reputation (no explicit WS price in snippet, only 88/100 critic score)","source_type":"estimate"},{"id":10857514,"wine":"Pierre Trichet Brut 1er Cru L'Exception","vintage":2015,"format":"750ml","region_raw":"France, Champagne","region_path":["France","Champagne"],"country_code":"FR","wine_type":"Sparkling","qty":4,"reserve":40.0,"condition":"","buyer_price":46.8,"market":71.0,"pct_below":0.3408,"tag":"Good","flag":"","source":"Wine-Searcher average retail, all-millesime average (2015-specific price not shown)","source_type":"ws_allvintage"},{"id":10863782,"wine":"Podere le Boncie (Giovanna Morganti) Toscana Chiesamonti","vintage":2020,"format":"750ml","region_raw":"Italy, Tuscany","region_path":["Italy","Tuscany"],"country_code":"IT","wine_type":"Red","qty":3,"reserve":55.0,"condition":"","buyer_price":64.35,"market":88.0,"pct_below":0.2688,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10863610,"wine":"Produttori del Barbaresco Barbaresco Muncagota Riserva","vintage":2013,"format":"750ml","region_raw":"Italy, Piedmont, Barbaresco","region_path":["Italy","Piedmont","Barbaresco"],"country_code":"IT","wine_type":"Red","qty":3,"reserve":55.0,"condition":"","buyer_price":64.35,"market":110.0,"pct_below":0.415,"tag":"Great","flag":"","source":"Estimate based on comparable Produttori del Barbaresco single-vineyard Riserva pricing (no explicit WS price in snippet)","source_type":"estimate"},{"id":10857547,"wine":"Raul Pérez La Vizcaina La Del Vivo Lomas de Valtuille","vintage":2016,"format":"750ml","region_raw":"Spain, Castilla-Leon, Bierzo","region_path":["Spain","Castilla-Leon","Bierzo"],"country_code":"ES","wine_type":"Red","qty":1,"reserve":25.0,"condition":"","buyer_price":29.25,"market":43.0,"pct_below":0.3198,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857269,"wine":"Raul Pérez La Vizcaina Las Gundiñas Lomas De Valtuille","vintage":2019,"format":"750ml","region_raw":"Spain, Castilla-Leon, Bierzo","region_path":["Spain","Castilla-Leon","Bierzo"],"country_code":"ES","wine_type":"Red","qty":1,"reserve":25.0,"condition":"Light label condition issue","buyer_price":29.25,"market":43.0,"pct_below":0.3198,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857270,"wine":"Raul Pérez La Vizcaina Las Gundiñas Lomas De Valtuille","vintage":2019,"format":"750ml","region_raw":"Spain, Castilla-Leon, Bierzo","region_path":["Spain","Castilla-Leon","Bierzo"],"country_code":"ES","wine_type":"Red","qty":1,"reserve":25.0,"condition":"","buyer_price":29.25,"market":43.0,"pct_below":0.3198,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857549,"wine":"Raul Pérez Ultreia La Claudina","vintage":2016,"format":"750ml","region_raw":"Spain, Castilla-Leon, Bierzo","region_path":["Spain","Castilla-Leon","Bierzo"],"country_code":"ES","wine_type":"Red","qty":1,"reserve":40.0,"condition":"","buyer_price":46.8,"market":70.0,"pct_below":0.3314,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857240,"wine":"Rene Rostaing Condrieu La Bonnette","vintage":2020,"format":"750ml","region_raw":"France, Rhône Valley, Northern Rhône","region_path":["France","Rhône Valley","Northern Rhône"],"country_code":"FR","wine_type":"White","qty":1,"reserve":60.0,"condition":"","buyer_price":70.2,"market":96.0,"pct_below":0.2687,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific (2020)","source_type":"ws_vintage"},{"id":10857289,"wine":"Rene Rostaing Cote-Rotie Ampodium","vintage":2021,"format":"750ml","region_raw":"France, Rhône Valley, Northern Rhône","region_path":["France","Rhône Valley","Northern Rhône"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":45.0,"condition":"","buyer_price":52.65,"market":94.0,"pct_below":0.4399,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific (2021)","source_type":"ws_vintage"},{"id":10865092,"wine":"Roger Sabon Chateauneuf du Pape Le Secret des Sabon","vintage":2016,"format":"750ml","region_raw":"France, Rhône Valley, Southern Rhône","region_path":["France","Rhône Valley","Southern Rhône"],"country_code":"FR","wine_type":"Red","qty":1,"reserve":105.0,"condition":"","buyer_price":122.85,"market":179.0,"pct_below":0.3137,"tag":"Good","flag":"","source":"Wine-Searcher average retail, all-vintage average","source_type":"ws_allvintage"},{"id":10865170,"wine":"Roland Lavantureux Bourgogne Tonnerre","vintage":2022,"format":"750ml","region_raw":"France, Burgundy, Bourgogne","region_path":["France","Burgundy","Bourgogne"],"country_code":"FR","wine_type":"White","qty":12,"reserve":30.0,"condition":"","buyer_price":35.1,"market":47.0,"pct_below":0.2532,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific (2022)","source_type":"ws_vintage"},{"id":10865173,"wine":"Ruffino Chianti Classico Riserva Ducale (Gold Label)","vintage":2020,"format":"750ml","region_raw":"Italy, Tuscany, Chianti Classico","region_path":["Italy","Tuscany","Chianti Classico"],"country_code":"IT","wine_type":"Red","qty":6,"reserve":25.0,"condition":"","buyer_price":29.25,"market":40.0,"pct_below":0.2687,"tag":"Good","flag":"","source":"Estimate — no price digit surfaced in search results","source_type":"estimate"},{"id":10857786,"wine":"Ruinart Brut Rosé","vintage":null,"format":"750ml","region_raw":"France, Champagne","region_path":["France","Champagne"],"country_code":"FR","wine_type":"Sparkling","qty":1,"reserve":70.0,"condition":"","buyer_price":81.9,"market":112.0,"pct_below":0.2687,"tag":"Good","flag":"","source":"Wine-Searcher average retail, US average","source_type":"ws_vintage"},{"id":10864952,"wine":"San Rustico Ripasso della Valpolicella Classico Superiore Vigneti del Gaso","vintage":1998,"format":"750ml","region_raw":"Italy, Veneto, Valpolicella Ripasso","region_path":["Italy","Veneto","Valpolicella Ripasso"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":20.0,"condition":"","buyer_price":23.4,"market":46.0,"pct_below":0.4913,"tag":"Great","flag":"","source":"Wine-Searcher average retail, all-vintage average (1998 not separately listed)","source_type":"ws_allvintage"},{"id":10865181,"wine":"Taittinger Brut La Francaise","vintage":null,"format":"750ml","region_raw":"France, Champagne","region_path":["France","Champagne"],"country_code":"FR","wine_type":"Sparkling","qty":12,"reserve":35.0,"condition":"","buyer_price":40.95,"market":65.0,"pct_below":0.37,"tag":"Good","flag":"","source":"Wine-Searcher average retail","source_type":"ws_vintage"},{"id":10858037,"wine":"Taittinger Brut La Francaise","vintage":null,"format":"750ml","region_raw":"France, Champagne","region_path":["France","Champagne"],"country_code":"FR","wine_type":"Sparkling","qty":1,"reserve":35.0,"condition":"Light label condition issue","buyer_price":40.95,"market":65.0,"pct_below":0.37,"tag":"Good","flag":"","source":"Wine-Searcher average retail","source_type":"ws_vintage"},{"id":10857657,"wine":"Tenuta Delle Terre Nere Etna Rosso Calderara Sottana","vintage":2020,"format":"750ml","region_raw":"Italy, Sicily, Etna","region_path":["Italy","Sicily","Etna"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":45.0,"condition":"","buyer_price":52.65,"market":72.0,"pct_below":0.2688,"tag":"Good","flag":"","source":"Wine-Searcher average retail, 2019 vintage used as adjacent proxy","source_type":"ws_adjacent"},{"id":10857630,"wine":"Tenuta Delle Terre Nere San Lorenzo Vecchie Vigne","vintage":2017,"format":"750ml","region_raw":"Italy, Sicily, Etna","region_path":["Italy","Sicily","Etna"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":45.0,"condition":"","buyer_price":52.65,"market":146.0,"pct_below":0.6394,"tag":"Steal","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857638,"wine":"Tenuta Delle Terre Nere San Lorenzo Vecchie Vigne","vintage":2018,"format":"750ml","region_raw":"Italy, Sicily, Etna","region_path":["Italy","Sicily","Etna"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":45.0,"condition":"","buyer_price":52.65,"market":79.0,"pct_below":0.3335,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10863680,"wine":"Trediberri Barolo del Comune di La Morra","vintage":2018,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":35.0,"condition":"","buyer_price":40.95,"market":64.0,"pct_below":0.3602,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857574,"wine":"Trimbach Riesling Geisberg","vintage":2016,"format":"750ml","region_raw":"France, Alsace, Geisberg","region_path":["France","Alsace","Geisberg"],"country_code":"FR","wine_type":"White","qty":1,"reserve":70.0,"condition":"","buyer_price":81.9,"market":155.0,"pct_below":0.4716,"tag":"Great","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857601,"wine":"Trimbach Riesling Mandelberg","vintage":2016,"format":"750ml","region_raw":"France, Alsace, Mandelberg","region_path":["France","Alsace","Mandelberg"],"country_code":"FR","wine_type":"White","qty":1,"reserve":60.0,"condition":"","buyer_price":70.2,"market":118.0,"pct_below":0.4051,"tag":"Great","flag":"","source":"Wine-Searcher listing, found via 2016-specific search","source_type":"ws_vintage"},{"id":10857602,"wine":"Trimbach Riesling Schlossberg","vintage":2016,"format":"750ml","region_raw":"France, Alsace, Schlossberg","region_path":["France","Alsace","Schlossberg"],"country_code":"FR","wine_type":"White","qty":1,"reserve":75.0,"condition":"","buyer_price":87.75,"market":139.0,"pct_below":0.3687,"tag":"Good","flag":"","source":"Wine-Searcher average retail, appears to be all-vintage average","source_type":"ws_allvintage"},{"id":10858038,"wine":"Veuve Clicquot Ponsardin Brut","vintage":null,"format":"750ml","region_raw":"France, Champagne","region_path":["France","Champagne"],"country_code":"FR","wine_type":"Sparkling","qty":2,"reserve":40.0,"condition":"","buyer_price":46.8,"market":76.0,"pct_below":0.3842,"tag":"Good","flag":"","source":"Wine-Searcher average retail (Yellow Label Brut NV)","source_type":"ws_vintage"},{"id":10865084,"wine":"Vietti Barbera d'Alba Scarrone Vigna Vecchia","vintage":2009,"format":"1.5ltr","region_raw":"Italy, Piedmont, Barbera di Alba","region_path":["Italy","Piedmont","Barbera di Alba"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":130.0,"condition":"","buyer_price":152.1,"market":209.0,"pct_below":0.2722,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific (scaled to magnum)","source_type":"ws_vintage"},{"id":10857621,"wine":"Vietti Barolo Brunate","vintage":2013,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":130.0,"condition":"","buyer_price":152.1,"market":207.0,"pct_below":0.2652,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857620,"wine":"Vietti Barolo Lazzarito","vintage":2013,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":125.0,"condition":"","buyer_price":146.25,"market":226.0,"pct_below":0.3529,"tag":"Good","flag":"","source":"Wine-Searcher average retail, vintage-specific","source_type":"ws_vintage"},{"id":10857633,"wine":"Vietti Barolo Monvigliero","vintage":2019,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","qty":1,"reserve":130.0,"condition":"","buyer_price":152.1,"market":248.0,"pct_below":0.3867,"tag":"Good","flag":"Monvigliero is one of Barolo's smallest, most prized crus","source":"Retailer listing price (wine.com), not a confirmed Wine-Searcher average","source_type":"ws_single_retailer"},{"id":10857674,"wine":"Zind-Humbrecht Gewurztraminer","vintage":2020,"format":"750ml","region_raw":"France, Alsace","region_path":["France","Alsace"],"country_code":"FR","wine_type":"White","qty":3,"reserve":20.0,"condition":"Light label condition issue","buyer_price":23.4,"market":40.0,"pct_below":0.415,"tag":"Great","flag":"","source":"Estimate from general knowledge (base-tier Zind-Humbrecht Gewurztraminer, e.g. Turckheim bottling)","source_type":"estimate"}],"unvalued":[{"id":10857161,"wine":"AR.PE.PE. Valtellina Superiore Inferno Fiamme Antiche","vintage":2017,"format":"750ml","region_raw":"Italy, Lombardy, Valtellina Superiore","region_path":["Italy","Lombardy","Valtellina Superiore"],"country_code":"IT","wine_type":"Red","reserve":35.0,"condition":""},{"id":10863639,"wine":"Bitouzet-Prieur Meursault Perrières","vintage":2021,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"White","reserve":110.0,"condition":""},{"id":10857703,"wine":"Bodegas Emilio Moro Bierzo El Zarzal Blanco","vintage":2019,"format":"750ml","region_raw":"Spain, Castilla-Leon, Bierzo","region_path":["Spain","Castilla-Leon","Bierzo"],"country_code":"ES","wine_type":"White","reserve":25.0,"condition":""},{"id":10863433,"wine":"Château du Moulin Noir","vintage":1996,"format":"750ml","region_raw":"France, Bordeaux, Lussac-St.-Emilion","region_path":["France","Bordeaux","Lussac-St.-Emilion"],"country_code":"FR","wine_type":"Red","reserve":20.0,"condition":""},{"id":10857783,"wine":"Château La Gaffeliere","vintage":2010,"format":"750ml","region_raw":"France, Bordeaux, St.-Émilion","region_path":["France","Bordeaux","St.-Émilion"],"country_code":"FR","wine_type":"Red","reserve":85.0,"condition":"Light capsule condition issue; Light label condition issue"},{"id":10864402,"wine":"Château Larroque","vintage":1990,"format":"750ml","region_raw":"France, Bordeaux","region_path":["France","Bordeaux"],"country_code":"FR","wine_type":"Red","reserve":55.0,"condition":""},{"id":10857707,"wine":"Chateau Simone Graves Blanc","vintage":2019,"format":"750ml","region_raw":"France, Bordeaux, Graves","region_path":["France","Bordeaux","Graves"],"country_code":"FR","wine_type":"White","reserve":20.0,"condition":"Light label condition issue"},{"id":10857823,"wine":"Chateau Simone Graves Blanc","vintage":2019,"format":"750ml","region_raw":"France, Bordeaux, Graves","region_path":["France","Bordeaux","Graves"],"country_code":"FR","wine_type":"White","reserve":20.0,"condition":""},{"id":10864438,"wine":"Château Sociando-Mallet","vintage":1989,"format":"750ml","region_raw":"France, Bordeaux, Haut-Médoc","region_path":["France","Bordeaux","Haut-Médoc"],"country_code":"FR","wine_type":"Red","reserve":95.0,"condition":""},{"id":10864439,"wine":"Château Sociando-Mallet","vintage":1989,"format":"750ml","region_raw":"France, Bordeaux, Haut-Médoc","region_path":["France","Bordeaux","Haut-Médoc"],"country_code":"FR","wine_type":"Red","reserve":95.0,"condition":"Light capsule condition issue; Very top shoulder fill; Light label condition issue"},{"id":10864440,"wine":"Château Sociando-Mallet","vintage":1989,"format":"750ml","region_raw":"France, Bordeaux, Haut-Médoc","region_path":["France","Bordeaux","Haut-Médoc"],"country_code":"FR","wine_type":"Red","reserve":95.0,"condition":"Very top shoulder fill; Light label condition issue"},{"id":10858137,"wine":"Chateau Soleil","vintage":2012,"format":"750ml","region_raw":"France, Bordeaux, Puisseguin-St.-Emilion","region_path":["France","Bordeaux","Puisseguin-St.-Emilion"],"country_code":"FR","wine_type":"Red","reserve":20.0,"condition":""},{"id":10858021,"wine":"Château Suduiraut","vintage":1996,"format":"750ml","region_raw":"France, Bordeaux, Sauternes","region_path":["France","Bordeaux","Sauternes"],"country_code":"FR","wine_type":"Red","reserve":65.0,"condition":"Light capsule condition issue; Light label condition issue"},{"id":10864226,"wine":"Clerico Barolo Ciabot Mentin Ginestra","vintage":1998,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","reserve":145.0,"condition":"Light label condition issue"},{"id":10863436,"wine":"Couvent des Jacobins","vintage":1994,"format":"750ml","region_raw":"France, Bordeaux, St.-Émilion","region_path":["France","Bordeaux","St.-Émilion"],"country_code":"FR","wine_type":"Red","reserve":50.0,"condition":""},{"id":10857264,"wine":"Domaine Huet Vouvray Le Mont Sec","vintage":2020,"format":"750ml","region_raw":"France, Loire Valley, Vouvray","region_path":["France","Loire Valley","Vouvray"],"country_code":"FR","wine_type":"White","reserve":35.0,"condition":""},{"id":10873052,"wine":"Domaine Santa Duc Grand Grenache 66","vintage":2009,"format":"750ml","region_raw":"France, Rhône Valley, Southern Rhône","region_path":["France","Rhône Valley","Southern Rhône"],"country_code":"FR","wine_type":"Red","reserve":55.0,"condition":""},{"id":10857235,"wine":"Domaine Vincent Paris Cornas Granit 30","vintage":2018,"format":"750ml","region_raw":"France, Rhône Valley, Northern Rhône","region_path":["France","Rhône Valley","Northern Rhône"],"country_code":"FR","wine_type":"Red","reserve":30.0,"condition":""},{"id":10857241,"wine":"Domaine Vincent Paris Cornas Granit 60 Vieilles Vignes","vintage":2017,"format":"750ml","region_raw":"France, Rhône Valley, Northern Rhône","region_path":["France","Rhône Valley","Northern Rhône"],"country_code":"FR","wine_type":"Red","reserve":50.0,"condition":""},{"id":10857107,"wine":"Domaine Vincent Paris Cornas La Geynale","vintage":2017,"format":"750ml","region_raw":"France, Rhône Valley, Northern Rhône","region_path":["France","Rhône Valley","Northern Rhône"],"country_code":"FR","wine_type":"Red","reserve":65.0,"condition":""},{"id":10857774,"wine":"Edmond Cornu Aloxe-Corton 1er Cru Les Valozières","vintage":2011,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":40.0,"condition":""},{"id":10864683,"wine":"Faiveley Montagny","vintage":2006,"format":"750ml","region_raw":"France, Burgundy, Côte Chalonnaise","region_path":["France","Burgundy","Côte Chalonnaise"],"country_code":"FR","wine_type":"White","reserve":40.0,"condition":""},{"id":10857844,"wine":"Father John Pere Jean Chablis Bougros","vintage":2018,"format":"750ml","region_raw":"France, Burgundy, Chablis","region_path":["France","Burgundy","Chablis"],"country_code":"FR","wine_type":"White","reserve":70.0,"condition":""},{"id":10857236,"wine":"Jean-Baptiste Souillard Saint-Joseph","vintage":2018,"format":"750ml","region_raw":"France, Rhône Valley, Northern Rhône","region_path":["France","Rhône Valley","Northern Rhône"],"country_code":"FR","wine_type":"Red","reserve":30.0,"condition":""},{"id":10864632,"wine":"Laleure-Piot Corton Bressandes","vintage":1981,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":150.0,"condition":"Light capsule condition issue; Label condition issue"},{"id":10864710,"wine":"Laleure-Piot Corton Bressandes","vintage":1981,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":150.0,"condition":"Light capsule condition issue; Light label condition issue"},{"id":10857751,"wine":"Louis Chenu Savigny-les-Beaune Les Saucours","vintage":2021,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":30.0,"condition":""},{"id":10857750,"wine":"Louis Chenu Savigny-les-Beaune Les Saucours","vintage":2021,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":30.0,"condition":"Light label condition issue"},{"id":10864630,"wine":"Louis Jadot Domaine des  Héritiers Corton Pougets","vintage":1981,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":120.0,"condition":"Light label condition issue"},{"id":10857102,"wine":"Luciano Sandrone Barolo Le Vigne","vintage":2013,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","reserve":130.0,"condition":""},{"id":10864528,"wine":"Marchand-Grillot Gevrey Chambertin En Songe","vintage":2009,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":50.0,"condition":""},{"id":10864903,"wine":"Marchesi Antinori Chianti Classico Marchese Antinori Riserva","vintage":2003,"format":"1.5ltr","region_raw":"Italy, Tuscany, Chianti Classico","region_path":["Italy","Tuscany","Chianti Classico"],"country_code":"IT","wine_type":"Red","reserve":70.0,"condition":""},{"id":10864606,"wine":"Morey-Blanc Aloxe-Corton Les Vercots","vintage":2004,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"White","reserve":40.0,"condition":""},{"id":10864605,"wine":"Morey-Blanc Aloxe-Corton Les Vercots","vintage":2004,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"White","reserve":40.0,"condition":"Light label condition issue"},{"id":10864685,"wine":"Morey-Blanc Meursault Genevrieres","vintage":2003,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"White","reserve":75.0,"condition":""},{"id":10864631,"wine":"Olivier Leflaive Chassagne-Montrachet (Rouge)","vintage":1988,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":55.0,"condition":"Label condition issue"},{"id":10864526,"wine":"Patrick et Martine Jacob-Girard Pernand Vergelesses","vintage":2009,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":45.0,"condition":""},{"id":10864537,"wine":"Patrick et Martine Jacob-Girard Savigny Aux Gravains","vintage":2009,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":50.0,"condition":""},{"id":10864890,"wine":"Patrick et Martine Jacob-Girard Savigny Aux Gravains","vintage":2009,"format":"1.5ltr","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":100.0,"condition":"Capsule condition issue; Light label condition issue"},{"id":10864892,"wine":"Patrick et Martine Jacob-Girard Savigny Aux Gravains","vintage":2009,"format":"1.5ltr","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":100.0,"condition":"Heavy capsule condition issue; Light label condition issue"},{"id":10864598,"wine":"Patrick et Martine Jacob-Girard Savigny Les Marconnets","vintage":2009,"format":"1.5ltr","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":100.0,"condition":"Light capsule condition issue; Label condition issue"},{"id":10864600,"wine":"Patrick et Martine Jacob-Girard Savigny Les Marconnets","vintage":2009,"format":"1.5ltr","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":100.0,"condition":"Capsule condition issue; Label condition issue"},{"id":10864684,"wine":"Patrick et Martine Jacob-Girard Savigny-Les-Beaune","vintage":2009,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":50.0,"condition":""},{"id":10864576,"wine":"Patrick et Martine Jacob-Girard Savigny-Les-Beaune","vintage":2009,"format":"1.5ltr","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":90.0,"condition":"Light label condition issue"},{"id":10864551,"wine":"Patrick et Martine Jacob-Girard Savigny-Les-Beaune","vintage":2009,"format":"1.5ltr","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":90.0,"condition":"Light capsule condition issue; Light label condition issue"},{"id":10864552,"wine":"Patrick et Martine Jacob-Girard Savigny-Les-Beaune","vintage":2009,"format":"1.5ltr","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":90.0,"condition":""},{"id":10864599,"wine":"Patrick et Martine Jacob-Girard Savigny-Les-Beaune","vintage":2009,"format":"1.5ltr","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":90.0,"condition":"Light capsule condition issue; Label condition issue"},{"id":10864893,"wine":"Patrick et Martine Jacob-Girard Savigny-Les-Beaune","vintage":2009,"format":"1.5ltr","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":90.0,"condition":"Label condition issue"},{"id":10865039,"wine":"Philippe Dechelle Cuvée Quentin Roosevelt","vintage":null,"format":"750ml","region_raw":"France, Champagne","region_path":["France","Champagne"],"country_code":"FR","wine_type":"Sparkling","reserve":35.0,"condition":""},{"id":10864995,"wine":"Pierre Caillet Pommard","vintage":1979,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":100.0,"condition":"Light capsule condition issue; Light label condition issue"},{"id":10864994,"wine":"Pierre Caillet Pommard","vintage":1979,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":100.0,"condition":"Light capsule condition issue; Label condition issue"},{"id":10857271,"wine":"Raul Pérez La Vizcaina La Del Vivo Lomas de Valtuille","vintage":2020,"format":"750ml","region_raw":"Spain, Castilla-Leon, Bierzo","region_path":["Spain","Castilla-Leon","Bierzo"],"country_code":"ES","wine_type":"Red","reserve":30.0,"condition":""},{"id":10857272,"wine":"Raul Pérez La Vizcaina La Del Vivo Lomas de Valtuille","vintage":2020,"format":"750ml","region_raw":"Spain, Castilla-Leon, Bierzo","region_path":["Spain","Castilla-Leon","Bierzo"],"country_code":"ES","wine_type":"Red","reserve":30.0,"condition":"Light label condition issue"},{"id":10857093,"wine":"Raul Pérez Ultreia de Paluezas","vintage":2014,"format":"750ml","region_raw":"Spain, Castilla-Leon, Bierzo","region_path":["Spain","Castilla-Leon","Bierzo"],"country_code":"ES","wine_type":"Red","reserve":50.0,"condition":""},{"id":10857543,"wine":"Raul Pérez Ultreia de Paluezas","vintage":2016,"format":"750ml","region_raw":"Spain, Castilla-Leon, Bierzo","region_path":["Spain","Castilla-Leon","Bierzo"],"country_code":"ES","wine_type":"Red","reserve":50.0,"condition":"Light label condition issue"},{"id":10857546,"wine":"Raul Pérez Ultreia Godello","vintage":2016,"format":"750ml","region_raw":"Spain, Castilla-Leon, Bierzo","region_path":["Spain","Castilla-Leon","Bierzo"],"country_code":"ES","wine_type":"White","reserve":35.0,"condition":""},{"id":10857449,"wine":"Raul Pérez Ultreia Mencia Rapolao","vintage":2014,"format":"750ml","region_raw":"Spain, Castilla-Leon, Bierzo","region_path":["Spain","Castilla-Leon","Bierzo"],"country_code":"ES","wine_type":"Red","reserve":45.0,"condition":"Light label condition issue"},{"id":10857771,"wine":"Raventós i Blanc Blanc de Blancs","vintage":2020,"format":"750ml","region_raw":"Spain","region_path":["Spain"],"country_code":"ES","wine_type":"Sparkling","reserve":20.0,"condition":""},{"id":10864935,"wine":"Sierra Cantabria Crianza Vendimia Especial","vintage":1995,"format":"750ml","region_raw":"Spain, Rioja","region_path":["Spain","Rioja"],"country_code":"ES","wine_type":"Red","reserve":20.0,"condition":""},{"id":10863725,"wine":"Thibault Liger-Belair Vosne-Romanee Aux Reas","vintage":2016,"format":"750ml","region_raw":"France, Burgundy, Côte d'Or","region_path":["France","Burgundy","Côte d'Or"],"country_code":"FR","wine_type":"Red","reserve":115.0,"condition":"Light label condition issue"},{"id":10864236,"wine":"Tua Rita Syrah","vintage":2008,"format":"750ml","region_raw":"Italy, Tuscany","region_path":["Italy","Tuscany"],"country_code":"IT","wine_type":"Red","reserve":125.0,"condition":"Base neck fill"},{"id":10863623,"wine":"Uccelliera Brunello di Montalcino","vintage":2016,"format":"750ml","region_raw":"Italy, Tuscany, Brunello di Montalcino","region_path":["Italy","Tuscany","Brunello di Montalcino"],"country_code":"IT","wine_type":"Red","reserve":65.0,"condition":""},{"id":10857710,"wine":"Venica & Venica Sauvignon Blanc Ronco delle Mele","vintage":2021,"format":"750ml","region_raw":"Italy, Friuli-Venezia-Giulia, Collio","region_path":["Italy","Friuli-Venezia-Giulia","Collio"],"country_code":"IT","wine_type":"White","reserve":25.0,"condition":""},{"id":10863761,"wine":"Vietti Barbera D'Alba Scarrone","vintage":2021,"format":"750ml","region_raw":"Italy, Piedmont, Barbera di Alba","region_path":["Italy","Piedmont","Barbera di Alba"],"country_code":"IT","wine_type":"Red","reserve":40.0,"condition":""},{"id":10857603,"wine":"Vietti Barolo Brunate","vintage":2017,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","reserve":150.0,"condition":""},{"id":10857622,"wine":"Vietti Barolo Brunate","vintage":2019,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","reserve":140.0,"condition":""},{"id":10857634,"wine":"Vietti Barolo Cerequio","vintage":2019,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","reserve":130.0,"condition":""},{"id":10857604,"wine":"Vietti Barolo Lazzarito","vintage":2017,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","reserve":145.0,"condition":""},{"id":10857635,"wine":"Vietti Barolo Lazzarito","vintage":2019,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","reserve":115.0,"condition":""},{"id":10857618,"wine":"Vietti Barolo Rocche di Castiglione","vintage":2017,"format":"750ml","region_raw":"Italy, Piedmont, Barolo","region_path":["Italy","Piedmont","Barolo"],"country_code":"IT","wine_type":"Red","reserve":130.0,"condition":""},{"id":10857587,"wine":"Weingut Schloss Gobelsburg Riesling Zöbinger Heiligenstein","vintage":2015,"format":"750ml","region_raw":"Austria, Kamptal","region_path":["Austria","Kamptal"],"country_code":"AT","wine_type":"White","reserve":40.0,"condition":""},{"id":10864937,"wine":"William Fevre Chablis","vintage":2006,"format":"750ml","region_raw":"France, Burgundy, Chablis","region_path":["France","Burgundy","Chablis"],"country_code":"FR","wine_type":"White","reserve":30.0,"condition":"Light label condition issue"},{"id":10864262,"wine":"William Kelley Coteaux Bourguignons Escarottes","vintage":2023,"format":"750ml","region_raw":"France, Burgundy, Coteaux Bourguignons","region_path":["France","Burgundy","Coteaux Bourguignons"],"country_code":"FR","wine_type":"Red","reserve":50.0,"condition":""}]}</script>
+<script>
+(function(){
+'use strict';
+
+var P = JSON.parse(document.getElementById('payload').textContent);
+var DEALS = P.deals || [];
+var UNVAL = P.unvalued || [];
+
+/* ---------- helpers ---------- */
+function fold(s){
+  return (s==null?'':String(s)).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+}
+function usd(n){
+  if(n==null||isNaN(n)) return '';
+  return '$'+Number(n).toLocaleString('en-US',{minimumFractionDigits:0,maximumFractionDigits:0});
+}
+function pct(n){ return n==null?'':Math.round(n*100)+'%'; }
+function esc(s){
+  return String(s==null?'':s).replace(/[&<>"']/g,function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+  });
+}
+var CC_NAME = {FR:'France',IT:'Italy',ES:'Spain',PT:'Portugal',AT:'Austria'};
+var dn = null;
+try{ dn = new Intl.DisplayNames(['en'],{type:'region'}); }catch(e){}
+function ccName(cc){
+  if(!cc) return '';
+  if(CC_NAME[cc]) return CC_NAME[cc];
+  try{ return dn ? dn.of(cc) : cc; }catch(e){ return cc; }
+}
+var FLAG_OK = {FR:1,IT:1,ES:1,PT:1,AT:1};
+function ccEmoji(cc){
+  return String.fromCodePoint(0x1F1E6+(cc.charCodeAt(0)-65), 0x1F1E6+(cc.charCodeAt(1)-65));
+}
+function flagCell(cc){
+  if(!cc) return '<span class="dash">—</span>';
+  var name = esc(ccName(cc));
+  if(FLAG_OK[cc]) return '<span class="cflag" title="'+name+'" role="img" aria-label="'+name+'">'+ccEmoji(cc)+'</span>';
+  return '<span class="cflag fallback" title="'+name+'">'+esc(cc)+'</span>';
+}
+var SRC_LABEL = {
+  ws_vintage:'Wine-Searcher, vintage',
+  ws_adjacent:'Wine-Searcher, adjacent vintage',
+  ws_allvintage:'Wine-Searcher, all vintages',
+  ws_single_retailer:'Single retailer',
+  auction:'Auction hammer',
+  estimate:'Model estimate'
+};
+function lvl(r,i){ return (r.region_path && r.region_path[i]) || ''; }
+function link(id){ return 'https://www.winebid.com/BuyWine/Item/'+id; }
+
+/* ---------- wine type ---------- */
+/* The analyst's judgment of what is in the bottle -- the export has no such
+   column. Stored unaccented so it survives a URL hash and a CSV round-trip;
+   rendered with the accent. Ordered the way a list reads rather than
+   alphabetically, so Red sits at one end and Dessert at the other. */
+var WT_ORDER = ['Red','Rose','Orange','White','Sparkling','Dessert'];
+var WT_LABEL = {Red:'Red',Rose:'Rosé',Orange:'Orange',White:'White',
+                Sparkling:'Sparkling',Dessert:'Dessert'};
+var WT_RANK = {};
+WT_ORDER.forEach(function(t,i){ WT_RANK[t] = i+1; });
+function wtLabel(t){ return WT_LABEL[t] || t || ''; }
+function wtSwatch(t){
+  if(!t) return '<span class="dash">—</span>';
+  var n = esc(wtLabel(t));
+  return '<span class="wt wt-'+esc(t)+'" title="'+n+'" role="img" aria-label="'+n+'"></span>';
+}
+
+/* ---------- searchable text ---------- */
+[DEALS,UNVAL].forEach(function(set){
+  set.forEach(function(r){
+    r._country = ccName(r.country_code);
+    r._search = fold([r.wine,r.region_raw,r.condition,r.flag,r.source,r._country,
+                      r.vintage,r.format,wtLabel(r.wine_type)].join(' '));
+  });
+});
+
+/* ---------- view definitions ---------- */
+var COLS_DEALS = [
+  {k:'_wl',   label:'',        sortable:false, cls:'', csv:false,
+   render:function(r){ return '<input class="wl" type="checkbox" data-id="'+r.id+'" aria-label="Watch lot '+r.id+'"'+(state.watch.has(r.id)?' checked':'')+'>'; }},
+  {k:'country', label:'', hint:'country', type:'text', get:function(r){return r._country;},
+   render:function(r){ return flagCell(r.country_code); }},
+  {k:'wine_type', label:'', hint:'wine type', type:'rank', cls:'wtcell',
+   get:function(r){return WT_RANK[r.wine_type]||0;},
+   render:function(r){ return wtSwatch(r.wine_type); }},
+  {k:'wine',  label:'Wine',    type:'text', cls:'wine', get:function(r){return fold(r.wine);},
+   render:function(r){ return '<a href="'+link(r.id)+'" target="_blank" rel="noopener noreferrer">'+esc(r.wine)+'</a>'; }},
+  {k:'vintage',label:'Vint',   type:'num', cls:'num', get:function(r){return r.vintage==null?-1:r.vintage;},
+   render:function(r){ return r.vintage==null?'<span class="dash">NV</span>':r.vintage; }},
+  {k:'format',label:'Format',  type:'text', get:function(r){return r.format||'';},
+   render:function(r){ return esc(r.format||''); }},
+  {k:'region',label:'Region',  type:'text', get:function(r){return fold(lvl(r,1));},
+   render:function(r){ return esc(lvl(r,1))||'<span class="dash">—</span>'; }},
+  {k:'subregion',label:'Subregion', type:'text', get:function(r){return fold(lvl(r,2));},
+   render:function(r){ return esc(lvl(r,2))||'<span class="dash">—</span>'; }},
+  {k:'qty',   label:'Qty',     type:'num', cls:'num', get:function(r){return r.qty||0;},
+   render:function(r){ return r.qty==null?'':r.qty; }},
+  {k:'reserve',label:'Reserve',type:'num', cls:'num', get:function(r){return r.reserve;},
+   render:function(r){ return '<span class="soft">'+usd(r.reserve)+'</span>'; }},
+  {k:'buyer_price',label:'Buyer price', type:'num', cls:'num', get:function(r){return r.buyer_price;},
+   render:function(r){ return usd(r.buyer_price); }},
+  {k:'market',label:'Market',  type:'num', cls:'num', get:function(r){return r.market;},
+   render:function(r){ return usd(r.market); }},
+  {k:'pct_below',label:'% Below', type:'num', cls:'pctcell', get:function(r){return r.pct_below;},
+   render:function(r){
+     var w = Math.max(2,Math.min(100,Math.round(r.pct_below*100)));
+     var c = r.tag==='Steal'?'var(--steal-bar)':r.tag==='Great'?'var(--great-bar)':'var(--good-bar)';
+     return '<span class="pctrow"><span class="v">'+pct(r.pct_below)+'</span>'+
+            '<span class="bar"><i style="width:'+w+'%;background:'+c+'"></i></span></span>';
+   }},
+  {k:'tag',   label:'Tag',     type:'rank', get:function(r){return {Good:1,Great:2,Steal:3}[r.tag]||0;},
+   render:function(r){ return '<span class="tag '+esc(r.tag)+'">'+esc(r.tag)+'</span>'; }},
+  {k:'condition',label:'Condition', type:'text', get:function(r){return fold(r.condition);},
+   render:function(r){ return r.condition ? '<span class="trunc" title="'+esc(r.condition)+'">'+esc(r.condition)+'</span>'
+                                          : '<span class="dash">—</span>'; }},
+  {k:'flag',  label:'Standout',type:'text', get:function(r){return fold(r.flag);},
+   render:function(r){ return r.flag ? '<span class="standout" title="'+esc(r.flag)+'">'+esc(r.flag)+'</span>'
+                                     : '<span class="dash">—</span>'; }},
+  {k:'source',label:'Market source', type:'text', get:function(r){return fold(r.source);},
+   render:function(r){ return '<span class="trunc" title="'+esc(r.source)+'">'+esc(r.source)+'</span>'; }}
+];
+
+var COLS_UNVAL = [
+  {k:'country', label:'', hint:'country', type:'text', get:function(r){return r._country;},
+   render:function(r){ return flagCell(r.country_code); }},
+  {k:'wine_type', label:'', hint:'wine type', type:'rank', cls:'wtcell',
+   get:function(r){return WT_RANK[r.wine_type]||0;},
+   render:function(r){ return wtSwatch(r.wine_type); }},
+  {k:'wine', label:'Wine', type:'text', cls:'wine', get:function(r){return fold(r.wine);},
+   render:function(r){ return '<a href="'+link(r.id)+'" target="_blank" rel="noopener noreferrer">'+esc(r.wine)+'</a>'; }},
+  {k:'vintage',label:'Vint', type:'num', cls:'num', get:function(r){return r.vintage==null?-1:r.vintage;},
+   render:function(r){ return r.vintage==null?'<span class="dash">NV</span>':r.vintage; }},
+  {k:'format',label:'Format', type:'text', get:function(r){return r.format||'';},
+   render:function(r){ return esc(r.format||''); }},
+  {k:'region',label:'Region', type:'text', get:function(r){return fold(lvl(r,1));},
+   render:function(r){ return esc(lvl(r,1))||'<span class="dash">—</span>'; }},
+  {k:'subregion',label:'Subregion', type:'text', get:function(r){return fold(lvl(r,2));},
+   render:function(r){ return esc(lvl(r,2))||'<span class="dash">—</span>'; }},
+  {k:'reserve',label:'Reserve', type:'num', cls:'num', get:function(r){return r.reserve;},
+   render:function(r){ return usd(r.reserve); }},
+  {k:'condition',label:'Condition', type:'text', get:function(r){return fold(r.condition);},
+   render:function(r){ return r.condition ? '<span class="trunc" title="'+esc(r.condition)+'">'+esc(r.condition)+'</span>'
+                                          : '<span class="dash">—</span>'; }}
+];
+
+/* facet + range definitions per view */
+var FACETS = {
+  country:  {label:'Country',    of:function(r){return r.country_code;}, disp:function(v){return ccName(v);}, cascade:0},
+  region:   {label:'Region',     of:function(r){return lvl(r,1);},       disp:function(v){return v;},         cascade:1},
+  subregion:{label:'Subregion',  of:function(r){return lvl(r,2);},       disp:function(v){return v;},         cascade:2},
+  format:   {label:'Format',     of:function(r){return r.format;},       disp:function(v){return v;}},
+  wtype:    {label:'Wine type',  of:function(r){return r.wine_type;},    disp:function(v){return wtLabel(v);},
+             mark:function(v){return '<span class="wt wt-'+esc(v)+'" aria-hidden="true"></span>';},
+             order:WT_ORDER},
+  tag:      {label:'Deal tag',   of:function(r){return r.tag;},          disp:function(v){return v;}, order:['Steal','Great','Good']},
+  src:      {label:'Market source', of:function(r){return r.source_type;}, disp:function(v){return SRC_LABEL[v]||v;}}
+};
+var RANGES = {
+  pct:     {label:'% below market', of:function(r){return r.pct_below;}, fmt:function(v){return Math.round(v*100)+'%';}, step:0.01, hist:true},
+  reserve: {label:'Reserve bid',    of:function(r){return r.reserve;},      fmt:usd, step:1},
+  buyer:   {label:'Buyer price',    of:function(r){return r.buyer_price;},  fmt:usd, step:1},
+  market:  {label:'Market price',   of:function(r){return r.market;},    fmt:usd, step:1},
+  vintage: {label:'Vintage',        of:function(r){return r.vintage;},   fmt:function(v){return String(Math.round(v));}, step:1}
+};
+var VIEWS = {
+  deals:   {rows:DEALS, cols:COLS_DEALS, facets:['country','region','subregion','wtype','format','tag','src'],
+            ranges:['pct','buyer','reserve','market','vintage'], defaultSort:{col:'pct_below',dir:-1}},
+  unvalued:{rows:UNVAL, cols:COLS_UNVAL, facets:['country','region','subregion','wtype','format'],
+            ranges:['reserve','vintage'], defaultSort:{col:'reserve',dir:-1}}
+};
+
+/* ---------- state ---------- */
+var state = {
+  view:'deals', q:'',
+  sel:{country:[],region:[],subregion:[],wtype:[],format:[],tag:[],src:[]},
+  rng:{},               /* key -> [lo,hi] or null when untouched */
+  sort:{col:'pct_below',dir:-1},
+  standouts:false, watchOnly:false,
+  watch:new Set()
+};
+var BOUNDS = {};        /* view -> key -> [min,max] */
+
+function computeBounds(){
+  Object.keys(VIEWS).forEach(function(v){
+    BOUNDS[v] = {};
+    VIEWS[v].ranges.forEach(function(k){
+      var vals = VIEWS[v].rows.map(RANGES[k].of).filter(function(x){return x!=null && !isNaN(x);});
+      BOUNDS[v][k] = vals.length ? [Math.min.apply(null,vals),Math.max.apply(null,vals)] : [0,1];
+    });
+  });
+}
+function bound(k){ return BOUNDS[state.view][k]; }
+function rngOf(k){ return state.rng[k] || bound(k).slice(); }
+function rngTouched(k){
+  var r = state.rng[k]; if(!r) return false;
+  var b = bound(k);
+  return r[0]>b[0] || r[1]<b[1];
+}
+
+/* ---------- filtering ---------- */
+function matches(r, except){
+  var skip = except==null ? [] : (typeof except==='string' ? [except] : except);
+  except = null;
+  if(state.q){
+    var terms = fold(state.q).split(/\s+/).filter(Boolean);
+    for(var i=0;i<terms.length;i++) if(r._search.indexOf(terms[i])<0) return false;
+  }
+  if(state.view==='deals'){
+    if(state.standouts && !r.flag) return false;
+    if(state.watchOnly && !state.watch.has(r.id)) return false;
+  }
+  var cfg = VIEWS[state.view];
+  for(var fi=0;fi<cfg.facets.length;fi++){
+    var key = cfg.facets[fi];
+    if(skip.indexOf(key)>=0) continue;
+    var sel = state.sel[key];
+    if(sel.length && sel.indexOf(FACETS[key].of(r))<0) return false;
+  }
+  for(var ri=0;ri<cfg.ranges.length;ri++){
+    var rk = cfg.ranges[ri];
+    if(skip.indexOf(rk)>=0) continue;
+    if(!rngTouched(rk)) continue;
+    var v = RANGES[rk].of(r);
+    if(v==null || isNaN(v)) return false;
+    var rr = rngOf(rk);
+    if(v<rr[0] || v>rr[1]) return false;
+  }
+  return true;
+}
+function filtered(){ return VIEWS[state.view].rows.filter(function(r){return matches(r,null);}); }
+
+function activeCount(){
+  var n = 0, cfg = VIEWS[state.view];
+  cfg.facets.forEach(function(k){ if(state.sel[k].length) n++; });
+  cfg.ranges.forEach(function(k){ if(rngTouched(k)) n++; });
+  if(state.q) n++;
+  if(state.view==='deals' && state.standouts) n++;
+  if(state.view==='deals' && state.watchOnly) n++;
+  return n;
+}
+
+/* ---------- sorting ---------- */
+function sorted(rows){
+  var cfg = VIEWS[state.view];
+  var col = cfg.cols.filter(function(c){return c.k===state.sort.col;})[0];
+  if(!col) col = cfg.cols.filter(function(c){return c.k===cfg.defaultSort.col;})[0];
+  var dir = state.sort.dir, get = col.get;
+  return rows.slice().sort(function(a,b){
+    var x = get(a), y = get(b);
+    if(x==null) x = col.type==='text'?'':-Infinity;
+    if(y==null) y = col.type==='text'?'':-Infinity;
+    if(x<y) return -1*dir;
+    if(x>y) return 1*dir;
+    return (a.wine||'').localeCompare(b.wine||'');
+  });
+}
+
+/* ---------- URL hash ---------- */
+var HKEYS = {country:'c',region:'rg',subregion:'sr',wtype:'wt',format:'fmt',tag:'tag',src:'src'};
+function writeHash(){
+  var p = [];
+  if(state.view!=='deals') p.push('v='+state.view);
+  if(state.q) p.push('q='+encodeURIComponent(state.q));
+  Object.keys(HKEYS).forEach(function(k){
+    if(state.sel[k].length) p.push(HKEYS[k]+'='+state.sel[k].map(encodeURIComponent).join(','));
+  });
+  Object.keys(RANGES).forEach(function(k){
+    if(VIEWS[state.view].ranges.indexOf(k)>=0 && rngTouched(k)){
+      var r = rngOf(k); p.push(k+'='+r[0]+'~'+r[1]);
+    }
+  });
+  var d = VIEWS[state.view].defaultSort;
+  if(state.sort.col!==d.col || state.sort.dir!==d.dir) p.push('so='+state.sort.col+':'+(state.sort.dir>0?'a':'d'));
+  if(state.standouts) p.push('st=1');
+  if(state.watchOnly) p.push('wo=1');
+  if(state.watch.size) p.push('w='+Array.from(state.watch).join(','));
+  var h = p.join('&');
+  var target = h ? '#'+h : location.pathname+location.search;
+  /* Chrome gives local files an opaque origin, and some builds reject
+     replaceState there. Fall back to a plain fragment write, which is always
+     allowed; never let a blocked history write break the render. */
+  clearTimeout(writeHash._t);
+  writeHash._t = setTimeout(function(){
+    try{ history.replaceState(null,'',target); }
+    catch(e){
+      try{ if(location.hash !== (h?'#'+h:'')) location.hash = h; }catch(e2){}
+    }
+  },200);
+}
+function readHash(){
+  var h = location.hash.replace(/^#/,''); if(!h) return;
+  var rev = {}; Object.keys(HKEYS).forEach(function(k){ rev[HKEYS[k]] = k; });
+  h.split('&').forEach(function(part){
+    var i = part.indexOf('='); if(i<0) return;
+    var k = part.slice(0,i), v = part.slice(i+1);
+    if(k==='v' && VIEWS[v]) state.view = v;
+    else if(k==='q') state.q = decodeURIComponent(v);
+    else if(rev[k]) state.sel[rev[k]] = v.split(',').map(decodeURIComponent).filter(Boolean);
+    else if(RANGES[k]){
+      var mm = v.split('~').map(Number);
+      if(mm.length===2 && !isNaN(mm[0]) && !isNaN(mm[1])) state.rng[k] = mm;
+    }
+    else if(k==='so'){
+      var s = v.split(':'); state.sort = {col:s[0], dir:s[1]==='a'?1:-1};
+    }
+    else if(k==='st') state.standouts = v==='1';
+    else if(k==='wo') state.watchOnly = v==='1';
+    else if(k==='w') v.split(',').forEach(function(id){ if(id) state.watch.add(Number(id)); });
+  });
+}
+
+/* ---------- rendering: rail ---------- */
+/* A parent level ignores its own children when counting options, so selecting
+   a region never strands you unable to switch country. */
+var CHILD_IGNORE = {country:['country','region','subregion'], region:['region','subregion'], subregion:['subregion']};
+
+function facetOptions(key){
+  var f = FACETS[key];
+  var pool = VIEWS[state.view].rows.filter(function(r){ return matches(r, CHILD_IGNORE[key] || key); });
+  var counts = {};
+  pool.forEach(function(r){ var v = f.of(r); if(v) counts[v] = (counts[v]||0)+1; });
+  state.sel[key].forEach(function(v){ if(!(v in counts)) counts[v] = 0; });
+  var keys = Object.keys(counts);
+  if(f.order) keys.sort(function(a,b){ return f.order.indexOf(a)-f.order.indexOf(b); });
+  else keys.sort(function(a,b){ return String(f.disp(a)).localeCompare(String(f.disp(b))); });
+  return keys.map(function(v){ return {v:v, n:counts[v], label:f.disp(v)}; });
+}
+
+function buildRail(){
+  var cfg = VIEWS[state.view], html = '';
+  cfg.facets.forEach(function(key){
+    var opts = facetOptions(key), sel = state.sel[key];
+    if(!opts.length) return;
+    var open = sel.length>0 || key==='country' || key==='tag' || key==='wtype';
+    html += '<details class="fgroup"'+(open?' open':'')+' data-facet="'+key+'">'+
+      '<summary><span class="caret">▶</span>'+esc(FACETS[key].label)+
+      (sel.length?'<span class="count">'+sel.length+'</span>':'')+'</summary>'+
+      '<div class="fbody'+(opts.length>8?' scrolly':'')+'">';
+    opts.forEach(function(o){
+      var on = sel.indexOf(o.v)>=0;
+      var mark = FACETS[key].mark ? FACETS[key].mark(o.v) : '';
+      html += '<label class="opt'+(o.n===0&&!on?' off':'')+'">'+
+        '<input type="checkbox" data-facet="'+key+'" value="'+esc(o.v)+'"'+(on?' checked':'')+'>'+
+        mark+'<span class="lab">'+esc(o.label)+'</span><span class="n">'+o.n+'</span></label>';
+    });
+    html += '</div></details>';
+  });
+
+  cfg.ranges.forEach(function(key){
+    var R = RANGES[key], b = bound(key), cur = rngOf(key);
+    var histHtml = '';
+    if(R.hist){
+      var bins = 16, counts = new Array(bins).fill(0), max = 0;
+      VIEWS[state.view].rows.forEach(function(r){
+        var v = R.of(r); if(v==null) return;
+        var i = Math.min(bins-1, Math.floor((v-b[0])/((b[1]-b[0])||1)*bins));
+        counts[i]++;
+      });
+      max = Math.max.apply(null,counts)||1;
+      histHtml = '<div class="hist">'+counts.map(function(c,i){
+        var lo = b[0]+(b[1]-b[0])*i/bins, hi = b[0]+(b[1]-b[0])*(i+1)/bins;
+        var on = hi>=cur[0] && lo<=cur[1];
+        return '<span class="'+(on?'on':'')+'" style="height:'+Math.max(2,Math.round(c/max*100))+'%"></span>';
+      }).join('')+'</div>';
+    }
+    var span = (b[1]-b[0])||1;
+    var fl = (cur[0]-b[0])/span*100, fr = (cur[1]-b[0])/span*100;
+    html += '<details class="fgroup" open data-range="'+key+'">'+
+      '<summary><span class="caret">▶</span>'+esc(R.label)+
+      (rngTouched(key)?'<span class="count">on</span>':'')+'</summary>'+
+      '<div class="fbody"><div class="range">'+
+        '<div class="vals"><span>'+esc(R.fmt(cur[0]))+'</span><span>'+esc(R.fmt(cur[1]))+'</span></div>'+
+        '<div class="track">'+histHtml+
+          '<div class="rail-line"></div><div class="fill" style="left:'+fl+'%;right:'+(100-fr)+'%"></div>'+
+          '<input type="range" data-range="'+key+'" data-side="lo" min="'+b[0]+'" max="'+b[1]+'" step="'+R.step+'" value="'+cur[0]+'" aria-label="'+esc(R.label)+' minimum">'+
+          '<input type="range" data-range="'+key+'" data-side="hi" min="'+b[0]+'" max="'+b[1]+'" step="'+R.step+'" value="'+cur[1]+'" aria-label="'+esc(R.label)+' maximum">'+
+        '</div>'+
+        (key==='pct' ? '<div class="note">Floors at '+Math.round(b[0]*100)+'% — lots below the deal cutoff are not in this file.</div>' : '')+
+      '</div></div></details>';
+  });
+
+  if(state.view==='deals'){
+    html += '<details class="fgroup" open><summary><span class="caret">▶</span>Shortlists</summary><div class="fbody">'+
+      '<label class="opt"><input type="checkbox" id="fStandouts"'+(state.standouts?' checked':'')+'>'+
+      '<span class="lab">Standouts only</span><span class="n">'+DEALS.filter(function(r){return r.flag;}).length+'</span></label>'+
+      '<label class="opt"><input type="checkbox" id="fWatch"'+(state.watchOnly?' checked':'')+'>'+
+      '<span class="lab">Watchlist only</span><span class="n">'+state.watch.size+'</span></label>'+
+      '</div></details>';
+  }
+  document.getElementById('railBody').innerHTML = html;
+  document.getElementById('btnClear').disabled = activeCount()===0;
+}
+
+/* ---------- rendering: chips ---------- */
+function buildChips(){
+  var out = [], cfg = VIEWS[state.view];
+  if(state.q) out.push(chip('Search','“'+state.q+'”','q',''));
+  cfg.facets.forEach(function(k){
+    state.sel[k].forEach(function(v){ out.push(chip(FACETS[k].label, FACETS[k].disp(v), 'facet', k+'|'+v)); });
+  });
+  cfg.ranges.forEach(function(k){
+    if(rngTouched(k)){
+      var r = rngOf(k);
+      out.push(chip(RANGES[k].label, RANGES[k].fmt(r[0])+' – '+RANGES[k].fmt(r[1]), 'range', k));
+    }
+  });
+  if(state.view==='deals' && state.standouts) out.push(chip('','Standouts only','standouts',''));
+  if(state.view==='deals' && state.watchOnly) out.push(chip('','Watchlist only','watchonly',''));
+  document.getElementById('chips').innerHTML = out.join('');
+}
+function chip(label,val,kind,arg){
+  return '<span class="chip">'+(label?'<b>'+esc(label)+':</b> ':'')+esc(val)+
+         '<button data-chip="'+kind+'" data-arg="'+esc(arg)+'" aria-label="Remove filter">×</button></span>';
+}
+
+/* ---------- rendering: table ---------- */
+var lastRows = [];
+function buildTable(){
+  var cfg = VIEWS[state.view];
+  var rows = sorted(filtered());
+  lastRows = rows;
+
+  document.getElementById('head').innerHTML = cfg.cols.map(function(c){
+    if(c.sortable===false) return '<th style="width:26px"></th>';
+    var on = state.sort.col===c.k;
+    var ar = on ? (state.sort.dir>0?'ascending':'descending') : 'none';
+    return '<th data-col="'+c.k+'" aria-sort="'+ar+'" title="Sort by '+esc(c.label||c.hint||c.k)+'">'+
+      esc(c.label)+'<span class="arrow">'+(on&&state.sort.dir>0?'▲':'▼')+'</span></th>';
+  }).join('');
+
+  var body = document.getElementById('body');
+  if(!rows.length){
+    body.innerHTML = '';
+    document.getElementById('emptyState').hidden = false;
+    var n = activeCount();
+    document.getElementById('emptyWhy').textContent =
+      n ? n+' filter'+(n===1?'':'s')+' active. Remove one, or clear them all.'
+        : 'This view has no lots.';
+  } else {
+    document.getElementById('emptyState').hidden = true;
+    var html = new Array(rows.length);
+    for(var i=0;i<rows.length;i++){
+      var r = rows[i], tds = '';
+      for(var j=0;j<cfg.cols.length;j++){
+        var c = cfg.cols[j];
+        tds += '<td'+(c.cls?' class="'+c.cls+'"':'')+'>'+c.render(r)+'</td>';
+      }
+      html[i] = '<tr'+(state.watch.has(r.id)?' class="watched"':'')+'>'+tds+'</tr>';
+    }
+    body.innerHTML = html.join('');
+  }
+
+  var total = cfg.rows.length;
+  document.getElementById('footCount').textContent =
+    rows.length===total ? total+' lots' : rows.length+' of '+total+' lots';
+  document.getElementById('footNote').textContent =
+    state.view==='deals' ? ('Buyer price = reserve + '+Math.round((P.premium_rate||0)*100)+'% premium. Discount measured on buyer price; tax and shipping excluded.')
+                         : 'No reliable market price found — excluded from deal ranking.';
+}
+
+/* ---------- rendering: summary ---------- */
+function buildSummary(){
+  var el = document.getElementById('summary');
+  if(state.view!=='deals'){
+    var n = filtered().length;
+    el.innerHTML = metric('Unvalued lots', n+' <small>of '+UNVAL.length+'</small>')+
+      metric('Total reserve', usd(filtered().reduce(function(s,r){return s+(r.reserve||0);},0)));
+    return;
+  }
+  var rows = filtered();
+  var by = {Good:0,Great:0,Steal:0};
+  rows.forEach(function(r){ if(by[r.tag]!=null) by[r.tag]++; });
+  var ps = rows.map(function(r){return r.pct_below;}).filter(function(x){return x!=null;}).sort(function(a,b){return a-b;});
+  var med = ps.length ? (ps.length%2 ? ps[(ps.length-1)/2] : (ps[ps.length/2-1]+ps[ps.length/2])/2) : null;
+  var best = ps.length ? ps[ps.length-1] : null;
+  var sum = rows.reduce(function(s,r){return s+(r.buyer_price||0);},0);
+
+  el.innerHTML =
+    metric('Lots shown', rows.length+' <small>of '+DEALS.length+'</small>')+
+    '<div class="metric"><span class="k">By tier</span><span class="v tierdots">'+
+      '<i class="s">'+by.Steal+'</i><i class="r">'+by.Great+'</i><i class="g">'+by.Good+'</i></span></div>'+
+    metric('Median discount', med==null?'—':pct(med))+
+    metric('Best discount', best==null?'—':pct(best))+
+    metric('Total if won', usd(sum))+
+    metric('Watchlist', state.watch.size);
+}
+function metric(k,v){ return '<div class="metric"><span class="k">'+k+'</span><span class="v">'+v+'</span></div>'; }
+
+/* ---------- funnel ---------- */
+function buildFunnel(){
+  var f = P.funnel;
+  var host = document.getElementById('funnelPanel');
+  if(!f){ host.hidden = true; return; }
+  var steps = [
+    ['In file','total'],['After country','after_country'],['After dessert','after_dessert'],
+    ['After price','after_price'],['After condition','after_condition'],
+    ['Valued','valued'],['Unvalued','unvalued'],['Deals','deals']
+  ].filter(function(s){ return f[s[1]]!=null; });
+  var prev = null;
+  document.getElementById('funnelBody').innerHTML = steps.map(function(s){
+    var v = f[s[1]], drop = (prev!=null && v<prev && s[1]!=='unvalued' && s[1]!=='deals') ? ('−'+(prev-v)) : '';
+    if(['total','after_country','after_dessert','after_price','after_condition'].indexOf(s[1])>=0) prev = v;
+    return '<div class="fstep"><span class="k">'+s[0]+'</span><span class="v">'+v+'</span>'+
+           (drop?'<span class="d">'+drop+'</span>':'')+'</div>';
+  }).join('');
+}
+
+/* ---------- CSV ---------- */
+function csv(){
+  var cfg = VIEWS[state.view];
+  var cols = cfg.cols.filter(function(c){ return c.csv!==false; });
+  var head = cols.map(function(c){
+    return c.k==='country' ? 'Country' : c.k==='wine_type' ? 'Type' : c.label;
+  }).concat(['Link']);
+  function cell(r,c){
+    if(c.k==='country') return r._country;
+    if(c.k==='wine_type') return wtLabel(r.wine_type);
+    if(c.k==='pct_below') return r.pct_below==null?'':(Math.round(r.pct_below*1000)/10)+'%';
+    if(c.k==='reserve') return r.reserve==null?'':r.reserve;
+    if(c.k==='buyer_price') return r.buyer_price==null?'':r.buyer_price;
+    if(c.k==='market') return r.market==null?'':r.market;
+    if(c.k==='region') return lvl(r,1);
+    if(c.k==='subregion') return lvl(r,2);
+    if(c.k==='vintage') return r.vintage==null?'NV':r.vintage;
+    if(c.k==='source') return r.source||'';
+    return r[c.k]==null?'':r[c.k];
+  }
+  function q(s){ s = String(s==null?'':s); return /[",\n]/.test(s) ? '"'+s.replace(/"/g,'""')+'"' : s; }
+  return [head.map(q).join(',')].concat(lastRows.map(function(r){
+    return cols.map(function(c){ return q(cell(r,c)); }).concat([link(r.id)]).join(',');
+  })).join('\r\n');
+}
+function toast(msg){
+  var t = document.getElementById('toast');
+  t.textContent = msg; t.classList.add('on');
+  clearTimeout(t._t); t._t = setTimeout(function(){ t.classList.remove('on'); },2600);
+}
+function copyCsv(){
+  var text = csv();
+  var done = function(){ toast('Copied '+lastRows.length+' rows as CSV'); };
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(done, function(){ downloadCsv(text); });
+  } else downloadCsv(text);
+}
+function downloadCsv(text){
+  var blob = new Blob([text],{type:'text/csv'});
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'winebid-'+(P.auction_date||'export')+'-'+state.view+'.csv';
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(function(){ URL.revokeObjectURL(a.href); },1000);
+  toast('Clipboard blocked — downloaded the CSV instead');
+}
+
+/* ---------- render orchestration ---------- */
+var railScroll = 0;
+function render(opts){
+  opts = opts||{};
+  if(!opts.keepRail){
+    railScroll = document.getElementById('rail').scrollTop;
+    buildRail();
+    document.getElementById('rail').scrollTop = railScroll;
+  }
+  buildChips(); buildSummary(); buildTable(); writeHash();
+}
+
+/* ---------- events ---------- */
+document.getElementById('railBody').addEventListener('change', function(e){
+  var t = e.target;
+  if(t.dataset.facet){
+    var k = t.dataset.facet, v = t.value, arr = state.sel[k], i = arr.indexOf(v);
+    if(t.checked){ if(i<0) arr.push(v); } else if(i>=0) arr.splice(i,1);
+    if(k==='country') state.sel.region = state.sel.region.filter(function(x){
+      return VIEWS[state.view].rows.some(function(r){ return lvl(r,1)===x && (!state.sel.country.length || state.sel.country.indexOf(r.country_code)>=0); });
+    });
+    if(k==='country'||k==='region') state.sel.subregion = state.sel.subregion.filter(function(x){
+      return VIEWS[state.view].rows.some(function(r){
+        return lvl(r,2)===x &&
+          (!state.sel.country.length || state.sel.country.indexOf(r.country_code)>=0) &&
+          (!state.sel.region.length || state.sel.region.indexOf(lvl(r,1))>=0);
+      });
+    });
+    render();
+  } else if(t.id==='fStandouts'){ state.standouts = t.checked; render(); }
+  else if(t.id==='fWatch'){ state.watchOnly = t.checked; render(); }
+});
+
+document.getElementById('railBody').addEventListener('input', function(e){
+  var t = e.target;
+  if(!t.dataset.range) return;
+  var k = t.dataset.range, b = bound(k), cur = rngOf(k).slice();
+  var v = Number(t.value);
+  if(t.dataset.side==='lo') cur[0] = Math.min(v, cur[1]);
+  else cur[1] = Math.max(v, cur[0]);
+  state.rng[k] = cur;
+  /* update the visual track without rebuilding the rail (keeps the thumb grabbed) */
+  var box = t.closest('.fgroup');
+  var span = (b[1]-b[0])||1;
+  box.querySelector('.fill').style.left = ((cur[0]-b[0])/span*100)+'%';
+  box.querySelector('.fill').style.right = (100-(cur[1]-b[0])/span*100)+'%';
+  var vals = box.querySelectorAll('.vals span');
+  vals[0].textContent = RANGES[k].fmt(cur[0]); vals[1].textContent = RANGES[k].fmt(cur[1]);
+  var hist = box.querySelectorAll('.hist span');
+  if(hist.length){
+    for(var i=0;i<hist.length;i++){
+      var lo = b[0]+span*i/hist.length, hi = b[0]+span*(i+1)/hist.length;
+      hist[i].classList.toggle('on', hi>=cur[0] && lo<=cur[1]);
+    }
+  }
+  buildChips(); buildSummary(); buildTable(); writeHash();
+});
+document.getElementById('railBody').addEventListener('change', function(e){
+  if(e.target.dataset.range) render();
+});
+
+document.getElementById('head').addEventListener('click', function(e){
+  var th = e.target.closest('th'); if(!th || !th.dataset.col) return;
+  var k = th.dataset.col;
+  var col = VIEWS[state.view].cols.filter(function(c){return c.k===k;})[0];
+  if(state.sort.col===k) state.sort.dir *= -1;
+  else state.sort = {col:k, dir:(col.type==='text'?1:-1)};
+  buildTable(); writeHash();
+});
+
+document.getElementById('body').addEventListener('change', function(e){
+  if(!e.target.classList.contains('wl')) return;
+  var id = Number(e.target.dataset.id);
+  if(e.target.checked) state.watch.add(id); else state.watch.delete(id);
+  e.target.closest('tr').classList.toggle('watched', state.watch.has(id));
+  buildSummary(); writeHash();
+  if(state.watchOnly) render();
+  else { var c = document.querySelector('#railBody #fWatch'); if(c) c.parentNode.querySelector('.n').textContent = state.watch.size; }
+});
+
+document.getElementById('chips').addEventListener('click', function(e){
+  var b = e.target.closest('button[data-chip]'); if(!b) return;
+  var kind = b.dataset.chip, arg = b.dataset.arg;
+  if(kind==='q'){ state.q=''; document.getElementById('q').value=''; }
+  else if(kind==='facet'){ var p = arg.split('|'); var k=p[0], v=p.slice(1).join('|');
+    state.sel[k] = state.sel[k].filter(function(x){return x!==v;}); }
+  else if(kind==='range') delete state.rng[arg];
+  else if(kind==='standouts') state.standouts=false;
+  else if(kind==='watchonly') state.watchOnly=false;
+  render();
+});
+
+var qt;
+document.getElementById('q').addEventListener('input', function(e){
+  clearTimeout(qt); var v = e.target.value;
+  qt = setTimeout(function(){ state.q = v; render(); },140);
+});
+
+Array.prototype.forEach.call(document.querySelectorAll('.views button'), function(btn){
+  btn.addEventListener('click', function(){
+    if(state.view===btn.dataset.view) return;
+    state.view = btn.dataset.view;
+    Array.prototype.forEach.call(document.querySelectorAll('.views button'), function(b){
+      b.setAttribute('aria-selected', String(b===btn));
+    });
+    state.sort = Object.assign({}, VIEWS[state.view].defaultSort);
+    render();
+  });
+});
+
+function clearAll(){
+  Object.keys(state.sel).forEach(function(k){ state.sel[k] = []; });
+  state.rng = {}; state.q = ''; state.standouts = false; state.watchOnly = false;
+  document.getElementById('q').value = '';
+  render();
+}
+document.getElementById('btnClear').addEventListener('click', clearAll);
+document.getElementById('btnClear2').addEventListener('click', clearAll);
+document.getElementById('btnCsv').addEventListener('click', copyCsv);
+document.getElementById('railToggle').addEventListener('click', function(){
+  var r = document.getElementById('rail'), on = r.classList.toggle('open');
+  this.setAttribute('aria-pressed', String(on));
+});
+
+/* ---------- boot ---------- */
+computeBounds();
+readHash();
+document.getElementById('auctionLabel').textContent =
+  (P.auction_date ? 'Auction ending '+P.auction_date : '') + (P.sample ? ' · sample' : '');
+document.title = 'WineBid Deals'+(P.auction_date?' — '+P.auction_date:'');
+if(P.sample) document.getElementById('sampleBanner').hidden = false;
+document.getElementById('q').value = state.q;
+Array.prototype.forEach.call(document.querySelectorAll('.views button'), function(b){
+  b.setAttribute('aria-selected', String(b.dataset.view===state.view));
+});
+if(!VIEWS[state.view].cols.some(function(c){return c.k===state.sort.col;}))
+  state.sort = Object.assign({}, VIEWS[state.view].defaultSort);
+buildFunnel();
+render();
+})();
+
+</script>
+</body>
+</html>
