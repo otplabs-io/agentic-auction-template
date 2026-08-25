@@ -689,15 +689,34 @@ document.getElementById('btnCsv').addEventListener('click', copyCsv);
 /* Two buttons open the same filter rail: #railToggle lives in the masthead
    (tablet width) and #railToggleMobile sits above the results list (phone
    width, see template CSS) -- a search-results-page placement rather than a
-   header button. Both drive the same .rail.open toggle. */
-function toggleRail(btn){
-  var r = document.getElementById('rail'), on = r.classList.toggle('open');
+   header button. Both drive the same .rail.open toggle.
+
+   On phone width the CSS turns .rail into a bottom-sheet tray instead of an
+   inline block (see template.html's @media max-width:640px), so opening it
+   also needs a backdrop and a scroll lock. Those are harmless no-ops at
+   tablet/desktop width -- .railBackdrop stays display:none there via CSS,
+   and locking body scroll while an *inline* rail is open would be wrong, so
+   the lock only takes effect under the same 640px query (body.no-scroll is
+   inert outside it). setRail() is the one place that changes the open
+   state; everything else (buttons, backdrop, Escape) calls into it. */
+function setRail(on){
+  document.getElementById('rail').classList.toggle('open', on);
+  document.getElementById('railBackdrop').classList.toggle('open', on);
+  document.body.classList.toggle('no-scroll', on);
   document.querySelectorAll('.railToggleBtn').forEach(function(b){
     b.setAttribute('aria-pressed', String(on));
   });
 }
+function toggleRail(){
+  setRail(!document.getElementById('rail').classList.contains('open'));
+}
 Array.prototype.forEach.call(document.querySelectorAll('.railToggleBtn'), function(btn){
-  btn.addEventListener('click', function(){ toggleRail(btn); });
+  btn.addEventListener('click', toggleRail);
+});
+document.getElementById('railClose').addEventListener('click', function(){ setRail(false); });
+document.getElementById('railBackdrop').addEventListener('click', function(){ setRail(false); });
+document.addEventListener('keydown', function(e){
+  if(e.key==='Escape' && document.getElementById('rail').classList.contains('open')) setRail(false);
 });
 
 /* ---------- boot ---------- */

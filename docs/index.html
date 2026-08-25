@@ -160,6 +160,8 @@ button{font:inherit;color:inherit}
 .rail{position:sticky;top:65px;max-height:calc(100vh - 82px);overflow-y:auto;padding-right:2px}
 .rail-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
 .rail-head h2{font-size:11px;font-family:var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin:0;font-weight:500}
+.railCloseBtn{display:none}
+.railBackdrop{display:none}
 .linkbtn{background:none;border:0;padding:0;color:var(--accent);font-size:12px;cursor:pointer;text-decoration:underline}
 .linkbtn[disabled]{color:var(--mute);cursor:default;text-decoration:none}
 
@@ -352,6 +354,43 @@ tbody tr:hover{background:#F7F9FB}
     padding:8px 11px;font:inherit;font-size:12.5px;color:var(--ink);
   }
 
+  /* ---------- filter tray ----------
+     Filters no longer insert inline (that pushed the whole page down). Below
+     640px .rail is a fixed bottom sheet: hidden off-screen via transform so
+     it can still transition, shown by adding .open (toggleRail() in app.js
+     flips this the same way it always has -- only the CSS changed). A
+     backdrop dims the page behind it and doubles as a tap-to-close target;
+     body scroll is locked via the .no-scroll class while it's open. */
+  .rail{
+    display:block;position:fixed;left:0;right:0;bottom:0;top:auto;
+    max-height:85vh;overflow-y:auto;
+    background:var(--surface);border-radius:16px 16px 0 0;
+    box-shadow:0 -12px 32px rgba(20,24,28,.22);
+    z-index:70;padding:10px 16px calc(16px + env(safe-area-inset-bottom,0px));
+    transform:translateY(100%);visibility:hidden;pointer-events:none;
+    transition:transform .25s ease,visibility 0s linear .25s;
+  }
+  .rail::before{
+    content:"";display:block;width:36px;height:4px;border-radius:2px;
+    background:var(--rule);margin:0 auto 12px;
+  }
+  .rail.open{
+    transform:translateY(0);visibility:visible;pointer-events:auto;
+    transition:transform .25s ease;
+  }
+  .railCloseBtn{
+    display:inline-flex;align-items:center;justify-content:center;
+    width:26px;height:26px;margin-left:8px;border:0;background:none;
+    color:var(--slate);font-size:20px;line-height:1;cursor:pointer;border-radius:6px;
+  }
+  .railCloseBtn:hover{background:var(--paper);color:var(--ink)}
+  .railBackdrop{
+    display:block;position:fixed;inset:0;background:rgba(20,24,28,.45);
+    z-index:65;opacity:0;pointer-events:none;transition:opacity .25s ease;
+  }
+  .railBackdrop.open{opacity:1;pointer-events:auto}
+  body.no-scroll{overflow:hidden}
+
   .panel{border-radius:10px}
   .tablewrap{overflow:visible;max-height:none}
   #grid thead{display:none}
@@ -439,11 +478,13 @@ tbody tr:hover{background:#F7F9FB}
   <div class="funnel-body" id="funnelBody"></div>
 </details>
 
+<div class="railBackdrop" id="railBackdrop"></div>
 <div class="shell">
   <aside class="rail" id="rail" aria-label="Filters">
     <div class="rail-head">
       <h2>Filters</h2>
       <button class="linkbtn" id="btnClear" disabled>Clear all</button>
+      <button class="railCloseBtn" id="railClose" aria-label="Close filters">×</button>
     </div>
     <div id="railBody"></div>
   </aside>
@@ -1169,15 +1210,34 @@ document.getElementById('btnCsv').addEventListener('click', copyCsv);
 /* Two buttons open the same filter rail: #railToggle lives in the masthead
    (tablet width) and #railToggleMobile sits above the results list (phone
    width, see template CSS) -- a search-results-page placement rather than a
-   header button. Both drive the same .rail.open toggle. */
-function toggleRail(btn){
-  var r = document.getElementById('rail'), on = r.classList.toggle('open');
+   header button. Both drive the same .rail.open toggle.
+
+   On phone width the CSS turns .rail into a bottom-sheet tray instead of an
+   inline block (see template.html's @media max-width:640px), so opening it
+   also needs a backdrop and a scroll lock. Those are harmless no-ops at
+   tablet/desktop width -- .railBackdrop stays display:none there via CSS,
+   and locking body scroll while an *inline* rail is open would be wrong, so
+   the lock only takes effect under the same 640px query (body.no-scroll is
+   inert outside it). setRail() is the one place that changes the open
+   state; everything else (buttons, backdrop, Escape) calls into it. */
+function setRail(on){
+  document.getElementById('rail').classList.toggle('open', on);
+  document.getElementById('railBackdrop').classList.toggle('open', on);
+  document.body.classList.toggle('no-scroll', on);
   document.querySelectorAll('.railToggleBtn').forEach(function(b){
     b.setAttribute('aria-pressed', String(on));
   });
 }
+function toggleRail(){
+  setRail(!document.getElementById('rail').classList.contains('open'));
+}
 Array.prototype.forEach.call(document.querySelectorAll('.railToggleBtn'), function(btn){
-  btn.addEventListener('click', function(){ toggleRail(btn); });
+  btn.addEventListener('click', toggleRail);
+});
+document.getElementById('railClose').addEventListener('click', function(){ setRail(false); });
+document.getElementById('railBackdrop').addEventListener('click', function(){ setRail(false); });
+document.addEventListener('keydown', function(e){
+  if(e.key==='Escape' && document.getElementById('rail').classList.contains('open')) setRail(false);
 });
 
 /* ---------- boot ---------- */
