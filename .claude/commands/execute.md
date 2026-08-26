@@ -16,6 +16,6 @@ Run the weekly WineBid analysis. Follow CLAUDE.md exactly and read known-limits.
 
 6. **Report** survivors → valued → deals as three distinct numbers, present the dashboard from `output/`, and archive the processed xlsx to `inbox/processed/`.
 
-7. **Publish.** Copy the dashboard to `toolkit/docs/index.html`, then `git add -A && git commit && git push origin main` from the repo root. Automatic every run — see CLAUDE.md's "Publishing" section for the exposure caveat already settled with the user. Do not commit or push the raw xlsx.
+7. **Publish.** Copy the dashboard to `docs/index.html` (repo root), then `git add -A && git commit && git push origin main` from the repo root. Automatic every run — see CLAUDE.md's "Publishing" section for the exposure caveat already settled with the user. Do not commit or push the raw xlsx.
 
 $ARGUMENTS

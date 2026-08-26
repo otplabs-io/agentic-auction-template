@@ -20,8 +20,9 @@ Sourced, accurate numbers matter more than covering volume. Never fabricate a pr
 ├── survivors.csv              # current week's screened + classified lots (gitignored)
 ├── valuations.csv             # current week's valuations, keyed by make_key (gitignored)
 ├── payload.json               # current week's builder input (gitignored)
+├── docs/                       # GitHub Pages source (served at /docs on main — GitHub Pages'
+│                               #   legacy build type only allows / or /docs, nothing nested)
 ├── toolkit/                   # dashboard renderer + tests — an ordinary subdirectory of THIS repo
-│   └── docs/                  # GitHub Pages source (served at /toolkit/docs on main)
 └── .claude/
     ├── settings.json
     └── commands/execute.md    # the /execute slash command
@@ -37,7 +38,7 @@ There is no separate `toolkit/` clone to keep in sync — a plain `git pull`/`gi
 4. Step 3 (value in batches) → report progress each batch.
 5. Steps 4–6 (tiers, flags, dashboard).
 6. Report all three numbers together — survivors → valued → deals — and archive the xlsx to `inbox/processed/`.
-7. Publish (see "Publishing" below) — copy the dashboard to `toolkit/docs/index.html`, commit, and push to `origin main`. Automatic every run, not on request.
+7. Publish (see "Publishing" below) — copy the dashboard to `docs/index.html`, commit, and push to `origin main`. Automatic every run, not on request.
 
 Do not stop at the shortlist and do not wait for confirmation between steps. Screen → classify → value → build → publish is the default. Pause only for a genuine anomaly (reserve above market, implausible range).
 
@@ -297,7 +298,7 @@ Distinguish "no reliable price found" (searched, source insufficient) from "not 
 
 This repo (`otplabs-io/agentic-auction-template`, main branch) **is** the working directory — since 2026-08-25 there is no separate copy-into-toolkit step; everything (`CLAUDE.md`, `known-limits.md`, `price_cache.csv`, `.claude/`, `toolkit/`) already lives in one clone. **As the last step of every `/execute` run**, without being asked:
 
-1. Copy the built dashboard to `toolkit/docs/index.html`. Keep `toolkit/docs/robots.txt` (`User-agent: *` / `Disallow: /`) and `toolkit/docs/.nojekyll` in place — recreate them if missing.
+1. Copy the built dashboard to `docs/index.html` (repo root — GitHub Pages' legacy build type only serves `/` or `/docs`, so this can't live under `toolkit/`). Keep `docs/robots.txt` (`User-agent: *` / `Disallow: /`) and `docs/.nojekyll` in place — recreate them if missing.
 2. `git add -A && git commit -m "..." && git push origin main` — from the repo root.
 3. Do **not** commit or push the raw `WineBid-Download-*.xlsx` — it's WineBid's proprietary full-catalog export, not just the user's derived analysis, and redistributing it publicly is a separate copyright/ToS question the user hasn't signed off on. Keep archiving it locally to `inbox/processed/` only (already gitignored). Flag this omission in the run report so the user can override if they actually want it pushed.
 
