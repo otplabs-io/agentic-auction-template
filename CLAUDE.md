@@ -9,23 +9,25 @@ Sourced, accurate numbers matter more than covering volume. Never fabricate a pr
 ## Repo layout
 
 ```
-.
+.                                 (otplabs-io/agentic-auction-template — one repo, cloned once)
 ├── CLAUDE.md                  # this file
 ├── known-limits.md            # operational constraints — read before each run
-├── inbox/                     # drop the weekly xlsx here
+├── requirements.txt            # pandas, openpyxl
+├── inbox/                     # drop the weekly xlsx here (gitignored)
 │   └── processed/             # archived after a successful run
-├── output/                    # built dashboards land here
+├── output/                    # built dashboards land here before publishing (gitignored)
 ├── price_cache.csv            # PERSISTENT across weeks — the whole point of Claude Code
-├── survivors.csv              # current week's screened + classified lots
-├── valuations.csv             # current week's valuations, keyed by make_key
-├── payload.json               # current week's builder input
-├── toolkit/                   # git clone of otplabs-io/agentic-auction-template
+├── survivors.csv              # current week's screened + classified lots (gitignored)
+├── valuations.csv             # current week's valuations, keyed by make_key (gitignored)
+├── payload.json               # current week's builder input (gitignored)
+├── toolkit/                   # dashboard renderer + tests — an ordinary subdirectory of THIS repo
+│   └── docs/                  # GitHub Pages source (served at /toolkit/docs on main)
 └── .claude/
-    ├── commands/execute.md    # the /execute slash command
-    └── agents/wine-valuer.md  # optional valuation subagent
+    ├── settings.json
+    └── commands/execute.md    # the /execute slash command
 ```
 
-Working files (`survivors.csv`, `valuations.csv`, `payload.json`) are per-week scratch. `price_cache.csv` is durable and must never be deleted casually.
+There is no separate `toolkit/` clone to keep in sync — a plain `git pull`/`git push` at the repo root moves everything together. Working files (`survivors.csv`, `valuations.csv`, `payload.json`) are per-week scratch and gitignored; `price_cache.csv` is durable, tracked, and must never be deleted casually.
 
 ## How to run ("Execute" / `/execute`)
 
@@ -35,7 +37,7 @@ Working files (`survivors.csv`, `valuations.csv`, `payload.json`) are per-week s
 4. Step 3 (value in batches) → report progress each batch.
 5. Steps 4–6 (tiers, flags, dashboard).
 6. Report all three numbers together — survivors → valued → deals — and archive the xlsx to `inbox/processed/`.
-7. Publish (see "Publishing" below) — copy the run's files into `toolkit/`, copy the dashboard to `toolkit/docs/index.html`, commit, and push to `origin main`. Automatic every run, not on request.
+7. Publish (see "Publishing" below) — copy the dashboard to `toolkit/docs/index.html`, commit, and push to `origin main`. Automatic every run, not on request.
 
 Do not stop at the shortlist and do not wait for confirmation between steps. Screen → classify → value → build → publish is the default. Pause only for a genuine anomaly (reserve above market, implausible range).
 
@@ -143,6 +145,7 @@ Value **every** survivor and **only** survivors. Never price a lot that failed t
 ### Dedupe and load the cache
 
 ```python
+import sys; sys.path.insert(0, 'toolkit')
 import price_cache as pc
 cache = pc.load('price_cache.csv')
 plan  = pc.plan(survivor_lots, cache)
@@ -254,7 +257,7 @@ Field notes:
 
 ## Toolkit
 
-`toolkit/` is a clone of https://github.com/otplabs-io/agentic-auction-template. Unlike the chat workflow, do **not** re-clone each week — it persists. `git -C toolkit pull` occasionally.
+`toolkit/` holds the dashboard renderer (`build_dashboard.py`, `template.html`, `app.js`, `test.js`) — it's an ordinary subdirectory of this same repo (`otplabs-io/agentic-auction-template`), not a separate clone. A plain `git pull`/`git push` at the repo root keeps it in sync with everything else; there is no `git -C toolkit pull` step anymore. Dependencies: `pip3 install -r requirements.txt` (repo root) for `pandas`/`openpyxl`, `npm install` inside `toolkit/` for `test.js`'s `jsdom` — both are pinned (`requirements.txt`, `toolkit/package.json`+lockfile) and a `SessionStart` hook installs them automatically if missing.
 
 Do not edit `template.html` or `app.js` during a normal run. Renderer changes are a separate task, made in the repo, with `node test.js` re-run afterward **and** a real-browser check — JSDOM does not accurately model the computed-style CSS cascade (see `known-limits.md`), so a passing suite is necessary but not sufficient for a rendering change.
 
@@ -292,12 +295,13 @@ Distinguish "no reliable price found" (searched, source insufficient) from "not 
 
 ## Publishing (automatic, every run — since 2026-08-24)
 
-`toolkit/` is a live clone of `https://github.com/otplabs-io/agentic-auction-template` (main branch), owned by the user. **As the last step of every `/execute` run**, without being asked:
+This repo (`otplabs-io/agentic-auction-template`, main branch) **is** the working directory — since 2026-08-25 there is no separate copy-into-toolkit step; everything (`CLAUDE.md`, `known-limits.md`, `price_cache.csv`, `.claude/`, `toolkit/`) already lives in one clone. **As the last step of every `/execute` run**, without being asked:
 
-1. Copy this week's `CLAUDE.md`, `known-limits.md`, `survivors.csv`, `valuations.csv`, `price_cache.csv`, `payload.json` into `toolkit/` (overwriting last week's copies — git history is the archive, not parallel files).
-2. Copy the built dashboard to `toolkit/docs/index.html`. Keep `toolkit/docs/robots.txt` (`User-agent: *` / `Disallow: /`) and `toolkit/docs/.nojekyll` in place — recreate them if missing.
-3. `git -C toolkit add -A && git -C toolkit commit -m "..." && git -C toolkit push origin main`.
-4. Do **not** push the raw `WineBid-Download-*.xlsx` — it's WineBid's proprietary full-catalog export, not just the user's derived analysis, and redistributing it publicly is a separate copyright/ToS question the user hasn't signed off on. Keep archiving it locally to `inbox/processed/` only. Flag this omission in the run report so the user can override if they actually want it pushed.
+1. Copy the built dashboard to `toolkit/docs/index.html`. Keep `toolkit/docs/robots.txt` (`User-agent: *` / `Disallow: /`) and `toolkit/docs/.nojekyll` in place — recreate them if missing.
+2. `git add -A && git commit -m "..." && git push origin main` — from the repo root.
+3. Do **not** commit or push the raw `WineBid-Download-*.xlsx` — it's WineBid's proprietary full-catalog export, not just the user's derived analysis, and redistributing it publicly is a separate copyright/ToS question the user hasn't signed off on. Keep archiving it locally to `inbox/processed/` only (already gitignored). Flag this omission in the run report so the user can override if they actually want it pushed.
+
+**Running from anywhere (added 2026-08-25):** this repo is fully self-sufficient — `.claude/commands/execute.md`, `.claude/settings.json`, `CLAUDE.md`, `known-limits.md`, `price_cache.csv`, and `toolkit/` all travel together in one clone. To run from any device: open a Claude Code cloud session (claude.ai/code, or `claude --cloud` from any machine's CLI) connected to this repo, attach the week's downloaded `.xlsx`, and type `/execute`. Cloud sessions load `.claude/commands/`, `.claude/settings.json`, and this file the same way a local session does. The xlsx itself is never committed — grab it fresh each week (WineBid's bot detection blocks automated download; see `known-limits.md`) and hand it to whichever session (local or cloud) is running that week.
 
 **Exposure the user has explicitly accepted (confirmed 2026-08-24):** this repo is **public**, not private, and GitHub Pages has no login-wall on the free/pro tier — anyone with the URL can see the published dashboard regardless of repo visibility. Pushing `survivors.csv`/`valuations.csv`/`payload.json` here means the user's exact target lots, reserve prices, and market valuations sit in public commit history too, not just the one dashboard page. The user was asked directly and chose to proceed anyway ("push everything, public is fine") rather than making the repo private or holding back the data files. Do not re-litigate this each run — it's a settled, deliberate call. If a future user ever wants this walked back (private repo, or data files withheld), that's a new decision to ask about, not a default to assume.
 

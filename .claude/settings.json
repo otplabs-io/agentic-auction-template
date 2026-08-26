@@ -26,16 +26,32 @@
       "Bash(git diff:*)",
       "Bash(git log:*)",
       "Bash(git clone:*)",
-      "Bash(git -C toolkit pull)"
+      "Bash(git pull)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push origin main)"
     ],
     "deny": [
       "Bash(rm -rf:*)",
-      "Bash(git push:*)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
       "Read(./.env)",
       "Read(./.env.*)"
     ]
   },
   "env": {
     "CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION": "500"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c 'import pandas, openpyxl' 2>/dev/null || pip3 install -r requirements.txt; [ -d toolkit/node_modules/jsdom ] || (cd toolkit && npm install)"
+          }
+        ]
+      }
+    ]
   }
 }

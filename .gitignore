@@ -1,8 +1,6 @@
-node_modules/
-package-lock.json
-package.json
-*.html
-!template.html
-!docs/index.html
-__pycache__/
+/inbox/
+/output/
+/survivors.csv
+/valuations.csv
+/payload.json
 .DS_Store

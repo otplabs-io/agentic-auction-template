@@ -1,0 +1,8 @@
+{
+  "name": "agentic-auction-template-toolkit",
+  "private": true,
+  "description": "Dev dependency for test.js's headless dashboard assertions",
+  "devDependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
