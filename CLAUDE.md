@@ -80,7 +80,9 @@ Apply in order; report how many drop at each stage.
 
 **1. Country** — keep FR/IT/ES/PT/AT by `Region` first token.
 
-**2. Dessert / fortified** — drop by name/appellation: Sauternes, Barsac, SGN, late-harvest, ice wine/Eiswein, BA/TBA, Ausbruch, Vin Santo, passito/Recioto, Port, Madeira, Marsala, PX, Moscatel dessert styles, Rivesaltes/Banyuls/Maury, Moelleux/Liquoreux (Loire), (Premiere/Première) Trie, Coteaux du Layon/Quarts de Chaume/Bonnezeaux.
+**2. Dessert / fortified** — drop by name/appellation: Sauternes, Barsac, SGN, late-harvest, ice wine/Eiswein, BA/TBA (incl. spelled-out Beerenauslese/Trockenbeerenauslese), Ausbruch, Vin Santo, passito/Recioto, Port, Madeira, Marsala, PX (incl. spelled-out Pedro Ximénez), Moscatel dessert styles, Muscat de Beaumes-de-Venise/Frontignan/Lunel/Mireval/Saint-Jean-de-Minervois, Passito di Pantelleria, Rivesaltes/Banyuls/Maury, Moelleux/Liquoreux (Loire), (Premiere/Première) Trie, Coteaux du Layon/Quarts de Chaume/Bonnezeaux.
+
+> **The abbreviation doesn't catch the spelled-out term.** `\btba\b` and `\bpx\b` catch "TBA" and "PX" but miss "Trockenbeerenauslese" and "Pedro Ximenez" spelled out in full — caught 2026-09-14 on Alois Kracher's Grande Cuvée Trockenbeerenauslese #12 (only found in Step 2 review) and Alvear Pedro Ximenez Solera 1830 (found in Step 1 eyeball). Match both forms.
 
 > **Moelleux is a dessert style, not a colour word.** Domaine Huet's Vouvray "Moelleux" (especially "Première Trie") bottlings are sweet, late-harvest-style wines that read as ordinary white Vouvray to a naive keyword pass — caught 2026-08-24 only during Step 2 manual review. See `known-limits.md`.
 
