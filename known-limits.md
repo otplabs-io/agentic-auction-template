@@ -92,6 +92,14 @@ New 2026-08-24: **Bodegas Pinea "Korde"** bottles Blanco, Rosado and Tinto under
 
 Reporting only deals and unvalued invites reading `deals / (deals + unvalued)` as the coverage rate, which understates valuation coverage and overstates how many wines were never searched. Always state all three: screened survivors → attempted/valued → deals.
 
+## prep_valuation.py's cache-hit path never writes to valuations.csv
+
+`prep_valuation.py` calls `pc.plan()` and writes `fetch_plan.json` from `plan['fetch']` only — the wines that *need* a search. Wines `pc.plan()` resolves as cache hits (already priced from a prior week, still within TTL) are correctly excluded from the fetch plan, but nothing ever writes their cached price into `valuations.csv`. `apply_batch.py` only ever processes wines that appear in a batch results file, so a pure cache hit — one that never gets searched this week because it doesn't need to be — silently never gets a `valuations.csv` row either.
+
+Caught 2026-09-20: 7 unique wines (9 lots, exactly matching the run's reported "7 cache hits") were missing from `valuations.csv` even after `fetch_plan.json` reached 0. `build_payload.py` would have miscounted them as "not yet attempted" despite having a perfectly good cached price sitting in `price_cache.csv`.
+
+**Fix applied this week (should be folded into `prep_valuation.py` itself, not repeated by hand):** for every key in `plan['groups']` that is *not* in `plan['fetch']` (i.e. every cache hit), look up its price/source/source_type in the loaded cache and append a `valuations.csv` row for every lot in that group — same shape `apply_batch.py` writes — right there in `prep_valuation.py`, before `fetch_plan.json` is even written. Until that change lands, re-run the backfill check manually after `fetch_plan.json` hits 0: `set(survivors.id) - set(valuations.id)` should be empty; any leftover ids are cache hits that need this same manual backfill from `price_cache.csv`.
+
 ## Environment notes
 
 - **JSDOM does not accurately model computed-style CSS cascade.** Author-origin rules can override UA `[hidden]` behavior in ways JSDOM won't catch. Rendered browser output is the final verification. (This is how the sample-banner bug survived a passing test suite — fixed 2026-08-24 with an explicit `.sample-banner[hidden]{display:none!important}` rule. The general lesson stands for any future rendering change: run `test.js`, then also check a real browser.)
