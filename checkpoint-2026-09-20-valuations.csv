@@ -739,3 +739,36 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10889774,Nicolas Potel Santenay Clos Rousseau,2002,750ml,Red,"France, Burgundy, Côte d'Or",FR,60,,Insufficient data,insufficient
 10882823,Niepoort Douro Batuta,2003,750ml,Red,"Portugal, Douro",PT,75,,Insufficient data,insufficient
 10896488,Marc Hebrart Premier Cru Mes Favorites,NV,750ml,Sparkling,"France, Champagne",FR,60,68,"Retailer listing (Saratoga Wine), all-vintage",ws_single_retailer
+10889232,Olga Raffault Chinon Les Picasses,2014,750ml,Red,"France, Loire Valley, Touraine",FR,45,19,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888140,Olivier Leflaive Chassagne-Montrachet Les Chaumées,2000,750ml,White,"France, Burgundy, Côte d'Or",FR,60,,Insufficient data,insufficient
+10888141,Olivier Leflaive Chassagne-Montrachet Les Chaumées,2000,750ml,White,"France, Burgundy, Côte d'Or",FR,60,,Insufficient data,insufficient
+10889722,Ontanon Rioja Gran Reserva,1995,750ml,Red,"Spain, Rioja",ES,35,,Insufficient data,insufficient
+10889888,Ontanon Rioja Gran Reserva,2001,750ml,Red,"Spain, Rioja",ES,30,,Insufficient data,insufficient
+10889999,Ontanon Rioja Reserva,2005,750ml,Red,"Spain, Rioja",ES,25,30,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10896500,Palari Faro,2006,750ml,Red,"Italy, Sicily, Faro",IT,75,,Insufficient data,insufficient
+10896482,Palari Faro,2007,750ml,Red,"Italy, Sicily, Faro",IT,120,,Insufficient data,insufficient
+10889945,Paolo Scavino Barolo,2005,750ml,Red,"Italy, Piedmont, Barolo",IT,45,,"Insufficient data - only single-vineyard bottlings priced, no confident base-Barolo match",insufficient
+10896505,Passopisciaro Contrada Sciaranuova,2020,750ml,Red,"Italy, Sicily, Terre Siciliane",IT,70,83,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890131,Passopisciaro,2008,750ml,Red,"Italy, Sicily",IT,50,,"Insufficient data - only single-vineyard Contrada bottlings priced, no confident base match",insufficient
+10888196,Patriarche Père et Fils Nuits-St.-Georges,1959,750ml,Red,"France, Burgundy, Côte d'Or",FR,120,,Insufficient data,insufficient
+10882863,Patrick Piuze Chablis Bougros,2019,750ml,White,"France, Burgundy, Chablis",FR,70,130,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889998,Pauillac De Lynch Bages,2010,750ml,Red,"France, Bordeaux, Pauillac",FR,65,291,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889770,Paul Autard Châteauneuf-du-Pape,1995,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,40,,Insufficient data,insufficient
+10889929,Paul Bara Brut Grand Cru Grande Rosé,NV,750ml,Sparkling,"France, Champagne",FR,50,,Insufficient data,insufficient
+10896490,Paul Pillot Bourgogne Aligoté,2019,750ml,White,"France, Burgundy, Bourgogne",FR,35,46,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888044,Perillo Taurasi Riserva,2001,750ml,Red,"Italy, Campania, Taurasi",IT,60,81,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10896489,Petit & Bajan Brut Grand Cru Nymphea Rose,NV,750ml,Sparkling,"France, Champagne",FR,45,,Insufficient data,insufficient
+10889946,Piccini Chianti Classico Riserva,2005,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,20,21,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10888381,Pierre Bitouzet Pommard Platieres,1996,750ml,Red,"France, Burgundy, Côte d'Or",FR,50,,Insufficient data,insufficient
+10888188,Pierre Dubreuil-Fontaine Pernand Vergelesses Clos Berthet,2010,750ml,White,"France, Burgundy, Côte d'Or",FR,50,,Insufficient data,insufficient
+10888081,Pierre Dubreuil-Fontaine Pernand Vergelesses Clos Berthet,2011,750ml,White,"France, Burgundy, Côte d'Or",FR,45,,Insufficient data,insufficient
+10888418,Pierre-Marie Chermette Domaine du Vissoux Moulin a Vent Les Trois Roches,2009,750ml,Red,"France, Beaujolais, Moulin-a-Vent",FR,35,35,"Retailer listing (Wine Spectrum), vintage-specific",ws_single_retailer
+10889928,Pierre Moncuit Brut Grand Cru Pierre Moncuit-Delos Blanc de Blancs,NV,750ml,Sparkling,"France, Champagne, Côte des Blancs",FR,50,56,"Wine-Searcher average retail, all-vintage (Cuvee Delos Extra Brut, closest match)",ws_allvintage
+10882854,Pierre Usseglio Chateauneuf du Pape Cuvee de Mon Aieul,2003,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,70,126,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889877,Pio Cesare Barolo,2004,750ml,Red,"Italy, Piedmont, Barolo",IT,90,139,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889878,Pio Cesare Barolo,2004,750ml,Red,"Italy, Piedmont, Barolo",IT,90,139,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889102,Piper-Heidsieck Brut Rose Sauvage,NV,750ml,Sparkling,"France, Champagne",FR,35,66,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10896495,Ployez-Jacquemart Extra Brut Blanc de Blancs,2010,750ml,Sparkling,"France, Champagne",FR,50,115,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889847,Podere Canneta Brunello di Montalcino,1997,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,35,,"Insufficient data - searched, only a differently-named producer (I Mori Canneta) found",insufficient
+10889955,Podere Canneta Brunello di Montalcino,1997,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,35,,"Insufficient data - searched, only a differently-named producer (I Mori Canneta) found",insufficient
+10882775,Podere Le Ripi Brunello di Montalcino Lupi e Sirene Riserva,2018,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,100,189,"Wine-Searcher listed price, vintage-specific",ws_vintage
