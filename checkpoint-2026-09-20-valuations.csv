@@ -772,3 +772,79 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10889847,Podere Canneta Brunello di Montalcino,1997,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,35,,"Insufficient data - searched, only a differently-named producer (I Mori Canneta) found",insufficient
 10889955,Podere Canneta Brunello di Montalcino,1997,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,35,,"Insufficient data - searched, only a differently-named producer (I Mori Canneta) found",insufficient
 10882775,Podere Le Ripi Brunello di Montalcino Lupi e Sirene Riserva,2018,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,100,189,"Wine-Searcher listed price, vintage-specific",ws_vintage
+10888156,Poggio di Sotto Rosso di Montalcino,2007,750ml,Red,"Italy, Tuscany, Rosso di Montalcino",IT,50,,Insufficient data,insufficient
+10889956,Poggio San Polo Brunello di Montalcino,2000,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,45,,Insufficient data,insufficient
+10890082,Poliziano Vino da Tavola Le Stanze,2004,750ml,Red,"Italy, Tuscany",IT,35,,Insufficient data,insufficient
+10890097,Poliziano Vino Nobile di Montepulciano Asinone,2006,750ml,Red,"Italy, Tuscany, Vino Nobile di Montepulciano",IT,30,,Insufficient data,insufficient
+10890098,Poliziano Vino Nobile di Montepulciano Asinone,2006,750ml,Red,"Italy, Tuscany, Vino Nobile di Montepulciano",IT,30,,Insufficient data,insufficient
+10889103,Pommery Brut Royal,NV,750ml,Sparkling,"France, Champagne",FR,30,47,"Wine-Searcher/retailer average, all-vintage",ws_allvintage
+10889843,Produttori del Barbaresco Barbaresco Asili Riserva,2005,750ml,Red,"Italy, Piedmont, Barbaresco",IT,90,71,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889844,Produttori del Barbaresco Barbaresco Asili Riserva,2005,750ml,Red,"Italy, Piedmont, Barbaresco",IT,90,71,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888439,Produttori del Barbaresco Barbaresco Pora Riserva,1997,750ml,Red,"Italy, Piedmont, Barbaresco",IT,70,,Insufficient data,insufficient
+10889845,Produttori del Barbaresco Barbaresco Rabajà Riserva,2005,750ml,Red,"Italy, Piedmont, Barbaresco",IT,90,,Insufficient data,insufficient
+10888332,Querciabella Camartina,1991,750ml,Red,"Italy, Tuscany",IT,40,,Insufficient data,insufficient
+10888333,Querciabella Camartina,2006,750ml,Red,"Italy, Tuscany",IT,65,144,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10882807,Quinta do Fojo Douro Vinha do Fojo,1999,750ml,Red,"Portugal, Douro",PT,75,,"Insufficient data - only this same auction's own listing price surfaced, no independent market source",insufficient
+10888072,Rapet Pere & Fils Bourgogne En Bully,2002,750ml,Red,"France, Burgundy",FR,25,37,"Wine-Searcher market range estimate ($33-42), all-vintage",ws_allvintage
+10889185,Rapet Pere & Fils Bourgogne En Bully,2002,750ml,Red,"France, Burgundy",FR,25,37,"Wine-Searcher market range estimate ($33-42), all-vintage",ws_allvintage
+10889699,Renato Ratti Barolo Marcenasco,2010,750ml,Red,"Italy, Piedmont, Barolo",IT,65,68,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888167,Rene Bourgeons Givry,1995,750ml,Red,"France, Burgundy, Côte Chalonnaise",FR,25,,Insufficient data,insufficient
+10888168,Rene Bourgeons Givry,1995,750ml,Red,"France, Burgundy, Côte Chalonnaise",FR,25,,Insufficient data,insufficient
+10888073,Rene Bourgeons Givry,1996,750ml,Red,"France, Burgundy, Côte Chalonnaise",FR,25,,Insufficient data,insufficient
+10889867,Réserve de la Comtesse,2000,750ml,Red,"France, Bordeaux, Pauillac",FR,60,97,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889868,Réserve de la Comtesse,2000,750ml,Red,"France, Bordeaux, Pauillac",FR,60,97,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889746,Roger Perrin Châteauneuf-du-Pape,2011,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,25,,Insufficient data,insufficient
+10888334,Romano Dal Forno Nettare,1997,375ml,Dessert,"Italy, Veneto",IT,120,,"Insufficient data - confirmed a genuine dessert wine (dried-grape, barrique-aged), no price found",insufficient
+10889894,Romano Dal Forno Valpolicella Superiore,2004,750ml,Red,"Italy, Veneto",IT,105,57,"Retailer case price (Berry Bros & Rudd, GBP540/case-12 converted), vintage-specific",ws_single_retailer
+10889704,Ronchi di Giancarlo Rocca Barbaresco Ronchi,2007,750ml,Red,"Italy, Piedmont, Barbaresco",IT,35,,Insufficient data - producer name confusion with unrelated Albino Rocca,insufficient
+10889705,Ronchi di Giancarlo Rocca Barbaresco Ronchi,2007,750ml,Red,"Italy, Piedmont, Barbaresco",IT,35,,Insufficient data - producer name confusion with unrelated Albino Rocca,insufficient
+10882373,Santa Margherita Cabernet Sauvignon,1986,750ml,Red,"Italy, Veneto",IT,15,,Insufficient data,insufficient
+10889791,Selvapiana Chianti Rufina Bucerchiale Riserva,2004,750ml,Red,"Italy, Tuscany, Chianti",IT,45,34,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889790,Selvapiana Chianti Rufina Bucerchiale Riserva,2004,750ml,Red,"Italy, Tuscany, Chianti",IT,45,34,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890151,Selvapiana Chianti Rufina Bucerchiale Riserva,2012,750ml,Red,"Italy, Tuscany, Chianti",IT,35,22,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890154,Selvapiana Chianti Rùfina,2007,750ml,Red,"Italy, Tuscany, Chianti",IT,20,,Insufficient data,insufficient
+10890156,Selvapiana Chianti Rùfina,2007,750ml,Red,"Italy, Tuscany, Chianti",IT,20,,Insufficient data,insufficient
+10889240,Serre dei Roveri Barolo,2019,750ml,Red,"Italy, Piedmont, Barolo",IT,25,23,"Wine-Searcher average retail, all-vintage (base bottling)",ws_allvintage
+10889146,Simon Bize Savigny Les Beaune Aux Vergelesses,2016,750ml,Red,"France, Burgundy, Côte d'Or",FR,90,80,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889851,Sottimano Barbaresco Currá,2007,750ml,Red,"Italy, Piedmont, Barbaresco",IT,30,,Insufficient data - only score 91 found,insufficient
+10889852,Sottimano Barbaresco Currá,2007,750ml,Red,"Italy, Piedmont, Barbaresco",IT,30,,Insufficient data - only score 91 found,insufficient
+10889721,Stefano Farina Barolo,2001,750ml,Red,"Italy, Piedmont, Barolo",IT,40,,Insufficient data - only score 90 found,insufficient
+10889720,Stefano Farina Barolo,2001,750ml,Red,"Italy, Piedmont, Barolo",IT,40,,Insufficient data - only score 90 found,insufficient
+10888149,Tenimenti d'Alessandro Cortona Il Bosco Syrah,1997,750ml,Red,"Italy, Tuscany, Cortona",IT,40,32,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888150,Tenimenti d'Alessandro Cortona Il Bosco Syrah,1997,750ml,Red,"Italy, Tuscany, Cortona",IT,40,32,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10896508,Tenuta Delle Terre Nere Etna Bianco Cuvee delle Vigne Niche,2012,750ml,White,"Italy, Sicily, Etna",IT,40,,Insufficient data - no 2012-specific price found,insufficient
+10896511,Tenuta Delle Terre Nere Etna Bianco Superiore Cuvée delle Vigne Niche,2020,750ml,White,"Italy, Sicily, Etna",IT,45,54,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10882683,Tenuta Torciano Chianti Classico Riserva Godenzio,2019,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,25,58,"Retailer listing (wine.com $57.99), vintage-specific",ws_single_retailer
+10889897,Terrabianca Campaccio,2005,750ml,Red,"Italy, Tuscany",IT,30,,Insufficient data - only score 90 found,insufficient
+10896497,Theo Dancer Bourgogne Aligoté,2021,750ml,White,"France, Burgundy, Bourgogne Aligoté",FR,50,,"Insufficient data - conflicting figures ($153 vs $75 average of uncertain vintage scope), too unreliable to use",insufficient
+10890122,Thierry Triolet Brut Grande Réserve,NV,750ml,Sparkling,"France, Champagne",FR,25,41,"Wine-Searcher listing under closest name match (Cuvee Grande Reserve Blanc de Blancs), all-vintage",ws_allvintage
+10889925,Thierry Triolet Brut Grande Réserve,NV,750ml,Sparkling,"France, Champagne",FR,25,41,"Wine-Searcher listing under closest name match (Cuvee Grande Reserve Blanc de Blancs), all-vintage",ws_allvintage
+10888160,Tolaini Duesanti Tenuta S. Giovanni,2003,5.0ltr,Red,"Italy, Tuscany",IT,100,,"Insufficient data - WS lists a differently-named cuvee (Valdisanti), no 2003 price, unusual 5L format",insufficient
+10888161,Tolaini Duesanti Tenuta S. Giovanni,2003,5.0ltr,Red,"Italy, Tuscany",IT,100,,"Insufficient data - WS lists a differently-named cuvee (Valdisanti), no 2003 price, unusual 5L format",insufficient
+10888029,Tollot-Beaut et Fils Beaune Clos du Roi,2005,750ml,Red,"France, Burgundy, Côte d'Or",FR,55,,Insufficient data - only scores 90/91 found,insufficient
+10890094,Tommasi Viticoltori Poggio al Tufo Rompicollo,2011,750ml,Red,"Italy, Tuscany",IT,25,,Insufficient data - only score 88 found,insufficient
+10882842,Valdicava Brunello di Montalcino,2001,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,140,189,"Retailer listing, vintage-specific, direct name/format match",ws_single_retailer
+10889230,Valsacro Dioro Seleccion J & D Rioja,2001,750ml,Red,"Spain, Rioja",ES,80,,Insufficient data - no price found,insufficient
+10889988,Venus La Universal Montsant Tinto Dido,2013,750ml,Red,"Spain, Cataluna, Tarragona",ES,25,,"Insufficient data - only Rosat/white-blend variants found, not the Tinto",insufficient
+10888163,Verget Meursault Les Charmes,1996,750ml,White,"France, Burgundy, Côte d'Or",FR,55,,"Insufficient data - only score 95 found, no price",insufficient
+10888164,Verget Meursault Les Charmes,1996,750ml,White,"France, Burgundy, Côte d'Or",FR,55,,"Insufficient data - only score 95 found, no price",insufficient
+10882804,Veuve Clicquot Ponsardin Brut Vintage,2004,750ml,Sparkling,"France, Champagne",FR,100,320,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890119,Vietti Barolo Castiglione,2004,750ml,Red,"Italy, Piedmont, Barolo",IT,100,237,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10882862,Vietto Barolo Ravera,2019,750ml,Red,"Italy, Piedmont, Barolo",IT,45,,"Insufficient data - only scores 98-100 found, no price",insufficient
+10889174,Vignoble Gibault Sauvignon Blanc,2019,750ml,White,"France, Loire Valley, Touraine",FR,15,16,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10889186,Vignoble Gibault Sauvignon Blanc,2019,750ml,White,"France, Loire Valley, Touraine",FR,15,16,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10888121,Vincent & Francois Jouard Chassagne Montrachet Les Chaumees Clos de la Truffiere V.V.,2003,750ml,Red,"France, Burgundy, Côte d'Or",FR,40,,"Insufficient data - no 2003-specific price found, only a vague recent-vintage reference",insufficient
+10889909,Vincent Girardin Santenay La Comme,2006,750ml,Red,"France, Burgundy, Côte d'Or",FR,50,,"Insufficient data - only a different Blanc variant found, not the red La Comme 2006",insufficient
+10889910,Vincent Girardin Santenay La Comme,2006,750ml,Red,"France, Burgundy, Côte d'Or",FR,50,,"Insufficient data - only a different Blanc variant found, not the red La Comme 2006",insufficient
+10882363,Vinhas De Xisto Reserva,2019,750ml,Red,"Portugal, Douro",PT,15,13,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10889093,Virginie de Valandraud Blanc,2024,750ml,White,"France, Bordeaux",FR,25,,"Insufficient data - only scores 92-95 found, no price",insufficient
+10889208,William Kelley Bourgogne Aligoté,2023,750ml,White,"France, Burgundy, Bourgogne",FR,50,,"Insufficient data - only implausible outlier figure ($4,450) found, not used",insufficient
+10882847,Argiano Brunello di Montalcino,2010,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,65,122,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10896499,Billecart-Salmon Brut Rosé,NV,750ml,Sparkling,"France, Champagne",FR,75,114,"Wine-Searcher average retail, NV Brut Rose",ws_allvintage
+10896491,Billecart-Salmon Brut Rosé,NV,750ml,Sparkling,"France, Champagne",FR,75,114,"Wine-Searcher average retail, NV Brut Rose",ws_allvintage
+10890104,Chateau de Beaucastel Châteauneuf-du-Pape,2011,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,70,89,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10882074,Chateau de Beaucastel Châteauneuf-du-Pape,2015,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,115,114,"Wine-Searcher average retail (ex-tax), vintage-specific",ws_vintage
+10888046,Domaine Tempier Bandol Rosé,2018,750ml,Rose,"France, Provence, Bandol",FR,65,49.99,"wine.com, exact vintage match",ws_vintage
+10889859,Tenuta Caparzo Brunello di Montalcino,2006,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,50,65,Estimate — no price digit surfaced in search results,estimate
+10889858,Tenuta Caparzo Brunello di Montalcino,2006,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,50,65,Estimate — no price digit surfaced in search results,estimate
+10882686,Veuve Clicquot Ponsardin Brut,NV,750ml,Sparkling,"France, Champagne",FR,40,76,Wine-Searcher average retail (Yellow Label Brut NV),ws_vintage

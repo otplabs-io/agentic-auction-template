@@ -575,7 +575,7 @@ Light label condition issue",Italy,False,False,False,False,keep,Red,red appellat
 10889868,2000,Réserve de la Comtesse,750ml,"France, Bordeaux, Pauillac",3,60,,France,False,False,False,False,keep,Red,pass3: Pauillac (Pichon Lalande second label) -- red,FR
 10889746,2011,Roger Perrin Châteauneuf-du-Pape,750ml,"France, Rhône Valley, Southern Rhône",12,25,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
 10888334,1997,Romano Dal Forno Nettare,375ml,"Italy, Veneto",1,120,"Light capsule condition issue
-Light label condition issue",Italy,False,False,False,False,keep,Red,"pass5 manual: Dal Forno's portfolio is red Valpolicella/Amarone; 'Nettare' not independently confirmed as a dessert bottling -- hedged to red rather than guess Dessert without a source, low confidence, worth a second look",IT
+Light label condition issue",Italy,False,False,False,False,keep,Dessert,"pass5 manual CORRECTED: confirmed a dried-grape dessert wine (80% Garganega/8% Turbiana/12% Trebbiano Toscano, barrique-aged) via Wine-Searcher description found during Step 3 valuation research -- not a red hedge",IT
 10889894,2004,Romano Dal Forno Valpolicella Superiore,750ml,"Italy, Veneto",5,105,,Italy,False,False,False,False,keep,Red,pass5 manual: Valpolicella Superiore is red Corvina-based,IT
 10889704,2007,Ronchi di Giancarlo Rocca Barbaresco Ronchi,750ml,"Italy, Piedmont, Barbaresco",2,35,,Italy,False,False,False,False,keep,Red,pass2: Barbaresco is a 100% red Nebbiolo DOCG,IT
 10889705,2007,Ronchi di Giancarlo Rocca Barbaresco Ronchi,750ml,"Italy, Piedmont, Barbaresco",1,35,Light label condition issue,Italy,False,False,False,False,keep,Red,pass2: Barbaresco is a 100% red Nebbiolo DOCG,IT
