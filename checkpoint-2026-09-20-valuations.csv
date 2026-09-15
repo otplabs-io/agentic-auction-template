@@ -609,3 +609,133 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10890153,Giacomo Fenocchio Barolo Villero,2013,750ml,Red,"Italy, Piedmont, Barolo",IT,50,,Insufficient data,insufficient
 10890008,Giacomo Fenocchio Dolcetto,2009,750ml,Red,"Italy, Piedmont",IT,20,,Insufficient data,insufficient
 10888041,Gianni Brunelli Brunello di Montalcino,2015,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,75,145,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889737,Gigognan Chateauneuf du Pape Clos du Roi,2003,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,30,,Insufficient data,insufficient
+10889738,Gigognan Chateauneuf du Pape Clos du Roi,2003,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,30,,Insufficient data,insufficient
+10889853,Giovanna Ciacci Brunello di Montalcino,2001,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,40,,"Insufficient data - name confusion with unrelated producer Ciacci Piccolomini, no confident match",insufficient
+10889854,Giovanna Ciacci Brunello di Montalcino,2001,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,40,,"Insufficient data - name confusion with unrelated producer Ciacci Piccolomini, no confident match",insufficient
+10888352,Giuseppe Quintarelli Rosso Ca Del Merlo,2011,750ml,Red,"Italy, Veneto",IT,100,133,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888420,Guillaume Gilles Cornas,2021,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,65,119,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888421,Guillaume Gilles Cornas,2021,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,65,119,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888084,Guy Amiot et Fils Chassagne-Montrachet Les Macherelles,2000,750ml,White,"France, Burgundy, Côte d'Or",FR,35,,Insufficient data,insufficient
+10889812,Hacienda Monasterio Ribera del Duero,2007,750ml,Red,"Spain, Castilla-Leon, Ribera del Duero",ES,40,45,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889811,Hacienda Monasterio Ribera del Duero,2007,750ml,Red,"Spain, Castilla-Leon, Ribera del Duero",ES,40,45,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889987,Haut-Carles,1994,750ml,Red,"France, Bordeaux, Fronsac",FR,20,,Insufficient data,insufficient
+10890012,Haut-Carles,1995,750ml,Red,"France, Bordeaux, Fronsac",FR,20,,Insufficient data,insufficient
+10890011,Haut-Carles,1995,750ml,Red,"France, Bordeaux, Fronsac",FR,20,,Insufficient data,insufficient
+10890084,Haut-Carles,1996,750ml,Red,"France, Bordeaux, Fronsac",FR,20,,Insufficient data,insufficient
+10890086,Haut-Carles,1996,750ml,Red,"France, Bordeaux, Fronsac",FR,20,,Insufficient data,insufficient
+10890087,Haut-Carles,1996,750ml,Red,"France, Bordeaux, Fronsac",FR,20,,Insufficient data,insufficient
+10889750,Hélène Perrot Chablis Fourchaume,2017,750ml,White,"France, Burgundy, Chablis",FR,30,,Insufficient data,insufficient
+10888098,Henri Darnat Meursault Clos Richemont,2006,750ml,White,"France, Burgundy, Côte d'Or",FR,60,165,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10889152,Henri Jouan Gevrey-Chambertin Aux Echezeaux Vieilles Vignes,2018,750ml,Red,"France, Burgundy, Côte d'Or",FR,60,91,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890099,I Greppi Greppicaia,2004,750ml,Red,"Italy, Tuscany",IT,35,82,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10888100,Icardi Barolo Parej,1997,750ml,Red,"Italy, Piedmont, Barolo",IT,35,186,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888030,Il Marroneto Rosso di Montalcino Ignaccio,2016,750ml,Red,"Italy, Tuscany, Rosso di Montalcino",IT,45,55,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889176,Il Marroneto Rosso di Montalcino Ignaccio,2016,750ml,Red,"Italy, Tuscany, Rosso di Montalcino",IT,45,55,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888054,Il Marroneto Rosso di Montalcino Ignaccio,2016,750ml,Red,"Italy, Tuscany, Rosso di Montalcino",IT,45,55,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10882840,Il Poggione Brunello di Montalcino Riserva,1999,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,130,,"Insufficient data - only this same auction's own listing price surfaced, no independent market source",insufficient
+10889709,Il Poggione Brunello di Montalcino Riserva,2007,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,90,,"Insufficient data - results conflated base DOCG and the separate single-vineyard Vigna Paganelli Riserva, neither a confident match for the base Riserva",insufficient
+10889898,Initial de Desmirail,2015,750ml,Red,"France, Bordeaux, Margaux",FR,25,,Insufficient data - Wine-Searcher explicitly shows no score or price for this vintage,insufficient
+10889739,Initial de Desmirail,2015,750ml,Red,"France, Bordeaux, Margaux",FR,25,,Insufficient data - Wine-Searcher explicitly shows no score or price for this vintage,insufficient
+10888441,Isole e Olena Cepparello,1995,750ml,Red,"Italy, Tuscany",IT,70,,"Insufficient data - only this same auction's own listing price surfaced, no independent market source",insufficient
+10890102,Isole e Olena Cepparello,2009,750ml,Red,"Italy, Tuscany",IT,100,142,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890046,Isole e Olena Cepparello,2012,750ml,Red,"Italy, Tuscany",IT,80,,Insufficient data,insufficient
+10890024,Isole e Olena Chianti Classico,2010,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,35,36,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889824,Jacquart Brut Mosaique,NV,750ml,Sparkling,"France, Champagne",FR,25,32,"Retailer listings, all-vintage",ws_allvintage
+10888148,Jayer-Gilles Bourgogne Hautes-Côtes de Beaune,2005,750ml,Red,"France, Burgundy, Côte d'Or",FR,40,69,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888089,Jayer-Gilles Bourgogne Hautes-Côtes de Nuits Blanc,2014,1.5ltr,White,"France, Burgundy, Côte d'Or",FR,60,,"Insufficient data - only the separate Hautes-Cotes de Beaune Blanc bottling's price found, wrong appellation and format",insufficient
+10888045,Jayer-Gilles Bourgogne Hautes-Côtes de Nuits Blanc,2014,750ml,White,"France, Burgundy, Côte d'Or",FR,30,,Insufficient data - only the separate Hautes-Cotes de Beaune Blanc bottling's price found,insufficient
+10889178,Jayer-Gilles Bourgogne Hautes-Côtes de Nuits Blanc,2014,750ml,White,"France, Burgundy, Côte d'Or",FR,30,,Insufficient data - only the separate Hautes-Cotes de Beaune Blanc bottling's price found,insufficient
+10888066,Jayer-Gilles Bourgogne Hautes-Côtes de Nuits Blanc,2014,750ml,White,"France, Burgundy, Côte d'Or",FR,30,,Insufficient data - only the separate Hautes-Cotes de Beaune Blanc bottling's price found,insufficient
+10888124,Jayer-Gilles Bourgogne Hautes-Côtes de Nuits Blanc,2014,750ml,White,"France, Burgundy, Côte d'Or",FR,30,,Insufficient data - only the separate Hautes-Cotes de Beaune Blanc bottling's price found,insufficient
+10889106,Jean-Claude Ramonet Chassagne-Montrachet Rouge,2022,750ml,Red,"France, Burgundy, Côte d'Or",FR,65,70,"Retailer listing (Plucky Wines), vintage-specific, no full Wine-Searcher average found",ws_single_retailer
+10889105,Jean-Claude Ramonet Chassagne-Montrachet Rouge,2022,750ml,Red,"France, Burgundy, Côte d'Or",FR,65,70,"Retailer listing (Plucky Wines), vintage-specific, no full Wine-Searcher average found",ws_single_retailer
+10896498,Jean et Sebastien Dauvissat Chablis Les Preuses,2017,750ml,White,"France, Burgundy, Chablis",FR,85,125,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10896506,Jean et Sebastien Dauvissat Chablis Les Preuses,2018,750ml,White,"France, Burgundy, Chablis",FR,70,83,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888063,Jean Lionnet Cornas Cuvee Rochepertuis,1999,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,80,174,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10879101,Jean-Louis Chave Selection Hermitage Farconnet,2019,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,55,83,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890123,Jean-Louis Chave Selection Mon Coeur Cotes du Rhone,2000,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,30,24,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10888374,Jean-Michel Gerin Cote Rotie Champin Seigneur,2000,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,70,76,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888071,Jean-Philippe Fichet Bourgogne Rouge Vieilles Vignes,1999,750ml,Red,"France, Burgundy, Bourgogne",FR,25,,Insufficient data,insufficient
+10896484,Jean-Philippe Fichet Meursault Les Gruyaches,2018,750ml,White,"France, Burgundy, Côte d'Or",FR,75,104,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889134,Jean-Pierre Guyon Chorey-les-Beaune Les Bons Ores,2022,750ml,Red,"France, Burgundy, Côte d'Or",FR,70,96,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889165,Jean-Pierre Guyon Savigny-lès-Beaune Les Peuillets,2022,750ml,Red,"France, Burgundy, Côte d'Or",FR,95,109,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889125,Jessica Litaud Bourgogne Aligote BG,2023,750ml,White,"France, Burgundy, Bourgogne",FR,45,,Insufficient data,insufficient
+10889123,Jessica Litaud Macon Fuisse,2023,750ml,White,"France, Burgundy, Mâconnais",FR,65,49,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889126,Jessica Litaud Pouilly-Fuisse Le Trio,2022,750ml,White,"France, Burgundy, Mâconnais",FR,75,,Insufficient data,insufficient
+10889124,Jessica Litaud Saint Véran Les Pommards,2023,750ml,White,"France, Burgundy, Mâconnais",FR,80,,Insufficient data,insufficient
+10888049,Johnnes and Company Gevrey-Chambertin,2009,750ml,Red,"France, Burgundy, Côte d'Or",FR,45,,Insufficient data - producer not found on Wine-Searcher,insufficient
+10889180,Johnnes and Company Gevrey-Chambertin,2009,750ml,Red,"France, Burgundy, Côte d'Or",FR,45,,Insufficient data - producer not found on Wine-Searcher,insufficient
+10888067,Johnnes and Company Gevrey-Chambertin,2009,750ml,Red,"France, Burgundy, Côte d'Or",FR,45,,Insufficient data - producer not found on Wine-Searcher,insufficient
+10896504,Jose Dhondt Brut Rosé de Saignée,NV,750ml,Sparkling,"France, Champagne",FR,70,,Insufficient data,insufficient
+10888042,Joseph Roty Bourgogne Grand Ordinaire,2010,750ml,Red,"France, Burgundy",FR,35,,Insufficient data,insufficient
+10889183,Joseph Roty Bourgogne Grand Ordinaire,2010,750ml,Red,"France, Burgundy",FR,35,,Insufficient data,insufficient
+10888070,Joseph Roty Bourgogne Grand Ordinaire,2010,750ml,Red,"France, Burgundy",FR,35,,Insufficient data,insufficient
+10889234,La Cartuja Priorat,2016,750ml,Red,"Spain, Cataluna, Priorato",ES,15,23,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10882790,La Combàrbia Vino Nobile di Montepulciano Riserva,2019,750ml,Red,"Italy, Tuscany, Vino Nobile di Montepulciano",IT,30,,Insufficient data,insufficient
+10882745,La Combàrbia Vino Nobile di Montepulciano,2016,750ml,Red,"Italy, Tuscany, Vino Nobile di Montepulciano",IT,20,,Insufficient data,insufficient
+10882780,La Combàrbia Vino Nobile di Montepulciano,2020,750ml,Red,"Italy, Tuscany, Vino Nobile di Montepulciano",IT,20,,Insufficient data,insufficient
+10882846,La Fortuna Brunello di Montalcino,2010,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,45,,"Insufficient data - only the pricier Riserva bottling's info surfaced, not the base wine",insufficient
+10882856,La Gerla Brunello di Montalcino,2010,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,55,,Insufficient data,insufficient
+10888113,La Massa Chianti Classico Giorgio Primo,1999,1.5ltr,Red,"Italy, Tuscany, Chianti Classico",IT,90,,Insufficient data,insufficient
+10896496,La Rogerie (Famille Petit-Boxler) Grand Cru La Grande Vie,NV,750ml,Sparkling,"France, Champagne",FR,60,87,"Wine-Searcher average retail, all-vintage (EUR80 converted to USD)",ws_allvintage
+10888659,La Versa Oltrepò Pavese Collezione Brut Metodo Classico,NV,750ml,Sparkling,"Italy, Lombardy, Oltrepo Pavese",IT,20,,Insufficient data,insufficient
+10879099,Lanson Brut Rosé,NV,750ml,Sparkling,"France, Champagne",FR,40,70,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10890115,Larose de Gruaud,2006,750ml,Red,"France, Bordeaux, St.-Julien",FR,35,46,"Wine-Searcher average retail, vintage-specific (marketed historically as Sarget de Gruaud-Larose)",ws_vintage
+10890014,Larose de Gruaud,2009,750ml,Red,"France, Bordeaux, St.-Julien",FR,35,,Insufficient data - could not isolate a confident price for this specific label among several related Gruaud-Larose listings,insufficient
+10889104,Laurent-Perrier Cuvee Ultra Brut,NV,750ml,Sparkling,"France, Champagne",FR,60,88,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10889984,Le Charme de Cos Labory,2015,750ml,Red,"France, Bordeaux, St.-Estephe",FR,35,,Insufficient data,insufficient
+10889782,Le Vieux Donjon Châteauneuf-du-Pape,1999,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,60,125,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890025,Le Vieux Donjon Châteauneuf-du-Pape,1999,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,60,125,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890026,Le Vieux Donjon Châteauneuf-du-Pape,1999,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,60,125,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889277,Les Cailloux (Brunel) Chateauneuf de Pape,2005,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,50,114,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889740,Les Hauts De Pez,2015,750ml,Red,"France, Bordeaux, St.-Estephe",FR,20,,Insufficient data,insufficient
+10888103,Les Heritiers du Comte Lafon Viré-Clessé,2009,750ml,White,"France, Burgundy, Mâconnais",FR,30,45,"Wine-Searcher market range estimate ($40-50), all-vintage",ws_allvintage
+10879116,Les Petits Lieux Bourgogne Chardonnay,2023,750ml,White,"France, Burgundy, Bourgogne",FR,25,,Insufficient data,insufficient
+10879117,Les Petits Lieux Bourgogne Rouge,2023,750ml,Red,"France, Burgundy, Bourgogne",FR,25,,Insufficient data,insufficient
+10879114,Les Petits Lieux Nuits-Saint-Georges Aux Bousselots,2023,750ml,Red,"France, Burgundy, Côte d'Or",FR,100,,Insufficient data,insufficient
+10879113,Les Petits Lieux Saint-Romain La Combe Bazin,2023,750ml,White,"France, Burgundy, Côte d'Or",FR,40,,Insufficient data,insufficient
+10879115,Les Petits Lieux Santenay Clos Faubard,2023,750ml,Red,"France, Burgundy, Côte d'Or",FR,65,87,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888387,Les Plantiers du Haut-Brion,1991,750ml,White,"France, Bordeaux, Graves",FR,55,,Insufficient data - only an unsourced EUR100 estimate found,insufficient
+10888053,Librandi Gravello,1998,1.5ltr,Red,"Italy, Calabria",IT,40,,Insufficient data,insufficient
+10887932,Lopez de Heredia Rioja Vina Tondonia Reserva,2008,750ml,Red,"Spain, Rioja",ES,75,,Insufficient data,insufficient
+10889160,Louis Billard Chambolle-Musigny,2023,750ml,Red,"France, Burgundy, Côte d'Or",FR,85,,Insufficient data,insufficient
+10889159,Louis Billard Pommard Les Fremiers,2023,750ml,Red,"France, Burgundy, Côte d'Or",FR,110,232,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889158,Louis Billard Vosne-Romanée,2023,750ml,Red,"France, Burgundy, Côte d'Or",FR,145,,Insufficient data,insufficient
+10889099,Louis Claude Desvignes Morgon Javernières Aux Pierres,2023,750ml,Red,"France, Beaujolais, Morgon",FR,30,,Insufficient data,insufficient
+10889100,Louis Claude Desvignes Morgon Javernières Aux Pierres,2023,750ml,Red,"France, Beaujolais, Morgon",FR,30,,Insufficient data,insufficient
+10888389,Louis Jadot Domaine des Héritiers Beaune Clos des Ursules,1994,750ml,Red,"France, Burgundy, Côte d'Or",FR,85,,Insufficient data,insufficient
+10888082,Louis Latour Puligny Montrachet Truffieres,2005,750ml,White,"France, Burgundy, Côte d'Or",FR,55,,Insufficient data,insufficient
+10889869,Luciano Sandrone Nebbiolo d'Alba Valmaggiore,2004,750ml,Red,"Italy, Piedmont, Nebbiolo d'Alba",IT,35,,Insufficient data,insufficient
+10888048,Luxor Brut La Boisson En Or Brut Rose,NV,750ml,Sparkling,"France, Champagne",FR,95,252,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10888055,Luxor Brut La Boisson En Or Brut Rose,NV,750ml,Sparkling,"France, Champagne",FR,95,252,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10888047,Luxor Brut La Boisson En Or,NV,750ml,Sparkling,"France, Champagne",FR,90,190,"Wine-Searcher average retail, all-vintage (EUR174 converted to USD)",ws_allvintage
+10888078,Marc Colin Chassagne-Montrachet Vieilles Vignes Rouge,2003,750ml,Red,"France, Burgundy, Côte d'Or",FR,45,,Insufficient data,insufficient
+10888406,Marc Colin Saint-Aubin 1er Cru Cuvee 5C,2021,750ml,White,"France, Burgundy, Côte d'Or",FR,60,85,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890072,Marchesato Degli Aleramici Brunello di Montalcino,2001,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,35,70,"Wine-Searcher listed price, vintage-specific (base bottling)",ws_vintage
+10890073,Marchesato Degli Aleramici Brunello di Montalcino,2001,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,35,70,"Wine-Searcher listed price, vintage-specific (base bottling)",ws_vintage
+10890074,Marchesato Degli Aleramici Brunello di Montalcino,2001,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,35,70,"Wine-Searcher listed price, vintage-specific (base bottling)",ws_vintage
+10889842,Marchesi Antinori Tenuta Guado Al Tasso IL Bruciato,2008,750ml,Red,"Italy, Tuscany, Bolgheri",IT,30,,Insufficient data,insufficient
+10889841,Marchesi Antinori Tenuta Guado Al Tasso IL Bruciato,2008,750ml,Red,"Italy, Tuscany, Bolgheri",IT,30,,Insufficient data,insufficient
+10888157,Marchesi di Frescobaldi Castelgiocondo Brunello di Montalcino,1997,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,90,120,"Retailer listing (wine.com), vintage-specific, confirmed base bottling not Riserva",ws_single_retailer
+10888158,Marchesi di Frescobaldi Castelgiocondo Brunello di Montalcino,1997,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,90,120,"Retailer listing (wine.com), vintage-specific, confirmed base bottling not Riserva",ws_single_retailer
+10888083,Mas de Daumas Gassac Moulin De Gassac,2011,750ml,Red,"France, Languedoc-Roussillon",FR,20,,Insufficient data,insufficient
+10890135,Mas Martinet Clos Martinet Priorat,2009,750ml,Red,"Spain, Cataluna, Priorato",ES,65,180,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890081,Mas Martinet Degustacio No. 7,2009,750ml,Red,"Spain, Cataluna, Priorato",ES,30,,Insufficient data,insufficient
+10889741,Massolino Barolo (Serralunga d'Alba),2010,750ml,Red,"Italy, Piedmont, Barolo",IT,60,48,"Retailer listing (wine.com), vintage-specific",ws_single_retailer
+10888408,Mathilde et Yves Gangloff Cote Rotie La Barbarine,2022,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,135,248,"Retailer listing (Saratoga Wine), vintage-specific",ws_single_retailer
+10896493,Michel Arnould & Fils Rose Grand Cru,NV,750ml,Sparkling,"France, Champagne",FR,40,,Insufficient data,insufficient
+10889768,Michele Reverdito Barolo Castagni,2009,750ml,Red,"Italy, Piedmont, Barolo",IT,25,,Insufficient data,insufficient
+10889917,Michele Reverdito Barolo Castagni,2009,750ml,Red,"Italy, Piedmont, Barolo",IT,25,,Insufficient data,insufficient
+10889860,Michele Reverdito Barolo Castagni,2009,750ml,Red,"Italy, Piedmont, Barolo",IT,25,,Insufficient data,insufficient
+10896487,Monastero Suore Cistercensi Lazio Coenobium,2020,750ml,White,"Italy, Lazio",IT,25,35,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888097,Mongeard-Mugneret Savigny Les Beaune Narbantons,2007,750ml,Red,"France, Burgundy, Côte d'Or",FR,55,,Insufficient data,insufficient
+10888043,Montevertine Pian del Ciampolo,2016,750ml,Red,"Italy, Tuscany",IT,45,30,"Retailer listing (K&L Wines), vintage-specific",ws_single_retailer
+10889184,Montevertine Pian del Ciampolo,2016,750ml,Red,"Italy, Tuscany",IT,45,30,"Retailer listing (K&L Wines), vintage-specific",ws_single_retailer
+10888302,Monthelie-Douhairet-Porcheret Monthelie Clos du Meix Garnier,2010,750ml,Red,"France, Burgundy, Côte d'Or",FR,40,,Insufficient data - Wine-Searcher explicitly shows no price for this vintage,insufficient
+10888162,Morey-Blanc Meursault Les Charmes,2000,750ml,White,"France, Burgundy, Côte d'Or",FR,60,,Insufficient data,insufficient
+10888605,Mossi Impetuoso Gutturnio Classico Superiore,2019,750ml,Red,"Italy, Emilia Romagna, Gutturnio",IT,15,17,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10889773,Nicolas Potel Santenay Clos Rousseau,2002,750ml,Red,"France, Burgundy, Côte d'Or",FR,60,,Insufficient data,insufficient
+10889774,Nicolas Potel Santenay Clos Rousseau,2002,750ml,Red,"France, Burgundy, Côte d'Or",FR,60,,Insufficient data,insufficient
+10882823,Niepoort Douro Batuta,2003,750ml,Red,"Portugal, Douro",PT,75,,Insufficient data,insufficient
+10896488,Marc Hebrart Premier Cru Mes Favorites,NV,750ml,Sparkling,"France, Champagne",FR,60,68,"Retailer listing (Saratoga Wine), all-vintage",ws_single_retailer
