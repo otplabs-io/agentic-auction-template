@@ -518,3 +518,94 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10888181,Domaine Jean Garaudet Pommard Noizons,2005,750ml,Red,"France, Burgundy, Côte d'Or",FR,45,,"Insufficient data - searched, no price found",insufficient
 10888123,Domaine Jean Marc Bouley Pommard Les Fremiers,2005,750ml,Red,"France, Burgundy, Côte d'Or",FR,150,,"Insufficient data - searched, no price found",insufficient
 10889145,Domaine Jean Marc Bouley Pommard Les Fremiers,2018,750ml,Red,"France, Burgundy, Côte d'Or",FR,110,,"Insufficient data - searched, only an ambiguous match to the producer's base (non-Fremiers) Pommard found",insufficient
+10889151,Domaine Jean Marc Bouley Volnay Carelle sous la Chapelle,2018,750ml,Red,"France, Burgundy, Côte d'Or",FR,90,,"Insufficient data - producer name ambiguity (Boillot vs Bouley) in results, no confident match",insufficient
+10888142,Domaine Laroche Chablis Les Clos,1997,750ml,White,"France, Burgundy, Chablis",FR,50,,Insufficient data,insufficient
+10888068,Domaine Maume-Marchand Tawse Gevrey-Chambertin En Pallud,2012,750ml,Red,"France, Burgundy, Côte d'Or",FR,50,,Insufficient data,insufficient
+10888027,Domaine Maume-Marchand Tawse Gevrey-Chambertin En Pallud,2013,750ml,Red,"France, Burgundy, Côte d'Or",FR,50,,Insufficient data,insufficient
+10889710,Domaine Melody Crozes-Hermitage Friandise,2015,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,25,,Insufficient data,insufficient
+10888028,Domaine Philippe Charlopin-Parizot Gevrey Chambertin Justice,2001,750ml,Red,"France, Burgundy, Côte d'Or",FR,55,88,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10888086,Domaine Remi Jobard Meursault En Luraules,2008,750ml,White,"France, Burgundy, Côte d'Or",FR,55,,Insufficient data,insufficient
+10888132,Domaine Remi Jobard Meursault Le Poruzot - Dessus,2007,750ml,White,"France, Burgundy, Côte d'Or",FR,70,,Insufficient data,insufficient
+10888182,Domaine Remi Jobard Meursault Les Chevalières,2011,1.5ltr,White,"France, Burgundy, Côte d'Or",FR,110,,Insufficient data,insufficient
+10888128,Domaine Remi Jobard Meursault Les Genevrières,2011,1.5ltr,White,"France, Burgundy, Côte d'Or",FR,150,,Insufficient data,insufficient
+10888144,Domaine Rougeot Meursault-Charmes,1997,750ml,White,"France, Burgundy, Côte d'Or",FR,45,,Insufficient data,insufficient
+10888145,Domaine Rougeot Meursault-Charmes,1997,750ml,White,"France, Burgundy, Côte d'Or",FR,45,,Insufficient data,insufficient
+10889954,Domaine Saint-Damien Gigondas La Louisiane Vieilles Vignes,2009,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,30,37,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10889953,Domaine Saint-Damien Gigondas La Louisiane Vieilles Vignes,2009,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,30,37,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10890013,Domaine Saint-Damien Gigondas Les Souteyrades,2012,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,30,,Insufficient data,insufficient
+10889229,Domaine Saint-Damien Gigondas Les Souteyrades,2015,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,40,49,"Retailer/critic-cited price, vintage-specific",ws_single_retailer
+10889716,Domaine Saint-Damien Gigondas Les Souteyrades,2016,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,50,,Insufficient data,insufficient
+10882751,Domaine Trouillet Pouilly-Fuisse 1er Cru,2020,750ml,White,"France, Burgundy, Mâconnais",FR,30,,Insufficient data - only the standard (non-Premier-Cru) bottling's price found,insufficient
+10896501,Domaine Vincent Dancer Beaune Les Montrevenots,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,85,,Insufficient data,insufficient
+10896503,Domaine Vincent Dancer Pommard Les Perrieres,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,80,,"Insufficient data - searched, Wine-Searcher explicitly shows no price for this vintage",insufficient
+10888419,Domaine Vincent Paris Cornas Granit 60 Vieilles Vignes,2011,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,60,75,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10896483,Donnafugata Mille e Una Notte,1999,750ml,Red,"Italy, Sicily, Contessa Entellina",IT,50,65,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10896510,Donnafugata Mille e Una Notte,2010,750ml,Red,"Italy, Sicily, Contessa Entellina",IT,50,,Insufficient data,insufficient
+10889926,Duval-Leroy Brut,2006,750ml,Sparkling,"France, Champagne",FR,50,54,"Wine-Searcher average retail, vintage-specific (Brut Millesime)",ws_vintage
+10889927,Duval-Leroy Brut,2006,750ml,Sparkling,"France, Champagne",FR,50,54,"Wine-Searcher average retail, vintage-specific (Brut Millesime)",ws_vintage
+10889900,Duval-Leroy Brut,NV,750ml,Sparkling,"France, Champagne",FR,45,,Insufficient data - ambiguous which current-line NV Brut this maps to,insufficient
+10889930,Duval-Leroy Brut,NV,750ml,Sparkling,"France, Champagne",FR,45,,Insufficient data - ambiguous which current-line NV Brut this maps to,insufficient
+10889949,Duval-Leroy Rosé,NV,750ml,Sparkling,"France, Champagne",FR,40,80,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10889947,Duval-Leroy Rosé,NV,750ml,Sparkling,"France, Champagne",FR,40,80,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10889950,E. Guigal Cote-Rotie Brune et Blonde,1998,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,80,90,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889948,E. Guigal Cote-Rotie Brune et Blonde,1998,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,80,90,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889752,E. Guigal Gigondas,2007,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,35,41,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10889872,E. Guigal Hermitage,1990,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,140,,Insufficient data,insufficient
+10889829,E. Guigal Hermitage,2001,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,55,,"Insufficient data - only this same auction's own listing price surfaced, no independent market source",insufficient
+10889826,E. Guigal Hermitage,2001,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,55,,"Insufficient data - only this same auction's own listing price surfaced, no independent market source",insufficient
+10888422,Elio Grasso Barolo Ginestra Vigna Casa Mate,2000,750ml,Red,"Italy, Piedmont, Barolo",IT,85,101,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888373,Emmanuel Rouget Bourgogne Passetoutgrain,2023,750ml,Red,"France, Burgundy, Bourgogne Passe-tout-grains",FR,40,58,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889995,Enrico Santini Poggio Al Moro,2016,750ml,Red,"Italy, Tuscany, Bolgheri",IT,20,,Insufficient data,insufficient
+10889127,Envinate Migan,2018,750ml,Red,"Spain, Canary Islands, Valle de la Orotava",ES,50,32,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888510,Etienne Winery Lirac Essen,2024,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,35,38,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10879107,Faiveley Vosne Romanee,2022,750ml,Red,"France, Burgundy, Côte d'Or",FR,75,112,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890093,Falesco Lazio Montiano,1999,750ml,Red,"Italy, Lazio",IT,35,89,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888050,Fanti Brunello di Montalcino Vallocchio,2015,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,50,85,"Wine-Searcher average retail, all-vintage (Tenuta Fanti Vallocchio)",ws_allvintage
+10889856,Fattoria di Felsina Chianti Classico Riserva Rancia,2007,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,45,62,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889711,Fattoria di Felsina Chianti Classico Riserva,2011,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,50,,"Insufficient data - only the pricier single-vineyard Rancia bottling's info surfaced, not the base Riserva",insufficient
+10889713,Fattoria di Felsina Chianti Classico Riserva,2011,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,50,,"Insufficient data - only the pricier single-vineyard Rancia bottling's info surfaced, not the base Riserva",insufficient
+10889748,Fattoria di Felsina Chianti Classico Riserva,2011,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,50,,"Insufficient data - only the pricier single-vineyard Rancia bottling's info surfaced, not the base Riserva",insufficient
+10888597,Fattoria Poggiopiano Chianti Classico La Tradizione,2010,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,20,75,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10896486,Fattorie Romeo del Castello Etna Rosso Vigo,2013,750ml,Red,"Italy, Sicily, Etna",IT,55,,Insufficient data,insufficient
+10888393,Francois Cotat Sancerre Les Culs de Beaujeu,2011,750ml,White,"France, Loire Valley, Centre-Loire",FR,50,,Insufficient data,insufficient
+10888392,Francois Cotat Sancerre Les Culs de Beaujeu,2013,750ml,White,"France, Loire Valley, Sancerre",FR,60,,Insufficient data,insufficient
+10888386,Francois Cotat Sancerre Les Monts Damnés,2014,750ml,White,"France, Loire Valley, Sancerre",FR,65,140,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888388,Francois Cotat Sancerre Les Monts Damnés,2014,750ml,White,"France, Loire Valley, Sancerre",FR,65,140,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889735,Francois Et Denis Clair Saint Aubin Les Frionnes,2016,750ml,White,"France, Burgundy, Côte d'Or",FR,40,57,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10888040,Francois Jobard Meursault Les Poruzots,1995,750ml,White,"France, Burgundy, Côte d'Or",FR,100,,Insufficient data,insufficient
+10888037,Francois Jobard Meursault Les Poruzots,1998,750ml,White,"France, Burgundy, Côte d'Or",FR,140,65,"Wine-Searcher average retail, vintage-specific (Antoine Jobard, same domaine)",ws_vintage
+10888039,Francois Jobard Meursault Les Poruzots,2000,750ml,White,"France, Burgundy, Côte d'Or",FR,130,,Insufficient data,insufficient
+10888038,Francois Jobard Meursault Les Poruzots,2001,750ml,White,"France, Burgundy, Côte d'Or",FR,120,,Insufficient data,insufficient
+10888034,Francois Jobard Puligny-Montrachet Le Trézin,1997,750ml,White,"France, Burgundy, Côte d'Or",FR,90,,Insufficient data,insufficient
+10888036,Francois Jobard Puligny-Montrachet Le Trézin,1998,750ml,White,"France, Burgundy, Côte d'Or",FR,90,,Insufficient data,insufficient
+10888035,Francois Jobard Puligny-Montrachet Le Trézin,1999,750ml,White,"France, Burgundy, Côte d'Or",FR,85,,Insufficient data,insufficient
+10888105,Francois Jobard Puligny-Montrachet Le Trézin,2000,750ml,White,"France, Burgundy, Côte d'Or",FR,80,,Insufficient data,insufficient
+10888104,Francois Jobard Puligny-Montrachet Le Trézin,2001,750ml,White,"France, Burgundy, Côte d'Or",FR,80,,Insufficient data,insufficient
+10888155,Francois Leclerc Gevrey Chambertin,2005,1.5ltr,Red,"France, Burgundy, Côte d'Or",FR,100,,Insufficient data,insufficient
+10888174,Francois Leclerc Gevrey Chambertin,2005,1.5ltr,Red,"France, Burgundy, Côte d'Or",FR,100,,Insufficient data,insufficient
+10890042,Fratelli Manzone Barolo Bricco San Pietro Fraschin,2013,750ml,Red,"Italy, Piedmont, Barolo",IT,30,,"Insufficient data - only this same auction's own listing price surfaced, no independent market source",insufficient
+10889997,Fratelli Monchiero Barolo Rocche di Castiglione Falletto Riserva,2006,750ml,Red,"Italy, Piedmont, Barolo",IT,50,,Insufficient data,insufficient
+10888065,Gabriel Billard Beaune Les Epenottes,1999,750ml,Red,"France, Burgundy, Côte d'Or",FR,60,,Insufficient data,insufficient
+10888179,Gerard Raphet Bourgogne Rouge,2009,750ml,Red,"France, Burgundy",FR,25,,Insufficient data,insufficient
+10889810,Giacomo Ascheri Barolo Sorano,2001,750ml,Red,"Italy, Piedmont, Barolo",IT,40,,Insufficient data,insufficient
+10889809,Giacomo Ascheri Barolo Sorano,2001,750ml,Red,"Italy, Piedmont, Barolo",IT,40,,Insufficient data,insufficient
+10889880,Giacomo Ascheri Barolo Sorano,2004,750ml,Red,"Italy, Piedmont, Barolo",IT,35,,Insufficient data,insufficient
+10889819,Giacomo Ascheri Barolo Sorano,2004,750ml,Red,"Italy, Piedmont, Barolo",IT,35,,Insufficient data,insufficient
+10889830,Giacomo Ascheri Barolo,2013,750ml,Red,"Italy, Piedmont, Barolo",IT,30,143,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889820,Giacomo Ascheri Podere di Rivalta Barolo Vigna dei Pola,2003,750ml,Red,"Italy, Piedmont, Barolo",IT,30,,Insufficient data,insufficient
+10889097,Giacomo Borgogno & Figli Colli Tortonesi Derthona,2021,750ml,White,"Italy, Piedmont, Colli Tortonesi",IT,35,,Insufficient data,insufficient
+10889098,Giacomo Borgogno & Figli Colli Tortonesi Derthona,2021,750ml,White,"Italy, Piedmont, Colli Tortonesi",IT,35,,Insufficient data,insufficient
+10888187,Giacomo Conterno Barbera d'Alba Francia,2007,750ml,Red,"Italy, Piedmont, Barbera di Alba",IT,90,116,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888186,Giacomo Conterno Barbera d'Alba Francia,2013,750ml,Red,"Italy, Piedmont, Barbera di Alba",IT,70,95,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889879,Giacomo Fenocchio Barolo Bussia,2004,750ml,Red,"Italy, Piedmont, Barolo",IT,50,,Insufficient data,insufficient
+10890152,Giacomo Fenocchio Barolo Bussia,2011,750ml,Red,"Italy, Piedmont, Barolo",IT,45,51,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890149,Giacomo Fenocchio Barolo Cannubi,2005,750ml,Red,"Italy, Piedmont, Barolo",IT,60,106,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890150,Giacomo Fenocchio Barolo Castellero,2011,750ml,Red,"Italy, Piedmont, Barolo",IT,40,45,"Wine Enthusiast review-cited retail price, no full Wine-Searcher average found",ws_single_retailer
+10889757,Giacomo Fenocchio Barolo Castellero,2014,750ml,Red,"Italy, Piedmont, Barolo",IT,50,,Insufficient data,insufficient
+10889756,Giacomo Fenocchio Barolo Villero,2003,750ml,Red,"Italy, Piedmont, Barolo",IT,55,,Insufficient data,insufficient
+10889895,Giacomo Fenocchio Barolo Villero,2003,750ml,Red,"Italy, Piedmont, Barolo",IT,55,,Insufficient data,insufficient
+10889784,Giacomo Fenocchio Barolo Villero,2003,750ml,Red,"Italy, Piedmont, Barolo",IT,55,,Insufficient data,insufficient
+10890148,Giacomo Fenocchio Barolo Villero,2005,750ml,Red,"Italy, Piedmont, Barolo",IT,50,255,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890153,Giacomo Fenocchio Barolo Villero,2013,750ml,Red,"Italy, Piedmont, Barolo",IT,50,,Insufficient data,insufficient
+10890008,Giacomo Fenocchio Dolcetto,2009,750ml,Red,"Italy, Piedmont",IT,20,,Insufficient data,insufficient
+10888041,Gianni Brunelli Brunello di Montalcino,2015,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,75,145,"Wine-Searcher average retail, vintage-specific",ws_vintage
