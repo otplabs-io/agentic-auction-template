@@ -4,3 +4,4 @@
 /valuations.csv
 /payload.json
 .DS_Store
+.claude/settings.local.json
