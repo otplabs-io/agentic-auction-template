@@ -147,6 +147,19 @@ Rules for this stage:
 - Record the result as `ws_single_retailer`, name the retailer, and note it was fetched directly -- this is higher-confidence data than a `WebSearch` synthesis, not lower, and the source note should say so.
 - Cost: at most one extra `WebSearch` call (the unrestricted retailer-oriented query) plus one or two `WebFetch` calls, only for wines stage 1 misses. `WebFetch` does not count against the 200-call `WebSearch` session cap, so this is close to free reliability.
 
+## Producer-name collisions: a WebSearch synthesis will confidently price the wrong producer
+
+Distinct from the cuvée/tier mismatch trap (same producer, wrong bottling) documented above — this is *different, unrelated producers with confusingly similar names*, common enough in Piedmont that it's worth naming explicitly. Caught across the 2026-09-20 stage-2 pass:
+
+- **"Vietto Barolo Ravera"** (a small, independent producer) → search returned **Vietti**'s (a much larger, more famous, completely unrelated producer) price for their own Ravera cru bottling. One letter apart in the name, same cru name coincidentally, wrong wine entirely.
+- **"Ronchi di Giancarlo Rocca Barbaresco Ronchi"** → first search returned **Bruno Rocca**'s unrelated Rabajà bottling (matched on the shared surname "Rocca"); a corrected retry returned **Albino Rocca**'s similarly-named "Ronchi" cru bottling instead (matched on the shared cru name "Ronchi"). Three distinct Rocca-adjacent producers, three different wines, none the target.
+
+Both were caught only because the producer name was re-checked against the search result's actual producer before accepting the price — the wine name / cru name alone was not enough to catch it, since those matched exactly. **Rule:** when a producer name is a common surname, a partial match, or differs by even one letter/word from what the search result actually names, treat it as a miss and re-search with the full producer name in quotes rather than accepting the substitution. This is now folded into `CLAUDE.md`'s extraction-discipline section.
+
+## `build_dashboard.py`'s default output path assumes a different (cloud) environment
+
+Running `python3 build_dashboard.py ../payload.json` with no `-o` flag crashes with `FileNotFoundError: [Errno 2] No such file or directory: '/mnt/user-data/outputs/WineBid_Deals_<date>.html'` on a local checkout — the script's hardcoded default (`toolkit/build_dashboard.py` line ~147) assumes a `/mnt/user-data/outputs/` path that only exists in some cloud sandbox environments. Not fixed at the script level (a local default could just as easily break a cloud session that *does* have that path) — instead, `CLAUDE.md` Step 6 now always passes `-o ../output/WineBid_Deals_<auction_date>.html` explicitly. Caught 2026-09-20 rebuilding the dashboard after the stage-2 valuation pass.
+
 ## Environment notes
 
 - **JSDOM does not accurately model computed-style CSS cascade.** Author-origin rules can override UA `[hidden]` behavior in ways JSDOM won't catch. Rendered browser output is the final verification. (This is how the sample-banner bug survived a passing test suite — fixed 2026-08-24 with an explicit `.sample-banner[hidden]{display:none!important}` rule. The general lesson stands for any future rendering change: run `test.js`, then also check a real browser.)

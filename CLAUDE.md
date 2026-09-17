@@ -186,6 +186,8 @@ This costs at most one extra `WebSearch` call plus one or two `WebFetch` calls p
 
 **Extraction discipline for stage 1** (still applies — stage 2 doesn't replace the need for this, it's an escalation when stage 1's synthesis alone isn't enough): WebSearch's prose summary is not deterministic — the identical query can surface a stated price on one call and omit it on another. Caught 2026-08-14: a wine marked `insufficient` had an easily-found price on a plain re-search; a systematic re-check of a full week's `insufficient` list recovered ~24% of them this way alone, before stage 2 existed. Reject a found price when: it's for the wrong cuvée/tier (Riserva standing in for the base bottling, a second label for the grand vin), it's an explicitly non-vintage-tied "current" price applied to an old back vintage, or it's this auction's own WineBid listing cited back as "market" data.
 
+**Producer-name collisions are a distinct trap from cuvée/tier mismatches — check the producer, not just the wine name.** Real, unrelated producers share near-identical names often enough in Piedmont and beyond that a WebSearch synthesis will confidently return a price for the wrong one. Caught 2026-09-20: our target "Vietto Barolo Ravera" (a small, distinct producer) returned the much more famous "Vietti" 's Ravera cru price instead; "Ronchi di Giancarlo Rocca Barbaresco Ronchi" returned Bruno Rocca's unrelated Rabajà bottling, then on retry returned Albino Rocca's same-named "Ronchi" cru — three different Roccas, none the target. Whenever a producer name is a partial match, a common surname, or differs by one letter/word from the search result's actual producer, treat it as a miss rather than a substitution — re-search with the exact producer name in quotes before accepting the price.
+
 Other rules:
 - Match the exact vintage; note any adjacent-vintage substitution.
 - **When the exact vintage isn't shown after both stages, fall back to the all-vintage average (`ws_allvintage`) before giving up.** Reserve `insufficient` for wines with no price at *any* vintage grain. (Exception: don't paper over an actual cuvée/tier mismatch this way — falling back from "no 1998 price" to "this producer's all-vintage average" is fine; falling back from "no price for the base bottling" to "the Riserva's price" is not.)
@@ -212,7 +214,7 @@ Independent of the deal tag. A few words for lots notable on their own merits: e
 ## Step 6 — Dashboard export
 
 1. Write `payload.json` conforming to schema 3.
-2. `cd toolkit && python3 build_dashboard.py ../payload.json`
+2. `cd toolkit && python3 build_dashboard.py ../payload.json -o ../output/WineBid_Deals_<auction_date>.html` — **always pass `-o` explicitly.** The script's built-in default path is `/mnt/user-data/outputs/...`, a leftover from a different (cloud) environment; omitting `-o` crashes with `FileNotFoundError` on a local checkout. See `known-limits.md`.
 3. Writes `output/WineBid_Deals_<auction_date>.html`.
 4. `node toolkit/test.js output/WineBid_Deals_<auction_date>.html` — see `known-limits.md` for the four known data-shape failures on real data. Anything beyond those four is a real defect.
 5. Present the file.
