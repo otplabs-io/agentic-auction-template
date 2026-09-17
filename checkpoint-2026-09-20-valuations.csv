@@ -940,3 +940,8 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10882846,La Fortuna Brunello di Montalcino,2010,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,45,70,"Wine-Searcher average retail, vintage-specific",ws_vintage
 10882856,La Gerla Brunello di Montalcino,2010,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,55,65,"Wine-Searcher average retail, vintage-specific",ws_vintage
 10888113,La Massa Chianti Classico Giorgio Primo,1999,1.5ltr,Red,"Italy, Tuscany, Chianti Classico",IT,90,194,"Wine-Searcher average retail, vintage-specific (750ml x 2.2 scaled to magnum)",ws_vintage
+10889158,Louis Billard Vosne-Romanée,2023,750ml,Red,"France, Burgundy, Côte d'Or",FR,145,142,"Wine-Searcher average retail, adjacent-vintage (2022 substituted for 2023)",ws_adjacent
+10889099,Louis Claude Desvignes Morgon Javernières Aux Pierres,2023,750ml,Red,"France, Beaujolais, Morgon",FR,30,35,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889100,Louis Claude Desvignes Morgon Javernières Aux Pierres,2023,750ml,Red,"France, Beaujolais, Morgon",FR,30,35,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889842,Marchesi Antinori Tenuta Guado Al Tasso IL Bruciato,2008,750ml,Red,"Italy, Tuscany, Bolgheri",IT,30,34,"Wine-Searcher average retail (California), vintage-specific",ws_vintage
+10889841,Marchesi Antinori Tenuta Guado Al Tasso IL Bruciato,2008,750ml,Red,"Italy, Tuscany, Bolgheri",IT,30,34,"Wine-Searcher average retail (California), vintage-specific",ws_vintage

@@ -992,9 +992,9 @@ lopez de heredia rioja vina tondonia reserva|2008|750,Lopez de Heredia Rioja Vin
 louis bernard chateauneuf du pape|2001|750,Louis Bernard Châteauneuf-du-Pape,2001,750,32,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-07,0
 louis billard chambolle musigny|2023|750,Louis Billard Chambolle-Musigny,2023,750,,Insufficient data,insufficient,2026-09-15,0
 louis billard pommard les fremiers|2023|750,Louis Billard Pommard Les Fremiers,2023,750,232,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
-louis billard vosne romanee|2023|750,Louis Billard Vosne-Romanée,2023,750,,Insufficient data,insufficient,2026-09-15,0
+louis billard vosne romanee|2023|750,Louis Billard Vosne-Romanée,2023,750,142,"Wine-Searcher average retail, adjacent-vintage (2022 substituted for 2023)",ws_adjacent,2026-09-17,0
 louis chenu savigny les beaune les saucours|2021|750,Louis Chenu Savigny-les-Beaune Les Saucours,2021,750,,Insufficient data,insufficient,2026-08-24,0
-louis claude desvignes morgon javernieres aux pierres|2023|750,Louis Claude Desvignes Morgon Javernières Aux Pierres,2023,750,,Insufficient data,insufficient,2026-09-15,0
+louis claude desvignes morgon javernieres aux pierres|2023|750,Louis Claude Desvignes Morgon Javernières Aux Pierres,2023,750,35,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-17,0
 louis jadot beaune premier cru celebration|2009|750,Louis Jadot Beaune Premier Cru Celebration,2009,750,127,"Wine-Searcher average retail, vintage-specific (150th Anniversary cuvee)",ws_vintage,2026-09-07,0
 louis jadot chablis|2022|750,Louis Jadot Chablis,2022,750,29.99,"wine.com, exact vintage match (out of stock but price displayed)",ws_vintage,2026-09-01,0
 louis jadot chablis|2023|750,Louis Jadot Chablis,2023,750,29.99,"wine.com, exact vintage match (sold out but price displayed)",ws_vintage,2026-09-01,0
@@ -1063,7 +1063,7 @@ marchesi antinori chianti classico peppoli|2007|750,Marchesi Antinori Chianti Cl
 marchesi antinori guado al tasso|1997|750,Marchesi Antinori Guado Al Tasso,1997,750,266.7,"hedonism.co.uk, exact vintage match; GBP 210.00 converted at 1.27 USD/GBP",ws_vintage,2026-09-01,0
 marchesi antinori guado al tasso|1998|750,Marchesi Antinori Guado Al Tasso,1998,750,98.1,"vinsetmillesimes.com, exact vintage match; EUR 90.00 converted at 1.09 USD/EUR",ws_vintage,2026-09-01,0
 marchesi antinori guado al tasso|2023|750,Marchesi Antinori Guado Al Tasso,2023,750,172,"Wine-Searcher average retail, vintage-specific (Bolgheri Superiore flagship)",ws_vintage,2026-09-07,0
-marchesi antinori tenuta guado al tasso il bruciato|2008|750,Marchesi Antinori Tenuta Guado Al Tasso IL Bruciato,2008,750,,Insufficient data,insufficient,2026-09-15,0
+marchesi antinori tenuta guado al tasso il bruciato|2008|750,Marchesi Antinori Tenuta Guado Al Tasso IL Bruciato,2008,750,34,"Wine-Searcher average retail (California), vintage-specific",ws_vintage,2026-09-17,0
 marchesi di frescobaldi castelgiocondo brunello di montalcino|1997|750,Marchesi di Frescobaldi Castelgiocondo Brunello di Montalcino,1997,750,120,"Retailer listing (wine.com), vintage-specific, confirmed base bottling not Riserva",ws_single_retailer,2026-09-15,0
 marguerite carillon chorey les beaune|2020|750,Marguerite Carillon Chorey-Les-Beaune,2020,750,,no retailer price found for this vintage,insufficient,2026-09-01,0
 marguerite carillon corton les marechaudes|2017|750,Marguerite Carillon Corton Les Marechaudes,2017,750,41.14,"idealwine.com auction result for 2013 vintage, our lot is 2017; hammer+commission EUR 37.74 converted at 1.09 USD/EUR",auction,2026-09-01,0
