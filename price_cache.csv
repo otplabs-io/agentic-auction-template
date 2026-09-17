@@ -502,8 +502,8 @@ domaine de la charbonniere chateauneuf du pape|2019|750,Domaine de la Charbonnie
 domaine de la janasse chateauneuf du pape cuvee chaupin|1996|750,Domaine de la Janasse Chateauneuf du Pape Cuvee Chaupin,1996,750,,Insufficient data,insufficient,2026-09-14,0
 domaine de la janasse chateauneuf du pape cuvee chaupin|2006|750,Domaine de la Janasse Chateauneuf du Pape Cuvee Chaupin,2006,750,91,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-07,0
 domaine de la maurelle gigondas|2003|750,Domaine De La Maurelle Gigondas,2003,750,46,"The Wine I Love retailer listing (EUR41.77, converted), vintage-specific",ws_single_retailer,2026-09-16,0
-domaine de la pepiere marc ollivier muscadet de sevre et maine 3|2005|750,Domaine de la Pépière (Marc Ollivier) Muscadet De Sevre Et Maine 3,2005,750,,Insufficient data - could not confirm which cuvee '3' corresponds to,insufficient,2026-09-14,0
-domaine de la pepiere marc ollivier muscadet de sevre et maine sur lie clos des briords vieille vignes|2012|750,Domaine de la Pépière (Marc Ollivier) Muscadet De Sevre Et Maine Sur Lie Clos Des Briords Vieille Vignes,2012,750,,Insufficient data,insufficient,2026-09-14,0
+domaine de la pepiere marc ollivier muscadet de sevre et maine 3|2005|750,Domaine de la Pépière (Marc Ollivier) Muscadet De Sevre Et Maine 3,2005,750,17,"Wine-Searcher average retail, all-vintage (standard Sur Lie bottling)",ws_allvintage,2026-09-16,0
+domaine de la pepiere marc ollivier muscadet de sevre et maine sur lie clos des briords vieille vignes|2012|750,Domaine de la Pépière (Marc Ollivier) Muscadet De Sevre Et Maine Sur Lie Clos Des Briords Vieille Vignes,2012,750,20,"Wine-Searcher listed price, vintage-specific",ws_vintage,2026-09-16,0
 domaine de la pousse d or puligny montrachet les caillerets|2017|750,Domaine de la Pousse d'Or Puligny-Montrachet Les Caillerets,2017,750,139.99,"wine.com, exact vintage match (listed as 'Le Cailleret' single-vineyard premier cru)",ws_vintage,2026-09-01,0
 domaine de la saraziniere macon serrieres les monterrains|2017|750,Domaine de la Saraziniére Macon Serrieres Les Monterrains,2017,750,16,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
 domaine de la suffrene bandol blanc|2013|500,Domaine de la Suffrene Bandol Blanc,2013,500,,no working price page found for this vintage/format,insufficient,2026-09-01,0
@@ -521,7 +521,7 @@ domaine denis pere et fils pernand vergelesses sous fretille|2009|750,Domaine De
 domaine denis pere et fils pernand vergelesses|2009|750,Domaine Denis Pere et Fils Pernand-Vergelesses,2009,750,38,"Estimate, informed by adjacent Wine-Searcher data point",estimate,2026-08-24,0
 domaine des 3 cellier chateauneuf du pape alchimie|2017|750,Domaine des 3 Cellier Châteauneuf-du-Pape Alchimie,2017,750,40,"Wine-Searcher average retail, all-vintage fallback (no 2017-specific figure surfaced)",ws_allvintage,2026-09-07,0
 domaine des bosquets gigondas preference|1999|750,Domaine des Bosquets Gigondas Preference,1999,750,116,"Wine-Searcher average retail, all-vintage (producer-level listing)",ws_allvintage,2026-09-14,0
-domaine des entrefaux crozes hermitage|2003|750,Domaine des Entrefaux Crozes-Hermitage,2003,750,,Insufficient data,insufficient,2026-09-14,0
+domaine des entrefaux crozes hermitage|2003|750,Domaine des Entrefaux Crozes-Hermitage,2003,750,30,"Wine-Searcher average retail, all-vintage (base bottling)",ws_allvintage,2026-09-16,0
 domaine des granges pouilly fuisse vers cras|2021|750,Domaine des Granges Pouilly-Fuisse Vers Cras,2021,750,49.98,"bighammerwines.com, exact vintage match",ws_vintage,2026-09-01,0
 domaine des lambrays morey st denis 1er cru les loups|2019|750,Domaine des Lambrays Morey St. Denis 1er Cru Les Loups,2019,750,200,"Wine-Searcher average, adjacent vintage (2020) used as proxy",ws_adjacent,2026-08-24,0
 domaine des lambrays morey st denis 1er cru les loups|2020|750,Domaine des Lambrays Morey St. Denis 1er Cru Les Loups,2020,750,222,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
@@ -549,7 +549,7 @@ domaine du collier saumur la ripaille|2018|750,Domaine du Collier Saumur La Ripa
 domaine du collier saumur la ripaille|2019|750,Domaine du Collier Saumur La Ripaille,2019,750,84,"Wine-Searcher store listings, vintage-specific (averaged two listed prices)",ws_vintage,2026-08-24,0
 domaine du coulet matthieu barret cornas billes noires|2012|750,Domaine du Coulet (Matthieu Barret) Cornas Billes Noires,2012,750,,Insufficient data,insufficient,2026-09-07,0
 domaine du grand montmirail gigondas cuvee vieilles vignes|2010|750,Domaine du Grand Montmirail Gigondas Cuvee Vieilles Vignes,2010,750,,Insufficient data,insufficient,2026-09-07,0
-domaine du gros nore bandol|2009|750,Domaine du Gros Nore Bandol,2009,750,,Insufficient data,insufficient,2026-09-14,0
+domaine du gros nore bandol|2009|750,Domaine du Gros Nore Bandol,2009,750,35,"Original release SRP, vintage-specific",ws_vintage,2026-09-16,0
 domaine du pegau chateauneuf du pape cuvee reservee|1995|750,Domaine du Pegau Chateauneuf-du-Pape Cuvee Reservee,1995,750,,Insufficient data,insufficient,2026-09-14,0
 domaine du pegau chateauneuf du pape cuvee reservee|1999|750,Domaine du Pegau Chateauneuf-du-Pape Cuvee Reservee,1999,750,100,"Wine-Searcher average retail, all-vintage fallback (age-worthy cuvee with stable cross-vintage pricing; no 1999-specific figure surfaced)",ws_allvintage,2026-09-07,0
 domaine du pegau chateauneuf du pape cuvee reservee|2009|750,Domaine du Pegau Chateauneuf-du-Pape Cuvee Reservee,2009,750,144.99,"wine.com, exact vintage match",ws_vintage,2026-09-01,0
@@ -561,7 +561,7 @@ domaine du pelican arbois savagnin ouille|2018|750,Domaine du Pelican Arbois Sav
 domaine du pesquier gigondas|2000|750,Domaine du Pesquier Gigondas,2000,750,,Insufficient data,insufficient,2026-09-14,0
 domaine du prieure savigny les beaune moutier amet|2012|750,Domaine du Prieuré Savigny les Beaune Moutier Amet,2012,750,29,"Wine-Searcher average retail, all-vintage fallback (no 2012-specific figure surfaced)",ws_allvintage,2026-09-07,0
 domaine du vieux telegraphe chateauneuf du pape|2003|750,Domaine du Vieux Telegraphe Châteauneuf-du-Pape,2003,750,,Insufficient data,insufficient,2026-09-14,0
-domaine du vieux telegraphe chateauneuf du pape|2004|750,Domaine du Vieux Telegraphe Châteauneuf-du-Pape,2004,750,,Insufficient data,insufficient,2026-09-14,0
+domaine du vieux telegraphe chateauneuf du pape|2004|750,Domaine du Vieux Telegraphe Châteauneuf-du-Pape,2004,750,56,"WineBourse retailer listing (case price, per-bottle), vintage-specific",ws_single_retailer,2026-09-16,0
 domaine du vieux telegraphe chateauneuf du pape|2008|750,Domaine du Vieux Telegraphe Chateauneuf-du-Pape,2008,750,117,"Wine-Searcher average retail, adjacent vintage (2007) used as proxy for 2008",ws_adjacent,2026-08-24,0
 domaine du vieux telegraphe chateauneuf du pape|2019|750,Domaine du Vieux Telegraphe Châteauneuf-du-Pape,2019,750,105.0,"shop.kermitlynch.com, exact vintage match",ws_vintage,2026-09-01,0
 domaine durieu chateauneuf du pape|2012|750,Domaine Durieu Chateauneuf-du-Pape,2012,750,39.99,"Cellar.com retailer listing, vintage-specific (standard bottling)",ws_single_retailer,2026-09-16,0
@@ -694,7 +694,7 @@ donnafugata mille e una notte|2010|750,Donnafugata Mille e Una Notte,2010,750,,I
 duval leroy brut femme de champagne|NV|750,Duval-Leroy Brut Femme de Champagne,NV,750,,totalwine.com listing found but not available/no price in searched location,insufficient,2026-09-01,0
 duval leroy brut grand cru blanc de blancs|NV|750,Duval-Leroy Brut Grand Cru Blanc de Blancs,NV,750,90.0,"wine.com, NV exact match, regular/metadata price used (page also showed sold-out $89.99 display price)",ws_vintage,2026-09-01,0
 duval leroy brut|2006|750,Duval-Leroy Brut,2006,750,54,"Wine-Searcher average retail, vintage-specific (Brut Millesime)",ws_vintage,2026-09-15,0
-duval leroy brut|NV|750,Duval-Leroy Brut,NV,750,,Insufficient data - ambiguous which current-line NV Brut this maps to,insufficient,2026-09-15,0
+duval leroy brut|NV|750,Duval-Leroy Brut,NV,750,59,"Retailer average, California (Wine.com $54.99, K&L Wine Merchants $63.00)",ws_single_retailer,2026-09-16,0
 duval leroy finesse absolue brut premier cru|NV|750,Duval-Leroy Finesse Absolue Brut Premier Cru,NV,750,,no retailer price found for this specific cuvee,insufficient,2026-09-01,0
 duval leroy rose|NV|750,Duval-Leroy Rosé,NV,750,80,"Wine-Searcher average retail, all-vintage",ws_allvintage,2026-09-15,0
 e guigal chateauneuf du pape|1999|750,E. Guigal Châteauneuf-du-Pape,1999,750,99.97,"wine.com, exact vintage match",ws_vintage,2026-09-01,0
@@ -735,12 +735,12 @@ fanti brunello di montalcino vallocchio|2015|750,Fanti Brunello di Montalcino Va
 father john pere jean chablis bougros|2018|750,Father John Pere Jean Chablis Bougros,2018,750,,Insufficient data,insufficient,2026-08-24,0
 fattoria di felsina chianti classico riserva rancia|2007|750,Fattoria di Felsina Chianti Classico Riserva Rancia,2007,750,62,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 fattoria di felsina chianti classico riserva rancia|2013|750,Fattoria di Felsina Chianti Classico Riserva Rancia,2013,750,66,"Wine-Searcher, vintage-specific average price (ex-tax)",ws_vintage,2026-08-24,0
-fattoria di felsina chianti classico riserva|2011|750,Fattoria di Felsina Chianti Classico Riserva,2011,750,,"Insufficient data - only the pricier single-vineyard Rancia bottling's info surfaced, not the base Riserva",insufficient,2026-09-15,0
+fattoria di felsina chianti classico riserva|2011|750,Fattoria di Felsina Chianti Classico Riserva,2011,750,38,"Wine.com retailer listing, vintage-specific (base Riserva, not Rancia)",ws_single_retailer,2026-09-16,0
 fattoria di felsina chianti classico riserva|2020|750,Fattoria di Felsina Chianti Classico Riserva,2020,750,39,"Wine-Searcher average retail, vintage-specific (confirmed by matching $39.99 retail listing)",ws_vintage,2026-09-07,0
 fattoria di felsina chianti classico|1998|750,Fattoria di Felsina Chianti Classico,1998,750,,"only current-release listing found (no vintage stated), 25+ year gap too large to use",insufficient,2026-09-01,0
 fattoria pagano fabula falerno del massico|2018|750,Fattoria Pagano Fabula Falerno del Massico,2018,750,,no retailer price found,insufficient,2026-09-01,0
 fattoria poggiopiano chianti classico la tradizione|2010|750,Fattoria Poggiopiano Chianti Classico La Tradizione,2010,750,75,"Wine-Searcher average retail, all-vintage",ws_allvintage,2026-09-15,0
-fattorie romeo del castello etna rosso vigo|2013|750,Fattorie Romeo del Castello Etna Rosso Vigo,2013,750,,Insufficient data,insufficient,2026-09-15,0
+fattorie romeo del castello etna rosso vigo|2013|750,Fattorie Romeo del Castello Etna Rosso Vigo,2013,750,62,"Retailer listing, vintage-specific",ws_single_retailer,2026-09-16,0
 faustino i tinto gran reserva|2001|750,Faustino I Tinto Gran Reserva,2001,750,127,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-07,0
 ferghettina franciacorta brut rose|2017|750,Ferghettina Franciacorta Brut Rosé,2017,750,65.0,"wine.com, exact vintage match, regular price used (page also showed a sold-out $63.99 price)",ws_vintage,2026-09-01,0
 ferrari trento brut|NV|750,Ferrari Trento Brut,NV,750,31.99,"totalwine.com, NV exact match",ws_vintage,2026-09-01,0

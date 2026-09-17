@@ -919,3 +919,14 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10889716,Domaine Saint-Damien Gigondas Les Souteyrades,2016,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,50,35,"Retailer listing (Prospect Wines $34.99), vintage-specific",ws_single_retailer
 10889702,Domaine de La Bouissiere Gigondas,2017,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,35,46,"Wine-Searcher average retail, all-vintage (base bottling, distinct from Le Font de Tonin cuvee)",ws_allvintage
 10889703,Domaine de La Bouissiere Gigondas,2017,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,35,46,"Wine-Searcher average retail, all-vintage (base bottling, distinct from Le Font de Tonin cuvee)",ws_allvintage
+10888394,Domaine de la Pépière (Marc Ollivier) Muscadet De Sevre Et Maine 3,2005,750ml,White,"France, Loire Valley, Pays Nantais",FR,45,17,"Wine-Searcher average retail, all-vintage (standard Sur Lie bottling)",ws_allvintage
+10888409,Domaine de la Pépière (Marc Ollivier) Muscadet De Sevre Et Maine Sur Lie Clos Des Briords Vieille Vignes,2012,750ml,White,"France, Loire Valley, Muscadet De Sevre-et-Maine",FR,30,20,"Wine-Searcher listed price, vintage-specific",ws_vintage
+10889235,Domaine des Entrefaux Crozes-Hermitage,2003,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,25,30,"Wine-Searcher average retail, all-vintage (base bottling)",ws_allvintage
+10888355,Domaine du Gros Nore Bandol,2009,750ml,Red,"France, Provence, Bandol",FR,50,35,"Original release SRP, vintage-specific",ws_vintage
+10889275,Domaine du Vieux Telegraphe Châteauneuf-du-Pape,2004,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,70,56,"WineBourse retailer listing (case price, per-bottle), vintage-specific",ws_single_retailer
+10889711,Fattoria di Felsina Chianti Classico Riserva,2011,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,50,38,"Wine.com retailer listing, vintage-specific (base Riserva, not Rancia)",ws_single_retailer
+10889713,Fattoria di Felsina Chianti Classico Riserva,2011,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,50,38,"Wine.com retailer listing, vintage-specific (base Riserva, not Rancia)",ws_single_retailer
+10889748,Fattoria di Felsina Chianti Classico Riserva,2011,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,50,38,"Wine.com retailer listing, vintage-specific (base Riserva, not Rancia)",ws_single_retailer
+10896486,Fattorie Romeo del Castello Etna Rosso Vigo,2013,750ml,Red,"Italy, Sicily, Etna",IT,55,62,"Retailer listing, vintage-specific",ws_single_retailer
+10889900,Duval-Leroy Brut,NV,750ml,Sparkling,"France, Champagne",FR,45,59,"Retailer average, California (Wine.com $54.99, K&L Wine Merchants $63.00)",ws_single_retailer
+10889930,Duval-Leroy Brut,NV,750ml,Sparkling,"France, Champagne",FR,45,59,"Retailer average, California (Wine.com $54.99, K&L Wine Merchants $63.00)",ws_single_retailer
