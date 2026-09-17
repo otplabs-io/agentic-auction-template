@@ -848,3 +848,38 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10889859,Tenuta Caparzo Brunello di Montalcino,2006,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,50,65,Estimate — no price digit surfaced in search results,estimate
 10889858,Tenuta Caparzo Brunello di Montalcino,2006,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,50,65,Estimate — no price digit surfaced in search results,estimate
 10882686,Veuve Clicquot Ponsardin Brut,NV,750ml,Sparkling,"France, Champagne",FR,40,76,Wine-Searcher average retail (Yellow Label Brut NV),ws_vintage
+10882688,Alain Thienot Brut Vintage,2015,750ml,Sparkling,"France, Champagne",FR,55,59,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888085,Albert Morot La Bataillere Savigny-Vergelesses,1993,750ml,Red,"France, Burgundy, Côte d'Or",FR,55,123,"Wine-Searcher listed price, vintage-specific (La Bataillere Aux Vergelesses)",ws_vintage
+10888129,Albert Morot La Bataillere Savigny-Vergelesses,1993,750ml,Red,"France, Burgundy, Côte d'Or",FR,55,123,"Wine-Searcher listed price, vintage-specific (La Bataillere Aux Vergelesses)",ws_vintage
+10882848,Altesino Brunello di Montalcino Montosoli,1997,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,150,190,"Wine-Searcher average retail (USA), vintage-specific -- confirmed via direct page view",ws_vintage
+10889166,Bessin-Tremblay Chablis Valmur,2020,750ml,White,"France, Burgundy, Chablis",FR,80,108,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890103,Bibi Graetz/Testamatta Grilli Del Testamatta,2007,750ml,Red,"Italy, Tuscany",IT,30,130,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889891,Castello Di Vicchiomaggio Chianti Classico Agostino Petri Riserva,2008,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,20,32,"Wine-Searcher average retail, all-vintage (base bottling)",ws_allvintage
+10890048,Castello di Ama Chianti Classico Ama,2013,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,35,18,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10882890,Chateau D'Esclans Rose Garrus,2014,750ml,Rose,"France, Provence, Cotes de Provence",FR,50,105,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888095,Château Fombrauge,2004,750ml,Red,"France, Bordeaux, St.-Émilion",FR,35,45,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10888096,Château Fombrauge,2004,750ml,Red,"France, Bordeaux, St.-Émilion",FR,35,45,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10890079,Château Gaudin,2010,750ml,Red,"France, Bordeaux, Pauillac",FR,25,25,"Wine-Searcher listed price, vintage-specific",ws_vintage
+10888092,Château La Croix de Gay,1998,750ml,Red,"France, Bordeaux, Pomerol",FR,50,81,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890140,Clos des Papes Châteauneuf-du-Pape,2000,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,80,132,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890017,Conde de San Cristobal Vino Tinto de la Anada Ribera del Duero,2011,750ml,Red,"Spain, Castilla-Leon, Ribera del Duero",ES,20,15,"Wine-Searcher average retail, all-vintage (single core bottling)",ws_allvintage
+10889789,Damilano Barolo Lecinquevigne,2004,750ml,Red,"Italy, Piedmont, Barolo",IT,40,66,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890155,Damilano Barolo Lecinquevigne,2004,750ml,Red,"Italy, Piedmont, Barolo",IT,40,66,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889161,Domaine Eleni et Edouard Vocoret Chablis Le Bas de Chapelot,2020,750ml,White,"France, Burgundy, Chablis",FR,45,64,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888181,Domaine Jean Garaudet Pommard Noizons,2005,750ml,Red,"France, Burgundy, Côte d'Or",FR,45,85,"Wine-Searcher listed price, vintage-specific",ws_vintage
+10888123,Domaine Jean Marc Bouley Pommard Les Fremiers,2005,750ml,Red,"France, Burgundy, Côte d'Or",FR,150,302,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889145,Domaine Jean Marc Bouley Pommard Les Fremiers,2018,750ml,Red,"France, Burgundy, Côte d'Or",FR,110,201,"Wine-Searcher listed price, vintage-specific",ws_vintage
+10889151,Domaine Jean Marc Bouley Volnay Carelle sous la Chapelle,2018,750ml,Red,"France, Burgundy, Côte d'Or",FR,90,134,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10882751,Domaine Trouillet Pouilly-Fuisse 1er Cru,2020,750ml,White,"France, Burgundy, Mâconnais",FR,30,36,"Wine-Searcher listed price, vintage-specific",ws_vintage
+10896501,Domaine Vincent Dancer Beaune Les Montrevenots,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,85,119,"Wine-Searcher listed price, vintage-specific",ws_vintage
+10889700,Domaine de Ferrand Cotes du Rhone Cuvee Antique Vieilles Vignes,2004,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,20,21,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10888393,Francois Cotat Sancerre Les Culs de Beaujeu,2011,750ml,White,"France, Loire Valley, Centre-Loire",FR,50,93,"Wine-Searcher retailer range estimate ($86-101), all-vintage",ws_allvintage
+10888392,Francois Cotat Sancerre Les Culs de Beaujeu,2013,750ml,White,"France, Loire Valley, Sancerre",FR,60,93,"Wine-Searcher retailer range estimate ($86-101), all-vintage",ws_allvintage
+10888040,Francois Jobard Meursault Les Poruzots,1995,750ml,White,"France, Burgundy, Côte d'Or",FR,100,198,"Retailer listings (Sotheby's Wine NY $199, others ~$196), vintage-specific",ws_single_retailer
+10888179,Gerard Raphet Bourgogne Rouge,2009,750ml,Red,"France, Burgundy",FR,25,32,"Wine-Searcher average retail, all-vintage (base bottling)",ws_allvintage
+10889880,Giacomo Ascheri Barolo Sorano,2004,750ml,Red,"Italy, Piedmont, Barolo",IT,35,44,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889819,Giacomo Ascheri Barolo Sorano,2004,750ml,Red,"Italy, Piedmont, Barolo",IT,35,44,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889097,Giacomo Borgogno & Figli Colli Tortonesi Derthona,2021,750ml,White,"Italy, Piedmont, Colli Tortonesi",IT,35,61,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889098,Giacomo Borgogno & Figli Colli Tortonesi Derthona,2021,750ml,White,"Italy, Piedmont, Colli Tortonesi",IT,35,61,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890153,Giacomo Fenocchio Barolo Villero,2013,750ml,Red,"Italy, Piedmont, Barolo",IT,50,83,"Wine-Searcher listed price, vintage-specific",ws_vintage
+10890008,Giacomo Fenocchio Dolcetto,2009,750ml,Red,"Italy, Piedmont",IT,20,20,"Wine-Searcher average retail, all-vintage (base bottling)",ws_allvintage
