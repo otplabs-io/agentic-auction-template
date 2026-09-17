@@ -493,7 +493,7 @@ domaine de cristia chateauneuf du pape vieilles vignes|2019|750,Domaine De Crist
 domaine de cristia chateauneuf du pape|2010|1500,Domaine De Cristia Châteauneuf-du-Pape,2010,1500,73,"Wine-Searcher average retail, vintage-specific ($33/750ml base cuvee, scaled x2.2 for magnum per house convention)",ws_vintage,2026-09-14,0
 domaine de fa fleurie roche guillon|2016|750,Domaine de Fa Fleurie Roche Guillon,2016,750,35,Estimate based on category/producer norms,estimate,2026-08-24,0
 domaine de ferrand cotes du rhone cuvee antique vieilles vignes|2004|750,Domaine de Ferrand Cotes du Rhone Cuvee Antique Vieilles Vignes,2004,750,21,"Wine-Searcher average retail, all-vintage",ws_allvintage,2026-09-16,0
-domaine de la bouissiere gigondas|2017|750,Domaine de La Bouissiere Gigondas,2017,750,,Insufficient data,insufficient,2026-09-14,0
+domaine de la bouissiere gigondas|2017|750,Domaine de La Bouissiere Gigondas,2017,750,46,"Wine-Searcher average retail, all-vintage (base bottling, distinct from Le Font de Tonin cuvee)",ws_allvintage,2026-09-16,0
 domaine de la charbonniere chateauneuf du pape cuvee mourre des perdrix|2019|750,Domaine de la Charbonniere Chateauneuf du Pape Cuvee Mourre des Perdrix,2019,750,66,"Wine-Searcher average retail (USA), all-vintage fallback for this cuvee",ws_allvintage,2026-09-07,0
 domaine de la charbonniere chateauneuf du pape cuvee vieilles vignes|2019|750,Domaine de la Charbonniere Chateauneuf-du-Pape Cuvee Vieilles Vignes,2019,750,81,"Wine-Searcher average retail, all-vintage fallback for this cuvee",ws_allvintage,2026-09-07,0
 domaine de la charbonniere chateauneuf du pape les hautes brusquieres cuvee speciale|2015|750,Domaine de la Charbonniere Chateauneuf-du-Pape Les Hautes Brusquieres Cuvee Speciale,2015,750,69,"Wine-Searcher average retail, all-vintage fallback for this cuvee (same figure returned for 2015 and 2019 queries)",ws_allvintage,2026-09-07,0
@@ -581,10 +581,10 @@ domaine gerard charvin chateauneuf du pape|2019|750,Domaine Gerard Charvin Chât
 domaine gerard julien et fils nuits st georges|2022|750,Domaine Gerard Julien et Fils Nuits-St.-Georges,2022,750,77,"Wine-Searcher average retail, all-vintage",ws_allvintage,2026-09-14,0
 domaine gille vosne romanee basses maizieres|2020|750,Domaine Gille Vosne-Romanee Basses Maizieres,2020,750,,exact-vintage product pages found twice but neither displayed a price,insufficient,2026-09-01,0
 domaine gourt de mautens cotes du rhone villages rasteau|1998|750,Domaine Gourt de Mautens Cotes du Rhone Villages Rasteau,1998,750,,Insufficient data,insufficient,2026-09-07,0
-domaine gourt de mautens cotes du rhone villages rasteau|2001|750,Domaine Gourt de Mautens Cotes du Rhone Villages Rasteau,2001,750,,"Insufficient data - searched, no price found",insufficient,2026-09-14,0
+domaine gourt de mautens cotes du rhone villages rasteau|2001|750,Domaine Gourt de Mautens Cotes du Rhone Villages Rasteau,2001,750,45,"Estate Wine Brokers retailer listing, in stock, vintage-specific",ws_single_retailer,2026-09-16,0
 domaine grand veneur chateauneuf du pape le miocene|2021|750,Domaine Grand Veneur Chateauneuf-du-Pape Le Miocene,2021,750,70,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-07,0
 domaine grand veneur chateauneuf du pape les origines|2006|750,Domaine Grand Veneur Chateauneuf du Pape Les Origines,2006,750,71,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-07,0
-domaine gros frere et soeur bourgogne hautes cote de nuits|1999|750,Domaine Gros Frere et Soeur Bourgogne Hautes Cote de Nuits,1999,750,,"Insufficient data - searched, no price found",insufficient,2026-09-14,0
+domaine gros frere et soeur bourgogne hautes cote de nuits|1999|750,Domaine Gros Frere et Soeur Bourgogne Hautes Cote de Nuits,1999,750,65,"Wine-Searcher average retail, all-vintage (basic bottling)",ws_allvintage,2026-09-16,0
 domaine grosbois chinon gabare|2020|750,Domaine Grosbois Chinon Gabare,2020,750,42,Wine-Searcher average retail (vintage not explicitly tagged in snippet),ws_allvintage,2026-08-24,0
 domaine guiberteau saumur bizay les chapaudaises|2018|750,Domaine Guiberteau Saumur Bizay Les Chapaudaises,2018,750,56,"Wine-Searcher store listings, vintage-specific (averaged two listed prices)",ws_vintage,2026-08-24,0
 domaine guiberteau saumur blanc breze clos des carmes|2016|750,Domaine Guiberteau Saumur Blanc Breze Clos des Carmes,2016,750,143,"Wine-Searcher average retail, all-vintage average (2016-specific price not isolated in snippet)",ws_allvintage,2026-08-24,0
@@ -641,7 +641,7 @@ domaine marius delarche corton renardes reserve vielles vignes|2002|750,Domaine 
 domaine marius delarche pernand vergelesses les boutieres vieilles vignes reserve|1997|750,Domaine Marius Delarche Pernand-Vergelesses Les Boutieres Vieilles Vignes Reserve,1997,750,38,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-07,0
 domaine maume marchand tawse gevrey chambertin en pallud|2012|750,Domaine Maume-Marchand Tawse Gevrey-Chambertin En Pallud,2012,750,,Insufficient data,insufficient,2026-09-15,0
 domaine maume marchand tawse gevrey chambertin en pallud|2013|750,Domaine Maume-Marchand Tawse Gevrey-Chambertin En Pallud,2013,750,,Insufficient data,insufficient,2026-09-15,0
-domaine melody crozes hermitage friandise|2015|750,Domaine Melody Crozes-Hermitage Friandise,2015,750,,Insufficient data,insufficient,2026-09-15,0
+domaine melody crozes hermitage friandise|2015|750,Domaine Melody Crozes-Hermitage Friandise,2015,750,17,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-16,0
 domaine michel gros vosne romanee clos des reas|2007|750,Domaine Michel Gros Vosne-Romanee Clos des Reas,2007,750,,"only 2019/2023 vintages found, gap too large to use as adjacent",insufficient,2026-09-01,0
 domaine moreau and fils chablis valmur|2019|750,Domaine Moreau & Fils Chablis Valmur,2019,750,179.99,"grandwinecellar.com, exact vintage match",ws_vintage,2026-09-01,0
 domaine nicole lamarche clos de vougeot|2020|750,Domaine Nicole Lamarche Clos de Vougeot,2020,750,,millesima-usa.com listing found but out of stock with no price; alternate retailer page not found,insufficient,2026-09-01,0
@@ -668,7 +668,7 @@ domaine rougeot meursault charmes|1997|750,Domaine Rougeot Meursault-Charmes,199
 domaine saint damien gigondas la louisiane vieilles vignes|2009|750,Domaine Saint-Damien Gigondas La Louisiane Vieilles Vignes,2009,750,37,"Wine-Searcher average retail, all-vintage",ws_allvintage,2026-09-15,0
 domaine saint damien gigondas les souteyrades|2012|750,Domaine Saint-Damien Gigondas Les Souteyrades,2012,750,,Insufficient data,insufficient,2026-09-15,0
 domaine saint damien gigondas les souteyrades|2015|750,Domaine Saint-Damien Gigondas Les Souteyrades,2015,750,49,"Retailer/critic-cited price, vintage-specific",ws_single_retailer,2026-09-15,0
-domaine saint damien gigondas les souteyrades|2016|750,Domaine Saint-Damien Gigondas Les Souteyrades,2016,750,,Insufficient data,insufficient,2026-09-15,0
+domaine saint damien gigondas les souteyrades|2016|750,Domaine Saint-Damien Gigondas Les Souteyrades,2016,750,35,"Retailer listing (Prospect Wines $34.99), vintage-specific",ws_single_retailer,2026-09-16,0
 domaine santa duc grand grenache 66|2009|750,Domaine Santa Duc Grand Grenache 66,2009,750,,Insufficient data,insufficient,2026-08-24,0
 domaine stephane aladame montagny les burnins|2020|750,Domaine Stéphane Aladame Montagny Les Burnins,2020,750,29.43,"oenovinia.com, exact vintage match, EUR 27.00 converted at 1.09 USD/EUR",ws_vintage,2026-09-01,0
 domaine sylvain morey bourgogne passetoutgrains|2021|750,Domaine Sylvain Morey Bourgogne Passetoutgrains,2021,750,41.96,"astorwines.com listing for 2023 vintage, our lot is 2021",ws_adjacent,2026-09-01,0

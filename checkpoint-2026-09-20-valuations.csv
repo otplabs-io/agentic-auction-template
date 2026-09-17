@@ -913,3 +913,9 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10889861,Domaine De La Maurelle Gigondas,2003,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,20,46,"The Wine I Love retailer listing (EUR41.77, converted), vintage-specific",ws_single_retailer
 10889893,Domaine De La Maurelle Gigondas,2003,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,20,46,"The Wine I Love retailer listing (EUR41.77, converted), vintage-specific",ws_single_retailer
 10889734,Domaine Durieu Chateauneuf-du-Pape,2012,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,30,39.99,"Cellar.com retailer listing, vintage-specific (standard bottling)",ws_single_retailer
+10890142,Domaine Gourt de Mautens Cotes du Rhone Villages Rasteau,2001,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,35,45,"Estate Wine Brokers retailer listing, in stock, vintage-specific",ws_single_retailer
+10888075,Domaine Gros Frere et Soeur Bourgogne Hautes Cote de Nuits,1999,750ml,Red,"France, Burgundy, Côte d'Or",FR,45,65,"Wine-Searcher average retail, all-vintage (basic bottling)",ws_allvintage
+10889710,Domaine Melody Crozes-Hermitage Friandise,2015,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,25,17,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889716,Domaine Saint-Damien Gigondas Les Souteyrades,2016,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,50,35,"Retailer listing (Prospect Wines $34.99), vintage-specific",ws_single_retailer
+10889702,Domaine de La Bouissiere Gigondas,2017,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,35,46,"Wine-Searcher average retail, all-vintage (base bottling, distinct from Le Font de Tonin cuvee)",ws_allvintage
+10889703,Domaine de La Bouissiere Gigondas,2017,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,35,46,"Wine-Searcher average retail, all-vintage (base bottling, distinct from Le Font de Tonin cuvee)",ws_allvintage
