@@ -120,9 +120,9 @@ WebSearch returns a links list plus an LLM-synthesized prose summary of a subset
 
 This is not yet enforced by any script -- it is judgment applied during the valuation loop, easy to skip under batch-processing pressure. Re-read this section at the start of Step 3 each week rather than assuming last week's diligence carries over.
 
-## Wine-Searcher direct access is CAPTCHA-gated, not just 403 -- and location changes what WebSearch surfaces
+## Wine-Searcher direct access is CAPTCHA-gated, not just 403 -- and a location-shaped token changes what WebSearch surfaces
 
-Re-confirmed 2026-09-21 while investigating the insufficient-marking problem above. Two things were tested:
+Re-confirmed 2026-09-21 while investigating the insufficient-marking problem above. Two things were tested. Note up front: `WebSearch`'s schema is just `query`, `allowed_domains`, `blocked_domains` -- there is no location/region parameter, and the tool's own description states web search "is only available in the US" as a fixed, non-configurable fact. Nothing below runs a search *from* California; it's query-text pattern matching against Wine-Searcher's own URL vocabulary, confirmed by checking the actual tool schema on 2026-09-21 rather than assumed.
 
 1. **Direct access is a real bot-detection challenge, not a soft block.** Navigating to a `wine-searcher.com/find/...` URL in the browser tool returns a Cloudflare "Press & Hold to confirm you are a human" page, not a static 403. `WebFetch` on the same URL returns a hard HTTP 403. Both are explicit bot detection and are not to be worked around (no proxies, no simulating the press-and-hold, no alternate user agents) -- this is a hard boundary, not an engineering puzzle. Practical consequence: this workflow can never inspect the live DOM (the per-vintage price table, "Featured offer" merchant card, critic-score badge visible in a real browser) -- everything is inferred from `WebSearch` result titles and synthesized text, which is strictly less reliable. Treat every price pulled this way as lower-confidence than a human glancing at the real page would get, which is exactly why the extraction discipline in the section above (re-read the full answer, reject cuvée/tier mismatches, reject non-vintage "current" prices on old vintages) matters as much as it does.
 
