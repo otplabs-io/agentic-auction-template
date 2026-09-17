@@ -854,7 +854,7 @@ i paglieri roagna barolo e la pira|2018|750,I Paglieri - Roagna Barolo e La Pira
 icardi barolo parej|1997|750,Icardi Barolo Parej,1997,750,186,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 il marroneto rosso di montalcino ignaccio|2016|750,Il Marroneto Rosso di Montalcino Ignaccio,2016,750,55,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 il poggione brunello di montalcino riserva|1999|750,Il Poggione Brunello di Montalcino Riserva,1999,750,,"Insufficient data - only this same auction's own listing price surfaced, no independent market source",insufficient,2026-09-15,0
-il poggione brunello di montalcino riserva|2007|750,Il Poggione Brunello di Montalcino Riserva,2007,750,,"Insufficient data - results conflated base DOCG and the separate single-vineyard Vigna Paganelli Riserva, neither a confident match for the base Riserva",insufficient,2026-09-15,0
+il poggione brunello di montalcino riserva|2007|750,Il Poggione Brunello di Montalcino Riserva,2007,750,94,"Retailer listing (San Francisco, CA), vintage-specific",ws_single_retailer,2026-09-17,0
 il poggione brunello di montalcino|2012|750,Il Poggione Brunello di Montalcino,2012,750,74,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-07,0
 initial de desmirail|2015|750,Initial de Desmirail,2015,750,,Insufficient data - Wine-Searcher explicitly shows no score or price for this vintage,insufficient,2026-09-15,0
 isole e olena cepparello|1995|750,Isole e Olena Cepparello,1995,750,,"Insufficient data - only this same auction's own listing price surfaced, no independent market source",insufficient,2026-09-15,0
@@ -871,7 +871,7 @@ jacques copinet brut blanc de blancs chardonnay|NV|750,Jacques Copinet Brut Blan
 jasmin cote rotie la giroflarie|2016|750,Jasmin Cote Rotie La Giroflarie,2016,750,60,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
 jayer gilles bourgogne hautes cotes de beaune|2005|750,Jayer-Gilles Bourgogne Hautes-Côtes de Beaune,2005,750,69,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 jayer gilles bourgogne hautes cotes de nuits blanc|2014|1500,Jayer-Gilles Bourgogne Hautes-Côtes de Nuits Blanc,2014,1500,,"Insufficient data - only the separate Hautes-Cotes de Beaune Blanc bottling's price found, wrong appellation and format",insufficient,2026-09-15,0
-jayer gilles bourgogne hautes cotes de nuits blanc|2014|750,Jayer-Gilles Bourgogne Hautes-Côtes de Nuits Blanc,2014,750,,Insufficient data - only the separate Hautes-Cotes de Beaune Blanc bottling's price found,insufficient,2026-09-15,0
+jayer gilles bourgogne hautes cotes de nuits blanc|2014|750,Jayer-Gilles Bourgogne Hautes-Côtes de Nuits Blanc,2014,750,62,"Wine-Searcher average retail, all-vintage (basic bottling)",ws_allvintage,2026-09-17,0
 jean baptiste souillard crozes hermitage les baties|2018|750,Jean-Baptiste Souillard Crozes-Hermitage Les Baties,2018,750,55,Estimate based on sibling Souillard Crozes-Hermitage cuvee pricing,estimate,2026-08-24,0
 jean baptiste souillard crozes hermitage les habrards|2018|750,Jean-Baptiste Souillard Crozes-Hermitage Les Habrards,2018,750,54,"Wine-Searcher, general average (2018-specific pricing limited)",ws_allvintage,2026-08-24,0
 jean baptiste souillard crozes hermitage tenay|2018|750,Jean-Baptiste Souillard Crozes-Hermitage Tenay,2018,750,59,"Wine-Searcher, general average",ws_allvintage,2026-08-24,0
@@ -918,10 +918,10 @@ jean philippe fichet bourgogne rouge vieilles vignes|1999|750,Jean-Philippe Fich
 jean philippe fichet meursault les gruyaches|2018|750,Jean-Philippe Fichet Meursault Les Gruyaches,2018,750,104,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 jean pierre guyon chorey les beaune les bons ores|2022|750,Jean-Pierre Guyon Chorey-les-Beaune Les Bons Ores,2022,750,96,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 jean pierre guyon savigny les beaune les peuillets|2022|750,Jean-Pierre Guyon Savigny-lès-Beaune Les Peuillets,2022,750,109,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
-jessica litaud bourgogne aligote bg|2023|750,Jessica Litaud Bourgogne Aligote BG,2023,750,,Insufficient data,insufficient,2026-09-15,0
+jessica litaud bourgogne aligote bg|2023|750,Jessica Litaud Bourgogne Aligote BG,2023,750,70,"Retailer listing, vintage-specific",ws_single_retailer,2026-09-17,0
 jessica litaud macon fuisse|2023|750,Jessica Litaud Macon Fuisse,2023,750,49,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 jessica litaud pouilly fuisse le trio|2022|750,Jessica Litaud Pouilly-Fuisse Le Trio,2022,750,,Insufficient data,insufficient,2026-09-15,0
-jessica litaud saint veran les pommards|2023|750,Jessica Litaud Saint Véran Les Pommards,2023,750,,Insufficient data,insufficient,2026-09-15,0
+jessica litaud saint veran les pommards|2023|750,Jessica Litaud Saint Véran Les Pommards,2023,750,75,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-17,0
 johnnes and company gevrey chambertin|2009|750,Johnnes and Company Gevrey-Chambertin,2009,750,,Insufficient data - producer not found on Wine-Searcher,insufficient,2026-09-15,0
 jose dhondt brut rose de saignee|NV|750,Jose Dhondt Brut Rosé de Saignée,NV,750,,Insufficient data,insufficient,2026-09-15,0
 joseph drouhin beaune greves|2005|750,Joseph Drouhin Beaune Greves,2005,750,,"only 2015/2016 vintages found, gap too large to use as adjacent",insufficient,2026-09-01,0
@@ -939,10 +939,10 @@ la combarbia vino nobile di montepulciano|2016|750,La Combàrbia Vino Nobile di 
 la combarbia vino nobile di montepulciano|2020|750,La Combàrbia Vino Nobile di Montepulciano,2020,750,,Insufficient data,insufficient,2026-09-15,0
 la croix de beaucaillou|2019|750,La Croix de Beaucaillou,2019,750,49.99,"wine.com, exact vintage match (sold out but price displayed)",ws_vintage,2026-09-01,0
 la dame de montrose|2022|750,La Dame de Montrose,2022,750,,no reliable price found (zachys candidate page did not resolve to a priced product),insufficient,2026-09-01,0
-la fortuna brunello di montalcino|2010|750,La Fortuna Brunello di Montalcino,2010,750,,"Insufficient data - only the pricier Riserva bottling's info surfaced, not the base wine",insufficient,2026-09-15,0
+la fortuna brunello di montalcino|2010|750,La Fortuna Brunello di Montalcino,2010,750,70,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-17,0
 la gerla brunello di montalcino la pieve|2019|750,La Gerla Brunello di Montalcino La Pieve,2019,750,90,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-07,0
-la gerla brunello di montalcino|2010|750,La Gerla Brunello di Montalcino,2010,750,,Insufficient data,insufficient,2026-09-15,0
-la massa chianti classico giorgio primo|1999|1500,La Massa Chianti Classico Giorgio Primo,1999,1500,,Insufficient data,insufficient,2026-09-15,0
+la gerla brunello di montalcino|2010|750,La Gerla Brunello di Montalcino,2010,750,65,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-17,0
+la massa chianti classico giorgio primo|1999|1500,La Massa Chianti Classico Giorgio Primo,1999,1500,194,"Wine-Searcher average retail, vintage-specific (750ml x 2.2 scaled to magnum)",ws_vintage,2026-09-17,0
 la reserve de leoville barton|2020|750,La Reserve de Leoville Barton,2020,750,,no reliable price found (saratogawine.com page found but out of stock with no price shown),insufficient,2026-09-01,0
 la rogerie famille petit boxler grand cru la grande vie|NV|750,La Rogerie (Famille Petit-Boxler) Grand Cru La Grande Vie,NV,750,87,"Wine-Searcher average retail, all-vintage (EUR80 converted to USD)",ws_allvintage,2026-09-15,0
 la versa oltrepo pavese collezione brut metodo classico|NV|750,La Versa Oltrepò Pavese Collezione Brut Metodo Classico,NV,750,,Insufficient data,insufficient,2026-09-15,0
