@@ -231,13 +231,13 @@ Stars (`personal_pick: true` + a `pick_reason` string) every deal and unvalued l
 **Refreshing these:** when the user provides a newer export of either, overwrite the matching file in `preferences/` (convert to UTF-8 first — CellarTracker exports as cp1252/Windows-1252, and reading it as UTF-8 or Latin-1 silently mangles accented producer names). There's no auto-detection of a newer file in `inbox/`/`~/Downloads` for these the way there is for the weekly xlsx — the user hands them over when they want a refresh.
 
 Three independent signals, any one of which stars a lot (see `personal_pick.py` docstring for the exact thresholds):
-1. **Producer match** — you've rated this exact producer highly, or you already own multiple bottles of it, or you own it and it's well-reviewed generally.
+1. **Producer + cuvee match** — you've rated *this specific bottling* highly, already own multiple bottles of it, or own it and it's well-reviewed generally. **Producer name alone is not enough** — matching on producer only starred a $25, poorly-rated Bibi Graetz bottling off a 93-point rating for Bibi Graetz's unrelated flagship "Testamatta," caught by the user 2026-09-24; 7 of that run's 12 producer-based stars turned out to be the same mistake (a Riserva, a different vineyard, a different color, a different village, all standing in for what the user actually rated). `match_producer` now requires the specific cuvee — the wine's name minus the producer — to actually be the same wine, not just from the same house. See `known-limits.md` for exactly how that's checked and the traps in checking it.
 2. **Region match** — you've repeatedly rated wines from the same appellation highly. Deliberately narrow: matching only broad region ("France > Burgundy") starred nearly the entire catalog on a first pass, since this user's tastes already skew toward exactly the countries/regions this auction screens to — see `known-limits.md`.
 3. **Varietal match** — the varietal name literally appears in the wine's name, and you've repeatedly rated that varietal highly.
 
 This is a separate signal from Step 5's `flag` — `flag` is "objectively notable," `personal_pick` is "matches your taste specifically." A lot can carry either, both, or neither. Don't fold one into the other.
 
-A missed star is a minor annoyance; a false one undermines the whole feature — when in doubt, don't star it. Report the count starred (e.g. "18 of 327 lots starred") alongside the usual three numbers.
+A missed star is a minor annoyance; a false one undermines the whole feature — when in doubt, don't star it. Matching on producer identity alone is not matching on wine identity, the same discipline Step 3 already applies to pricing (never let a Riserva's price or rating stand in for the base bottling). Report the count starred (e.g. "9 of 327 lots starred") alongside the usual three numbers.
 
 ## Step 7 — Dashboard export
 
