@@ -851,7 +851,7 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10882688,Alain Thienot Brut Vintage,2015,750ml,Sparkling,"France, Champagne",FR,55,59,"Wine-Searcher average retail, vintage-specific",ws_vintage
 10888085,Albert Morot La Bataillere Savigny-Vergelesses,1993,750ml,Red,"France, Burgundy, Côte d'Or",FR,55,123,"Wine-Searcher listed price, vintage-specific (La Bataillere Aux Vergelesses)",ws_vintage
 10888129,Albert Morot La Bataillere Savigny-Vergelesses,1993,750ml,Red,"France, Burgundy, Côte d'Or",FR,55,123,"Wine-Searcher listed price, vintage-specific (La Bataillere Aux Vergelesses)",ws_vintage
-10882848,Altesino Brunello di Montalcino Montosoli,1997,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,150,190,"Wine-Searcher average retail (USA), vintage-specific -- confirmed via direct page view",ws_vintage
+10882848,Altesino Brunello di Montalcino Montosoli,1997,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,150,190,"Wine-Searcher average retail (USA), vintage-specific -- price and format taken from a screenshot of the live page the user provided, not independently viewed",ws_vintage
 10889166,Bessin-Tremblay Chablis Valmur,2020,750ml,White,"France, Burgundy, Chablis",FR,80,108,"Wine-Searcher average retail, vintage-specific",ws_vintage
 10890103,Bibi Graetz/Testamatta Grilli Del Testamatta,2007,750ml,Red,"Italy, Tuscany",IT,30,130,"Wine-Searcher average retail, vintage-specific",ws_vintage
 10889891,Castello Di Vicchiomaggio Chianti Classico Agostino Petri Riserva,2008,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,20,32,"Wine-Searcher average retail, all-vintage (base bottling)",ws_allvintage
@@ -883,3 +883,33 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10889098,Giacomo Borgogno & Figli Colli Tortonesi Derthona,2021,750ml,White,"Italy, Piedmont, Colli Tortonesi",IT,35,61,"Wine-Searcher average retail, vintage-specific",ws_vintage
 10890153,Giacomo Fenocchio Barolo Villero,2013,750ml,Red,"Italy, Piedmont, Barolo",IT,50,83,"Wine-Searcher listed price, vintage-specific",ws_vintage
 10890008,Giacomo Fenocchio Dolcetto,2009,750ml,Red,"Italy, Piedmont",IT,20,20,"Wine-Searcher average retail, all-vintage (base bottling)",ws_allvintage
+10890015,Bodegas Olarra Rioja Otonal Reserva,2008,750ml,Red,"Spain, Rioja",ES,25,10,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890016,Bodegas Olarra Rioja Otonal Reserva,2008,750ml,Red,"Spain, Rioja",ES,25,10,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889754,Castello di Monsanto Chianti Classico Riserva,2007,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,40,30,"Wine-Searcher average retail, all-vintage (base bottling)",ws_allvintage
+10889850,Castello di Monsanto Chianti Classico Riserva,2007,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,40,30,"Wine-Searcher average retail, all-vintage (base bottling)",ws_allvintage
+10888135,Bouchard Pere et Fils Pommard Chanlins,1999,750ml,Red,"France, Burgundy, Côte d'Or",FR,50,55,"IdealWine auction hammer price (EUR50.32 incl. commission, converted), vintage-specific -- fetched directly",auction
+10889736,Alain Voge Côtes du Rhône Les Peyrouses,2006,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,25,26,"Wine-Searcher average retail, all-vintage (base bottling)",ws_allvintage
+10889973,Chateau de la Gardine Châteauneuf-du-Pape,1999,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,40,59.99,"Kahn's Fine Wines retailer listing, vintage-specific",ws_single_retailer
+10890112,Château Artigues Arnaud,2009,750ml,Red,"France, Bordeaux, Pauillac",FR,20,27,"Wine-Searcher average retail, all-vintage (third label of Grand-Puy-Ducasse, stable-priced)",ws_allvintage
+10888126,Château Fombrauge,2006,750ml,Red,"France, Bordeaux, St.-Émilion",FR,30,45,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10889181,Château Fombrauge,2006,750ml,Red,"France, Bordeaux, St.-Émilion",FR,30,45,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10888118,Château Fombrauge,2007,750ml,Red,"France, Bordeaux, St.-Émilion",FR,30,25,"IdealWine auction hammer price (EUR22.64 incl. commission, converted), vintage-specific -- fetched directly",auction
+10888404,Château Le Rey Les Rocheuses,2020,750ml,Red,"France, Bordeaux, Cotes de Castillon",FR,20,41,"Retailer average (Kahn's Fine Wines $33.99, Regency Wine & Liquor $48.99), vintage-specific",ws_single_retailer
+10889775,Château Les Ormes-Sorbet,2000,750ml,Red,"France, Bordeaux, Haut-Médoc",FR,20,24,"Retailer average ($19-$29.97 across listings), vintage-specific",ws_single_retailer
+10888305,Château Monbousquet Blanc,2007,750ml,White,"France, Bordeaux, St.-Émilion",FR,35,77,"Retailer average ($75-$78), vintage-specific listing match",ws_single_retailer
+10888303,Château Bourgneuf-Vayron,1998,750ml,Red,"France, Bordeaux, Pomerol",FR,40,90,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10888379,Comtes Lafon Monthélie Les Duresses,2006,750ml,Red,"France, Burgundy, Côte d'Or",FR,60,99,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10889876,Dievole Chianti Classico Novecento Riserva,2005,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,30,42,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10888383,Domaine Des Roches Neuves Saumur-Champigny La Marginale,2001,750ml,Red,"France, Loire Valley, Saumur",FR,35,53,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10895200,Domaine Didier Fornerol Côte de Nuits-Villages,2019,750ml,Red,"France, Burgundy, Côte d'Or",FR,55,55,"Wine-Searcher average retail, all-vintage",ws_allvintage
+10895199,Domaine Didier Fornerol Côte de Nuits-Villages,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,55,51,"Wine-Searcher listed price, vintage-specific",ws_vintage
+10889130,Domaine Charles Audoin Marsannay Le Clos de Jeu,2019,750ml,Red,"France, Burgundy, Côte d'Or",FR,45,59.94,"J.J. Buckley retailer listing, vintage-specific -- fetched directly",ws_single_retailer
+10889131,Domaine Charles Audoin Marsannay Le Clos de Jeu,2019,750ml,Red,"France, Burgundy, Côte d'Or",FR,45,59.94,"J.J. Buckley retailer listing, vintage-specific -- fetched directly",ws_single_retailer
+10888372,Coffinet-Duvernay Chassagne Montrachet Les Fairendes,2013,750ml,White,"France, Burgundy, Côte d'Or",FR,90,67.99,"Wine.com retailer listing, vintage-specific",ws_single_retailer
+10889924,Domaine Courbis St. Joseph,2005,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,35,40,"Wine-Searcher average retail, vintage-specific (main red cuvee)",ws_vintage
+10889943,Domaine Courbis St. Joseph,2005,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,35,40,"Wine-Searcher average retail, vintage-specific (main red cuvee)",ws_vintage
+10889966,Domaine Courbis St. Joseph,2005,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,35,40,"Wine-Searcher average retail, vintage-specific (main red cuvee)",ws_vintage
+10888412,Domaine De Chevalier,1986,750ml,Red,"France, Bordeaux, Graves",FR,80,115,"Retailer average (Benchmark Wine and Spirits $105, Cellaraiders $125), vintage-specific",ws_single_retailer
+10889861,Domaine De La Maurelle Gigondas,2003,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,20,46,"The Wine I Love retailer listing (EUR41.77, converted), vintage-specific",ws_single_retailer
+10889893,Domaine De La Maurelle Gigondas,2003,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,20,46,"The Wine I Love retailer listing (EUR41.77, converted), vintage-specific",ws_single_retailer
+10889734,Domaine Durieu Chateauneuf-du-Pape,2012,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,30,39.99,"Cellar.com retailer listing, vintage-specific (standard bottling)",ws_single_retailer
