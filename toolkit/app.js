@@ -65,17 +65,32 @@ function wtSwatch(t){
   return '<span class="wt wt-'+esc(t)+'" title="'+n+'" role="img" aria-label="'+n+'"></span>';
 }
 
+/* ---------- personal pick ---------- */
+/* Starred from the user's own cellar contents and tasting history -- see
+   personal_pick.py. Distinct from `flag` (Step 5's general benchmark/rarity
+   judgment): this is specifically "matches your taste," not "objectively
+   notable," and the two are independent -- a lot can carry either, both, or
+   neither. */
+function pickBadge(r){
+  if(!r.personal_pick) return '<span class="dash">—</span>';
+  var reason = esc(r.pick_reason||'Matches your taste profile');
+  return '<span class="pick" title="'+reason+'" role="img" aria-label="Personal pick: '+reason+'">★</span>';
+}
+
 /* ---------- searchable text ---------- */
 [DEALS,UNVAL].forEach(function(set){
   set.forEach(function(r){
     r._country = ccName(r.country_code);
     r._search = fold([r.wine,r.region_raw,r.condition,r.flag,r.source,r._country,
-                      r.vintage,r.format,wtLabel(r.wine_type)].join(' '));
+                      r.vintage,r.format,wtLabel(r.wine_type),r.pick_reason].join(' '));
   });
 });
 
 /* ---------- view definitions ---------- */
 var COLS_DEALS = [
+  {k:'pick', label:'', hint:'personal pick', type:'rank', cls:'pickcell',
+   get:function(r){return r.personal_pick?1:0;},
+   render:function(r){ return pickBadge(r); }},
   {k:'country', label:'', hint:'country', type:'text', get:function(r){return r._country;},
    render:function(r){ return flagCell(r.country_code); }},
   {k:'wine_type', label:'', hint:'wine type', type:'rank', cls:'wtcell',
@@ -119,6 +134,9 @@ var COLS_DEALS = [
 ];
 
 var COLS_UNVAL = [
+  {k:'pick', label:'', hint:'personal pick', type:'rank', cls:'pickcell',
+   get:function(r){return r.personal_pick?1:0;},
+   render:function(r){ return pickBadge(r); }},
   {k:'country', label:'', hint:'country', type:'text', get:function(r){return r._country;},
    render:function(r){ return flagCell(r.country_code); }},
   {k:'wine_type', label:'', hint:'wine type', type:'rank', cls:'wtcell',
@@ -173,7 +191,8 @@ var state = {
   sel:{country:[],region:[],subregion:[],wtype:[],format:[],tag:[],src:[]},
   rng:{},               /* key -> [lo,hi] or null when untouched */
   sort:{col:'pct_below',dir:-1},
-  standouts:false
+  standouts:false,
+  picks:false
 };
 var BOUNDS = {};        /* view -> key -> [min,max] */
 
@@ -205,6 +224,7 @@ function matches(r, except){
   if(state.view==='deals'){
     if(state.standouts && !r.flag) return false;
   }
+  if(state.picks && !r.personal_pick) return false;
   var cfg = VIEWS[state.view];
   for(var fi=0;fi<cfg.facets.length;fi++){
     var key = cfg.facets[fi];
@@ -231,6 +251,7 @@ function activeCount(){
   cfg.ranges.forEach(function(k){ if(rngTouched(k)) n++; });
   if(state.q) n++;
   if(state.view==='deals' && state.standouts) n++;
+  if(state.picks) n++;
   return n;
 }
 
@@ -295,6 +316,7 @@ function writeHash(){
   var d = VIEWS[state.view].defaultSort;
   if(state.sort.col!==d.col || state.sort.dir!==d.dir) p.push('so='+state.sort.col+':'+(state.sort.dir>0?'a':'d'));
   if(state.standouts) p.push('st=1');
+  if(state.picks) p.push('pp=1');
   var h = p.join('&');
   var target = h ? '#'+h : location.pathname+location.search;
   /* Chrome gives local files an opaque origin, and some builds reject
@@ -325,6 +347,7 @@ function readHash(){
       var s = v.split(':'); state.sort = {col:s[0], dir:s[1]==='a'?1:-1};
     }
     else if(k==='st') state.standouts = v==='1';
+    else if(k==='pp') state.picks = v==='1';
   });
 }
 
@@ -398,11 +421,16 @@ function buildRail(){
       '</div></div></details>';
   });
 
-  if(state.view==='deals'){
+  {
+    var shortlistRows = VIEWS[state.view].rows;
     html += '<details class="fgroup" open><summary><span class="caret">▶</span>Shortlists</summary><div class="fbody">'+
-      '<label class="opt"><input type="checkbox" id="fStandouts"'+(state.standouts?' checked':'')+'>'+
-      '<span class="lab">Standouts only</span><span class="n">'+DEALS.filter(function(r){return r.flag;}).length+'</span></label>'+
-      '</div></details>';
+      '<label class="opt"><input type="checkbox" id="fPicks"'+(state.picks?' checked':'')+'>'+
+      '<span class="lab">Personal picks only</span><span class="n">'+shortlistRows.filter(function(r){return r.personal_pick;}).length+'</span></label>';
+    if(state.view==='deals'){
+      html += '<label class="opt"><input type="checkbox" id="fStandouts"'+(state.standouts?' checked':'')+'>'+
+        '<span class="lab">Standouts only</span><span class="n">'+DEALS.filter(function(r){return r.flag;}).length+'</span></label>';
+    }
+    html += '</div></details>';
   }
   document.getElementById('railBody').innerHTML = html;
   document.getElementById('btnClear').disabled = activeCount()===0;
@@ -422,6 +450,7 @@ function buildChips(){
     }
   });
   if(state.view==='deals' && state.standouts) out.push(chip('','Standouts only','standouts',''));
+  if(state.picks) out.push(chip('','Personal picks only','picks',''));
   document.getElementById('chips').innerHTML = out.join('');
 }
 function chip(label,val,kind,arg){
@@ -434,7 +463,7 @@ function chip(label,val,kind,arg){
    (phone) layout -- flag, type swatch, wine name, deal tag -- instead of
    stacking as a labelled row like everything else. Desktop ignores this
    entirely; it only feeds the mobile CSS via data-label. */
-var MOBILE_HEADER_COLS = {country:1, wine_type:1, wine:1, tag:1};
+var MOBILE_HEADER_COLS = {pick:1, country:1, wine_type:1, wine:1, tag:1};
 var lastRows = [];
 function buildTable(){
   var cfg = VIEWS[state.view];
@@ -530,11 +559,12 @@ function csv(){
   var cfg = VIEWS[state.view];
   var cols = cfg.cols.filter(function(c){ return c.csv!==false; });
   var head = cols.map(function(c){
-    return c.k==='country' ? 'Country' : c.k==='wine_type' ? 'Type' : c.label;
+    return c.k==='country' ? 'Country' : c.k==='wine_type' ? 'Type' : c.k==='pick' ? 'Personal pick' : c.label;
   }).concat(['Link']);
   function cell(r,c){
     if(c.k==='country') return r._country;
     if(c.k==='wine_type') return wtLabel(r.wine_type);
+    if(c.k==='pick') return r.personal_pick ? (r.pick_reason||'Yes') : '';
     if(c.k==='pct_below') return r.pct_below==null?'':(Math.round(r.pct_below*1000)/10)+'%';
     if(c.k==='reserve') return r.reserve==null?'':r.reserve;
     if(c.k==='buyer_price') return r.buyer_price==null?'':r.buyer_price;
@@ -602,6 +632,7 @@ document.getElementById('railBody').addEventListener('change', function(e){
     });
     render();
   } else if(t.id==='fStandouts'){ state.standouts = t.checked; render(); }
+  else if(t.id==='fPicks'){ state.picks = t.checked; render(); }
 });
 
 document.getElementById('railBody').addEventListener('input', function(e){
@@ -655,6 +686,7 @@ document.getElementById('chips').addEventListener('click', function(e){
     state.sel[k] = state.sel[k].filter(function(x){return x!==v;}); }
   else if(kind==='range') delete state.rng[arg];
   else if(kind==='standouts') state.standouts=false;
+  else if(kind==='picks') state.picks=false;
   render();
 });
 
@@ -678,7 +710,7 @@ Array.prototype.forEach.call(document.querySelectorAll('.views button'), functio
 
 function clearAll(){
   Object.keys(state.sel).forEach(function(k){ state.sel[k] = []; });
-  state.rng = {}; state.q = ''; state.standouts = false;
+  state.rng = {}; state.q = ''; state.standouts = false; state.picks = false;
   document.getElementById('q').value = '';
   render();
 }

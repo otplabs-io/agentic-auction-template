@@ -37,8 +37,8 @@ ok('funnel populated', $('#funnelBody').children.length >= 6);
 ok('summary metrics rendered', $$('#summary .metric').length >= 4);
 
 console.log('\n— default sort: % below market, descending —');
-const pctIdx = 11;   // country,type,wine,vint,format,region,subregion,qty,reserve,buyer,market,pct
-const WINE_IDX = 2, TYPE_IDX = 1, RES_IDX = 8, BUY_IDX = 9;
+const pctIdx = 12;   // pick,country,type,wine,vint,format,region,subregion,qty,reserve,buyer,market,pct
+const WINE_IDX = 3, TYPE_IDX = 2, PICK_IDX = 0, RES_IDX = 9, BUY_IDX = 10;
 const pcts = rows().map(tr => parseInt(cellText(tr, pctIdx)));
 ok('sorted descending', pcts.every((v, i) => i === 0 || pcts[i-1] >= v),
    pcts.slice(0, 5).join(', '));
@@ -95,6 +95,32 @@ ok('pale swatches carry a darker ring so they are not invisible',
    /\.wt-White,\.wt-Sparkling\{box-shadow:/.test(html));
 ok('swatch column has no text content', cellText(rows()[0], TYPE_IDX) === '',
    JSON.stringify(cellText(rows()[0], TYPE_IDX)));
+
+console.log('\n— personal pick —');
+const pickCell = tr => tr.children[PICK_IDX].querySelector('.pick');
+const pickedIds = new Set(payload.deals.filter(d => d.personal_pick).map(d => d.id));
+ok('sample has some personal picks to test against', pickedIds.size > 0, pickedIds.size + '');
+ok('starred rows show the star, unstarred show a dash', rows().every(tr => {
+  const id = Number(tr.querySelector('.wine a').href.split('/').pop());
+  return pickedIds.has(id) ? pickCell(tr) !== null : (pickCell(tr) === null && tr.children[PICK_IDX].querySelector('.dash') !== null);
+}));
+ok('star carries its reason as a tooltip', (() => {
+  const d = payload.deals.find(x => x.personal_pick);
+  const tr = rows().find(t => Number(t.querySelector('.wine a').href.split('/').pop()) === d.id);
+  return pickCell(tr).title === d.pick_reason;
+})());
+ok('"Personal picks only" checkbox present', $('#railBody #fPicks') !== null);
+$('#railBody #fPicks').checked = true;
+$('#railBody #fPicks').dispatchEvent(new window.Event('change', { bubbles: true }));
+ok('personal-picks filter applied', rows().length === pickedIds.size, rows().length + ' vs ' + pickedIds.size);
+ok('chip shown for personal picks', /Personal picks only/.test($('#chips').textContent));
+// buildRail() rebuilds #railBody's innerHTML on every render(), so the checkbox
+// element above is now detached -- re-query it fresh rather than reuse the
+// stale reference, or this uncheck silently does nothing (bubbles nowhere)
+// and state.picks stays stuck true for every test that runs after this one.
+$('#railBody #fPicks').checked = false;
+$('#railBody #fPicks').dispatchEvent(new window.Event('change', { bubbles: true }));
+ok('un-checking restores all rows', rows().length === payload.deals.length);
 
 console.log('\n— region decomposition —');
 const sample = payload.deals[0];
@@ -195,6 +221,23 @@ function search(text) {
      window.location.hash);
   $('#btnClear').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
   ok('cleared back to every lot', rows().length === payload.deals.length);
+
+  $('#railBody #fPicks').checked = true;
+  $('#railBody #fPicks').dispatchEvent(new window.Event('change', { bubbles: true }));
+  await new Promise(r => setTimeout(r, 260));
+  ok('personal-picks filter round-trips through the hash', /[#&]pp=1/.test(window.location.hash),
+     window.location.hash);
+  $('#btnClear').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
+  ok('cleared back to every lot after picks filter', rows().length === payload.deals.length);
+
+  const pickedSample = payload.deals.find(d => d.personal_pick && /cellar/.test(d.pick_reason));
+  if (pickedSample) {
+    await search('cellar');
+    ok('global search finds a personal-pick reason', rows().length > 0 &&
+       rows().some(tr => Number(tr.querySelector('.wine a').href.split('/').pop()) === pickedSample.id),
+       rows().length + ' rows');
+    await search('');
+  }
 
   $('#head th[data-col="wine_type"]').dispatchEvent(new window.MouseEvent('click', { bubbles: true }));
   const ranks = rows().map(tr => TYPES.indexOf(swatchClass(tr)));
@@ -308,7 +351,19 @@ function search(text) {
     return i >= 0 && copied.split('\r\n').slice(1).every(l =>
       l === '' || ['Red','Rosé','Orange','White','Sparkling','Dessert'].includes(l.split(',')[i]));
   })());
-  ok('CSV header has Country and Link', /^Country,/.test(copied) && /Link$/m.test(copied.split('\r\n')[0]));
+  const csvHead = copied.split('\r\n')[0].split(',');
+  ok('CSV header has Country and Link', csvHead.includes('Country') && /Link$/m.test(copied.split('\r\n')[0]));
+  ok('CSV carries a Personal pick column with the reason', (() => {
+    const i = csvHead.indexOf('Personal pick');
+    if (i < 0) return false;
+    // a range filter from an earlier section may still be active here, so pick
+    // a personal-pick id from what's actually rendered right now, not just the
+    // first one in the full payload (which might not be in view any more)
+    const shownIds = new Set(rows().map(tr => Number(tr.querySelector('.wine a').href.split('/').pop())));
+    const d = payload.deals.find(x => x.personal_pick && shownIds.has(x.id));
+    if (!d) return true;
+    return copied.split('\r\n').some(l => l.includes(d.pick_reason));
+  })());
   ok('CSV quotes fields containing commas',
      copied.split('\r\n').slice(1).every(l => (l.match(/"/g) || []).length % 2 === 0));
 

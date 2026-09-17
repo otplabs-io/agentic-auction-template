@@ -48,6 +48,8 @@
   --wt-dessert:#7A4A21;     /* brown     */
   --wt-orange:#E08A2E;      /* orange    */
 
+  --pick:#B8860B;           /* gold, for the personal-pick star */
+
   --sans:'IBM Plex Sans',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;
   --serif:'IBM Plex Serif',ui-serif,Georgia,'Times New Roman',serif;
   --mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
@@ -264,6 +266,13 @@ tbody tr:hover{background:#F7F9FB}
   .wt{forced-color-adjust:none;border:1px solid CanvasText}
 }
 
+/* ---------- personal pick ---------- */
+.pick{color:var(--pick);font-size:15px;line-height:1;cursor:default;vertical-align:-1px}
+.pickcell{width:20px;text-align:center}
+@media (forced-colors:active){
+  .pick{forced-color-adjust:none}
+}
+
 .trunc{max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--slate)}
 .dash{color:#C3CAD1}
 .soft{color:var(--mute)}
@@ -404,6 +413,7 @@ tbody tr:hover{background:#F7F9FB}
     border-bottom:0;padding:3px 0;vertical-align:baseline;
   }
   /* card-header cells: sit inline, no label, fixed order */
+  #grid td[data-col="pick"]{order:1}
   #grid td[data-col="country"]{order:2}
   #grid td[data-col="wine_type"]{order:3}
   #grid td[data-col="wine"]{

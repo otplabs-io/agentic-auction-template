@@ -72,6 +72,12 @@ W = [
 ]
 FORMATS = ["750ml"]*17 + ["1.5L","375ml","3.0L"]
 COND = [""]*13 + ["Scuffed label","Bin-soiled label","Nicked capsule","Torn label, wine unaffected","Faded label"]
+PICK_REASONS = [
+    "You've rated this producer 3x averaging 93/100",
+    "You own 4 bottles of this producer in your cellar",
+    "Your Barolo wines have averaged 94/100 across 6 tastings",
+    "This producer averages 92.5/100 and you already collect it",
+]
 SRC = [("ws_vintage","Wine-Searcher average retail, vintage-specific"),
        ("ws_vintage","Wine-Searcher average retail, vintage-specific"),
        ("ws_vintage","Wine-Searcher average retail, vintage-specific"),
@@ -101,6 +107,7 @@ for w in W:
         if pb < 0.25: continue
         st, ss = random.choice(SRC)
         if "{adj}" in ss: ss = ss.format(adj=v-1)
+        picked = random.random() < 0.15
         deals.append({
           "id": idn, "wine": w[0], "vintage": v, "format": fmt,
           "region_raw": ", ".join([{"FR":"France","IT":"Italy","ES":"Spain","PT":"Portugal","AT":"Austria"}[w[1]], w[2], w[3]]),
@@ -111,7 +118,8 @@ for w in W:
           "tag": "Steal" if pb>=.55 else "Great" if pb>=.40 else "Good",
           "flag": w[7] if random.random()<.62 else "",
           "condition": random.choice(COND),
-          "source": ss, "source_type": st, "wine_type": w[8]})
+          "source": ss, "source_type": st, "wine_type": w[8],
+          "personal_pick": picked, "pick_reason": random.choice(PICK_REASONS) if picked else ""})
 
 unval = []
 UV = [("Domaine Ponsot Morey-St-Denis Cuvée des Alouettes","FR","Burgundy","Morey-Saint-Denis",1978,"Red"),
@@ -124,14 +132,16 @@ UV = [("Domaine Ponsot Morey-St-Denis Cuvée des Alouettes","FR","Burgundy","Mor
       ("Cascina Fontana Nebbiolo d'Alba","IT","Piedmont","Alba",2004,"Red"),
       ("Quinta da Pellada Primus","PT","Dão","Dão",2009,"Red")]
 for i,(n,cc,rg,sr,v,wt) in enumerate(UV):
+    picked = random.random() < 0.15
     unval.append({"id": 10817400+i*7, "wine": n, "vintage": v, "format": "750ml",
       "region_raw": ", ".join([{"FR":"France","IT":"Italy","ES":"Spain","PT":"Portugal","AT":"Austria"}[cc], rg, sr]),
       "region_path": [{"FR":"France","IT":"Italy","ES":"Spain","PT":"Portugal","AT":"Austria"}[cc], rg, sr],
       "country_code": cc, "reserve": float(random.choice([38,45,52,66,74,88,95,120])),
       "wine_type": wt,
+      "personal_pick": picked, "pick_reason": random.choice(PICK_REASONS) if picked else "",
       "condition": random.choice(["","Scuffed label","Bin-soiled label"])})
 
-p = {"schema":3,"sample":True,"auction_date":"2026-08-09","premium_rate":0.17,
+p = {"schema":4,"sample":True,"auction_date":"2026-08-09","premium_rate":0.17,
      "funnel":{"total":1847,"after_country":612,"after_dessert":574,"after_price":361,
                "after_condition":329,"valued":301,"unvalued":len(unval),"deals":len(deals)},
      "deals":deals,"unvalued":unval}

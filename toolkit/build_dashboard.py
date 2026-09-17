@@ -13,6 +13,11 @@ on the reserve, and schema 1 measured it on the reserve. Both are rejected
 rather than silently reinterpreted: a v2 payload has no wine_type, and in v1
 the same field name means a different number.
 
+Schema 4 adds `personal_pick` (bool, required on every deal and unvalued lot)
+and `pick_reason` (string, required and non-empty when personal_pick is true)
+-- see personal_pick.py and CLAUDE.md's "Personalized picks" step. A schema-3
+payload has neither field, so it's rejected rather than treated as "no picks."
+
     python3 build_dashboard.py payload.json [-o output.html]
 
 Reads a schema-3 payload, injects it plus the app JS and the flag font subset
@@ -25,9 +30,9 @@ HERE = pathlib.Path(__file__).resolve().parent
 
 DEAL_REQ = ['id','wine','vintage','format','region_path','country_code',
             'reserve','buyer_price','market','pct_below','tag','source','source_type',
-            'wine_type']
+            'wine_type','personal_pick']
 UNVAL_REQ = ['id','wine','vintage','format','region_path','country_code','reserve',
-             'wine_type']
+             'wine_type','personal_pick']
 TAGS = {'Good','Great','Steal'}
 SRC_TYPES = {'ws_vintage','ws_adjacent','ws_allvintage','ws_single_retailer','auction','estimate'}
 # Judged from the wine itself, not read off a column in the export. 'Rose' is
@@ -38,10 +43,10 @@ WINE_TYPES = {'Red','White','Rose','Sparkling','Dessert','Orange'}
 
 def validate(p):
     errs, warns = [], []
-    if p.get('schema') != 3:
-        errs.append(f"schema must be 3, got {p.get('schema')!r} "
-                    f"(v2 carries no wine_type; v1 also measured pct_below "
-                    f"on the reserve rather than the buyer price)")
+    if p.get('schema') != 4:
+        errs.append(f"schema must be 4, got {p.get('schema')!r} "
+                    f"(v3 carries no personal_pick; v2 carries no wine_type; "
+                    f"v1 also measured pct_below on the reserve rather than the buyer price)")
     rate = p.get('premium_rate')
     if not isinstance(rate, (int, float)) or not (0 <= rate < 1):
         errs.append(f"premium_rate must be a fraction such as 0.17, got {rate!r}")
@@ -85,6 +90,10 @@ def validate(p):
                 errs.append(f"{where}: tag {r.get('tag')!r} should be {tier!r} at {pb:.1%}")
         if not str(r.get('source', '')).strip():
             errs.append(f"{where}: source is blank -- every price must name its origin")
+        if 'personal_pick' in r and not isinstance(r.get('personal_pick'), bool):
+            errs.append(f"{where}: personal_pick must be true/false, got {r.get('personal_pick')!r}")
+        if r.get('personal_pick') and not str(r.get('pick_reason', '')).strip():
+            errs.append(f"{where}: personal_pick is true but pick_reason is blank")
 
     for i, r in enumerate(p.get('unvalued', [])):
         where = f"unvalued[{i}] (id={r.get('id')})"
@@ -94,6 +103,10 @@ def validate(p):
         if 'wine_type' in r and r.get('wine_type') not in WINE_TYPES:
             errs.append(f"{where}: wine_type {r.get('wine_type')!r} not in "
                         f"{sorted(WINE_TYPES)} -- every lot needs a judged type")
+        if 'personal_pick' in r and not isinstance(r.get('personal_pick'), bool):
+            errs.append(f"{where}: personal_pick must be true/false, got {r.get('personal_pick')!r}")
+        if r.get('personal_pick') and not str(r.get('pick_reason', '')).strip():
+            errs.append(f"{where}: personal_pick is true but pick_reason is blank")
 
     ids = [r['id'] for r in p.get('deals', []) + p.get('unvalued', []) if 'id' in r]
     dupes = {i for i in ids if ids.count(i) > 1}

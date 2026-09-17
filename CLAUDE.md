@@ -20,6 +20,10 @@ Sourced, accurate numbers matter more than covering volume. Never fabricate a pr
 ├── survivors.csv              # current week's screened + classified lots (gitignored)
 ├── valuations.csv             # current week's valuations, keyed by make_key (gitignored)
 ├── payload.json               # current week's builder input (gitignored)
+├── personal_pick.py           # Step 6 -- stars payload.json lots from preferences/
+├── preferences/                # PERSISTENT, like price_cache.csv -- the user's own taste history
+│   ├── cellar.csv              #   CellarTracker "My Cellar" export
+│   └── tasting_notes.csv       #   CellarTracker "My Tasting Notes" export
 ├── docs/                       # GitHub Pages source (served at /docs on main — GitHub Pages'
 │                               #   legacy build type only allows / or /docs, nothing nested)
 ├── toolkit/                   # dashboard renderer + tests — an ordinary subdirectory of THIS repo
@@ -28,7 +32,7 @@ Sourced, accurate numbers matter more than covering volume. Never fabricate a pr
     └── commands/execute.md    # the /execute slash command
 ```
 
-There is no separate `toolkit/` clone to keep in sync — a plain `git pull`/`git push` at the repo root moves everything together. Working files (`survivors.csv`, `valuations.csv`, `payload.json`) are per-week scratch and gitignored; `price_cache.csv` is durable, tracked, and must never be deleted casually.
+There is no separate `toolkit/` clone to keep in sync — a plain `git pull`/`git push` at the repo root moves everything together. Working files (`survivors.csv`, `valuations.csv`, `payload.json`) are per-week scratch and gitignored; `price_cache.csv` and `preferences/*.csv` are durable, tracked, and must never be deleted casually.
 
 ## How to run ("Execute" / `/execute`)
 
@@ -36,7 +40,7 @@ There is no separate `toolkit/` clone to keep in sync — a plain `git pull`/`gi
 2. Step 1 (screen) → report the funnel.
 3. Step 2 (classify) → report the type census and any hedged calls.
 4. Step 3 (value in batches) → report progress each batch.
-5. Steps 4–6 (tiers, flags, dashboard).
+5. Steps 4–7 (tiers, flags, personalized picks, dashboard).
 6. Report all three numbers together — survivors → valued → deals — and archive the xlsx to `inbox/processed/`.
 7. Publish (see "Publishing" below) — copy the dashboard to `docs/index.html`, commit, and push to `origin main`. Automatic every run, not on request.
 
@@ -211,23 +215,47 @@ The premium compresses every discount: measured against the reserve alone, clear
 
 Independent of the deal tag. A few words for lots notable on their own merits: exceptionally rare at auction, benchmark/reference bottling, bucket-list wine, exceptional value beyond the raw discount. Empty string when nothing stands out.
 
-## Step 6 — Dashboard export
+## Step 6 — Personalized picks
 
-1. Write `payload.json` conforming to schema 3.
+Added 2026-09-17 at the user's request, and permanent from here on — this is the last analytical step before the dashboard build, every run, not on request.
+
+```bash
+python3 personal_pick.py payload.json
+```
+
+Stars (`personal_pick: true` + a `pick_reason` string) every deal and unvalued lot that matches the user's own taste history, read from two durable reference files that persist like `price_cache.csv`:
+
+- `preferences/cellar.csv` — CellarTracker "My Cellar" export (what they already own)
+- `preferences/tasting_notes.csv` — CellarTracker "My Tasting Notes" export (how they've rated things)
+
+**Refreshing these:** when the user provides a newer export of either, overwrite the matching file in `preferences/` (convert to UTF-8 first — CellarTracker exports as cp1252/Windows-1252, and reading it as UTF-8 or Latin-1 silently mangles accented producer names). There's no auto-detection of a newer file in `inbox/`/`~/Downloads` for these the way there is for the weekly xlsx — the user hands them over when they want a refresh.
+
+Three independent signals, any one of which stars a lot (see `personal_pick.py` docstring for the exact thresholds):
+1. **Producer match** — you've rated this exact producer highly, or you already own multiple bottles of it, or you own it and it's well-reviewed generally.
+2. **Region match** — you've repeatedly rated wines from the same appellation highly. Deliberately narrow: matching only broad region ("France > Burgundy") starred nearly the entire catalog on a first pass, since this user's tastes already skew toward exactly the countries/regions this auction screens to — see `known-limits.md`.
+3. **Varietal match** — the varietal name literally appears in the wine's name, and you've repeatedly rated that varietal highly.
+
+This is a separate signal from Step 5's `flag` — `flag` is "objectively notable," `personal_pick` is "matches your taste specifically." A lot can carry either, both, or neither. Don't fold one into the other.
+
+A missed star is a minor annoyance; a false one undermines the whole feature — when in doubt, don't star it. Report the count starred (e.g. "18 of 327 lots starred") alongside the usual three numbers.
+
+## Step 7 — Dashboard export
+
+1. Write `payload.json` conforming to schema 4.
 2. `cd toolkit && python3 build_dashboard.py ../payload.json -o ../output/WineBid_Deals_<auction_date>.html` — **always pass `-o` explicitly.** The script's built-in default path is `/mnt/user-data/outputs/...`, a leftover from a different (cloud) environment; omitting `-o` crashes with `FileNotFoundError` on a local checkout. See `known-limits.md`.
 3. Writes `output/WineBid_Deals_<auction_date>.html`.
-4. `node toolkit/test.js output/WineBid_Deals_<auction_date>.html` — see `known-limits.md` for the four known data-shape failures on real data. Anything beyond those four is a real defect.
+4. `node toolkit/test.js output/WineBid_Deals_<auction_date>.html` — see `known-limits.md` for the known data-shape failures on real data. Anything beyond those is a real defect.
 5. Present the file.
 
-**Never hand-write the HTML and never bypass the builder.** It refuses inconsistent payloads — reserve over $150, a `buyer_price` that isn't reserve × premium, a `pct_below` computed on the reserve, a tag disagreeing with its tier, a `wine_type` outside the six values or missing, a blank source, duplicate item IDs, a schema other than 3. Fix the payload; never work around the validator.
+**Never hand-write the HTML and never bypass the builder.** It refuses inconsistent payloads — reserve over $150, a `buyer_price` that isn't reserve × premium, a `pct_below` computed on the reserve, a tag disagreeing with its tier, a `wine_type` outside the six values or missing, a blank source, duplicate item IDs, a `personal_pick` that isn't a bool or has no `pick_reason` when true, a schema other than 4. Fix the payload; never work around the validator.
 
 `sample` must be absent or false on real runs.
 
-### Schema 3
+### Schema 4
 
 ```json
 {
-  "schema": 3,
+  "schema": 4,
   "auction_date": "2026-08-30",
   "premium_rate": 0.17,
   "generated": "2026-08-30T14:22:00Z",
@@ -253,6 +281,8 @@ Independent of the deal tag. A few words for lots notable on their own merits: e
       "pct_below": 0.3760,
       "tag": "Good",
       "flag": "Benchmark producer",
+      "personal_pick": true,
+      "pick_reason": "You've rated Domaine X 3x averaging 93/100",
       "condition": "",
       "source": "Wine-Searcher average retail, vintage-specific",
       "source_type": "ws_vintage"
@@ -263,7 +293,8 @@ Independent of the deal tag. A few words for lots notable on their own merits: e
       "id": 10814628, "wine": "Producer Y Cuvée Z", "vintage": 1978,
       "format": "750ml", "region_raw": "France, Loire, Chinon",
       "region_path": ["France", "Loire", "Chinon"], "country_code": "FR",
-      "wine_type": "Red", "reserve": 55.0, "condition": "Scuffed label"
+      "wine_type": "Red", "reserve": 55.0, "condition": "Scuffed label",
+      "personal_pick": false, "pick_reason": ""
     }
   ]
 }
@@ -271,6 +302,7 @@ Independent of the deal tag. A few words for lots notable on their own merits: e
 
 Field notes:
 - `wine_type` — required on every deal **and** every unvalued lot. Unaccented (`Rose`, never `Rosé`) so it survives a URL hash and CSV round-trip; the dashboard renders the accent. Exactly one value, no blanks, no "Unknown".
+- `personal_pick` / `pick_reason` — required on every deal and unvalued lot (Step 6). `pick_reason` is `""` when `personal_pick` is `false`, and a specific, non-empty explanation when `true` — never a generic "you might like this."
 - `pct_below` — decimal, measured on `buyer_price`. Schema 1 measured it on the reserve and schema 2 had no `wine_type`, which is why both are rejected outright rather than reinterpreted.
 - `region_path` — mirrors the export faithfully; only trim whitespace and normalize diacritic variants (Rhone → Rhône). Impose no canonical hierarchy.
 - `country_code` — ISO 3166-1 alpha-2 from `region_path[0]`.
