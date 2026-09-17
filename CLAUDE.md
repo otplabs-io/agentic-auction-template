@@ -177,6 +177,8 @@ Rules:
 
 **Wine-Searcher direct page fetches are bot-blocked.** Search-result snippets with vintage-specific URLs (`wine-searcher.com/find/<wine>/<vintage>`) are the reliable extraction path.
 
+**Before marking a wine `insufficient`, read the full synthesized answer text, not just the links list.** WebSearch's prose summary is not deterministic — the identical query can surface a stated price ("average price of $X", "priced at $X") on one call and omit it on another, because the summary samples the underlying results differently each time. Caught 2026-08-14: a wine marked `insufficient` had an easily-found price on a plain re-search; a systematic re-check of a full week's `insufficient` list recovered ~24% of them. See `known-limits.md` for the full incident and the failure modes to reject even when a price *is* found (wrong cuvée/tier, a non-vintage-tied "current" price applied to an old back vintage, the auction's own WineBid listing cited back as "market"). If the first call's answer shows nothing, re-run the identical query once before concluding `insufficient` — it costs one extra search and a meaningful fraction resolve on retry.
+
 ### Batching and the search cap
 
 15–25 wines per turn, continuing across turns without pausing. See `known-limits.md` for the 200-call WebSearch cap and the checkpoint-and-chain procedure when a large week exceeds it.

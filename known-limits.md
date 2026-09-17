@@ -100,6 +100,26 @@ Caught 2026-09-20: 7 unique wines (9 lots, exactly matching the run's reported "
 
 **Fix applied this week (should be folded into `prep_valuation.py` itself, not repeated by hand):** for every key in `plan['groups']` that is *not* in `plan['fetch']` (i.e. every cache hit), look up its price/source/source_type in the loaded cache and append a `valuations.csv` row for every lot in that group — same shape `apply_batch.py` writes — right there in `prep_valuation.py`, before `fetch_plan.json` is even written. Until that change lands, re-run the backfill check manually after `fetch_plan.json` hits 0: `set(survivors.id) - set(valuations.id)` should be empty; any leftover ids are cache hits that need this same manual backfill from `price_cache.csv`.
 
+## WebSearch's synthesized answer is non-deterministic -- re-reading it changes the outcome
+
+Caught 2026-09-20 via user report: **Altesino Brunello di Montalcino Montosoli 1997** was marked `insufficient` during the normal valuation pass. The user searched Wine-Searcher directly and got a clean $190 average price on the first try. Re-running the *identical* `site:wine-searcher.com` query in-session reproduced the miss initially, then on a subsequent call returned "average price (ex-tax) of €136" in the synthesized answer text -- the price was there, just not in every call's summary.
+
+WebSearch returns a links list plus an LLM-synthesized prose summary of a subset of results. That summary is not a stable function of the query: identical queries across calls can yield a richer or thinner paragraph, and a price genuinely present in the underlying page can be missing, present, or phrased differently call to call. A valuation pass that reads the summary once and moves on when no price appears will systematically under-report.
+
+**Scale of the problem, measured 2026-09-20:** a random sample of 15 wines already marked `insufficient` was re-searched with the identical query; 2 (13%) came back with a clean, usable price on retry, plus 2 more borderline all-vintage cases. Extrapolated across a full re-check of ~145 wines, 35 (24%) were recovered with a real sourced price. This is not a rounding error -- it moved a week's `deals` count from 95 to 112.
+
+**Process fix -- apply this discipline during Step 3, not just when a user flags a miss:**
+
+1. **Read the full narrative answer, not just the links list.** A price is often stated in prose ("average price of $X", "priced at $X", "listed at $X") even when no individual link's title shows it.
+2. **Before marking `insufficient`, ask whether the price you found is actually for the row you're valuing** -- the two most common false matches:
+   - A different **tier/cuvée** of the same producer (Riserva vs. base bottling, single-vineyard vs. generic, a named special cuvée vs. the plain wine). Fenocchio's Villero and Riserva-labeled Brunellos are frequent examples this week.
+   - A price with no vintage tie ("current listings", "recent vintages", "average across vintages") applied to an old back vintage. Acceptable only for genuinely stable, low-variance basic bottlings (see the `ws_allvintage` convention already in use) -- never for anything Bordeaux-classified-growth-tier or older than ~10 years, where vintage materially moves price.
+   - **The auction's own WineBid listing cited back as "the market price."** If a search result's number is exactly `reserve × 1.17` (this auction's own buyer-price formula) or is sourced to winebid.com, it is not independent market data -- discard it. Caught twice this week (E. Guigal Hermitage 2001, Giovanna Ciacci Brunello 2001).
+3. **If the first call's summary shows nothing, it is legitimate to re-run the identical query once** before concluding `insufficient` -- this is not wasted budget chasing a coin flip; the underlying page didn't change, but the synthesis sampling did, and this session's data shows a meaningful fraction resolve on retry.
+4. Genuinely insufficient stays insufficient. Most `insufficient` calls hold up under this discipline (in the 2026-09-20 sample, ~75-85% did) -- the fix is catching the minority that don't, not second-guessing every call.
+
+This is not yet enforced by any script -- it is judgment applied during the valuation loop, easy to skip under batch-processing pressure. Re-read this section at the start of Step 3 each week rather than assuming last week's diligence carries over.
+
 ## Environment notes
 
 - **JSDOM does not accurately model computed-style CSS cascade.** Author-origin rules can override UA `[hidden]` behavior in ways JSDOM won't catch. Rendered browser output is the final verification. (This is how the sample-banner bug survived a passing test suite — fixed 2026-08-24 with an explicit `.sample-banner[hidden]{display:none!important}` rule. The general lesson stands for any future rendering change: run `test.js`, then also check a real browser.)
