@@ -1,0 +1,182 @@
+id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,source_type
+10895454,Château Leoville-Las-Cases,1979,750ml,Red,"France, Bordeaux, St.-Julien",FR,125,180.0,Estimate based on producer/appellation/vintage reputation,estimate
+10895424,Domaine du Vieux Telegraphe Châteauneuf-du-Pape,2019,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,75,105.0,"shop.kermitlynch.com, exact vintage match",ws_vintage
+10896451,Château Rauzan-Segla,2016,750ml,Red,"France, Bordeaux, Margaux",FR,110,160.0,"Wine-Searcher average retail (USA), vintage-specific",ws_vintage
+10895763,Moet et Chandon Brut Imperial,NV,750ml,Sparkling,"France, Champagne",FR,35,49.99,"marketviewliquor.com, NV exact match",ws_vintage
+10895729,Veuve Clicquot Ponsardin Brut,NV,750ml,Sparkling,"France, Champagne",FR,40,76.0,Wine-Searcher average retail (Yellow Label Brut NV),ws_vintage
+10895772,Veuve Clicquot Ponsardin Brut,NV,750ml,Sparkling,"France, Champagne",FR,40,76.0,Wine-Searcher average retail (Yellow Label Brut NV),ws_vintage
+10889557,Veuve Clicquot Ponsardin Brut,NV,750ml,Sparkling,"France, Champagne",FR,40,76.0,Wine-Searcher average retail (Yellow Label Brut NV),ws_vintage
+10889602,Veuve Clicquot Ponsardin Brut,NV,750ml,Sparkling,"France, Champagne",FR,40,76.0,Wine-Searcher average retail (Yellow Label Brut NV),ws_vintage
+10895904,Piper-Heidsieck Cuvee Brut,NV,750ml,Sparkling,"France, Champagne",FR,35,53.0,"Wine-Searcher average retail (non-vintage), USA",ws_allvintage
+10896281,Piper-Heidsieck Cuvee Brut,NV,750ml,Sparkling,"France, Champagne",FR,35,53.0,"Wine-Searcher average retail (non-vintage), USA",ws_allvintage
+10895991,Tenuta San Guido Guidalberto,2023,750ml,Red,"Italy, Tuscany",IT,60,88.0,"Wine-Searcher average retail (USA), vintage-specific",ws_vintage
+10889647,Castello Banfi Brunello di Montalcino,2000,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,45,71.0,"Wine-Searcher average retail, all-vintage fallback (no 2000-specific figure surfaced)",ws_allvintage
+10895784,Taittinger Brut La Francaise,NV,750ml,Sparkling,"France, Champagne",FR,35,65.0,Wine-Searcher average retail,ws_vintage
+10896016,Taittinger Brut La Francaise,NV,750ml,Sparkling,"France, Champagne",FR,35,65.0,Wine-Searcher average retail,ws_vintage
+10896098,Taittinger Brut La Francaise,NV,750ml,Sparkling,"France, Champagne",FR,35,65.0,Wine-Searcher average retail,ws_vintage
+10889610,Château Duhart-Milon-Rothschild,2003,750ml,Red,"France, Bordeaux, Pauillac",FR,75,159.97,"Wine.com retail listing, vintage-specific",ws_single_retailer
+10896314,Château Calon-Segur,2018,750ml,Red,"France, Bordeaux, St.-Estephe",FR,125,159.99,"Wine.com retail listing, vintage-specific",ws_single_retailer
+10896313,Château Calon-Segur,2018,750ml,Red,"France, Bordeaux, St.-Estephe",FR,125,159.99,"Wine.com retail listing, vintage-specific",ws_single_retailer
+10896315,Chateau de Beaucastel Châteauneuf-du-Pape,2009,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,90,164.0,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10895728,Veuve Clicquot Ponsardin Brut Rosé,NV,750ml,Sparkling,"France, Champagne",FR,45,67.4,"saratogawine.com, NV exact match",ws_vintage
+10887941,Veuve Clicquot Ponsardin Brut Rosé,NV,750ml,Sparkling,"France, Champagne",FR,45,67.4,"saratogawine.com, NV exact match",ws_vintage
+10896222,Veuve Clicquot Ponsardin Brut Rosé,NV,750ml,Sparkling,"France, Champagne",FR,45,67.4,"saratogawine.com, NV exact match",ws_vintage
+10896282,Veuve Clicquot Ponsardin Brut Rosé,NV,750ml,Sparkling,"France, Champagne",FR,45,67.4,"saratogawine.com, NV exact match",ws_vintage
+10895840,Casanova di Neri Brunello di Montalcino,2020,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,55,77.0,"Wine-Searcher average retail, vintage-specific (base/White Label bottling)",ws_vintage
+10896110,Casanova di Neri Brunello di Montalcino,2020,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,55,77.0,"Wine-Searcher average retail, vintage-specific (base/White Label bottling)",ws_vintage
+10895686,Vietti Barolo Castiglione,2020,750ml,Red,"Italy, Piedmont, Barolo",IT,55,65.0,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10896363,Billecart-Salmon Brut Rosé,2010,750ml,Sparkling,"France, Champagne",FR,100,130.0,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10895716,Perrier-Jouet Grand Brut (Label #7),NV,750ml,Sparkling,"France, Champagne",FR,40,64.0,"Wine-Searcher average retail, USA average",ws_vintage
+10895761,Perrier-Jouet Grand Brut (Label #7),NV,750ml,Sparkling,"France, Champagne",FR,40,64.0,"Wine-Searcher average retail, USA average",ws_vintage
+10895590,Château Talbot,1989,750ml,Red,"France, Bordeaux, St.-Julien",FR,110,176.0,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10896309,Château Calon-Segur,2019,750ml,Red,"France, Bordeaux, St.-Estephe",FR,115,185.0,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10890236,Comando G. La Bruja Sierra de Gredos,2024,750ml,Red,"Spain, Vinos de Madrid",ES,40,,"product page requires JavaScript, no price extracted",insufficient
+10895919,Nicolas Feuillatte Brut Réserve Exclusive,NV,750ml,Sparkling,"France, Champagne",FR,25,37.21,"saratogawine.com, NV exact match",ws_vintage
+10895977,Bollinger Special Cuvee,NV,750ml,Sparkling,"France, Champagne",FR,55,64.94,JJ Buckley retail listing,ws_single_retailer
+10889632,Bollinger Special Cuvee,NV,750ml,Sparkling,"France, Champagne",FR,55,64.94,JJ Buckley retail listing,ws_single_retailer
+10895912,Bollinger Special Cuvee,NV,750ml,Sparkling,"France, Champagne",FR,55,64.94,JJ Buckley retail listing,ws_single_retailer
+10895851,G.H. Mumm Brut Grand Cordon Rose,NV,750ml,Sparkling,"France, Champagne",FR,35,67.0,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10896365,E. Guigal Condrieu la Doriane,2020,750ml,White,"France, Rhône Valley, Northern Rhône",FR,95,140.0,"vintus.com, exact vintage match, suggested retail price",ws_vintage
+10895908,Alphonse Mellot Sancerre Les Romains,2021,750ml,White,"France, Loire Valley, Centre-Loire",FR,45,73.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2021 page",ws_vintage
+10896176,Argiano Brunello di Montalcino,2019,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,75,105.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page",ws_vintage
+10896178,Au Pied du Mont Chauve Chassagne-Montrachet En Pimont,2023,750ml,White,"France, Burgundy, Côte d'Or",FR,80,100.0,"Wine-Searcher average retail (ex-tax), all-vintage average for the wine; 2023 is a current release so vintage drift is small",ws_allvintage
+10896179,Au Pied du Mont Chauve Chassagne-Montrachet  Les Macherelles,2018,750ml,White,"France, Burgundy, Côte d'Or",FR,90,110.0,"Wine-Searcher average retail, all-vintage page for the 1er cru ($110 Indiana / $119 Washington; lower used)",ws_allvintage
+10889604,Barons de Rothschild Blanc de Blancs,NV,750ml,Sparkling,"France, Champagne",FR,70,74.0,Wine-Searcher listings: US retailers $67.50-$80.99 for current NV; midpoint used,ws_allvintage
+10895752,Bertani Amarone della Valpolicella Classico,2015,750ml,Red,"Italy, Veneto, Amarone della Valpolicella",IT,100,149.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2015 page",ws_vintage
+10895574,Bodegas El Nido El Nido,2007,750ml,Red,"Spain, The Levant, Jumilla",ES,130,239.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2007 page",ws_vintage
+10895868,Bodegas Morca Garnaca Touran,2018,750ml,Red,"Spain, Aragon, Campo De Borja",ES,80,140.0,"Wine-Searcher average retail, vintage-specific 2018 page (Total Wine CA $129.99-$144.99)",ws_vintage
+10895870,Bodegas Muga Rioja Prado Enea Gran Reserva,2011,750ml,Red,"Spain, Rioja",ES,90,122.0,"Wine-Searcher average retail, vintage-specific 2011 page",ws_vintage
+10896412,Bodegas Muga Rioja Prado Enea Gran Reserva,2015,750ml,Red,"Spain, Rioja",ES,110,109.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2015 page",ws_vintage
+10896448,Bodegas Muga Rioja Reserva Selection Especial,2018,750ml,Red,"Spain, Rioja",ES,50,52.0,"Wine-Searcher average retail, vintage-specific 2018 page",ws_vintage
+10896413,Bodegas Muga Rioja Seleccion Especial,2018,750ml,Red,"Spain, Rioja",ES,40,52.0,"Wine-Searcher average retail, vintage-specific 2018 page",ws_vintage
+10896104,Bodegas Muga Rioja Torre Muga,2020,750ml,Red,"Spain, Rioja",ES,85,123.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage
+10895668,Bodegas Pintia Toro Pintia,2020,750ml,Red,"Spain, Castilla-Leon, Toro",ES,90,112.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page (Vega Sicilia Pintia)",ws_vintage
+10896214,Bodegas Pintia Toro Pintia,2020,750ml,Red,"Spain, Castilla-Leon, Toro",ES,90,112.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page (Vega Sicilia Pintia)",ws_vintage
+10895946,Bodegas El Nido El Nido,2023,750ml,Red,"Spain, The Levant, Jumilla",ES,120,158.95,"Retail listing (wine.com CA $158.95) for 2023, via search result; direct fetch blocked (403)",ws_single_retailer
+10896014,Bodegas El Nido El Nido,2023,750ml,Red,"Spain, The Levant, Jumilla",ES,120,158.95,"Retail listing (wine.com CA $158.95) for 2023, via search result; direct fetch blocked (403)",ws_single_retailer
+10895939,Bertrand Senecourt Beau Joie Special Cuvee Brut,NV,750ml,Sparkling,"France, Champagne",FR,35,58.99,"Ace Beverage regular price $58.99 (sale $46.99), fetched directly; bottle size not stated on page, standard 750ml assumed",ws_single_retailer
+10890345,Bouchard Pere et Fils Savigny les Beaune Les Lavieres,2018,750ml,Red,"France, Burgundy, Côte d'Or",FR,45,68.0,"Wine-Searcher average retail (ex-tax) for the wine; 2018 product page, vintage tie not fully explicit",ws_allvintage
+10890350,Buisson-Charles Volnay Santenots,2018,750ml,Red,"France, Burgundy, Côte d'Or",FR,65,127.0,Wine-Searcher listing: WineBank (CA) $127.00 for 2018 (other listings $117-$164),ws_single_retailer
+10895829,Canalicchio di Sopra Brunello di Montalcino,2015,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,75,150.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2015 page",ws_vintage
+10896383,Cantina Terlan Terlaner Nova Domus Riserva,2019,750ml,White,"Italy, Alto Adige",IT,40,79.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page",ws_vintage
+10896244,Casanova di Neri Brunello di Montalcino Tenuta Nuova,2020,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,80,154.0,Wine-Searcher average retail for Tenuta Nuova (all-vintage page); 2020 is a recent release,ws_allvintage
+10895875,Castellare di Castellina I Sodi di San Niccolò,2018,750ml,Red,"Italy, Tuscany",IT,50,138.0,No 2018 page; adjacent 2019 Wine-Searcher average $138 (2020 = $134),ws_adjacent
+10896146,Castellare di Castellina I Sodi di San Niccolò,2019,750ml,Red,"Italy, Tuscany",IT,60,138.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page",ws_vintage
+10896120,Castellare di Castellina I Sodi di San Niccolò,2020,750ml,Red,"Italy, Tuscany",IT,70,134.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage
+10896081,Castello di Volpaia Balifico,2020,750ml,Red,"Italy, Tuscany",IT,60,108.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage
+10896177,Castello di Volpaia Chianti Classico Riserva,2020,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,25,46.0,"Wine-Searcher average retail, vintage-specific 2020 page",ws_vintage
+10887953,Castiglion del Bosco Brunello di Montalcino Campo del Drago,2013,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,80,152.0,Wine-Searcher average retail for Campo del Drago (all-vintage page),ws_allvintage
+10896300,Charles Heidsieck Brut Rosé,2005,750ml,Sparkling,"France, Champagne",FR,90,148.0,"Wine-Searcher 2005 Charles Heidsieck Rose Millesime page, $148",ws_vintage
+10896123,Château Beausejour (Duffau Lagarrosse),2021,750ml,Red,"France, Bordeaux, St.-Émilion",FR,70,140.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2021 page",ws_vintage
+10896431,Château Branaire-Ducru,2010,750ml,Red,"France, Bordeaux, St.-Julien",FR,95,136.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2010 page",ws_vintage
+10896352,Château Brane-Cantenac,2005,750ml,Red,"France, Bordeaux, Margaux",FR,130,164.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2005 page",ws_vintage
+10896311,Château Brane-Cantenac,2019,750ml,Red,"France, Bordeaux, Margaux",FR,75,92.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page",ws_vintage
+10895455,Château Calon-Segur,1979,750ml,Red,"France, Bordeaux, St.-Estephe",FR,85,123.0,"Wine-Searcher average retail (ex-tax), vintage-specific 1979 page",ws_vintage
+10896392,Château Calon-Segur,1996,750ml,Red,"France, Bordeaux, St.-Estephe",FR,150,243.0,"Wine-Searcher average retail (ex-tax), vintage-specific 1996 page",ws_vintage
+10895263,Château Calon-Segur,2000,750ml,Red,"France, Bordeaux, St.-Estephe",FR,135,226.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2000 page",ws_vintage
+10896391,Château Calon-Segur,2009,750ml,Red,"France, Bordeaux, St.-Estephe",FR,130,217.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2009 page",ws_vintage
+10896390,Château Calon-Segur,2014,750ml,Red,"France, Bordeaux, St.-Estephe",FR,105,178.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2014 page",ws_vintage
+10896470,Château Calon-Segur,2016,750ml,Red,"France, Bordeaux, St.-Estephe",FR,145,205.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2016 page",ws_vintage
+10896217,Château Canon-La-Gaffeliere,2022,750ml,Red,"France, Bordeaux, St.-Émilion",FR,75,103.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2022 page",ws_vintage
+10896446,Château Canon,2014,750ml,Red,"France, Bordeaux, St.-Émilion",FR,80,144.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2014 page",ws_vintage
+10896308,Château Canon,2020,750ml,Red,"France, Bordeaux, St.-Émilion",FR,145,230.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage
+10896265,Château Canon,2021,750ml,Red,"France, Bordeaux, St.-Émilion",FR,120,129.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2021 page",ws_vintage
+10896351,Château Cantenac-Brown,2020,750ml,Red,"France, Bordeaux, Margaux",FR,55,85.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage
+10895264,Château Clerc-Milon,1998,750ml,Red,"France, Bordeaux, Pauillac",FR,70,169.0,"Wine-Searcher 1998 page: 89/100, price $169",ws_vintage
+10895266,Château d'Armailhac,2000,750ml,Red,"France, Bordeaux, Pauillac",FR,75,140.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2000 page",ws_vintage
+10896319,Château d'Armailhac,2012,750ml,Red,"France, Bordeaux, Pauillac",FR,55,77.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2012 page",ws_vintage
+10896462,Château d'Armailhac,2016,750ml,Red,"France, Bordeaux, Pauillac",FR,60,97.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2016 page",ws_vintage
+10896442,Château d'Armailhac,2019,750ml,Red,"France, Bordeaux, Pauillac",FR,60,75.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page",ws_vintage
+10895882,Chateau D'Esclans Rose Garrus,2022,750ml,Rose,"France, Provence, Cotes de Provence",FR,65,93.0,"Wine-Searcher 2022 page: 93/100, price $93",ws_vintage
+10895883,Chateau D'Esclans Rose Garrus,2022,750ml,Rose,"France, Provence, Cotes de Provence",FR,65,93.0,"Wine-Searcher 2022 page: 93/100, price $93",ws_vintage
+10895267,Château d'Issan,2000,750ml,Red,"France, Bordeaux, Margaux",FR,95,142.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2000 page",ws_vintage
+10896444,Château d'Issan,2006,750ml,Red,"France, Bordeaux, Margaux",FR,75,119.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2006 page",ws_vintage
+10896443,Château d'Issan,2020,750ml,Red,"France, Bordeaux, Margaux",FR,65,77.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage
+10896213,Chateau de Beaucastel Châteauneuf-du-Pape,2023,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,85,108.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2023 page",ws_vintage
+10896472,Château de Lyde Cadillac Cotes de Bordeaux,2018,750ml,Red,"France, Bordeaux, Entre-Deux-Mers",FR,15,10.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2018 page",ws_vintage
+10895397,Château de Pressac,2016,750ml,Red,"France, Bordeaux, St.-Émilion",FR,40,45.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2016 page (Chap4 Fine+Rare CA $45.00)",ws_vintage
+10896048,Château Duhart-Milon-Rothschild Blanc,2023,750ml,White,"France, Bordeaux",FR,60,94.0,"Wine-Searcher 2023 page: 93/100, price $94",ws_vintage
+10896112,Château Duhart-Milon-Rothschild Blanc,2023,750ml,White,"France, Bordeaux",FR,60,94.0,"Wine-Searcher 2023 page: 93/100, price $94",ws_vintage
+10889627,Château Duhart-Milon-Rothschild,2007,750ml,Red,"France, Bordeaux, Pauillac",FR,60,144.0,"Wine-Searcher 2007 page: 89/100, average price $144",ws_vintage
+10889555,Château Duhart-Milon-Rothschild,2009,750ml,Red,"France, Bordeaux, Pauillac",FR,135,147.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2009 page",ws_vintage
+10896459,Château Gazin,2015,750ml,Red,"France, Bordeaux, Pomerol",FR,80,107.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2015 page",ws_vintage
+10896147,Château Gruaud-Larose,2023,750ml,Red,"France, Bordeaux, St.-Julien",FR,90,88.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2023 page",ws_vintage
+10896347,Château Haut-Bailly,2019,750ml,Red,"France, Bordeaux, Graves",FR,100,146.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page",ws_vintage
+10896346,Château Haut-Bailly,2019,750ml,Red,"France, Bordeaux, Graves",FR,100,146.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page",ws_vintage
+10895935,Château Haut-Bailly,2021,750ml,Red,"France, Bordeaux, Graves",FR,75,134.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2021 page",ws_vintage
+10895390,Château Haut De La Becade,2020,750ml,Red,"France, Bordeaux, Pauillac",FR,30,47.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page (Star Wines CA $39.99)",ws_vintage
+10895632,Château La Dominique,1986,750ml,Red,"France, Bordeaux, St.-Émilion",FR,80,173.0,"Wine-Searcher average retail (ex-tax), vintage-specific 1986 page",ws_vintage
+10895634,Château La Dominique,1986,750ml,Red,"France, Bordeaux, St.-Émilion",FR,80,173.0,"Wine-Searcher average retail (ex-tax), vintage-specific 1986 page",ws_vintage
+10895630,Château La Dominique,1986,750ml,Red,"France, Bordeaux, St.-Émilion",FR,80,173.0,"Wine-Searcher average retail (ex-tax), vintage-specific 1986 page",ws_vintage
+10895633,Château La Dominique,1986,750ml,Red,"France, Bordeaux, St.-Émilion",FR,80,173.0,"Wine-Searcher average retail (ex-tax), vintage-specific 1986 page",ws_vintage
+10895852,Chateau la Nerthe Châteauneuf-du-Pape,2020,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,45,68.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage
+10895938,Chateau la Nerthe Châteauneuf-du-Pape,2020,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,45,68.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage
+10896393,Château Lafon-Rochet,2010,750ml,Red,"France, Bordeaux, St.-Estephe",FR,55,105.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2010 page",ws_vintage
+10896341,Château Lafon-Rochet,2018,750ml,Red,"France, Bordeaux, St.-Estephe",FR,50,64.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2018 page",ws_vintage
+10896471,Château LaGrange,2005,750ml,Red,"France, Bordeaux, St.-Julien",FR,70,136.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2005 page",ws_vintage
+10889561,Château Larrivet-Haut-Brion,2000,750ml,Red,"France, Bordeaux, Graves",FR,50,78.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2000 page",ws_vintage
+10895703,Château Lassègue,2019,750ml,Red,"France, Bordeaux, St.-Émilion",FR,45,76.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page",ws_vintage
+10896430,Château Le Gay,2019,750ml,Red,"France, Bordeaux, Pomerol",FR,80,118.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page",ws_vintage
+10889609,Château Leoville-Barton,2001,750ml,Red,"France, Bordeaux, St.-Julien",FR,100,189.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2001 page",ws_vintage
+10896353,Château Leoville-Barton,2005,750ml,Red,"France, Bordeaux, St.-Julien",FR,130,195.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2005 page",ws_vintage
+10896474,Château Leoville-Las-Cases,2019,750ml,Red,"France, Bordeaux, St.-Julien",FR,150,261.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page (Grand Vin)",ws_vintage
+10896475,Château Leoville-Las-Cases,2019,750ml,Red,"France, Bordeaux, St.-Julien",FR,150,261.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page (Grand Vin)",ws_vintage
+10896143,Château Leoville-Poyferre,2014,750ml,Red,"France, Bordeaux, St.-Julien",FR,80,115.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2014 page",ws_vintage
+10896144,Château Leoville-Poyferre,2015,750ml,Red,"France, Bordeaux, St.-Julien",FR,100,150.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2015 page",ws_vintage
+10895754,Château Leoville-Poyferre,2023,750ml,Red,"France, Bordeaux, St.-Julien",FR,85,115.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2023 page",ws_vintage
+10896320,Château Les Carmes Haut Brion,2019,750ml,Red,"France, Bordeaux, Graves",FR,110,239.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page",ws_vintage
+10896344,Château Les Ormes-de-Pez,2009,750ml,Red,"France, Bordeaux, St.-Estephe",FR,45,82.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2009 page",ws_vintage
+10896345,Château Les Ormes-de-Pez,2009,750ml,Red,"France, Bordeaux, St.-Estephe",FR,45,82.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2009 page",ws_vintage
+10889595,Château Lynch-Bages,2001,750ml,Red,"France, Bordeaux, Pauillac",FR,115,158.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2001 page",ws_vintage
+10896433,Château Malartic-Lagraviere,2020,750ml,Red,"France, Bordeaux, Graves",FR,40,66.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage
+10896318,Château Malescot-St Exupery,2015,750ml,Red,"France, Bordeaux, Margaux",FR,65,123.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2015 page",ws_vintage
+10895557,Château Meyney,1982,750ml,Red,"France, Bordeaux, St.-Estephe",FR,100,189.0,"Wine-Searcher average retail (ex-tax), vintage-specific 1982 page",ws_vintage
+10896466,Château Meyney,2014,750ml,Red,"France, Bordeaux, St.-Estephe",FR,45,62.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2014 page",ws_vintage
+10896425,Château Montrose,2006,750ml,Red,"France, Bordeaux, St.-Estephe",FR,125,210.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2006 page",ws_vintage
+10896426,Château Montrose,2008,750ml,Red,"France, Bordeaux, St.-Estephe",FR,110,149.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2008 page",ws_vintage
+10896381,Château Montrose,2014,750ml,Red,"France, Bordeaux, St.-Estephe",FR,130,189.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2014 page",ws_vintage
+10896435,Château Montrose,2019,750ml,Red,"France, Bordeaux, St.-Estephe",FR,150,207.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page",ws_vintage
+10896437,Château Pape-Clement,2020,750ml,Red,"France, Bordeaux, Graves",FR,80,104.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page (red)",ws_vintage
+10895932,Château Pape-Clement,2022,750ml,Red,"France, Bordeaux, Graves",FR,70,119.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2022 page (red)",ws_vintage
+10895751,Château Pape-Clement,2023,750ml,Red,"France, Bordeaux, Graves",FR,70,77.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2023 page (red)",ws_vintage
+10889616,Château Pavie-Macquin,2005,750ml,Red,"France, Bordeaux, St.-Émilion",FR,135,212.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2005 page",ws_vintage
+10896340,Château Pavie-Macquin,2010,750ml,Red,"France, Bordeaux, St.-Émilion",FR,130,196.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2010 page",ws_vintage
+10896339,Château Pavie-Macquin,2019,750ml,Red,"France, Bordeaux, St.-Émilion",FR,70,101.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page",ws_vintage
+10889415,Château Peyrabon,2005,750ml,Red,"France, Bordeaux, Haut-Médoc",FR,25,25.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2005 page",ws_vintage
+10896409,Château Phelan-Segur,2016,750ml,Red,"France, Bordeaux, St.-Estephe",FR,65,78.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2016 page",ws_vintage
+10895934,Château Pontet-Canet,2021,750ml,Red,"France, Bordeaux, Pauillac",FR,90,103.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2021 page",ws_vintage
+10896333,Château Rauzan-Segla,2010,750ml,Red,"France, Bordeaux, Margaux",FR,145,179.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2010 page (another listing $151; higher average used)",ws_vintage
+10896046,Château Smith-Haut-Lafitte Le Petit Haut Lafitte,2022,750ml,Red,"France, Bordeaux, Graves",FR,35,51.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2022 page",ws_vintage
+10896343,Château Smith-Haut-Lafitte,2019,750ml,Red,"France, Bordeaux, Graves",FR,130,166.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page",ws_vintage
+10895391,Château Sociando-Mallet,2020,750ml,Red,"France, Bordeaux, Haut-Médoc",FR,35,54.95,Wine-Searcher listing: Hi-Time Wine Cellars (CA) $54.95 for 2020 (Woodland Hills half-bottle equiv. $53.90/750ml),ws_single_retailer
+10895392,Château Sociando-Mallet,2020,750ml,Red,"France, Bordeaux, Haut-Médoc",FR,35,54.95,Wine-Searcher listing: Hi-Time Wine Cellars (CA) $54.95 for 2020 (Woodland Hills half-bottle equiv. $53.90/750ml),ws_single_retailer
+10896087,Château Talbot,2018,750ml,Red,"France, Bordeaux, St.-Julien",FR,70,107.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2018 page",ws_vintage
+10896456,Château Troplong-Mondot,2014,750ml,Red,"France, Bordeaux, St.-Émilion",FR,85,123.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2014 page",ws_vintage
+10896232,Château Valandraud,2021,750ml,Red,"France, Bordeaux, St.-Émilion",FR,115,148.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2021 page",ws_vintage
+10895825,Chevillon-Chezeaux Nuits-St.-Georges Les Bousselots,2022,750ml,Red,"France, Burgundy, Côte d'Or",FR,40,130.0,Wine-Searcher average retail for Domaine Chevillon-Chezeaux Les Bousselots (all-vintage page),ws_allvintage
+10895824,Chevillon-Chezeaux Nuits St. Georges Les Porêts Saint-Georges,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,50,130.0,Wine-Searcher average retail for Domaine Chevillon-Chezeaux Les Porets (all-vintage page),ws_allvintage
+10895554,Clerico Barolo Ciabot Mentin Ginestra,2001,750ml,Red,"Italy, Piedmont, Barolo",IT,115,116.0,No 2001 page found; adjacent 2000 vintage Wine-Searcher average $116 (Domenico Clerico Ciabot Mentin Ginestra),ws_adjacent
+10895555,Clerico Barolo Ciabot Mentin Ginestra,2001,750ml,Red,"Italy, Piedmont, Barolo",IT,115,116.0,No 2001 page found; adjacent 2000 vintage Wine-Searcher average $116 (Domenico Clerico Ciabot Mentin Ginestra),ws_adjacent
+10896042,Clos de l'Oratoire Des Papes Châteauneuf-du-Pape,2021,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,40,76.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2021 page (regular cuvee, not Les Choregies)",ws_vintage
+10896401,Clos des Papes Châteauneuf-du-Pape,2017,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,85,86.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2017 page (Paul Avril Clos des Papes)",ws_vintage
+10896336,Clos Fourtet,2019,750ml,Red,"France, Bordeaux, St.-Émilion",FR,75,159.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page",ws_vintage
+10896337,Clos Fourtet,2019,750ml,Red,"France, Bordeaux, St.-Émilion",FR,75,159.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page",ws_vintage
+10896264,Clos Fourtet,2020,750ml,Red,"France, Bordeaux, St.-Émilion",FR,80,145.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage
+10896190,Contino Vina del Olivo Rioja,2021,750ml,Red,"Spain, Rioja",ES,95,93.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2021 page",ws_vintage
+10889612,Cos d'Estournel,2004,750ml,Red,"France, Bordeaux, St.-Estephe",FR,145,173.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2004 page",ws_vintage
+10889619,Cos d'Estournel,2004,750ml,Red,"France, Bordeaux, St.-Estephe",FR,145,173.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2004 page",ws_vintage
+10895432,Domaine Alain Voge Cornas Les Chailles,2015,1.5ltr,Red,"France, Rhône Valley, Northern Rhône",FR,140,204.6,"750ml 2015 retail ~$93 (search-listed) x 2.2 magnum scaling; size mismatch, scaled not observed",ws_adjacent
+10895436,Domaine Comte Abbatucci Cuvee Collection General De La Revolution Blanc,NV,1.5ltr,White,"France, Corsica",FR,90,224.4,"Wine-Searcher 750ml avg ~$102 (all-vintage) x 2.2 magnum scaling; size mismatch, scaled not observed",ws_allvintage
+10895435,Domaine Comte Abbatucci Cuvee Collection Ministre Imperial,NV,1.5ltr,Red,"France, Corsica",FR,130,242.0,"Wine-Searcher 750ml avg ~$110 (all-vintage) x 2.2 magnum scaling; size mismatch, scaled not observed",ws_allvintage
+10890356,Domaine de Montille Beaune Les Grèves,2022,750ml,Red,"France, Burgundy, Côte d'Or",FR,60,115.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2022 page",ws_vintage
+10890357,Domaine de Montille Beaune Les Sizies,2022,750ml,Red,"France, Burgundy, Côte d'Or",FR,55,84.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2022 page",ws_vintage
+10896049,Domaine du Pegau Chateauneuf du Pape Cuvee Laurence,2021,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,95,153.0,Wine-Searcher average retail for Cuvee Laurence (all-vintage page),ws_allvintage
+10896225,Domaine du Vieux Telegraphe Châteauneuf-du-Pape,2023,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,75,114.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2023 page (La Crau, the estate's principal red)",ws_vintage
+10896250,Domaine du Vieux Telegraphe Châteauneuf-du-Pape,2023,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,75,114.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2023 page (La Crau, the estate's principal red)",ws_vintage
+10895434,Domaine Guiberteau Saumur Bizay Les Chapaudaises,2017,1.5ltr,White,"France, Loire Valley, Saumur",FR,90,143.0,"Wine-Searcher 2017 750ml avg $65 x 2.2 magnum scaling; size mismatch, scaled not observed",ws_vintage
+10896053,Domaine Jean Monnier & Fils Pommard Grand Épenots Clos de Citeaux,2022,750ml,Red,"France, Burgundy, Côte d'Or",FR,50,141.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2022 page",ws_vintage
+10895567,Domaine Le Clos du Caillou Chateauneuf du Pape Les Quartz,2005,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,60,89.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2005 page",ws_vintage
+10889424,Domaine Parent Pommard Les Argillières,2007,750ml,Red,"France, Burgundy, Côte d'Or",FR,65,160.0,Wine-Searcher average retail for Les Argillieres (all-vintage page); 2007 scored 90,ws_allvintage
+10895943,Bacci Dimarco,2021,750ml,Red,"Italy, Tuscany",IT,25,,"Insufficient data - single-retailer snippet ($124.99) implausibly far above the $25 reserve; unverified, withdrawn from deals",insufficient
+10896233,Bacci Dimarco,2021,750ml,Red,"Italy, Tuscany",IT,25,,"Insufficient data - single-retailer snippet ($124.99) implausibly far above the $25 reserve; unverified, withdrawn from deals",insufficient
+10895671,Canalicchio di Sopra Brunello di Montalcino,2006,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,55,,"Insufficient data - single $246.67 offer looks like Riserva/case pricing, not corroborated; withdrawn from deals",insufficient

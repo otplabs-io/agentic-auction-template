@@ -1,0 +1,558 @@
+id,vintage,wine,format,Region,Quantity,Reserve,Condition Issue,country,dessert_hit,bare_pt,shipper_hit,producer_id_drop,cond_decision,wine_type,classify_reason,country_code
+10890343,2009,Albert Bichot Mazis-Chambertin,750ml,"France, Burgundy, Côte d'Or",3,115,,France,False,False,False,False,keep,Red,pass2: Chambertin grand cru family is red-only,FR
+10890342,2009,Albert Bichot Mazis-Chambertin,750ml,"France, Burgundy, Côte d'Or",2,115,Light label condition issue,France,False,False,False,False,keep,Red,pass2: Chambertin grand cru family is red-only,FR
+10895456,2015,Albert Morot Beaune Les Bressandes,750ml,"France, Burgundy, Côte d'Or",1,55,,France,False,False,False,False,keep,Red,pass2: bare Beaune premier cru (no Blanc stated) -- predominantly red,FR
+10895459,1990,Albino Rocca Barbaresco Vigneto Brich Ronchi,750ml,"Italy, Piedmont, Barbaresco",1,90,Light label condition issue,Italy,False,False,False,False,keep,Red,pass2: Barbaresco is a 100% red Nebbiolo DOCG,IT
+10896357,2018,Aldo Conterno Langhe Il Favot Nebbiolo,750ml,"Italy, Piedmont, Langhe",4,35,,Italy,False,False,False,False,keep,Red,"pass2: Elio Grasso Langhe bottling -- red-focused producer, no colour word present (hedged)",IT
+10895908,2021,Alphonse Mellot Sancerre Les Romains,750ml,"France, Loire Valley, Centre-Loire",2,45,,France,False,False,False,False,keep,White,white appellation default,FR
+10896068,2019,Andre Brunel Châteauneuf-du-Pape,750ml,"France, Rhône Valley, Southern Rhône",1,25,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10895693,2021,Andre Brunel Châteauneuf-du-Pape Cuvée Réservée,750ml,"France, Rhône Valley, Southern Rhône",1,35,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10896176,2019,Argiano Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,75,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895521,2004,Artadi Rioja Pagos Viejos,750ml,"Spain, Rioja",5,140,Very top shoulder fill,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10895520,2004,Artadi Rioja Pagos Viejos,750ml,"Spain, Rioja",3,140,Base neck fill,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10896179,2018,Au Pied du Mont Chauve Chassagne-Montrachet  Les Macherelles,750ml,"France, Burgundy, Côte d'Or",1,90,Light label condition issue,France,False,False,False,False,keep,White,"pass6 manual: Les Macherelles is a white climat (same call as Guy Amiot) -- hedged, moderate confidence",FR
+10896178,2023,Au Pied du Mont Chauve Chassagne-Montrachet En Pimont,750ml,"France, Burgundy, Côte d'Or",1,80,Light label condition issue,France,False,False,False,False,keep,White,"pass6 manual: Au Pied du Mont Chauve is a white-focused Chassagne estate -- hedged, moderate confidence",FR
+10895943,2021,Bacci Dimarco,750ml,"Italy, Tuscany",4,25,,Italy,False,False,False,False,keep,Red,"pass6 manual: Tuscan label with no colour word -- hedged to red (Tuscany is overwhelmingly red), low confidence",IT
+10896233,2021,Bacci Dimarco,750ml,"Italy, Tuscany",1,25,Light label condition issue,Italy,False,False,False,False,keep,Red,"pass6 manual: Tuscan label with no colour word -- hedged to red (Tuscany is overwhelmingly red), low confidence",IT
+10889604,NV,Barons de Rothschild Blanc de Blancs,750ml,"France, Champagne",1,70,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896118,2012,Benjamin Rothschild & Vega Sicilia Rioja Macan,750ml,"Spain, Rioja",1,70,,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10896031,2020,Benjamin Rothschild & Vega Sicilia Rioja Macan,750ml,"Spain, Rioja",2,80,Light label condition issue,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10896255,2020,Benjamin Rothschild & Vega Sicilia Rioja Macan,750ml,"Spain, Rioja",2,80,,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10895752,2015,Bertani Amarone della Valpolicella Classico,750ml,"Italy, Veneto, Amarone della Valpolicella",3,100,Light label condition issue,Italy,False,False,False,False,keep,Red,"pass2: Amarone/Ripasso are red, dried-grape Corvina-based",IT
+10895980,NV,Bertrand Senecourt Beau Joie Brut Nature Special Cuvee,750ml,"France, Champagne",1,35,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895939,NV,Bertrand Senecourt Beau Joie Special Cuvee Brut,750ml,"France, Champagne",2,35,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896363,2010,Billecart-Salmon Brut Rosé,750ml,"France, Champagne",5,100,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895574,2007,Bodegas El Nido El Nido,750ml,"Spain, The Levant, Jumilla",3,130,,Spain,False,False,False,False,keep,Red,pass6 manual: Jumilla Monastrell/Cabernet flagship red,ES
+10895946,2023,Bodegas El Nido El Nido,750ml,"Spain, The Levant, Jumilla",1,120,Light label condition issue,Spain,False,False,False,False,keep,Red,pass6 manual: Jumilla Monastrell/Cabernet flagship red,ES
+10896014,2023,Bodegas El Nido El Nido,750ml,"Spain, The Levant, Jumilla",1,120,,Spain,False,False,False,False,keep,Red,pass6 manual: Jumilla Monastrell/Cabernet flagship red,ES
+10895868,2018,Bodegas Morca Garnaca Touran,750ml,"Spain, Aragon, Campo De Borja",1,80,"Light capsule condition issue
+Light label condition issue",Spain,False,False,False,False,keep,Red,pass6 manual: Garnacha from Campo de Borja -- red,ES
+10895870,2011,Bodegas Muga Rioja Prado Enea Gran Reserva,750ml,"Spain, Rioja",2,90,Light label condition issue,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10896412,2015,Bodegas Muga Rioja Prado Enea Gran Reserva,750ml,"Spain, Rioja",5,110,,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10896448,2018,Bodegas Muga Rioja Reserva Selection Especial,750ml,"Spain, Rioja",1,50,,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10896413,2018,Bodegas Muga Rioja Seleccion Especial,750ml,"Spain, Rioja",2,40,,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10896104,2020,Bodegas Muga Rioja Torre Muga,750ml,"Spain, Rioja",1,85,,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10895668,2020,Bodegas Pintia Toro Pintia,750ml,"Spain, Castilla-Leon, Toro",2,90,,Spain,False,False,False,False,keep,Red,pass2: Toro (Spain) is essentially all red Tinta de Toro,ES
+10896214,2020,Bodegas Pintia Toro Pintia,750ml,"Spain, Castilla-Leon, Toro",1,90,Light label condition issue,Spain,False,False,False,False,keep,Red,pass2: Toro (Spain) is essentially all red Tinta de Toro,ES
+10896160,2017,Bodegas Ramon Bilbao Rioja Lalomba Finca Valhonta,750ml,"Spain, Rioja",1,60,,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10895977,NV,Bollinger Special Cuvee,750ml,"France, Champagne",2,55,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10889632,NV,Bollinger Special Cuvee,750ml,"France, Champagne",1,55,Light label condition issue,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895912,NV,Bollinger Special Cuvee,750ml,"France, Champagne",1,55,Light label condition issue,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895482,2005,Bouchard Pere et Fils Meursault Perrières,750ml,"France, Burgundy, Côte d'Or",4,105,,France,False,False,False,False,keep,White,white appellation default,FR
+10889416,2009,Bouchard Pere et Fils Nuits-St.-Georges Les Cailles,750ml,"France, Burgundy, Côte d'Or",1,85,Light label condition issue,France,False,False,False,False,keep,Red,pass2: Nuits-St-Georges is red-only,FR
+10890345,2018,Bouchard Pere et Fils Savigny les Beaune Les Lavieres,750ml,"France, Burgundy, Côte d'Or",1,45,,France,False,False,False,False,keep,Red,pass2: bare Beaune premier cru (no Blanc stated) -- predominantly red,FR
+10890350,2018,Buisson-Charles Volnay Santenots,750ml,"France, Burgundy, Côte d'Or",2,65,Light label condition issue,France,False,False,False,False,keep,Red,pass2: Volnay is red-only,FR
+10895667,2010,Caiarossa Toscana,750ml,"Italy, Tuscany",1,35,,Italy,False,False,False,False,keep,Red,pass6 manual: Caiarossa Toscana IGT is a red Bordeaux/Rhone blend,IT
+10895458,2011,Camille Giroud Pommard Clos de Vergers,750ml,"France, Burgundy, Côte d'Or",1,80,,France,False,False,False,False,keep,Red,pass2: Pommard is a red-only appellation,FR
+10895671,2006,Canalicchio di Sopra Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,55,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895829,2015,Canalicchio di Sopra Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,75,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896243,2019,Canalicchio di Sopra Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,55,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896383,2019,Cantina Terlan Terlaner Nova Domus Riserva,750ml,"Italy, Alto Adige",2,40,,Italy,False,False,False,False,keep,White,pass6 manual: Terlaner is the Alto Adige Pinot Bianco/Chardonnay/Sauvignon white blend,IT
+10895840,2020,Casanova di Neri Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,55,Light label condition issue,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896110,2020,Casanova di Neri Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,55,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896244,2020,Casanova di Neri Brunello di Montalcino Tenuta Nuova,750ml,"Italy, Tuscany, Brunello di Montalcino",1,80,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895875,2018,Castellare di Castellina I Sodi di San Niccolò,750ml,"Italy, Tuscany",1,50,Light label condition issue,Italy,False,False,False,False,keep,Red,pass6 manual: Sangiovese/Malvasia Nera Super Tuscan red,IT
+10896146,2019,Castellare di Castellina I Sodi di San Niccolò,750ml,"Italy, Tuscany",4,60,Light label condition issue,Italy,False,False,False,False,keep,Red,pass6 manual: Sangiovese/Malvasia Nera Super Tuscan red,IT
+10896120,2020,Castellare di Castellina I Sodi di San Niccolò,750ml,"Italy, Tuscany",3,70,Light label condition issue,Italy,False,False,False,False,keep,Red,pass6 manual: Sangiovese/Malvasia Nera Super Tuscan red,IT
+10889647,2000,Castello Banfi Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,45,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896156,2015,Castello Banfi Brunello di Montalcino Poggio Alle Mura Riserva,750ml,"Italy, Tuscany, Brunello di Montalcino",1,85,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895457,1989,Castello di Neive Barbaresco Santo Stefano,750ml,"Italy, Piedmont, Barbaresco",1,95,"Light capsule condition issue
+Very top shoulder fill
+Light label condition issue",Italy,False,False,False,False,keep,Red,pass2: Barbaresco is a 100% red Nebbiolo DOCG,IT
+10896081,2020,Castello di Volpaia Balifico,750ml,"Italy, Tuscany",1,60,,Italy,False,False,False,False,keep,Red,pass6 manual: Sangiovese/Cabernet Super Tuscan red,IT
+10896177,2020,Castello di Volpaia Chianti Classico Riserva,750ml,"Italy, Tuscany, Chianti Classico",1,25,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10887953,2013,Castiglion del Bosco Brunello di Montalcino Campo del Drago,750ml,"Italy, Tuscany, Brunello di Montalcino",1,80,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896300,2005,Charles Heidsieck Brut Rosé,750ml,"France, Champagne",1,90,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895433,2018,Charles Joguet Chinon Rosé,1.5ltr,"France, Loire Valley, Touraine",5,40,,France,False,False,False,False,keep,Rose,rose colour word,FR
+10895909,2015,Charles Mignon Brut Cuvee Comte de Marne,750ml,"France, Champagne",2,55,Light label condition issue,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896123,2021,Château Beausejour (Duffau Lagarrosse),750ml,"France, Bordeaux, St.-Émilion",2,70,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895485,1988,Château Beychevelle,750ml,"France, Bordeaux, St.-Julien",1,90,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10895867,2022,Château Beychevelle,750ml,"France, Bordeaux, St.-Julien",2,95,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896431,2010,Château Branaire-Ducru,750ml,"France, Bordeaux, St.-Julien",2,95,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896432,2015,Château Branaire-Ducru,750ml,"France, Bordeaux, St.-Julien",1,60,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896352,2005,Château Brane-Cantenac,750ml,"France, Bordeaux, Margaux",11,130,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896311,2019,Château Brane-Cantenac,750ml,"France, Bordeaux, Margaux",12,75,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895455,1979,Château Calon-Segur,750ml,"France, Bordeaux, St.-Estephe",1,85,"Light capsule condition issue
+Light label condition issue",France,False,False,False,False,keep,Red,red appellation default,FR
+10896392,1996,Château Calon-Segur,750ml,"France, Bordeaux, St.-Estephe",11,150,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895263,2000,Château Calon-Segur,750ml,"France, Bordeaux, St.-Estephe",4,135,"Light capsule condition issue
+Light label condition issue",France,False,False,False,False,keep,Red,red appellation default,FR
+10896391,2009,Château Calon-Segur,750ml,"France, Bordeaux, St.-Estephe",2,130,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896390,2014,Château Calon-Segur,750ml,"France, Bordeaux, St.-Estephe",8,105,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896470,2016,Château Calon-Segur,750ml,"France, Bordeaux, St.-Estephe",2,145,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896314,2018,Château Calon-Segur,750ml,"France, Bordeaux, St.-Estephe",17,125,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896313,2018,Château Calon-Segur,750ml,"France, Bordeaux, St.-Estephe",6,125,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896309,2019,Château Calon-Segur,750ml,"France, Bordeaux, St.-Estephe",6,115,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896446,2014,Château Canon,750ml,"France, Bordeaux, St.-Émilion",11,80,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896308,2020,Château Canon,750ml,"France, Bordeaux, St.-Émilion",12,145,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896265,2021,Château Canon,750ml,"France, Bordeaux, St.-Émilion",1,120,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896217,2022,Château Canon-La-Gaffeliere,750ml,"France, Bordeaux, St.-Émilion",1,75,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896216,2023,Château Canon-La-Gaffeliere,750ml,"France, Bordeaux, St.-Émilion",1,65,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896249,2010,Château Cantenac-Brown,750ml,"France, Bordeaux, Margaux",1,80,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896351,2020,Château Cantenac-Brown,750ml,"France, Bordeaux, Margaux",5,55,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895264,1998,Château Clerc-Milon,750ml,"France, Bordeaux, Pauillac",6,70,"Light capsule condition issue
+Light label condition issue",France,False,False,False,False,keep,Red,red appellation default,FR
+10895266,2000,Château d'Armailhac,750ml,"France, Bordeaux, Pauillac",3,75,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896319,2012,Château d'Armailhac,750ml,"France, Bordeaux, Pauillac",6,55,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896462,2016,Château d'Armailhac,750ml,"France, Bordeaux, Pauillac",4,60,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896442,2019,Château d'Armailhac,750ml,"France, Bordeaux, Pauillac",11,60,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896315,2009,Chateau de Beaucastel Châteauneuf-du-Pape,750ml,"France, Rhône Valley, Southern Rhône",12,90,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896213,2023,Chateau de Beaucastel Châteauneuf-du-Pape,750ml,"France, Rhône Valley, Southern Rhône",1,85,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896472,2018,Château de Lyde Cadillac Cotes de Bordeaux,750ml,"France, Bordeaux, Entre-Deux-Mers",1,15,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895397,2016,Château de Pressac,750ml,"France, Bordeaux, St.-Émilion",1,40,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895882,2022,Chateau D'Esclans Rose Garrus,750ml,"France, Provence, Cotes de Provence",1,65,,France,False,False,False,False,keep,Rose,rose colour word,FR
+10895883,2022,Chateau D'Esclans Rose Garrus,750ml,"France, Provence, Cotes de Provence",1,65,Light label condition issue,France,False,False,False,False,keep,Rose,rose colour word,FR
+10895267,2000,Château d'Issan,750ml,"France, Bordeaux, Margaux",2,95,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896444,2006,Château d'Issan,750ml,"France, Bordeaux, Margaux",4,75,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896443,2020,Château d'Issan,750ml,"France, Bordeaux, Margaux",3,65,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896330,2018,"Chateau du Nozet Pouilly Fume Baron de ""L""",750ml,"France, Loire Valley, Centre-Loire",2,60,,France,False,False,False,False,keep,White,pass6 correction: Pouilly-Fume is Sauvignon blanc (keyword pass misread it as red),FR
+10896329,2019,"Chateau du Nozet Pouilly Fume Baron de ""L""",750ml,"France, Loire Valley, Centre-Loire",8,70,,France,False,False,False,False,keep,White,pass6 correction: Pouilly-Fume is Sauvignon blanc (keyword pass misread it as red),FR
+10889610,2003,Château Duhart-Milon-Rothschild,750ml,"France, Bordeaux, Pauillac",8,75,,France,False,False,False,False,keep,Red,red appellation default,FR
+10889627,2007,Château Duhart-Milon-Rothschild,750ml,"France, Bordeaux, Pauillac",12,60,,France,False,False,False,False,keep,Red,red appellation default,FR
+10889555,2009,Château Duhart-Milon-Rothschild,750ml,"France, Bordeaux, Pauillac",12,135,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896048,2023,Château Duhart-Milon-Rothschild Blanc,750ml,"France, Bordeaux",1,60,,France,False,False,False,False,keep,White,white colour word,FR
+10896112,2023,Château Duhart-Milon-Rothschild Blanc,750ml,"France, Bordeaux",1,60,,France,False,False,False,False,keep,White,white colour word,FR
+10896459,2015,Château Gazin,750ml,"France, Bordeaux, Pomerol",1,80,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895268,2000,Château Giscours,750ml,"France, Bordeaux, Margaux",3,105,"Light capsule condition issue
+Light label condition issue",France,False,False,False,False,keep,Red,red appellation default,FR
+10895269,2000,Château Giscours,750ml,"France, Bordeaux, Margaux",1,105,Light capsule condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896148,2022,Château Gruaud-Larose,750ml,"France, Bordeaux, St.-Julien",1,75,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896147,2023,Château Gruaud-Larose,750ml,"France, Bordeaux, St.-Julien",1,90,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896310,2019,Château Guillot Clauzel,750ml,"France, Bordeaux, Pomerol",6,55,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895390,2020,Château Haut De La Becade,750ml,"France, Bordeaux, Pauillac",1,30,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896347,2019,Château Haut-Bailly,750ml,"France, Bordeaux, Graves",4,100,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896346,2019,Château Haut-Bailly,750ml,"France, Bordeaux, Graves",2,100,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10895935,2021,Château Haut-Bailly,750ml,"France, Bordeaux, Graves",1,75,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10895632,1986,Château La Dominique,750ml,"France, Bordeaux, St.-Émilion",3,80,"Light capsule condition issue
+Very top shoulder fill",France,False,False,False,False,keep,Red,red appellation default,FR
+10895634,1986,Château La Dominique,750ml,"France, Bordeaux, St.-Émilion",2,80,"Light capsule condition issue
+Base neck fill
+Light label condition issue",France,False,False,False,False,keep,Red,red appellation default,FR
+10895630,1986,Château La Dominique,750ml,"France, Bordeaux, St.-Émilion",1,80,Light capsule condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10895633,1986,Château La Dominique,750ml,"France, Bordeaux, St.-Émilion",1,80,"Light capsule condition issue
+Base neck fill",France,False,False,False,False,keep,Red,red appellation default,FR
+10895852,2020,Chateau la Nerthe Châteauneuf-du-Pape,750ml,"France, Rhône Valley, Southern Rhône",1,45,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895938,2020,Chateau la Nerthe Châteauneuf-du-Pape,750ml,"France, Rhône Valley, Southern Rhône",1,45,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896393,2010,Château Lafon-Rochet,750ml,"France, Bordeaux, St.-Estephe",8,55,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896341,2018,Château Lafon-Rochet,750ml,"France, Bordeaux, St.-Estephe",12,50,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896471,2005,Château LaGrange,750ml,"France, Bordeaux, St.-Julien",24,70,,France,False,False,False,False,keep,Red,red appellation default,FR
+10889561,2000,Château Larrivet-Haut-Brion,750ml,"France, Bordeaux, Graves",1,50,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895703,2019,Château Lassègue,750ml,"France, Bordeaux, St.-Émilion",1,45,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896430,2019,Château Le Gay,750ml,"France, Bordeaux, Pomerol",3,80,,France,False,False,False,False,keep,Red,red appellation default,FR
+10889609,2001,Château Leoville-Barton,750ml,"France, Bordeaux, St.-Julien",3,100,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896353,2005,Château Leoville-Barton,750ml,"France, Bordeaux, St.-Julien",6,130,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895454,1979,Château Leoville-Las-Cases,750ml,"France, Bordeaux, St.-Julien",1,125,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10895641,1994,Château Leoville-Las-Cases,750ml,"France, Bordeaux, St.-Julien",7,145,Light capsule condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896474,2019,Château Leoville-Las-Cases,750ml,"France, Bordeaux, St.-Julien",10,150,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896475,2019,Château Leoville-Las-Cases,750ml,"France, Bordeaux, St.-Julien",2,150,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896143,2014,Château Leoville-Poyferre,750ml,"France, Bordeaux, St.-Julien",1,80,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896144,2015,Château Leoville-Poyferre,750ml,"France, Bordeaux, St.-Julien",2,100,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10895754,2023,Château Leoville-Poyferre,750ml,"France, Bordeaux, St.-Julien",1,85,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10895426,2000,Château Les Carmes Haut Brion,750ml,"France, Bordeaux, Graves",1,120,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896320,2019,Château Les Carmes Haut Brion,750ml,"France, Bordeaux, Graves",12,110,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896344,2009,Château Les Ormes-de-Pez,750ml,"France, Bordeaux, St.-Estephe",3,45,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896345,2009,Château Les Ormes-de-Pez,750ml,"France, Bordeaux, St.-Estephe",1,45,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896342,2011,Château Lilian Ladouys,750ml,"France, Bordeaux, St.-Estephe",6,30,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896460,2020,Château Lilian Ladouys,750ml,"France, Bordeaux, St.-Estephe",11,20,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895239,2005,Château Loudenne,750ml,"France, Bordeaux, Haut-Médoc",1,20,"Light capsule condition issue
+Base neck fill
+Light label condition issue",France,False,False,False,False,keep,Red,red appellation default,FR
+10889595,2001,Château Lynch-Bages,750ml,"France, Bordeaux, Pauillac",2,115,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10889583,2002,Château Lynch-Bages,750ml,"France, Bordeaux, Pauillac",8,120,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896433,2020,Château Malartic-Lagraviere,750ml,"France, Bordeaux, Graves",3,40,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896445,2010,Château Malescot-St Exupery,750ml,"France, Bordeaux, Margaux",6,85,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896318,2015,Château Malescot-St Exupery,750ml,"France, Bordeaux, Margaux",12,65,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895557,1982,Château Meyney,750ml,"France, Bordeaux, St.-Estephe",4,100,"Very top shoulder fill
+Light label condition issue",France,False,False,False,False,keep,Red,red appellation default,FR
+10896402,2006,Château Meyney,1.5ltr,"France, Bordeaux, St.-Estephe",1,90,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896420,2006,Château Meyney,1.5ltr,"France, Bordeaux, St.-Estephe",1,90,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896466,2014,Château Meyney,750ml,"France, Bordeaux, St.-Estephe",3,45,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896425,2006,Château Montrose,750ml,"France, Bordeaux, St.-Estephe",5,125,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896426,2008,Château Montrose,750ml,"France, Bordeaux, St.-Estephe",5,110,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896414,2012,Château Montrose,750ml,"France, Bordeaux, St.-Estephe",5,140,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896381,2014,Château Montrose,750ml,"France, Bordeaux, St.-Estephe",12,130,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896316,2017,Château Montrose,750ml,"France, Bordeaux, St.-Estephe",9,105,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896461,2017,Château Montrose,750ml,"France, Bordeaux, St.-Estephe",2,105,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896435,2019,Château Montrose,750ml,"France, Bordeaux, St.-Estephe",3,150,,France,False,False,False,False,keep,Red,red appellation default,FR
+10889611,2015,Château Pape-Clement,750ml,"France, Bordeaux, Graves",4,130,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896437,2020,Château Pape-Clement,750ml,"France, Bordeaux, Graves",6,80,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895932,2022,Château Pape-Clement,750ml,"France, Bordeaux, Graves",2,70,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895751,2023,Château Pape-Clement,750ml,"France, Bordeaux, Graves",3,70,,France,False,False,False,False,keep,Red,red appellation default,FR
+10889616,2005,Château Pavie-Macquin,750ml,"France, Bordeaux, St.-Émilion",1,135,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896340,2010,Château Pavie-Macquin,750ml,"France, Bordeaux, St.-Émilion",5,130,,France,False,False,False,False,keep,Red,red appellation default,FR
+10889562,2011,Château Pavie-Macquin,750ml,"France, Bordeaux, St.-Émilion",11,70,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896339,2019,Château Pavie-Macquin,750ml,"France, Bordeaux, St.-Émilion",2,70,,France,False,False,False,False,keep,Red,red appellation default,FR
+10889415,2005,Château Peyrabon,750ml,"France, Bordeaux, Haut-Médoc",1,25,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896409,2016,Château Phelan-Segur,750ml,"France, Bordeaux, St.-Estephe",2,65,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895489,1975,Château Pichon-Longueville Baron,750ml,"France, Bordeaux, Pauillac",1,120,"Light capsule condition issue
+Very top shoulder fill
+Light label condition issue",France,False,False,False,False,keep,Red,red appellation default,FR
+10889582,2003,Château Pichon-Longueville-Comtesse-de-Lalande,750ml,"France, Bordeaux, Pauillac",5,145,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895274,2000,Château Pontet-Canet,750ml,"France, Bordeaux, Pauillac",5,145,"Light capsule condition issue
+Light label condition issue",France,False,False,False,False,keep,Red,red appellation default,FR
+10895272,2000,Château Pontet-Canet,750ml,"France, Bordeaux, Pauillac",2,145,"Light capsule condition issue
+Label condition issue",France,False,False,False,False,keep,Red,red appellation default,FR
+10895934,2021,Château Pontet-Canet,750ml,"France, Bordeaux, Pauillac",1,90,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10895460,1985,Chateau Pradeaux Bandol,750ml,"France, Provence, Bandol",1,135,"Light capsule condition issue
+Very top shoulder fill
+Light label condition issue",France,False,False,False,False,keep,Red,special-case rule -> Red,FR
+10896335,2001,Château Rauzan-Segla,750ml,"France, Bordeaux, Margaux",8,95,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896333,2010,Château Rauzan-Segla,750ml,"France, Bordeaux, Margaux",6,145,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896451,2016,Château Rauzan-Segla,750ml,"France, Bordeaux, Margaux",2,110,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10895276,2000,Château Smith-Haut-Lafitte,750ml,"France, Bordeaux, Graves",5,140,,France,False,False,False,False,keep,Red,red appellation default,FR
+10889594,2000,Château Smith-Haut-Lafitte,750ml,"France, Bordeaux, Graves",2,140,,France,False,False,False,False,keep,Red,red appellation default,FR
+10889637,2001,Château Smith-Haut-Lafitte,750ml,"France, Bordeaux, Graves",1,120,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896343,2019,Château Smith-Haut-Lafitte,750ml,"France, Bordeaux, Graves",6,130,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896046,2022,Château Smith-Haut-Lafitte Le Petit Haut Lafitte,750ml,"France, Bordeaux, Graves",2,35,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895545,1986,Château Sociando-Mallet,750ml,"France, Bordeaux, Haut-Médoc",2,70,Top shoulder fill,France,False,False,False,False,keep,Red,red appellation default,FR
+10895549,1986,Château Sociando-Mallet,750ml,"France, Bordeaux, Haut-Médoc",2,70,Base neck fill,France,False,False,False,False,keep,Red,red appellation default,FR
+10895547,1986,Château Sociando-Mallet,750ml,"France, Bordeaux, Haut-Médoc",1,70,Very top shoulder fill,France,False,False,False,False,keep,Red,red appellation default,FR
+10895548,1986,Château Sociando-Mallet,750ml,"France, Bordeaux, Haut-Médoc",1,70,"Very top shoulder fill
+Light label condition issue",France,False,False,False,False,keep,Red,red appellation default,FR
+10895391,2020,Château Sociando-Mallet,750ml,"France, Bordeaux, Haut-Médoc",1,35,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895392,2020,Château Sociando-Mallet,750ml,"France, Bordeaux, Haut-Médoc",1,35,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10895590,1989,Château Talbot,750ml,"France, Bordeaux, St.-Julien",2,110,Top shoulder fill,France,False,False,False,False,keep,Red,red appellation default,FR
+10896087,2018,Château Talbot,750ml,"France, Bordeaux, St.-Julien",1,70,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896467,2018,Chateau Thomas Francs Cotes de Bordeaux,750ml,"France, Bordeaux, Cotes de Francs",1,15,,France,False,False,False,False,keep,Red,red appellation default,FR
+10889590,2012,Château Tournefeuille,750ml,"France, Bordeaux, Lalande de Pomerol",2,20,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10895661,1994,Château Troplong-Mondot,750ml,"France, Bordeaux, St.-Émilion",10,70,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895662,1994,Château Troplong-Mondot,750ml,"France, Bordeaux, St.-Émilion",2,70,Light capsule condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10896456,2014,Château Troplong-Mondot,750ml,"France, Bordeaux, St.-Émilion",1,85,,France,False,False,False,False,keep,Red,red appellation default,FR
+10896232,2021,Château Valandraud,750ml,"France, Bordeaux, St.-Émilion",1,115,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895824,2020,Chevillon-Chezeaux Nuits St. Georges Les Porêts Saint-Georges,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,keep,Red,pass3: Nuits-St-Georges is red-only (period/space spelling),FR
+10895825,2022,Chevillon-Chezeaux Nuits-St.-Georges Les Bousselots,750ml,"France, Burgundy, Côte d'Or",1,40,,France,False,False,False,False,keep,Red,pass2: Nuits-St-Georges is red-only,FR
+10895571,1999,Ciacci Piccolomini d'Aragona Brunello di Montalcino Vigna Pianrosso,750ml,"Italy, Tuscany, Brunello di Montalcino",4,65,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895554,2001,Clerico Barolo Ciabot Mentin Ginestra,750ml,"Italy, Piedmont, Barolo",4,115,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895555,2001,Clerico Barolo Ciabot Mentin Ginestra,750ml,"Italy, Piedmont, Barolo",2,115,Light label condition issue,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896042,2021,Clos de l'Oratoire Des Papes Châteauneuf-du-Pape,750ml,"France, Rhône Valley, Southern Rhône",4,40,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10896401,2017,Clos des Papes Châteauneuf-du-Pape,750ml,"France, Rhône Valley, Southern Rhône",12,85,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10895650,1994,Clos du Mont Olivet Chateauneuf du Pape Cuvee Unique Reserve,750ml,"France, Rhône Valley, Southern Rhône",9,40,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10895656,1995,Clos du Mont Olivet Chateauneuf du Pape Cuvee Unique Reserve,750ml,"France, Rhône Valley, Southern Rhône",12,40,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10895609,1998,Clos du Mont Olivet Chateauneuf du Pape Cuvee Unique Reserve,750ml,"France, Rhône Valley, Southern Rhône",3,70,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10895610,1998,Clos du Mont Olivet Chateauneuf du Pape Cuvee Unique Reserve,750ml,"France, Rhône Valley, Southern Rhône",2,70,Light label condition issue,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10896336,2019,Clos Fourtet,750ml,"France, Bordeaux, St.-Émilion",2,75,,France,False,False,False,False,keep,Red,pass6 manual: St-Emilion Premier Grand Cru Classe -- red,FR
+10896337,2019,Clos Fourtet,750ml,"France, Bordeaux, St.-Émilion",1,75,Light label condition issue,France,False,False,False,False,keep,Red,pass6 manual: St-Emilion Premier Grand Cru Classe -- red,FR
+10896264,2020,Clos Fourtet,750ml,"France, Bordeaux, St.-Émilion",1,80,,France,False,False,False,False,keep,Red,pass6 manual: St-Emilion Premier Grand Cru Classe -- red,FR
+10895901,2022,Clos Mogador Priorat Gratallops,750ml,"Spain, Cataluna, Priorato",2,75,Light label condition issue,Spain,False,False,False,False,keep,Red,pass6 manual: Priorat red Garnacha/Carinena/Syrah blend,ES
+10896212,2009,Clos Saint Michel Châteauneuf-du-Pape Grand Vin,750ml,"France, Rhône Valley, Southern Rhône",1,35,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10890236,2024,Comando G. La Bruja Sierra de Gredos,750ml,"Spain, Vinos de Madrid",12,40,,Spain,False,False,False,False,keep,Red,pass2: Comando G is a red Garnacha producer,ES
+10895453,1989,Conterno Fantino Barolo Vigna Del Gris,750ml,"Italy, Piedmont, Barolo",1,90,Light label condition issue,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896274,2014,Contino Rioja Graciano,750ml,"Spain, Rioja",1,80,Light label condition issue,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10896190,2021,Contino Vina del Olivo Rioja,750ml,"Spain, Rioja",1,95,,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10889612,2004,Cos d'Estournel,750ml,"France, Bordeaux, St.-Estephe",6,145,,France,False,False,False,False,keep,Red,pass6 manual: Cos d'Estournel grand vin is red (the white is separately labelled Blanc),FR
+10889619,2004,Cos d'Estournel,750ml,"France, Bordeaux, St.-Estephe",1,145,Light label condition issue,France,False,False,False,False,keep,Red,pass6 manual: Cos d'Estournel grand vin is red (the white is separately labelled Blanc),FR
+10895907,NV,Cuillier Père & Fils Brut Rosé,750ml,"France, Champagne",1,20,Light label condition issue,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896080,NV,Cuillier Père & Fils Thanétien Blanc de Noirs,750ml,"France, Champagne",3,30,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895951,2022,Cune (CVNE) Rioja Vina La Virgen,750ml,"Spain, Rioja",1,85,Light label condition issue,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10895616,2013,Domaine Adrien Besson Chablis Les Clos,750ml,"France, Burgundy, Chablis",3,50,,France,False,False,False,False,keep,White,white appellation default,FR
+10895617,2013,Domaine Adrien Besson Chablis Les Clos,750ml,"France, Burgundy, Chablis",1,50,,France,False,False,False,False,keep,White,white appellation default,FR
+10895432,2015,Domaine Alain Voge Cornas Les Chailles,1.5ltr,"France, Rhône Valley, Northern Rhône",1,140,,France,False,False,False,False,keep,Red,pass2: Cornas is a 100% red (Syrah) appellation,FR
+10890355,2005,Domaine Bachelet Gevrey-Chambertin Vieilles Vignes,750ml,"France, Burgundy, Côte d'Or",1,135,,France,False,False,False,False,keep,Red,pass2: Gevrey-Chambertin is red-only,FR
+10895436,NV,Domaine Comte Abbatucci Cuvee Collection General De La Revolution Blanc,1.5ltr,"France, Corsica",1,90,Light label condition issue,France,False,False,False,False,keep,White,white colour word,FR
+10895435,NV,Domaine Comte Abbatucci Cuvee Collection Ministre Imperial,1.5ltr,"France, Corsica",1,130,,France,False,False,False,False,keep,Red,"pass6 manual: Corsican Sciaccarellu/Nielluccio red -- hedged, moderate confidence, no colour word",FR
+10890356,2022,Domaine de Montille Beaune Les Grèves,750ml,"France, Burgundy, Côte d'Or",2,60,,France,False,False,False,False,keep,Red,pass2: bare Beaune premier cru (no Blanc stated) -- predominantly red,FR
+10890357,2022,Domaine de Montille Beaune Les Sizies,750ml,"France, Burgundy, Côte d'Or",1,55,,France,False,False,False,False,keep,Red,pass2: bare Beaune premier cru (no Blanc stated) -- predominantly red,FR
+10895988,2021,Domaine des Hâtes Chablis Fourchaume L'Homme Mort,750ml,"France, Burgundy, Chablis",1,45,Light label condition issue,France,False,False,False,False,keep,White,white appellation default,FR
+10889634,1995,Domaine du Chateau de Meursault Beaune-Grèves,750ml,"France, Burgundy, Côte d'Or",1,50,Light label condition issue,France,False,False,False,False,keep,Red,red appellation default,FR
+10895466,1994,Domaine du Mas Blanc Collioure Clos du Moulin,750ml,"France, Languedoc-Roussillon, Collioure",1,40,Light label condition issue,France,False,False,False,False,keep,Red,pass6 correction: 'Mas Blanc' is the estate name; Collioure Clos du Moulin is a red -- proprietor-name colour trap,FR
+10896049,2021,Domaine du Pegau Chateauneuf du Pape Cuvee Laurence,750ml,"France, Rhône Valley, Southern Rhône",1,95,Light label condition issue,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10895424,2019,Domaine du Vieux Telegraphe Châteauneuf-du-Pape,750ml,"France, Rhône Valley, Southern Rhône",2,75,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10896225,2023,Domaine du Vieux Telegraphe Châteauneuf-du-Pape,750ml,"France, Rhône Valley, Southern Rhône",1,75,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10896250,2023,Domaine du Vieux Telegraphe Châteauneuf-du-Pape,750ml,"France, Rhône Valley, Southern Rhône",1,75,Light label condition issue,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10896266,2022,Domaine Grand Veneur Châteauneuf-du-Pape Vieilles Vignes,750ml,"France, Rhône Valley, Southern Rhône",2,40,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10895434,2017,Domaine Guiberteau Saumur Bizay Les Chapaudaises,1.5ltr,"France, Loire Valley, Saumur",1,90,,France,False,False,False,False,keep,Red,"pass6 correction: Guiberteau Saumur Les Chapaudaises is Saumur Rouge (Cabernet Franc), confirmed by Wine-Searcher listing name",FR
+10896053,2022,Domaine Jean Monnier & Fils Pommard Grand Épenots Clos de Citeaux,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,keep,Red,pass2: Pommard is a red-only appellation,FR
+10895567,2005,Domaine Le Clos du Caillou Chateauneuf du Pape Les Quartz,750ml,"France, Rhône Valley, Southern Rhône",3,60,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10895449,2008,Domaine Michel Niellon Chassagne-Montrachet Les Vergers,750ml,"France, Burgundy, Côte d'Or",2,85,,France,False,False,False,False,keep,White,pass6 manual: Niellon's Les Vergers is a white Chassagne 1er cru -- moderate confidence,FR
+10889424,2007,Domaine Parent Pommard Les Argillières,750ml,"France, Burgundy, Côte d'Or",1,65,,France,False,False,False,False,keep,Red,pass2: Pommard is a red-only appellation,FR
+10896436,2017,Domaine Taupenot-Merme Corton Le Rognet,750ml,"France, Burgundy, Côte d'Or",2,120,,France,False,False,False,False,keep,Red,pass2: bare Corton (not Corton-Charlemagne) is predominantly red,FR
+10896354,2021,Domaine Tempier Bandol Rosé,750ml,"France, Provence, Bandol",20,45,,France,False,False,False,False,keep,Rose,rose colour word,FR
+10895666,2019,Dominio de Calogía Ribera del Duero,750ml,"Spain, Castilla-Leon, Ribera del Duero",1,45,,Spain,False,False,False,False,keep,Red,pass2: Ribera del Duero is essentially all red Tempranillo,ES
+10896163,2020,Dominio de Calogía Ribera del Duero,750ml,"Spain, Castilla-Leon, Ribera del Duero",3,45,,Spain,False,False,False,False,keep,Red,pass2: Ribera del Duero is essentially all red Tempranillo,ES
+10896119,2021,Dominio de Calogía Ribera del Duero,750ml,"Spain, Castilla-Leon, Ribera del Duero",1,60,Light label condition issue,Spain,False,False,False,False,keep,Red,pass2: Ribera del Duero is essentially all red Tempranillo,ES
+10896117,2018,Dominio de Pingus Flor de Pingus,750ml,"Spain, Castilla-Leon, Ribera del Duero",1,80,,Spain,False,False,False,False,keep,Red,pass2: Ribera del Duero is essentially all red Tempranillo,ES
+10896122,2022,Dominio de Pingus Flor de Pingus,750ml,"Spain, Castilla-Leon, Ribera del Duero",1,115,,Spain,False,False,False,False,keep,Red,pass2: Ribera del Duero is essentially all red Tempranillo,ES
+10895902,2023,Dominio de Pingus Flor de Pingus,750ml,"Spain, Castilla-Leon, Ribera del Duero",1,95,Light label condition issue,Spain,False,False,False,False,keep,Red,pass2: Ribera del Duero is essentially all red Tempranillo,ES
+10896030,2019,Donnafugata Etna Rosso Fragore,750ml,"Italy, Sicily, Etna",1,55,Light label condition issue,Italy,False,False,False,False,keep,Red,red colour word,IT
+10895913,NV,Drappier Brut Rosé de Saignee,750ml,"France, Champagne",1,40,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896365,2020,E. Guigal Condrieu la Doriane,750ml,"France, Rhône Valley, Northern Rhône",4,95,,France,False,False,False,False,keep,White,pass2: Condrieu is white-only Viognier,FR
+10895826,2021,Edouard Delaunay & Ses Fils Pommard Les Chaponnieres,750ml,"France, Burgundy, Côte d'Or",1,45,Light label condition issue,France,False,False,False,False,keep,Red,pass2: Pommard is a red-only appellation,FR
+10895642,1995,Elio Altare Barolo Brunate,750ml,"Italy, Piedmont, Barolo",2,85,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895608,1997,Elio Altare Langhe Arborina,750ml,"Italy, Piedmont, Langhe",6,50,,Italy,False,False,False,False,keep,Red,"pass2: Elio Grasso Langhe bottling -- red-focused producer, no colour word present (hedged)",IT
+10895625,1997,Elio Altare Langhe La Villa,750ml,"Italy, Piedmont, Langhe",3,50,,Italy,False,False,False,False,keep,Red,"pass2: Elio Grasso Langhe bottling -- red-focused producer, no colour word present (hedged)",IT
+10895623,1997,Elio Altare Larigi,750ml,"Italy, Piedmont, Langhe",1,50,,Italy,False,False,False,False,keep,Red,"pass2: Elio Grasso Langhe bottling -- red-focused producer, no colour word present (hedged)",IT
+10896267,2014,Espectacle Montsant,750ml,"Spain, Cataluna, Tarragona",1,60,Light label condition issue,Spain,False,False,False,False,keep,Red,pass6 manual: Montsant Garnacha/Carinena red,ES
+10895758,2017,Espectacle Montsant,750ml,"Spain, Cataluna, Tarragona",5,60,Light label condition issue,Spain,False,False,False,False,keep,Red,pass6 manual: Montsant Garnacha/Carinena red,ES
+10896121,2017,Espectacle Montsant,750ml,"Spain, Cataluna, Tarragona",1,60,,Spain,False,False,False,False,keep,Red,pass6 manual: Montsant Garnacha/Carinena red,ES
+10895797,2019,Espectacle Montsant,750ml,"Spain, Cataluna, Tarragona",1,85,Light label condition issue,Spain,False,False,False,False,keep,Red,pass6 manual: Montsant Garnacha/Carinena red,ES
+10895917,2019,Espectacle Montsant,750ml,"Spain, Cataluna, Tarragona",1,85,,Spain,False,False,False,False,keep,Red,pass6 manual: Montsant Garnacha/Carinena red,ES
+10896325,2021,Faiveley Chambolle-Musigny,750ml,"France, Burgundy, Côte d'Or",5,80,,France,False,False,False,False,keep,Red,pass2: Chambolle-Musigny is red-only,FR
+10896326,2021,Faiveley Meursault,750ml,"France, Burgundy, Côte d'Or",3,55,,France,False,False,False,False,keep,White,white appellation default,FR
+10896350,2020,Famille Isabel Ferrando Châteauneuf-du-Pape Saint Préfert,750ml,"France, Rhône Valley, Southern Rhône",10,50,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10889414,2016,Fanti Brunello di Montalcino Vallocchio,750ml,"Italy, Tuscany, Brunello di Montalcino",1,50,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896109,2019,Fattoria Dei Barbi Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",3,50,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895657,1993,Fattoria di Felsina Chianti Classico Riserva Rancia,750ml,"Italy, Tuscany, Chianti Classico",3,50,Very top shoulder fill,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895658,1993,Fattoria di Felsina Chianti Classico Riserva Rancia,750ml,"Italy, Tuscany, Chianti Classico",3,50,Base neck fill,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895581,1997,Fattoria di Felsina Chianti Classico Riserva Rancia,750ml,"Italy, Tuscany, Chianti Classico",4,55,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895645,1999,Fattoria di Felsina Fontalloro,750ml,"Italy, Tuscany",3,45,,Italy,False,False,False,False,keep,Red,pass6 manual: 100% Sangiovese Super Tuscan red,IT
+10896085,2021,Fattoria Petrolo Vigna Boggina C Riserva,750ml,"Italy, Tuscany, Val d’Arno di Sopra",1,45,,Italy,False,False,False,False,keep,Red,pass6 manual: Sangiovese from Val d’Arno di Sopra -- red,IT
+10895711,2019,Fontodi Chianti Classico,750ml,"Italy, Tuscany, Chianti Classico",1,40,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895689,2020,Fontodi Chianti Classico,750ml,"Italy, Tuscany, Chianti Classico",1,35,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895782,2018,Fontodi Chianti Classico Gran Selezione Vigna del Sorbo,750ml,"Italy, Tuscany, Chianti Classico",1,70,Light label condition issue,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895990,2019,Fontodi Chianti Classico Gran Selezione Vigna del Sorbo,750ml,"Italy, Tuscany, Chianti Classico",1,55,Label condition issue,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896088,2019,Fontodi Chianti Classico Gran Selezione Vigna del Sorbo,750ml,"Italy, Tuscany, Chianti Classico",1,55,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895783,2020,Fontodi Chianti Classico Gran Selezione Vigna del Sorbo,750ml,"Italy, Tuscany, Chianti Classico",5,55,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10889457,NV,Frank Cornelissen Munjebel  Perpetuum I,750ml,"Italy, Sicily",1,70,,Italy,False,False,False,False,keep,Red,"pass6 manual: Munjebel Rosso perpetual blend of Nerello Mascalese -- hedged to red (a Munjebel Bianco also exists), moderate confidence",IT
+10889452,2017,Frank Cornelissen Munjebel Bianco,750ml,"Italy, Sicily, Terre Siciliane",3,45,,Italy,False,False,False,False,keep,White,"pass6 correction: Bianco declared; Cornelissen macerates whites on skins but is not on the established-orange list -- hedged White, moderate confidence",IT
+10889411,2017,Frank Cornelissen Munjebel Rosso,750ml,"Italy, Sicily",1,45,,Italy,False,False,False,False,keep,Red,red colour word,IT
+10889413,2018,Frank Cornelissen Munjebel Rosso,750ml,"Italy, Sicily",12,45,,Italy,False,False,False,False,keep,Red,red colour word,IT
+10889501,2016,Frank Cornelissen Munjebel Rosso CR,750ml,"Italy, Sicily, Terre Siciliane",1,65,,Italy,False,False,False,False,keep,Red,red colour word,IT
+10889458,2017,Frank Cornelissen Munjebel Rosso CR,750ml,"Italy, Sicily, Terre Siciliane",1,60,,Italy,False,False,False,False,keep,Red,red colour word,IT
+10889503,2016,Frank Cornelissen Munjebel Rosso CS,750ml,"Italy, Sicily",3,55,,Italy,False,False,False,False,keep,Red,red colour word,IT
+10889502,2017,Frank Cornelissen Munjebel Rosso CS,750ml,"Italy, Sicily",1,55,,Italy,False,False,False,False,keep,Red,red colour word,IT
+10889504,2017,Frank Cornelissen Munjebel Rosso FM,750ml,"Italy, Sicily, Terre Siciliane",2,60,,Italy,False,False,False,False,keep,Red,red colour word,IT
+10889412,2017,Frank Cornelissen Munjebel Rosso MC,750ml,"Italy, Sicily",1,70,Light label condition issue,Italy,False,False,False,False,keep,Red,red colour word,IT
+10889453,2018,Frank Cornelissen Nerello Mascalese Susucaru,750ml,"Italy, Sicily, Terre Siciliane",6,35,,Italy,False,False,False,False,keep,Rose,pass6 manual: Susucaru is Cornelissen’s Etna rosato (Nerello Mascalese) -- moderate-high confidence,IT
+10889456,2018,Frank Cornelissen Susucaru Rosato,750ml,"Italy, Sicily",15,25,,Italy,False,False,False,False,keep,Rose,rose colour word,IT
+10889455,2019,Frank Cornelissen Susucaru Rosato,750ml,"Italy, Sicily",2,35,,Italy,False,False,False,False,keep,Rose,rose colour word,IT
+10889454,2021,Frank Cornelissen Susucaru Rosato,750ml,"Italy, Sicily",2,30,,Italy,False,False,False,False,keep,Rose,rose colour word,IT
+10896458,2018,Fugue de Nenin,750ml,"France, Bordeaux, Pomerol",1,35,Light label condition issue,France,False,False,False,False,keep,Red,pass6 manual: Pomerol second wine of Ch. Nenin -- red only,FR
+10896142,2017,Fuligni Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,60,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895727,NV,G.H. Mumm Brut Grand Cordon,750ml,"France, Champagne",1,30,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895851,NV,G.H. Mumm Brut Grand Cordon Rose,750ml,"France, Champagne",7,35,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896327,2019,Gagnard-Delagrange Chassagne-Montrachet La Boudriotte,750ml,"France, Burgundy, Côte d'Or",8,75,,France,False,False,False,False,keep,White,"pass6 manual: Gagnard-Delagrange Boudriotte is best known as white; a red also exists -- hedged, moderate confidence",FR
+10896158,2020,Gaja Barolo Dagromis,750ml,"Italy, Piedmont, Barolo",1,85,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896275,2021,Gaja Barolo Dagromis,750ml,"Italy, Piedmont, Barolo",1,80,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896141,2021,Gaja Ca'Marcanda Magari,750ml,"Italy, Tuscany",1,50,Light label condition issue,Italy,False,False,False,False,keep,Red,pass6 manual: Bolgheri Bordeaux-blend red,IT
+10895860,2022,Gaja Ca'Marcanda Magari,750ml,"Italy, Tuscany",2,55,Light label condition issue,Italy,False,False,False,False,keep,Red,pass6 manual: Bolgheri Bordeaux-blend red,IT
+10896251,2017,Gaja Ca'Marcanda Promis,750ml,"Italy, Tuscany",1,40,Light label condition issue,Italy,False,False,False,False,keep,Red,pass6 manual: Bolgheri Merlot/Syrah/Sangiovese red,IT
+10895947,2023,Gaja Ca'Marcanda Promis,750ml,"Italy, Tuscany",5,45,,Italy,False,False,False,False,keep,Red,pass6 manual: Bolgheri Merlot/Syrah/Sangiovese red,IT
+10895809,2022,Gaja Sito Moresco,750ml,"Italy, Piedmont, Langhe",1,55,Light label condition issue,Italy,False,False,False,False,keep,Red,"pass2: Elio Grasso Langhe bottling -- red-focused producer, no colour word present (hedged)",IT
+10896366,2010,Galardi Terra di Lavoro,750ml,"Italy, Campania",2,80,,Italy,False,False,False,False,keep,Red,pass6 manual: Aglianico/Piedirosso Campania red,IT
+10896439,2012,Galardi Terra di Lavoro,750ml,"Italy, Campania",2,40,,Italy,False,False,False,False,keep,Red,pass6 manual: Aglianico/Piedirosso Campania red,IT
+10896367,2012,Galardi Terra di Lavoro,750ml,"Italy, Campania",1,40,Light label condition issue,Italy,False,False,False,False,keep,Red,pass6 manual: Aglianico/Piedirosso Campania red,IT
+10896103,2018,Georges Vigouroux Chateau De Mercues Cahors Malbec,750ml,"France, Southwest France, Cahors",2,20,,France,False,False,False,False,keep,Red,red appellation default,FR
+10895629,2003,Giacomo Conterno Barbera d'Alba Francia,750ml,"Italy, Piedmont, Barbera di Alba",7,80,,Italy,False,False,False,False,keep,Red,pass2: Barbera is a red grape,IT
+10895628,1999,Giacomo Conterno Dolcetto d'Alba Cascina Francia,750ml,"Italy, Piedmont, Dolcetto d'Alba",10,50,,Italy,False,False,False,False,keep,Red,pass2: Dolcetto is a red grape,IT
+10896095,2018,Gil Family Estates Touran Garnacha,750ml,"Spain, Aragon, Campo De Borja",1,50,Light label condition issue,Spain,False,False,False,False,keep,Red,pass6 manual: Garnacha -- red,ES
+10896304,2007,Gonet-Médeville Extra Brut Grand Cru Champ d'Alouette,750ml,"France, Champagne, Côte des Blancs",31,110,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896463,NV,Gosset Grande Reserve,1.5ltr,"France, Champagne",3,90,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895669,2021,Grattamacco Bolgheri Superiore Grattamacco,750ml,"Italy, Tuscany, Bolgheri",3,80,,Italy,False,False,False,False,keep,Red,pass6 manual: Bolgheri Superiore is red,IT
+10895452,2014,Guy Amiot et Fils B.G.O (Bourgogne Grand Ordinaire) Chardonnay,750ml,"France, Burgundy",4,25,,France,False,False,False,False,keep,White,pass6 manual: Chardonnay explicitly named,FR
+10889603,NV,Heidsieck & CO Monopole Blue Top Brut,750ml,"France, Champagne",1,50,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10889418,2005,Henri et Gilles Remoriquet Nuits-St.-Georges Les Saint-Georges,750ml,"France, Burgundy, Côte d'Or",1,60,,France,False,False,False,False,keep,Red,pass2: Nuits-St-Georges is red-only,FR
+10895444,1993,Henri Perrot-Minot Chambolle Musigny La Combe d'Orveau,750ml,"France, Burgundy, Côte d'Or",1,145,"Light capsule condition issue
+Light label condition issue",France,False,False,False,False,keep,Red,pass2: Chambolle-Musigny is red-only,FR
+10896027,2017,Il Poggione Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,50,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896026,2019,Il Poggione Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",4,55,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895823,2019,Il Poggione Brunello di Montalcino Riserva,750ml,"Italy, Tuscany, Brunello di Montalcino",1,80,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895598,2007,Isole e Olena Cepparello,750ml,"Italy, Tuscany",3,100,,Italy,False,False,False,False,keep,Red,pass5 manual: 100% Sangiovese Super Tuscan red,IT
+10895492,2002,Jean Boillot & Fils Puligny-Montrachet Clos de la Mouchere,750ml,"France, Burgundy, Côte d'Or",3,135,,France,False,False,False,False,keep,White,pass2: Puligny-Montrachet is white-only,FR
+10895484,2002,Jean Boillot & Fils Puligny-Montrachet Les Perrières,750ml,"France, Burgundy, Côte d'Or",3,80,,France,False,False,False,False,keep,White,pass2: Puligny-Montrachet is white-only,FR
+10896440,2020,Jean Foillard Morgon Côte du Py,750ml,"France, Beaujolais, Morgon",6,50,,France,False,False,False,False,keep,Red,pass2: Beaujolais/cru Beaujolais (Gamay) is red,FR
+10896220,2017,Jean Pascal & Fils Puligny Montrachet,750ml,"France, Burgundy, Côte d'Or",1,50,Light label condition issue,France,False,False,False,False,keep,White,pass2: Puligny-Montrachet is white-only,FR
+10896269,2017,Jean Pascal & Fils Puligny-Montrachet Les Enseignères,750ml,"France, Burgundy, Côte d'Or",1,60,Light label condition issue,France,False,False,False,False,keep,White,pass2: Puligny-Montrachet is white-only,FR
+10896384,2019,Jean-Claude Ramonet Bouzeron,750ml,"France, Burgundy, Côte Chalonnaise",5,40,,France,False,False,False,False,keep,White,pass6 manual: Bouzeron is the Aligote appellation -- white,FR
+10896386,2021,Jean-Marc Boillot Montagny 1er Cru,750ml,"France, Burgundy, Côte Chalonnaise",6,35,,France,False,False,False,False,keep,White,pass2: Montagny is a white-only Cote Chalonnaise appellation,FR
+10896332,2018,Joseph Colin Saint-Aubin Les Combes,750ml,"France, Burgundy, Côte d'Or",7,65,,France,False,False,False,False,keep,White,"pass6 manual: Joseph Colin is a white-focused Saint-Aubin/Chassagne grower -- hedged, matches Saint-Aubin white precedent",FR
+10896331,2018,Joseph Colin Saint-Aubin Les Combes,750ml,"France, Burgundy, Côte d'Or",1,65,Light label condition issue,France,False,False,False,False,keep,White,"pass6 manual: Joseph Colin is a white-focused Saint-Aubin/Chassagne grower -- hedged, matches Saint-Aubin white precedent",FR
+10895801,2023,Joseph Drouhin Puligny-Montrachet,750ml,"France, Burgundy, Côte d'Or",2,70,Light label condition issue,France,False,False,False,False,keep,White,pass2: Puligny-Montrachet is white-only,FR
+10896258,NV,Joseph Perrier Brut Blanc de Blancs,750ml,"France, Champagne",1,35,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896044,2008,Joseph Perrier Brut Cuvee Royale,1.5ltr,"France, Champagne",1,140,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895931,NV,Joseph Perrier Brut Cuvee Royale,1.5ltr,"France, Champagne",2,70,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895950,NV,Joseph Perrier Brut Cuvee Royale Blanc de Blancs,750ml,"France, Champagne",1,35,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895911,NV,Joseph Perrier Cuvee Royale Brut Rose,750ml,"France, Champagne",4,30,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896032,NV,Joseph Perrier Cuvee Royale Brut Rose,1.5ltr,"France, Champagne",2,60,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896226,2015,Joseph Perrier Extra Brut Cuvee Royale,750ml,"France, Champagne",1,45,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895895,2018,Joseph Perrier Extra Brut Cuvee Royale,750ml,"France, Champagne",3,40,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895888,2018,Joseph Perrier Extra Brut Cuvee Royale,1.5ltr,"France, Champagne",2,80,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895262,2014,L. Aubry Fils Le Nombre d'Or Campanae Veteres Vites Sablé Blanc des Blancs,750ml,"France, Champagne",2,60,"Light capsule condition issue
+Light label condition issue",France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895753,2022,La Clarte De Haut Brion,750ml,"France, Bordeaux, Graves",1,85,,France,False,False,False,False,keep,White,pass6 manual: second white of Ch. Haut-Brion (Graves blanc),FR
+10896113,2022,La Clarte De Haut Brion,750ml,"France, Bordeaux, Graves",1,85,Light label condition issue,France,False,False,False,False,keep,White,pass6 manual: second white of Ch. Haut-Brion (Graves blanc),FR
+10896221,2023,La Clarte De Haut Brion,750ml,"France, Bordeaux, Graves",2,80,Light label condition issue,France,False,False,False,False,keep,White,pass6 manual: second white of Ch. Haut-Brion (Graves blanc),FR
+10889600,2014,La Croix de Beaucaillou,750ml,"France, Bordeaux, St.-Julien",12,50,,France,False,False,False,False,keep,Red,pass2: St-Julien (Ducru-Beaucaillou second label) -- red,FR
+10896408,2018,La Dame de Montrose,750ml,"France, Bordeaux, St.-Estephe",7,55,,France,False,False,False,False,keep,Red,pass2: St-Estephe (Montrose second label) -- red; NOT a rose (word-bounded),FR
+10895915,2016,La Rioja Alta Gran Reserva 904,750ml,"Spain, Rioja",4,80,,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10895903,2015,La Rioja Alta Gran Reserva 904 Seleccion Especial,750ml,"Spain, Rioja",1,85,,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10895659,2001,La Rioja Alta Vina Ardanza Rioja Reserva,750ml,"Spain, Rioja",4,95,,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10896450,2015,La Rioja Alta Vina Ardanza Rioja Reserva,750ml,"Spain, Rioja",3,50,,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10895914,NV,Lanson Brut Green Label,750ml,"France, Champagne",1,40,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896135,NV,Lanson Brut Green Label,750ml,"France, Champagne",1,40,Light label condition issue,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895894,NV,Laurent-Perrier Brut La Cuvee,750ml,"France, Champagne",7,40,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896170,NV,Laurent-Perrier Brut La Cuvee,750ml,"France, Champagne",1,40,Light label condition issue,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895952,NV,Laurent-Perrier Brut La Cuvee,1.5ltr,"France, Champagne",3,60,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896043,NV,Laurent-Perrier Brut La Cuvee,1.5ltr,"France, Champagne",2,60,Light label condition issue,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895893,NV,Laurent-Perrier Cuvee Rose Brut,750ml,"France, Champagne",1,60,Light label condition issue,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896161,NV,Laurent-Perrier Cuvee Rose Brut,750ml,"France, Champagne",1,60,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896355,2016,Le Ragnaie Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",4,75,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895640,1996,Les Cailloux (Brunel) Chateauneuf de Pape,750ml,"France, Rhône Valley, Southern Rhône",1,40,,France,False,False,False,False,keep,Red,pass5 manual: bare Chateauneuf-du-Pape (typo 'de Pape' broke the pass-2 regex) -- predominantly red,FR
+10895643,1998,Les Cailloux (Brunel) Chateauneuf de Pape,750ml,"France, Rhône Valley, Southern Rhône",11,35,,France,False,False,False,False,keep,Red,pass5 manual: bare Chateauneuf-du-Pape (typo 'de Pape' broke the pass-2 regex) -- predominantly red,FR
+10895644,2007,Les Cailloux (Brunel) Chateauneuf de Pape,750ml,"France, Rhône Valley, Southern Rhône",3,50,,France,False,False,False,False,keep,Red,pass5 manual: bare Chateauneuf-du-Pape (typo 'de Pape' broke the pass-2 regex) -- predominantly red,FR
+10896305,2020,Les Hauts De Smith Blanc,750ml,"France, Bordeaux, Graves",6,50,,France,False,False,False,False,keep,White,white colour word,FR
+10890359,2012,Lopez de Heredia Rioja Vina Tondonia Reserva,750ml,"Spain, Rioja",2,60,,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10889621,2004,Louis Affre Corton-Charlemagne,750ml,"France, Burgundy, Côte d'Or",1,75,,France,False,False,False,False,keep,White,pass2: Corton-Charlemagne is white-only,FR
+10890361,2009,Louis Boillot & Fils Beaune Les Epenottes,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,keep,Red,pass2: bare Beaune premier cru (no Blanc stated) -- predominantly red,FR
+10889421,2006,Louis Boillot & Fils Gevrey-Chambertin Les Champonnet,750ml,"France, Burgundy, Côte d'Or",1,85,,France,False,False,False,False,keep,Red,pass2: Gevrey-Chambertin is red-only,FR
+10890362,2020,Louis Boillot & Fils Volnay Les Angles,750ml,"France, Burgundy, Côte d'Or",1,50,Light label condition issue,France,False,False,False,False,keep,Red,pass2: Volnay is red-only,FR
+10896252,2019,Louis Latour Beaune Perrières,750ml,"France, Burgundy, Côte d'Or",1,55,Light label condition issue,France,False,False,False,False,keep,Red,pass2: bare Beaune premier cru (no Blanc stated) -- predominantly red,FR
+10889559,1999,Louis Latour Gevrey Chambertin,750ml,"France, Burgundy, Côte d'Or",1,45,,France,False,False,False,False,keep,Red,pass2: Gevrey-Chambertin is red-only,FR
+10889584,1999,Louis Latour Gevrey Chambertin,750ml,"France, Burgundy, Côte d'Or",1,45,Light label condition issue,France,False,False,False,False,keep,Red,pass2: Gevrey-Chambertin is red-only,FR
+10896195,2016,Louis Latour Meursault,750ml,"France, Burgundy, Côte d'Or",4,45,Light label condition issue,France,False,False,False,False,keep,White,white appellation default,FR
+10896132,2016,Louis Latour Meursault,750ml,"France, Burgundy, Côte d'Or",2,45,,France,False,False,False,False,keep,White,white appellation default,FR
+10895955,2022,Louis Latour Meursault,750ml,"France, Burgundy, Côte d'Or",2,50,,France,False,False,False,False,keep,White,white appellation default,FR
+10896153,2024,Louis Latour Meursault,750ml,"France, Burgundy, Côte d'Or",1,55,,France,False,False,False,False,keep,White,white appellation default,FR
+10896364,2021,Louis Michel Chablis Montée de Tonnerre,750ml,"France, Burgundy, Chablis",6,45,,France,False,False,False,False,keep,White,white appellation default,FR
+10896447,2011,Louis Nicaise Extra Brut Premier Cru Millesime,750ml,"France, Champagne",2,55,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895876,2021,Luce della Vite Toscana Luce,750ml,"Italy, Tuscany",4,80,,Italy,False,False,False,False,keep,Red,pass6 manual: Sangiovese/Merlot Montalcino-area red,IT
+10890239,2022,Luce della Vite Toscana Luce,750ml,"Italy, Tuscany",12,50,,Italy,False,False,False,False,keep,Red,pass6 manual: Sangiovese/Merlot Montalcino-area red,IT
+10896261,2022,Luce della Vite Toscana Luce,750ml,"Italy, Tuscany",1,50,,Italy,False,False,False,False,keep,Red,pass6 manual: Sangiovese/Merlot Montalcino-area red,IT
+10896115,2021,Luciano Sandrone Barolo Aleste,750ml,"Italy, Piedmont, Barolo",1,90,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896114,2017,Luciano Sandrone Barolo Le Vigne,750ml,"Italy, Piedmont, Barolo",1,90,Light label condition issue,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10889567,2019,Lucien Belland-Tremeau Chassagne-Montrachet Les Embrazées,750ml,"France, Burgundy, Côte d'Or",2,65,Light label condition issue,France,False,False,False,False,keep,Red,"pass6 manual: Les Embrazees is a red-leaning Chassagne 1er cru climat -- hedged, low confidence",FR
+10895550,2001,Luigi Pira Barolo Vigna  Marenca,750ml,"Italy, Piedmont, Barolo",7,80,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895349,2022,M. Chapoutier Chateauneuf du Pape La Bernardine,750ml,"France, Rhône Valley, Southern Rhône",3,40,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10896050,NV,M. Hostomme Extra Brut Perfect Blanc de Blancs,750ml,"France, Champagne",2,40,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895958,2024,Marc Bonadieu Cotes-du-Rhone Blanc,750ml,"France, Rhône Valley, Southern Rhône",1,15,,France,False,False,False,False,keep,White,white colour word,FR
+10896108,2020,Marchesi Antinori Brunello di Montalcino Pian delle Vigne,750ml,"Italy, Tuscany, Brunello di Montalcino",1,60,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895688,2016,Marchesi Antinori Chianti Classico Badia a Passignano Gran Selezione,750ml,"Italy, Tuscany, Chianti Classico",1,55,Light label condition issue,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895897,2019,Marchesi Antinori Guado Al Tasso,750ml,"Italy, Tuscany",1,110,,Italy,False,False,False,False,keep,Red,pass3: Antinori's Bolgheri flagship -- a red Bordeaux-blend Super Tuscan,IT
+10896084,2019,Marchesi Antinori Guado Al Tasso,750ml,"Italy, Tuscany",1,110,Light label condition issue,Italy,False,False,False,False,keep,Red,pass3: Antinori's Bolgheri flagship -- a red Bordeaux-blend Super Tuscan,IT
+10895996,2023,Marchesi Antinori Rosso di Montalcino Pian delle Vigne,750ml,"Italy, Tuscany, Rosso di Montalcino",1,20,,Italy,False,False,False,False,keep,Red,red colour word,IT
+10895997,2023,Marchesi Antinori Rosso di Montalcino Pian delle Vigne,750ml,"Italy, Tuscany, Rosso di Montalcino",1,20,Light label condition issue,Italy,False,False,False,False,keep,Red,red colour word,IT
+10896127,2019,Marchesi di Barolo Barolo Cannubi,750ml,"Italy, Piedmont, Barolo",1,65,Light label condition issue,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896263,2019,Marchesi di Frescobaldi Castelgiocondo Brunello di Montalcino Riserva,750ml,"Italy, Tuscany, Brunello di Montalcino",1,80,Light label condition issue,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896215,2019,Marques de Murrieta Ygay Rioja Blanco Capellania,750ml,"Spain, Rioja",1,75,,Spain,False,False,False,False,keep,White,white colour word,ES
+10895786,2017,Marques de Riscal Rioja Gran Reserva 150 Aniversario,750ml,"Spain, Rioja",1,65,Light label condition issue,Spain,False,False,False,False,keep,Red,red appellation default,ES
+10890366,2019,Marquis d'Angerville Volnay Clos des Angles,750ml,"France, Burgundy, Côte d'Or",2,110,,France,False,False,False,False,keep,Red,pass2: Volnay is red-only,FR
+10895803,2021,Mas Martinet Cami Pesseroles,750ml,"Spain, Cataluna, Priorato",1,60,,Spain,False,False,False,False,keep,Red,pass6 manual: Priorat red -- all-red portfolio,ES
+10895918,2021,Mas Martinet Cami Pesseroles,750ml,"Spain, Cataluna, Priorato",1,60,Light label condition issue,Spain,False,False,False,False,keep,Red,pass6 manual: Priorat red -- all-red portfolio,ES
+10895760,2017,Mas Martinet Clos Martinet Priorat,750ml,"Spain, Cataluna, Priorato",1,60,Label condition issue,Spain,False,False,False,False,keep,Red,pass5 manual: Priorat red,ES
+10896149,2020,Mas Martinet Clos Martinet Priorat,750ml,"Spain, Cataluna, Priorato",1,55,Light label condition issue,Spain,False,False,False,False,keep,Red,pass5 manual: Priorat red,ES
+10895695,2017,Masi Costasera Amarone della Valpolicella Classico,750ml,"Italy, Veneto, Amarone della Valpolicella",4,40,,Italy,False,False,False,False,keep,Red,"pass2: Amarone/Ripasso are red, dried-grape Corvina-based",IT
+10896004,2018,Masi Costasera Amarone della Valpolicella Classico,750ml,"Italy, Veneto, Amarone della Valpolicella",3,35,,Italy,False,False,False,False,keep,Red,"pass2: Amarone/Ripasso are red, dried-grape Corvina-based",IT
+10896078,2018,Masi Costasera Amarone della Valpolicella Classico,750ml,"Italy, Veneto, Amarone della Valpolicella",2,35,Light label condition issue,Italy,False,False,False,False,keep,Red,"pass2: Amarone/Ripasso are red, dried-grape Corvina-based",IT
+10895735,2019,Masi Costasera Amarone della Valpolicella Classico,750ml,"Italy, Veneto, Amarone della Valpolicella",23,35,,Italy,False,False,False,False,keep,Red,"pass2: Amarone/Ripasso are red, dried-grape Corvina-based",IT
+10895921,2019,Masi Costasera Amarone della Valpolicella Classico,750ml,"Italy, Veneto, Amarone della Valpolicella",4,35,Light label condition issue,Italy,False,False,False,False,keep,Red,"pass2: Amarone/Ripasso are red, dried-grape Corvina-based",IT
+10896173,2019,Masi Costasera Amarone della Valpolicella Classico,750ml,"Italy, Veneto, Amarone della Valpolicella",1,35,,Italy,False,False,False,False,keep,Red,"pass2: Amarone/Ripasso are red, dried-grape Corvina-based",IT
+10895683,2020,Masi Costasera Amarone della Valpolicella Classico,750ml,"Italy, Veneto, Amarone della Valpolicella",18,35,,Italy,False,False,False,False,keep,Red,"pass2: Amarone/Ripasso are red, dried-grape Corvina-based",IT
+10895832,2020,Masi Costasera Amarone della Valpolicella Classico,750ml,"Italy, Veneto, Amarone della Valpolicella",6,35,Light label condition issue,Italy,False,False,False,False,keep,Red,"pass2: Amarone/Ripasso are red, dried-grape Corvina-based",IT
+10895759,2019,Masi Costasera Amarone della Valpolicella Classico Riserva,750ml,"Italy, Veneto, Amarone della Valpolicella",3,65,,Italy,False,False,False,False,keep,Red,"pass2: Amarone/Ripasso are red, dried-grape Corvina-based",IT
+10896185,2019,Masi Costasera Amarone della Valpolicella Classico Riserva,750ml,"Italy, Veneto, Amarone della Valpolicella",1,65,Capsule condition issue,Italy,False,False,False,False,keep,Red,"pass2: Amarone/Ripasso are red, dried-grape Corvina-based",IT
+10895468,2011,Michel & Stéphane Ogier La Rosine Syrah,750ml,"France, Rhône Valley, Southern Rhône",1,25,,France,False,False,False,False,keep,Red,pass6 manual: Syrah explicitly named,FR
+10896272,2017,Miguel Torres Mas La Plana Black Label Cabernet Sauvignon,750ml,"Spain, Cataluna, Penedès",1,55,,Spain,False,False,False,False,keep,Red,pass6 manual: Cabernet Sauvignon explicitly named,ES
+10895660,1998,Moccagatta Barbaresco Cole,750ml,"Italy, Piedmont, Barbaresco",2,60,,Italy,False,False,False,False,keep,Red,pass2: Barbaresco is a 100% red Nebbiolo DOCG,IT
+10895763,NV,Moet et Chandon Brut Imperial,750ml,"France, Champagne",7,35,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896150,NV,Moet et Chandon Brut Impérial Red Limited Edition,750ml,"France, Champagne",1,45,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895810,NV,Moet et Chandon Demi-Sec Nectar Imperial Rose,750ml,"France, Champagne",9,35,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896259,2015,Moet et Chandon Grand Vintage,750ml,"France, Champagne",2,70,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895850,NV,Moet et Chandon Nectar Impérial Demi Sec,750ml,"France, Champagne",1,40,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895974,NV,Moet et Chandon Nectar Impérial Demi Sec,750ml,"France, Champagne",1,40,Light label condition issue,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895487,1979,Moulin des Carruades,750ml,"France, Bordeaux, Pauillac",1,120,"Light capsule condition issue
+Light label condition issue",France,False,False,False,False,keep,Red,"pass6 manual: Lafite second wine, Pauillac red",FR
+10889569,1964,Moulin Touchais Anjou Doué La Fontaine,750ml,"France, Loire Valley, Anjou",1,110,"Light capsule condition issue
+Light label condition issue",France,False,False,False,False,keep,Dessert,"pass6 manual: Moulin Touchais Anjou is a sweet, long-aged Chenin blanc (Layon-style) -- a Step 1 dessert-screen miss; screen needs a Touchais/Coteaux-de-l’Aubance-style entry",FR
+10895995,NV,Mouzon-Leroux & Fils Grand Cru L'Atavique Tradition,750ml,"France, Champagne",4,40,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896079,NV,Mouzon-Leroux & Fils Grand Cru L'Atavique Tradition,750ml,"France, Champagne",1,40,Light label condition issue,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895919,NV,Nicolas Feuillatte Brut Réserve Exclusive,750ml,"France, Champagne",1,25,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895448,2018,Nicolas Joly Savennieres Clos De La Coulee De Serrant,750ml,"France, Loire Valley, Savennieres",1,110,Light label condition issue,France,False,False,False,False,keep,White,pass6 manual: Savennieres is Chenin blanc; Coulee de Serrant is dry-to-off-dry white (not labelled moelleux),FR
+10896477,2002,Nikolaihof Vinothek Riesling,750ml,"Austria, Niederosterreich, Wachau",6,135,,Austria,False,False,False,False,keep,White,white appellation default,AT
+10895646,2003,Numanthia-Termes Termanthia,750ml,"Spain, Castilla-Leon, Toro",1,120,,Spain,False,False,False,False,keep,Red,pass2: Toro (Spain) is essentially all red Tinta de Toro,ES
+10895626,1998,Paitin de Pasquero(Elia) Barbaresco Sori Paitin,750ml,"Italy, Piedmont, Barbaresco",5,45,,Italy,False,False,False,False,keep,Red,pass2: Barbaresco is a 100% red Nebbiolo DOCG,IT
+10896428,2012,Palmer & Co Brut,750ml,"France, Champagne",2,60,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896089,NV,Palmer & Co Brut Réserve,750ml,"France, Champagne",3,35,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895246,2023,Paul Prieur & Fils Sancerre Mise De Printemps,750ml,"France, Loire Valley, Centre-Loire",1,20,,France,False,False,False,False,keep,White,white appellation default,FR
+10895700,2019,Pavillon de Leoville Poyferre,750ml,"France, Bordeaux, St.-Julien",1,40,,France,False,False,False,False,keep,Red,"pass6 manual: St-Julien second wine, red",FR
+10895701,2019,Pavillon de Leoville Poyferre,750ml,"France, Bordeaux, St.-Julien",1,40,Light label condition issue,France,False,False,False,False,keep,Red,"pass6 manual: St-Julien second wine, red",FR
+10896453,2014,Perrier-Jouet Fleur de Champagne Brut Cuvee Belle Epoque,750ml,"France, Champagne",1,130,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895716,NV,Perrier-Jouet Grand Brut (Label #7),750ml,"France, Champagne",4,40,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895761,NV,Perrier-Jouet Grand Brut (Label #7),750ml,"France, Champagne",2,40,Light label condition issue,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896418,1999,Pierre Usseglio Chateauneuf du Pape Cuvee de Mon Aieul,1.5ltr,"France, Rhône Valley, Southern Rhône",2,140,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10896358,2010,Pierre Usseglio Chateauneuf du Pape Cuvee de Mon Aieul,750ml,"France, Rhône Valley, Southern Rhône",1,95,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10896423,2015,Pierre Usseglio Chateauneuf du Pape Reserve des Deux Freres,750ml,"France, Rhône Valley, Southern Rhône",5,100,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10889419,2020,Pierre Yves Colin-Morey Monthelie Blanc,750ml,"France, Burgundy, Côte d'Or",1,100,,France,False,False,False,False,keep,White,white colour word,FR
+10896062,2020,Pieve Santa Restituta (Gaja) Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",2,70,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896063,2020,Pieve Santa Restituta (Gaja) Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,70,Light label condition issue,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895702,2021,Pio Cesare Barolo,750ml,"Italy, Piedmont, Barolo",6,50,Light label condition issue,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896224,2021,Pio Cesare Barolo,750ml,"Italy, Piedmont, Barolo",1,50,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895933,NV,Piper-Heidsieck Brut Heritage,750ml,"France, Champagne",2,35,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895904,NV,Piper-Heidsieck Cuvee Brut,750ml,"France, Champagne",6,35,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896281,NV,Piper-Heidsieck Cuvee Brut,750ml,"France, Champagne",2,35,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10887950,2004,Podere Le Ripi Brunello di Montalcino Lupi e Sirene,750ml,"Italy, Tuscany, Brunello di Montalcino",1,90,Light label condition issue,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10887951,2004,Podere Le Ripi Brunello di Montalcino Lupi e Sirene,750ml,"Italy, Tuscany, Brunello di Montalcino",1,90,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10887952,2014,Podere Le Ripi Brunello di Montalcino Lupi e Sirene,750ml,"Italy, Tuscany, Brunello di Montalcino",3,75,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10889546,2011,Poggio Amorelli Chianti Classico Riserva,1.5ltr,"Italy, Tuscany, Chianti Classico",1,60,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896455,2015,Pol Roger Brut,750ml,"France, Champagne",2,85,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896324,NV,Pol Roger Brut Réserve,750ml,"France, Champagne",12,50,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896323,NV,Pol Roger Brut Réserve,750ml,"France, Champagne",2,50,Light label condition issue,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896406,NV,Pol Roger Brut Réserve,1.5ltr,"France, Champagne",3,100,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896454,2015,Pol Roger Rosé,750ml,"France, Champagne",3,100,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896228,2020,Prats & Symington Chryseia,750ml,"Portugal, Douro",1,75,Light label condition issue,Portugal,False,False,False,False,keep,Red,pass6 manual: dry Douro table-wine red (not a Port),PT
+10895679,2021,Prats & Symington Chryseia,750ml,"Portugal, Douro",1,75,,Portugal,False,False,False,False,keep,Red,pass6 manual: dry Douro table-wine red (not a Port),PT
+10895543,2006,Produttori del Barbaresco Barbaresco,750ml,"Italy, Piedmont, Barbaresco",2,50,,Italy,False,False,False,False,keep,Red,pass2: Barbaresco is a 100% red Nebbiolo DOCG,IT
+10895542,2006,Produttori del Barbaresco Barbaresco,750ml,"Italy, Piedmont, Barbaresco",1,50,Light label condition issue,Italy,False,False,False,False,keep,Red,pass2: Barbaresco is a 100% red Nebbiolo DOCG,IT
+10895589,2010,Produttori del Barbaresco Barbaresco,750ml,"Italy, Piedmont, Barbaresco",1,45,,Italy,False,False,False,False,keep,Red,pass2: Barbaresco is a 100% red Nebbiolo DOCG,IT
+10895570,2012,Produttori del Barbaresco Barbaresco,750ml,"Italy, Piedmont, Barbaresco",1,50,Light label condition issue,Italy,False,False,False,False,keep,Red,pass2: Barbaresco is a 100% red Nebbiolo DOCG,IT
+10896192,2021,Produttori del Barbaresco Barbaresco Montefico Riserva,750ml,"Italy, Piedmont, Barbaresco",1,65,Light label condition issue,Italy,False,False,False,False,keep,Red,pass2: Barbaresco is a 100% red Nebbiolo DOCG,IT
+10896007,2016,Querciabella Batar,750ml,"Italy, Tuscany",1,65,Light label condition issue,Italy,False,False,False,False,keep,White,"pass6 manual: Batar is Querciabella’s Chardonnay/Pinot Bianco white -- specific-cuvee knowledge, moderate-high confidence",IT
+10896069,2021,Quinta do Vale Meao,750ml,"Portugal, Douro",2,70,,Portugal,False,False,False,False,keep,Red,pass6 manual: dry Douro table-wine red (not a Port),PT
+10896174,2021,Renato Ratti Barolo Marcenasco,750ml,"Italy, Piedmont, Barolo",1,40,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10889646,2013,Renieri Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,50,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895621,1996,Robert Groffier Bourgogne Pinot Noir,750ml,"France, Burgundy, Bourgogne",4,50,,France,False,False,False,False,keep,Red,pass6 manual: Pinot Noir explicitly named,FR
+10895755,2018,Romano Dal Forno Valpolicella Superiore,750ml,"Italy, Veneto",1,95,,Italy,False,False,False,False,keep,Red,pass5 manual: Valpolicella Superiore is red Corvina-based,IT
+10895877,2018,Romano Dal Forno Valpolicella Superiore Vigneto Monte Lodoletta,750ml,"Italy, Veneto, Valpolicella",2,95,Light label condition issue,Italy,False,False,False,False,keep,Red,pass6 manual: Valpolicella Superiore red,IT
+10896083,2021,Rotem & Mounir Saouma Chateauneuf du Pape Blanc Magis,750ml,"France, Rhône Valley, Southern Rhône",1,100,Light label condition issue,France,False,False,False,False,keep,White,white colour word,FR
+10895784,NV,Taittinger Brut La Francaise,750ml,"France, Champagne",26,35,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896016,NV,Taittinger Brut La Francaise,750ml,"France, Champagne",5,35,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896098,NV,Taittinger Brut La Francaise,750ml,"France, Champagne",3,35,Light label condition issue,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895896,NV,Taittinger Brut Réserve Fifa World Cup 26,750ml,"France, Champagne",2,45,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895944,NV,Taittinger Brut Réserve Fifa World Cup 26,750ml,"France, Champagne",1,45,Light label condition issue,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895779,2019,Tenuta Argentiera Bolgheri Superiore,750ml,"Italy, Tuscany, Bolgheri",2,60,,Italy,False,False,False,False,keep,Red,pass6 manual: Bolgheri Superiore red,IT
+10896100,2018,Tenuta Caparzo Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",2,35,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895991,2023,Tenuta San Guido Guidalberto,750ml,"Italy, Tuscany",2,60,,Italy,False,False,False,False,keep,Red,pass4 manual: Tenuta San Guido's (Sassicaia) second wine -- red Cabernet/Sangiovese/Merlot blend,IT
+10889571,2010,Terralsole Brunello di Montalcino Riserva,750ml,"Italy, Tuscany, Brunello di Montalcino",2,65,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10889572,2012,Terralsole Brunello di Montalcino Riserva,750ml,"Italy, Tuscany, Brunello di Montalcino",1,55,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895678,2010,Terralsole Trio,750ml,"Italy, Tuscany",1,25,Light label condition issue,Italy,False,False,False,False,keep,Red,"pass6 manual: Tuscan red blend -- hedged, low-moderate confidence",IT
+10895462,1989,Thierry Bernard-Brussier Monthelie,750ml,"France, Burgundy, Côte d'Or",1,45,"Light capsule condition issue
+Light label condition issue",France,False,False,False,False,keep,Red,pass2: Monthelie is predominantly red,FR
+10896421,2020,Thierry et Pascale Matrot Blagny La Pièce Sous le Bois,750ml,"France, Burgundy, Côte d'Or",6,65,,France,False,False,False,False,keep,Red,"pass6 manual: Blagny 1er cru La Piece sous le Bois is a red (Pinot Noir) bottling -- hedged, moderate confidence",FR
+10896422,2018,Thierry et Pascale Matrot Volnay Santenots,750ml,"France, Burgundy, Côte d'Or",5,65,,France,False,False,False,False,keep,Red,pass2: Volnay is red-only,FR
+10895971,2015,Trimbach Riesling Cuvee Frederic-Emile,750ml,"France, Alsace",1,80,Light label condition issue,France,False,False,False,False,keep,White,white appellation default,FR
+10896101,2016,Trimbach Riesling Cuvee Frederic-Emile,750ml,"France, Alsace",1,95,,France,False,False,False,False,keep,White,white appellation default,FR
+10895979,2017,Trimbach Riesling Cuvee Frederic-Emile,750ml,"France, Alsace",1,80,,France,False,False,False,False,keep,White,white appellation default,FR
+10896476,2019,Trimbach Riesling Schlossberg,750ml,"France, Alsace, Schlossberg",5,70,,France,False,False,False,False,keep,White,white appellation default,FR
+10890371,2019,Uccelliera Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,65,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895827,2020,Vega Sicilia Alion,750ml,"Spain, Castilla-Leon, Ribera del Duero",2,130,Light label condition issue,Spain,False,False,False,False,keep,Red,pass2: Ribera del Duero is essentially all red Tempranillo,ES
+10896124,2021,Vega Sicilia Alion,750ml,"Spain, Castilla-Leon, Ribera del Duero",3,80,Light label condition issue,Spain,False,False,False,False,keep,Red,pass2: Ribera del Duero is essentially all red Tempranillo,ES
+10896052,2021,Vega Sicilia Alion,750ml,"Spain, Castilla-Leon, Ribera del Duero",2,80,,Spain,False,False,False,False,keep,Red,pass2: Ribera del Duero is essentially all red Tempranillo,ES
+10896134,NV,Veuve A. Devaux Coeur des Bar Blanc de Blancs,750ml,"France, Champagne",1,45,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10889601,NV,Veuve Clicquot Ponsardin Brut,375ml,"France, Champagne",1,25,Light label condition issue,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895729,NV,Veuve Clicquot Ponsardin Brut,750ml,"France, Champagne",34,40,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895772,NV,Veuve Clicquot Ponsardin Brut,750ml,"France, Champagne",3,40,Light label condition issue,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10889557,NV,Veuve Clicquot Ponsardin Brut,750ml,"France, Champagne",1,40,Signed bottle,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10889602,NV,Veuve Clicquot Ponsardin Brut,750ml,"France, Champagne",1,40,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895982,NV,Veuve Clicquot Ponsardin Brut,1.5ltr,"France, Champagne",2,120,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10889558,NV,Veuve Clicquot Ponsardin Brut 250 Anniversary Edition,750ml,"France, Champagne",1,45,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895905,NV,Veuve Clicquot Ponsardin Brut 250 Anniversary Edition,750ml,"France, Champagne",1,45,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895728,NV,Veuve Clicquot Ponsardin Brut Rosé,750ml,"France, Champagne",11,45,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10887941,NV,Veuve Clicquot Ponsardin Brut Rosé,750ml,"France, Champagne",2,45,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896222,NV,Veuve Clicquot Ponsardin Brut Rosé,750ml,"France, Champagne",1,45,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896282,NV,Veuve Clicquot Ponsardin Brut Rosé,750ml,"France, Champagne",2,45,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896169,2015,Veuve Clicquot Ponsardin Brut Vintage,750ml,"France, Champagne",3,70,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895910,NV,Veuve Clicquot Ponsardin Rich,750ml,"France, Champagne",1,40,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895920,NV,Veuve Clicquot Ponsardin Rich Rose,750ml,"France, Champagne",7,55,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896002,NV,Veuve Doussot L by VD Rose,750ml,"France, Champagne",4,45,,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895886,NV,Veuve Doussot L by VD Rose,750ml,"France, Champagne",1,45,Light label condition issue,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10896276,NV,Veuve Doussot L by VD Rose,750ml,"France, Champagne",1,45,Silver label,France,False,False,False,False,keep,Sparkling,sparkling keyword,FR
+10895722,2021,Vietti Barolo,750ml,"Italy, Piedmont, Barolo",13,45,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896277,2021,Vietti Barolo,750ml,"Italy, Piedmont, Barolo",4,45,Light label condition issue,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896129,2017,Vietti Barolo Castiglione,750ml,"Italy, Piedmont, Barolo",1,50,Light label condition issue,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10895686,2020,Vietti Barolo Castiglione,750ml,"Italy, Piedmont, Barolo",4,55,,Italy,False,False,False,False,keep,Red,red appellation default,IT
+10896193,2020,Vietti Langhe Nebbiolo Perbacco,750ml,"Italy, Piedmont, Langhe",1,30,,Italy,False,False,False,False,keep,Red,pass2: Nebbiolo is a red grape,IT
+10895822,2022,Vincent Girardin Puligny-Montrachet Vieilles Vignes,750ml,"France, Burgundy, Côte d'Or",1,110,,France,False,False,False,False,keep,White,pass2: Puligny-Montrachet is white-only,FR
+10895854,2021,Vins Auvigue Pouilly-Fuisse Les Villages,750ml,"France, Burgundy, Mâconnais",4,30,,France,False,False,False,False,keep,White,pass2: Maconnais Chardonnay -- white-only,FR
+10895396,2016,Virginie de Valandraud,750ml,"France, Bordeaux, St.-Émilion",1,50,,France,False,False,False,False,keep,Red,"pass6 manual: St-Emilion garage-wine second label, red",FR
+10896395,2014,William Fevre Chablis Vaillons,750ml,"France, Burgundy, Chablis",8,55,,France,False,False,False,False,keep,White,white appellation default,FR
+10895438,NV,Xavier Vignon Chateauneuf Du Pape La Reserve VII IX X,1.5ltr,"France, Rhône Valley, Southern Rhône",1,100,,France,False,False,False,False,keep,Red,pass2: bare Chateauneuf-du-Pape (no Blanc stated) -- predominantly red,FR
+10895441,1996,Zind-Humbrecht Pinot Gris Rangen de Thann Clos St. Urbain,750ml,"France, Alsace, Rangen",1,75,Light label condition issue,France,False,False,False,False,keep,White,"pass6 manual: Pinot Gris (white); Rangen bottlings often carry high residual sugar but this row does not say VT/SGN -- kept White, hedged, worth a look",FR
+10896349,2021,Zind-Humbrecht Pinot Gris Rangen de Thann Clos St. Urbain,750ml,"France, Alsace, Rangen",4,70,,France,False,False,False,False,keep,White,"pass6 manual: Pinot Gris (white); Rangen bottlings often carry high residual sugar but this row does not say VT/SGN -- kept White, hedged, worth a look",FR

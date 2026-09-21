@@ -84,7 +84,7 @@ Apply in order; report how many drop at each stage.
 
 **1. Country** — keep FR/IT/ES/PT/AT by `Region` first token.
 
-**2. Dessert / fortified** — drop by name/appellation: Sauternes, Barsac, SGN, late-harvest, ice wine/Eiswein, BA/TBA (incl. spelled-out Beerenauslese/Trockenbeerenauslese), Ausbruch, Vin Santo, passito/Recioto, Port, Madeira, Marsala, PX (incl. spelled-out Pedro Ximénez), Moscatel dessert styles, Muscat de Beaumes-de-Venise/Frontignan/Lunel/Mireval/Saint-Jean-de-Minervois, Passito di Pantelleria, Rivesaltes/Banyuls/Maury, Moelleux/Liquoreux (Loire), (Premiere/Première) Trie, Coteaux du Layon/Quarts de Chaume/Bonnezeaux.
+**2. Dessert / fortified** — drop by name/appellation: Sauternes, Barsac, SGN, late-harvest, ice wine/Eiswein, BA/TBA (incl. spelled-out Beerenauslese/Trockenbeerenauslese), Ausbruch, Vin Santo, passito/Recioto, Port, Madeira, Marsala, PX (incl. spelled-out Pedro Ximénez), Moscatel dessert styles, Muscat de Beaumes-de-Venise/Frontignan/Lunel/Mireval/Saint-Jean-de-Minervois, Passito di Pantelleria, Rivesaltes/Banyuls/Maury, Moelleux/Liquoreux (Loire), (Premiere/Première) Trie, Coteaux du Layon/Quarts de Chaume/Bonnezeaux, Moulin Touchais (sweet aged Anjou Chenin), Tawny, Colheita.
 
 > **The abbreviation doesn't catch the spelled-out term.** `\btba\b` and `\bpx\b` catch "TBA" and "PX" but miss "Trockenbeerenauslese" and "Pedro Ximenez" spelled out in full — caught 2026-09-14 on Alois Kracher's Grande Cuvée Trockenbeerenauslese #12 (only found in Step 2 review) and Alvear Pedro Ximenez Solera 1830 (found in Step 1 eyeball). Match both forms.
 
@@ -94,7 +94,7 @@ Apply in order; report how many drop at each stage.
 
 > **Keyword matching alone is not sufficient.** Fortified wines sold under just a shipper name and a vintage year carry no style word at all — "Cockburn 1967", "Warre's 1963", "Quinta do Noval 1970". Apply the producer-identity check: for Portugal-country lots whose `Region` reads bare `"Portugal"` with no subregion, treat a name matching the shipper list as probable Vintage/Colheita Port and drop it.
 >
-> Shipper list: Cockburn's, Croft, Dow's, Ferreira, Fonseca, Graham's, Kopke, Martinez (Gassiot), Niepoort, Offley, Osborne, Quinta do Noval, Ramos Pinto, **Real Vinicola**, Sandeman, Smith Woodhouse, Taylor(-Fladgate), Warre's, Churchill, Delaforce, Gould Campbell, Poças Junior.
+> Shipper list: Cockburn's, Croft, Dow's, Ferreira, Fonseca, Graham's, Kopke, Martinez (Gassiot), Niepoort, Offley, Osborne, Quinta do Noval, Ramos Pinto, **Real Vinicola**, Sandeman, Smith Woodhouse, Taylor(-Fladgate), Warre's, Churchill, Delaforce, Gould Campbell, Poças Junior, **Krohn**, **Quinta do Vesuvio**.
 >
 > A subregion (`Portugal, Douro`) signals a dry DOC table wine — Sandeman's Quinta do Seixo Douro red is a legitimate survivor.
 
