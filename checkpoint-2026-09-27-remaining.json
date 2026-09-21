@@ -583,9 +583,7 @@
    "format": "750ml",
    "region": "France, Provence, Bandol",
    "n_lots": 1
-  }
- ],
- "never_attempted": [
+  },
   {
    "key": "dominio de calogia ribera del duero|2019|750",
    "wine": "Dominio de Calog\u00eda Ribera del Duero",
@@ -611,30 +609,6 @@
    "n_lots": 1
   },
   {
-   "key": "dominio de pingus flor de pingus|2018|750",
-   "wine": "Dominio de Pingus Flor de Pingus",
-   "vintage": "2018",
-   "format": "750ml",
-   "region": "Spain, Castilla-Leon, Ribera del Duero",
-   "n_lots": 1
-  },
-  {
-   "key": "dominio de pingus flor de pingus|2022|750",
-   "wine": "Dominio de Pingus Flor de Pingus",
-   "vintage": "2022",
-   "format": "750ml",
-   "region": "Spain, Castilla-Leon, Ribera del Duero",
-   "n_lots": 1
-  },
-  {
-   "key": "dominio de pingus flor de pingus|2023|750",
-   "wine": "Dominio de Pingus Flor de Pingus",
-   "vintage": "2023",
-   "format": "750ml",
-   "region": "Spain, Castilla-Leon, Ribera del Duero",
-   "n_lots": 1
-  },
-  {
    "key": "donnafugata etna rosso fragore|2019|750",
    "wine": "Donnafugata Etna Rosso Fragore",
    "vintage": "2019",
@@ -648,14 +622,6 @@
    "vintage": "NV",
    "format": "750ml",
    "region": "France, Champagne",
-   "n_lots": 1
-  },
-  {
-   "key": "edouard delaunay and ses fils pommard les chaponnieres|2021|750",
-   "wine": "Edouard Delaunay & Ses Fils Pommard Les Chaponnieres",
-   "vintage": "2021",
-   "format": "750ml",
-   "region": "France, Burgundy, C\u00f4te d'Or",
    "n_lots": 1
   },
   {
@@ -691,40 +657,8 @@
    "n_lots": 1
   },
   {
-   "key": "espectacle montsant|2014|750",
-   "wine": "Espectacle Montsant",
-   "vintage": "2014",
-   "format": "750ml",
-   "region": "Spain, Cataluna, Tarragona",
-   "n_lots": 1
-  },
-  {
-   "key": "espectacle montsant|2017|750",
-   "wine": "Espectacle Montsant",
-   "vintage": "2017",
-   "format": "750ml",
-   "region": "Spain, Cataluna, Tarragona",
-   "n_lots": 2
-  },
-  {
-   "key": "espectacle montsant|2019|750",
-   "wine": "Espectacle Montsant",
-   "vintage": "2019",
-   "format": "750ml",
-   "region": "Spain, Cataluna, Tarragona",
-   "n_lots": 2
-  },
-  {
    "key": "faiveley chambolle musigny|2021|750",
    "wine": "Faiveley Chambolle-Musigny",
-   "vintage": "2021",
-   "format": "750ml",
-   "region": "France, Burgundy, C\u00f4te d'Or",
-   "n_lots": 1
-  },
-  {
-   "key": "faiveley meursault|2021|750",
-   "wine": "Faiveley Meursault",
    "vintage": "2021",
    "format": "750ml",
    "region": "France, Burgundy, C\u00f4te d'Or",
@@ -739,36 +673,12 @@
    "n_lots": 1
   },
   {
-   "key": "fanti brunello di montalcino vallocchio|2016|750",
-   "wine": "Fanti Brunello di Montalcino Vallocchio",
-   "vintage": "2016",
-   "format": "750ml",
-   "region": "Italy, Tuscany, Brunello di Montalcino",
-   "n_lots": 1
-  },
-  {
-   "key": "fattoria dei barbi brunello di montalcino|2019|750",
-   "wine": "Fattoria Dei Barbi Brunello di Montalcino",
-   "vintage": "2019",
-   "format": "750ml",
-   "region": "Italy, Tuscany, Brunello di Montalcino",
-   "n_lots": 1
-  },
-  {
    "key": "fattoria di felsina chianti classico riserva rancia|1993|750",
    "wine": "Fattoria di Felsina Chianti Classico Riserva Rancia",
    "vintage": "1993",
    "format": "750ml",
    "region": "Italy, Tuscany, Chianti Classico",
    "n_lots": 2
-  },
-  {
-   "key": "fattoria di felsina chianti classico riserva rancia|1997|750",
-   "wine": "Fattoria di Felsina Chianti Classico Riserva Rancia",
-   "vintage": "1997",
-   "format": "750ml",
-   "region": "Italy, Tuscany, Chianti Classico",
-   "n_lots": 1
   },
   {
    "key": "fattoria di felsina fontalloro|1999|750",
@@ -784,46 +694,6 @@
    "vintage": "2021",
    "format": "750ml",
    "region": "Italy, Tuscany, Val d\u2019Arno di Sopra",
-   "n_lots": 1
-  },
-  {
-   "key": "fontodi chianti classico gran selezione vigna del sorbo|2018|750",
-   "wine": "Fontodi Chianti Classico Gran Selezione Vigna del Sorbo",
-   "vintage": "2018",
-   "format": "750ml",
-   "region": "Italy, Tuscany, Chianti Classico",
-   "n_lots": 1
-  },
-  {
-   "key": "fontodi chianti classico gran selezione vigna del sorbo|2019|750",
-   "wine": "Fontodi Chianti Classico Gran Selezione Vigna del Sorbo",
-   "vintage": "2019",
-   "format": "750ml",
-   "region": "Italy, Tuscany, Chianti Classico",
-   "n_lots": 2
-  },
-  {
-   "key": "fontodi chianti classico gran selezione vigna del sorbo|2020|750",
-   "wine": "Fontodi Chianti Classico Gran Selezione Vigna del Sorbo",
-   "vintage": "2020",
-   "format": "750ml",
-   "region": "Italy, Tuscany, Chianti Classico",
-   "n_lots": 1
-  },
-  {
-   "key": "fontodi chianti classico|2019|750",
-   "wine": "Fontodi Chianti Classico",
-   "vintage": "2019",
-   "format": "750ml",
-   "region": "Italy, Tuscany, Chianti Classico",
-   "n_lots": 1
-  },
-  {
-   "key": "fontodi chianti classico|2020|750",
-   "wine": "Fontodi Chianti Classico",
-   "vintage": "2020",
-   "format": "750ml",
-   "region": "Italy, Tuscany, Chianti Classico",
    "n_lots": 1
   },
   {
@@ -883,30 +753,6 @@
    "n_lots": 1
   },
   {
-   "key": "frank cornelissen munjebel rosso mc|2017|750",
-   "wine": "Frank Cornelissen Munjebel Rosso MC",
-   "vintage": "2017",
-   "format": "750ml",
-   "region": "Italy, Sicily",
-   "n_lots": 1
-  },
-  {
-   "key": "frank cornelissen munjebel rosso|2017|750",
-   "wine": "Frank Cornelissen Munjebel Rosso",
-   "vintage": "2017",
-   "format": "750ml",
-   "region": "Italy, Sicily",
-   "n_lots": 1
-  },
-  {
-   "key": "frank cornelissen munjebel rosso|2018|750",
-   "wine": "Frank Cornelissen Munjebel Rosso",
-   "vintage": "2018",
-   "format": "750ml",
-   "region": "Italy, Sicily",
-   "n_lots": 1
-  },
-  {
    "key": "frank cornelissen nerello mascalese susucaru|2018|750",
    "wine": "Frank Cornelissen Nerello Mascalese Susucaru",
    "vintage": "2018",
@@ -918,22 +764,6 @@
    "key": "frank cornelissen susucaru rosato|2018|750",
    "wine": "Frank Cornelissen Susucaru Rosato",
    "vintage": "2018",
-   "format": "750ml",
-   "region": "Italy, Sicily",
-   "n_lots": 1
-  },
-  {
-   "key": "frank cornelissen susucaru rosato|2019|750",
-   "wine": "Frank Cornelissen Susucaru Rosato",
-   "vintage": "2019",
-   "format": "750ml",
-   "region": "Italy, Sicily",
-   "n_lots": 1
-  },
-  {
-   "key": "frank cornelissen susucaru rosato|2021|750",
-   "wine": "Frank Cornelissen Susucaru Rosato",
-   "vintage": "2021",
    "format": "750ml",
    "region": "Italy, Sicily",
    "n_lots": 1
@@ -955,83 +785,11 @@
    "n_lots": 1
   },
   {
-   "key": "g h mumm brut grand cordon|NV|750",
-   "wine": "G.H. Mumm Brut Grand Cordon",
-   "vintage": "NV",
-   "format": "750ml",
-   "region": "France, Champagne",
-   "n_lots": 1
-  },
-  {
    "key": "gagnard delagrange chassagne montrachet la boudriotte|2019|750",
    "wine": "Gagnard-Delagrange Chassagne-Montrachet La Boudriotte",
    "vintage": "2019",
    "format": "750ml",
    "region": "France, Burgundy, C\u00f4te d'Or",
-   "n_lots": 1
-  },
-  {
-   "key": "gaja barolo dagromis|2020|750",
-   "wine": "Gaja Barolo Dagromis",
-   "vintage": "2020",
-   "format": "750ml",
-   "region": "Italy, Piedmont, Barolo",
-   "n_lots": 1
-  },
-  {
-   "key": "gaja barolo dagromis|2021|750",
-   "wine": "Gaja Barolo Dagromis",
-   "vintage": "2021",
-   "format": "750ml",
-   "region": "Italy, Piedmont, Barolo",
-   "n_lots": 1
-  },
-  {
-   "key": "gaja ca marcanda magari|2021|750",
-   "wine": "Gaja Ca'Marcanda Magari",
-   "vintage": "2021",
-   "format": "750ml",
-   "region": "Italy, Tuscany",
-   "n_lots": 1
-  },
-  {
-   "key": "gaja ca marcanda magari|2022|750",
-   "wine": "Gaja Ca'Marcanda Magari",
-   "vintage": "2022",
-   "format": "750ml",
-   "region": "Italy, Tuscany",
-   "n_lots": 1
-  },
-  {
-   "key": "gaja ca marcanda promis|2017|750",
-   "wine": "Gaja Ca'Marcanda Promis",
-   "vintage": "2017",
-   "format": "750ml",
-   "region": "Italy, Tuscany",
-   "n_lots": 1
-  },
-  {
-   "key": "gaja ca marcanda promis|2023|750",
-   "wine": "Gaja Ca'Marcanda Promis",
-   "vintage": "2023",
-   "format": "750ml",
-   "region": "Italy, Tuscany",
-   "n_lots": 1
-  },
-  {
-   "key": "gaja sito moresco|2022|750",
-   "wine": "Gaja Sito Moresco",
-   "vintage": "2022",
-   "format": "750ml",
-   "region": "Italy, Piedmont, Langhe",
-   "n_lots": 1
-  },
-  {
-   "key": "galardi terra di lavoro|2010|750",
-   "wine": "Galardi Terra di Lavoro",
-   "vintage": "2010",
-   "format": "750ml",
-   "region": "Italy, Campania",
    "n_lots": 1
   },
   {
@@ -1041,14 +799,6 @@
    "format": "750ml",
    "region": "Italy, Campania",
    "n_lots": 2
-  },
-  {
-   "key": "georges vigouroux chateau de mercues cahors malbec|2018|750",
-   "wine": "Georges Vigouroux Chateau De Mercues Cahors Malbec",
-   "vintage": "2018",
-   "format": "750ml",
-   "region": "France, Southwest France, Cahors",
-   "n_lots": 1
   },
   {
    "key": "giacomo conterno barbera d alba francia|2003|750",
@@ -1075,22 +825,6 @@
    "n_lots": 1
   },
   {
-   "key": "gonet medeville extra brut grand cru champ d alouette|2007|750",
-   "wine": "Gonet-M\u00e9deville Extra Brut Grand Cru Champ d'Alouette",
-   "vintage": "2007",
-   "format": "750ml",
-   "region": "France, Champagne, C\u00f4te des Blancs",
-   "n_lots": 1
-  },
-  {
-   "key": "gosset grande reserve|NV|1500",
-   "wine": "Gosset Grande Reserve",
-   "vintage": "NV",
-   "format": "1.5ltr",
-   "region": "France, Champagne",
-   "n_lots": 1
-  },
-  {
    "key": "grattamacco bolgheri superiore grattamacco|2021|750",
    "wine": "Grattamacco Bolgheri Superiore Grattamacco",
    "vintage": "2021",
@@ -1104,14 +838,6 @@
    "vintage": "2014",
    "format": "750ml",
    "region": "France, Burgundy",
-   "n_lots": 1
-  },
-  {
-   "key": "heidsieck and co monopole blue top brut|NV|750",
-   "wine": "Heidsieck & CO Monopole Blue Top Brut",
-   "vintage": "NV",
-   "format": "750ml",
-   "region": "France, Champagne",
    "n_lots": 1
   },
   {
@@ -1133,22 +859,6 @@
   {
    "key": "il poggione brunello di montalcino riserva|2019|750",
    "wine": "Il Poggione Brunello di Montalcino Riserva",
-   "vintage": "2019",
-   "format": "750ml",
-   "region": "Italy, Tuscany, Brunello di Montalcino",
-   "n_lots": 1
-  },
-  {
-   "key": "il poggione brunello di montalcino|2017|750",
-   "wine": "Il Poggione Brunello di Montalcino",
-   "vintage": "2017",
-   "format": "750ml",
-   "region": "Italy, Tuscany, Brunello di Montalcino",
-   "n_lots": 1
-  },
-  {
-   "key": "il poggione brunello di montalcino|2019|750",
-   "wine": "Il Poggione Brunello di Montalcino",
    "vintage": "2019",
    "format": "750ml",
    "region": "Italy, Tuscany, Brunello di Montalcino",
@@ -1179,30 +889,6 @@
    "n_lots": 1
   },
   {
-   "key": "jean claude ramonet bouzeron|2019|750",
-   "wine": "Jean-Claude Ramonet Bouzeron",
-   "vintage": "2019",
-   "format": "750ml",
-   "region": "France, Burgundy, C\u00f4te Chalonnaise",
-   "n_lots": 1
-  },
-  {
-   "key": "jean foillard morgon cote du py|2020|750",
-   "wine": "Jean Foillard Morgon C\u00f4te du Py",
-   "vintage": "2020",
-   "format": "750ml",
-   "region": "France, Beaujolais, Morgon",
-   "n_lots": 1
-  },
-  {
-   "key": "jean marc boillot montagny 1er cru|2021|750",
-   "wine": "Jean-Marc Boillot Montagny 1er Cru",
-   "vintage": "2021",
-   "format": "750ml",
-   "region": "France, Burgundy, C\u00f4te Chalonnaise",
-   "n_lots": 1
-  },
-  {
    "key": "jean pascal and fils puligny montrachet les enseigneres|2017|750",
    "wine": "Jean Pascal & Fils Puligny-Montrachet Les Enseign\u00e8res",
    "vintage": "2017",
@@ -1227,30 +913,6 @@
    "n_lots": 2
   },
   {
-   "key": "joseph drouhin puligny montrachet|2023|750",
-   "wine": "Joseph Drouhin Puligny-Montrachet",
-   "vintage": "2023",
-   "format": "750ml",
-   "region": "France, Burgundy, C\u00f4te d'Or",
-   "n_lots": 1
-  },
-  {
-   "key": "joseph perrier brut blanc de blancs|NV|750",
-   "wine": "Joseph Perrier Brut Blanc de Blancs",
-   "vintage": "NV",
-   "format": "750ml",
-   "region": "France, Champagne",
-   "n_lots": 1
-  },
-  {
-   "key": "joseph perrier brut cuvee royale blanc de blancs|NV|750",
-   "wine": "Joseph Perrier Brut Cuvee Royale Blanc de Blancs",
-   "vintage": "NV",
-   "format": "750ml",
-   "region": "France, Champagne",
-   "n_lots": 1
-  },
-  {
    "key": "joseph perrier brut cuvee royale|2008|1500",
    "wine": "Joseph Perrier Brut Cuvee Royale",
    "vintage": "2008",
@@ -1263,22 +925,6 @@
    "wine": "Joseph Perrier Brut Cuvee Royale",
    "vintage": "NV",
    "format": "1.5ltr",
-   "region": "France, Champagne",
-   "n_lots": 1
-  },
-  {
-   "key": "joseph perrier cuvee royale brut rose|NV|1500",
-   "wine": "Joseph Perrier Cuvee Royale Brut Rose",
-   "vintage": "NV",
-   "format": "1.5ltr",
-   "region": "France, Champagne",
-   "n_lots": 1
-  },
-  {
-   "key": "joseph perrier cuvee royale brut rose|NV|750",
-   "wine": "Joseph Perrier Cuvee Royale Brut Rose",
-   "vintage": "NV",
-   "format": "750ml",
    "region": "France, Champagne",
    "n_lots": 1
   },
@@ -1315,22 +961,6 @@
    "n_lots": 1
   },
   {
-   "key": "la clarte de haut brion|2022|750",
-   "wine": "La Clarte De Haut Brion",
-   "vintage": "2022",
-   "format": "750ml",
-   "region": "France, Bordeaux, Graves",
-   "n_lots": 2
-  },
-  {
-   "key": "la clarte de haut brion|2023|750",
-   "wine": "La Clarte De Haut Brion",
-   "vintage": "2023",
-   "format": "750ml",
-   "region": "France, Bordeaux, Graves",
-   "n_lots": 1
-  },
-  {
    "key": "la croix de beaucaillou|2014|750",
    "wine": "La Croix de Beaucaillou",
    "vintage": "2014",
@@ -1347,22 +977,6 @@
    "n_lots": 1
   },
   {
-   "key": "la rioja alta gran reserva 904 seleccion especial|2015|750",
-   "wine": "La Rioja Alta Gran Reserva 904 Seleccion Especial",
-   "vintage": "2015",
-   "format": "750ml",
-   "region": "Spain, Rioja",
-   "n_lots": 1
-  },
-  {
-   "key": "la rioja alta gran reserva 904|2016|750",
-   "wine": "La Rioja Alta Gran Reserva 904",
-   "vintage": "2016",
-   "format": "750ml",
-   "region": "Spain, Rioja",
-   "n_lots": 1
-  },
-  {
    "key": "la rioja alta vina ardanza rioja reserva|2001|750",
    "wine": "La Rioja Alta Vina Ardanza Rioja Reserva",
    "vintage": "2001",
@@ -1371,32 +985,8 @@
    "n_lots": 1
   },
   {
-   "key": "la rioja alta vina ardanza rioja reserva|2015|750",
-   "wine": "La Rioja Alta Vina Ardanza Rioja Reserva",
-   "vintage": "2015",
-   "format": "750ml",
-   "region": "Spain, Rioja",
-   "n_lots": 1
-  },
-  {
    "key": "lanson brut green label|NV|750",
    "wine": "Lanson Brut Green Label",
-   "vintage": "NV",
-   "format": "750ml",
-   "region": "France, Champagne",
-   "n_lots": 2
-  },
-  {
-   "key": "laurent perrier brut la cuvee|NV|1500",
-   "wine": "Laurent-Perrier Brut La Cuvee",
-   "vintage": "NV",
-   "format": "1.5ltr",
-   "region": "France, Champagne",
-   "n_lots": 2
-  },
-  {
-   "key": "laurent perrier brut la cuvee|NV|750",
-   "wine": "Laurent-Perrier Brut La Cuvee",
    "vintage": "NV",
    "format": "750ml",
    "region": "France, Champagne",
@@ -1435,30 +1025,6 @@
    "n_lots": 1
   },
   {
-   "key": "les cailloux brunel chateauneuf de pape|2007|750",
-   "wine": "Les Cailloux (Brunel) Chateauneuf de Pape",
-   "vintage": "2007",
-   "format": "750ml",
-   "region": "France, Rh\u00f4ne Valley, Southern Rh\u00f4ne",
-   "n_lots": 1
-  },
-  {
-   "key": "les hauts de smith blanc|2020|750",
-   "wine": "Les Hauts De Smith Blanc",
-   "vintage": "2020",
-   "format": "750ml",
-   "region": "France, Bordeaux, Graves",
-   "n_lots": 1
-  },
-  {
-   "key": "lopez de heredia rioja vina tondonia reserva|2012|750",
-   "wine": "Lopez de Heredia Rioja Vina Tondonia Reserva",
-   "vintage": "2012",
-   "format": "750ml",
-   "region": "Spain, Rioja",
-   "n_lots": 1
-  },
-  {
    "key": "louis affre corton charlemagne|2004|750",
    "wine": "Louis Affre Corton-Charlemagne",
    "vintage": "2004",
@@ -1483,14 +1049,6 @@
    "n_lots": 1
   },
   {
-   "key": "louis boillot and fils volnay les angles|2020|750",
-   "wine": "Louis Boillot & Fils Volnay Les Angles",
-   "vintage": "2020",
-   "format": "750ml",
-   "region": "France, Burgundy, C\u00f4te d'Or",
-   "n_lots": 1
-  },
-  {
    "key": "louis latour beaune perrieres|2019|750",
    "wine": "Louis Latour Beaune Perri\u00e8res",
    "vintage": "2019",
@@ -1505,38 +1063,6 @@
    "format": "750ml",
    "region": "France, Burgundy, C\u00f4te d'Or",
    "n_lots": 2
-  },
-  {
-   "key": "louis latour meursault|2016|750",
-   "wine": "Louis Latour Meursault",
-   "vintage": "2016",
-   "format": "750ml",
-   "region": "France, Burgundy, C\u00f4te d'Or",
-   "n_lots": 2
-  },
-  {
-   "key": "louis latour meursault|2022|750",
-   "wine": "Louis Latour Meursault",
-   "vintage": "2022",
-   "format": "750ml",
-   "region": "France, Burgundy, C\u00f4te d'Or",
-   "n_lots": 1
-  },
-  {
-   "key": "louis latour meursault|2024|750",
-   "wine": "Louis Latour Meursault",
-   "vintage": "2024",
-   "format": "750ml",
-   "region": "France, Burgundy, C\u00f4te d'Or",
-   "n_lots": 1
-  },
-  {
-   "key": "louis michel chablis montee de tonnerre|2021|750",
-   "wine": "Louis Michel Chablis Mont\u00e9e de Tonnerre",
-   "vintage": "2021",
-   "format": "750ml",
-   "region": "France, Burgundy, Chablis",
-   "n_lots": 1
   },
   {
    "key": "louis nicaise extra brut premier cru millesime|2011|750",
@@ -1561,22 +1087,6 @@
    "format": "750ml",
    "region": "Italy, Tuscany",
    "n_lots": 2
-  },
-  {
-   "key": "luciano sandrone barolo aleste|2021|750",
-   "wine": "Luciano Sandrone Barolo Aleste",
-   "vintage": "2021",
-   "format": "750ml",
-   "region": "Italy, Piedmont, Barolo",
-   "n_lots": 1
-  },
-  {
-   "key": "luciano sandrone barolo le vigne|2017|750",
-   "wine": "Luciano Sandrone Barolo Le Vigne",
-   "vintage": "2017",
-   "format": "750ml",
-   "region": "Italy, Piedmont, Barolo",
-   "n_lots": 1
   },
   {
    "key": "lucien belland tremeau chassagne montrachet les embrazees|2019|750",
@@ -1619,46 +1129,6 @@
    "n_lots": 1
   },
   {
-   "key": "marchesi antinori brunello di montalcino pian delle vigne|2020|750",
-   "wine": "Marchesi Antinori Brunello di Montalcino Pian delle Vigne",
-   "vintage": "2020",
-   "format": "750ml",
-   "region": "Italy, Tuscany, Brunello di Montalcino",
-   "n_lots": 1
-  },
-  {
-   "key": "marchesi antinori chianti classico badia a passignano gran selezione|2016|750",
-   "wine": "Marchesi Antinori Chianti Classico Badia a Passignano Gran Selezione",
-   "vintage": "2016",
-   "format": "750ml",
-   "region": "Italy, Tuscany, Chianti Classico",
-   "n_lots": 1
-  },
-  {
-   "key": "marchesi antinori guado al tasso|2019|750",
-   "wine": "Marchesi Antinori Guado Al Tasso",
-   "vintage": "2019",
-   "format": "750ml",
-   "region": "Italy, Tuscany",
-   "n_lots": 2
-  },
-  {
-   "key": "marchesi antinori rosso di montalcino pian delle vigne|2023|750",
-   "wine": "Marchesi Antinori Rosso di Montalcino Pian delle Vigne",
-   "vintage": "2023",
-   "format": "750ml",
-   "region": "Italy, Tuscany, Rosso di Montalcino",
-   "n_lots": 2
-  },
-  {
-   "key": "marchesi di barolo barolo cannubi|2019|750",
-   "wine": "Marchesi di Barolo Barolo Cannubi",
-   "vintage": "2019",
-   "format": "750ml",
-   "region": "Italy, Piedmont, Barolo",
-   "n_lots": 1
-  },
-  {
    "key": "marchesi di frescobaldi castelgiocondo brunello di montalcino riserva|2019|750",
    "wine": "Marchesi di Frescobaldi Castelgiocondo Brunello di Montalcino Riserva",
    "vintage": "2019",
@@ -1675,30 +1145,6 @@
    "n_lots": 1
   },
   {
-   "key": "marques de riscal rioja gran reserva 150 aniversario|2017|750",
-   "wine": "Marques de Riscal Rioja Gran Reserva 150 Aniversario",
-   "vintage": "2017",
-   "format": "750ml",
-   "region": "Spain, Rioja",
-   "n_lots": 1
-  },
-  {
-   "key": "marquis d angerville volnay clos des angles|2019|750",
-   "wine": "Marquis d'Angerville Volnay Clos des Angles",
-   "vintage": "2019",
-   "format": "750ml",
-   "region": "France, Burgundy, C\u00f4te d'Or",
-   "n_lots": 1
-  },
-  {
-   "key": "mas martinet cami pesseroles|2021|750",
-   "wine": "Mas Martinet Cami Pesseroles",
-   "vintage": "2021",
-   "format": "750ml",
-   "region": "Spain, Cataluna, Priorato",
-   "n_lots": 2
-  },
-  {
    "key": "mas martinet clos martinet priorat|2017|750",
    "wine": "Mas Martinet Clos Martinet Priorat",
    "vintage": "2017",
@@ -1707,49 +1153,9 @@
    "n_lots": 1
   },
   {
-   "key": "mas martinet clos martinet priorat|2020|750",
-   "wine": "Mas Martinet Clos Martinet Priorat",
-   "vintage": "2020",
-   "format": "750ml",
-   "region": "Spain, Cataluna, Priorato",
-   "n_lots": 1
-  },
-  {
    "key": "masi costasera amarone della valpolicella classico riserva|2019|750",
    "wine": "Masi Costasera Amarone della Valpolicella Classico Riserva",
    "vintage": "2019",
-   "format": "750ml",
-   "region": "Italy, Veneto, Amarone della Valpolicella",
-   "n_lots": 2
-  },
-  {
-   "key": "masi costasera amarone della valpolicella classico|2017|750",
-   "wine": "Masi Costasera Amarone della Valpolicella Classico",
-   "vintage": "2017",
-   "format": "750ml",
-   "region": "Italy, Veneto, Amarone della Valpolicella",
-   "n_lots": 1
-  },
-  {
-   "key": "masi costasera amarone della valpolicella classico|2018|750",
-   "wine": "Masi Costasera Amarone della Valpolicella Classico",
-   "vintage": "2018",
-   "format": "750ml",
-   "region": "Italy, Veneto, Amarone della Valpolicella",
-   "n_lots": 2
-  },
-  {
-   "key": "masi costasera amarone della valpolicella classico|2019|750",
-   "wine": "Masi Costasera Amarone della Valpolicella Classico",
-   "vintage": "2019",
-   "format": "750ml",
-   "region": "Italy, Veneto, Amarone della Valpolicella",
-   "n_lots": 3
-  },
-  {
-   "key": "masi costasera amarone della valpolicella classico|2020|750",
-   "wine": "Masi Costasera Amarone della Valpolicella Classico",
-   "vintage": "2020",
    "format": "750ml",
    "region": "Italy, Veneto, Amarone della Valpolicella",
    "n_lots": 2
@@ -1779,25 +1185,9 @@
    "n_lots": 1
   },
   {
-   "key": "moet et chandon brut imperial red limited edition|NV|750",
-   "wine": "Moet et Chandon Brut Imp\u00e9rial Red Limited Edition",
-   "vintage": "NV",
-   "format": "750ml",
-   "region": "France, Champagne",
-   "n_lots": 1
-  },
-  {
    "key": "moet et chandon demi sec nectar imperial rose|NV|750",
    "wine": "Moet et Chandon Demi-Sec Nectar Imperial Rose",
    "vintage": "NV",
-   "format": "750ml",
-   "region": "France, Champagne",
-   "n_lots": 1
-  },
-  {
-   "key": "moet et chandon grand vintage|2015|750",
-   "wine": "Moet et Chandon Grand Vintage",
-   "vintage": "2015",
    "format": "750ml",
    "region": "France, Champagne",
    "n_lots": 1
@@ -1819,14 +1209,6 @@
    "n_lots": 1
   },
   {
-   "key": "moulin touchais anjou doue la fontaine|1964|750",
-   "wine": "Moulin Touchais Anjou Dou\u00e9 La Fontaine",
-   "vintage": "1964",
-   "format": "750ml",
-   "region": "France, Loire Valley, Anjou",
-   "n_lots": 1
-  },
-  {
    "key": "mouzon leroux and fils grand cru l atavique tradition|NV|750",
    "wine": "Mouzon-Leroux & Fils Grand Cru L'Atavique Tradition",
    "vintage": "NV",
@@ -1843,43 +1225,11 @@
    "n_lots": 1
   },
   {
-   "key": "nikolaihof vinothek riesling|2002|750",
-   "wine": "Nikolaihof Vinothek Riesling",
-   "vintage": "2002",
-   "format": "750ml",
-   "region": "Austria, Niederosterreich, Wachau",
-   "n_lots": 1
-  },
-  {
-   "key": "numanthia termes termanthia|2003|750",
-   "wine": "Numanthia-Termes Termanthia",
-   "vintage": "2003",
-   "format": "750ml",
-   "region": "Spain, Castilla-Leon, Toro",
-   "n_lots": 1
-  },
-  {
    "key": "paitin de pasquero elia barbaresco sori paitin|1998|750",
    "wine": "Paitin de Pasquero(Elia) Barbaresco Sori Paitin",
    "vintage": "1998",
    "format": "750ml",
    "region": "Italy, Piedmont, Barbaresco",
-   "n_lots": 1
-  },
-  {
-   "key": "palmer and co brut reserve|NV|750",
-   "wine": "Palmer & Co Brut R\u00e9serve",
-   "vintage": "NV",
-   "format": "750ml",
-   "region": "France, Champagne",
-   "n_lots": 1
-  },
-  {
-   "key": "palmer and co brut|2012|750",
-   "wine": "Palmer & Co Brut",
-   "vintage": "2012",
-   "format": "750ml",
-   "region": "France, Champagne",
    "n_lots": 1
   },
   {
@@ -1891,68 +1241,12 @@
    "n_lots": 1
   },
   {
-   "key": "pavillon de leoville poyferre|2019|750",
-   "wine": "Pavillon de Leoville Poyferre",
-   "vintage": "2019",
-   "format": "750ml",
-   "region": "France, Bordeaux, St.-Julien",
-   "n_lots": 2
-  },
-  {
-   "key": "perrier jouet fleur de champagne brut cuvee belle epoque|2014|750",
-   "wine": "Perrier-Jouet Fleur de Champagne Brut Cuvee Belle Epoque",
-   "vintage": "2014",
-   "format": "750ml",
-   "region": "France, Champagne",
-   "n_lots": 1
-  },
-  {
-   "key": "pierre usseglio chateauneuf du pape cuvee de mon aieul|1999|1500",
-   "wine": "Pierre Usseglio Chateauneuf du Pape Cuvee de Mon Aieul",
-   "vintage": "1999",
-   "format": "1.5ltr",
-   "region": "France, Rh\u00f4ne Valley, Southern Rh\u00f4ne",
-   "n_lots": 1
-  },
-  {
-   "key": "pierre usseglio chateauneuf du pape cuvee de mon aieul|2010|750",
-   "wine": "Pierre Usseglio Chateauneuf du Pape Cuvee de Mon Aieul",
-   "vintage": "2010",
-   "format": "750ml",
-   "region": "France, Rh\u00f4ne Valley, Southern Rh\u00f4ne",
-   "n_lots": 1
-  },
-  {
-   "key": "pierre usseglio chateauneuf du pape reserve des deux freres|2015|750",
-   "wine": "Pierre Usseglio Chateauneuf du Pape Reserve des Deux Freres",
-   "vintage": "2015",
-   "format": "750ml",
-   "region": "France, Rh\u00f4ne Valley, Southern Rh\u00f4ne",
-   "n_lots": 1
-  },
-  {
    "key": "pierre yves colin morey monthelie blanc|2020|750",
    "wine": "Pierre Yves Colin-Morey Monthelie Blanc",
    "vintage": "2020",
    "format": "750ml",
    "region": "France, Burgundy, C\u00f4te d'Or",
    "n_lots": 1
-  },
-  {
-   "key": "pieve santa restituta gaja brunello di montalcino|2020|750",
-   "wine": "Pieve Santa Restituta (Gaja) Brunello di Montalcino",
-   "vintage": "2020",
-   "format": "750ml",
-   "region": "Italy, Tuscany, Brunello di Montalcino",
-   "n_lots": 2
-  },
-  {
-   "key": "pio cesare barolo|2021|750",
-   "wine": "Pio Cesare Barolo",
-   "vintage": "2021",
-   "format": "750ml",
-   "region": "Italy, Piedmont, Barolo",
-   "n_lots": 2
   },
   {
    "key": "piper heidsieck brut heritage|NV|750",
@@ -1977,78 +1271,6 @@
    "format": "750ml",
    "region": "Italy, Tuscany, Brunello di Montalcino",
    "n_lots": 1
-  },
-  {
-   "key": "poggio amorelli chianti classico riserva|2011|1500",
-   "wine": "Poggio Amorelli Chianti Classico Riserva",
-   "vintage": "2011",
-   "format": "1.5ltr",
-   "region": "Italy, Tuscany, Chianti Classico",
-   "n_lots": 1
-  },
-  {
-   "key": "pol roger brut reserve|NV|1500",
-   "wine": "Pol Roger Brut R\u00e9serve",
-   "vintage": "NV",
-   "format": "1.5ltr",
-   "region": "France, Champagne",
-   "n_lots": 1
-  },
-  {
-   "key": "pol roger brut reserve|NV|750",
-   "wine": "Pol Roger Brut R\u00e9serve",
-   "vintage": "NV",
-   "format": "750ml",
-   "region": "France, Champagne",
-   "n_lots": 2
-  },
-  {
-   "key": "pol roger brut|2015|750",
-   "wine": "Pol Roger Brut",
-   "vintage": "2015",
-   "format": "750ml",
-   "region": "France, Champagne",
-   "n_lots": 1
-  },
-  {
-   "key": "pol roger rose|2015|750",
-   "wine": "Pol Roger Ros\u00e9",
-   "vintage": "2015",
-   "format": "750ml",
-   "region": "France, Champagne",
-   "n_lots": 1
-  },
-  {
-   "key": "prats and symington chryseia|2020|750",
-   "wine": "Prats & Symington Chryseia",
-   "vintage": "2020",
-   "format": "750ml",
-   "region": "Portugal, Douro",
-   "n_lots": 1
-  },
-  {
-   "key": "prats and symington chryseia|2021|750",
-   "wine": "Prats & Symington Chryseia",
-   "vintage": "2021",
-   "format": "750ml",
-   "region": "Portugal, Douro",
-   "n_lots": 1
-  },
-  {
-   "key": "produttori del barbaresco barbaresco montefico riserva|2021|750",
-   "wine": "Produttori del Barbaresco Barbaresco Montefico Riserva",
-   "vintage": "2021",
-   "format": "750ml",
-   "region": "Italy, Piedmont, Barbaresco",
-   "n_lots": 1
-  },
-  {
-   "key": "produttori del barbaresco barbaresco|2006|750",
-   "wine": "Produttori del Barbaresco Barbaresco",
-   "vintage": "2006",
-   "format": "750ml",
-   "region": "Italy, Piedmont, Barbaresco",
-   "n_lots": 2
   },
   {
    "key": "produttori del barbaresco barbaresco|2010|750",
@@ -2083,14 +1305,6 @@
    "n_lots": 1
   },
   {
-   "key": "renato ratti barolo marcenasco|2021|750",
-   "wine": "Renato Ratti Barolo Marcenasco",
-   "vintage": "2021",
-   "format": "750ml",
-   "region": "Italy, Piedmont, Barolo",
-   "n_lots": 1
-  },
-  {
    "key": "renieri brunello di montalcino|2013|750",
    "wine": "Renieri Brunello di Montalcino",
    "vintage": "2013",
@@ -2104,78 +1318,6 @@
    "vintage": "1996",
    "format": "750ml",
    "region": "France, Burgundy, Bourgogne",
-   "n_lots": 1
-  },
-  {
-   "key": "romano dal forno valpolicella superiore vigneto monte lodoletta|2018|750",
-   "wine": "Romano Dal Forno Valpolicella Superiore Vigneto Monte Lodoletta",
-   "vintage": "2018",
-   "format": "750ml",
-   "region": "Italy, Veneto, Valpolicella",
-   "n_lots": 1
-  },
-  {
-   "key": "romano dal forno valpolicella superiore|2018|750",
-   "wine": "Romano Dal Forno Valpolicella Superiore",
-   "vintage": "2018",
-   "format": "750ml",
-   "region": "Italy, Veneto",
-   "n_lots": 1
-  },
-  {
-   "key": "rotem and mounir saouma chateauneuf du pape blanc magis|2021|750",
-   "wine": "Rotem & Mounir Saouma Chateauneuf du Pape Blanc Magis",
-   "vintage": "2021",
-   "format": "750ml",
-   "region": "France, Rh\u00f4ne Valley, Southern Rh\u00f4ne",
-   "n_lots": 1
-  },
-  {
-   "key": "taittinger brut reserve fifa world cup 26|NV|750",
-   "wine": "Taittinger Brut R\u00e9serve Fifa World Cup 26",
-   "vintage": "NV",
-   "format": "750ml",
-   "region": "France, Champagne",
-   "n_lots": 2
-  },
-  {
-   "key": "tenuta argentiera bolgheri superiore|2019|750",
-   "wine": "Tenuta Argentiera Bolgheri Superiore",
-   "vintage": "2019",
-   "format": "750ml",
-   "region": "Italy, Tuscany, Bolgheri",
-   "n_lots": 1
-  },
-  {
-   "key": "tenuta caparzo brunello di montalcino|2018|750",
-   "wine": "Tenuta Caparzo Brunello di Montalcino",
-   "vintage": "2018",
-   "format": "750ml",
-   "region": "Italy, Tuscany, Brunello di Montalcino",
-   "n_lots": 1
-  },
-  {
-   "key": "terralsole brunello di montalcino riserva|2010|750",
-   "wine": "Terralsole Brunello di Montalcino Riserva",
-   "vintage": "2010",
-   "format": "750ml",
-   "region": "Italy, Tuscany, Brunello di Montalcino",
-   "n_lots": 1
-  },
-  {
-   "key": "terralsole brunello di montalcino riserva|2012|750",
-   "wine": "Terralsole Brunello di Montalcino Riserva",
-   "vintage": "2012",
-   "format": "750ml",
-   "region": "Italy, Tuscany, Brunello di Montalcino",
-   "n_lots": 1
-  },
-  {
-   "key": "terralsole trio|2010|750",
-   "wine": "Terralsole Trio",
-   "vintage": "2010",
-   "format": "750ml",
-   "region": "Italy, Tuscany",
    "n_lots": 1
   },
   {
@@ -2201,15 +1343,9 @@
    "format": "750ml",
    "region": "France, Burgundy, C\u00f4te d'Or",
    "n_lots": 1
-  },
-  {
-   "key": "trimbach riesling cuvee frederic emile|2015|750",
-   "wine": "Trimbach Riesling Cuvee Frederic-Emile",
-   "vintage": "2015",
-   "format": "750ml",
-   "region": "France, Alsace",
-   "n_lots": 1
-  },
+  }
+ ],
+ "never_attempted": [
   {
    "key": "trimbach riesling cuvee frederic emile|2016|750",
    "wine": "Trimbach Riesling Cuvee Frederic-Emile",
