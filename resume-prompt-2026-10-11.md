@@ -1,0 +1,8 @@
+You are continuing the weekly WineBid deal-finder run for the auction ending 2026-10-11 (export WineBid-Download-20261005.xlsx). The prior session priced 343 of 461 unique wines and published a PARTIAL dashboard. Finish the valuation and republish.
+
+FIRST: run `echo $CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION`. If it does not print 500 or higher, STOP and tell the user: the session was launched wrong (open it with `winebid/toolkit` as the project directory and the env var set). Do not search under a 200 cap.
+
+WORK IN `/Users/chrisbasiliere/Documents/WineBid Agent/winebid/toolkit`. Read CLAUDE.md and known-limits.md (incl. the 2026-10-11 section).
+
+STATE (do not re-screen/re-classify/re-search): funnel 1976 -> 849 -> 771 -> 536 -> 508; 461 unique wines. `checkpoint-2026-10-11-remaining.json` (= fetch_plan.json) holds 118 never-attempted wines. fetch_plan_1005_full.json is the frozen 428-wine plan; `python3 mk1005.py <batchN>` reads `idx|price|type|source` lines (idx into the FULL plan), writes w1005_batchN_results.json, applies it and dedupes valuations.csv. Rebuild: `python3 build_payload_1005.py && python3 apply_flags_1005.py && python3 personal_pick.py payload.json`, then `cd toolkit && python3 build_dashboard.py ../payload.json -o ../output/WineBid_Deals_2026-10-11.html`, test on a Rhone-patched throwaway copy of test.js, copy to docs/index.html, commit only docs/index.html + price_cache.csv + checkpoints + doc edits, push.
+Use cluster queries (producer + cuvee + several vintages) and the unrestricted `"<producer> <cuvee> <vintage> price 750ml"` form. Check producer-name collisions; reject WineBid-own figures, GBP/EUR/CAD/AUD prices, Riserva/second-label substitutions; magnums = 750ml x 2.2 with the mismatch stated.

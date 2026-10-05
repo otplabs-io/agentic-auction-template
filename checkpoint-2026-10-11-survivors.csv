@@ -1,0 +1,531 @@
+id,vintage,wine,format,Region,Quantity,Reserve,Condition Issue,country,dessert_hit,bare_pt,shipper_hit,producer_id_drop,manual_drop,cond_decision,region_path,wine_type,hedge_reason,country_code
+10912342,2020,4 Monos Danza del Viento La Isilla,750ml,"Spain, Vinos de Madrid",1,50,,Spain,False,False,False,False,False,keep,"['Spain', 'Vinos de Madrid']",Red,4 Monos Danza del Viento: red Garnacha; hedged Red,ES
+10912398,2017,4 Monos Danza del Viento Molino Quemado,750ml,"Spain, Vinos de Madrid",1,60,,Spain,False,False,False,False,False,keep,"['Spain', 'Vinos de Madrid']",Red,4 Monos Danza del Viento: hedged Red,ES
+10912390,2020,4 Monos Danza del Viento Molino Quemado,750ml,"Spain, Vinos de Madrid",1,80,,Spain,False,False,False,False,False,keep,"['Spain', 'Vinos de Madrid']",Red,4 Monos Danza del Viento: hedged Red,ES
+10911186,2018,Alain Hudelot-Noellat Nuits-St.-Georges Les Murgers,750ml,"France, Burgundy, Côte d'Or",6,95,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911325,2020,Alain Hudelot-Noellat Nuits-St.-Georges Les Murgers,750ml,"France, Burgundy, Côte d'Or",6,120,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912616,1999,Alain Hudelot-Noellat Romanee St. Vivant,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912547,2022,Alain Hudelot-Noellat Vosne-Romanee Les Beaumonts,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911221,2022,Alain Hudelot-Noellat Vougeot Les Petits Vougeots,750ml,"France, Burgundy, Côte d'Or",6,140,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912343,2014,Alain Michelot Nuits-St.-Georges Aux Chaignots,750ml,"France, Burgundy, Côte d'Or",1,55,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912431,2014,Alain Michelot Nuits-St.-Georges Aux Chaignots,750ml,"France, Burgundy, Côte d'Or",1,55,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10905152,2015,Albert Morot Beaune Les Bressandes,750ml,"France, Burgundy, Côte d'Or",1,65,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912106,2017,Alessandro Rivetto Barolo del Comune di Serralunga d'Alba,750ml,"Italy, Piedmont, Barolo",1,30,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10911534,1996,Allegrini Amarone della Valpolicella Classico,750ml,"Italy, Veneto, Amarone della Valpolicella",1,75,Light capsule condition issue,Italy,False,False,False,False,False,keep,"['Italy', 'Veneto', 'Amarone della Valpolicella']",Red,,IT
+10911421,1997,Allegrini Amarone della Valpolicella Classico,750ml,"Italy, Veneto, Amarone della Valpolicella",2,80,,Italy,False,False,False,False,False,keep,"['Italy', 'Veneto', 'Amarone della Valpolicella']",Red,,IT
+10911459,1997,Allegrini Amarone della Valpolicella Classico,750ml,"Italy, Veneto, Amarone della Valpolicella",1,80,Light label condition issue,Italy,False,False,False,False,False,keep,"['Italy', 'Veneto', 'Amarone della Valpolicella']",Red,,IT
+10911535,1998,Allegrini Amarone della Valpolicella Classico,750ml,"Italy, Veneto, Amarone della Valpolicella",1,80,Light capsule condition issue,Italy,False,False,False,False,False,keep,"['Italy', 'Veneto', 'Amarone della Valpolicella']",Red,,IT
+10911195,2020,Alter Ego,750ml,"France, Bordeaux, Margaux",2,80,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Margaux']",Red,,FR
+10882529,2010,Altesino Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",3,65,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10882521,2010,Altesino Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,65,Light label condition issue,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10911541,1995,Altesino Brunello di Montalcino Montosoli,750ml,"Italy, Tuscany, Brunello di Montalcino",1,110,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10911618,2004,Alto Landon Manchuela,750ml,"Spain, Castilla-La Mancha, La Mancha",1,20,,Spain,False,False,False,False,False,keep,"['Spain', 'Castilla-La Mancha', 'La Mancha']",Red,,ES
+10912058,NV,André Chemin Brut Premier Cru Tradition Blanc de Noirs,750ml,"France, Champagne",5,30,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912059,NV,André Chemin Brut Premier Cru Tradition Blanc de Noirs,750ml,"France, Champagne",1,30,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912010,2001,Andrea Oberto Barolo Rocche,750ml,"Italy, Piedmont, Barolo",1,60,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10911320,2013,Antichi Vigneti di Cantalupo Ghemme Collis Breclemae,750ml,"Italy, Piedmont, Ghemme",1,40,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Ghemme']",Red,,IT
+10911236,2008,Antichi Vigneti di Cantalupo Ghemme Collis Carellae,750ml,"Italy, Piedmont, Ghemme",2,45,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Ghemme']",Red,,IT
+10911203,2013,Antichi Vigneti di Cantalupo Ghemme Collis Carellae,750ml,"Italy, Piedmont, Ghemme",1,40,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Ghemme']",Red,,IT
+10911237,2016,Antichi Vigneti di Cantalupo Ghemme Collis Carellae,750ml,"Italy, Piedmont, Ghemme",4,45,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Ghemme']",Red,,IT
+10911540,1997,Argiano Solengo,750ml,"Italy, Tuscany",1,85,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany']",Red,,IT
+10912584,2008,Armand Rousseau Chambertin,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911399,1998,Armando Parusso Barolo Mariondino,750ml,"Italy, Piedmont, Barolo",1,40,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10912540,2023,Bachey-Legros Chassagne-Montrachet,750ml,"France, Burgundy, Côte d'Or",4,65,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10912005,2013,Bader-Mimeur Chateau de Chassagne Montrachet Chassagne-Montrachet Rouge,750ml,"France, Burgundy, Côte d'Or",3,35,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911404,1999,Barone Ricasoli Casalferro,750ml,"Italy, Tuscany",4,35,Light label condition issue,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany']",Red,,IT
+10912120,NV,Baron-Fuente Brut Rose Dolores,750ml,"France, Champagne",1,35,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10911250,2019,Bartolo Mascarello Barbera d'Alba,750ml,"Italy, Piedmont, Barbera di Alba",1,55,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbera di Alba']",Red,,IT
+10911204,2020,Bartolo Mascarello Dolcetto d'Alba,750ml,"Italy, Piedmont, Dolcetto d'Alba",2,35,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', ""Dolcetto d'Alba""]",Red,,IT
+10912344,2022,Benedicte et Stephane Tissot Chardonnay Rose Massale,750ml,"France, Jura",1,55,,France,False,False,False,False,False,keep,"['France', 'Jura']",White,"""Rose Massale"" is a selection massale (vine propagation), not rosé; Chardonnay -> White",FR
+10912585,2022,Benoit Ente Chassagne-Montrachet,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10912194,NV,Bernard Lonclas Blanc de Blancs Extra Brut,750ml,"France, Champagne",2,45,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10905193,NV,Billecart-Salmon Brut Rosé,750ml,"France, Champagne",1,75,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912160,NV,Billecart-Salmon Brut Rosé,750ml,"France, Champagne",1,75,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912569,1996,Billecart-Salmon Clos St Hilaire,750ml,"France, Champagne",1,50,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10905191,NV,Billecart-Salmon Extra Brut Le Rose,750ml,"France, Champagne",1,70,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10920148,2021,Bitouzet-Prieur Bourgogne Blanc,750ml,"France, Burgundy",1,30,,France,False,False,False,False,False,keep,"['France', 'Burgundy']",White,,FR
+10911496,1989,Bolla Amarone della Valpolicella Classico,750ml,"Italy, Veneto, Amarone della Valpolicella",2,40,,Italy,False,False,False,False,False,keep,"['Italy', 'Veneto', 'Amarone della Valpolicella']",Red,,IT
+10912618,2013,Bonneau Du Martray Corton-Charlemagne,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10911503,1998,Bosquet des Papes Chateauneuf du Pape Cuvee Grenache,750ml,"France, Rhône Valley, Southern Rhône",1,60,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10911504,1998,Bosquet des Papes Châteauneuf-du-Pape,750ml,"France, Rhône Valley, Southern Rhône",1,45,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10905173,2005,Bouchard Pere et Fils Meursault Perrières,750ml,"France, Burgundy, Côte d'Or",4,120,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10882561,2007,Brancaia Il Blu,750ml,"Italy, Tuscany",1,60,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany']",Red,,IT
+10912341,2018,Burlotto Barolo,750ml,"Italy, Piedmont, Barolo",1,70,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10911242,2018,Burlotto Barolo Acclivi,750ml,"Italy, Piedmont, Barolo",1,125,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10920152,2020,Burlotto Langhe Nebbiolo,750ml,"Italy, Piedmont, Langhe",1,35,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Langhe']",Red,,IT
+10905154,2011,Camille Giroud Pommard Clos de Vergers,750ml,"France, Burgundy, Côte d'Or",1,80,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912158,NV,Camille Jacquet Brut Grand Cru Le Mesnil-Sur-Oger,750ml,"France, Champagne, Côte des Blancs",2,30,,France,False,False,False,False,False,keep,"['France', 'Champagne', 'Côte des Blancs']",Sparkling,,FR
+10920154,2020,Capitain-Gagnerot Ladoix Les Grechons et Foutieres Blanc,750ml,"France, Burgundy, Côte d'Or",2,35,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10905230,2014,Carlo Boffa Barbaresco,750ml,"Italy, Piedmont, Barbaresco",1,20,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbaresco']",Red,,IT
+10905232,2014,Carlo Boffa Barbaresco,750ml,"Italy, Piedmont, Barbaresco",1,20,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbaresco']",Red,,IT
+10912233,2020,Casanova di Neri Brunello di Montalcino Tenuta Nuova,750ml,"Italy, Tuscany, Brunello di Montalcino",6,80,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10912137,2011,Cascina Adelaide Barolo Preda,750ml,"Italy, Piedmont, Barolo",3,50,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10882522,2016,Castellare di Castellina I Sodi di San Niccolò,750ml,"Italy, Tuscany",1,90,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany']",Red,,IT
+10882531,2017,Castellare di Castellina I Sodi di San Niccolò,750ml,"Italy, Tuscany",4,50,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany']",Red,,IT
+10911445,1997,Castello di Monsanto Chianti Classico Il Poggio Riserva,750ml,"Italy, Tuscany, Chianti Classico",1,55,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Chianti Classico']",Red,,IT
+10920167,2021,Castello Di Monterinaldi Chianti Classico,750ml,"Italy, Tuscany, Chianti Classico",1,25,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Chianti Classico']",Red,,IT
+10882546,2016,Castello di Neive Barbaresco,750ml,"Italy, Piedmont, Barbaresco",1,30,Base neck fill,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbaresco']",Red,,IT
+10905153,1989,Castello di Neive Barbaresco Santo Stefano,750ml,"Italy, Piedmont, Barbaresco",1,95,"Light capsule condition issue
+Very top shoulder fill
+Light label condition issue",Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbaresco']",Red,,IT
+10905284,2010,Cavallotto Barolo Bricco Boschis,750ml,"Italy, Piedmont, Barolo",1,105,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10912105,2013,Cavallotto Barolo Vignolo Riserva,750ml,"Italy, Piedmont, Barolo",2,85,Light label condition issue,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10920184,2015,Cerbaiola (Salvioni) Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,150,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10912619,2017,Chandon de Briailles Corton Bressandes,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912052,2008,Charles & Alphrede Prieur Grand Prieur Brut,750ml,"France, Champagne",3,45,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10911968,2008,Charles & Alphrede Prieur Grand Prieur Brut,750ml,"France, Champagne",1,45,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10905138,2018,Charles Joguet Chinon Rosé,1.5ltr,"France, Loire Valley, Touraine",5,45,,France,False,False,False,False,False,keep,"['France', 'Loire Valley', 'Touraine']",Rose,,FR
+10911889,NV,Charles Mignon Brut Cuvee Comte de Marne,750ml,"France, Champagne",1,35,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912074,NV,Charles Mignon Brut Cuvee Comte de Marne,1.5ltr,"France, Champagne",1,70,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912189,NV,Charles Mignon Brut Cuvee Comte de Marne,3.0ltr,"France, Champagne",2,140,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10911920,NV,Charles Mignon Premium Reserve,750ml,"France, Champagne",1,30,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10911921,NV,Charles Mignon Premium Reserve Rose,750ml,"France, Champagne",1,30,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10920134,2002,Charles Noellat Beaune Les Cents Vignes,750ml,"France, Burgundy, Côte d'Or",1,75,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10920156,2005,Charles Noellat Savigny-les-Beaune,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10920166,2020,Charles Van Canneyt Chablis Montee de Tonnerre,750ml,"France, Burgundy, Chablis",1,40,,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Chablis']",White,,FR
+10912436,2020,Charlopin Tissier Marsannay La Montagne,750ml,"France, Burgundy, Côte d'Or",1,40,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912435,2021,Charlopin Tissier Marsannay le Chapitre,750ml,"France, Burgundy, Côte d'Or",1,35,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912586,NV,Chartogne-Taillet Hors Serie,750ml,"France, Champagne",1,50,Light capsule condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912098,2016,Château Batailley,750ml,"France, Bordeaux, Pauillac",1,50,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Pauillac']",Red,,FR
+10905175,1988,Château Beychevelle,750ml,"France, Bordeaux, St.-Julien",1,90,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Julien']",Red,,FR
+10911457,1995,Château Calon-Segur,750ml,"France, Bordeaux, St.-Estephe",1,150,"Light capsule condition issue
+Base neck fill",France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Estephe']",Red,,FR
+10911398,1995,Château Canon-La-Gaffeliere,750ml,"France, Bordeaux, St.-Émilion",1,70,"Light capsule condition issue
+Light label condition issue",France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10911380,1996,Château Cantemerle,750ml,"France, Bordeaux, Haut-Médoc",2,65,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Haut-Médoc']",Red,,FR
+10912142,2005,Château Carbonnieux,375ml,"France, Bordeaux, Graves",1,25,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Graves']",Red,,FR
+10911538,2000,Château Charmail,750ml,"France, Bordeaux, Haut-Médoc",2,35,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Haut-Médoc']",Red,,FR
+10882421,2005,Château Clos de Sarpe,750ml,"France, Bordeaux, St.-Émilion",1,75,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10911514,1998,Château Cote de Baleau,750ml,"France, Bordeaux, St.-Émilion",2,125,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10882541,2009,Château Croix De Labrie,750ml,"France, Bordeaux, St.-Émilion",1,65,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10920241,2016,Château d'Aiguilhe Cotes de Castillon,750ml,"France, Bordeaux, Cotes de Castillon",9,30,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Cotes de Castillon']",Red,,FR
+10911542,1998,Château Dalem,750ml,"France, Bordeaux, Fronsac",2,25,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Fronsac']",Red,,FR
+10911386,1998,Chateau de Beaucastel Châteauneuf-du-Pape,750ml,"France, Rhône Valley, Southern Rhône",2,135,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10912143,2005,Chateau de la Maltroye Chassagne-Montrachet La Boudriotte (Rouge),375ml,"France, Burgundy, Côte d'Or",1,40,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912020,2005,Chateau de la Maltroye Chassagne-Montrachet La Boudriotte (Rouge),750ml,"France, Burgundy, Côte d'Or",1,80,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912612,2019,Chateau des Tours Côtes du Rhône Reserve,750ml,"France, Rhône Valley, Southern Rhône",1,50,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10911513,1998,Château Faugeres,750ml,"France, Bordeaux, St.-Émilion",1,45,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10882550,2011,Château Feytit-Clinet,750ml,"France, Bordeaux, Pomerol",1,45,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Pomerol']",Red,,FR
+10920155,2016,Château Gazin Rocquencourt,750ml,"France, Bordeaux, Graves",1,30,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Graves']",Red,,FR
+10911480,1998,Château Haut-Maillet,750ml,"France, Bordeaux, Pomerol",2,35,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Pomerol']",Red,,FR
+10911479,1998,Château Haut-Maillet,750ml,"France, Bordeaux, Pomerol",2,35,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Pomerol']",Red,,FR
+10905231,2020,Château La Fleur St. Georges,750ml,"France, Bordeaux, Lalande de Pomerol",1,20,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Lalande de Pomerol']",Red,,FR
+10882468,2000,Château La Gomerie,750ml,"France, Bordeaux, St.-Émilion",1,85,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10912587,1990,Château La Mission Haut Brion,750ml,"France, Bordeaux, Graves",1,50,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Graves']",Red,,FR
+10911651,2009,Château La Rousselle,750ml,"France, Bordeaux, Fronsac",1,30,"Very top shoulder fill
+Light label condition issue",France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Fronsac']",Red,,FR
+10905151,1979,Château Leoville-Las-Cases,750ml,"France, Bordeaux, St.-Julien",1,125,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Julien']",Red,,FR
+10912083,2010,Château Malescot-St Exupery,750ml,"France, Bordeaux, Margaux",1,85,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Margaux']",Red,,FR
+10912615,1983,Château Margaux,750ml,"France, Bordeaux, Margaux",1,50,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Margaux']",Red,,FR
+10882542,2005,Château Monbousquet,750ml,"France, Bordeaux, St.-Émilion",2,80,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10911218,NV,Château Palmer Historical XIXth Century Wine (L.20.19),750ml,"France, Bordeaux, Margaux",6,140,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Margaux']",Red,,FR
+10911543,1998,Château Pape-Clement,750ml,"France, Bordeaux, Graves",2,120,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Graves']",Red,,FR
+10911489,1999,Château Pavie-Decesse,375ml,"France, Bordeaux, St.-Émilion",1,40,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10911484,1998,Château Pavie-Macquin,750ml,"France, Bordeaux, St.-Émilion",2,130,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10920217,2016,Château Pavie-Macquin,750ml,"France, Bordeaux, St.-Émilion",1,105,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10911383,1998,Château Peby-Faugeres,750ml,"France, Bordeaux, St.-Émilion",2,85,"Light capsule condition issue
+Light label condition issue",France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10911384,1998,Château Peby-Faugeres,750ml,"France, Bordeaux, St.-Émilion",1,85,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10882452,2010,Château Peby-Faugeres,750ml,"France, Bordeaux, St.-Émilion",1,140,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10905178,1975,Château Pichon-Longueville Baron,750ml,"France, Bordeaux, Pauillac",1,120,"Light capsule condition issue
+Very top shoulder fill
+Light label condition issue",France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Pauillac']",Red,,FR
+10912197,2009,Château Prieure-Lichine,1.5ltr,"France, Bordeaux, Margaux",2,130,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Margaux']",Red,,FR
+10911388,1998,Château Quinault L'Enclos,750ml,"France, Bordeaux, St.-Émilion",4,50,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10882551,2005,Château Quinault L'Enclos,750ml,"France, Bordeaux, St.-Émilion",1,55,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10920164,2013,Château Rouget,750ml,"France, Bordeaux, Pomerol",1,40,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Pomerol']",Red,,FR
+10911483,1998,Château Smith-Haut-Lafitte,750ml,"France, Bordeaux, Graves",2,105,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Graves']",Red,,FR
+10882632,2019,Château Talbot,750ml,"France, Bordeaux, St.-Julien",2,75,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Julien']",Red,,FR
+10882420,2009,Château Teyssier Les Asteries,750ml,"France, Bordeaux, St.-Émilion",2,75,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10882544,2009,Château Troplong-Mondot,750ml,"France, Bordeaux, St.-Émilion",1,135,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10882545,2010,Château Troplong-Mondot,750ml,"France, Bordeaux, St.-Émilion",1,150,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10912179,NV,Chaudron Brut Grains de Nature B73 Zero Dosage,750ml,"France, Champagne",4,30,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912429,2018,Chiara Condello Le Lucciole Riserva,750ml,"Italy, Emilia Romagna, Romagna",1,50,,Italy,False,False,False,False,False,keep,"['Italy', 'Emilia Romagna', 'Romagna']",Red,,IT
+10911462,1997,Ciacci Piccolomini d'Aragona Brunello di Montalcino Vigna Pianrosso,750ml,"Italy, Tuscany, Brunello di Montalcino",1,150,Light capsule condition issue,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10911461,1997,Ciacci Piccolomini d'Aragona Brunello di Montalcino Vigna Pianrosso,750ml,"Italy, Tuscany, Brunello di Montalcino",1,150,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10911509,1999,Ciacci Piccolomini d'Aragona Sant'Antimo Fabius,750ml,"Italy, Tuscany, Sant'Antimo",1,30,"Light capsule condition issue
+Light label condition issue",Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', ""Sant'Antimo""]",Red,,IT
+10911510,1999,Ciacci Piccolomini d'Aragona Sant'Antimo Fabius,750ml,"Italy, Tuscany, Sant'Antimo",1,30,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', ""Sant'Antimo""]",Red,,IT
+10882475,2004,Clerico Barolo Ciabot Mentin Ginestra,750ml,"Italy, Piedmont, Barolo",1,85,Light label condition issue,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10911444,1998,Clos de l'Oratoire,750ml,"France, Bordeaux, St.-Émilion",1,60,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10911515,1998,Clos de l'Oratoire,750ml,"France, Bordeaux, St.-Émilion",1,60,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10905329,2010,Clos du Joncuas Gigondas,750ml,"France, Rhône Valley, Southern Rhône",1,20,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10920130,2022,Clos Marsalette Blanc,750ml,"France, Bordeaux, Graves",1,30,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'Graves']",White,,FR
+10911376,1998,Clos Mogador,750ml,"Spain, Cataluna, Priorato",1,75,"Base neck fill
+Light label condition issue",Spain,False,False,False,False,False,keep,"['Spain', 'Cataluna', 'Priorato']",Red,,ES
+10905327,2008,Clusel-Roch Côte-Rôtie,750ml,"France, Rhône Valley, Northern Rhône",1,50,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Northern Rhône']",Red,,FR
+10911506,1998,Colin-Deleger Chassagne-Montrachet Les Vergers,750ml,"France, Burgundy, Côte d'Or",1,55,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10911781,2020,Comenge Familia Reserva,750ml,"Spain, Castilla-Leon, Ribera del Duero",1,20,,Spain,False,False,False,False,False,keep,"['Spain', 'Castilla-Leon', 'Ribera del Duero']",Red,,ES
+10911412,1996,Condado de Haza Ribera del Duero,750ml,"Spain, Castilla-Leon, Ribera del Duero",1,45,"Very top shoulder fill
+Light label condition issue",Spain,False,False,False,False,False,keep,"['Spain', 'Castilla-Leon', 'Ribera del Duero']",Red,,ES
+10911413,1996,Condado de Haza Ribera del Duero,750ml,"Spain, Castilla-Leon, Ribera del Duero",1,45,Very top shoulder fill,Spain,False,False,False,False,False,keep,"['Spain', 'Castilla-Leon', 'Ribera del Duero']",Red,,ES
+10911414,1996,Condado de Haza Ribera del Duero,750ml,"Spain, Castilla-Leon, Ribera del Duero",1,45,Base neck fill,Spain,False,False,False,False,False,keep,"['Spain', 'Castilla-Leon', 'Ribera del Duero']",Red,,ES
+10905150,1989,Conterno Fantino Barolo Vigna Del Gris,750ml,"Italy, Piedmont, Barolo",1,90,Light label condition issue,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10882609,2010,Cordella Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,50,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10911477,1996,Cordero di Montezemolo Barolo Monfalletto,750ml,"Italy, Piedmont, Barolo",2,60,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10911689,2020,Couly Dutheil Chinon Clos de L'Echo,750ml,"France, Loire Valley, Touraine",1,35,,France,False,False,False,False,False,keep,"['France', 'Loire Valley', 'Touraine']",Red,,FR
+10920170,2017,Daniel Rion Vosne-Romanée Les Chaumes,750ml,"France, Burgundy, Côte d'Or",1,75,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912066,2015,Decelle-Villa Auxey-Duresses,750ml,"France, Burgundy, Côte d'Or",4,30,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,Auxey-Duresses (Decelle-Villa): red/white; hedged Red,FR
+10905225,2014,Domaine A. & P. de Villaine Bourgogne Côte Chalonnaise Les Clous Cuvée Aimé,750ml,"France, Burgundy, Côte Chalonnaise",1,45,,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Côte Chalonnaise']",Red,de Villaine Les Clous Cuvee Aime: hedged Red,FR
+10905137,2015,Domaine Alain Voge Cornas Les Chailles,1.5ltr,"France, Rhône Valley, Northern Rhône",1,140,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Northern Rhône']",Red,,FR
+10911464,1996,Domaine Barat Chablis Côte de Léchet,750ml,"France, Burgundy, Chablis",3,40,"Light capsule condition issue
+Light label condition issue",France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Chablis']",White,,FR
+10912395,2022,Domaine Benoit Moreau Saint-Aubin En Remilly,750ml,"France, Burgundy, Côte d'Or",1,140,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,Saint-Aubin En Remilly (Moreau): white-leaning premier cru; hedged White,FR
+10912549,2022,Domaine Chanterêves Chassagne-Montrachet Morgeots,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,Chassagne Morgeots (Chanterêves) could be red; hedged White,FR
+10912525,2023,Domaine Collotte Gevrey Chambertin Les Evocelles,750ml,"France, Burgundy, Côte d'Or",4,55,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911475,1996,Domaine Confuron-Cotetidot Nuits-St.-Georges,750ml,"France, Burgundy, Côte d'Or",1,75,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911432,1998,Domaine de Beaurenard (Coulon) Boisrenard Chateauneuf du Pape,750ml,"France, Rhône Valley, Southern Rhône",1,40,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10911433,1998,Domaine de Beaurenard (Coulon) Boisrenard Chateauneuf du Pape,750ml,"France, Rhône Valley, Southern Rhône",1,40,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10905325,2010,Domaine de Bonserine Cote-Rotie La Garde,750ml,"France, Rhône Valley, Northern Rhône",1,60,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Northern Rhône']",Red,,FR
+10920131,2021,Domaine De La Chapelle Pouilly Fuisse Vielles Vignes,750ml,"France, Burgundy, Mâconnais",1,30,,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Mâconnais']",White,,FR
+10912550,2018,Domaine de la Grange des Peres Blanc,1.5ltr,"France, Rhône Valley, Southern Rhône",1,50,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",White,,FR
+10912551,2020,Domaine de la Romanee-Conti Echezeaux,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912552,2016,Domaine de la Romanee-Conti Grands-Echezeaux,1.5ltr,"France, Burgundy, Côte d'Or",1,50,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912553,2021,Domaine de la Romanee-Conti Richebourg,750ml,"France, Burgundy, Côte d'Or",1,50,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10905228,2022,Domaine De La Tour Chablis,750ml,"France, Burgundy, Chablis",1,25,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Chablis']",White,,FR
+10905229,2022,Domaine De La Tour Chablis,750ml,"France, Burgundy, Chablis",1,25,,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Chablis']",White,,FR
+10911516,1999,Domaine de la Vieille Julienne Châteauneuf-du-Pape Reserve,750ml,"France, Rhône Valley, Southern Rhône",1,60,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10911473,1995,Domaine de Villeneuve Chateauneuf du Pape Les Vieilles Vignes,750ml,"France, Rhône Valley, Southern Rhône",1,55,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10911476,1996,Domaine des Baumard Savennieres Clos du Papillon,750ml,"France, Loire Valley, Savennieres",1,70,"Light capsule condition issue
+Light label condition issue",France,False,False,False,False,False,keep,"['France', 'Loire Valley', 'Savennieres']",White,,FR
+10911379,1996,Domaine des Perdrix Echezeaux,750ml,"France, Burgundy, Côte d'Or",1,135,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10920236,2004,Domaine des Relagnes Chateauneuf du Pape Les Petits Pieds de l'Armand,750ml,"France, Rhône Valley, Southern Rhône",1,50,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10912364,2022,Domaine Didier Fornerol Côte de Nuits-Villages Les Perrières,750ml,"France, Burgundy, Côte d'Or",1,105,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911430,1998,Domaine du Pegau Chateauneuf-du-Pape Cuvee Reservee,750ml,"France, Rhône Valley, Southern Rhône",1,105,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10911560,2014,Domaine du Vieux Telegraphe Châteauneuf-du-Pape,750ml,"France, Rhône Valley, Southern Rhône",1,50,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10920151,2021,Domaine Duroche Gevrey Chambertin,750ml,"France, Burgundy, Côte d'Or",1,70,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10920128,2018,Domaine Felettig Bourgogne Hautes-Côtes de Nuits,750ml,"France, Burgundy, Bourgogne",2,30,,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Bourgogne']",Red,Hautes-Cotes de Nuits (Felettig): red/white; hedged Red,FR
+10920144,2019,Domaine Felettig Marsannay Les Crais,750ml,"France, Burgundy, Côte d'Or",1,40,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912554,2022,Domaine Fourrier Vougeot Les Petits Vougeot,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10920140,2017,Domaine Francois Lamarche Vosne-Romanee Village,750ml,"France, Burgundy, Côte d'Or",1,70,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10905330,2012,Domaine Garon Cote Rotie Les Triotes,750ml,"France, Rhône Valley, Northern Rhône",1,50,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Northern Rhône']",Red,,FR
+10912544,2019,Domaine Gauby Cotes Catalanes Muntada Rouge,750ml,"France, Languedoc-Roussillon, Côtes Catalanes",2,70,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Languedoc-Roussillon', 'Côtes Catalanes']",Red,,FR
+10912607,2022,Domaine Georges Roumier Chambolle-Musigny,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912580,2009,Domaine Georges Roumier Morey-St. Denis Clos de la Bussiere,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911740,2022,Domaine Gerard Julien et Fils Aloxe-Corton Les Valozières,750ml,"France, Burgundy, Côte d'Or",2,40,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911741,2022,Domaine Gerard Julien et Fils Aloxe-Corton Les Valozières,750ml,"France, Burgundy, Côte d'Or",2,40,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911799,2023,Domaine Hubert Lamy Saint Aubin Clos du Meix,750ml,"France, Burgundy, Côte d'Or",6,120,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10912370,2015,Domaine Jean Marc Bouley Volnay 1er Cru Carelles,750ml,"France, Burgundy, Côte d'Or",1,85,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912383,2020,Domaine Jean Marc Bouley Volnay Carelle sous la Chapelle,750ml,"France, Burgundy, Côte d'Or",1,105,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912371,2019,Domaine Jean Marc Bouley Volnay Clos de Chenes,750ml,"France, Burgundy, Côte d'Or",1,145,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911443,1996,Domaine Jean-Paul Droin Chablis Vaillons,750ml,"France, Burgundy, Chablis",1,55,Light capsule condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Chablis']",White,,FR
+10911437,1999,Domaine Joblot Givry Clos de la Servoisine,750ml,"France, Burgundy, Côte Chalonnaise",4,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Côte Chalonnaise']",Red,,FR
+10911396,1999,Domaine Joblot Givry Clos du Cellier aux Moines,750ml,"France, Burgundy, Côte Chalonnaise",1,65,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Côte Chalonnaise']",Red,,FR
+10911397,1999,Domaine Joblot Givry Clos du Cellier aux Moines,750ml,"France, Burgundy, Côte Chalonnaise",1,65,,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Côte Chalonnaise']",Red,,FR
+10911609,2023,Domaine Le Clos du Caillou Châteauneuf-du-Pape Reserve,750ml,"France, Rhône Valley, Southern Rhône",1,105,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10912581,1995,Domaine Leroy Clos de la Roche,750ml,"France, Burgundy, Côte d'Or",1,50,Capsule condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912620,2021,Domaine Les Monts Fournois Coteaux Champenois Blanc Ludes,750ml,"France, Champagne, Coteaux Champenois",1,50,,France,False,False,False,False,False,keep,"['France', 'Champagne', 'Coteaux Champenois']",Sparkling,,FR
+10912365,2019,Domaine Michel Mallard Corton Les Renardes,750ml,"France, Burgundy, Côte d'Or",1,135,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912409,2021,Domaine Michel Mallard Corton Les Renardes,750ml,"France, Burgundy, Côte d'Or",1,75,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912368,2019,Domaine Michel Mallard Ladoix La Corvee,750ml,"France, Burgundy, Côte d'Or",1,40,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912420,2020,Domaine Michel Mallard Ladoix La Corvee,750ml,"France, Burgundy, Côte d'Or",1,40,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912421,2020,Domaine Michel Mallard Savigny Les Beaune Les Serpentieres,750ml,"France, Burgundy, Côte d'Or",1,40,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10905148,2008,Domaine Michel Niellon Chassagne-Montrachet Les Vergers,750ml,"France, Burgundy, Côte d'Or",2,85,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10920153,2018,Domaine Newman Beaune Clos des Avaux,750ml,"France, Burgundy, Côte d'Or",1,35,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912621,2021,Domaine Perrot-Minot Chambolle-Musigny Vieilles Vignes,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912555,2021,Domaine Perrot-Minot Griotte-Chambertin Vieilles Vignes,1.5ltr,"France, Burgundy, Côte d'Or",1,50,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912622,2021,Domaine Perrot-Minot Vosne-Romanée Vieilles Vignes,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912348,2019,Domaine Pierre Gonon Saint-Joseph,750ml,"France, Rhône Valley, Northern Rhône",1,125,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Northern Rhône']",Red,,FR
+10912399,2020,Domaine Pierre Gonon Saint-Joseph,750ml,"France, Rhône Valley, Northern Rhône",1,105,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Northern Rhône']",Red,,FR
+10912556,2022,Domaine Prieure-Roch Vin de France Pinot Noir,750ml,France,1,50,,France,False,False,False,False,False,keep,['France'],Red,,FR
+10912606,2022,Domaine Prieure-Roch Vin de France Pinot Noir,750ml,France,1,50,,France,False,False,False,False,False,keep,['France'],Red,,FR
+10912557,2022,Domaine Remi Jobard Meursault Les Genevrières,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10912430,2022,Domaine Renaud Boyer Puligny-Montrachet Les Reuchaux,750ml,"France, Burgundy, Côte d'Or",1,130,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10911240,2012,Domaine Robert Chevillon Nuits-St.-Georges Les Cailles,750ml,"France, Burgundy, Côte d'Or",3,120,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911279,2017,Domaine Robert Chevillon Nuits-St.-Georges Les Cailles,750ml,"France, Burgundy, Côte d'Or",12,125,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911200,2020,Domaine Robert Chevillon Nuits-St.-Georges Les Cailles,750ml,"France, Burgundy, Côte d'Or",6,120,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911699,2023,Domaine Serge Laporte Sancerre Les Montes Damnes,750ml,"France, Loire Valley, Centre-Loire",1,25,,France,False,False,False,False,False,keep,"['France', 'Loire Valley', 'Centre-Loire']",White,,FR
+10912218,2025,Domaine Tempier Bandol Rosé,750ml,"France, Provence, Bandol",2,50,,France,False,False,False,False,False,keep,"['France', 'Provence', 'Bandol']",Rose,,FR
+10912558,2022,Domaine Vincent Dancer Bourgogne Hautes-Côtes de Beaune Blanc,1.5ltr,"France, Burgundy, Bourgogne",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Bourgogne']",White,,FR
+10912347,2022,Domaine Vincent Dancer Meursault Les Corbins,750ml,"France, Burgundy, Côte d'Or",2,150,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10912608,2022,Dominique Lafon Volnay Les Lurets,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912131,NV,Drappier Brut Nature Rose Zero Dosage,750ml,"France, Champagne",2,45,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912605,NV,Egly-Ouriet Extra Brut Grand Cru V.P. (Vieillissement Prolonge),750ml,"France, Champagne",1,50,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10911805,2021,El Grifo Ariana,750ml,"Spain, Canary Islands, Lanzarote",5,20,Light label condition issue,Spain,False,False,False,False,False,keep,"['Spain', 'Canary Islands', 'Lanzarote']",White,El Grifo Ariana (Lanzarote): hedged White (Malvasia blend),ES
+10911804,2021,El Grifo Ariana,750ml,"Spain, Canary Islands, Lanzarote",1,20,,Spain,False,False,False,False,False,keep,"['Spain', 'Canary Islands', 'Lanzarote']",White,El Grifo Ariana (Lanzarote): hedged White,ES
+10911207,2013,Elena Fucci Aglianico del Vulture Superiore Riserva Titolo,750ml,"Italy, Basilicata, Aglianico del Vulture Superiore",2,80,,Italy,False,False,False,False,False,keep,"['Italy', 'Basilicata', 'Aglianico del Vulture Superiore']",Red,,IT
+10911232,2018,Elena Fucci Aglianico del Vulture Superiore Riserva Titolo,750ml,"Italy, Basilicata, Aglianico del Vulture Superiore",3,70,,Italy,False,False,False,False,False,keep,"['Italy', 'Basilicata', 'Aglianico del Vulture Superiore']",Red,,IT
+10911216,2019,Elena Fucci Aglianico del Vulture Superiore Riserva Titolo,750ml,"Italy, Basilicata, Aglianico del Vulture Superiore",3,75,,Italy,False,False,False,False,False,keep,"['Italy', 'Basilicata', 'Aglianico del Vulture Superiore']",Red,,IT
+10912588,2019,Emilien Feneuil Coteaux Champenois Blanc de Petit Meslier et de Chardonnay,750ml,"France, Champagne, Coteaux Champenois",1,50,,France,False,False,False,False,False,keep,"['France', 'Champagne', 'Coteaux Champenois']",Sparkling,,FR
+10912589,NV,Emilien Feneuil Coteaux Champenois Chamery Pinot Noir,750ml,"France, Champagne, Coteaux Champenois",1,50,,France,False,False,False,False,False,keep,"['France', 'Champagne', 'Coteaux Champenois']",Sparkling,,FR
+10912590,2020,Emilien Feneuil Coteaux Champenois Les Maçonettes Rosé,750ml,"France, Champagne, Coteaux Champenois",1,50,,France,False,False,False,False,False,keep,"['France', 'Champagne', 'Coteaux Champenois']",Sparkling,,FR
+10912591,2022,Emmanuel Rouget Echezeaux,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912614,2021,Emmanuel Rouget Nuits-St.-Georges,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912559,2021,Emmanuel Rouget Savigny Les Beaune,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912560,2022,Emmanuel Rouget Vosne-Romanee,1.5ltr,"France, Burgundy, Côte d'Or",1,50,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912561,2022,Emmanuel Rouget Vosne-Romanee Cros Parantoux,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912060,NV,Fabiènne Prié Brut Réserve,750ml,"France, Champagne",2,25,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912065,2015,Fernand & Laurent Pillot Chassagne-Montrachet Vide Bourse,750ml,"France, Burgundy, Côte d'Or",2,60,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10912166,2016,Fernand & Laurent Pillot Puligny Montrachet Noyers Brets,750ml,"France, Burgundy, Côte d'Or",12,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10920206,2017,Fontaine-Gagnard Chassagne-Montrachet La Romanee,750ml,"France, Burgundy, Côte d'Or",1,120,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,Fontaine-Gagnard La Romanee (Chassagne 1er): hedged White,FR
+10912592,2021,Francois Chidaine Montlouis-sur-Loire Les Epinays,1.5ltr,"France, Loire Valley, Montlouis-Sur-Loire",1,50,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Loire Valley', 'Montlouis-Sur-Loire']",White,,FR
+10912542,2023,Franz Hirtzberger Hochrain Riesling Smaragd,750ml,"Austria, Niederosterreich, Wachau",1,65,,Austria,False,False,False,False,False,keep,"['Austria', 'Niederosterreich', 'Wachau']",White,,AT
+10912543,2024,Franz Hirtzberger Hochrain Riesling Smaragd,750ml,"Austria, Niederosterreich, Wachau",2,65,,Austria,False,False,False,False,False,keep,"['Austria', 'Niederosterreich', 'Wachau']",White,,AT
+10920210,2005,Fratelli Revello Barolo Rocche dell'Annunziata,750ml,"Italy, Piedmont, Barolo",2,75,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10920211,2006,Fratelli Revello Barolo Rocche dell'Annunziata,750ml,"Italy, Piedmont, Barolo",9,115,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10920229,2007,Fratelli Revello Barolo Rocche dell'Annunziata,750ml,"Italy, Piedmont, Barolo",6,70,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10920224,2008,Fratelli Revello Barolo Rocche dell'Annunziata,750ml,"Italy, Piedmont, Barolo",8,60,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10920223,2005,Fratelli Revello Barolo Vigna Conca,750ml,"Italy, Piedmont, Barolo",2,50,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10920222,2006,Fratelli Revello Barolo Vigna Conca,750ml,"Italy, Piedmont, Barolo",8,50,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10912562,NV,"Frederic Savart Extra Brut Premier Cru Ecueil, Trepail Blanc de Blancs",750ml,"France, Champagne, Montagne de Reims",1,50,,France,False,False,False,False,False,keep,"['France', 'Champagne', 'Montagne de Reims']",Sparkling,,FR
+10912541,2024,FX Pichler Dürnsteiner Kellerberg Riesling,750ml,"Austria, Niederosterreich, Wachau",2,85,,Austria,False,False,False,False,False,keep,"['Austria', 'Niederosterreich', 'Wachau']",White,,AT
+10912593,2008,FX Pichler Gruner Veltliner Smaragd M,750ml,"Austria, Wachau",1,50,,Austria,False,False,False,False,False,keep,"['Austria', 'Wachau']",White,,AT
+10920243,2007,G. Corino Barolo Vecchie Vigne,1.5ltr,"Italy, Piedmont, Barolo",1,140,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10911196,2017,G.D. Vajra Barolo Coste di Rose,750ml,"Italy, Piedmont, Barolo",4,50,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,"""Coste di Rose"" is a Barolo cru name; Red",IT
+10912140,NV,G.H. Mumm Brut Cordon Rouge,750ml,"France, Champagne",1,35,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912582,1990,Gaja Barbaresco Sori Tildin,1.5ltr,"Italy, Piedmont, Barbaresco",1,50,"Light capsule condition issue
+Light label condition issue",Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbaresco']",Red,,IT
+10912062,NV,Gallimard Père et Fils Brut Cuvee Reserve Blanc de Noirs,750ml,"France, Champagne",3,35,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912063,NV,Gallimard Père et Fils Brut Cuvee Reserve Blanc de Noirs,750ml,"France, Champagne",3,35,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912563,2021,Georges Noellat Nuits-Saint-Georges Aux Boudots,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911556,2022,Gerard Raphet Morey-Saint-Denis Les Millandes,750ml,"France, Burgundy, Côte d'Or",1,95,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911381,1997,Gianfranco Alessandria Barolo San Giovanni,750ml,"Italy, Piedmont, Barolo",1,60,Light label condition issue,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10911382,1997,Gianfranco Alessandria Barolo San Giovanni,750ml,"Italy, Piedmont, Barolo",1,60,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10920240,2004,Giovanni Rocca Barolo Mosconi,750ml,"Italy, Piedmont, Barolo",5,50,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10911176,2018,Giuseppe Rinaldi Barbera d'Alba,750ml,"Italy, Piedmont, Barbera di Alba",1,55,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbera di Alba']",Red,,IT
+10911192,2019,Giuseppe Rinaldi Barbera d'Alba,750ml,"Italy, Piedmont, Barbera di Alba",1,65,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbera di Alba']",Red,,IT
+10911305,2019,Giuseppe Rinaldi Dolcetto d'Alba,750ml,"Italy, Piedmont, Dolcetto d'Alba",1,45,"Light capsule condition issue
+Exposed cork",Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', ""Dolcetto d'Alba""]",Red,,IT
+10911316,2019,Giuseppe Rinaldi Dolcetto d'Alba,750ml,"Italy, Piedmont, Dolcetto d'Alba",1,45,Light label condition issue,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', ""Dolcetto d'Alba""]",Red,,IT
+10911306,2019,Giuseppe Rinaldi Dolcetto d'Alba,750ml,"Italy, Piedmont, Dolcetto d'Alba",1,45,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', ""Dolcetto d'Alba""]",Red,,IT
+10911255,2017,Giuseppe Rinaldi Vino Rosso Rosae,750ml,"Italy, Piedmont",1,50,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont']",Red,,IT
+10912053,NV,Gounel-Lassalle Premier Cru Esprit Voyageur,750ml,"France, Champagne",3,45,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10882472,2005,Gracia,750ml,"France, Bordeaux, St.-Émilion",2,130,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10882501,2009,Gracia,750ml,"France, Bordeaux, St.-Émilion",1,135,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10912384,2022,Guffens-Heynen Macon-Pierreclos Premier Jus de Chavigne,750ml,"France, Burgundy, Mâconnais",1,135,,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Mâconnais']",White,Macon-Pierreclos (Guffens): white,FR
+10920129,2012,Henri Bourgeois Chateaumeillant Solissime,750ml,"France, Loire Valley, Centre-Loire",1,20,,France,False,False,False,False,False,keep,"['France', 'Loire Valley', 'Centre-Loire']",Red,Chateaumeillant is red/rose Gamay; hedged Red,FR
+10912369,2019,Henri Jouan Morey-St.-Denis Clos Sorbe Vieilles Vignes,750ml,"France, Burgundy, Côte d'Or",1,115,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912509,2023,Henri Jouan Morey-St.-Denis Clos Sorbe Vieilles Vignes,750ml,"France, Burgundy, Côte d'Or",1,135,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912373,2021,Henri Magnien Gevrey-Chambertin Les Cazetiers,750ml,"France, Burgundy, Côte d'Or",1,85,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912565,2014,Hubert Lignier Chambolle-Musigny Les Baudes,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10882517,2010,Il Poggione Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,90,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10912610,2017,J. Coudray-Bizot Puligny-Montrachet Les Combettes,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10912203,2012,J. Lassalle Brut Special Club,750ml,"France, Champagne",1,90,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912202,2012,J. Lassalle Brut Special Club,750ml,"France, Champagne",1,90,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912119,2005,Jacquart Brut Millésimé,750ml,"France, Champagne",1,30,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10920173,2023,Jacques Carillon Puligny-Montrachet,750ml,"France, Burgundy, Côte d'Or",1,90,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10912609,NV,Jacquesson & Fils Brut Cuvée No. 742 Degorgement Tardif,750ml,"France, Champagne",1,50,Light capsule condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912154,NV,Jacquesson & Fils Brut Cuvee No. 745,750ml,"France, Champagne",2,70,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912155,NV,Jacquesson & Fils Extra Brut Cuvee 747,750ml,"France, Champagne",3,75,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10905180,2002,Jean Boillot & Fils Puligny-Montrachet Clos de la Mouchere,750ml,"France, Burgundy, Côte d'Or",3,135,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10905174,2002,Jean Boillot & Fils Puligny-Montrachet Les Perrières,750ml,"France, Burgundy, Côte d'Or",3,80,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10912205,NV,Jean de la Fontaine L'Eloquente,750ml,"France, Champagne",1,20,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10911898,2022,Jean Foillard Morgon,750ml,"France, Beaujolais, Morgon",6,25,,France,False,False,False,False,False,keep,"['France', 'Beaujolais', 'Morgon']",Red,,FR
+10920137,2006,Jean Maurice Raffault Chinon Clos des Capucins,750ml,"France, Loire Valley, Chinon",1,30,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Loire Valley', 'Chinon']",Red,,FR
+10912441,2020,Jean-Louis Chave Saint-Joseph Clos Florentin,750ml,"France, Rhône Valley, Northern Rhône",1,135,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Northern Rhône']",Red,,FR
+10912135,2005,Jean-Luc Dubois Savigny Les Beaune Picotins V.V. Cuvee Unique,750ml,"France, Burgundy, Côte d'Or",1,35,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911377,1996,Jean-Marc Brocard Chablis Fourchaume,750ml,"France, Burgundy, Chablis",2,45,,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Chablis']",White,,FR
+10920132,2022,Jean-Philippe Fichet Bourgogne Côte d'Or,750ml,"France, Burgundy, Côte d'Or",1,30,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,Fichet Bourgogne Cote d'Or: Fichet is a white specialist; hedged White,FR
+10911967,NV,Jeaunaux-Robin Brut Fil de Brume,750ml,"France, Champagne",2,35,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912379,2023,Jessica Litaud Pouilly-Fuisse La Maréchaude,750ml,"France, Burgundy, Mâconnais",1,100,,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Mâconnais']",White,,FR
+10912408,2023,Jessica Litaud Pouilly-Fuisse Les Crays,750ml,"France, Burgundy, Mâconnais",1,90,,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Mâconnais']",White,,FR
+10912407,2019,Jules Desjourneys Pouilly-Fuisse Vignes de la Cote,750ml,"France, Burgundy, Mâconnais",1,80,,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Mâconnais']",White,,FR
+10912380,2019,Jules Desjourneys Pouilly-Vinzelles,750ml,"France, Burgundy, Mâconnais",1,65,,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Mâconnais']",White,,FR
+10912191,NV,Julien Denby Brut Reserve,750ml,"France, Champagne",4,25,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10905333,2012,Julien Pilon Côte-Rôtie La Porchette,750ml,"France, Rhône Valley, Northern Rhône",2,50,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Northern Rhône']",Red,,FR
+10920160,2017,Julien Schaal Riesling Sommerberg Granite,750ml,"France, Alsace, Sommerberg",1,25,,France,False,False,False,False,False,keep,"['France', 'Alsace', 'Sommerberg']",White,,FR
+10912574,1996,Krug Brut,750ml,"France, Champagne",1,50,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10920247,1999,La Poderina Brunello di Montalcino,1.5ltr,"Italy, Tuscany, Brunello di Montalcino",1,140,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10911585,2008,La Scolca Gavi La Scolca d'Antan,750ml,"Italy, Piedmont, Gavi",1,55,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Gavi']",White,,IT
+10911451,1997,La Spinetta Barbaresco Gallina,750ml,"Italy, Piedmont, Barbaresco",1,135,Light label condition issue,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbaresco']",Red,,IT
+10911997,NV,Laurent-Perrier Brut Cuvee Rosé Reserve,750ml,"France, Champagne",4,65,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10911998,NV,Laurent-Perrier Brut Cuvee Rosé Reserve,750ml,"France, Champagne",1,65,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10911999,NV,Laurent-Perrier Brut Cuvee Rosé Reserve,750ml,"France, Champagne",1,65,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10911961,NV,Le Brun de Neuville Cote Blanche,750ml,"France, Champagne",7,55,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10911962,NV,Le Brun de Neuville Cote Blanche,750ml,"France, Champagne",1,55,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10911552,2018,Le Carillon de l'Angelus,750ml,"France, Bordeaux, St.-Émilion",1,90,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10882427,2011,Le Dome,750ml,"France, Bordeaux, St.-Émilion",1,90,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10911472,1997,Le Pupille Saffredi,750ml,"Italy, Tuscany",1,110,"Light capsule condition issue
+Base neck fill",Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany']",Red,,IT
+10911501,1999,Le Pupille Saffredi,750ml,"Italy, Tuscany",2,55,"Light capsule condition issue
+Base neck fill
+Light label condition issue",Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany']",Red,,IT
+10920126,2014,Lecci e Brocchi Chianti Classico,750ml,"Italy, Tuscany, Chianti Classico",1,20,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Chianti Classico']",Red,,IT
+10912122,2005,Les Fiefs de Lagrange,750ml,"France, Bordeaux, St.-Julien",1,30,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Julien']",Red,,FR
+10912080,2005,Les Fiefs de Lagrange,750ml,"France, Bordeaux, St.-Julien",1,30,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Julien']",Red,,FR
+10912623,2022,Les Horées Beaune Les Prevolles,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10920168,2019,Les Pagodes de Cos,750ml,"France, Bordeaux, St.-Estephe",1,55,,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Estephe']",Red,,FR
+10912029,2009,Lisini Brunello di Montalcino,1.5ltr,"Italy, Tuscany, Brunello di Montalcino",1,90,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10911798,NV,Lombard & Cie Extra Brut,750ml,"France, Champagne",6,30,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912213,2016,Louis Jadot Chassagne-Montrachet Les Embazees,750ml,"France, Burgundy, Côte d'Or",1,90,Light capsule condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,Jadot Chassagne Les Embazees: Jadot bottles a red; hedged Red,FR
+10920161,2009,Louis Jadot Domaine des Héritiers Beaune Clos de Couchereaux,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10920146,2010,Louis Jadot Domaine Gagey Nuits St. Georges Les Boudots,750ml,"France, Burgundy, Côte d'Or",1,70,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912624,2010,Louis Jadot Gevrey-Chambertin Clos St. Jacques,750ml,"France, Burgundy, Côte d'Or",1,50,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912013,2017,Louis Jadot Meursault Les Narvaux,750ml,"France, Burgundy, Côte d'Or",1,85,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10912015,2017,Louis Jadot Meursault Les Narvaux,750ml,"France, Burgundy, Côte d'Or",1,85,Light capsule condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10912583,1990,Louis Roederer Cristal,1.5ltr,"France, Champagne",1,50,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10882556,2005,Lucia (Saint-Emilion),750ml,"France, Bordeaux, St.-Émilion",2,50,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Bordeaux', 'St.-Émilion']",Red,,FR
+10911226,2018,Luigi Baudana Barolo Cerretta,750ml,"Italy, Piedmont, Barolo",1,55,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10911494,1997,Luigi Pira Barolo Margheria,750ml,"Italy, Piedmont, Barolo",1,65,Light capsule condition issue,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10911495,1997,Luigi Pira Barolo Margheria,750ml,"Italy, Piedmont, Barolo",1,65,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10920250,2008,Luigi Pira Barolo Vigna  Marenca,1.5ltr,"Italy, Piedmont, Barolo",1,135,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10911373,1992,M. Chapoutier Ermitage Cuvee de l'Oree (Blanc),750ml,"France, Rhône Valley, Northern Rhône",1,120,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Northern Rhône']",White,,FR
+10911435,1996,M. Chapoutier Hermitage La Sizeranne,750ml,"France, Rhône Valley, Northern Rhône",2,110,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Northern Rhône']",Red,,FR
+10911436,1996,M. Chapoutier Hermitage La Sizeranne,750ml,"France, Rhône Valley, Northern Rhône",1,110,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Northern Rhône']",Red,,FR
+10920232,2007,M. Marengo Barolo Bricco Viole,750ml,"Italy, Piedmont, Barolo",10,45,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10920238,2004,M. Marengo Barolo Brunate,750ml,"Italy, Piedmont, Barolo",12,65,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10920235,2008,M. Marengo Barolo Vecchia Vigna delle Brunate,750ml,"Italy, Piedmont, Barolo",1,65,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10911544,1997,Marchesi di Frescobaldi Castelgiocondo Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",2,90,Light label condition issue,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10911545,1997,Marchesi di Frescobaldi Castelgiocondo Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,90,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10911275,2018,Marquis d'Angerville Pommard Combes Dessus,750ml,"France, Burgundy, Côte d'Or",6,80,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911290,2019,Marquis d'Angerville Volnay,750ml,"France, Burgundy, Côte d'Or",2,100,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911244,2013,Marquis d'Angerville Volnay Champans,750ml,"France, Burgundy, Côte d'Or",3,125,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911312,2017,Marquis d'Angerville Volnay Champans,750ml,"France, Burgundy, Côte d'Or",1,150,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911313,2017,Marquis d'Angerville Volnay Champans,750ml,"France, Burgundy, Côte d'Or",1,150,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911277,2018,Marquis d'Angerville Volnay Champans,750ml,"France, Burgundy, Côte d'Or",6,145,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911184,2020,Marquis d'Angerville Volnay Champans,750ml,"France, Burgundy, Côte d'Or",9,150,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911311,2020,Marquis d'Angerville Volnay Champans,750ml,"France, Burgundy, Côte d'Or",1,150,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911286,2019,Marquis d'Angerville Volnay Clos des Angles,750ml,"France, Burgundy, Côte d'Or",2,140,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911271,2020,Marquis d'Angerville Volnay Clos des Angles,750ml,"France, Burgundy, Côte d'Or",2,120,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911247,2018,Marquis d'Angerville Volnay Fremiets,750ml,"France, Burgundy, Côte d'Or",2,105,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911307,2018,Marquis d'Angerville Volnay Fremiets,750ml,"France, Burgundy, Côte d'Or",1,105,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911289,2019,Marquis d'Angerville Volnay Fremiets,750ml,"France, Burgundy, Côte d'Or",3,130,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911270,2020,Marquis d'Angerville Volnay Fremiets,750ml,"France, Burgundy, Côte d'Or",2,110,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911179,2012,Marquis d'Angerville Volnay Les Caillerets,750ml,"France, Burgundy, Côte d'Or",1,120,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911246,2012,Marquis d'Angerville Volnay Les Caillerets,750ml,"France, Burgundy, Côte d'Or",1,120,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911183,2020,Marquis d'Angerville Volnay Les Caillerets,750ml,"France, Burgundy, Côte d'Or",2,135,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911245,2012,Marquis d'Angerville Volnay Premier Cru,750ml,"France, Burgundy, Côte d'Or",1,125,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911269,2020,Marquis d'Angerville Volnay Premier Cru,750ml,"France, Burgundy, Côte d'Or",2,100,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911243,2012,Marquis d'Angerville Volnay Taillepieds,750ml,"France, Burgundy, Côte d'Or",3,115,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911291,2019,Marquis d'Angerville Volnay Taillepieds,750ml,"France, Burgundy, Côte d'Or",2,150,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911220,2020,Marquis d'Angerville Volnay Taillepieds,750ml,"France, Burgundy, Côte d'Or",14,150,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912156,2018,Marteaux Guillaume Cuvee Le Metisse,750ml,"France, Champagne",1,40,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912051,NV,Marteaux Guillaume Cuvee Le Metisse,750ml,"France, Champagne",1,35,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10920212,2007,Mauro Veglio Barolo Castelletto,750ml,"Italy, Piedmont, Barolo",11,55,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10905160,2011,Michel & Stéphane Ogier La Rosine Syrah,750ml,"France, Rhône Valley, Southern Rhône",1,30,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10911902,2022,Michel Lafarge Beaune Clos des Aigrots,750ml,"France, Burgundy, Côte d'Or",1,90,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912494,2022,Mickaël Bourg Cornas Les P'tits Bouts,750ml,"France, Rhône Valley, Northern Rhône",3,45,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Northern Rhône']",Red,,FR
+10911460,1997,Moccagatta Barbaresco Basarin,750ml,"Italy, Piedmont, Barbaresco",1,65,Label condition issue,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbaresco']",Red,,IT
+10911471,1997,Moccagatta Barbaresco Cole,750ml,"Italy, Piedmont, Barbaresco",1,75,Light label condition issue,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbaresco']",Red,,IT
+10912079,NV,Moet et Chandon Brut Imperial,1.5ltr,"France, Champagne",1,90,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912567,NV,Moet et Chandon Brut Imperial,3.0ltr,"France, Champagne",1,50,Gold Bottle,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912625,2004,Moet et Chandon Dom Perignon,750ml,"France, Champagne",1,50,Light capsule condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10911235,2004,Montevertine,750ml,"Italy, Tuscany",2,100,Light label condition issue,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany']",Red,,IT
+10911519,1997,Montevetrano,750ml,"Italy, Campania, Colli di Salerno",1,80,,Italy,False,False,False,False,False,keep,"['Italy', 'Campania', 'Colli di Salerno']",Red,,IT
+10912199,NV,Moussé Fils L'Or d'Eugene Perpetuelle Blanc de Noir,750ml,"France, Champagne",1,50,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912159,NV,Moutard Brut Rose de Cuvaison,750ml,"France, Champagne",1,25,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912611,1999,Nikolaihof Steinriesler Riesling,750ml,"Austria, Niederosterreich, Wachau",1,50,,Austria,False,False,False,False,False,keep,"['Austria', 'Niederosterreich', 'Wachau']",White,,AT
+10911385,1996,Olivier Leflaive Meursault Les Perrières,750ml,"France, Burgundy, Côte d'Or",1,75,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10912000,2018,P De Marcilly Chablis Mont de Milieu,750ml,"France, Burgundy, Chablis",3,30,,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Chablis']",White,,FR
+10912001,2018,P De Marcilly Chablis Mont de Milieu,750ml,"France, Burgundy, Chablis",1,30,Light capsule condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Chablis']",White,,FR
+10911455,1997,Pasanau Germans Finca La Planeta,750ml,"Spain, Cataluna, Priorato",2,25,"Base neck fill
+Light label condition issue",Spain,False,False,False,False,False,keep,"['Spain', 'Cataluna', 'Priorato']",Red,,ES
+10911456,1997,Pasanau Germans Finca La Planeta,750ml,"Spain, Cataluna, Priorato",2,25,Light label condition issue,Spain,False,False,False,False,False,keep,"['Spain', 'Cataluna', 'Priorato']",Red,,ES
+10912139,NV,Pascal Doquet Brut Grand Cru Blanc de Blancs,750ml,"France, Champagne, Vallée de la Marne",1,70,,France,False,False,False,False,False,keep,"['France', 'Champagne', 'Vallée de la Marne']",Sparkling,,FR
+10912524,2021,Patrick & Christophe Bonnefond Cote-Rotie Les Rochins,750ml,"France, Rhône Valley, Northern Rhône",2,35,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Northern Rhône']",Red,,FR
+10911507,1998,Paul Autard Chateauneuf Du Pape Cuvee La Cote Ronde,750ml,"France, Rhône Valley, Southern Rhône",1,50,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10911508,1998,Paul Autard Chateauneuf Du Pape Cuvee La Cote Ronde,750ml,"France, Rhône Valley, Southern Rhône",1,50,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10912103,NV,Paul Bara Extra Brut Grand Cru,750ml,"France, Champagne",3,50,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912102,NV,Paul Bara Extra Brut Grand Cru,750ml,"France, Champagne",1,50,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912116,NV,Paul Dethune Brut Grand Cru,750ml,"France, Champagne",6,40,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912184,NV,Paul Dethune Brut Grand Cru,750ml,"France, Champagne",2,40,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10911903,2022,Paul Garaudet Meursault Le Limozin,750ml,"France, Burgundy, Côte d'Or",1,85,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10905328,2010,Paul Jaboulet Aine Cornas Domaine de Saint Pierre,750ml,"France, Rhône Valley, Northern Rhône",1,45,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Northern Rhône']",Red,,FR
+10905354,2010,Pelissero Barbaresco Nubiola,1.5ltr,"Italy, Piedmont, Barbaresco",1,90,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbaresco']",Red,,IT
+10911429,1998,Pere Pape Châteauneuf-du-Pape La Crau De Ma Mère,750ml,"France, Rhône Valley, Southern Rhône",2,35,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10912402,2012,Pertimali Brunello di Montalcino Sassetti Livio,750ml,"Italy, Tuscany, Brunello di Montalcino",1,40,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10912433,2023,Philine Isabelle Langhe Chardonnay,750ml,"Italy, Piedmont, Langhe",1,110,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Langhe']",White,,IT
+10912054,NV,Philippe Glavier Grand Cru La Grace D'Hakamiah,750ml,"France, Champagne, Côte des Blancs",2,55,,France,False,False,False,False,False,keep,"['France', 'Champagne', 'Côte des Blancs']",Sparkling,,FR
+10912118,NV,Philippe Gonet Brut Grande Réserve,750ml,"France, Champagne",1,30,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912157,NV,Philippe Prie Brut Rosé,750ml,"France, Champagne",1,30,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912195,NV,Philippe Prie Brut Tradition,750ml,"France, Champagne",1,40,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912196,NV,Philippe Prie Brut Tradition,750ml,"France, Champagne",1,40,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912048,NV,Philippe Prie Brut Tradition,1.5ltr,"France, Champagne",1,80,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912533,NV,Philipponnat Brut Royale Reserve Rose,375ml,"France, Champagne",2,30,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10920145,2018,Pierre Guillemot Savigny-Les-Beaune Les Grands Picotins,750ml,"France, Burgundy, Côte d'Or",1,40,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911987,2016,Pieve Santa Restituta (Gaja) Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",3,70,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10911378,1997,Pio Cesare Barolo,750ml,"Italy, Piedmont, Barolo",3,105,"Base neck fill
+Light label condition issue",Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10905194,NV,Piper-Heidsieck Brut,1.5ltr,"France, Champagne",1,75,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10920162,2006,Podere Poggio Scalette Il Carbonaione,750ml,"Italy, Tuscany, Alta Valle della Greve",1,65,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Alta Valle della Greve']",Red,,IT
+10920230,2004,Podere San Luigi Fidenzio,750ml,"Italy, Tuscany",6,40,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany']",Red,,IT
+10920231,2005,Podere San Luigi Fidenzio,750ml,"Italy, Tuscany",6,35,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany']",Red,,IT
+10911474,1997,Poggio Salvi Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",4,45,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10911871,2010,Potinet-Ampeau Volnay Les Carelles Sous la Chapelle,750ml,"France, Burgundy, Côte d'Or",1,70,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911274,2016,Produttori del Barbaresco Barbaresco,750ml,"Italy, Piedmont, Barbaresco",11,65,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbaresco']",Red,,IT
+10911180,2005,Produttori del Barbaresco Barbaresco Asili Riserva,750ml,"Italy, Piedmont, Barbaresco",1,110,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbaresco']",Red,,IT
+10911241,2019,Produttori del Barbaresco Barbaresco Montefico Riserva,750ml,"Italy, Piedmont, Barbaresco",6,65,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbaresco']",Red,,IT
+10911222,2017,Produttori del Barbaresco Barbaresco Montestefano Riserva,750ml,"Italy, Piedmont, Barbaresco",6,55,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbaresco']",Red,,IT
+10911227,2017,Produttori del Barbaresco Barbaresco Muncagota Riserva,750ml,"Italy, Piedmont, Barbaresco",6,60,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbaresco']",Red,,IT
+10911228,2017,Produttori del Barbaresco Barbaresco Ovello Riserva,750ml,"Italy, Piedmont, Barbaresco",5,55,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbaresco']",Red,,IT
+10911229,2017,Produttori del Barbaresco Barbaresco Ovello Riserva,750ml,"Italy, Piedmont, Barbaresco",1,55,Light label condition issue,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbaresco']",Red,,IT
+10911223,2017,Produttori del Barbaresco Barbaresco Paje Riserva,750ml,"Italy, Piedmont, Barbaresco",6,55,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbaresco']",Red,,IT
+10911211,2005,Produttori del Barbaresco Barbaresco Rabajà Riserva,750ml,"Italy, Piedmont, Barbaresco",2,105,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barbaresco']",Red,,IT
+10911782,2018,Pujanza La Paul,750ml,"Spain, Rioja",1,50,,Spain,False,False,False,False,False,keep,"['Spain', 'Rioja']",Red,,ES
+10911783,2017,Pujanza Norte Rioja,750ml,"Spain, Rioja",3,40,,Spain,False,False,False,False,False,keep,"['Spain', 'Rioja']",Red,,ES
+10882437,2015,Remirez de Ganuza Fincas de Ganuza Reserva,750ml,"Spain, Rioja",2,50,,Spain,False,False,False,False,False,keep,"['Spain', 'Rioja']",Red,,ES
+10911912,2015,Remirez de Ganuza Rioja Gran Reserva,750ml,"Spain, Rioja",1,90,,Spain,False,False,False,False,False,keep,"['Spain', 'Rioja']",Red,,ES
+10911750,2018,Remirez de Ganuza Rioja Trasnocho Reserva,750ml,"Spain, Rioja",1,90,,Spain,False,False,False,False,False,keep,"['Spain', 'Rioja']",Red,,ES
+10911969,NV,Remy Massin Brut Tradition,750ml,"France, Champagne",1,35,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912204,NV,Remy Massin Brut Tradition,750ml,"France, Champagne",1,35,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912056,NV,Richardot Brut Rose,750ml,"France, Champagne",2,20,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912057,NV,Richardot Brut Rose,750ml,"France, Champagne",1,20,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10911940,2019,Roberto Sarotto Barolo Bergera Pezzole,750ml,"Italy, Piedmont, Barolo",3,25,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10911559,2019,Rossignol-Trapet Gevrey-Chambertin Aux Etelois,750ml,"France, Burgundy, Côte d'Or",1,55,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10911558,2021,Rossignol-Trapet Gevrey-Chambertin Petite Chapelle,750ml,"France, Burgundy, Côte d'Or",1,95,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10912630,NV,Sadi Malot Brut Les 2 Cepages,750ml,"France, Champagne",2,40,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912104,NV,Salmon Brut Cuvée Meunier,750ml,"France, Champagne",8,65,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912055,NV,Salmon Brut Sélection,750ml,"France, Champagne",1,25,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10882506,2007,San Giusto a Rentennano Percarlo,750ml,"Italy, Tuscany",1,100,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany']",Red,,IT
+10911470,1997,Scopetone Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",2,45,"Base neck fill
+Light label condition issue",Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10882493,1997,Seghesio (Aldo Ricardo) Barolo La Villa,750ml,"Italy, Piedmont, Barolo",1,40,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10882570,2006,Sette Ponti Toscana Oreno,750ml,"Italy, Tuscany",2,65,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany']",Red,,IT
+10882497,2008,Sette Ponti Toscana Oreno,750ml,"Italy, Tuscany",1,65,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany']",Red,,IT
+10920139,2014,Simon Bize Savigny-Les-Beaune Les Talmettes,750ml,"France, Burgundy, Côte d'Or",1,55,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10882484,2004,Siro Pacenti Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,80,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10912534,2021,Sorì della Sorba Nebbiolo,750ml,"Italy, Piedmont, Langhe",2,45,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Langhe']",Red,,IT
+10911428,1999,Sportoletti Villa Fidelia Rosso,750ml,"Italy, Umbria",1,30,,Italy,False,False,False,False,False,keep,"['Italy', 'Umbria']",Red,,IT
+10911488,1997,Stefano Farina Barolo,750ml,"Italy, Piedmont, Barolo",3,35,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10920179,2023,Sylvain Pataille Marsannay Clos du Roy Blanc,750ml,"France, Burgundy, Côte d'Or",1,80,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10905331,2010,Tardieu-Laurent Châteauneuf-du-Pape,750ml,"France, Rhône Valley, Southern Rhône",1,40,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10911466,1996,Tardieu-Laurent Cornas Coteaux,750ml,"France, Rhône Valley, Northern Rhône",1,45,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Northern Rhône']",Red,,FR
+10905332,2010,Tardieu-Laurent Cornas Coteaux,750ml,"France, Rhône Valley, Northern Rhône",1,40,Label condition issue,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Northern Rhône']",Red,,FR
+10911493,1999,Telmo Rodriguez Toro Gago,750ml,"Spain, Castilla-Leon, Toro",1,25,,Spain,False,False,False,False,False,keep,"['Spain', 'Castilla-Leon', 'Toro']",Red,,ES
+10911598,2021,Tenuta di Arceno Chianti Classico Gran Selezione Campolupi,750ml,"Italy, Tuscany, Chianti Classico",1,45,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Chianti Classico']",Red,,IT
+10911597,2021,Tenuta di Arceno Chianti Classico Gran Selezione Strada Al Sasso,750ml,"Italy, Tuscany, Chianti Classico",1,55,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Chianti Classico']",Red,,IT
+10911599,2020,Tenuta di Arceno Chianti Classico Riserva,750ml,"Italy, Tuscany, Chianti Classico",1,35,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Chianti Classico']",Red,,IT
+10912508,2012,Tenuta di Arceno Toscana Arcanum,750ml,"Italy, Tuscany",1,40,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany']",Red,,IT
+10912520,2012,Tenuta di Arceno Toscana Valadorna,750ml,"Italy, Tuscany",2,45,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany']",Red,,IT
+10911786,2022,Tenuta Ferrata Punta Drago Etna Rosso,750ml,"Italy, Sicily, Etna",4,30,,Italy,False,False,False,False,False,keep,"['Italy', 'Sicily', 'Etna']",Red,,IT
+10912626,2006,Tenuta San Guido Sassicaia,750ml,"Italy, Tuscany, Bolgheri-Sassicaia",1,50,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Bolgheri-Sassicaia']",Red,,IT
+10911452,1995,Tenuta San Leonardo Vallagarina San Leonardo,750ml,"Italy, Trentino-Alto Adige, Vallagarina",1,55,Base neck fill,Italy,False,False,False,False,False,keep,"['Italy', 'Trentino-Alto Adige', 'Vallagarina']",Red,,IT
+10882469,2018,Tenuta Sette Ponti Crognolo,750ml,"Italy, Tuscany",1,20,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany']",Red,,IT
+10911652,2009,Terres Dorées (Jean-Paul Brun) Fleurie,750ml,"France, Beaujolais, Fleurie",1,20,,France,False,False,False,False,False,keep,"['France', 'Beaujolais', 'Fleurie']",Red,,FR
+10911303,2018,Thibaud Boudignon Savennieres Clos de la Hutte,750ml,"France, Loire Valley, Anjou",3,85,,France,False,False,False,False,False,keep,"['France', 'Loire Valley', 'Anjou']",White,,FR
+10911238,2019,Thibaud Boudignon Savennieres Clos de la Hutte,750ml,"France, Loire Valley, Anjou",3,90,,France,False,False,False,False,False,keep,"['France', 'Loire Valley', 'Anjou']",White,,FR
+10911239,2020,Thibaud Boudignon Savennieres Clos de la Hutte,750ml,"France, Loire Valley, Anjou",6,80,,France,False,False,False,False,False,keep,"['France', 'Loire Valley', 'Anjou']",White,,FR
+10911189,2021,Thibaud Boudignon Savennieres Clos de la Hutte,750ml,"France, Loire Valley, Anjou",6,80,,France,False,False,False,False,False,keep,"['France', 'Loire Valley', 'Anjou']",White,,FR
+10911201,2022,Thibaud Boudignon Savennieres Clos de la Hutte,750ml,"France, Loire Valley, Anjou",6,80,,France,False,False,False,False,False,keep,"['France', 'Loire Valley', 'Anjou']",White,,FR
+10912345,2020,Thibault Liger-Belair Nuits St. Georges Belle Croix,750ml,"France, Burgundy, Côte d'Or",1,80,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10905155,1989,Thierry Bernard-Brussier Monthelie,750ml,"France, Burgundy, Côte d'Or",1,45,"Light capsule condition issue
+Light label condition issue",France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",Red,,FR
+10920246,2007,Tornesi Brunello di Montalcino,1.5ltr,"Italy, Tuscany, Brunello di Montalcino",1,135,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10920245,2004,Tornesi Brunello di Montalcino Riserva,1.5ltr,"Italy, Tuscany, Brunello di Montalcino",1,140,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10912144,2015,Torraccia Del Piantavigna Gattinara,750ml,"Italy, Piedmont, Gattinara",1,30,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Gattinara']",Red,,IT
+10911640,2009,Torre Alberghieri Chianti Classico,750ml,"Italy, Tuscany, Chianti Classico",5,20,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Chianti Classico']",Red,,IT
+10911230,2020,Trediberri Barolo Berri,750ml,"Italy, Piedmont, Barolo",5,40,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10911198,2018,Trediberri Barolo del Comune di La Morra,750ml,"Italy, Piedmont, Barolo",2,40,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10911963,NV,V Testulat Brut Premier Cru Cuvée Préstige,750ml,"France, Champagne",1,25,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10911964,NV,V Testulat Brut Premier Cru Cuvée Préstige,750ml,"France, Champagne",1,25,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10911446,1997,Valdicava Brunello di Montalcino,750ml,"Italy, Tuscany, Brunello di Montalcino",1,105,,Italy,False,False,False,False,False,keep,"['Italy', 'Tuscany', 'Brunello di Montalcino']",Red,,IT
+10912603,2019,Vallisassoli Michelangelo,1.5ltr,"Italy, Campania",1,50,,Italy,False,False,False,False,False,keep,"['Italy', 'Campania']",Red,Vallisassoli Michelangelo (Campania): hedged Red,IT
+10920182,NV,Veuve Clicquot Ponsardin Brut,750ml,"France, Champagne",1,40,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912073,NV,Veuve Clicquot Ponsardin Brut,1.5ltr,"France, Champagne",2,120,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912200,NV,Veuve Doussot Brut Blanc de Blancs,750ml,"France, Champagne",2,20,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10912185,NV,Veuve Doussot Grand Cuvee Brut,750ml,"France, Champagne",1,25,,France,False,False,False,False,False,keep,"['France', 'Champagne']",Sparkling,,FR
+10911142,2018,Vietti Barolo Monvigliero,750ml,"Italy, Piedmont, Barolo",6,140,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10912526,2023,Vincent & Francois Jouard Chassagne Montrachet Les Chaumees Clos de la Truffiere V.V.,750ml,"France, Burgundy, Côte d'Or",3,75,,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10912527,2023,Vincent & Francois Jouard Chassagne Montrachet Les Chenevottes Vieilles Vignes,750ml,"France, Burgundy, Côte d'Or",2,75,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10912064,2019,Vincent & Sophie Morey Chassagne-Montrachet Les Baudines,750ml,"France, Burgundy, Côte d'Or",1,60,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Burgundy', ""Côte d'Or""]",White,,FR
+10912382,2020,Vincent Dureuil-Janthial Rully Vauvry,750ml,"France, Burgundy, Côte Chalonnaise",1,80,,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Côte Chalonnaise']",White,Rully Vauvry (Dureuil-Janthial): hedged White,FR
+10912039,2013,Virna di Borgogno Barolo Sarmassa,1.5ltr,"Italy, Piedmont, Barolo",1,100,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10912011,2008,Vite Colte Barolo Riserva Essenze,1.5ltr,"Italy, Piedmont, Barolo",1,70,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10912604,1967,Viuva José Gomes da Silva & Filhos Colares Reserva Tinto,650ml,"Portugal, Colares",1,50,,Portugal,False,False,False,False,False,keep,"['Portugal', 'Colares']",Red,,PT
+10912518,2018,Voerzio Martini Barolo Cerequio,750ml,"Italy, Piedmont, Barolo",1,60,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10912519,2018,Voerzio Martini Barolo Monvigliero,750ml,"Italy, Piedmont, Barolo",1,65,,Italy,False,False,False,False,False,keep,"['Italy', 'Piedmont', 'Barolo']",Red,,IT
+10920147,2018,William Fevre Chablis Preuses,750ml,"France, Burgundy, Chablis",2,110,,France,False,False,False,False,False,keep,"['France', 'Burgundy', 'Chablis']",White,,FR
+10905141,NV,Xavier Vignon Chateauneuf Du Pape La Reserve VII IX X,1.5ltr,"France, Rhône Valley, Southern Rhône",1,100,,France,False,False,False,False,False,keep,"['France', 'Rhône Valley', 'Southern Rhône']",Red,,FR
+10912014,2005,Zenato Valpolicella Superiore Ripassa,750ml,"Italy, Veneto, Valpolicella Ripasso",2,20,,Italy,False,False,False,False,False,keep,"['Italy', 'Veneto', 'Valpolicella Ripasso']",Red,,IT
+10905144,1996,Zind-Humbrecht Pinot Gris Rangen de Thann Clos St. Urbain,750ml,"France, Alsace, Rangen",1,75,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Alsace', 'Rangen']",White,,FR
+10911408,1993,Zind-Humbrecht Tokay Pinot Gris Hunawihr Clos Windsbuhl,375ml,"France, Alsace",1,30,Light label condition issue,France,False,False,False,False,False,keep,"['France', 'Alsace']",White,,FR
