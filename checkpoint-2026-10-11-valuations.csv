@@ -4,12 +4,12 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10905151,Château Leoville-Las-Cases,1979,750ml,Red,"France, Bordeaux, St.-Julien",FR,125,180,Estimate based on producer/appellation/vintage reputation,estimate
 10911274,Produttori del Barbaresco Barbaresco,2016,750ml,Red,"Italy, Piedmont, Barbaresco",IT,65,82,"Wine-Searcher average price $82/750ml, vintage-specific (2016), plain bottling",ws_vintage
 10905138,Charles Joguet Chinon Rosé,2018,1.5ltr,Rose,"France, Loire Valley, Touraine",FR,45,,No reliable price found: 2018 rose in magnum; only a 750ml current average ($27) exists and a 2018 rose is past its drinking window,insufficient
-10912073,Veuve Clicquot Ponsardin Brut,NV,1.5ltr,Sparkling,"France, Champagne",FR,120,,Searched twice: no reliable magnum price found (retailer pages showed no price; snippets of ~$50-55 for a magnum are implausible); no reliable price found,insufficient
+10912073,Veuve Clicquot Ponsardin Brut,NV,1.5ltr,Sparkling,"France, Champagne",FR,120,169.99,K&L Wines (US) Veuve Clicquot Yellow Label Brut NV 1.5L magnum $169.99 (other US $189.97),ws_single_retailer
 10911798,Lombard & Cie Extra Brut,NV,750ml,Sparkling,"France, Champagne",FR,30,54,"Wine-Searcher average retail, NV Premier Cru Extra Brut",ws_allvintage
 10905193,Billecart-Salmon Brut Rosé,NV,750ml,Sparkling,"France, Champagne",FR,75,114,"Wine-Searcher average retail, NV Brut Rose",ws_allvintage
 10912160,Billecart-Salmon Brut Rosé,NV,750ml,Sparkling,"France, Champagne",FR,75,114,"Wine-Searcher average retail, NV Brut Rose",ws_allvintage
 10911198,Trediberri Barolo del Comune di La Morra,2018,750ml,Red,"Italy, Piedmont, Barolo",IT,40,64,"Wine-Searcher average retail, vintage-specific",ws_vintage
-10911211,Produttori del Barbaresco Barbaresco Rabajà Riserva,2005,750ml,Red,"Italy, Piedmont, Barbaresco",IT,105,,Insufficient data,insufficient
+10911211,Produttori del Barbaresco Barbaresco Rabajà Riserva,2005,750ml,Red,"Italy, Piedmont, Barbaresco",IT,105,169.99,Flatiron Wines NYC 2005 Produttori del Barbaresco Rabaja Riserva 750ml $169.99,ws_single_retailer
 10905141,Xavier Vignon Chateauneuf Du Pape La Reserve VII IX X,NV,1.5ltr,Red,"France, Rhône Valley, Southern Rhône",FR,100,115.0,WineAccess lists NV Xavier Vignon CdP La Reserve VII IX X in magnum at $115 (sale price from $200 original; 750ml avg $73; used observed magnum price not scaled),ws_single_retailer
 10905178,Château Pichon-Longueville Baron,1975,750ml,Red,"France, Bordeaux, Pauillac",FR,120,140.0,Fine Wines International lists 1975 Pichon-Longueville Baron at $140 (single retailer),ws_single_retailer
 10912233,Casanova di Neri Brunello di Montalcino Tenuta Nuova,2020,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,80,154,Wine-Searcher average retail for Tenuta Nuova (all-vintage page); 2020 is a recent release,ws_allvintage
@@ -68,7 +68,7 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10912569,Billecart-Salmon Clos St Hilaire,1996,750ml,Sparkling,"France, Champagne",FR,50,,"Insufficient data - searched, no sourced retail price for 1996",insufficient
 10905191,Billecart-Salmon Extra Brut Le Rose,NV,750ml,Sparkling,"France, Champagne",FR,70,,"Insufficient data - searched, only the regular Brut Rose was priced",insufficient
 10920148,Bitouzet-Prieur Bourgogne Blanc,2021,750ml,White,"France, Burgundy",FR,30,38.0,"Leon & Son $38 (also PlumpJack $39.99, Bottle Barn $30.99), 2021 750ml",ws_single_retailer
-10912618,Bonneau Du Martray Corton-Charlemagne,2013,750ml,White,"France, Burgundy, Côte d'Or",FR,50,,"Insufficient data - searched, only NZD/GBP pricing found",insufficient
+10912618,Bonneau Du Martray Corton-Charlemagne,2013,750ml,White,"France, Burgundy, Côte d'Or",FR,50,325.0,Thatcher's Wine 2013 Bonneau du Martray Corton-Charlemagne 750ml $325 (per-person limit; NZ retailer $999 and EUR/GBP case figures not used),ws_single_retailer
 10911504,Bosquet des Papes Châteauneuf-du-Pape,1998,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,45,44.99,K&L Wines $44.99 for 1998 (out of stock); single retailer,ws_single_retailer
 10882561,Brancaia Il Blu,2007,750ml,Red,"Italy, Tuscany",IT,60,,"Insufficient data - searched, no 2007 price found",insufficient
 10911242,Burlotto Barolo Acclivi,2018,750ml,Red,"Italy, Piedmont, Barolo",IT,125,195.0,Thatchers Wine and The Rare Wine Co. both $195 for 2018 Acclivi 750ml,ws_single_retailer
@@ -92,12 +92,12 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10912626,Tenuta San Guido Sassicaia,2006,750ml,Red,"Italy, Tuscany, Bolgheri-Sassicaia",IT,50,,"Insufficient data - searched, only EUR/GBP pricing found",insufficient
 10912582,Gaja Barbaresco Sori Tildin,1990,1.5ltr,Red,"Italy, Piedmont, Barbaresco",IT,50,1319.96,The Wine House 1990 Sori Tildin 750ml $599.98 (out of stock) scaled x2.2 for 1.5L magnum (size mismatch; not an observed magnum price),ws_single_retailer
 10912615,Château Margaux,1983,750ml,Red,"France, Bordeaux, Margaux",FR,50,875.0,"Wine Library $875 (Fine Wines Intl $850-$925; Zachys $1,300; Pogo's $2,500) for 1983 Chateau Margaux 750ml; lowest used",ws_single_retailer
-10911244,Marquis d'Angerville Volnay Champans,2013,750ml,Red,"France, Burgundy, Côte d'Or",FR,125,,"Insufficient data - searched, no 2013 price found",insufficient
+10911244,Marquis d'Angerville Volnay Champans,2013,750ml,Red,"France, Burgundy, Côte d'Or",FR,125,195.0,Thatcher's Wine 2012 Marquis d'Angerville Volnay Champans 750ml $195; 2013 only GBP/EUR; adjacent-vintage substitution,ws_adjacent
 10911312,Marquis d'Angerville Volnay Champans,2017,750ml,Red,"France, Burgundy, Côte d'Or",FR,150,230.0,Pogo's Wine $230 (out of stock) for 2017 Volnay Champans 750ml; single retailer,ws_single_retailer
 10911313,Marquis d'Angerville Volnay Champans,2017,750ml,Red,"France, Burgundy, Côte d'Or",FR,150,230.0,Pogo's Wine $230 (out of stock) for 2017 Volnay Champans 750ml; single retailer,ws_single_retailer
 10911277,Marquis d'Angerville Volnay Champans,2018,750ml,Red,"France, Burgundy, Côte d'Or",FR,145,172.89,California retailer $172.89 (another $185) for 2018 Volnay Champans 750ml,ws_single_retailer
-10911184,Marquis d'Angerville Volnay Champans,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,150,,"Insufficient data - searched, only CAD price found",insufficient
-10911311,Marquis d'Angerville Volnay Champans,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,150,,"Insufficient data - searched, only CAD price found",insufficient
+10911184,Marquis d'Angerville Volnay Champans,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,150,199.0,Thatcher's Wine 2020 Marquis d'Angerville Volnay 1er Cru Champans 750ml $199 (Verve $249; alt Thatcher's listing $149),ws_single_retailer
+10911311,Marquis d'Angerville Volnay Champans,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,150,199.0,Thatcher's Wine 2020 Marquis d'Angerville Volnay 1er Cru Champans 750ml $199 (Verve $249; alt Thatcher's listing $149),ws_single_retailer
 10911271,Marquis d'Angerville Volnay Clos des Angles,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,120,125.0,Thatchers Wine $125 for 2020 Volnay 1er Cru Les Angles (listed as Les Angles; d'Angerville Clos des Angles); single retailer,ws_single_retailer
 10911247,Marquis d'Angerville Volnay Fremiets,2018,750ml,Red,"France, Burgundy, Côte d'Or",FR,105,195.0,Retailer $195 for 2018 Volnay Fremiets 750ml (search snippet),ws_single_retailer
 10911307,Marquis d'Angerville Volnay Fremiets,2018,750ml,Red,"France, Burgundy, Côte d'Or",FR,105,195.0,Retailer $195 for 2018 Volnay Fremiets 750ml (search snippet),ws_single_retailer
@@ -109,12 +109,12 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10911245,Marquis d'Angerville Volnay Premier Cru,2012,750ml,Red,"France, Burgundy, Côte d'Or",FR,125,,"Insufficient data - searched, no 2012 price found",insufficient
 10911269,Marquis d'Angerville Volnay Premier Cru,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,100,129.95,Retailer $129.95 for 2020 Volnay Premier Cru 750ml (search snippet),ws_single_retailer
 10911243,Marquis d'Angerville Volnay Taillepieds,2012,750ml,Red,"France, Burgundy, Côte d'Or",FR,115,,"Insufficient data - searched, no 2012 price found",insufficient
-10911291,Marquis d'Angerville Volnay Taillepieds,2019,750ml,Red,"France, Burgundy, Côte d'Or",FR,150,,"Insufficient data - searched, only GBP case pricing found",insufficient
-10911220,Marquis d'Angerville Volnay Taillepieds,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,150,,"Insufficient data - searched, only GBP and an unattributed sale price",insufficient
+10911291,Marquis d'Angerville Volnay Taillepieds,2019,750ml,Red,"France, Burgundy, Côte d'Or",FR,150,289.99,US 2020 vintage price $289.99 used for 2019 (2019 only GBP case price found); adjacent-vintage substitution,ws_adjacent
+10911220,Marquis d'Angerville Volnay Taillepieds,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,150,289.99,US retailer 2020 Marquis d'Angerville Volnay 1er Cru Taillepieds 750ml $289.99,ws_single_retailer
 10911290,Marquis d'Angerville Volnay,2019,750ml,Red,"France, Burgundy, Côte d'Or",FR,100,,"Insufficient data - searched, only EUR pricing found",insufficient
 10911275,Marquis d'Angerville Pommard Combes Dessus,2018,750ml,Red,"France, Burgundy, Côte d'Or",FR,80,,"Insufficient data - searched, only EUR pricing found",insufficient
 10911240,Domaine Robert Chevillon Nuits-St.-Georges Les Cailles,2012,750ml,Red,"France, Burgundy, Côte d'Or",FR,120,219.79,Saratoga Wine $219.79 (out of stock) for 2012 Chevillon NSG Les Cailles 750ml,ws_single_retailer
-10911279,Domaine Robert Chevillon Nuits-St.-Georges Les Cailles,2017,750ml,Red,"France, Burgundy, Côte d'Or",FR,125,,"Insufficient data - searched, no 2017 price found",insufficient
+10911279,Domaine Robert Chevillon Nuits-St.-Georges Les Cailles,2017,750ml,Red,"France, Burgundy, Côte d'Or",FR,125,151.86,Saratoga Wine 2018 Chevillon NSG Les Cailles 750ml $151.86; 2017 only GBP; adjacent-vintage substitution,ws_adjacent
 10911200,Domaine Robert Chevillon Nuits-St.-Georges Les Cailles,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,120,195.0,Sotheby's Wine $195 for 2020 Chevillon NSG Les Cailles 750ml,ws_single_retailer
 10920210,Fratelli Revello Barolo Rocche dell'Annunziata,2005,750ml,Red,"Italy, Piedmont, Barolo",IT,75,,"Insufficient data - searched, no USD price found",insufficient
 10920211,Fratelli Revello Barolo Rocche dell'Annunziata,2006,750ml,Red,"Italy, Piedmont, Barolo",IT,115,,"Insufficient data - searched, no USD price found",insufficient
@@ -123,9 +123,9 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10920223,Fratelli Revello Barolo Vigna Conca,2005,750ml,Red,"Italy, Piedmont, Barolo",IT,50,,"Insufficient data - searched, no 2005 price found",insufficient
 10920222,Fratelli Revello Barolo Vigna Conca,2006,750ml,Red,"Italy, Piedmont, Barolo",IT,50,,"Insufficient data - searched, no 2006 price found",insufficient
 10911303,Thibaud Boudignon Savennieres Clos de la Hutte,2018,750ml,White,"France, Loire Valley, Anjou",FR,85,,"Insufficient data - searched, only a two-pack bundle price found",insufficient
-10911238,Thibaud Boudignon Savennieres Clos de la Hutte,2019,750ml,White,"France, Loire Valley, Anjou",FR,90,,"Insufficient data - searched, no 2019 price found",insufficient
+10911238,Thibaud Boudignon Savennieres Clos de la Hutte,2019,750ml,White,"France, Loire Valley, Anjou",FR,90,115.0,US 2021 Clos de la Hutte $115 (range $113-$125); 2019 price not shown; adjacent-vintage (2 years) substitution,ws_adjacent
 10911239,Thibaud Boudignon Savennieres Clos de la Hutte,2020,750ml,White,"France, Loire Valley, Anjou",FR,80,109.94,SFWTC $109.94 for 2020 Clos de la Hutte 750ml,ws_single_retailer
-10911189,Thibaud Boudignon Savennieres Clos de la Hutte,2021,750ml,White,"France, Loire Valley, Anjou",FR,80,,"Insufficient data - searched, no 2021 price found",insufficient
+10911189,Thibaud Boudignon Savennieres Clos de la Hutte,2021,750ml,White,"France, Loire Valley, Anjou",FR,80,115.0,Verve Wine 2021 Thibaud Boudignon Savennieres Clos de la Hutte 750ml $115 (range $112.99-$125 US retailers),ws_single_retailer
 10911201,Thibaud Boudignon Savennieres Clos de la Hutte,2022,750ml,White,"France, Loire Valley, Anjou",FR,80,93.95,Saratoga Wine $93.95 (Flatiron $119.99-$134.99) for 2022 Clos de la Hutte 750ml; lowest used,ws_single_retailer
 10911241,Produttori del Barbaresco Barbaresco Montefico Riserva,2019,750ml,Red,"Italy, Piedmont, Barbaresco",IT,65,79.94,"J.J. Buckley $79.94 (K&L $79.99, Wine House $84.99, Flatiron $95.99, Champion $95) for 2019 Montefico Riserva 750ml",ws_vintage
 10911222,Produttori del Barbaresco Barbaresco Montestefano Riserva,2017,750ml,Red,"Italy, Piedmont, Barbaresco",IT,55,,"Insufficient data - searched, only AUD price found",insufficient
@@ -137,12 +137,12 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10912154,Jacquesson & Fils Brut Cuvee No. 745,NV,750ml,Sparkling,"France, Champagne",FR,70,,"Insufficient data - searched, no Cuvee 745 price found",insufficient
 10912155,Jacquesson & Fils Extra Brut Cuvee 747,NV,750ml,Sparkling,"France, Champagne",FR,75,,"Insufficient data - searched, only CAD/EUR pricing found",insufficient
 10912369,Henri Jouan Morey-St.-Denis Clos Sorbe Vieilles Vignes,2019,750ml,Red,"France, Burgundy, Côte d'Or",FR,115,,"Insufficient data - searched, no 2019 price found",insufficient
-10912509,Henri Jouan Morey-St.-Denis Clos Sorbe Vieilles Vignes,2023,750ml,Red,"France, Burgundy, Côte d'Or",FR,135,,"Insufficient data - searched, no 2023 price found",insufficient
+10912509,Henri Jouan Morey-St.-Denis Clos Sorbe Vieilles Vignes,2023,750ml,Red,"France, Burgundy, Côte d'Or",FR,135,200.0,Leon & Son 2022 Henri & Philippe Jouan Morey-St-Denis 1er Cru Clos Sorbe VV 750ml $200; 2023 not found; adjacent-vintage substitution,ws_adjacent
 10912371,Domaine Jean Marc Bouley Volnay Clos de Chenes,2019,750ml,Red,"France, Burgundy, Côte d'Or",FR,145,199.0,Thatchers Wine $199 (Saratoga $226.06) for 2019 Bouley Volnay Clos des Chenes 750ml,ws_single_retailer
-10912370,Domaine Jean Marc Bouley Volnay 1er Cru Carelles,2015,750ml,Red,"France, Burgundy, Côte d'Or",FR,85,,"Insufficient data - searched, no 2015 price found",insufficient
-10912383,Domaine Jean Marc Bouley Volnay Carelle sous la Chapelle,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,105,,"Insufficient data - searched, no 2020 Carelle sous la Chapelle price found",insufficient
+10912370,Domaine Jean Marc Bouley Volnay 1er Cru Carelles,2015,750ml,Red,"France, Burgundy, Côte d'Or",FR,85,115.0,Thatcher's Wine 2015 Domaine Jean-Marc Bouley Volnay 1er Cru Carelles 750ml $115,ws_single_retailer
+10912383,Domaine Jean Marc Bouley Volnay Carelle sous la Chapelle,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,105,185.0,Thatcher's Wine 2021 Bouley Volnay 1er Cru Carelle sous la Chapelle 750ml $185; 2020 only WineBid-own and EUR; adjacent-vintage substitution,ws_adjacent
 10912365,Domaine Michel Mallard Corton Les Renardes,2019,750ml,Red,"France, Burgundy, Côte d'Or",FR,135,241.99,US retailer $241.99 for 2019 Mallard Corton Les Renardes 750ml,ws_single_retailer
-10912409,Domaine Michel Mallard Corton Les Renardes,2021,750ml,Red,"France, Burgundy, Côte d'Or",FR,75,,"Insufficient data - searched, no 2021 price found",insufficient
+10912409,Domaine Michel Mallard Corton Les Renardes,2021,750ml,Red,"France, Burgundy, Côte d'Or",FR,75,241.99,Kensington Wine Market 2019 Mallard Corton Les Renardes 750ml $241.99; 2021 only CHF; adjacent-vintage (2 yrs) substitution,ws_adjacent
 10912421,Domaine Michel Mallard Savigny Les Beaune Les Serpentieres,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,40,65.0,Adjacent vintage: 2022 Mallard Savigny Les Serpentieres $65 (2020 not found),ws_adjacent
 10912368,Domaine Michel Mallard Ladoix La Corvee,2019,750ml,Red,"France, Burgundy, Côte d'Or",FR,40,,"Insufficient data - searched, no Ladoix La Corvee price found",insufficient
 10912420,Domaine Michel Mallard Ladoix La Corvee,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,40,,"Insufficient data - searched, no Ladoix La Corvee price found",insufficient
@@ -150,7 +150,7 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10911466,Tardieu-Laurent Cornas Coteaux,1996,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,45,,"Insufficient data - searched, only EUR auction estimate for another vintage",insufficient
 10905332,Tardieu-Laurent Cornas Coteaux,2010,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,40,,"Insufficient data - searched, only EUR auction estimate found",insufficient
 10912348,Domaine Pierre Gonon Saint-Joseph,2019,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,125,145.0,"Bottle Barn $145 (Flatiron $189, Saratoga $231.19) for 2019 Gonon Saint-Joseph 750ml; lowest used",ws_single_retailer
-10912399,Domaine Pierre Gonon Saint-Joseph,2020,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,105,,"Insufficient data - searched, no 2020 price found",insufficient
+10912399,Domaine Pierre Gonon Saint-Joseph,2020,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,105,149.94,J.J. Buckley 2020 Domaine Gonon St. Joseph 750ml $149.94 (SFWTC same; Flatiron $149.99; Verve $174),ws_single_retailer
 10912518,Voerzio Martini Barolo Cerequio,2018,750ml,Red,"Italy, Piedmont, Barolo",IT,60,,"Insufficient data - searched, results were Roberto Voerzio (different producer)",insufficient
 10912519,Voerzio Martini Barolo Monvigliero,2018,750ml,Red,"Italy, Piedmont, Barolo",IT,65,,"Insufficient data - searched, no Voerzio Martini Monvigliero price found",insufficient
 10911142,Vietti Barolo Monvigliero,2018,750ml,Red,"Italy, Piedmont, Barolo",IT,140,323.52,"Saratoga Wine $323.52 for 2018 Vietti Monvigliero 750ml (other quotes: LCBO C$249, Costco 3-pack ~$200); single US retailer, high end of range",ws_single_retailer
@@ -173,8 +173,8 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10912104,Salmon Brut Cuvée Meunier,NV,750ml,Sparkling,"France, Champagne",FR,65,,"Insufficient data - searched, no price found",insufficient
 10912055,Salmon Brut Sélection,NV,750ml,Sparkling,"France, Champagne",FR,25,,"Insufficient data - searched, no price found",insufficient
 10912624,Louis Jadot Gevrey-Chambertin Clos St. Jacques,2010,750ml,Red,"France, Burgundy, Côte d'Or",FR,50,317.88,Saratoga Wine $317.88 for 2010 Jadot Gevrey-Chambertin Clos St Jacques 750ml,ws_single_retailer
-10912013,Louis Jadot Meursault Les Narvaux,2017,750ml,White,"France, Burgundy, Côte d'Or",FR,85,,"Insufficient data - searched, no Narvaux 2017 price found",insufficient
-10912015,Louis Jadot Meursault Les Narvaux,2017,750ml,White,"France, Burgundy, Côte d'Or",FR,85,,"Insufficient data - searched, no Narvaux 2017 price found",insufficient
+10912013,Louis Jadot Meursault Les Narvaux,2017,750ml,White,"France, Burgundy, Côte d'Or",FR,85,114.99,US retailer 2019 Louis Jadot Meursault Narvaux 750ml $114.99 (2020 $119.99); 2017 not found; adjacent-vintage (2 years) substitution,ws_adjacent
+10912015,Louis Jadot Meursault Les Narvaux,2017,750ml,White,"France, Burgundy, Côte d'Or",FR,85,114.99,US retailer 2019 Louis Jadot Meursault Narvaux 750ml $114.99 (2020 $119.99); 2017 not found; adjacent-vintage (2 years) substitution,ws_adjacent
 10920161,Louis Jadot Domaine des Héritiers Beaune Clos de Couchereaux,2009,750ml,Red,"France, Burgundy, Côte d'Or",FR,50,,"Insufficient data - searched, no Couchereaux 2009 price found",insufficient
 10920146,Louis Jadot Domaine Gagey Nuits St. Georges Les Boudots,2010,750ml,Red,"France, Burgundy, Côte d'Or",FR,70,,"Insufficient data - searched, only an auction sale price and non-USD prices",insufficient
 10882570,Sette Ponti Toscana Oreno,2006,750ml,Red,"Italy, Tuscany",IT,65,,"Insufficient data - searched, no USD price found",insufficient
@@ -184,8 +184,8 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10911912,Remirez de Ganuza Rioja Gran Reserva,2015,750ml,Red,"Spain, Rioja",ES,90,,"Insufficient data - searched, only EUR price found",insufficient
 10911750,Remirez de Ganuza Rioja Trasnocho Reserva,2018,750ml,Red,"Spain, Rioja",ES,90,,"Insufficient data - searched, only a 2014 price found",insufficient
 10882545,Château Troplong-Mondot,2010,750ml,Red,"France, Bordeaux, St.-Émilion",FR,150,189.99,Zachys $189.99 (Saratoga $237.50) for 2010 Troplong-Mondot 750ml,ws_single_retailer
-10882544,Château Troplong-Mondot,2009,750ml,Red,"France, Bordeaux, St.-Émilion",FR,135,,"Insufficient data - searched, only GBP pricing found",insufficient
-10911484,Château Pavie-Macquin,1998,750ml,Red,"France, Bordeaux, St.-Émilion",FR,130,,"Insufficient data - searched, only GBP case pricing found",insufficient
+10882544,Château Troplong-Mondot,2009,750ml,Red,"France, Bordeaux, St.-Émilion",FR,135,191.35,Saratoga Wine 2009 Troplong Mondot 750ml $191.35 pre-arrival (regular stock $266.80; lower used),ws_single_retailer
+10911484,Château Pavie-Macquin,1998,750ml,Red,"France, Bordeaux, St.-Émilion",FR,130,205.0,US merchants 1998 Pavie Macquin 750ml $205-$232.88; low end used,ws_single_retailer
 10920217,Château Pavie-Macquin,2016,750ml,Red,"France, Bordeaux, St.-Émilion",FR,105,139.0,US retailer $139 for 2016 Pavie-Macquin 750ml (search snippet),ws_single_retailer
 10912542,Franz Hirtzberger Hochrain Riesling Smaragd,2023,750ml,White,"Austria, Niederosterreich, Wachau",AT,65,82.99,Flatiron Wines $82.99 for 2023 Hirtzberger Hochrain Smaragd 750ml,ws_single_retailer
 10912543,Franz Hirtzberger Hochrain Riesling Smaragd,2024,750ml,White,"Austria, Niederosterreich, Wachau",AT,65,97.99,Flatiron Wines $97.99 for 2024 Hirtzberger Hochrain Smaragd 750ml,ws_single_retailer
@@ -206,8 +206,8 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10911543,Château Pape-Clement,1998,750ml,Red,"France, Bordeaux, Graves",FR,120,,"Insufficient data - searched, conflicting USD/EUR/GBP quotes",insufficient
 10911483,Château Smith-Haut-Lafitte,1998,750ml,Red,"France, Bordeaux, Graves",FR,105,,"Insufficient data - searched, only GBP case pricing found",insufficient
 10882468,Château La Gomerie,2000,750ml,Red,"France, Bordeaux, St.-Émilion",FR,85,192.0,Fine Wines International $192 for 2000 La Gomerie 750ml,ws_single_retailer
-10912098,Château Batailley,2016,750ml,Red,"France, Bordeaux, Pauillac",FR,50,,"Insufficient data - searched, conflicting quotes and a related estate",insufficient
-10882632,Château Talbot,2019,750ml,Red,"France, Bordeaux, St.-Julien",FR,75,,"Insufficient data - searched, vintage-unclear conflicting quotes",insufficient
+10912098,Château Batailley,2016,750ml,Red,"France, Bordeaux, Pauillac",FR,50,68.85,US merchant (Millesima USA) 2016 Chateau Batailley 750ml $68.85 (another US listing $118),ws_single_retailer
+10882632,Château Talbot,2019,750ml,Red,"France, Bordeaux, St.-Julien",FR,75,74.76,Saratoga Wine 2019 Chateau Talbot 750ml $74.76 (US range $54-$79; Costco avg $70.34),ws_single_retailer
 10911386,Chateau de Beaucastel Châteauneuf-du-Pape,1998,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,135,,"Insufficient data - searched, only GBP/ZAR pricing found",insufficient
 10911373,M. Chapoutier Ermitage Cuvee de l'Oree (Blanc),1992,750ml,White,"France, Rhône Valley, Northern Rhône",FR,120,,"Insufficient data - searched, no 1992 price found",insufficient
 10911435,M. Chapoutier Hermitage La Sizeranne,1996,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,110,,"Insufficient data - searched, no 1996 price found",insufficient
@@ -227,7 +227,7 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10912139,Pascal Doquet Brut Grand Cru Blanc de Blancs,NV,750ml,Sparkling,"France, Champagne, Vallée de la Marne",FR,70,,"Insufficient data - searched, cuvee match uncertain",insufficient
 10912079,Moet et Chandon Brut Imperial,NV,1.5ltr,Sparkling,"France, Champagne",FR,90,159.99,Wooden Cork $159.99 for Moet Brut Imperial NV 1.5L (typical US range $100-$190); single retailer,ws_single_retailer
 10912567,Moet et Chandon Brut Imperial,NV,3.0ltr,Sparkling,"France, Champagne",FR,50,,"Insufficient data - searched, no 3L price found",insufficient
-10912140,G.H. Mumm Brut Cordon Rouge,NV,750ml,Sparkling,"France, Champagne",FR,35,,"Insufficient data - searched, results were rose cuvee",insufficient
+10912140,G.H. Mumm Brut Cordon Rouge,NV,750ml,Sparkling,"France, Champagne",FR,35,47.99,Norcal Bottle Shop NV G.H. Mumm Cordon Rouge Brut 750ml $47.99 (PJ Wine $42.97),ws_single_retailer
 10911997,Laurent-Perrier Brut Cuvee Rosé Reserve,NV,750ml,Sparkling,"France, Champagne",FR,65,95.0,Pogo's Wine $95 (Lunds & Byerlys $104.99) for Laurent-Perrier Cuvee Rose NV 750ml,ws_single_retailer
 10911998,Laurent-Perrier Brut Cuvee Rosé Reserve,NV,750ml,Sparkling,"France, Champagne",FR,65,95.0,Pogo's Wine $95 (Lunds & Byerlys $104.99) for Laurent-Perrier Cuvee Rose NV 750ml,ws_single_retailer
 10911999,Laurent-Perrier Brut Cuvee Rosé Reserve,NV,750ml,Sparkling,"France, Champagne",FR,65,95.0,Pogo's Wine $95 (Lunds & Byerlys $104.99) for Laurent-Perrier Cuvee Rose NV 750ml,ws_single_retailer
@@ -274,8 +274,8 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10905230,Carlo Boffa Barbaresco,2014,750ml,Red,"Italy, Piedmont, Barbaresco",IT,20,,"Insufficient data - searched, no Carlo Boffa price found",insufficient
 10905232,Carlo Boffa Barbaresco,2014,750ml,Red,"Italy, Piedmont, Barbaresco",IT,20,,"Insufficient data - searched, no Carlo Boffa price found",insufficient
 10911598,Tenuta di Arceno Chianti Classico Gran Selezione Campolupi,2021,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,45,69.99,K&L Wines $69.99 (Good Pour $74.99) for 2021 Tenuta di Arceno Campolupi Gran Selezione 750ml,ws_single_retailer
-10911597,Tenuta di Arceno Chianti Classico Gran Selezione Strada Al Sasso,2021,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,55,,"Insufficient data - searched, only the 2018 vintage found",insufficient
-10911599,Tenuta di Arceno Chianti Classico Riserva,2020,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,35,,"Insufficient data - searched, no Riserva 2020 price found",insufficient
+10911597,Tenuta di Arceno Chianti Classico Gran Selezione Strada Al Sasso,2021,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,55,77.99,Willow Park 2021 Tenuta di Arceno Chianti Classico Gran Selezione Strada al Sasso 750ml $77.99 (another listing from $72),ws_single_retailer
+10911599,Tenuta di Arceno Chianti Classico Riserva,2020,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,35,44.8,Saratoga Wine 2020 Tenuta di Arceno Chianti Classico Riserva 750ml $44.80 (Market View Liquor NY $27.99; lower-priced alt not used),ws_single_retailer
 10882522,Castellare di Castellina I Sodi di San Niccolò,2016,750ml,Red,"Italy, Tuscany",IT,90,85.95,Saratoga Wine $85.95 (J.J. Buckley $99.94) for 2016 I Sodi di San Niccolo 750ml,ws_single_retailer
 10882531,Castellare di Castellina I Sodi di San Niccolò,2017,750ml,Red,"Italy, Tuscany",IT,50,74.94,J.J. Buckley $74.94 for 2017 I Sodi di San Niccolo 750ml,ws_single_retailer
 10882506,San Giusto a Rentennano Percarlo,2007,750ml,Red,"Italy, Tuscany",IT,100,,"Insufficient data - searched, only GBP/EUR pricing found",insufficient
@@ -311,7 +311,7 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10920179,Sylvain Pataille Marsannay Clos du Roy Blanc,2023,750ml,White,"France, Burgundy, Côte d'Or",FR,80,,"Insufficient data - searched, only EUR pricing found",insufficient
 10912436,Charlopin Tissier Marsannay La Montagne,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,40,,"Insufficient data - searched, only EUR pricing found",insufficient
 10912435,Charlopin Tissier Marsannay le Chapitre,2021,750ml,Red,"France, Burgundy, Côte d'Or",FR,35,,"Insufficient data - searched, only EUR pricing found",insufficient
-10905354,Pelissero Barbaresco Nubiola,2010,1.5ltr,Red,"Italy, Piedmont, Barbaresco",IT,90,,"Insufficient data - searched, magnum price not found",insufficient
+10905354,Pelissero Barbaresco Nubiola,2010,1.5ltr,Red,"Italy, Piedmont, Barbaresco",IT,90,101.09,"2010 Pelissero Nubiola 750ml $45.95 x 2.2 for 1.5L magnum (size mismatch scaled, no magnum price found)",ws_single_retailer
 10912039,Virna di Borgogno Barolo Sarmassa,2013,1.5ltr,Red,"Italy, Piedmont, Barolo",IT,100,,"Insufficient data - searched, results were Roberto Voerzio (different producer)",insufficient
 10912620,Domaine Les Monts Fournois Coteaux Champenois Blanc Ludes,2021,750ml,Sparkling,"France, Champagne, Coteaux Champenois",FR,50,,"Insufficient data - searched, no price found",insufficient
 10912364,Domaine Didier Fornerol Côte de Nuits-Villages Les Perrières,2022,750ml,Red,"France, Burgundy, Côte d'Or",FR,105,75.0,Leon & Son $75 for 2022 Fornerol Cote de Nuits-Villages Les Perrieres 750ml,ws_single_retailer
@@ -320,8 +320,8 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10920166,Charles Van Canneyt Chablis Montee de Tonnerre,2020,750ml,White,"France, Burgundy, Chablis",FR,40,,"Insufficient data - searched, no 2020 price found",insufficient
 10911218,Château Palmer Historical XIXth Century Wine (L.20.19),NV,750ml,Red,"France, Bordeaux, Margaux",FR,140,325.0,Sotheby's Wine $325 for Palmer Historical XIXth Century Wine batch L.20.20 (lot is another batch; Vivino avg ~$300),ws_adjacent
 10882427,Le Dome,2011,750ml,Red,"France, Bordeaux, St.-Émilion",FR,90,119.0,Laguna Cellar $119 (out of stock) for 2011 Le Dome 750ml,ws_single_retailer
-10920168,Les Pagodes de Cos,2019,750ml,Red,"France, Bordeaux, St.-Estephe",FR,55,,"Insufficient data - searched, conflicting quotes of unclear vintage",insufficient
-10911552,Le Carillon de l'Angelus,2018,750ml,Red,"France, Bordeaux, St.-Émilion",FR,90,,"Insufficient data - searched, conflicting quotes",insufficient
+10920168,Les Pagodes de Cos,2019,750ml,Red,"France, Bordeaux, St.-Estephe",FR,55,56.82,Saratoga Wine 2019 Les Pagodes de Cos 750ml $56.82 (Pogo's $87.99; Flatiron future-arrival $51.99),ws_single_retailer
+10911552,Le Carillon de l'Angelus,2018,750ml,Red,"France, Bordeaux, St.-Émilion",FR,90,129.0,"2018 Le Carillon de l'Angelus 750ml: Millesima USA $150, Suckling avg $129, Costco $80-130 avg $105; mid value used",ws_single_retailer
 10912122,Les Fiefs de Lagrange,2005,750ml,Red,"France, Bordeaux, St.-Julien",FR,30,,"Insufficient data - searched, only an auction estimate found",insufficient
 10912080,Les Fiefs de Lagrange,2005,750ml,Red,"France, Bordeaux, St.-Julien",FR,30,,"Insufficient data - searched, only an auction estimate found",insufficient
 10912203,J. Lassalle Brut Special Club,2012,750ml,Sparkling,"France, Champagne",FR,90,117.0,Adjacent vintage: 2013 Lassalle Special Club $117 Bottle Barn (2012 AUD only),ws_adjacent
@@ -350,7 +350,7 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10912610,J. Coudray-Bizot Puligny-Montrachet Les Combettes,2017,750ml,White,"France, Burgundy, Côte d'Or",FR,50,,"Insufficient data - searched, only GBP case pricing found",insufficient
 10911740,Domaine Gerard Julien et Fils Aloxe-Corton Les Valozières,2022,750ml,Red,"France, Burgundy, Côte d'Or",FR,40,92.0,SommSelect $92 for 2022 Domaine Julien Aloxe-Corton Les Valozieres 750ml,ws_single_retailer
 10911741,Domaine Gerard Julien et Fils Aloxe-Corton Les Valozières,2022,750ml,Red,"France, Burgundy, Côte d'Or",FR,40,92.0,SommSelect $92 for 2022 Domaine Julien Aloxe-Corton Les Valozieres 750ml,ws_single_retailer
-10912623,Les Horées Beaune Les Prevolles,2022,750ml,Red,"France, Burgundy, Côte d'Or",FR,50,,"Insufficient data - searched, only EUR auction estimates found",insufficient
+10912623,Les Horées Beaune Les Prevolles,2022,750ml,Red,"France, Burgundy, Côte d'Or",FR,50,280.0,Leon & Son Wine 2022 Les Horees Beaune Les Prevolles 750ml retail $280 (allocated; iDealwine auction EUR 180-313),ws_single_retailer
 10912000,P De Marcilly Chablis Mont de Milieu,2018,750ml,White,"France, Burgundy, Chablis",FR,30,,"Insufficient data - searched, other producers only",insufficient
 10912001,P De Marcilly Chablis Mont de Milieu,2018,750ml,White,"France, Burgundy, Chablis",FR,30,,"Insufficient data - searched, other producers only",insufficient
 10905228,Domaine De La Tour Chablis,2022,750ml,White,"France, Burgundy, Chablis",FR,25,,"Insufficient data - searched, other producers only",insufficient
@@ -361,7 +361,7 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10882452,Château Peby-Faugeres,2010,750ml,Red,"France, Bordeaux, St.-Émilion",FR,140,221.45,Saratoga Wine $221.45 (another $226.21) for 2010 Peby-Faugeres 750ml,ws_single_retailer
 10911383,Château Peby-Faugeres,1998,750ml,Red,"France, Bordeaux, St.-Émilion",FR,85,,"Insufficient data - searched, price on request only",insufficient
 10911384,Château Peby-Faugeres,1998,750ml,Red,"France, Bordeaux, St.-Émilion",FR,85,,"Insufficient data - searched, price on request only",insufficient
-10882501,Gracia,2009,750ml,Red,"France, Bordeaux, St.-Émilion",FR,135,,"Insufficient data - searched, price on request only",insufficient
+10882501,Gracia,2009,750ml,Red,"France, Bordeaux, St.-Émilion",FR,135,275.0,US retailer 2009 Chateau Gracia Saint-Emilion 750ml $275.00,ws_single_retailer
 10882472,Gracia,2005,750ml,Red,"France, Bordeaux, St.-Émilion",FR,130,,"Insufficient data - searched, no 2005 price found",insufficient
 10911493,Telmo Rodriguez Toro Gago,1999,750ml,Red,"Spain, Castilla-Leon, Toro",ES,25,,"Insufficient data - searched, no 1999 price found",insufficient
 10911412,Condado de Haza Ribera del Duero,1996,750ml,Red,"Spain, Castilla-Leon, Ribera del Duero",ES,45,,"Insufficient data - searched, no 1996 price found",insufficient

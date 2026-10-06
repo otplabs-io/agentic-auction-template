@@ -234,3 +234,10 @@ Both `My Cellar` and `My Tasting Notes` exports came in as Windows-1252 (`charde
 - **Currency traps:** nicks.com.au (AUD) and Flask Fine Wines (Singapore) show a bare "$" -- treat as non-USD unless a US retailer corroborates.
 - test.js: patch `'Rhône'` -> `'Rhône Valley'` in a throwaway copy of test.js (not the HTML). Result 90 passed / 4 failed (the four known data-shape failures).
 - Process slip caught: two lots were briefly written as `insufficient` with the note "not searched" before being searched; fixed by re-running them in a later batch (valuations dedupe by lot id). Never record a wine as insufficient without actually searching it.
+
+### 2026-10-11 retry pass on the "insufficient" list (second recovery)
+
+- Re-searched the highest-reserve ~230 of the 297 unpriced unique wines with a different query form (unrestricted "<producer> <cuvee> <vintage> buy price", cluster queries across vintages) -- the 2026-10-04 stage-2 lesson again. **Recovered 30 lots / ~28 wines (~10%)**: valued 179 -> 209, deals 85 -> 95, unvalued 329 -> 299. Yield was ~1 in 4 on the first 100 searches, then fell to ~1 in 10; the remainder are mostly small Champagne growers, 1990s Italian/Bordeaux back-vintages, and cuvees that only appear in GBP/EUR/CAD/AUD listings. That is a real data limit, not a search-effort limit.
+- `mkretry.py` (new, untracked helper) applies results by cache key (`key@@price@@type@@source`) so wines outside `fetch_plan_1005_full.json` can be retried.
+- Judgment calls: adjacent-vintage substitutions (marked `ws_adjacent`, years stated in the note) used only within 1-2 vintages; magnum-from-750 scaled x2.2 with the mismatch stated; rejected as non-USD or unreliable: nicks.com.au / MW Wines / Buzz Wines (AUD), Natalie MacLean / LCBO / SAQ (CAD), Flask Fine Wines (SGD), Cask Cartel outliers, WineBid-own "latest sale" figures, and stale James Suckling "average price" (Montevetrano 1997 $249, 2014 data).
+- Wines with $50 reserves (DRC, Rouget, Cristal-class) remain mostly unpriced because the only US prices are "Price on request".
