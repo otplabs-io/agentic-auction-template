@@ -90,6 +90,9 @@ def validate(p):
                 errs.append(f"{where}: tag {r.get('tag')!r} should be {tier!r} at {pb:.1%}")
         if not str(r.get('source', '')).strip():
             errs.append(f"{where}: source is blank -- every price must name its origin")
+        if r.get('source_type') == 'estimate' and 'estimate' not in str(r.get('source', '')).lower():
+            errs.append(f"{where}: source_type 'estimate' but source does not say 'estimate' -- "
+                        f"memory-based prices must be labelled as such")
         if 'personal_pick' in r and not isinstance(r.get('personal_pick'), bool):
             errs.append(f"{where}: personal_pick must be true/false, got {r.get('personal_pick')!r}")
         if r.get('personal_pick') and not str(r.get('pick_reason', '')).strip():

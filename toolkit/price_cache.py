@@ -28,6 +28,7 @@ CACHE_PATH = os.environ.get('WINEBID_CACHE', 'price_cache.csv')
 # unlisted wine can become listed.
 TTL_DAYS = 60
 TTL_DAYS_UNVALUED = 21
+TTL_DAYS_ESTIMATE = 0   # memory-based estimates are never reused as hits: always try for a real price first
 
 FIELDS = ['key', 'wine_raw', 'vintage', 'format_ml', 'price',
           'source', 'source_type', 'fetched', 'hits']
@@ -129,7 +130,9 @@ def age_days(row, today=None):
 
 
 def is_fresh(row, today=None):
-    ttl = TTL_DAYS_UNVALUED if row.get('source_type') == 'insufficient' else TTL_DAYS
+    st = row.get('source_type')
+    ttl = (TTL_DAYS_ESTIMATE if st == 'estimate'
+           else TTL_DAYS_UNVALUED if st == 'insufficient' else TTL_DAYS)
     return age_days(row, today) <= ttl
 
 

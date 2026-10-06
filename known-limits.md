@@ -241,3 +241,11 @@ Both `My Cellar` and `My Tasting Notes` exports came in as Windows-1252 (`charde
 - `mkretry.py` (new, untracked helper) applies results by cache key (`key@@price@@type@@source`) so wines outside `fetch_plan_1005_full.json` can be retried.
 - Judgment calls: adjacent-vintage substitutions (marked `ws_adjacent`, years stated in the note) used only within 1-2 vintages; magnum-from-750 scaled x2.2 with the mismatch stated; rejected as non-USD or unreliable: nicks.com.au / MW Wines / Buzz Wines (AUD), Natalie MacLean / LCBO / SAQ (CAD), Flask Fine Wines (SGD), Cask Cartel outliers, WineBid-own "latest sale" figures, and stale James Suckling "average price" (Montevetrano 1997 $249, 2014 data).
 - Wines with $50 reserves (DRC, Rouget, Cristal-class) remain mostly unpriced because the only US prices are "Price on request".
+
+
+### 2026-10-12: memory estimates + `estimate` flag (user directive)
+
+- All 299 lots (269 unique wines) that stayed unpriced after both search passes were given flagged memory estimates (`source_type: estimate`). Result: 508 survivors -> 508 valued (208 sourced + 300 estimated: the 299 new ones plus 1 older `estimate` lot already in the cache) -> 261 deals (95 sourced + 166 estimated). No lots remain in Unvalued, so the Unvalued tab is empty.
+- Estimated deals skew to the top of the default %-below sort (DRC, Rousseau, Leroy-type bottles with $50 reserves). Use the **Hide estimated prices** filter, or the Market source facet, to see only sourced deals.
+- **test.js on an estimate-heavy, no-Unvalued payload:** besides the four known failures, the suite crashes at the Unvalued-tab assertions (`href` of null) because the tab is empty, and two region-cascade checks fail because the first row in default sort is a 2-level Spanish region. Both are data shape, not defects; the est badge/filter were verified in a real browser (166 `.est` badges, `#fNoEst` present, 261 rows).
+- Renderer change made (outside the normal "do not edit app.js/template.html" rule because it was an explicit feature request): `isEst()`, est badge + CSS, `noEst` state/hash `ne=1`/chip/checkbox, CSV Price basis column in `app.js` and `template.html`; builder rule in `build_dashboard.py`; `TTL_DAYS_ESTIMATE = 0` in `price_cache.py`.

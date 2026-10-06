@@ -43,9 +43,10 @@ var SRC_LABEL = {
   ws_allvintage:'Wine-Searcher, all vintages',
   ws_single_retailer:'Single retailer',
   auction:'Auction hammer',
-  estimate:'Model estimate'
+  estimate:'Estimate from memory (not sourced)'
 };
 function lvl(r,i){ return (r.region_path && r.region_path[i]) || ''; }
+function isEst(r){ return r.source_type==='estimate'; }
 function link(id){ return 'https://www.winebid.com/BuyWine/Item/'+id; }
 
 /* ---------- wine type ---------- */
@@ -113,7 +114,7 @@ var COLS_DEALS = [
   {k:'buyer_price',label:'Buyer price', type:'num', cls:'num', get:function(r){return r.buyer_price;},
    render:function(r){ return usd(r.buyer_price); }},
   {k:'market',label:'Market',  type:'num', cls:'num', get:function(r){return r.market;},
-   render:function(r){ return usd(r.market); }},
+   render:function(r){ return isEst(r) ? '<span class="est" title="Estimated from general knowledge of collector-grade wine prices, not a sourced market price">≈'+usd(r.market)+' <i>est.</i></span>' : usd(r.market); }},
   {k:'pct_below',label:'% Below', type:'num', cls:'pctcell', get:function(r){return r.pct_below;},
    render:function(r){
      var w = Math.max(2,Math.min(100,Math.round(r.pct_below*100)));
@@ -192,7 +193,8 @@ var state = {
   rng:{},               /* key -> [lo,hi] or null when untouched */
   sort:{col:'pct_below',dir:-1},
   standouts:false,
-  picks:false
+  picks:false,
+  noEst:false
 };
 var BOUNDS = {};        /* view -> key -> [min,max] */
 
@@ -223,6 +225,7 @@ function matches(r, except){
   }
   if(state.view==='deals'){
     if(state.standouts && !r.flag) return false;
+    if(state.noEst && isEst(r)) return false;
   }
   if(state.picks && !r.personal_pick) return false;
   var cfg = VIEWS[state.view];
@@ -251,6 +254,7 @@ function activeCount(){
   cfg.ranges.forEach(function(k){ if(rngTouched(k)) n++; });
   if(state.q) n++;
   if(state.view==='deals' && state.standouts) n++;
+  if(state.view==='deals' && state.noEst) n++;
   if(state.picks) n++;
   return n;
 }
@@ -317,6 +321,7 @@ function writeHash(){
   if(state.sort.col!==d.col || state.sort.dir!==d.dir) p.push('so='+state.sort.col+':'+(state.sort.dir>0?'a':'d'));
   if(state.standouts) p.push('st=1');
   if(state.picks) p.push('pp=1');
+  if(state.noEst) p.push('ne=1');
   var h = p.join('&');
   var target = h ? '#'+h : location.pathname+location.search;
   /* Chrome gives local files an opaque origin, and some builds reject
@@ -348,6 +353,7 @@ function readHash(){
     }
     else if(k==='st') state.standouts = v==='1';
     else if(k==='pp') state.picks = v==='1';
+    else if(k==='ne') state.noEst = v==='1';
   });
 }
 
@@ -429,6 +435,8 @@ function buildRail(){
     if(state.view==='deals'){
       html += '<label class="opt"><input type="checkbox" id="fStandouts"'+(state.standouts?' checked':'')+'>'+
         '<span class="lab">Standouts only</span><span class="n">'+DEALS.filter(function(r){return r.flag;}).length+'</span></label>';
+      html += '<label class="opt"><input type="checkbox" id="fNoEst"'+(state.noEst?' checked':'')+'>'+
+        '<span class="lab">Hide estimated prices</span><span class="n">'+DEALS.filter(isEst).length+'</span></label>';
     }
     html += '</div></details>';
   }
@@ -450,6 +458,7 @@ function buildChips(){
     }
   });
   if(state.view==='deals' && state.standouts) out.push(chip('','Standouts only','standouts',''));
+  if(state.view==='deals' && state.noEst) out.push(chip('','Hiding estimated prices','noest',''));
   if(state.picks) out.push(chip('','Personal picks only','picks',''));
   document.getElementById('chips').innerHTML = out.join('');
 }
@@ -560,7 +569,7 @@ function csv(){
   var cols = cfg.cols.filter(function(c){ return c.csv!==false; });
   var head = cols.map(function(c){
     return c.k==='country' ? 'Country' : c.k==='wine_type' ? 'Type' : c.k==='pick' ? 'Personal pick' : c.label;
-  }).concat(['Link']);
+  }).concat(state.view==='deals' ? ['Price basis','Link'] : ['Link']);
   function cell(r,c){
     if(c.k==='country') return r._country;
     if(c.k==='wine_type') return wtLabel(r.wine_type);
@@ -577,7 +586,7 @@ function csv(){
   }
   function q(s){ s = String(s==null?'':s); return /[",\n]/.test(s) ? '"'+s.replace(/"/g,'""')+'"' : s; }
   return [head.map(q).join(',')].concat(lastRows.map(function(r){
-    return cols.map(function(c){ return q(cell(r,c)); }).concat([link(r.id)]).join(',');
+    return cols.map(function(c){ return q(cell(r,c)); }).concat(state.view==='deals' ? [isEst(r)?'Estimate (from memory)':'Sourced market price', link(r.id)] : [link(r.id)]).join(',');
   })).join('\r\n');
 }
 function toast(msg){
@@ -633,6 +642,7 @@ document.getElementById('railBody').addEventListener('change', function(e){
     render();
   } else if(t.id==='fStandouts'){ state.standouts = t.checked; render(); }
   else if(t.id==='fPicks'){ state.picks = t.checked; render(); }
+  else if(t.id==='fNoEst'){ state.noEst = t.checked; render(); }
 });
 
 document.getElementById('railBody').addEventListener('input', function(e){
@@ -687,6 +697,7 @@ document.getElementById('chips').addEventListener('click', function(e){
   else if(kind==='range') delete state.rng[arg];
   else if(kind==='standouts') state.standouts=false;
   else if(kind==='picks') state.picks=false;
+  else if(kind==='noest') state.noEst=false;
   render();
 });
 
@@ -710,7 +721,7 @@ Array.prototype.forEach.call(document.querySelectorAll('.views button'), functio
 
 function clearAll(){
   Object.keys(state.sel).forEach(function(k){ state.sel[k] = []; });
-  state.rng = {}; state.q = ''; state.standouts = false; state.picks = false;
+  state.rng = {}; state.q = ''; state.standouts = false; state.picks = false; state.noEst = false;
   document.getElementById('q').value = '';
   render();
 }
