@@ -225,3 +225,12 @@ Both `My Cellar` and `My Tasting Notes` exports came in as Windows-1252 (`charde
 - **Producer-name collisions caught this week:** Benoit Ente (-> Benoit Moreau), Remi Jobard (-> Antoine Jobard), Voerzio Martini (-> Roberto Voerzio), Virna (-> Roberto Voerzio), Serge Laporte (-> Delaporte), Jacquart (-> Andre Jacquart). All left `insufficient`.
 - Screen additions this week: `grains nobles` (spelled-out SGN, Alsace), `porto`, `vinsanto` (one word), `chinato` (Barolo Chinato), `monbazillac`, `coteaux de layon` (spelled "Coteaux de Layon"), `acininobili`, `larmes de bacchus` (Vouvray moelleux), `essence d'automne` (late-harvest Condrieu), `cuvee constance` (Huet). Krohn LBV "Porto" slipped through because the keyword was `\bport\b`.
 - Classifier: "Chardonnay Rose Massale" (Tissot) is a selection massale, not a rose -> White. "Coste di Rose" (Vajra) is a Barolo cru -> Red.
+
+### 2026-10-11 follow-up: valuation pass completed (cap 500 session)
+
+- Resumed in a session launched with `CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION=500` from the repo root; the 118 never-attempted wines (136 lots) plus 2 Allegrini Amarone lots (1996/1998) that had fallen through the plan were all searched (~125 WebSearch calls, one per wine or cluster). **461 of 461 unique wines now attempted; 0 "not yet attempted".**
+- Final: 508 survivors -> 179 lots valued -> 85 deals (Good 41 / Great 17 / Steal 27), 329 unvalued (all searched, no reliable price). Yield on this tail was low (~35-40% of wines priced): obscure Burgundy/Champagne growers and 1990s Bordeaux mostly return only GBP/EUR/CAD/AUD prices.
+- **Cask Cartel is an outlier source** (e.g. $549.99 for Cantemerle 1996 vs ~GBP 60 UK; $390 Clos de l'Oratoire 1998 vs $99.99 Flatiron; $1,147 Colin-Deleger): reject its prices unless corroborated. Flatiron "...-auc" slug pages are auction-lot listings, so their prices are used as approximate and noted.
+- **Currency traps:** nicks.com.au (AUD) and Flask Fine Wines (Singapore) show a bare "$" -- treat as non-USD unless a US retailer corroborates.
+- test.js: patch `'Rhône'` -> `'Rhône Valley'` in a throwaway copy of test.js (not the HTML). Result 90 passed / 4 failed (the four known data-shape failures).
+- Process slip caught: two lots were briefly written as `insufficient` with the note "not searched" before being searched; fixed by re-running them in a later batch (valuations dedupe by lot id). Never record a wine as insufficient without actually searching it.

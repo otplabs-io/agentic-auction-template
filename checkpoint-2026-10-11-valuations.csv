@@ -371,3 +371,139 @@ id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,sourc
 10912060,Fabiènne Prié Brut Réserve,NV,750ml,Sparkling,"France, Champagne",FR,25,,"Insufficient data - searched, no price found",insufficient
 10912137,Cascina Adelaide Barolo Preda,2011,750ml,Red,"Italy, Piedmont, Barolo",IT,50,110.0,Adjacent vintage: 2013 Cascina Adelaide Barolo Preda $110 (2011 not found),ws_adjacent
 10920152,Burlotto Langhe Nebbiolo,2020,750ml,Red,"Italy, Piedmont, Langhe",IT,35,30.0,Thatchers Wine $30 (Verve $37) for 2020 Burlotto Langhe Nebbiolo 750ml,ws_single_retailer
+10911320,Antichi Vigneti di Cantalupo Ghemme Collis Breclemae,2013,750ml,Red,"Italy, Piedmont, Ghemme",IT,40,,Insufficient data: only GBP/NOK prices found (searched once),insufficient
+10911236,Antichi Vigneti di Cantalupo Ghemme Collis Carellae,2008,750ml,Red,"Italy, Piedmont, Ghemme",IT,45,,Insufficient data: only GBP price found (searched once),insufficient
+10911237,Antichi Vigneti di Cantalupo Ghemme Collis Carellae,2016,750ml,Red,"Italy, Piedmont, Ghemme",IT,45,,Insufficient data: no USD price found (searched once),insufficient
+10912005,Bader-Mimeur Chateau de Chassagne Montrachet Chassagne-Montrachet Rouge,2013,750ml,Red,"France, Burgundy, Côte d'Or",FR,35,,Insufficient data: no 2013 Rouge price; only 2020 vintage found (searched once),insufficient
+10912344,Benedicte et Stephane Tissot Chardonnay Rose Massale,2022,750ml,White,"France, Jura",FR,55,79.99,Flatiron Wines SF 2022 750ml $79.99 (Kensington Wine Market lists $101.99; lower used),ws_single_retailer
+10911503,Bosquet des Papes Chateauneuf du Pape Cuvee Grenache,1998,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,60,,Insufficient data: no 1998 Grenache cuvee price found (searched once),insufficient
+10920154,Capitain-Gagnerot Ladoix Les Grechons et Foutieres Blanc,2020,750ml,White,"France, Burgundy, Côte d'Or",FR,35,61.95,Saratoga Wine 2022 vintage $61.95; 2020 only EUR 37 on iDealwine; adjacent-vintage substitution,ws_adjacent
+10920167,Castello Di Monterinaldi Chianti Classico,2021,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,25,,Insufficient data: Costco page shows $25.09 but vintage unconfirmed (searched once),insufficient
+10912052,Charles & Alphrede Prieur Grand Prieur Brut,2008,750ml,Sparkling,"France, Champagne",FR,45,,Insufficient data: Last Bottle listing without visible price (searched once),insufficient
+10911968,Charles & Alphrede Prieur Grand Prieur Brut,2008,750ml,Sparkling,"France, Champagne",FR,45,,Insufficient data: Last Bottle listing without visible price (searched once),insufficient
+10920134,Charles Noellat Beaune Les Cents Vignes,2002,750ml,Red,"France, Burgundy, Côte d'Or",FR,75,,Insufficient data: no 2002 price found (searched once),insufficient
+10920156,Charles Noellat Savigny-les-Beaune,2005,750ml,Red,"France, Burgundy, Côte d'Or",FR,50,,Insufficient data: no 2005 price found (searched once),insufficient
+10911380,Château Cantemerle,1996,750ml,Red,"France, Bordeaux, Haut-Médoc",FR,65,,Insufficient data: only outlier US price ($549.99 Cask Cartel) vs ~GBP60 UK; rejected (searched once),insufficient
+10912142,Château Carbonnieux,2005,375ml,Red,"France, Bordeaux, Graves",FR,25,,Insufficient data: no 2005 375ml price found (searched once),insufficient
+10911538,Château Charmail,2000,750ml,Red,"France, Bordeaux, Haut-Médoc",FR,35,,Insufficient data: only EUR prices found (searched once),insufficient
+10882421,Château Clos de Sarpe,2005,750ml,Red,"France, Bordeaux, St.-Émilion",FR,75,174.99,Flatiron Wines NYC 2005 750ml $174.99 (Natalie MacLean lists $155); Flatiron listing is an auction-slug page so treat as approximate,ws_single_retailer
+10911514,Château Cote de Baleau,1998,750ml,Red,"France, Bordeaux, St.-Émilion",FR,125,,"Insufficient data: Comptoir des Millesimes 1998 out of stock, no price shown (searched once)",insufficient
+10920241,Château d'Aiguilhe Cotes de Castillon,2016,750ml,Red,"France, Bordeaux, Cotes de Castillon",FR,30,37.99,Flatiron Wines NYC 2016 750ml $37.99 (listed sold out; list price shown),ws_single_retailer
+10911542,Château Dalem,1998,750ml,Red,"France, Bordeaux, Fronsac",FR,25,,Insufficient data: only EUR 19 iDealwine estimate (searched once),insufficient
+10911513,Château Faugeres,1998,750ml,Red,"France, Bordeaux, St.-Émilion",FR,45,,Insufficient data: only EUR/GBP prices; Faugeres vs Peby-Faugeres ambiguity (searched once),insufficient
+10911480,Château Haut-Maillet,1998,750ml,Red,"France, Bordeaux, Pomerol",FR,35,,Insufficient data: only EUR prices (searched once),insufficient
+10911479,Château Haut-Maillet,1998,750ml,Red,"France, Bordeaux, Pomerol",FR,35,,Insufficient data: only EUR prices (searched once),insufficient
+10911651,Château La Rousselle,2009,750ml,Red,"France, Bordeaux, Fronsac",FR,30,,Insufficient data: only historical release price found (searched once),insufficient
+10882542,Château Monbousquet,2005,750ml,Red,"France, Bordeaux, St.-Émilion",FR,80,109.98,Wine House 2005 Monbousquet 750ml $109.98 list price (out of stock); Saratoga pre-arrival $136.85; lower used,ws_single_retailer
+10911489,Château Pavie-Decesse,1999,375ml,Red,"France, Bordeaux, St.-Émilion",FR,40,,Insufficient data: no 375ml 1999 price found (searched once),insufficient
+10911388,Château Quinault L'Enclos,1998,750ml,Red,"France, Bordeaux, St.-Émilion",FR,50,89.99,Flatiron Wines NYC 1998 750ml $89.99 (another Flatiron listing $109.99; lower used; sold out; Flatiron auction-slug pages so approximate),ws_single_retailer
+10882551,Château Quinault L'Enclos,2005,750ml,Red,"France, Bordeaux, St.-Émilion",FR,55,,Insufficient data: only GBP price for 2005 (searched once),insufficient
+10920164,Château Rouget,2013,750ml,Red,"France, Bordeaux, Pomerol",FR,40,,Insufficient data: only non-vintage-specific Costco range and implausible outlier (searched once),insufficient
+10882420,Château Teyssier Les Asteries,2009,750ml,Red,"France, Bordeaux, St.-Émilion",FR,75,,Insufficient data: only GBP/EUR and WineBid-own figures; Teyssier/Les Asteries cuvee ambiguity (searched once),insufficient
+10912179,Chaudron Brut Grains de Nature B73 Zero Dosage,NV,750ml,Sparkling,"France, Champagne",FR,30,,Insufficient data: no price found (searched once),insufficient
+10912429,Chiara Condello Le Lucciole Riserva,2018,750ml,Red,"Italy, Emilia Romagna, Romagna",IT,50,59.97,Flask Fine Wines 2018 750ml $59.97 (SommSelect $60.00),ws_single_retailer
+10911444,Clos de l'Oratoire,1998,750ml,Red,"France, Bordeaux, St.-Émilion",FR,60,99.99,Flatiron Wines NYC 1998 750ml $99.99 (Cask Cartel $390 rejected as outlier; UK GBP 89.95 consistent),ws_single_retailer
+10911515,Clos de l'Oratoire,1998,750ml,Red,"France, Bordeaux, St.-Émilion",FR,60,99.99,Flatiron Wines NYC 1998 750ml $99.99 (Cask Cartel $390 rejected as outlier; UK GBP 89.95 consistent),ws_single_retailer
+10905329,Clos du Joncuas Gigondas,2010,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,20,,Insufficient data: no 2010 price found (searched once),insufficient
+10911506,Colin-Deleger Chassagne-Montrachet Les Vergers,1998,750ml,White,"France, Burgundy, Côte d'Or",FR,55,,"Insufficient data: only implausible $1,147 Cask Cartel Michel Colin-Deleger listing (searched once)",insufficient
+10912066,Decelle-Villa Auxey-Duresses,2015,750ml,Red,"France, Burgundy, Côte d'Or",FR,30,,Insufficient data: no Decelle-Villa price found (searched once),insufficient
+10905225,Domaine A. & P. de Villaine Bourgogne Côte Chalonnaise Les Clous Cuvée Aimé,2014,750ml,Red,"France, Burgundy, Côte Chalonnaise",FR,45,,Insufficient data: no 2014 price; only 2020 ($115.71) found (searched once),insufficient
+10911464,Domaine Barat Chablis Côte de Léchet,1996,750ml,White,"France, Burgundy, Chablis",FR,40,,Insufficient data: no Domaine Barat 1996 price found (searched once),insufficient
+10912395,Domaine Benoit Moreau Saint-Aubin En Remilly,2022,750ml,White,"France, Burgundy, Côte d'Or",FR,140,189.94,J.J. Buckley 2022 Benoit Moreau Saint-Aubin 1er Cru En Remilly 750ml $189.94,ws_single_retailer
+10912549,Domaine Chanterêves Chassagne-Montrachet Morgeots,2022,750ml,White,"France, Burgundy, Côte d'Or",FR,50,225.0,Leon & Son 2022 Chantereves Chassagne-Montrachet 1er Cru Les Morgeots 750ml $225.00 (Flatiron $229.00),ws_single_retailer
+10911475,Domaine Confuron-Cotetidot Nuits-St.-Georges,1996,750ml,Red,"France, Burgundy, Côte d'Or",FR,75,,Insufficient data: no 1996 price found (searched once),insufficient
+10911432,Domaine de Beaurenard (Coulon) Boisrenard Chateauneuf du Pape,1998,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,40,,Insufficient data: only GBP price (searched once),insufficient
+10911433,Domaine de Beaurenard (Coulon) Boisrenard Chateauneuf du Pape,1998,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,40,,Insufficient data: only GBP price (searched once),insufficient
+10912550,Domaine de la Grange des Peres Blanc,2018,1.5ltr,White,"France, Rhône Valley, Southern Rhône",FR,50,449.99,"Flatiron Wines 1.5L Grange des Peres Blanc 2019/2020 $449.99; 2018 only GBP at Hedonism; adjacent-vintage, same 1.5L format",ws_adjacent
+10911473,Domaine de Villeneuve Chateauneuf du Pape Les Vieilles Vignes,1995,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,55,,Insufficient data: no 1995 price; only 2014/2019 retail (searched once),insufficient
+10920236,Domaine des Relagnes Chateauneuf du Pape Les Petits Pieds de l'Armand,2004,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,50,,"Insufficient data: results were Olivier Hillaire (different producer), no Relagnes 2004 price (searched once)",insufficient
+10920128,Domaine Felettig Bourgogne Hautes-Côtes de Nuits,2018,750ml,Red,"France, Burgundy, Bourgogne",FR,30,,Insufficient data: only 2023 vintage ($55.99) found (searched once),insufficient
+10920144,Domaine Felettig Marsannay Les Crais,2019,750ml,Red,"France, Burgundy, Côte d'Or",FR,40,,Insufficient data: no USD 2019 price (GBP case only) (searched once),insufficient
+10911443,Domaine Jean-Paul Droin Chablis Vaillons,1996,750ml,White,"France, Burgundy, Chablis",FR,55,,Insufficient data: no 1996 price found (searched once),insufficient
+10911437,Domaine Joblot Givry Clos de la Servoisine,1999,750ml,Red,"France, Burgundy, Côte Chalonnaise",FR,50,,"Insufficient data: no 1999 price found (searched once, cluster query)",insufficient
+10911396,Domaine Joblot Givry Clos du Cellier aux Moines,1999,750ml,Red,"France, Burgundy, Côte Chalonnaise",FR,65,,"Insufficient data: no 1999 price found (searched once, cluster query)",insufficient
+10911397,Domaine Joblot Givry Clos du Cellier aux Moines,1999,750ml,Red,"France, Burgundy, Côte Chalonnaise",FR,65,,"Insufficient data: no 1999 price found (searched once, cluster query)",insufficient
+10912556,Domaine Prieure-Roch Vin de France Pinot Noir,2022,750ml,Red,France,FR,50,,Insufficient data: no reliable 2022 price (only 2024 outlier and GBP) (searched once),insufficient
+10912606,Domaine Prieure-Roch Vin de France Pinot Noir,2022,750ml,Red,France,FR,50,,Insufficient data: no reliable 2022 price (only 2024 outlier and GBP) (searched once),insufficient
+10912558,Domaine Vincent Dancer Bourgogne Hautes-Côtes de Beaune Blanc,2022,1.5ltr,White,"France, Burgundy, Bourgogne",FR,50,,Insufficient data: only EUR 93.60 for 1.5L 2022 (searched once),insufficient
+10911805,El Grifo Ariana,2021,750ml,White,"Spain, Canary Islands, Lanzarote",ES,20,48.0,Importer SRP $48.00 for El Grifo Ariana 750ml (Kysela); not vintage-specific,ws_allvintage
+10911804,El Grifo Ariana,2021,750ml,White,"Spain, Canary Islands, Lanzarote",ES,20,48.0,Importer SRP $48.00 for El Grifo Ariana 750ml (Kysela); not vintage-specific,ws_allvintage
+10912588,Emilien Feneuil Coteaux Champenois Blanc de Petit Meslier et de Chardonnay,2019,750ml,Sparkling,"France, Champagne, Coteaux Champenois",FR,50,180.0,Leon & Son 2019 Emilien Feneuil Puits & Gillis Coteaux Blanc de Petite Meslier & Chardonnay 750ml $180.00,ws_single_retailer
+10912590,Emilien Feneuil Coteaux Champenois Les Maçonettes Rosé,2020,750ml,Sparkling,"France, Champagne, Coteaux Champenois",FR,50,165.0,US retailer regular price $165 for 2020 Feneuil Coteaux Champenois Rose Les Maconnettes 750ml (Thatchers Wine),ws_single_retailer
+10912589,Emilien Feneuil Coteaux Champenois Chamery Pinot Noir,NV,750ml,Sparkling,"France, Champagne, Coteaux Champenois",FR,50,,"Insufficient data: only 2020 Chamery Rouge cuvee found ($195), NV cuvee not confirmed (searched once)",insufficient
+10920206,Fontaine-Gagnard Chassagne-Montrachet La Romanee,2017,750ml,White,"France, Burgundy, Côte d'Or",FR,120,199.0,Flatiron Wines NYC 2017 Fontaine-Gagnard Chassagne-Montrachet 1er Cru La Romanee 750ml $199.00,ws_single_retailer
+10912062,Gallimard Père et Fils Brut Cuvee Reserve Blanc de Noirs,NV,750ml,Sparkling,"France, Champagne",FR,35,,Insufficient data: only GBP/SEK prices (searched once),insufficient
+10912063,Gallimard Père et Fils Brut Cuvee Reserve Blanc de Noirs,NV,750ml,Sparkling,"France, Champagne",FR,35,,Insufficient data: only GBP/SEK prices (searched once),insufficient
+10911381,Gianfranco Alessandria Barolo San Giovanni,1997,750ml,Red,"Italy, Piedmont, Barolo",IT,60,,Insufficient data: no 1997 price; only current vintage retail (searched once),insufficient
+10911382,Gianfranco Alessandria Barolo San Giovanni,1997,750ml,Red,"Italy, Piedmont, Barolo",IT,60,,Insufficient data: no 1997 price; only current vintage retail (searched once),insufficient
+10920240,Giovanni Rocca Barolo Mosconi,2004,750ml,Red,"Italy, Piedmont, Barolo",IT,50,,Insufficient data: no 2004 price found (searched once),insufficient
+10912053,Gounel-Lassalle Premier Cru Esprit Voyageur,NV,750ml,Sparkling,"France, Champagne",FR,45,71.0,Call Me Wine US Gounel-Lassalle Esprit Voyageur 1er Cru Brut Nature NV 750ml $71.00,ws_single_retailer
+10912384,Guffens-Heynen Macon-Pierreclos Premier Jus de Chavigne,2022,750ml,White,"France, Burgundy, Mâconnais",FR,135,,Insufficient data: only CAD/AUD/GBP prices (searched once),insufficient
+10920129,Henri Bourgeois Chateaumeillant Solissime,2012,750ml,Red,"France, Loire Valley, Centre-Loire",FR,20,,Insufficient data: wine.com page found but no price shown (searched once),insufficient
+10912205,Jean de la Fontaine L'Eloquente,NV,750ml,Sparkling,"France, Champagne",FR,20,,Insufficient data: only CHF price (searched once),insufficient
+10912135,Jean-Luc Dubois Savigny Les Beaune Picotins V.V. Cuvee Unique,2005,750ml,Red,"France, Burgundy, Côte d'Or",FR,35,,Insufficient data: no Jean-Luc Dubois price (only other producers) (searched once),insufficient
+10911377,Jean-Marc Brocard Chablis Fourchaume,1996,750ml,White,"France, Burgundy, Chablis",FR,45,,Insufficient data: no 1996 Fourchaume price (searched once),insufficient
+10920137,Jean Maurice Raffault Chinon Clos des Capucins,2006,750ml,Red,"France, Loire Valley, Chinon",FR,30,,Insufficient data: only EUR Hachette guide price (searched once),insufficient
+10920132,Jean-Philippe Fichet Bourgogne Côte d'Or,2022,750ml,White,"France, Burgundy, Côte d'Or",FR,30,44.99,Flatiron Wines SF 2022 Jean-Philippe Fichet Bourgogne Blanc Cote d'Or 750ml $44.99 (Somm Select $55.00; lower used),ws_single_retailer
+10911967,Jeaunaux-Robin Brut Fil de Brume,NV,750ml,Sparkling,"France, Champagne",FR,35,,Insufficient data: only EUR prices (searched once),insufficient
+10912380,Jules Desjourneys Pouilly-Vinzelles,2019,750ml,White,"France, Burgundy, Mâconnais",FR,65,,Insufficient data: only CHF/GBP and other-vintage prices (searched once),insufficient
+10912191,Julien Denby Brut Reserve,NV,750ml,Sparkling,"France, Champagne",FR,25,,Insufficient data: no listing found (searched once),insufficient
+10920247,La Poderina Brunello di Montalcino,1999,1.5ltr,Red,"Italy, Tuscany, Brunello di Montalcino",IT,140,,Insufficient data: no 1999 1.5L price found (searched once),insufficient
+10911961,Le Brun de Neuville Cote Blanche,NV,750ml,Sparkling,"France, Champagne",FR,55,,Insufficient data: only AUD price found (searched once),insufficient
+10911962,Le Brun de Neuville Cote Blanche,NV,750ml,Sparkling,"France, Champagne",FR,55,,Insufficient data: only AUD price found (searched once),insufficient
+10920126,Lecci e Brocchi Chianti Classico,2014,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,20,32.99,Flatiron Wines NYC 2013 Lecci e Brocchi Chianti Classico 750ml $32.99; 2014 not listed; adjacent-vintage substitution,ws_adjacent
+10912213,Louis Jadot Chassagne-Montrachet Les Embazees,2016,750ml,Red,"France, Burgundy, Côte d'Or",FR,90,,Insufficient data: no Jadot Les Embazees 2016 price (searched once),insufficient
+10882556,Lucia (Saint-Emilion),2005,750ml,Red,"France, Bordeaux, St.-Émilion",FR,50,69.94,J.J. Buckley 2005 Lucia (St-Emilion) 750ml $69.94 (listed out of stock),ws_single_retailer
+10912156,Marteaux Guillaume Cuvee Le Metisse,2018,750ml,Sparkling,"France, Champagne",FR,40,,"Insufficient data: no price found for Le Metisse 2018 (searched once, cluster query)",insufficient
+10912051,Marteaux Guillaume Cuvee Le Metisse,NV,750ml,Sparkling,"France, Champagne",FR,35,,"Insufficient data: no price found for Le Metisse NV (searched once, cluster query)",insufficient
+10912199,Moussé Fils L'Or d'Eugene Perpetuelle Blanc de Noir,NV,750ml,Sparkling,"France, Champagne",FR,50,60.0,Fine Wines International NV Mousse Fils L'Or d'Eugene Perpetuelle BdN 750ml $60.00 (range $56-$69.99 across Verve/K&L/Flatiron),ws_single_retailer
+10912159,Moutard Brut Rose de Cuvaison,NV,750ml,Sparkling,"France, Champagne",FR,25,43.99,D&M Wines NV Moutard Rose de Cuvaison 750ml $43.99 (range $36.99-$49.95 US retailers),ws_single_retailer
+10912611,Nikolaihof Steinriesler Riesling,1999,750ml,White,"Austria, Niederosterreich, Wachau",AT,50,,Insufficient data: no 1999 Steinriesler price (searched once),insufficient
+10911455,Pasanau Germans Finca La Planeta,1997,750ml,Red,"Spain, Cataluna, Priorato",ES,25,,Insufficient data: no 1997 price; only 2004 ($39.99) found (searched once),insufficient
+10911456,Pasanau Germans Finca La Planeta,1997,750ml,Red,"Spain, Cataluna, Priorato",ES,25,,Insufficient data: no 1997 price; only 2004 ($39.99) found (searched once),insufficient
+10912524,Patrick & Christophe Bonnefond Cote-Rotie Les Rochins,2021,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,35,54.99,Wine Library 2021 Bonnefond Cote-Rotie Les Rochains 750ml $54.99 current price (list $74.99; lower used),ws_single_retailer
+10911507,Paul Autard Chateauneuf Du Pape Cuvee La Cote Ronde,1998,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,50,,Insufficient data: only unconfirmed-cuvee $89 Wine Dispensary listing and WineBid-own figure (searched once),insufficient
+10911508,Paul Autard Chateauneuf Du Pape Cuvee La Cote Ronde,1998,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,50,,Insufficient data: only unconfirmed-cuvee $89 Wine Dispensary listing and WineBid-own figure (searched once),insufficient
+10912116,Paul Dethune Brut Grand Cru,NV,750ml,Sparkling,"France, Champagne",FR,40,41.99,Bottle Barn NV Paul Dethune Brut Grand Cru 750ml $41.99,ws_single_retailer
+10912184,Paul Dethune Brut Grand Cru,NV,750ml,Sparkling,"France, Champagne",FR,40,41.99,Bottle Barn NV Paul Dethune Brut Grand Cru 750ml $41.99,ws_single_retailer
+10911429,Pere Pape Châteauneuf-du-Pape La Crau De Ma Mère,1998,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,35,,Insufficient data: no 1998 price; only CAD for 1999/2000 (searched once),insufficient
+10912433,Philine Isabelle Langhe Chardonnay,2023,750ml,White,"Italy, Piedmont, Langhe",IT,110,60.0,Thatcher's Wine 2023 Philine Isabelle Langhe Chardonnay 750ml $60 (Leon & Son $65),ws_single_retailer
+10912054,Philippe Glavier Grand Cru La Grace D'Hakamiah,NV,750ml,Sparkling,"France, Champagne, Côte des Blancs",FR,55,96.99,US retailer (Perrine's Wine Shop) NV Philippe Glavier La Grace d'Hakamiah Extra Brut 750ml $96.99,ws_single_retailer
+10912048,Philippe Prie Brut Tradition,NV,1.5ltr,Sparkling,"France, Champagne",FR,80,54.99,Wines Till Sold Out Philippe Prie Brut Tradition NV 1.5L $54.99 (750ml $24.99); magnum format price direct,ws_single_retailer
+10912533,Philipponnat Brut Royale Reserve Rose,NV,375ml,Sparkling,"France, Champagne",FR,30,42.99,Flatiron Wines SF Philipponnat Royale Reserve Rose NV 375ml $42.99 (listed out of stock),ws_single_retailer
+10920230,Podere San Luigi Fidenzio,2004,750ml,Red,"Italy, Tuscany",IT,40,,"Insufficient data: only GBP price for 2004 (searched once, cluster query)",insufficient
+10920231,Podere San Luigi Fidenzio,2005,750ml,Red,"Italy, Tuscany",IT,35,,"Insufficient data: no USD price for 2005 (searched once, cluster query)",insufficient
+10911474,Poggio Salvi Brunello di Montalcino,1997,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,45,,Insufficient data: no Poggio Salvi 1997 price; only other producers/vintages (searched once),insufficient
+10911871,Potinet-Ampeau Volnay Les Carelles Sous la Chapelle,2010,750ml,Red,"France, Burgundy, Côte d'Or",FR,70,,Insufficient data: only other-producer 2010 Volnay prices in GBP (searched once),insufficient
+10911969,Remy Massin Brut Tradition,NV,750ml,Sparkling,"France, Champagne",FR,35,43.0,CallMeWine US Remy Massin Brut Blanc de Noirs Tradition NV 750ml $43.00,ws_single_retailer
+10912204,Remy Massin Brut Tradition,NV,750ml,Sparkling,"France, Champagne",FR,35,43.0,CallMeWine US Remy Massin Brut Blanc de Noirs Tradition NV 750ml $43.00,ws_single_retailer
+10912056,Richardot Brut Rose,NV,750ml,Sparkling,"France, Champagne",FR,20,,Insufficient data: no Richardot listing found (searched once),insufficient
+10912057,Richardot Brut Rose,NV,750ml,Sparkling,"France, Champagne",FR,20,,Insufficient data: no Richardot listing found (searched once),insufficient
+10912630,Sadi Malot Brut Les 2 Cepages,NV,750ml,Sparkling,"France, Champagne",FR,40,,Insufficient data: only GBP/CHF prices (searched once),insufficient
+10911470,Scopetone Brunello di Montalcino,1997,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,45,,Insufficient data: no 1997 price; only recent vintages (searched once),insufficient
+10882493,Seghesio (Aldo Ricardo) Barolo La Villa,1997,750ml,Red,"Italy, Piedmont, Barolo",IT,40,85.56,Saratoga Wine Seghesio Barolo La Villa 1997 750ml $85.56 (search synthesis; direct fetch blocked 403; 1996 listed $85.65),ws_single_retailer
+10912534,Sorì della Sorba Nebbiolo,2021,750ml,Red,"Italy, Piedmont, Langhe",IT,45,59.95,First Bottle Wines 2021 Sori della Sorba Langhe Nebbiolo 750ml $59.95 sale price (stated retail $100; lower used),ws_single_retailer
+10911428,Sportoletti Villa Fidelia Rosso,1999,750ml,Red,"Italy, Umbria",IT,30,,Insufficient data: no 1999 price found (searched once),insufficient
+10911488,Stefano Farina Barolo,1997,750ml,Red,"Italy, Piedmont, Barolo",IT,35,,Insufficient data: no Stefano Farina listing found (searched once),insufficient
+10912508,Tenuta di Arceno Toscana Arcanum,2012,750ml,Red,"Italy, Tuscany",IT,40,,"Insufficient data: only unreliable-currency Flask listing ($89.99, Singapore-based retailer) (searched once, cluster query)",insufficient
+10912520,Tenuta di Arceno Toscana Valadorna,2012,750ml,Red,"Italy, Tuscany",IT,45,,"Insufficient data: only CAD price and other vintages (searched once, cluster query)",insufficient
+10911652,Terres Dorées (Jean-Paul Brun) Fleurie,2009,750ml,Red,"France, Beaujolais, Fleurie",FR,20,,Insufficient data: only EUR/ZAR prices (searched once),insufficient
+10920245,Tornesi Brunello di Montalcino Riserva,2004,1.5ltr,Red,"Italy, Tuscany, Brunello di Montalcino",IT,140,,"Insufficient data: no 1.5L Riserva 2004 price found (searched once, cluster query)",insufficient
+10920246,Tornesi Brunello di Montalcino,2007,1.5ltr,Red,"Italy, Tuscany, Brunello di Montalcino",IT,135,,"Insufficient data: no 1.5L 2007 price found (searched once, cluster query)",insufficient
+10911640,Torre Alberghieri Chianti Classico,2009,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,20,,Insufficient data: no Torre Alberghieri listing found (searched once),insufficient
+10911963,V Testulat Brut Premier Cru Cuvée Préstige,NV,750ml,Sparkling,"France, Champagne",FR,25,,Insufficient data: no Testulat listing found (searched once),insufficient
+10911964,V Testulat Brut Premier Cru Cuvée Préstige,NV,750ml,Sparkling,"France, Champagne",FR,25,,Insufficient data: no Testulat listing found (searched once),insufficient
+10912603,Vallisassoli Michelangelo,2019,1.5ltr,Red,"Italy, Campania",IT,50,,Insufficient data: no Vallisassoli listing found (searched once),insufficient
+10912200,Veuve Doussot Brut Blanc de Blancs,NV,750ml,Sparkling,"France, Champagne",FR,20,,"Insufficient data: no Blanc de Blancs listing found (searched once, cluster query)",insufficient
+10912185,Veuve Doussot Grand Cuvee Brut,NV,750ml,Sparkling,"France, Champagne",FR,25,,"Insufficient data: only outlier Cask Cartel $109.99 listing, rejected (searched once)",insufficient
+10912064,Vincent & Sophie Morey Chassagne-Montrachet Les Baudines,2019,750ml,White,"France, Burgundy, Côte d'Or",FR,60,99.99,GoodPour US retailer Vincent & Sophie Morey Chassagne-Montrachet 1er Cru Baudines 750ml $99.99; vintage not stated on listing,ws_allvintage
+10912382,Vincent Dureuil-Janthial Rully Vauvry,2020,750ml,White,"France, Burgundy, Côte Chalonnaise",FR,80,,Insufficient data: no Vauvry listing found (searched once),insufficient
+10912011,Vite Colte Barolo Riserva Essenze,2008,1.5ltr,Red,"Italy, Piedmont, Barolo",IT,70,,Insufficient data: no Essenze 2008 1.5L price found (searched once),insufficient
+10912604,Viuva José Gomes da Silva & Filhos Colares Reserva Tinto,1967,650ml,Red,"Portugal, Colares",PT,50,,Insufficient data: only GBP prices (searched once),insufficient
+10912014,Zenato Valpolicella Superiore Ripassa,2005,750ml,Red,"Italy, Veneto, Valpolicella Ripasso",IT,20,,Insufficient data: no 2005 price; only current Costco vintage (searched once),insufficient
+10912143,Chateau de la Maltroye Chassagne-Montrachet La Boudriotte (Rouge),2005,375ml,Red,"France, Burgundy, Côte d'Or",FR,40,,Insufficient data: no 2005 375ml price; only 2017-2022 750ml (searched once),insufficient
+10912020,Chateau de la Maltroye Chassagne-Montrachet La Boudriotte (Rouge),2005,750ml,Red,"France, Burgundy, Côte d'Or",FR,80,,Insufficient data: no 2005 price; only 2017-2022 vintages ($75-$78) (searched once),insufficient
+10912612,Chateau des Tours Côtes du Rhône Reserve,2019,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,50,89.99,Bottle Barn 2019 Chateau des Tours Cotes-du-Rhone Reserve Rouge 750ml $89.99 (Flask $194.97 not used),ws_single_retailer
+10911408,Zind-Humbrecht Tokay Pinot Gris Hunawihr Clos Windsbuhl,1993,375ml,White,"France, Alsace",FR,30,,Insufficient data: no 1993 375ml price; only 1994 750ml (searched twice),insufficient
+10911534,Allegrini Amarone della Valpolicella Classico,1996,750ml,Red,"Italy, Veneto, Amarone della Valpolicella",IT,75,,"Insufficient data: only WineBid-own sale figures and non-vintage current-release retail (searched once, cluster query)",insufficient
+10911535,Allegrini Amarone della Valpolicella Classico,1998,750ml,Red,"Italy, Veneto, Amarone della Valpolicella",IT,80,,Insufficient data: only WineBid-own $86 sale and GBP case price; current-release retail not vintage-specific (searched once),insufficient

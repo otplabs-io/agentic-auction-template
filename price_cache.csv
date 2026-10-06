@@ -47,7 +47,9 @@ alejandro fernandez pesquera tinto crianza|2006|750,Alejandro Fernandez Pesquera
 alessandro rivetto barolo del comune di serralunga d alba|2017|750,Alessandro Rivetto Barolo del Comune di Serralunga d'Alba,2017,750,,Insufficient data - no price found (searched),insufficient,2026-10-05,0
 alex gambal beaune champs pimont|2022|750,Alex Gambal Beaune Champs Pimont,2022,750,94,"Wine-Searcher average retail $94/750ml, 95pt rating (not clearly vintage-tied to 2022)",ws_allvintage,2026-09-28,0
 alex gambal puligny montrachet|2015|750,Alex Gambal Puligny Montrachet,2015,750,79.94,"Saratoga Wine, 2016 vintage $79.94/750ml, adjacent-vintage substitution (2015 not found)",ws_adjacent,2026-09-28,0
+allegrini amarone della valpolicella classico|1996|750,Allegrini Amarone della Valpolicella Classico,1996,750,,"Insufficient data: only WineBid-own sale figures and non-vintage current-release retail (searched once, cluster query)",insufficient,2026-10-05,0
 allegrini amarone della valpolicella classico|1997|750,Allegrini Amarone della Valpolicella Classico,1997,750,,Insufficient data - only a WineBid-style latest-sale figure; no independent retail price,insufficient,2026-10-05,0
+allegrini amarone della valpolicella classico|1998|750,Allegrini Amarone della Valpolicella Classico,1998,750,,Insufficient data: only WineBid-own $86 sale and GBP case price; current-release retail not vintage-specific (searched once),insufficient,2026-10-05,0
 allegrini la grola classico superiore|1995|750,Allegrini La Grola Classico Superiore,1995,750,30,Estimate - no price found in search,estimate,2026-08-24,0
 allegrini palazzo della torre|2008|750,Allegrini Palazzo della Torre,2008,750,52,"Wine-Searcher average retail, vintage-specific (distinct from current-release ~$18 average)",ws_vintage,2026-09-07,0
 allegrini palazzo della torre|2012|750,Allegrini Palazzo della Torre,2012,750,19,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
@@ -73,7 +75,10 @@ andre chemin brut premier cru tradition blanc de noirs|NV|750,André Chemin Brut
 andre clouet brut nature silver|NV|750,Andre Clouet Brut Nature Silver,NV,750,52,Wine-Searcher average retail,ws_vintage,2026-08-24,0
 andrea oberto barolo rocche|2001|750,Andrea Oberto Barolo Rocche,2001,750,,Insufficient data - no price found (searched),insufficient,2026-10-05,0
 antica fratta essence brut rose|2008|750,Antica Fratta Essence Brut Rosé,2008,750,42,"Wine-Searcher average retail (USA), all-vintage",ws_allvintage,2026-09-14,0
+antichi vigneti di cantalupo ghemme collis breclemae|2013|750,Antichi Vigneti di Cantalupo Ghemme Collis Breclemae,2013,750,,Insufficient data: only GBP/NOK prices found (searched once),insufficient,2026-10-05,0
+antichi vigneti di cantalupo ghemme collis carellae|2008|750,Antichi Vigneti di Cantalupo Ghemme Collis Carellae,2008,750,,Insufficient data: only GBP price found (searched once),insufficient,2026-10-05,0
 antichi vigneti di cantalupo ghemme collis carellae|2013|750,Antichi Vigneti di Cantalupo Ghemme Collis Carellae,2013,750,,"Insufficient data - searched, no Collis Carellae 2013 price found",insufficient,2026-10-05,0
+antichi vigneti di cantalupo ghemme collis carellae|2016|750,Antichi Vigneti di Cantalupo Ghemme Collis Carellae,2016,750,,Insufficient data: no USD price found (searched once),insufficient,2026-10-05,0
 antoine jobard meursault poruzots|2007|750,Antoine Jobard Meursault Poruzots,2007,750,242,"Wine-Searcher average retail, all-vintage",ws_allvintage,2026-09-14,0
 antoine ogier lirac lou camine|2018|750,Antoine Ogier Lirac Lou Caminé,2018,750,22,Estimate - no price found in search,estimate,2026-08-24,0
 antoine petitprez uliz meursault perrieres|2015|750,Antoine Petitprez Uliz Meursault Perrieres,2015,750,,Stage 2: no price figure returned,insufficient,2026-09-28,0
@@ -109,6 +114,7 @@ azelia barolo san rocco|2013|750,Azelia Barolo San Rocco,2013,750,70,"SommPicks,
 b levet cote rotie|2021|1500,B. Levet Côte-Rôtie,2021,1500,246.4,"Wine-Searcher average retail, adjacent cuvee (parcel not specified on lot)",ws_adjacent,2026-08-24,0
 bacci dimarco|2021|750,Bacci Dimarco,2021,750,,"Insufficient data - single-retailer snippet ($124.99) implausibly far above the $25 reserve; unverified, withdrawn from deals",insufficient,2026-09-21,0
 bachey legros chassagne montrachet|2023|750,Bachey-Legros Chassagne-Montrachet,2023,750,99.99,Flatiron Wines $99.99 for Bachey-Legros Chassagne-Montrachet 2023 750ml (search snippet),ws_single_retailer,2026-10-05,0
+bader mimeur chateau de chassagne montrachet chassagne montrachet rouge|2013|750,Bader-Mimeur Chateau de Chassagne Montrachet Chassagne-Montrachet Rouge,2013,750,,Insufficient data: no 2013 Rouge price; only 2020 vintage found (searched once),insufficient,2026-10-05,0
 baron fuente brut rose dolores|NV|750,Baron-Fuente Brut Rose Dolores,NV,750,,"Insufficient data - searched, no price found",insufficient,2026-10-05,0
 barone ricasoli casalferro|1999|750,Barone Ricasoli Casalferro,1999,750,,"Insufficient data - searched, no 1999 price found",insufficient,2026-10-05,0
 baronne de vignonet|2022|750,Baronne de Vignonet,2022,750,18,"Producer/importer suggested retail (Vignobles Gonfrier), no full Wine-Searcher average found",estimate,2026-09-14,0
@@ -121,6 +127,7 @@ beaumont des crayeres grand prestige brut|NV|750,Beaumont des Crayeres Grand Pre
 benanti benanti lamoremio brut rosato|2019|750,Benanti Benanti Lamoremio Brut Rosato,2019,750,41,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
 benanti etna bianco superiore pietramarina|2011|750,Benanti Etna Bianco Superiore Pietramarina,2011,750,,Insufficient data,insufficient,2026-09-14,0
 benanti etna rossodiversella|2005|750,Benanti Etna RossoDiversella,2005,750,,"Insufficient data - likely 'Rosso di Verzella' (export text concatenation), no average price found",insufficient,2026-09-14,0
+benedicte et stephane tissot chardonnay rose massale|2022|750,Benedicte et Stephane Tissot Chardonnay Rose Massale,2022,750,79.99,Flatiron Wines SF 2022 750ml $79.99 (Kensington Wine Market lists $101.99; lower used),ws_single_retailer,2026-10-05,0
 beni di batasiolo barolo|2001|750,Beni di Batasiolo Barolo,2001,750,,Insufficient data,insufficient,2026-09-14,0
 benjamin rothschild and vega sicilia macan clasico|2018|750,Benjamin Rothschild & Vega Sicilia Macan Clásico,2018,750,55.99,"US retailers $46.40-$57.95/750ml, vintage-specific (2018)",ws_vintage,2026-09-28,0
 benjamin rothschild and vega sicilia macan clasico|2019|750,Benjamin Rothschild & Vega Sicilia Macan Clásico,2019,750,78.95,"Saratoga Wine $78.95/750ml, vintage-specific (2019), 91pt",ws_vintage,2026-09-28,0
@@ -181,6 +188,7 @@ bollinger grande annee|2014|750,Bollinger Grande Annee,2014,750,194,"Wine-Search
 bollinger special cuvee|NV|750,Bollinger Special Cuvee,NV,750,64.94,JJ Buckley retail listing,ws_single_retailer,2026-09-01,0
 bonneau du martray corton charlemagne|2013|750,Bonneau Du Martray Corton-Charlemagne,2013,750,,"Insufficient data - searched, only NZD/GBP pricing found",insufficient,2026-10-05,0
 bosquet des papes chateauneuf du pape chante le merle vieilles vignes|2007|750,Bosquet des Papes Chateauneuf Du Pape Chante Le Merle Vieilles Vignes,2007,750,73,"Wine Spectator listed price, vintage-specific",ws_single_retailer,2026-09-07,0
+bosquet des papes chateauneuf du pape cuvee grenache|1998|750,Bosquet des Papes Chateauneuf du Pape Cuvee Grenache,1998,750,,Insufficient data: no 1998 Grenache cuvee price found (searched once),insufficient,2026-10-05,0
 bosquet des papes chateauneuf du pape|1998|750,Bosquet des Papes Châteauneuf-du-Pape,1998,750,44.99,K&L Wines $44.99 for 1998 (out of stock); single retailer,ws_single_retailer,2026-10-05,0
 bosquet des papes chateauneuf du pape|1999|750,Bosquet des Papes Châteauneuf-du-Pape,1999,750,44,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
 bouchard aine and fils pommard les grands epenots|2019|750,Bouchard Ainé & Fils Pommard Les Grands Épenots,2019,750,,Insufficient data - no reliable price found in search,insufficient,2026-09-01,0
@@ -230,6 +238,7 @@ capanna brunello di montalcino|2004|750,Capanna Brunello di Montalcino,2004,750,
 capanna brunello di montalcino|2008|750,Capanna Brunello di Montalcino,2008,750,57,Estimate interpolated between this producer's sourced 2004 ($50) and 2010 ($63) Wine-Searcher vintage averages,estimate,2026-09-14,0
 capanna brunello di montalcino|2010|750,Capanna Brunello di Montalcino,2010,750,63,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
 capanna brunello di montalcino|2013|750,Capanna Brunello di Montalcino,2013,750,65,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
+capitain gagnerot ladoix les grechons et foutieres blanc|2020|750,Capitain-Gagnerot Ladoix Les Grechons et Foutieres Blanc,2020,750,61.95,Saratoga Wine 2022 vintage $61.95; 2020 only EUR 37 on iDealwine; adjacent-vintage substitution,ws_adjacent,2026-10-05,0
 cappellano barbera d alba gabutti|2012|750,Cappellano Barbera d'Alba Gabutti,2012,750,,Insufficient data,insufficient,2026-09-14,0
 cappellano barbera d alba gabutti|2014|750,Cappellano Barbera d'Alba Gabutti,2014,750,62,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
 carlo boffa barbaresco|2014|750,Carlo Boffa Barbaresco,2014,750,,"Insufficient data - searched, no Carlo Boffa price found",insufficient,2026-10-05,0
@@ -277,6 +286,7 @@ castello di ama chianti classico gran selezione vigneto bellavista|2016|750,Cast
 castello di monsanto chianti classico il poggio riserva|1997|750,Castello di Monsanto Chianti Classico Il Poggio Riserva,1997,750,,"Insufficient data - searched, only auction estimates and other vintages",insufficient,2026-10-05,0
 castello di monsanto chianti classico riserva|2004|750,Castello di Monsanto Chianti Classico Riserva,2004,750,,Insufficient data,insufficient,2026-09-14,0
 castello di monsanto chianti classico riserva|2007|750,Castello di Monsanto Chianti Classico Riserva,2007,750,30,"Wine-Searcher average retail, all-vintage (base bottling)",ws_allvintage,2026-09-16,0
+castello di monterinaldi chianti classico|2021|750,Castello Di Monterinaldi Chianti Classico,2021,750,,Insufficient data: Costco page shows $25.09 but vintage unconfirmed (searched once),insufficient,2026-10-05,0
 castello di neive barbaresco santo stefano|1989|750,Castello di Neive Barbaresco Santo Stefano,1989,750,,No reliable price found: no 1989 price at any source,insufficient,2026-09-21,0
 castello di neive barbaresco|2016|750,Castello di Neive Barbaresco,2016,750,65.0,US retailer $65 for 2016 Castello di Neive Barbaresco 750ml (search snippet),ws_single_retailer,2026-10-05,0
 castello di verduno barbaresco|2000|750,Castello di Verduno Barbaresco,2000,750,,Insufficient data,insufficient,2026-09-07,0
@@ -307,6 +317,7 @@ ceretto barolo bricco rocche|1998|750,Ceretto Barolo Bricco Rocche,1998,750,250,
 ceretto barolo zonchera|2004|750,Ceretto Barolo Zonchera,2004,750,99,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
 chandon de briailles corton bressandes|2017|750,Chandon de Briailles Corton Bressandes,2017,750,,"Insufficient data - searched, only EUR/GBP pricing found",insufficient,2026-10-05,0
 chandon de briailles pernand vergelesses ile des vergelesses|2015|750,Chandon de Briailles Pernand-Vergelesses Ile des Vergelesses,2015,750,124,"Wine-Searcher average retail, all-vintage average",ws_allvintage,2026-08-24,0
+charles and alphrede prieur grand prieur brut|2008|750,Charles & Alphrede Prieur Grand Prieur Brut,2008,750,,Insufficient data: Last Bottle listing without visible price (searched once),insufficient,2026-10-05,0
 charles gardet brut rose chigny les roses|NV|750,Charles Gardet Brut Rose Chigny Les Roses,NV,750,,Insufficient data,insufficient,2026-09-07,0
 charles heidsieck brut reserve|NV|750,Charles Heidsieck Brut Réserve,NV,750,67,Wine-Searcher average retail,ws_vintage,2026-08-24,0
 charles heidsieck brut rose|2005|750,Charles Heidsieck Brut Rosé,2005,750,148,"Wine-Searcher 2005 Charles Heidsieck Rose Millesime page, $148",ws_vintage,2026-09-21,0
@@ -318,6 +329,8 @@ charles mignon brut cuvee comte de marne|NV|3000,Charles Mignon Brut Cuvee Comte
 charles mignon brut cuvee comte de marne|NV|750,Charles Mignon Brut Cuvee Comte de Marne,NV,750,,"Insufficient data - searched, no USD price found",insufficient,2026-10-05,0
 charles mignon premium reserve rose|NV|750,Charles Mignon Premium Reserve Rose,NV,750,,"Insufficient data - searched, only EUR/SEK prices found",insufficient,2026-10-05,0
 charles mignon premium reserve|NV|750,Charles Mignon Premium Reserve,NV,750,,"Insufficient data - searched, only CAD price found",insufficient,2026-10-05,0
+charles noellat beaune les cents vignes|2002|750,Charles Noellat Beaune Les Cents Vignes,2002,750,,Insufficient data: no 2002 price found (searched once),insufficient,2026-10-05,0
+charles noellat savigny les beaune|2005|750,Charles Noellat Savigny-les-Beaune,2005,750,,Insufficient data: no 2005 price found (searched once),insufficient,2026-10-05,0
 charles van canneyt bourgogne rouge|2013|750,Charles Van Canneyt Bourgogne Rouge,2013,750,39,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
 charles van canneyt chablis montee de tonnerre|2020|750,Charles Van Canneyt Chablis Montee de Tonnerre,2020,750,,"Insufficient data - searched, no 2020 price found",insufficient,2026-10-05,0
 charlopin tissier marsannay la montagne|2020|750,Charlopin Tissier Marsannay La Montagne,2020,750,,"Insufficient data - searched, only EUR pricing found",insufficient,2026-10-05,0
@@ -382,6 +395,7 @@ chateau canon|2014|750,Château Canon,2014,750,144,"Wine-Searcher average retail
 chateau canon|2020|750,Château Canon,2020,750,230,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage,2026-09-21,0
 chateau canon|2021|750,Château Canon,2021,750,129,"Wine-Searcher average retail (ex-tax), vintage-specific 2021 page",ws_vintage,2026-09-21,0
 chateau cantemerle|1983|750,Château Cantemerle,1983,750,99,"Wine-Searcher average price $99/750ml, vintage-specific (1983)",ws_vintage,2026-09-28,0
+chateau cantemerle|1996|750,Château Cantemerle,1996,750,,Insufficient data: only outlier US price ($549.99 Cask Cartel) vs ~GBP60 UK; rejected (searched once),insufficient,2026-10-05,0
 chateau cantemerle|2009|750,Château Cantemerle,2009,750,73,"Wine-Searcher average price (ex-tax) $73/750ml, vintage-specific (2009), grand vin",ws_vintage,2026-09-28,0
 chateau cantemerle|2010|750,Château Cantemerle,2010,750,74,"Wine-Searcher average price $74/750ml, vintage-specific (2010), 94pt, grand vin",ws_vintage,2026-09-28,0
 chateau cantemerle|2017|750,Château Cantemerle,2017,750,38,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
@@ -391,8 +405,10 @@ chateau cantenac brown|2020|750,Château Cantenac-Brown,2020,750,85,"Wine-Search
 chateau cantenac brown|2022|750,Château Cantenac-Brown,2022,750,75,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
 chateau carbonnieux blanc|2005|750,Château Carbonnieux (Blanc),2005,750,47,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
 chateau carbonnieux blanc|2009|750,Château Carbonnieux (Blanc),2009,750,41,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
+chateau carbonnieux|2005|375,Château Carbonnieux,2005,375,,Insufficient data: no 2005 375ml price found (searched once),insufficient,2026-10-05,0
 chateau carignan cuvee prima|2005|6000,Château Carignan Cuvee Prima,2005,6000,103.04,"Wine-Searcher listing, single retailer (Atlas Fine Wines, London), scaled from 750ml",ws_single_retailer,2026-08-24,0
 chateau caronne ste gemme|2018|750,Château Caronne-Ste-Gemme,2018,750,19.99,"K&L Wine Merchants retail listing (2016 vintage, adjacent)",ws_adjacent,2026-09-01,0
+chateau charmail|2000|750,Château Charmail,2000,750,,Insufficient data: only EUR prices found (searched once),insufficient,2026-10-05,0
 chateau charmail|2018|750,Château Charmail,2018,750,24.99,"Wine.com retail listing (2016 vintage, adjacent)",ws_adjacent,2026-09-01,0
 chateau chasse spleen|1995|750,Château Chasse-Spleen,1995,750,85,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
 chateau chasse spleen|1998|750,Château Chasse-Spleen,1998,750,,Insufficient data - no reliable price found in search,insufficient,2026-09-01,0
@@ -400,13 +416,16 @@ chateau clerc milon|1989|750,Château Clerc-Milon,1989,750,160,"Wine-Searcher av
 chateau clerc milon|1998|750,Château Clerc-Milon,1998,750,169,"Wine-Searcher 1998 page: 89/100, price $169",ws_vintage,2026-09-21,0
 chateau clerc milon|2021|750,Château Clerc-Milon,2021,750,70.99,"Zachys Wine & Liquor $70.99/750ml, vintage-specific (2021)",ws_vintage,2026-09-28,0
 chateau climens asphodele|2019|750,Château Climens Asphodele,2019,750,42.99,"Wine-Searcher listing, single retailer (Plucky Wines, NJ)",ws_single_retailer,2026-08-24,0
+chateau clos de sarpe|2005|750,Château Clos de Sarpe,2005,750,174.99,Flatiron Wines NYC 2005 750ml $174.99 (Natalie MacLean lists $155); Flatiron listing is an auction-slug page so treat as approximate,ws_single_retailer,2026-10-05,0
 chateau clos de sarpe|2019|750,Château Clos de Sarpe,2019,750,90,"Wine-Searcher average retail, all-vintage fallback (no 2019-specific figure surfaced)",ws_allvintage,2026-09-07,0
 chateau clos l eglise cotes de castillon|2005|1500,Château Clos L'Eglise (Cotes de Castillon),2005,1500,105.58,"Wine.com retail listing $47.99 (750ml, scaled to magnum x2.2)",ws_single_retailer,2026-09-01,0
 chateau corbin|2005|750,Château Corbin,2005,750,62,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-07,0
 chateau cordeillan bages|1989|750,Château Cordeillan Bages,1989,750,,Insufficient data,insufficient,2026-09-14,0
+chateau cote de baleau|1998|750,Château Cote de Baleau,1998,750,,"Insufficient data: Comptoir des Millesimes 1998 out of stock, no price shown (searched once)",insufficient,2026-10-05,0
 chateau coufran|1982|750,Château Coufran,1982,750,,"Stage 2: only current-release average ($39) found, not usable for 1982",insufficient,2026-09-28,0
 chateau couhins lurton screwcap|2005|750,Château Couhins-Lurton (Screwcap),2005,750,,Insufficient data,insufficient,2026-09-07,0
 chateau croix de labrie|2009|750,Château Croix De Labrie,2009,750,,"Insufficient data - searched, only the 2020 vintage found",insufficient,2026-10-05,0
+chateau d aiguilhe cotes de castillon|2016|750,Château d'Aiguilhe Cotes de Castillon,2016,750,37.99,Flatiron Wines NYC 2016 750ml $37.99 (listed sold out; list price shown),ws_single_retailer,2026-10-05,0
 chateau d armailhac|1997|750,Château d'Armailhac,1997,750,78,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
 chateau d armailhac|2000|750,Château d'Armailhac,2000,750,140,"Wine-Searcher average retail (ex-tax), vintage-specific 2000 page",ws_vintage,2026-09-21,0
 chateau d armailhac|2012|750,Château d'Armailhac,2012,750,77,"Wine-Searcher average retail (ex-tax), vintage-specific 2012 page",ws_vintage,2026-09-21,0
@@ -420,6 +439,7 @@ chateau d issan|2014|750,Château d'Issan,2014,750,83,"Wine-Searcher average pri
 chateau d issan|2015|750,Château d'Issan,2015,750,103,"Wine-Searcher average price (ex-tax) $103/750ml, vintage-specific (2015)",ws_vintage,2026-09-28,0
 chateau d issan|2016|750,Château d'Issan,2016,750,80,"Wine-Searcher average price $80/750ml, vintage-specific (2016)",ws_vintage,2026-09-28,0
 chateau d issan|2020|750,Château d'Issan,2020,750,77,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage,2026-09-21,0
+chateau dalem|1998|750,Château Dalem,1998,750,,Insufficient data: only EUR 19 iDealwine estimate (searched once),insufficient,2026-10-05,0
 chateau dalem|2015|750,Château Dalem,2015,750,35,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
 chateau dassault|2015|750,Château Dassault,2015,750,57,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
 chateau dassault|2016|750,Château Dassault,2016,750,65,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
@@ -450,6 +470,8 @@ chateau de la font du loup chateauneuf du pape legend|2022|750,Chateau de la Fon
 chateau de la gardine chateauneuf du pape|1999|750,Chateau de la Gardine Châteauneuf-du-Pape,1999,750,59.99,"Kahn's Fine Wines retailer listing, vintage-specific",ws_single_retailer,2026-09-16,0
 chateau de la maltroye bourgogne|2002|750,Chateau de la Maltroye Bourgogne,2002,750,,Insufficient data,insufficient,2026-09-14,0
 chateau de la maltroye chassagne montrachet clos st jean rouge|1999|750,Chateau de la Maltroye Chassagne-Montrachet Clos St. Jean Rouge,1999,750,98,"Wine-Searcher average retail, all-vintage",ws_allvintage,2026-09-14,0
+chateau de la maltroye chassagne montrachet la boudriotte rouge|2005|375,Chateau de la Maltroye Chassagne-Montrachet La Boudriotte (Rouge),2005,375,,Insufficient data: no 2005 375ml price; only 2017-2022 750ml (searched once),insufficient,2026-10-05,0
+chateau de la maltroye chassagne montrachet la boudriotte rouge|2005|750,Chateau de la Maltroye Chassagne-Montrachet La Boudriotte (Rouge),2005,750,,Insufficient data: no 2005 price; only 2017-2022 vintages ($75-$78) (searched once),insufficient,2026-10-05,0
 chateau de la maltroye chassagne montrachet la romanee|2005|750,Chateau de la Maltroye Chassagne-Montrachet La Romanee,2005,750,,Insufficient data - no reliable price found in search,insufficient,2026-09-01,0
 chateau de la tour clos vougeot|2014|750,Chateau de La Tour Clos Vougeot,2014,750,345,"Wine-Searcher average retail (ex-tax), vintage-specific (Vieilles Vignes Grand Cru bottling)",ws_vintage,2026-08-24,0
 chateau de lyde cadillac cotes de bordeaux|2018|750,Château de Lyde Cadillac Cotes de Bordeaux,2018,750,10,"Wine-Searcher average retail (ex-tax), vintage-specific 2018 page",ws_vintage,2026-09-21,0
@@ -463,6 +485,7 @@ chateau de sarenceau|2005|750,Château de Sarenceau,2005,750,27.99,"K&L Wine Mer
 chateau des gondats|1990|750,Chateau des Gondats,1990,750,,Stage 2: no reliable price for this vintage; results confused with unrelated Marquis de Terme 'Les Gondats' bottling,insufficient,2026-09-28,0
 chateau des graviers|2009|750,Château des Graviers,2009,750,50,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-07,0
 chateau des tours cotes du rhone reserve|2014|750,Chateau des Tours Côtes du Rhône Reserve,2014,750,250,"Wine-Searcher average retail, vintage-specific (91/100 rating tied to average price)",ws_vintage,2026-08-24,0
+chateau des tours cotes du rhone reserve|2019|750,Chateau des Tours Côtes du Rhône Reserve,2019,750,89.99,Bottle Barn 2019 Chateau des Tours Cotes-du-Rhone Reserve Rouge 750ml $89.99 (Flask $194.97 not used),ws_single_retailer,2026-10-05,0
 chateau du moulin noir|1996|750,Château du Moulin Noir,1996,750,,Insufficient data,insufficient,2026-08-24,0
 chateau du nozet pouilly fume baron de l|2018|750,"Chateau du Nozet Pouilly Fume Baron de ""L""",2018,750,68.0,Wine-Searcher average retail 2018 Chateau du Nozet Pouilly-Fume Baron de L $68/750ml US (ex-tax),ws_vintage,2026-09-21,0
 chateau du nozet pouilly fume baron de l|2019|750,"Chateau du Nozet Pouilly Fume Baron de ""L""",2019,750,80.0,Wine-Searcher average retail 2019 Chateau du Nozet Pouilly-Fume Baron de L $80/750ml US (ex-tax),ws_vintage,2026-09-21,0
@@ -477,6 +500,7 @@ chateau duhart milon rothschild|2007|750,Château Duhart-Milon-Rothschild,2007,7
 chateau duhart milon rothschild|2008|750,Château Duhart-Milon-Rothschild,2008,750,,Insufficient data,insufficient,2026-09-07,0
 chateau duhart milon rothschild|2009|750,Château Duhart-Milon-Rothschild,2009,750,147,"Wine-Searcher average retail (ex-tax), vintage-specific 2009 page",ws_vintage,2026-09-21,0
 chateau duhart milon rothschild|2011|750,Château Duhart-Milon-Rothschild,2011,750,92,"Wine-Searcher merchant listings, vintage-specific (midpoint of $90-94 range)",ws_vintage,2026-09-14,0
+chateau faugeres|1998|750,Château Faugeres,1998,750,,Insufficient data: only EUR/GBP prices; Faugeres vs Peby-Faugeres ambiguity (searched once),insufficient,2026-10-05,0
 chateau faugeres|2000|750,Château Faugeres,2000,750,65,"Wine-Searcher average retail (ex-tax), vintage-specific",ws_vintage,2026-08-24,0
 chateau ferriere|2015|750,Château Ferriere,2015,750,60,"Wine-Searcher average retail (ex-tax), vintage-specific",ws_vintage,2026-08-24,0
 chateau feytit clinet|2011|750,Château Feytit-Clinet,2011,750,,"Insufficient data - searched, only an auction estimate found",insufficient,2026-10-05,0
@@ -532,6 +556,7 @@ chateau haut bailly|2021|750,Château Haut-Bailly,2021,750,134,"Wine-Searcher av
 chateau haut beausejour|2009|750,Château Haut-Beausejour,2009,750,24,"Wine-Searcher average retail, vintage-specific (converted from GBP 19)",ws_vintage,2026-09-07,0
 chateau haut bergey|2006|750,Château Haut-Bergey,2006,750,32,"Wine-Searcher average price (ex-tax) $32/750ml, vintage-specific (2006), 89pt",ws_vintage,2026-09-28,0
 chateau haut de la becade|2020|750,Château Haut De La Becade,2020,750,47,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page (Star Wines CA $39.99)",ws_vintage,2026-09-21,0
+chateau haut maillet|1998|750,Château Haut-Maillet,1998,750,,Insufficient data: only EUR prices (searched once),insufficient,2026-10-05,0
 chateau haut sarpe|1979|750,Château Haut Sarpe,1979,750,37,"iDealwine retail listing, vintage-specific (converted from EUR 34)",ws_single_retailer,2026-09-07,0
 chateau l arrosee|1966|750,Château L'Arrosee,1966,750,218,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
 chateau l eglise clinet|2011|750,Château L'Eglise-Clinet,2011,750,146,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
@@ -553,6 +578,7 @@ chateau la lagune|2010|750,Château La Lagune,2010,750,94,"Wine-Searcher average
 chateau la louviere|2001|750,Château La Louviere,2001,750,47,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-07,0
 chateau la mission haut brion|1990|750,Château La Mission Haut Brion,1990,750,900.0,"Fine Wines International $900-$1,000 (auction $900-$1,200) for 1990 La Mission Haut-Brion 750ml; low end used",ws_single_retailer,2026-10-05,0
 chateau la nerthe chateauneuf du pape|2020|750,Chateau la Nerthe Châteauneuf-du-Pape,2020,750,68,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage,2026-09-21,0
+chateau la rousselle|2009|750,Château La Rousselle,2009,750,,Insufficient data: only historical release price found (searched once),insufficient,2026-10-05,0
 chateau la tour l aspic|2010|750,Château La Tour L' Aspic,2010,750,,Insufficient data,insufficient,2026-09-14,0
 chateau la vieille cure|2010|750,Château La Vieille-Cure,2010,750,52,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
 chateau lafon rochet|1964|750,Château Lafon-Rochet,1964,750,,Insufficient data - no reliable price found in search,insufficient,2026-09-01,0
@@ -635,6 +661,7 @@ chateau meyney|2006|1500,Château Meyney,2006,1500,,No reliable price found: mag
 chateau meyney|2014|750,Château Meyney,2014,750,62,"Wine-Searcher average retail (ex-tax), vintage-specific 2014 page",ws_vintage,2026-09-21,0
 chateau meyney|2018|750,Château Meyney,2018,750,51,"Wine-Searcher average retail (ex-tax), vintage-specific",ws_vintage,2026-08-24,0
 chateau monbousquet blanc|2007|750,Château Monbousquet Blanc,2007,750,77,"Retailer average ($75-$78), vintage-specific listing match",ws_single_retailer,2026-09-16,0
+chateau monbousquet|2005|750,Château Monbousquet,2005,750,109.98,Wine House 2005 Monbousquet 750ml $109.98 list price (out of stock); Saratoga pre-arrival $136.85; lower used,ws_single_retailer,2026-10-05,0
 chateau mongravey|2020|750,Château Mongravey,2020,750,55,"Wine-Searcher average retail (ex-tax), vintage-specific",ws_vintage,2026-08-24,0
 chateau mongravey|2021|750,Château Mongravey,2021,750,43,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
 chateau mongravey|2022|750,Château Mongravey,2022,750,46,Estimate based on same-producer adjacent-vintage Wine-Searcher averages,estimate,2026-08-24,0
@@ -654,6 +681,7 @@ chateau pape clement|2015|750,Château Pape-Clement,2015,750,141.0,Wine-Searcher
 chateau pape clement|2020|750,Château Pape-Clement,2020,750,104,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page (red)",ws_vintage,2026-09-21,0
 chateau pape clement|2022|750,Château Pape-Clement,2022,750,119,"Wine-Searcher average retail (ex-tax), vintage-specific 2022 page (red)",ws_vintage,2026-09-21,0
 chateau pape clement|2023|750,Château Pape-Clement,2023,750,77,"Wine-Searcher average retail (ex-tax), vintage-specific 2023 page (red)",ws_vintage,2026-09-21,0
+chateau pavie decesse|1999|375,Château Pavie-Decesse,1999,375,,Insufficient data: no 375ml 1999 price found (searched once),insufficient,2026-10-05,0
 chateau pavie macquin|1998|750,Château Pavie-Macquin,1998,750,,"Insufficient data - searched, only GBP case pricing found",insufficient,2026-10-05,0
 chateau pavie macquin|2000|750,Château Pavie-Macquin,2000,750,213,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
 chateau pavie macquin|2005|750,Château Pavie-Macquin,2005,750,212,"Wine-Searcher average retail (ex-tax), vintage-specific 2005 page",ws_vintage,2026-09-21,0
@@ -691,6 +719,8 @@ chateau prieure lichine|2009|1500,Château Prieure-Lichine,2009,1500,178.2,"Jame
 chateau prieure lichine|2015|750,Château Prieure-Lichine,2015,750,71,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-07,0
 chateau puech haut saint drezery recantou|2009|750,Chateau Puech-Haut Saint Drezery Recantou,2009,750,,Stage 2: no price found specifically for the Recantou cuvee; only Tete de Belier ($38) and Quercus ($69) priced -- rejected as cuvee mismatch,insufficient,2026-09-28,0
 chateau puy blanquet|2015|750,Château Puy Blanquet,2015,750,,Stage 2: conflicting price figures ($28-$216/750ml) with no clear vintage-specific resolution -- too unreliable to use,insufficient,2026-09-28,0
+chateau quinault l enclos|1998|750,Château Quinault L'Enclos,1998,750,89.99,Flatiron Wines NYC 1998 750ml $89.99 (another Flatiron listing $109.99; lower used; sold out; Flatiron auction-slug pages so approximate),ws_single_retailer,2026-10-05,0
+chateau quinault l enclos|2005|750,Château Quinault L'Enclos,2005,750,,Insufficient data: only GBP price for 2005 (searched once),insufficient,2026-10-05,0
 chateau rauzan gassies|1966|750,Château Rauzan-Gassies,1966,750,79.95,"K&L Wine Merchants retail listing, vintage-specific",ws_single_retailer,2026-09-01,0
 chateau rauzan segla|1970|750,Château Rauzan-Segla,1970,750,,Insufficient data - no reliable price found in search,insufficient,2026-09-01,0
 chateau rauzan segla|2001|750,Château Rauzan-Segla,2001,750,159.99,The Wine Buyer (NJ) lists 2001 Chateau Rauzan-Segla at $159.99; other listings $245-$277; lowest observed retail used,ws_single_retailer,2026-09-21,0
@@ -698,6 +728,7 @@ chateau rauzan segla|2010|750,Château Rauzan-Segla,2010,750,179,"Wine-Searcher 
 chateau rauzan segla|2014|750,Château Rauzan-Segla,2014,750,116,"Wine-Searcher average price $116/750ml, California, vintage-specific (2014)",ws_vintage,2026-09-28,0
 chateau rauzan segla|2016|750,Château Rauzan-Segla,2016,750,160,"Wine-Searcher average retail (USA), vintage-specific",ws_vintage,2026-09-07,0
 chateau reignac|2005|750,Château Reignac,2005,750,58,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-07,0
+chateau rouget|2013|750,Château Rouget,2013,750,,Insufficient data: only non-vintage-specific Costco range and implausible outlier (searched once),insufficient,2026-10-05,0
 chateau rouget|2014|750,Château Rouget,2014,750,44,"Wine-Searcher average retail, vintage-specific (cross-source range $44-60)",ws_vintage,2026-09-07,0
 chateau saint cosme cotes du rhone les deux albion|2011|750,Chateau Saint Cosme Cotes du Rhone Les Deux Albion,2011,750,,Stage 2: 2011 vintage rated (89pt) but no price figure found for this vintage specifically,insufficient,2026-09-28,0
 chateau saint cosme cotes du rhone|2012|750,Chateau Saint Cosme Côtes du Rhône,2012,750,,Stage 2: search results kept returning the 'Les Deux Albion' single-vineyard cuvee instead of the plain Cotes du Rhone -- rejected as cuvee mismatch,insufficient,2026-09-28,0
@@ -728,6 +759,7 @@ chateau suduiraut|2017|375,Château Suduiraut,2017,375,50,"Wine-Searcher average
 chateau talbot|1989|750,Château Talbot,1989,750,176,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-07,0
 chateau talbot|2018|750,Château Talbot,2018,750,107,"Wine-Searcher average retail (ex-tax), vintage-specific 2018 page",ws_vintage,2026-09-21,0
 chateau talbot|2019|750,Château Talbot,2019,750,,"Insufficient data - searched, vintage-unclear conflicting quotes",insufficient,2026-10-05,0
+chateau teyssier les asteries|2009|750,Château Teyssier Les Asteries,2009,750,,Insufficient data: only GBP/EUR and WineBid-own figures; Teyssier/Les Asteries cuvee ambiguity (searched once),insufficient,2026-10-05,0
 chateau thivin brouilly reverdon|2020|750,Chateau Thivin Brouilly Reverdon,2020,750,25,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
 chateau thomas francs cotes de bordeaux|2018|750,Chateau Thomas Francs Cotes de Bordeaux,2018,750,,No reliable price found: conflicting figures (Costco $4.97-$7.49 vs a $13 release price); no dependable current retail price,insufficient,2026-09-21,0
 chateau tournefeuille|2012|750,Château Tournefeuille,2012,750,25.0,Wine-Searcher average retail 2012 Chateau Tournefeuille Lalande de Pomerol ~$25/750ml (retailers $34-$40),ws_vintage,2026-09-21,0
@@ -742,9 +774,11 @@ chateau troplong mondot|2014|750,Château Troplong-Mondot,2014,750,123,"Wine-Sea
 chateau troplong mondot|2015|750,Château Troplong-Mondot,2015,750,159.99,"wine.com listing, exact vintage match (page shows out-of-stock but lists current price; 2010 vintage substitute at $233.99 not used)",ws_vintage,2026-09-01,0
 chateau valandraud|2021|750,Château Valandraud,2021,750,148,"Wine-Searcher average retail (ex-tax), vintage-specific 2021 page",ws_vintage,2026-09-21,0
 chateau vannieres bandol|1998|750,Chateau Vannieres Bandol,1998,750,55,"Single retailer listing (Flask Fine Wine & Whisky), no full Wine-Searcher average found",ws_single_retailer,2026-09-14,0
+chaudron brut grains de nature b73 zero dosage|NV|750,Chaudron Brut Grains de Nature B73 Zero Dosage,NV,750,,Insufficient data: no price found (searched once),insufficient,2026-10-05,0
 chevillon chezeaux nuits st georges aux champs perdrix|2016|750,Chevillon-Chezeaux Nuits St. Georges Aux Champs Perdrix,2016,750,,Insufficient data,insufficient,2026-09-07,0
 chevillon chezeaux nuits st georges les bousselots|2022|750,Chevillon-Chezeaux Nuits-St.-Georges Les Bousselots,2022,750,130,Wine-Searcher average retail for Domaine Chevillon-Chezeaux Les Bousselots (all-vintage page),ws_allvintage,2026-09-21,0
 chevillon chezeaux nuits st georges les porets saint georges|2020|750,Chevillon-Chezeaux Nuits St. Georges Les Porêts Saint-Georges,2020,750,130,Wine-Searcher average retail for Domaine Chevillon-Chezeaux Les Porets (all-vintage page),ws_allvintage,2026-09-21,0
+chiara condello le lucciole riserva|2018|750,Chiara Condello Le Lucciole Riserva,2018,750,59.97,Flask Fine Wines 2018 750ml $59.97 (SommSelect $60.00),ws_single_retailer,2026-10-05,0
 christian moreau chablis valmur|2007|750,Christian Moreau Chablis Valmur,2007,750,148,"Wine-Searcher average retail, all-vintage average (current pricing, not 2007-specific)",ws_allvintage,2026-08-24,0
 ciacci piccolomini d aragona brunello di montalcino vigna pianrosso riserva|2004|750,Ciacci Piccolomini d'Aragona Brunello di Montalcino Vigna Pianrosso Riserva,2004,750,,Insufficient data,insufficient,2026-09-14,0
 ciacci piccolomini d aragona brunello di montalcino vigna pianrosso|1997|750,Ciacci Piccolomini d'Aragona Brunello di Montalcino Vigna Pianrosso,1997,750,,"Insufficient data - searched, only auction/UK figures found",insufficient,2026-10-05,0
@@ -762,6 +796,7 @@ clerico barolo ciabot mentin ginestra|2017|750,Clerico Barolo Ciabot Mentin Gine
 clerico barolo pajana|2005|750,Clerico Barolo Pajana,2005,750,89.99,"retailer listing, exact vintage match",ws_vintage,2026-09-01,0
 clos de l oratoire des papes chateauneuf du pape|2001|750,Clos de l'Oratoire Des Papes Châteauneuf-du-Pape,2001,750,79,Wine-Searcher average price $79/750ml across vintages (not clearly 2001-specific),ws_allvintage,2026-09-28,0
 clos de l oratoire des papes chateauneuf du pape|2021|750,Clos de l'Oratoire Des Papes Châteauneuf-du-Pape,2021,750,76,"Wine-Searcher average retail (ex-tax), vintage-specific 2021 page (regular cuvee, not Les Choregies)",ws_vintage,2026-09-21,0
+clos de l oratoire|1998|750,Clos de l'Oratoire,1998,750,99.99,Flatiron Wines NYC 1998 750ml $99.99 (Cask Cartel $390 rejected as outlier; UK GBP 89.95 consistent),ws_single_retailer,2026-10-05,0
 clos des brusquieres chateauneuf du pape cuvee reserve|2007|750,Clos des Brusquieres Châteauneuf-du-Pape Cuvee Reserve,2007,750,,Insufficient data,insufficient,2026-09-07,0
 clos des lunes lune d argent|2018|750,Clos des Lunes Lune d'Argent,2018,750,,product page found but no price displayed,insufficient,2026-09-01,0
 clos des papes chateauneuf du pape|1999|750,Clos des Papes Châteauneuf-du-Pape,1999,750,116,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
@@ -771,6 +806,7 @@ clos des papes chateauneuf du pape|2005|750,Clos des Papes Châteauneuf-du-Pape,
 clos des papes chateauneuf du pape|2008|1500,Clos des Papes Châteauneuf-du-Pape,2008,1500,250.8,"Wine-Searcher average retail, vintage-specific (scaled to magnum)",ws_vintage,2026-08-24,0
 clos des papes chateauneuf du pape|2011|750,Clos des Papes Châteauneuf-du-Pape,2011,750,154,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
 clos des papes chateauneuf du pape|2017|750,Clos des Papes Châteauneuf-du-Pape,2017,750,86,"Wine-Searcher average retail (ex-tax), vintage-specific 2017 page (Paul Avril Clos des Papes)",ws_vintage,2026-09-21,0
+clos du joncuas gigondas|2010|750,Clos du Joncuas Gigondas,2010,750,,Insufficient data: no 2010 price found (searched once),insufficient,2026-10-05,0
 clos du mont olivet chateauneuf du pape cuvee du papet|2015|750,Clos du Mont Olivet Chateauneuf du Pape Cuvee du Papet,2015,750,117,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
 clos du mont olivet chateauneuf du pape cuvee unique reserve|1994|750,Clos du Mont Olivet Chateauneuf du Pape Cuvee Unique Reserve,1994,750,,No reliable price found: only a current-release Cuvee Unique price (~$53); no 1994 price,insufficient,2026-09-21,0
 clos du mont olivet chateauneuf du pape cuvee unique reserve|1995|750,Clos du Mont Olivet Chateauneuf du Pape Cuvee Unique Reserve,1995,750,,No reliable price found: only a current-release Cuvee Unique price (~$53); no 1995 price,insufficient,2026-09-21,0
@@ -799,6 +835,7 @@ clusel roch cote rotie|2008|750,Clusel-Roch Côte-Rôtie,2008,750,,"Insufficient
 coche bizouard meursault charmes|2005|750,Coche-Bizouard Meursault Charmes,2005,750,153,"Wine-Searcher average retail (USA), vintage-specific",ws_vintage,2026-09-14,0
 coffinet duvernay chassagne montrachet dents de chien|2014|750,Coffinet-Duvernay Chassagne Montrachet Dents de Chien,2014,750,,"Stage 2: nearby vintages priced (2013 EUR161, 2018 EUR150) but no reliable 2014-specific USD figure",insufficient,2026-09-28,0
 coffinet duvernay chassagne montrachet les fairendes|2013|750,Coffinet-Duvernay Chassagne Montrachet Les Fairendes,2013,750,67.99,"Wine.com retailer listing, vintage-specific",ws_single_retailer,2026-09-16,0
+colin deleger chassagne montrachet les vergers|1998|750,Colin-Deleger Chassagne-Montrachet Les Vergers,1998,750,,"Insufficient data: only implausible $1,147 Cask Cartel Michel Colin-Deleger listing (searched once)",insufficient,2026-10-05,0
 collosorbo brunello di montalcino|1995|750,Collosorbo Brunello di Montalcino,1995,750,,Insufficient data,insufficient,2026-09-07,0
 comando g la bruja sierra de gredos|2022|750,Comando G. La Bruja Sierra de Gredos,2022,750,43,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
 comando g la bruja sierra de gredos|2024|750,Comando G. La Bruja Sierra de Gredos,2024,750,,"product page requires JavaScript, no price extracted",insufficient,2026-09-01,0
@@ -853,6 +890,7 @@ dauvissat camus chablis la forest|2003|750,Dauvissat-Camus Chablis  La Forest,20
 david moreau santenay beaurepaire blanc|2016|750,David Moreau Santenay Beaurepaire Blanc,2016,750,48,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
 de margerie brut|NV|750,De Margerie Brut,NV,750,54.99,"totalwine.com listing, NV exact match",ws_vintage,2026-09-01,0
 de sousa extra brut grand cru blanc de blancs avec le temps|NV|750,De Sousa Extra Brut Grand Cru Blanc de Blancs Avec le Temps,NV,750,,product page found but no price displayed,insufficient,2026-09-01,0
+decelle villa auxey duresses|2015|750,Decelle-Villa Auxey-Duresses,2015,750,,Insufficient data: no Decelle-Villa price found (searched once),insufficient,2026-10-05,0
 delamotte blanc de blancs|2008|750,Delamotte Blanc de Blancs,2008,750,126,"Wine-Searcher average price (ex-tax) $126/750ml, vintage-specific (2008)",ws_vintage,2026-09-28,0
 delamotte blanc de blancs|NV|750,Delamotte Blanc de Blancs,NV,750,94.99,"zachys.com, NV exact match",ws_vintage,2026-09-01,0
 delamotte brut|NV|750,Delamotte Brut,NV,750,89.99,"retailer listing, NV exact match",ws_vintage,2026-09-01,0
@@ -862,6 +900,7 @@ delas freres hermitage domaine des tourettes|2013|750,Delas Freres Hermitage Dom
 demiere ansiot brut grand cru blanc de blancs|NV|750,Demière-Ansiot Brut Grand Cru Blanc de Blancs,NV,750,56,"Wine-Searcher average retail, NV",ws_vintage,2026-08-24,0
 didier erker givry les grands pretans reserve|1997|750,Didier Erker Givry Les Grands Prétans Reserve,1997,750,,Insufficient data,insufficient,2026-09-07,0
 dievole chianti classico novecento riserva|2005|750,Dievole Chianti Classico Novecento Riserva,2005,750,42,"Wine-Searcher average retail, all-vintage",ws_allvintage,2026-09-16,0
+domaine a and p de villaine bourgogne cote chalonnaise les clous cuvee aime|2014|750,Domaine A. & P. de Villaine Bourgogne Côte Chalonnaise Les Clous Cuvée Aimé,2014,750,,Insufficient data: no 2014 price; only 2020 ($115.71) found (searched once),insufficient,2026-10-05,0
 domaine adrien besson chablis les clos|2013|750,Domaine Adrien Besson Chablis Les Clos,2013,750,,No reliable price found: only 2020 vintage prices for Besson Les Clos; no 2013 price,insufficient,2026-09-21,0
 domaine alain voge cornas les chailles|2015|1500,Domaine Alain Voge Cornas Les Chailles,2015,1500,204.6,"750ml 2015 retail ~$93 (search-listed) x 2.2 magnum scaling; size mismatch, scaled not observed",ws_adjacent,2026-09-21,0
 domaine andre moingeon and fils puligny montrachet le trezin|2020|750,Domaine André Moingeon & Fils Puligny-Montrachet Le Trezin,2020,750,,no retail price found,insufficient,2026-09-01,0
@@ -875,8 +914,10 @@ domaine armelle et bernard rion nuits st georges les damodes|1990|750,Domaine Ar
 domaine armelle et bernard rion vosne romanee cuvee dame juliette vieilles vignes|2021|750,Domaine Armelle et Bernard Rion Vosne-Romanée Cuvee Dame Juliette Vieilles Vignes,2021,750,48.99,"retailer listing for 2014 vintage ($48.99), our lot is 2021",ws_adjacent,2026-09-01,0
 domaine bachelet gevrey chambertin vieilles vignes|2005|750,Domaine Bachelet Gevrey-Chambertin Vieilles Vignes,2005,750,,No reliable price found: producer ambiguity (Denis Bachelet vs other Bachelet estates) and only a Sotheby's secondary price,insufficient,2026-09-21,0
 domaine ballorin marsannay la combe du pre|2022|750,Domaine Ballorin Marsannay La Combe du Pre,2022,750,,Insufficient data,insufficient,2026-09-07,0
+domaine barat chablis cote de lechet|1996|750,Domaine Barat Chablis Côte de Léchet,1996,750,,Insufficient data: no Domaine Barat 1996 price found (searched once),insufficient,2026-10-05,0
 domaine belluard et fils terroir de mont blanc ayse brut zero|2006|750,Domaine Belluard et Fils Terroir de Mont Blanc Ayse Brut Zéro,2006,750,48,"Retail price $48, vintage-specific (2006)",ws_vintage,2026-09-28,0
 domaine belluard et fils vin de savoie ayse les perles du mont blanc|NV|750,Domaine Belluard et Fils Vin De Savoie Ayse Les Perles Du Mont Blanc,NV,750,52,Wine-Searcher average price (ex-tax) $52/750ml,ws_vintage,2026-09-28,0
+domaine benoit moreau saint aubin en remilly|2022|750,Domaine Benoit Moreau Saint-Aubin En Remilly,2022,750,189.94,J.J. Buckley 2022 Benoit Moreau Saint-Aubin 1er Cru En Remilly 750ml $189.94,ws_single_retailer,2026-10-05,0
 domaine bernard gripa saint joseph|2003|750,Domaine Bernard Gripa Saint-Joseph,2003,750,,Insufficient data,insufficient,2026-09-07,0
 domaine bernard gripa st joseph le berceau|2003|750,Domaine Bernard Gripa St. Joseph Le Berceau,2003,750,,Insufficient data,insufficient,2026-09-07,0
 domaine berthaut gerbet gevrey chambertin lavaux st jacques|2018|750,Domaine Berthaut-Gerbet Gevrey Chambertin Lavaux St. Jacques,2018,750,140,"US retailer regular price $140/750ml, vintage-specific (2018), 93pt",ws_vintage,2026-09-28,0
@@ -889,6 +930,7 @@ domaine caillot meursault la barre dessus clos marguerite|2016|750,Domaine Caill
 domaine carre courbin pommard les grands epenots|1997|750,Domaine Carre-Courbin Pommard Les Grands Épenots,1997,750,,Insufficient data,insufficient,2026-09-07,0
 domaine carre courbin volnay taillepieds|1997|750,Domaine Carre-Courbin Volnay Taillepieds,1997,750,,Insufficient data,insufficient,2026-09-07,0
 domaine cauhape jurancon quintessence du petit manseng|1989|750,Domaine Cauhape Jurancon Quintessence du Petit-Manseng,1989,750,235,"Wine-Searcher average price $235/750ml, vintage-specific (1989)",ws_vintage,2026-09-28,0
+domaine chantereves chassagne montrachet morgeots|2022|750,Domaine Chanterêves Chassagne-Montrachet Morgeots,2022,750,225.0,Leon & Son 2022 Chantereves Chassagne-Montrachet 1er Cru Les Morgeots 750ml $225.00 (Flatiron $229.00),ws_single_retailer,2026-10-05,0
 domaine charles audoin marsannay champ salomon rouge|2019|750,Domaine Charles Audoin Marsannay Champ Salomon Rouge,2019,750,67,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
 domaine charles audoin marsannay le clos de jeu|2019|750,Domaine Charles Audoin Marsannay Le Clos de Jeu,2019,750,59.94,"J.J. Buckley retailer listing, vintage-specific -- fetched directly",ws_single_retailer,2026-09-16,0
 domaine charles audoin marsannay les favieres|2019|750,Domaine Charles Audoin Marsannay Les Favieres,2019,750,62,"Wine-Searcher average retail, all-vintage",ws_allvintage,2026-09-14,0
@@ -898,10 +940,12 @@ domaine claude dugat gevrey chambertin|1992|750,Domaine Claude Dugat Gevrey Cham
 domaine collotte gevrey chambertin les evocelles|2023|750,Domaine Collotte Gevrey Chambertin Les Evocelles,2023,750,193.0,US retailer $193 for 2023 Collotte Gevrey Les Evocelles 750ml (search snippet),ws_single_retailer,2026-10-05,0
 domaine comte abbatucci cuvee collection general de la revolution blanc|NV|1500,Domaine Comte Abbatucci Cuvee Collection General De La Revolution Blanc,NV,1500,224.4,"Wine-Searcher 750ml avg ~$102 (all-vintage) x 2.2 magnum scaling; size mismatch, scaled not observed",ws_allvintage,2026-09-21,0
 domaine comte abbatucci cuvee collection ministre imperial|NV|1500,Domaine Comte Abbatucci Cuvee Collection Ministre Imperial,NV,1500,242,"Wine-Searcher 750ml avg ~$110 (all-vintage) x 2.2 magnum scaling; size mismatch, scaled not observed",ws_allvintage,2026-09-21,0
+domaine confuron cotetidot nuits st georges|1996|750,Domaine Confuron-Cotetidot Nuits-St.-Georges,1996,750,,Insufficient data: no 1996 price found (searched once),insufficient,2026-10-05,0
 domaine coquard loison fleurot chambolle musigny|2020|750,Domaine Coquard Loison Fleurot Chambolle-Musigny,2020,750,99.94,"saratogawine.com, exact vintage match",ws_vintage,2026-09-01,0
 domaine coquard loison fleurot vosne romanee|2020|750,Domaine Coquard Loison Fleurot Vosne-Romanee,2020,750,89.95,"saratogawine.com, exact vintage match",ws_vintage,2026-09-01,0
 domaine cottenceau montagny les preaux|2021|750,Domaine Cottenceau Montagny Les Preaux,2021,750,33,"RP Fine Wines EUR30/750ml (~$33 USD), vintage-specific (2021)",ws_single_retailer,2026-09-28,0
 domaine courbis st joseph|2005|750,Domaine Courbis St. Joseph,2005,750,40,"Wine-Searcher average retail, vintage-specific (main red cuvee)",ws_vintage,2026-09-16,0
+domaine de beaurenard coulon boisrenard chateauneuf du pape|1998|750,Domaine de Beaurenard (Coulon) Boisrenard Chateauneuf du Pape,1998,750,,Insufficient data: only GBP price (searched once),insufficient,2026-10-05,0
 domaine de beaurenard coulon boisrenard chateauneuf du pape|2003|750,Domaine de Beaurenard (Coulon) Boisrenard Chateauneuf du Pape,2003,750,,Stage 2: Wine-Searcher shows no price for 2003 ('–'); nearby vintages ($69-112) too far to extrapolate for this prestige cuvee,insufficient,2026-09-28,0
 domaine de beaurenard coulon boisrenard chateauneuf du pape|2005|750,Domaine de Beaurenard (Coulon) Boisrenard Chateauneuf du Pape,2005,750,70,"Wine-Searcher average price $70/750ml, vintage-specific (2005), 93pt",ws_vintage,2026-09-28,0
 domaine de beaurenard coulon boisrenard chateauneuf du pape|2012|750,Domaine de Beaurenard (Coulon) Boisrenard Chateauneuf du Pape,2012,750,53,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
@@ -922,6 +966,7 @@ domaine de la charbonniere chateauneuf du pape cuvee vieilles vignes|2019|750,Do
 domaine de la charbonniere chateauneuf du pape les hautes brusquieres cuvee speciale|2015|750,Domaine de la Charbonniere Chateauneuf-du-Pape Les Hautes Brusquieres Cuvee Speciale,2015,750,69,"Wine-Searcher average retail, all-vintage fallback for this cuvee (same figure returned for 2015 and 2019 queries)",ws_allvintage,2026-09-07,0
 domaine de la charbonniere chateauneuf du pape les hautes brusquieres cuvee speciale|2019|750,Domaine de la Charbonniere Chateauneuf-du-Pape Les Hautes Brusquieres Cuvee Speciale,2019,750,69,"Wine-Searcher average retail, all-vintage fallback for this cuvee (same figure returned for 2015 and 2019 queries)",ws_allvintage,2026-09-07,0
 domaine de la charbonniere chateauneuf du pape|2019|750,Domaine de la Charbonniere Châteauneuf-du-Pape,2019,750,43,"Wine-Searcher average retail, all-vintage fallback (base cuvee; one retailer listed 2019 at $49.94)",ws_allvintage,2026-09-07,0
+domaine de la grange des peres blanc|2018|1500,Domaine de la Grange des Peres Blanc,2018,1500,449.99,"Flatiron Wines 1.5L Grange des Peres Blanc 2019/2020 $449.99; 2018 only GBP at Hedonism; adjacent-vintage, same 1.5L format",ws_adjacent,2026-10-05,0
 domaine de la janasse chateauneuf du pape cuvee chaupin|1996|750,Domaine de la Janasse Chateauneuf du Pape Cuvee Chaupin,1996,750,,Insufficient data,insufficient,2026-09-14,0
 domaine de la janasse chateauneuf du pape cuvee chaupin|2006|750,Domaine de la Janasse Chateauneuf du Pape Cuvee Chaupin,2006,750,91,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-07,0
 domaine de la maurelle gigondas|2003|750,Domaine De La Maurelle Gigondas,2003,750,46,"The Wine I Love retailer listing (EUR41.77, converted), vintage-specific",ws_single_retailer,2026-09-16,0
@@ -947,6 +992,7 @@ domaine de montille pommard les grands epenots|2011|750,Domaine de Montille Pomm
 domaine de mourchon chateauneuf du pape|2021|750,Domaine de Mourchon Châteauneuf-du-Pape,2021,750,,no retail price found for this vintage,insufficient,2026-09-01,0
 domaine de saint siffrein chateauneuf du pape|2007|750,Domaine de Saint Siffrein Châteauneuf-du-Pape,2007,750,70,"Wine-Searcher average price (ex-tax) $70/750ml, vintage-specific (2007), 90pt",ws_vintage,2026-09-28,0
 domaine de terrebrune vin de pays du mont caume terre d ombre|2023|750,Domaine de Terrebrune Vin de Pays du Mont Caume Terre d'Ombre,2023,750,25,Single retailer/importer note citing 'mid-$20s' retail price (Kermit Lynch import description),ws_single_retailer,2026-08-24,0
+domaine de villeneuve chateauneuf du pape les vieilles vignes|1995|750,Domaine de Villeneuve Chateauneuf du Pape Les Vieilles Vignes,1995,750,,Insufficient data: no 1995 price; only 2014/2019 retail (searched once),insufficient,2026-10-05,0
 domaine de villeneuve chateauneuf du pape les vieilles vignes|2005|750,Domaine de Villeneuve Chateauneuf du Pape Les Vieilles Vignes,2005,750,102,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-14,0
 domaine de villeneuve chateauneuf du pape les vieilles vignes|2010|750,Domaine de Villeneuve Chateauneuf du Pape Les Vieilles Vignes,2010,750,61,Wine-Searcher average price (ex-tax) $61/750ml (not clearly 2010-specific),ws_allvintage,2026-09-28,0
 domaine denis pere et fils bourgogne aligote|2009|750,Domaine Denis Pere et Fils Bourgogne Aligoté,2009,750,18,Estimate based on category norms,estimate,2026-08-24,0
@@ -967,6 +1013,7 @@ domaine des martinelles crozes hermitage|2004|750,Domaine Des Martinelles Crozes
 domaine des pasquiers gigondas|2010|750,Domaine des Pasquiers Gigondas,2010,750,30,"Wine-Searcher average retail, all-vintage (producer-level listing)",ws_allvintage,2026-09-14,0
 domaine des perdrix echezeaux|1996|750,Domaine des Perdrix Echezeaux,1996,750,,"Insufficient data - searched, only GBP pricing found",insufficient,2026-10-05,0
 domaine des perdrix nuits st georges aux perdrix|2005|750,Domaine des Perdrix Nuits-St.-Georges Aux Perdrix,2005,750,,"only 2019-2022 vintages found in market, gap too large to use as adjacent",insufficient,2026-09-01,0
+domaine des relagnes chateauneuf du pape les petits pieds de l armand|2004|750,Domaine des Relagnes Chateauneuf du Pape Les Petits Pieds de l'Armand,2004,750,,"Insufficient data: results were Olivier Hillaire (different producer), no Relagnes 2004 price (searched once)",insufficient,2026-10-05,0
 domaine des remizieres desmeure hermitage|1983|750,Domaine Des Remizieres (Desmeure) Hermitage,1983,750,,no retail listing found for this 40+ year old vintage,insufficient,2026-09-01,0
 domaine des roches neuves saumur champigny clos de l echelier|2021|750,Domaine Des Roches Neuves Saumur-Champigny Clos de L'echelier,2021,750,49.94,"jjbuckley.com, exact vintage match",ws_vintage,2026-09-01,0
 domaine des roches neuves saumur champigny la marginale|2001|750,Domaine Des Roches Neuves Saumur-Champigny La Marginale,2001,750,53,"Wine-Searcher average retail, all-vintage",ws_allvintage,2026-09-16,0
@@ -1018,6 +1065,8 @@ domaine duroche gevrey chambertin champ|2016|750,Domaine Duroche Gevrey-Chambert
 domaine duroche gevrey chambertin|2021|750,Domaine Duroche Gevrey Chambertin,2021,750,91.99,"Bottle Barn $91.99 (Thatchers $99, Verve $104) for 2021 Duroche Gevrey-Chambertin 750ml",ws_single_retailer,2026-10-05,0
 domaine eleni et edouard vocoret chablis le bas de chapelot|2020|750,Domaine Eleni et Edouard Vocoret Chablis Le Bas de Chapelot,2020,750,64,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-16,0
 domaine ernest burn tokay pinot gris goldert clos st imer selection des grains nobles|1994|375,Domaine Ernest Burn Tokay Pinot Gris Goldert Clos St Imer Selection des Grains Nobles,1994,375,,Stage 2: only non-vintage-tied average ($55/750ml) found; too uncertain for this half-bottle format,insufficient,2026-09-28,0
+domaine felettig bourgogne hautes cotes de nuits|2018|750,Domaine Felettig Bourgogne Hautes-Côtes de Nuits,2018,750,,Insufficient data: only 2023 vintage ($55.99) found (searched once),insufficient,2026-10-05,0
+domaine felettig marsannay les crais|2019|750,Domaine Felettig Marsannay Les Crais,2019,750,,Insufficient data: no USD 2019 price (GBP case only) (searched once),insufficient,2026-10-05,0
 domaine fourrier vougeot les petits vougeot|2022|750,Domaine Fourrier Vougeot Les Petits Vougeot,2022,750,249.0,Adjacent vintage: 2019 Fourrier Petits Vougeot $249 Bottle Barn / $255 Sotheby's (2022 only UK price found),ws_adjacent,2026-10-05,0
 domaine francois et antoine jobard meursault genevrieres|2005|750,Domaine Francois et Antoine Jobard Meursault Genevrieres,2005,750,448,"Wine-Searcher average retail, all-vintage",ws_allvintage,2026-09-14,0
 domaine francois et antoine jobard meursault poruzots|2002|750,Domaine Francois et Antoine Jobard Meursault Poruzots,2002,750,,Insufficient data,insufficient,2026-09-14,0
@@ -1094,7 +1143,10 @@ domaine jean marc bouley volnay carelle sous la chapelle|2018|750,Domaine Jean M
 domaine jean marc bouley volnay carelle sous la chapelle|2020|750,Domaine Jean Marc Bouley Volnay Carelle sous la Chapelle,2020,750,,"Insufficient data - searched, no 2020 Carelle sous la Chapelle price found",insufficient,2026-10-05,0
 domaine jean marc bouley volnay clos de chenes|2019|750,Domaine Jean Marc Bouley Volnay Clos de Chenes,2019,750,199.0,Thatchers Wine $199 (Saratoga $226.06) for 2019 Bouley Volnay Clos des Chenes 750ml,ws_single_retailer,2026-10-05,0
 domaine jean monnier and fils pommard grand epenots clos de citeaux|2022|750,Domaine Jean Monnier & Fils Pommard Grand Épenots Clos de Citeaux,2022,750,141,"Wine-Searcher average retail (ex-tax), vintage-specific 2022 page",ws_vintage,2026-09-21,0
+domaine jean paul droin chablis vaillons|1996|750,Domaine Jean-Paul Droin Chablis Vaillons,1996,750,,Insufficient data: no 1996 price found (searched once),insufficient,2026-10-05,0
 domaine jean royer chateauneuf du pape cuvee tradition|2009|750,Domaine Jean Royer Châteauneuf-du-Pape Cuvée Tradition,2009,750,38.0,"chapfour.com listing for 2011 vintage, our lot is 2009",ws_adjacent,2026-09-01,0
+domaine joblot givry clos de la servoisine|1999|750,Domaine Joblot Givry Clos de la Servoisine,1999,750,,"Insufficient data: no 1999 price found (searched once, cluster query)",insufficient,2026-10-05,0
+domaine joblot givry clos du cellier aux moines|1999|750,Domaine Joblot Givry Clos du Cellier aux Moines,1999,750,,"Insufficient data: no 1999 price found (searched once, cluster query)",insufficient,2026-10-05,0
 domaine julie belland chassagne montrachet morgeot|2022|750,Domaine Julie Belland Chassagne- Montrachet Morgeot,2022,750,,Insufficient data,insufficient,2026-09-07,0
 domaine la barroche chateauneuf du pape julien barrot|2019|750,Domaine La Barroche Châteauneuf-du-Pape Julien Barrot,2019,750,,Stage 2: no vintage-specific price found; only the Signature bottling ($64) priced -- rejected as cuvee mismatch,insufficient,2026-09-28,0
 domaine la barroche liberty|2021|750,Domaine La Barroche Liberty,2021,750,,"producer states online sales are stopped for this cuvee, no retail price found",insufficient,2026-09-01,0
@@ -1146,6 +1198,7 @@ domaine pierre gonon saint joseph|2016|750,Domaine Pierre Gonon Saint-Joseph,201
 domaine pierre gonon saint joseph|2018|750,Domaine Pierre Gonon Saint-Joseph,2018,750,129.95,"Single retailer listing, vintage-specific",ws_single_retailer,2026-08-24,0
 domaine pierre gonon saint joseph|2019|750,Domaine Pierre Gonon Saint-Joseph,2019,750,145.0,"Bottle Barn $145 (Flatiron $189, Saratoga $231.19) for 2019 Gonon Saint-Joseph 750ml; lowest used",ws_single_retailer,2026-10-05,0
 domaine pierre gonon saint joseph|2020|750,Domaine Pierre Gonon Saint-Joseph,2020,750,,"Insufficient data - searched, no 2020 price found",insufficient,2026-10-05,0
+domaine prieure roch vin de france pinot noir|2022|750,Domaine Prieure-Roch Vin de France Pinot Noir,2022,750,,Insufficient data: no reliable 2022 price (only 2024 outlier and GBP) (searched once),insufficient,2026-10-05,0
 domaine remi jobard meursault en luraules|2008|750,Domaine Remi Jobard Meursault En Luraules,2008,750,,Insufficient data,insufficient,2026-09-15,0
 domaine remi jobard meursault le poruzot dessus|2007|750,Domaine Remi Jobard Meursault Le Poruzot - Dessus,2007,750,,Insufficient data,insufficient,2026-09-15,0
 domaine remi jobard meursault les chevalieres|2011|1500,Domaine Remi Jobard Meursault Les Chevalières,2011,1500,,Insufficient data,insufficient,2026-09-15,0
@@ -1184,6 +1237,7 @@ domaine tortochot gevrey chambertin vieilles vignes|2022|750,Domaine Tortochot G
 domaine trouillet pouilly fuisse 1er cru|2020|750,Domaine Trouillet Pouilly-Fuisse 1er Cru,2020,750,36,"Wine-Searcher listed price, vintage-specific",ws_vintage,2026-09-16,0
 domaine u stiliccionu ajaccio damianu|2010|750,Domaine U Stiliccionu Ajaccio Damianu,2010,750,,only an auction result found (2015 vintage) with inconsistent price figures reported on the page,insufficient,2026-09-01,0
 domaine vincent dancer beaune les montrevenots|2020|750,Domaine Vincent Dancer Beaune Les Montrevenots,2020,750,119,"Wine-Searcher listed price, vintage-specific",ws_vintage,2026-09-16,0
+domaine vincent dancer bourgogne hautes cotes de beaune blanc|2022|1500,Domaine Vincent Dancer Bourgogne Hautes-Côtes de Beaune Blanc,2022,1500,,Insufficient data: only EUR 93.60 for 1.5L 2022 (searched once),insufficient,2026-10-05,0
 domaine vincent dancer meursault les corbins|2022|750,Domaine Vincent Dancer Meursault Les Corbins,2022,750,,"Insufficient data - searched, only EUR pricing found",insufficient,2026-10-05,0
 domaine vincent dancer pommard les perrieres|2020|750,Domaine Vincent Dancer Pommard Les Perrieres,2020,750,,"Insufficient data - searched, Wine-Searcher explicitly shows no price for this vintage",insufficient,2026-09-15,0
 domaine vincent dauvissat chablis|2023|750,Domaine Vincent Dauvissat Chablis,2023,750,101,"Wine-Searcher average price $101/750ml, vintage-specific (2023), 91pt, plain bottling",ws_vintage,2026-09-28,0
@@ -1238,6 +1292,7 @@ e guigal hermitage|2001|750,E. Guigal Hermitage,2001,750,,"Insufficient data - o
 edmond cornu aloxe corton 1er cru les valozieres|2011|750,Edmond Cornu Aloxe-Corton 1er Cru Les Valozières,2011,750,,Insufficient data,insufficient,2026-08-24,0
 edouard delaunay and ses fils pommard les chaponnieres|2021|750,Edouard Delaunay & Ses Fils Pommard Les Chaponnieres,2021,750,,"Insufficient data - stage-1 synthesis's $144 likely belongs to Domaine Launay-Horiot's Les Chaponnieres (producer-name collision, that page surfaced beside Delaunay's); withdrawn, no verified Delaunay 2021 price",insufficient,2026-09-21,0
 egly ouriet extra brut grand cru v p vieillissement prolonge|NV|750,Egly-Ouriet Extra Brut Grand Cru V.P. (Vieillissement Prolonge),NV,750,159.0,"Bottle Barn $159 (Wine Library $93.99 on sale, Flatiron $204.99) for Egly-Ouriet VP NV 750ml",ws_single_retailer,2026-10-05,0
+el grifo ariana|2021|750,El Grifo Ariana,2021,750,48.0,Importer SRP $48.00 for El Grifo Ariana 750ml (Kysela); not vintage-specific,ws_allvintage,2026-10-05,0
 elena fucci aglianico del vulture superiore riserva titolo|2013|750,Elena Fucci Aglianico del Vulture Superiore Riserva Titolo,2013,750,,"Insufficient data - searched, no 2013 price found",insufficient,2026-10-05,0
 elena fucci aglianico del vulture superiore riserva titolo|2018|750,Elena Fucci Aglianico del Vulture Superiore Riserva Titolo,2018,750,97.95,Saratoga Wine $97.95 for 2018 Elena Fucci Titolo 750ml,ws_single_retailer,2026-10-05,0
 elena fucci aglianico del vulture superiore riserva titolo|2019|750,Elena Fucci Aglianico del Vulture Superiore Riserva Titolo,2019,750,119.99,Retailer $119.99 for 2019 Elena Fucci Titolo 750ml (search snippet),ws_single_retailer,2026-10-05,0
@@ -1252,6 +1307,9 @@ elio grasso dolcetto d alba dei grassi|2021|750,Elio Grasso Dolcetto d'Alba Dei 
 elio grasso educato|2021|750,Elio Grasso Educato,2021,750,,retailer page did not confirm a specific product price for this vintage,insufficient,2026-09-01,0
 elio grasso langhe nebbiolo|2021|750,Elio Grasso Langhe Nebbiolo,2021,750,34.0,"moorebrothers.com (Gavarini bottling), exact vintage match",ws_vintage,2026-09-01,0
 emidio pepe montepulciano d abruzzo|2016|750,Emidio Pepe Montepulciano d' Abruzzo,2016,750,149.99,"Chambers Street Wines retailer listing, 2016 vintage",ws_single_retailer,2026-08-24,0
+emilien feneuil coteaux champenois blanc de petit meslier et de chardonnay|2019|750,Emilien Feneuil Coteaux Champenois Blanc de Petit Meslier et de Chardonnay,2019,750,180.0,Leon & Son 2019 Emilien Feneuil Puits & Gillis Coteaux Blanc de Petite Meslier & Chardonnay 750ml $180.00,ws_single_retailer,2026-10-05,0
+emilien feneuil coteaux champenois chamery pinot noir|NV|750,Emilien Feneuil Coteaux Champenois Chamery Pinot Noir,NV,750,,"Insufficient data: only 2020 Chamery Rouge cuvee found ($195), NV cuvee not confirmed (searched once)",insufficient,2026-10-05,0
+emilien feneuil coteaux champenois les maconettes rose|2020|750,Emilien Feneuil Coteaux Champenois Les Maçonettes Rosé,2020,750,165.0,US retailer regular price $165 for 2020 Feneuil Coteaux Champenois Rose Les Maconnettes 750ml (Thatchers Wine),ws_single_retailer,2026-10-05,0
 emmanuel rouget bourgogne passetoutgrain|2023|750,Emmanuel Rouget Bourgogne Passetoutgrain,2023,750,58,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 emmanuel rouget echezeaux|2022|750,Emmanuel Rouget Echezeaux,2022,750,946.26,Saratoga Wine $946.26 for 2022 Rouget Echezeaux (out of stock); single retailer,ws_single_retailer,2026-10-05,0
 emmanuel rouget nuits st georges|2021|750,Emmanuel Rouget Nuits-St.-Georges,2021,750,249.99,Flatiron $249.99 (out of stock) for 2021 Rouget NSG; iDealwine auction results $151-$200 noted,ws_single_retailer,2026-10-05,0
@@ -1313,6 +1371,7 @@ ferrari trento brut|NV|750,Ferrari Trento Brut,NV,750,31.99,"totalwine.com, NV e
 feudi di san gregorio serpico|2003|750,Feudi di San Gregorio Serpico,2003,750,62,"Wine-Searcher average retail, vintage-specific (cross-source range $62-81)",ws_vintage,2026-09-07,0
 feudo montoni nero d avola vrucara|2020|750,Feudo Montoni Nero D'Avola Vrucara,2020,750,68,"Wine-Searcher average retail, all-vintage fallback (no 2020-specific figure surfaced)",ws_allvintage,2026-09-07,0
 fiorenzo nada barbaresco manzola|2016|750,Fiorenzo Nada Barbaresco Manzola,2016,750,74,"Wine-Searcher, vintage-specific average price (ex-tax)",ws_vintage,2026-08-24,0
+fontaine gagnard chassagne montrachet la romanee|2017|750,Fontaine-Gagnard Chassagne-Montrachet La Romanee,2017,750,199.0,Flatiron Wines NYC 2017 Fontaine-Gagnard Chassagne-Montrachet 1er Cru La Romanee 750ml $199.00,ws_single_retailer,2026-10-05,0
 fontodi chianti classico gran selezione vigna del sorbo|2018|750,Fontodi Chianti Classico Gran Selezione Vigna del Sorbo,2018,750,120.0,"Wine-Searcher average retail (ex-tax), all-vintage average for Fontodi Vigna del Sorbo Gran Selezione; 2018 same cuvee (2019 $119 / 2020 $125 vintage pages corroborate)",ws_allvintage,2026-09-21,0
 fontodi chianti classico gran selezione vigna del sorbo|2019|750,Fontodi Chianti Classico Gran Selezione Vigna del Sorbo,2019,750,119.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page",ws_vintage,2026-09-21,0
 fontodi chianti classico gran selezione vigna del sorbo|2020|750,Fontodi Chianti Classico Gran Selezione Vigna del Sorbo,2020,750,125.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage,2026-09-21,0
@@ -1421,6 +1480,7 @@ galardi terra di lavoro|2004|750,Galardi Terra di Lavoro,2004,750,84,"Wine-Searc
 galardi terra di lavoro|2007|750,Galardi Terra di Lavoro,2007,750,90,"Retail listing $90/750ml, vintage-specific (2007), 97 RP / 99 Veronelli",ws_vintage,2026-09-28,0
 galardi terra di lavoro|2010|750,Galardi Terra di Lavoro,2010,750,88.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2010 page",ws_vintage,2026-09-21,0
 galardi terra di lavoro|2012|750,Galardi Terra di Lavoro,2012,750,,"No reliable price found: conflicting single-retailer figures ($54.94 vs $69.21), both out of stock",insufficient,2026-09-21,0
+gallimard pere et fils brut cuvee reserve blanc de noirs|NV|750,Gallimard Père et Fils Brut Cuvee Reserve Blanc de Noirs,NV,750,,Insufficient data: only GBP/SEK prices (searched once),insufficient,2026-10-05,0
 georges laval brut nature premier cru cumieres|NV|750,Georges Laval Brut Nature Premier Cru Cumieres,NV,750,135,"Wine-Searcher, US retailers ~$129-$141/750ml",ws_vintage,2026-09-28,0
 georges lignier morey st denis clos des ormes|2017|750,Georges Lignier Morey-St.-Denis Clos des Ormes,2017,750,120,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
 georges lignier morey st denis clos des ormes|2018|750,Georges Lignier Morey-St.-Denis Clos des Ormes,2018,750,120,"Wine-Searcher average retail, adjacent vintage used as proxy",ws_adjacent,2026-08-24,0
@@ -1453,6 +1513,7 @@ giacomo fenocchio barolo villero|2010|750,Giacomo Fenocchio Barolo Villero,2010,
 giacomo fenocchio barolo villero|2013|750,Giacomo Fenocchio Barolo Villero,2013,750,83,"Wine-Searcher listed price, vintage-specific",ws_vintage,2026-09-16,0
 giacomo fenocchio barolo villero|2015|750,Giacomo Fenocchio Barolo Villero,2015,750,89,"Wine-Searcher $89/750ml, vintage-specific (2015), 93pt",ws_vintage,2026-09-28,0
 giacomo fenocchio dolcetto|2009|750,Giacomo Fenocchio Dolcetto,2009,750,20,"Wine-Searcher average retail, all-vintage (base bottling)",ws_allvintage,2026-09-16,0
+gianfranco alessandria barolo san giovanni|1997|750,Gianfranco Alessandria Barolo San Giovanni,1997,750,,Insufficient data: no 1997 price; only current vintage retail (searched once),insufficient,2026-10-05,0
 gianni brunelli brunello di montalcino|2015|750,Gianni Brunelli Brunello di Montalcino,2015,750,145,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 gianni brunelli brunello di montalcino|2016|750,Gianni Brunelli Brunello di Montalcino,2016,750,80,Estimate based on producer/appellation quality,estimate,2026-08-24,0
 gianni brunelli brunello di montalcino|2018|1500,Gianni Brunelli Brunello di Montalcino,2018,1500,198,"Estimate based on producer/appellation quality, scaled to magnum",estimate,2026-08-24,0
@@ -1463,6 +1524,7 @@ giovanna ciacci brunello di montalcino|2001|750,Giovanna Ciacci Brunello di Mont
 giovanni canonica langhe nebbiolo|2016|750,Giovanni Canonica Langhe Nebbiolo,2016,750,100,"Wine-Searcher, general range cited in vintage-focused discussion",ws_allvintage,2026-08-24,0
 giovanni manzone barolo bricat|2003|750,Giovanni Manzone Barolo Bricat,2003,750,75,Estimate based on producer/vineyard quality and vintage age,estimate,2026-08-24,0
 giovanni manzone barolo castelletto|2012|750,Giovanni Manzone Barolo Castelletto,2012,750,52.51,"laywheeler.com, exact vintage match, GBP 41.35 converted at 1.27 USD/GBP",ws_vintage,2026-09-01,0
+giovanni rocca barolo mosconi|2004|750,Giovanni Rocca Barolo Mosconi,2004,750,,Insufficient data: no 2004 price found (searched once),insufficient,2026-10-05,0
 giuseppe e figlio mauro mascarello barbera d alba santo stefano di perno|2015|750,Giuseppe E Figlio (Mauro) Mascarello Barbera d'Alba Santo Stefano di Perno,2015,750,58,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
 giuseppe e figlio mauro mascarello barolo monprivato|2019|750,Giuseppe E Figlio (Mauro) Mascarello Barolo Monprivato,2019,750,200,Estimate based on producer/cru quality,estimate,2026-08-24,0
 giuseppe e figlio mauro mascarello barolo rocche villero in castiglione falletto|2019|750,Giuseppe E Figlio (Mauro) Mascarello Barolo Rocche Villero in Castiglione Falletto,2019,750,190,Estimate based on producer/cru quality,estimate,2026-08-24,0
@@ -1474,11 +1536,13 @@ giuseppe rinaldi dolcetto d alba|2019|750,Giuseppe Rinaldi Dolcetto d'Alba,2019,
 giuseppe rinaldi vino rosso rosae|2017|750,Giuseppe Rinaldi Vino Rosso Rosae,2017,750,,"Insufficient data - searched, no Rosae price found",insufficient,2026-10-05,0
 gonet medeville extra brut grand cru champ d alouette|2007|750,Gonet-Médeville Extra Brut Grand Cru Champ d'Alouette,2007,750,164.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2007 page",ws_vintage,2026-09-21,0
 gosset grande reserve|NV|1500,Gosset Grande Reserve,NV,1500,138.6,"Wine-Searcher NV 750ml average $63 x 2.2 magnum scaling; size mismatch, scaled not observed",ws_allvintage,2026-09-21,0
+gounel lassalle premier cru esprit voyageur|NV|750,Gounel-Lassalle Premier Cru Esprit Voyageur,NV,750,71.0,Call Me Wine US Gounel-Lassalle Esprit Voyageur 1er Cru Brut Nature NV 750ml $71.00,ws_single_retailer,2026-10-05,0
 gracia|2005|750,Gracia,2005,750,,"Insufficient data - searched, no 2005 price found",insufficient,2026-10-05,0
 gracia|2009|750,Gracia,2009,750,,"Insufficient data - searched, price on request only",insufficient,2026-10-05,0
 grattamacco bolgheri superiore grattamacco|2021|750,Grattamacco Bolgheri Superiore Grattamacco,2021,750,99.99,Zachys lists Grattamacco Bolgheri Superiore 2021 at $99.99 (case pricing $80-$82 elsewhere),ws_single_retailer,2026-09-21,0
 grebet pere et fils domaine des rabichattes pouilly fume les loges|2023|750,Grebet Pere et Fils Domaine des Rabichattes Pouilly-Fume Les Loges,2023,750,,no exact cuvee/vintage retailer match found,insufficient,2026-09-01,0
 guasti clemente barbaresco riserva|2000|750,Guasti Clemente Barbaresco Riserva,2000,750,20,"Single retailer listing (Wine.com, since sold out), vintage-specific",ws_single_retailer,2026-09-07,0
+guffens heynen macon pierreclos premier jus de chavigne|2022|750,Guffens-Heynen Macon-Pierreclos Premier Jus de Chavigne,2022,750,,Insufficient data: only CAD/AUD/GBP prices (searched once),insufficient,2026-10-05,0
 guidobono segretevigne extra brut|2018|750,Guidobono Segretevigne Extra Brut,2018,750,32,"Wine-Searcher, general average (not vintage-split)",ws_allvintage,2026-08-24,0
 guillaume gilles cornas|2015|750,Guillaume Gilles Cornas,2015,750,80,"Wine-Searcher average price $80/750ml, vintage-specific (2015), 92pt",ws_vintage,2026-09-28,0
 guillaume gilles cornas|2020|1500,Guillaume Gilles Cornas,2020,1500,246,"Wine-Searcher average retail, vintage-specific, scaled to magnum",ws_vintage,2026-08-24,0
@@ -1494,6 +1558,7 @@ heidsieck and co monopole blue top brut|NV|750,Heidsieck & CO Monopole Blue Top 
 helene perrot chablis fourchaume|2017|750,Hélène Perrot Chablis Fourchaume,2017,750,,Insufficient data,insufficient,2026-09-15,0
 henri billiot and fils brut millesime|1996|750,Henri Billiot & Fils Brut Millésimé,1996,750,93,"Wine-Searcher average retail, all-vintage fallback (Millesime line; no 1996-specific figure surfaced)",ws_allvintage,2026-09-07,0
 henri boillot puligny montrachet clos de la mouchere|2007|750,Henri Boillot Puligny-Montrachet Clos de la Mouchere,2007,750,39.24,"vinsetmillesimes.com, exact vintage match, EUR 36.00 converted at 1.09 USD/EUR",ws_vintage,2026-09-01,0
+henri bourgeois chateaumeillant solissime|2012|750,Henri Bourgeois Chateaumeillant Solissime,2012,750,,Insufficient data: wine.com page found but no price shown (searched once),insufficient,2026-10-05,0
 henri darnat meursault clos richemont|2006|750,Henri Darnat Meursault Clos Richemont,2006,750,165,"Wine-Searcher average retail, all-vintage",ws_allvintage,2026-09-15,0
 henri et gilles remoriquet nuits st georges les saint georges|2005|750,Henri et Gilles Remoriquet Nuits-St.-Georges Les Saint-Georges,2005,750,64.0,Wine-Searcher average retail Remoriquet Nuits-St-Georges Les Saint-Georges $64/750ml (not tied to 2005),ws_allvintage,2026-09-21,0
 henri et gilles remoriquet vosne romanee au dessus des malconsorts|2005|750,Henri et Gilles Remoriquet Vosne-Romanée Au-dessus des Malconsorts,2005,750,102.84,"idealwine.com auction result, exact vintage match; hammer+commission EUR 94.35 converted at 1.09 USD/EUR",auction,2026-09-01,0
@@ -1566,6 +1631,7 @@ jean boillot and fils puligny montrachet les perrieres|2002|750,Jean Boillot & F
 jean charles fagot bourgogne cote d or les loueres|2022|750,Jean-Charles Fagot Bourgogne Côte d'Or Les Loueres,2022,750,,product page found but out of stock with no price displayed,insufficient,2026-09-01,0
 jean claude ramonet bouzeron|2019|750,Jean-Claude Ramonet Bouzeron,2019,750,69.99,"Single retailer (Best of Wines, Los Angeles) via Wine-Searcher 2019 Domaine Ramonet Bouzeron listing, $69.99; search snippet, not independently corroborated",ws_single_retailer,2026-09-21,0
 jean claude ramonet chassagne montrachet rouge|2022|750,Jean-Claude Ramonet Chassagne-Montrachet Rouge,2022,750,70,"Retailer listing (Plucky Wines), vintage-specific, no full Wine-Searcher average found",ws_single_retailer,2026-09-15,0
+jean de la fontaine l eloquente|NV|750,Jean de la Fontaine L'Eloquente,NV,750,,Insufficient data: only CHF price (searched once),insufficient,2026-10-05,0
 jean et sebastien dauvissat chablis les preuses|2017|750,Jean et Sebastien Dauvissat Chablis Les Preuses,2017,750,125,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 jean et sebastien dauvissat chablis les preuses|2018|750,Jean et Sebastien Dauvissat Chablis Les Preuses,2018,750,83,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 jean foillard morgon cote du py|2020|750,Jean Foillard Morgon Côte du Py,2020,750,67.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage,2026-09-21,0
@@ -1584,8 +1650,10 @@ jean luc colombo cornas les ruchets|2015|750,Jean-Luc Colombo Cornas Les Ruchets
 jean luc colombo cote rotie la divine|2004|750,Jean-Luc Colombo Cote Rotie La Divine,2004,750,60,"Estimate based on producer/appellation reputation (Colombo Cote Rotie La Divine, lighter 2004 vintage)",estimate,2026-08-24,0
 jean luc dubois beaune bressandes reserve cuvee unique|1997|750,Jean-Luc Dubois Beaune Bressandes Reserve Cuvee Unique,1997,750,,Insufficient data,insufficient,2026-09-07,0
 jean luc dubois chorey les beaune clos margot reserve cuvee unique vieilles vignes|1997|750,Jean-Luc Dubois Chorey-les-Beaune Clos Margot Reserve Cuvee Unique Vieilles Vignes,1997,750,,Insufficient data,insufficient,2026-09-07,0
+jean luc dubois savigny les beaune picotins v v cuvee unique|2005|750,Jean-Luc Dubois Savigny Les Beaune Picotins V.V. Cuvee Unique,2005,750,,Insufficient data: no Jean-Luc Dubois price (only other producers) (searched once),insufficient,2026-10-05,0
 jean marc boillot montagny 1er cru|2021|750,Jean-Marc Boillot Montagny 1er Cru,2021,750,53.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2021 page (Domaine Jean-Marc Boillot Montagny 1er Cru)",ws_vintage,2026-09-21,0
 jean marc boillot volnay pitures|2006|750,Jean-Marc Boillot Volnay Pitures,2006,750,108,"Wine-Searcher average retail, all-vintage average (vintage-specific price not shown in snippet)",ws_allvintage,2026-08-24,0
+jean marc brocard chablis fourchaume|1996|750,Jean-Marc Brocard Chablis Fourchaume,1996,750,,Insufficient data: no 1996 Fourchaume price (searched once),insufficient,2026-10-05,0
 jean marc pillot saint romain la periere|2016|750,Jean-Marc Pillot Saint-Romain La Periere,2016,750,40,Estimate based on producer/appellation reputation (Pillot Saint-Romain white Burgundy),estimate,2026-08-24,0
 jean marc vincent santenay le beaurepaire rouge|2017|750,Jean-Marc Vincent Santenay Le Beaurepaire Rouge,2017,750,70.0,"shop.kermitlynch.com, exact vintage match",ws_vintage,2026-09-01,0
 jean marc vincent santenay le beaurepaire rouge|2020|750,Jean-Marc Vincent Santenay Le Beaurepaire Rouge,2020,750,129.99,"zachys.com listing for 2021 vintage, our lot is 2020",ws_adjacent,2026-09-01,0
@@ -1607,10 +1675,12 @@ jean marc vincent santenay les gravieres|2021|750,Jean-Marc Vincent Santenay Les
 jean marc vincent santenay les gravieres|2022|750,Jean-Marc Vincent Santenay Les Gravieres,2022,750,75.21,"idealwine.com price estimate for 2021 vintage, our lot is 2022; EUR 69 converted at 1.09 USD/EUR",ws_adjacent,2026-09-01,0
 jean marc vincent santenay les gravieres|2023|750,Jean-Marc Vincent Santenay Les Gravieres,2023,750,75.21,"idealwine.com price estimate for 2021 vintage, our lot is 2023; EUR 69 converted at 1.09 USD/EUR",ws_adjacent,2026-09-01,0
 jean marc vincent santenay vieilles vignes|2018|750,Jean-Marc Vincent Santenay Vieilles Vignes,2018,750,79.99,"winelibrary.com, exact vintage match, regular/list price used (page also showed a $64.99 sale price)",ws_vintage,2026-09-01,0
+jean maurice raffault chinon clos des capucins|2006|750,Jean Maurice Raffault Chinon Clos des Capucins,2006,750,,Insufficient data: only EUR Hachette guide price (searched once),insufficient,2026-10-05,0
 jean michel gerin cote rotie champin seigneur|2000|750,Jean-Michel Gerin Cote Rotie Champin Seigneur,2000,750,76,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 jean michel guillon gevrey chambertin les crais|2018|750,Jean-Michel Guillon Gevrey-Chambertin Les Crais,2018,750,55,Estimate based on producer/appellation reputation (Guillon Gevrey-Chambertin village lieu-dit),estimate,2026-08-24,0
 jean pascal and fils puligny montrachet les enseigneres|2017|750,Jean Pascal & Fils Puligny-Montrachet Les Enseignères,2017,750,88.99,ABC Fine Wine and Spirits lists Jean Pascal Puligny-Montrachet Les Enseigneres at $88.99 (MSRP $94.99); not vintage-confirmed,ws_single_retailer,2026-09-21,0
 jean pascal and fils puligny montrachet|2017|750,Jean Pascal & Fils Puligny Montrachet,2017,750,67.99,ABC Fine Wine and Spirits lists Jean Pascal Puligny-Montrachet Blanc at $67.99 (Wine-Searcher all-vintage avg $99 is not used; conservative),ws_single_retailer,2026-09-21,0
+jean philippe fichet bourgogne cote d or|2022|750,Jean-Philippe Fichet Bourgogne Côte d'Or,2022,750,44.99,Flatiron Wines SF 2022 Jean-Philippe Fichet Bourgogne Blanc Cote d'Or 750ml $44.99 (Somm Select $55.00; lower used),ws_single_retailer,2026-10-05,0
 jean philippe fichet bourgogne cote d or|2023|750,Jean-Philippe Fichet Bourgogne Côte d'Or,2023,750,60,"Wine-Searcher $60/750ml, 88pt (Bourgogne Cote d'Or Blanc Vieilles Vignes bottling; not clearly vintage-tied)",ws_allvintage,2026-09-28,0
 jean philippe fichet bourgogne rouge vieilles vignes|1999|750,Jean-Philippe Fichet Bourgogne Rouge Vieilles Vignes,1999,750,,Insufficient data,insufficient,2026-09-15,0
 jean philippe fichet meursault les gruyaches|2018|750,Jean-Philippe Fichet Meursault Les Gruyaches,2018,750,104,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
@@ -1618,6 +1688,7 @@ jean pierre guyon chorey les beaune les bons ores|2021|750,Jean-Pierre Guyon Cho
 jean pierre guyon chorey les beaune les bons ores|2022|750,Jean-Pierre Guyon Chorey-les-Beaune Les Bons Ores,2022,750,96,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 jean pierre guyon savigny les beaune les peuillets|2022|750,Jean-Pierre Guyon Savigny-lès-Beaune Les Peuillets,2022,750,109,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 jean pierre moueix saint emilion|1990|750,Jean-Pierre Moueix Saint-Emilion,1990,750,40,Wine-Searcher average price ~$40/750ml across vintages (no 1990-specific figure),ws_allvintage,2026-09-28,0
+jeaunaux robin brut fil de brume|NV|750,Jeaunaux-Robin Brut Fil de Brume,NV,750,,Insufficient data: only EUR prices (searched once),insufficient,2026-10-05,0
 jessica litaud bourgogne aligote bg|2023|750,Jessica Litaud Bourgogne Aligote BG,2023,750,70,"Retailer listing, vintage-specific",ws_single_retailer,2026-09-17,0
 jessica litaud macon fuisse|2023|750,Jessica Litaud Macon Fuisse,2023,750,49,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 jessica litaud pouilly fuisse la marechaude|2023|750,Jessica Litaud Pouilly-Fuisse La Maréchaude,2023,750,,"Insufficient data - searched, only CAD/GBP/AUD pricing found",insufficient,2026-10-05,0
@@ -1649,7 +1720,9 @@ joseph perrier extra brut cuvee royale|2018|1500,Joseph Perrier Extra Brut Cuvee
 joseph perrier extra brut cuvee royale|2018|750,Joseph Perrier Extra Brut Cuvee Royale,2018,750,,No reliable price found: Extra Brut 2018 not matched to a priced listing (the Vintage Brut listing is a possibly different label),insufficient,2026-09-21,0
 joseph roty bourgogne grand ordinaire|2010|750,Joseph Roty Bourgogne Grand Ordinaire,2010,750,,Insufficient data,insufficient,2026-09-15,0
 jules desjourneys pouilly fuisse vignes de la cote|2019|750,Jules Desjourneys Pouilly-Fuisse Vignes de la Cote,2019,750,,"Insufficient data - searched, only GBP/CHF/EUR pricing found",insufficient,2026-10-05,0
+jules desjourneys pouilly vinzelles|2019|750,Jules Desjourneys Pouilly-Vinzelles,2019,750,,Insufficient data: only CHF/GBP and other-vintage prices (searched once),insufficient,2026-10-05,0
 julien baillard chablis fourchaume|2020|750,Julien Baillard Chablis Fourchaume,2020,750,,could not confirm price for this specific premier cru cuvee (only a different base Chablis cuvee found),insufficient,2026-09-01,0
+julien denby brut reserve|NV|750,Julien Denby Brut Reserve,NV,750,,Insufficient data: no listing found (searched once),insufficient,2026-10-05,0
 julien pilon cote rotie la porchette|2012|750,Julien Pilon Côte-Rôtie La Porchette,2012,750,,"Insufficient data - searched, only other vintages found",insufficient,2026-10-05,0
 julien schaal riesling sommerberg granite|2017|750,Julien Schaal Riesling Sommerberg Granite,2017,750,,"Insufficient data - searched, only GBP pricing found",insufficient,2026-10-05,0
 krug brut|1996|750,Krug Brut,1996,750,675.0,"Bottle Barn $675 in stock (Chambers St $700, Acker $749, JJB $695; Wine Decider avg $763) for Krug Brut 1996 750ml",ws_vintage,2026-10-05,0
@@ -1672,6 +1745,7 @@ la gerla brunello di montalcino|2010|750,La Gerla Brunello di Montalcino,2010,75
 la gerla brunello di montalcino|2012|750,La Gerla Brunello di Montalcino,2012,750,51.95,"Wine-Searcher listing $51.95/750ml, vintage-specific (2012)",ws_vintage,2026-09-28,0
 la gravette de certan|2016|750,La Gravette de Certan,2016,750,91,"Wine-Searcher average price (ex-tax) $91/750ml, vintage-specific (2016); Zachys/Saratoga $73-85",ws_vintage,2026-09-28,0
 la massa chianti classico giorgio primo|1999|1500,La Massa Chianti Classico Giorgio Primo,1999,1500,194,"Wine-Searcher average retail, vintage-specific (750ml x 2.2 scaled to magnum)",ws_vintage,2026-09-17,0
+la poderina brunello di montalcino|1999|1500,La Poderina Brunello di Montalcino,1999,1500,,Insufficient data: no 1999 1.5L price found (searched once),insufficient,2026-10-05,0
 la reserve de leoville barton|2020|750,La Reserve de Leoville Barton,2020,750,,no reliable price found (saratogawine.com page found but out of stock with no price shown),insufficient,2026-09-01,0
 la rioja alta gran reserva 904 seleccion especial|2015|750,La Rioja Alta Gran Reserva 904 Seleccion Especial,2015,750,108.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2015 page (904 Seleccion Especial)",ws_vintage,2026-09-21,0
 la rioja alta gran reserva 904|2004|750,La Rioja Alta Gran Reserva 904,2004,750,138,"Wine-Searcher average price ~$138/750ml, vintage-specific (2004); one retailer outlier at $59.99",ws_vintage,2026-09-28,0
@@ -1703,6 +1777,7 @@ laurent perrier brut la cuvee|NV|750,Laurent-Perrier Brut La Cuvee,NV,750,67.0,"
 laurent perrier cuvee rose brut|NV|750,Laurent-Perrier Cuvee Rose Brut,NV,750,73.0,Timeless Wines lists Laurent-Perrier Cuvee Rose Brut NV at $73.00 (other US retailers $79.99-$109.99); lowest retailer used,ws_single_retailer,2026-09-21,0
 laurent perrier cuvee ultra brut|NV|750,Laurent-Perrier Cuvee Ultra Brut,NV,750,88,"Wine-Searcher average retail, all-vintage",ws_allvintage,2026-09-15,0
 laurent thibault brut tradition|NV|1500,Laurent Thibault Brut Tradition,NV,1500,,no reliable price found before search budget exhausted,insufficient,2026-09-01,0
+le brun de neuville cote blanche|NV|750,Le Brun de Neuville Cote Blanche,NV,750,,Insufficient data: only AUD price found (searched once),insufficient,2026-10-05,0
 le carillon de l angelus|2018|750,Le Carillon de l'Angelus,2018,750,,"Insufficient data - searched, conflicting quotes",insufficient,2026-10-05,0
 le charme de cos labory|2015|750,Le Charme de Cos Labory,2015,750,,Insufficient data,insufficient,2026-09-15,0
 le chemin du roi brut rose|NV|750,Le Chemin du Roi Brut Rosé,NV,750,311,Wine-Searcher average retail,ws_vintage,2026-08-24,0
@@ -1730,6 +1805,7 @@ le vieux donjon chateauneuf du pape|2019|1500,Le Vieux Donjon Châteauneuf-du-Pa
 le vieux donjon chateauneuf du pape|2019|750,Le Vieux Donjon Châteauneuf-du-Pape,2019,750,77,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
 le vieux donjon chateauneuf du pape|2020|1500,Le Vieux Donjon Châteauneuf-du-Pape,2020,1500,147.4,"Wine-Searcher average retail, vintage-specific (750ml base scaled to magnum)",ws_vintage,2026-08-24,0
 le vieux donjon chateauneuf du pape|2021|750,Le Vieux Donjon Châteauneuf-du-Pape,2021,750,66,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
+lecci e brocchi chianti classico|2014|750,Lecci e Brocchi Chianti Classico,2014,750,32.99,Flatiron Wines NYC 2013 Lecci e Brocchi Chianti Classico 750ml $32.99; 2014 not listed; adjacent-vintage substitution,ws_adjacent,2026-10-05,0
 les cailloux brunel chateauneuf de pape|1996|750,Les Cailloux (Brunel) Chateauneuf de Pape,1996,750,,No reliable price found: no 1996 price at any source,insufficient,2026-09-21,0
 les cailloux brunel chateauneuf de pape|1998|750,Les Cailloux (Brunel) Chateauneuf de Pape,1998,750,,No reliable price found: only a single unnamed $60 listing for the 1998,insufficient,2026-09-21,0
 les cailloux brunel chateauneuf de pape|2005|750,Les Cailloux (Brunel) Chateauneuf de Pape,2005,750,114,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
@@ -1780,6 +1856,7 @@ louis claude desvignes morgon javernieres aux pierres|2023|750,Louis Claude Desv
 louis jadot beaune premier cru celebration|2009|750,Louis Jadot Beaune Premier Cru Celebration,2009,750,127,"Wine-Searcher average retail, vintage-specific (150th Anniversary cuvee)",ws_vintage,2026-09-07,0
 louis jadot chablis|2022|750,Louis Jadot Chablis,2022,750,29.99,"wine.com, exact vintage match (out of stock but price displayed)",ws_vintage,2026-09-01,0
 louis jadot chablis|2023|750,Louis Jadot Chablis,2023,750,29.99,"wine.com, exact vintage match (sold out but price displayed)",ws_vintage,2026-09-01,0
+louis jadot chassagne montrachet les embazees|2016|750,Louis Jadot Chassagne-Montrachet Les Embazees,2016,750,,Insufficient data: no Jadot Les Embazees 2016 price (searched once),insufficient,2026-10-05,0
 louis jadot domaine des heritiers beaune boucherottes|2020|750,Louis Jadot Domaine des Héritiers Beaune Boucherottes,2020,750,64.94,"jjbuckley.com, exact vintage match",ws_vintage,2026-09-01,0
 louis jadot domaine des heritiers beaune bressandes|2010|750,Louis Jadot Domaine des Héritiers Beaune Bressandes,2010,750,132,"Wine-Searcher average price $132/750ml, vintage-specific (2010), 91pt",ws_vintage,2026-09-28,0
 louis jadot domaine des heritiers beaune clos de couchereaux|2009|750,Louis Jadot Domaine des Héritiers Beaune Clos de Couchereaux,2009,750,,"Insufficient data - searched, no Couchereaux 2009 price found",insufficient,2026-10-05,0
@@ -1823,6 +1900,7 @@ louis roederer cristal|1990|1500,Louis Roederer Cristal,1990,1500,1894.2,Wine De
 louis roederer|2009|750,Louis Roederer,2009,750,80,"Wine-Searcher average retail, vintage-specific (Vintage Brut)",ws_vintage,2026-09-07,0
 luce della vite toscana luce|2021|750,Luce della Vite Toscana Luce,2021,750,99.95,Tarzana Wine & Spirits lists Luce 2021 (the flagship not Lucente) at $99.95 (single retailer),ws_single_retailer,2026-09-21,0
 luce della vite toscana luce|2022|750,Luce della Vite Toscana Luce,2022,750,120.0,Wine-Searcher average retail Tenuta Luce Luce Toscana ~$120/750ml (not tied to 2022; the 2021 retails at $99.95),ws_allvintage,2026-09-21,0
+lucia saint emilion|2005|750,Lucia (Saint-Emilion),2005,750,69.94,J.J. Buckley 2005 Lucia (St-Emilion) 750ml $69.94 (listed out of stock),ws_single_retailer,2026-10-05,0
 luciano sandrone barbera d alba|2016|750,Luciano Sandrone Barbera d' Alba,2016,750,45,"Wine-Searcher-sourced average store price, not clearly vintage-dated",ws_allvintage,2026-08-24,0
 luciano sandrone barolo aleste|2014|750,Luciano Sandrone Barolo Aleste,2014,750,275,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
 luciano sandrone barolo aleste|2015|750,Luciano Sandrone Barolo Aleste,2015,750,150,"Wine-Searcher average price (ex-tax) $150/750ml, vintage-specific (2015)",ws_vintage,2026-09-28,0
@@ -1929,6 +2007,8 @@ marquis d angerville volnay taillepieds|2012|750,Marquis d'Angerville Volnay Tai
 marquis d angerville volnay taillepieds|2019|750,Marquis d'Angerville Volnay Taillepieds,2019,750,,"Insufficient data - searched, only GBP case pricing found",insufficient,2026-10-05,0
 marquis d angerville volnay taillepieds|2020|750,Marquis d'Angerville Volnay Taillepieds,2020,750,,"Insufficient data - searched, only GBP and an unattributed sale price",insufficient,2026-10-05,0
 marquis d angerville volnay|2019|750,Marquis d'Angerville Volnay,2019,750,,"Insufficient data - searched, only EUR pricing found",insufficient,2026-10-05,0
+marteaux guillaume cuvee le metisse|2018|750,Marteaux Guillaume Cuvee Le Metisse,2018,750,,"Insufficient data: no price found for Le Metisse 2018 (searched once, cluster query)",insufficient,2026-10-05,0
+marteaux guillaume cuvee le metisse|NV|750,Marteaux Guillaume Cuvee Le Metisse,NV,750,,"Insufficient data: no price found for Le Metisse NV (searched once, cluster query)",insufficient,2026-10-05,0
 martoccia di brunelli brunello di montalcino|2006|750,Martoccia Di Brunelli Brunello di Montalcino,2006,750,57.99,"K&L Wines $59.99 / Wine.com $55.99, vintage-specific (2006), average used",ws_vintage,2026-09-28,0
 mas de daumas gassac moulin de gassac|2011|750,Mas de Daumas Gassac Moulin De Gassac,2011,750,14,"Wine-Searcher average retail, vintage-specific (basic negociant bottling)",ws_vintage,2026-09-17,0
 mas doix costers de vinyes velles priorat|2007|750,Mas Doix Costers de Vinyes Velles Priorat,2007,750,181,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-07,0
@@ -2003,6 +2083,8 @@ morey blanc volnay santenots|2003|750,Morey-Blanc Volnay Santenots,2003,750,85,E
 mossi impetuoso gutturnio classico superiore|2019|750,Mossi Impetuoso Gutturnio Classico Superiore,2019,750,17,"Wine-Searcher average retail, all-vintage",ws_allvintage,2026-09-15,0
 moulin des carruades|1979|750,Moulin des Carruades,1979,750,,No reliable price found: no 1979 price displayed (only past auction lots),insufficient,2026-09-21,0
 moulin touchais anjou doue la fontaine|1964|750,Moulin Touchais Anjou Doué La Fontaine,1964,750,194.0,"Wine-Searcher average retail (ex-tax), vintage-specific 1964 page (Moulin Touchais Coteaux du Layon; sweet aged Chenin, Dessert)",ws_vintage,2026-09-21,0
+mousse fils l or d eugene perpetuelle blanc de noir|NV|750,Moussé Fils L'Or d'Eugene Perpetuelle Blanc de Noir,NV,750,60.0,Fine Wines International NV Mousse Fils L'Or d'Eugene Perpetuelle BdN 750ml $60.00 (range $56-$69.99 across Verve/K&L/Flatiron),ws_single_retailer,2026-10-05,0
+moutard brut rose de cuvaison|NV|750,Moutard Brut Rose de Cuvaison,NV,750,43.99,D&M Wines NV Moutard Rose de Cuvaison 750ml $43.99 (range $36.99-$49.95 US retailers),ws_single_retailer,2026-10-05,0
 mouzon leroux and fils grand cru l atavique tradition|NV|750,Mouzon-Leroux & Fils Grand Cru L'Atavique Tradition,NV,750,67.99,Flatiron Wines lists Mouzon-Leroux L'Atavique Tradition NV at $67.99 (WS avg $83 and other retailers $52.95-$68 conflict; mid-range list price used),ws_single_retailer,2026-09-21,0
 negro giuseppe barbaresco pian cavallo|2016|750,Negro Giuseppe Barbaresco Pian Cavallo,2016,750,,Insufficient data,insufficient,2026-09-07,0
 nervi conterno gattinara|2015|1500,Nervi Conterno Gattinara,2015,1500,211.2,"Wine-Searcher all-vintage average retail ($96/750ml), scaled to magnum",ws_allvintage,2026-08-24,0
@@ -2020,6 +2102,7 @@ nikolaihof riesling smaragd vom stein|2011|750,Nikolaihof Riesling Smaragd Vom S
 nikolaihof riesling smaragd vom stein|2014|750,Nikolaihof Riesling Smaragd Vom Stein,2014,750,58,Estimate based on typical Nikolaihof Smaragd Riesling pricing,estimate,2026-08-24,0
 nikolaihof riesling steiner hund|2012|750,Nikolaihof Riesling Steiner Hund,2012,750,68.84,"Single Miami retailer listing, vintage-specific",ws_single_retailer,2026-08-24,0
 nikolaihof riesling steiner hund|2013|750,Nikolaihof Riesling Steiner Hund,2013,750,84,"Wine-Searcher $84/750ml, 92pt, Reserve bottling (not clearly vintage-tied to 2013)",ws_allvintage,2026-09-28,0
+nikolaihof steinriesler riesling|1999|750,Nikolaihof Steinriesler Riesling,1999,750,,Insufficient data: no 1999 Steinriesler price (searched once),insufficient,2026-10-05,0
 nikolaihof vinothek riesling|2002|750,Nikolaihof Vinothek Riesling,2002,750,222.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2002 page (Familie Saahs Nikolaihof Vinothek Riesling)",ws_vintage,2026-09-21,0
 nozzole il pareto|2018|750,Nozzole Il Pareto,2018,750,78,"Wine-Searcher average price (ex-tax) $78/750ml, vintage-specific (2018)",ws_vintage,2026-09-28,0
 nozzole il pareto|2021|750,Nozzole Il Pareto,2021,750,85,"Wine-Searcher $85/750ml, vintage-specific (2021), 92pt",ws_vintage,2026-09-28,0
@@ -2058,6 +2141,7 @@ paolo scavino barolo bricco ambrogio|2021|750,Paolo Scavino Barolo Bricco Ambrog
 paolo scavino barolo bussia vigna fantini|2021|750,Paolo Scavino Barolo Bussia Vigna Fantini,2021,750,78.5,"US retailers (Center Wine, Saratoga, Wine Solutions) $76.99-$80.99/750ml, vintage-specific (2021)",ws_vintage,2026-09-28,0
 paolo scavino barolo prapo|2021|750,Paolo Scavino Barolo Prapò,2021,750,87,"Wine-Searcher average price $87/750ml, vintage-specific (2021), 94pt",ws_vintage,2026-09-28,0
 paolo scavino barolo|2005|750,Paolo Scavino Barolo,2005,750,,"Insufficient data - only single-vineyard bottlings priced, no confident base-Barolo match",insufficient,2026-09-15,0
+pasanau germans finca la planeta|1997|750,Pasanau Germans Finca La Planeta,1997,750,,Insufficient data: no 1997 price; only 2004 ($39.99) found (searched once),insufficient,2026-10-05,0
 pascal chevigny vosne romanee aux champs perdrix vieilles vignes reserve|1997|750,Pascal Chevigny Vosne Romanee Aux Champs Perdrix Vieilles Vignes Reserve,1997,750,84,"Wine-Searcher average retail, vintage-specific (producer now called Domaine Chevigny-Rousseau; cross-source range $84-122)",ws_vintage,2026-09-07,0
 pascal chevigny vosne romanee la combe brulee reserve v v|1996|750,Pascal Chevigny Vosne Romanee La Combe Brulee Reserve V.V.,1996,750,,Insufficient data,insufficient,2026-09-07,0
 pascal clement bourgogne pinot noir|2016|750,Pascal Clément Bourgogne Pinot Noir,2016,750,51,"Wine-Searcher average retail, all-vintage average",ws_allvintage,2026-08-24,0
@@ -2068,6 +2152,7 @@ passopisciaro contrada sciaranuova|2020|750,Passopisciaro Contrada Sciaranuova,2
 passopisciaro etna passorosso|2014|750,Passopisciaro Etna Passorosso,2014,750,34.99,"shop.klwines.com, exact vintage match",ws_vintage,2026-09-01,0
 passopisciaro|2008|750,Passopisciaro,2008,750,,"Insufficient data - only single-vineyard Contrada bottlings priced, no confident base match",insufficient,2026-09-15,0
 patriarche pere et fils nuits st georges|1959|750,Patriarche Père et Fils Nuits-St.-Georges,1959,750,,Insufficient data,insufficient,2026-09-15,0
+patrick and christophe bonnefond cote rotie les rochins|2021|750,Patrick & Christophe Bonnefond Cote-Rotie Les Rochins,2021,750,54.99,Wine Library 2021 Bonnefond Cote-Rotie Les Rochains 750ml $54.99 current price (list $74.99; lower used),ws_single_retailer,2026-10-05,0
 patrick et martine jacob girard pernand vergelesses|2009|750,Patrick et Martine Jacob-Girard Pernand Vergelesses,2009,750,,Insufficient data,insufficient,2026-08-24,0
 patrick et martine jacob girard savigny aux gravains|2009|1500,Patrick et Martine Jacob-Girard Savigny Aux Gravains,2009,1500,,Insufficient data,insufficient,2026-08-24,0
 patrick et martine jacob girard savigny aux gravains|2009|750,Patrick et Martine Jacob-Girard Savigny Aux Gravains,2009,750,,Insufficient data,insufficient,2026-08-24,0
@@ -2078,6 +2163,7 @@ patrick et martine jacob girard savigny les marconnets|2009|1500,Patrick et Mart
 patrick piuze chablis bougros|2019|750,Patrick Piuze Chablis Bougros,2019,750,130,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 patrick piuze chablis les clos|2018|750,Patrick Piuze Chablis Les Clos,2018,750,149.99,"wine.com, exact vintage match, regular price used (sold out)",ws_vintage,2026-09-01,0
 pauillac de lynch bages|2010|750,Pauillac De Lynch Bages,2010,750,291,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
+paul autard chateauneuf du pape cuvee la cote ronde|1998|750,Paul Autard Chateauneuf Du Pape Cuvee La Cote Ronde,1998,750,,Insufficient data: only unconfirmed-cuvee $89 Wine Dispensary listing and WineBid-own figure (searched once),insufficient,2026-10-05,0
 paul autard chateauneuf du pape|1995|750,Paul Autard Châteauneuf-du-Pape,1995,750,,Insufficient data,insufficient,2026-09-15,0
 paul bara brut grand cru bouzy comtesse marie de france|2015|750,Paul Bara Brut Grand Cru Bouzy Comtesse Marie de France,2015,750,138,"Wine-Searcher average price (ex-tax) $138/750ml, vintage-specific (2015), 91pt",ws_vintage,2026-09-28,0
 paul bara brut grand cru bouzy|2018|750,Paul Bara Brut Grand Cru Bouzy,2018,750,103,"Kermit Lynch Wine Merchant (Berkeley, CA) $103/750ml, vintage-specific (2018)",ws_single_retailer,2026-09-28,0
@@ -2085,6 +2171,7 @@ paul bara brut grand cru grande rose|NV|750,Paul Bara Brut Grand Cru Grande Ros�
 paul bara coteaux champenois bouzy rouge|2020|750,Paul Bara Coteaux Champenois Bouzy Rouge,2020,750,82,"Wine-Searcher average price $82/750ml, vintage-specific (2020), 95pt",ws_vintage,2026-09-28,0
 paul bara extra brut grand cru|NV|750,Paul Bara Extra Brut Grand Cru,NV,750,,"Insufficient data - searched, only EUR pricing found",insufficient,2026-10-05,0
 paul bertrand cahors crocus la roche mere|2014|750,Paul Bertrand Cahors Crocus La Roche Mere,2014,750,129.99,"wine.com, exact vintage match, regular price used (sold out)",ws_vintage,2026-09-01,0
+paul dethune brut grand cru|NV|750,Paul Dethune Brut Grand Cru,NV,750,41.99,Bottle Barn NV Paul Dethune Brut Grand Cru 750ml $41.99,ws_single_retailer,2026-10-05,0
 paul garaudet meursault le limozin|2022|750,Paul Garaudet Meursault Le Limozin,2022,750,,"Insufficient data - searched, only other producers' Limozin found",insufficient,2026-10-05,0
 paul jaboulet aine cornas domaine de saint pierre|2000|750,Paul Jaboulet Aine Cornas Domaine de Saint Pierre,2000,750,66,"Wine-Searcher average retail, all-vintage average",ws_allvintage,2026-08-24,0
 paul jaboulet aine cornas domaine de saint pierre|2010|750,Paul Jaboulet Aine Cornas Domaine de Saint Pierre,2010,750,,"Insufficient data - searched, 2010 price not found",insufficient,2026-10-05,0
@@ -2099,6 +2186,7 @@ paul prieur and fils sancerre mise de printemps|2023|750,Paul Prieur & Fils Sanc
 pavillon de leoville poyferre|2019|750,Pavillon de Leoville Poyferre,2019,750,57.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page",ws_vintage,2026-09-21,0
 pelissero barbaresco nubiola|2010|1500,Pelissero Barbaresco Nubiola,2010,1500,,"Insufficient data - searched, magnum price not found",insufficient,2026-10-05,0
 pelissero barbaresco vanotu|2009|750,Pelissero Barbaresco Vanotu,2009,750,171,"Wine-Searcher average price $171/750ml, vintage-specific (2009), 92pt",ws_vintage,2026-09-28,0
+pere pape chateauneuf du pape la crau de ma mere|1998|750,Pere Pape Châteauneuf-du-Pape La Crau De Ma Mère,1998,750,,Insufficient data: no 1998 price; only CAD for 1999/2000 (searched once),insufficient,2026-10-05,0
 perillo taurasi riserva|2001|750,Perillo Taurasi Riserva,2001,750,81,"Wine-Searcher average retail, all-vintage",ws_allvintage,2026-09-15,0
 perrier jouet fleur de champagne brut cuvee belle epoque|2014|750,Perrier-Jouet Fleur de Champagne Brut Cuvee Belle Epoque,2014,750,221.0,"Wine-Searcher average retail (ex-tax), all-vintage average for Perrier-Jouet Belle Epoque Brut Millesime; 2014 same cuvee, not vintage-tied",ws_allvintage,2026-09-21,0
 perrier jouet grand brut label 7|NV|750,Perrier-Jouet Grand Brut (Label #7),NV,750,64,"Wine-Searcher average retail, USA average",ws_vintage,2026-08-24,0
@@ -2108,6 +2196,7 @@ pertimali brunello di montalcino sassetti livio|2010|750,Pertimali Brunello di M
 pertimali brunello di montalcino sassetti livio|2012|750,Pertimali Brunello di Montalcino Sassetti Livio,2012,750,77.95,"saratogawine.com, exact vintage match, case-only pre-arrival pricing",ws_vintage,2026-09-01,0
 pertimali brunello di montalcino sassetti livio|2013|750,Pertimali Brunello di Montalcino Sassetti Livio,2013,750,75.0,"wine.com, exact vintage match, regular price used (sold out, was $74.99)",ws_vintage,2026-09-01,0
 petit and bajan brut grand cru nymphea rose|NV|750,Petit & Bajan Brut Grand Cru Nymphea Rose,NV,750,70,"Wine Expo Santa Monica (CA retailer) listing, exact product match",ws_single_retailer,2026-09-17,0
+philine isabelle langhe chardonnay|2023|750,Philine Isabelle Langhe Chardonnay,2023,750,60.0,Thatcher's Wine 2023 Philine Isabelle Langhe Chardonnay 750ml $60 (Leon & Son $65),ws_single_retailer,2026-10-05,0
 philippe alliet chinon coteau de noire|2014|750,Philippe Alliet Chinon Coteau de Noiré,2014,750,54,"Wine-Searcher $54/750ml (94pt tied to 2014 separately, price not explicitly vintage-tied)",ws_allvintage,2026-09-28,0
 philippe alliet chinon coteau de noire|2018|750,Philippe Alliet Chinon Coteau de Noiré,2018,750,65,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
 philippe alliet chinon l huisserie|2018|750,Philippe Alliet Chinon L'Huisserie,2018,750,23,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
@@ -2116,11 +2205,14 @@ philippe dechelle cuvee quentin roosevelt|NV|750,Philippe Dechelle Cuvée Quenti
 philippe foreau vouvray brut|2014|750,Philippe Foreau Vouvray Brut,2014,750,45.0,"sommselect.com, exact vintage match",ws_vintage,2026-09-01,0
 philippe fourrier brut blanc de noirs|NV|750,Philippe Fourrier Brut Blanc de Noirs,NV,750,,no retailer price found; wine-searcher and wine spectator pages blocked,insufficient,2026-09-01,0
 philippe gavignet cote de nuits villages les vignottes reserve|1996|750,Philippe Gavignet Cote de Nuits-Villages Les Vignottes Reserve,1996,750,,Insufficient data,insufficient,2026-09-07,0
+philippe glavier grand cru la grace d hakamiah|NV|750,Philippe Glavier Grand Cru La Grace D'Hakamiah,NV,750,96.99,US retailer (Perrine's Wine Shop) NV Philippe Glavier La Grace d'Hakamiah Extra Brut 750ml $96.99,ws_single_retailer,2026-10-05,0
 philippe gonet brut grande reserve|NV|750,Philippe Gonet Brut Grande Réserve,NV,750,39.09,Costco $39.09 (Last Bottle $32) for Philippe Gonet Brut Reserve NV 750ml,ws_single_retailer,2026-10-05,0
 philippe livera domaine des tilleuls chapelle chambertin reserve vieilles vignes|1999|750,Philippe Livera (Domaine Des Tilleuls) Chapelle Chambertin Reserve Vieilles Vignes,1999,750,,Insufficient data,insufficient,2026-09-07,0
 philippe livera domaine des tilleuls gevrey chambertin en etelois reserve v v|1996|750,Philippe Livera (Domaine Des Tilleuls) Gevrey Chambertin en Etelois Reserve V.V.,1996,750,,Insufficient data,insufficient,2026-09-07,0
 philippe prie brut rose|NV|750,Philippe Prie Brut Rosé,NV,750,,"Insufficient data - searched, no Brut Rose price found",insufficient,2026-10-05,0
+philippe prie brut tradition|NV|1500,Philippe Prie Brut Tradition,NV,1500,54.99,Wines Till Sold Out Philippe Prie Brut Tradition NV 1.5L $54.99 (750ml $24.99); magnum format price direct,ws_single_retailer,2026-10-05,0
 philippe prie brut tradition|NV|750,Philippe Prie Brut Tradition,NV,750,24.99,Wines Till Sold Out $24.99 for Philippe Prie Brut Tradition NV 750ml,ws_single_retailer,2026-10-05,0
+philipponnat brut royale reserve rose|NV|375,Philipponnat Brut Royale Reserve Rose,NV,375,42.99,Flatiron Wines SF Philipponnat Royale Reserve Rose NV 375ml $42.99 (listed out of stock),ws_single_retailer,2026-10-05,0
 piccini chianti classico riserva|2005|750,Piccini Chianti Classico Riserva,2005,750,21,"Wine-Searcher average retail, all-vintage",ws_allvintage,2026-09-15,0
 pieropan soave classico la rocca|2019|750,Pieropan Soave Classico La Rocca,2019,750,32,Estimate based on producer/appellation knowledge (no price in search snippet),estimate,2026-08-24,0
 pierre bitouzet pommard platieres|1996|750,Pierre Bitouzet Pommard Platieres,1996,750,,Insufficient data,insufficient,2026-09-15,0
@@ -2173,9 +2265,12 @@ podere le ripi brunello di montalcino lupi e sirene|2014|750,Podere Le Ripi Brun
 podere poggio scalette il carbonaione|2006|750,Podere Poggio Scalette Il Carbonaione,2006,750,89.27,Saratoga Wine $89.27 for 2006 Poggio Scalette Il Carbonaione 750ml,ws_single_retailer,2026-10-05,0
 podere poggio scalette il carbonaione|2010|750,Podere Poggio Scalette Il Carbonaione,2010,750,72,"Wine-Searcher average price (ex-tax) $72/750ml, vintage-specific (2010), 92pt",ws_vintage,2026-09-28,0
 podere poggio scalette il carbonaione|2017|750,Podere Poggio Scalette Il Carbonaione,2017,750,52,"Wine-Searcher average price (ex-tax) $52/750ml, vintage-specific (2017), 93pt",ws_vintage,2026-09-28,0
+podere san luigi fidenzio|2004|750,Podere San Luigi Fidenzio,2004,750,,"Insufficient data: only GBP price for 2004 (searched once, cluster query)",insufficient,2026-10-05,0
+podere san luigi fidenzio|2005|750,Podere San Luigi Fidenzio,2005,750,,"Insufficient data: no USD price for 2005 (searched once, cluster query)",insufficient,2026-10-05,0
 poggio amorelli chianti classico riserva|2011|1500,Poggio Amorelli Chianti Classico Riserva,2011,1500,50.6,"Wine-Searcher all-vintage 750ml average $23 x 2.2 magnum scaling; size mismatch, scaled not observed",ws_allvintage,2026-09-21,0
 poggio di sotto rosso di montalcino|2007|750,Poggio di Sotto Rosso di Montalcino,2007,750,,Insufficient data,insufficient,2026-09-15,0
 poggio landi brunello di montalcino riserva|2019|750,Poggio Landi Brunello di Montalcino Riserva,2019,750,70,"Wine-Searcher $70/750ml, 92pt, Riserva bottling (not clearly vintage-tied)",ws_allvintage,2026-09-28,0
+poggio salvi brunello di montalcino|1997|750,Poggio Salvi Brunello di Montalcino,1997,750,,Insufficient data: no Poggio Salvi 1997 price; only other producers/vintages (searched once),insufficient,2026-10-05,0
 poggio san polo brunello di montalcino|2000|750,Poggio San Polo Brunello di Montalcino,2000,750,75,"Wine-Searcher average retail, all-vintage",ws_allvintage,2026-09-17,0
 poggio san polo brunello di montalcino|2018|750,Poggio San Polo Brunello di Montalcino,2018,750,56.68,"superiore.de, exact vintage match; EUR 52.00 converted at 1.09 USD/EUR",ws_vintage,2026-09-01,0
 pol roger brut reserve|NV|1500,Pol Roger Brut Réserve,NV,1500,154.0,"Wine-Searcher NV 750ml average $70 x 2.2 magnum scaling; size mismatch, scaled not observed",ws_allvintage,2026-09-21,0
@@ -2188,6 +2283,7 @@ poliziano vino nobile di montepulciano|2018|750,Poliziano Vino Nobile di Montepu
 pommery brut rose royal|NV|750,Pommery Brut Rose Royal,NV,750,65.0,"wine.com, NV exact match, regular price used (sold out, was $49.99)",ws_vintage,2026-09-01,0
 pommery brut royal|NV|750,Pommery Brut Royal,NV,750,47,"Wine-Searcher/retailer average, all-vintage",ws_allvintage,2026-09-15,0
 potinet ampeau puligny montrachet les champs gains|2016|750,Potinet-Ampeau Puligny-Montrachet Les Champs Gains,2016,750,,no retailer price found across three candidate pages,insufficient,2026-09-01,0
+potinet ampeau volnay les carelles sous la chapelle|2010|750,Potinet-Ampeau Volnay Les Carelles Sous la Chapelle,2010,750,,Insufficient data: only other-producer 2010 Volnay prices in GBP (searched once),insufficient,2026-10-05,0
 prager wachstum bodenstein riesling smaragd|2013|750,Prager Wachstum Bodenstein Riesling Smaragd,2013,750,94,"Wine-Searcher $94/750ml, 94pt (not clearly vintage-tied to 2013)",ws_allvintage,2026-09-28,0
 prats and symington chryseia|2020|750,Prats & Symington Chryseia,2020,750,100.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage,2026-09-21,0
 prats and symington chryseia|2021|750,Prats & Symington Chryseia,2021,750,102.49,"Wine-Searcher 2021 vintage page, single retailer listing $102.49 via search snippet; not independently averaged (2020 vintage avg $100 is consistent)",ws_single_retailer,2026-09-21,0
@@ -2267,6 +2363,7 @@ rebourgeon mure pommard clos des charmots|2018|750,Rebourgeon-Mure Pommard Clos 
 remirez de ganuza fincas de ganuza reserva|2015|750,Remirez de Ganuza Fincas de Ganuza Reserva,2015,750,39.9,Saratoga Wine $39.90 (out of stock) for 2015 Remirez de Ganuza Fincas de Ganuza Reserva 750ml,ws_single_retailer,2026-10-05,0
 remirez de ganuza rioja gran reserva|2015|750,Remirez de Ganuza Rioja Gran Reserva,2015,750,,"Insufficient data - searched, only EUR price found",insufficient,2026-10-05,0
 remirez de ganuza rioja trasnocho reserva|2018|750,Remirez de Ganuza Rioja Trasnocho Reserva,2018,750,,"Insufficient data - searched, only a 2014 price found",insufficient,2026-10-05,0
+remy massin brut tradition|NV|750,Remy Massin Brut Tradition,NV,750,43.0,CallMeWine US Remy Massin Brut Blanc de Noirs Tradition NV 750ml $43.00,ws_single_retailer,2026-10-05,0
 renato corino barolo rocche dell annunziata|2010|750,Renato Corino Barolo Rocche dell'Annunziata,2010,750,62,"Wine-Searcher $62/750ml, 92pt (not clearly vintage-tied to 2010)",ws_allvintage,2026-09-28,0
 renato ratti barolo marcenasco|2010|750,Renato Ratti Barolo Marcenasco,2010,750,68,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 renato ratti barolo marcenasco|2021|750,Renato Ratti Barolo Marcenasco,2021,750,76.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2021 page",ws_vintage,2026-09-21,0
@@ -2284,6 +2381,7 @@ renieri chianti classico riserva|2021|750,Renieri Chianti Classico Riserva,2021,
 renzo marinai chianti classico riserva|2016|750,Renzo Marinai Chianti Classico Riserva,2016,750,32.16,"casaporciatti.it, exact vintage match; EUR 29.50 converted at 1.09 USD/EUR",ws_vintage,2026-09-01,0
 reserve de la comtesse|2000|750,Réserve de la Comtesse,2000,750,97,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 reserve de la comtesse|2016|750,Réserve de la Comtesse,2016,750,74.99,"shop.klwines.com, exact vintage match",ws_vintage,2026-09-01,0
+richardot brut rose|NV|750,Richardot Brut Rose,NV,750,,Insufficient data: no Richardot listing found (searched once),insufficient,2026-10-05,0
 robert groffier bourgogne pinot noir|1996|750,Robert Groffier Bourgogne Pinot Noir,1996,750,,No reliable price found: no 1996 price at any source,insufficient,2026-09-21,0
 roberto mazzi and figli amarone della valpolicella punta di villa classico superiore|2016|750,Roberto Mazzi & Figli Amarone della Valpolicella Punta di Villa Classico Superiore,2016,750,,only candidate price found ($429) had no vintage confirmation and looked inconsistent with this producer's typical pricing; other retailer pages blocked or 404,insufficient,2026-09-01,0
 roberto sarotto barolo bergera pezzole|2019|750,Roberto Sarotto Barolo Bergera Pezzole,2019,750,60.0,US retailer $60 for 2019 Roberto Sarotto Barolo 750ml (search snippet; Bergera-Pezzole cru bottling not separately priced),ws_single_retailer,2026-10-05,0
@@ -2315,6 +2413,7 @@ ruffino chianti classico riserva ducale tan label|2021|750,Ruffino Chianti Class
 ruinart brut blanc de blancs|NV|750,Ruinart Brut Blanc de Blancs,NV,750,97.2,"saratogawine.com, NV exact match",ws_vintage,2026-09-01,0
 ruinart brut rose|NV|750,Ruinart Brut Rosé,NV,750,112,"Wine-Searcher average retail, US average",ws_vintage,2026-08-24,0
 s a huet vouvray cuvee constance|2002|500,S.A. Huet Vouvray Cuvee Constance,2002,500,283,"Wine-Searcher average price (ex-tax) $283, vintage-specific (2002), 96pt",ws_vintage,2026-09-28,0
+sadi malot brut les 2 cepages|NV|750,Sadi Malot Brut Les 2 Cepages,NV,750,,Insufficient data: only GBP/CHF prices (searched once),insufficient,2026-10-05,0
 saint aix coteaux d aix en provence aix rose|2022|1500,Saint Aix Coteaux d'Aix en Provence AIX Rose,2022,1500,,"only non-USD retailer prices found (HKD, GBP pages blocked); no reliable USD price",insufficient,2026-09-01,0
 salmon brut cuvee meunier|NV|750,Salmon Brut Cuvée Meunier,NV,750,,"Insufficient data - searched, no price found",insufficient,2026-10-05,0
 salmon brut selection|NV|750,Salmon Brut Sélection,NV,750,,"Insufficient data - searched, no price found",insufficient,2026-10-05,0
@@ -2327,6 +2426,8 @@ san rustico ripasso della valpolicella classico superiore vigneti del gaso|1998|
 san silvestro barolo patres|2020|750,San Silvestro Barolo Patres,2020,750,55.0,"solanocellars.com, exact vintage match, regular price used (page also showed a $46.00 sale price)",ws_vintage,2026-09-01,0
 santa margherita cabernet sauvignon|1986|750,Santa Margherita Cabernet Sauvignon,1986,750,,Insufficient data,insufficient,2026-09-15,0
 scarpa barolo tettimorra|2013|750,Scarpa Barolo Tettimorra,2013,750,,Stage 1: 90pt rating found but no price figure,insufficient,2026-09-28,0
+scopetone brunello di montalcino|1997|750,Scopetone Brunello di Montalcino,1997,750,,Insufficient data: no 1997 price; only recent vintages (searched once),insufficient,2026-10-05,0
+seghesio aldo ricardo barolo la villa|1997|750,Seghesio (Aldo Ricardo) Barolo La Villa,1997,750,85.56,Saratoga Wine Seghesio Barolo La Villa 1997 750ml $85.56 (search synthesis; direct fetch blocked 403; 1996 listed $85.65),ws_single_retailer,2026-10-05,0
 sella and mosca cannonau di sardenga riserva|2018|750,Sella & Mosca Cannonau di Sardenga Riserva,2018,750,16.99,"wine.com, exact vintage match",ws_vintage,2026-09-01,0
 selvapiana chianti rufina bucerchiale riserva|2004|750,Selvapiana Chianti Rufina Bucerchiale Riserva,2004,750,34,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
 selvapiana chianti rufina bucerchiale riserva|2012|750,Selvapiana Chianti Rufina Bucerchiale Riserva,2012,750,22,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-15,0
@@ -2344,7 +2445,10 @@ simon bize savigny les beaune aux vergelesses|2016|750,Simon Bize Savigny Les Be
 simon bize savigny les beaune les talmettes|2014|750,Simon Bize Savigny-Les-Beaune Les Talmettes,2014,750,101.5,Adjacent vintage: 2015 Bize Les Talmettes $101.50 (2018 $75); 2014 not found,ws_adjacent,2026-10-05,0
 siro pacenti brunello di montalcino|2004|750,Siro Pacenti Brunello di Montalcino,2004,750,,"Insufficient data - searched, only a different cuvee (PS) priced",insufficient,2026-10-05,0
 siro pacenti brunello di montalcino|2006|750,Siro Pacenti Brunello di Montalcino,2006,750,,Stage 1: no price figure returned,insufficient,2026-09-28,0
+sori della sorba nebbiolo|2021|750,Sorì della Sorba Nebbiolo,2021,750,59.95,First Bottle Wines 2021 Sori della Sorba Langhe Nebbiolo 750ml $59.95 sale price (stated retail $100; lower used),ws_single_retailer,2026-10-05,0
 sottimano barbaresco curra|2007|750,Sottimano Barbaresco Curra,2007,750,,Insufficient data - only score 91 found,insufficient,2026-09-15,0
+sportoletti villa fidelia rosso|1999|750,Sportoletti Villa Fidelia Rosso,1999,750,,Insufficient data: no 1999 price found (searched once),insufficient,2026-10-05,0
+stefano farina barolo|1997|750,Stefano Farina Barolo,1997,750,,Insufficient data: no Stefano Farina listing found (searched once),insufficient,2026-10-05,0
 stefano farina barolo|2001|750,Stefano Farina Barolo,2001,750,,Insufficient data - only score 90 found,insufficient,2026-09-15,0
 sylvain pataille marsannay clos du roy blanc|2023|750,Sylvain Pataille Marsannay Clos du Roy Blanc,2023,750,,"Insufficient data - searched, only EUR pricing found",insufficient,2026-10-05,0
 sylvain pataille marsannay la chapitre rouge|2023|750,Sylvain Pataille Marsannay La Chapitre Rouge,2023,750,,Stage 1: matched 'Le Chapitre Rouge' bottling but no price figure returned,insufficient,2026-09-28,0
@@ -2395,6 +2499,8 @@ tenuta delle terre nere san lorenzo vecchie vigne|2020|750,Tenuta Delle Terre Ne
 tenuta di arceno chianti classico gran selezione campolupi|2021|750,Tenuta di Arceno Chianti Classico Gran Selezione Campolupi,2021,750,69.99,K&L Wines $69.99 (Good Pour $74.99) for 2021 Tenuta di Arceno Campolupi Gran Selezione 750ml,ws_single_retailer,2026-10-05,0
 tenuta di arceno chianti classico gran selezione strada al sasso|2021|750,Tenuta di Arceno Chianti Classico Gran Selezione Strada Al Sasso,2021,750,,"Insufficient data - searched, only the 2018 vintage found",insufficient,2026-10-05,0
 tenuta di arceno chianti classico riserva|2020|750,Tenuta di Arceno Chianti Classico Riserva,2020,750,,"Insufficient data - searched, no Riserva 2020 price found",insufficient,2026-10-05,0
+tenuta di arceno toscana arcanum|2012|750,Tenuta di Arceno Toscana Arcanum,2012,750,,"Insufficient data: only unreliable-currency Flask listing ($89.99, Singapore-based retailer) (searched once, cluster query)",insufficient,2026-10-05,0
+tenuta di arceno toscana valadorna|2012|750,Tenuta di Arceno Toscana Valadorna,2012,750,,"Insufficient data: only CAD price and other vintages (searched once, cluster query)",insufficient,2026-10-05,0
 tenuta di biserno insoglio del cinghiale campo di sasso bibbona|2024|750,Tenuta di Biserno Insoglio del Cinghiale Campo di Sasso Bibbona,2024,750,30,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-07,0
 tenuta di gracciano della seta vino nobile di montepulciano|2018|750,Tenuta Di Gracciano Della Seta Vino Nobile di Montepulciano,2018,750,,Stage 1: only the Riserva tier was priced ($33) -- rejected as a likely tier mismatch for the plain bottling,insufficient,2026-09-28,0
 tenuta ferrata punta drago etna rosso|2022|750,Tenuta Ferrata Punta Drago Etna Rosso,2022,750,,"Insufficient data - searched, only EUR pricing found",insufficient,2026-10-05,0
@@ -2410,6 +2516,7 @@ terralsole brunello di montalcino riserva|2010|750,Terralsole Brunello di Montal
 terralsole brunello di montalcino riserva|2012|750,Terralsole Brunello di Montalcino Riserva,2012,750,110.0,Wine-Searcher 2012 vintage price (~$110) for Terralsole Riserva,ws_vintage,2026-09-21,0
 terralsole trio|2010|750,Terralsole Trio,2010,750,53.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2010 page (Terralsole Trio)",ws_vintage,2026-09-21,0
 terredora di paolo taurasi fatica contadina|2011|750,Terredora Di Paolo Taurasi Fatica Contadina,2011,750,36.0,"wine.com, exact vintage match, regular price used (sold out, was $33.99)",ws_vintage,2026-09-01,0
+terres dorees jean paul brun fleurie|2009|750,Terres Dorées (Jean-Paul Brun) Fleurie,2009,750,,Insufficient data: only EUR/ZAR prices (searched once),insufficient,2026-10-05,0
 theo dancer bourgogne aligote|2021|750,Theo Dancer Bourgogne Aligoté,2021,750,153,"Wine-Searcher average retail, vintage-specific (89/100)",ws_vintage,2026-09-17,0
 thibaud boudignon savennieres clos de la hutte|2018|750,Thibaud Boudignon Savennieres Clos de la Hutte,2018,750,,"Insufficient data - searched, only a two-pack bundle price found",insufficient,2026-10-05,0
 thibaud boudignon savennieres clos de la hutte|2019|750,Thibaud Boudignon Savennieres Clos de la Hutte,2019,750,,"Insufficient data - searched, no 2019 price found",insufficient,2026-10-05,0
@@ -2438,7 +2545,10 @@ toggenburg eccellenza|2018|750,Toggenburg Eccellenza,2018,750,,candidate retaile
 tolaini duesanti tenuta s giovanni|2003|5000,Tolaini Duesanti Tenuta S. Giovanni,2003,5000,,"Insufficient data - WS lists a differently-named cuvee (Valdisanti), no 2003 price, unusual 5L format",insufficient,2026-09-15,0
 tollot beaut et fils beaune clos du roi|2005|750,Tollot-Beaut et Fils Beaune Clos du Roi,2005,750,,Insufficient data - only scores 90/91 found,insufficient,2026-09-15,0
 tommasi viticoltori poggio al tufo rompicollo|2011|750,Tommasi Viticoltori Poggio al Tufo Rompicollo,2011,750,,Insufficient data - only score 88 found,insufficient,2026-09-15,0
+tornesi brunello di montalcino riserva|2004|1500,Tornesi Brunello di Montalcino Riserva,2004,1500,,"Insufficient data: no 1.5L Riserva 2004 price found (searched once, cluster query)",insufficient,2026-10-05,0
+tornesi brunello di montalcino|2007|1500,Tornesi Brunello di Montalcino,2007,1500,,"Insufficient data: no 1.5L 2007 price found (searched once, cluster query)",insufficient,2026-10-05,0
 torraccia del piantavigna gattinara|2015|750,Torraccia Del Piantavigna Gattinara,2015,750,,"Insufficient data - searched, only a manufacturer recommended price found",insufficient,2026-10-05,0
+torre alberghieri chianti classico|2009|750,Torre Alberghieri Chianti Classico,2009,750,,Insufficient data: no Torre Alberghieri listing found (searched once),insufficient,2026-10-05,0
 trediberri barolo berri|2020|750,Trediberri Barolo Berri,2020,750,64.99,US retailer $64.99 (recommended retail $66.53) for 2020 Trediberri Barolo Berri 750ml,ws_single_retailer,2026-10-05,0
 trediberri barolo del comune di la morra|2018|750,Trediberri Barolo del Comune di La Morra,2018,750,64,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
 trimbach riesling cuvee frederic emile|2015|750,Trimbach Riesling Cuvee Frederic-Emile,2015,750,111.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2015 page (F E Trimbach Cuvee Frederic Emile)",ws_vintage,2026-09-21,0
@@ -2457,10 +2567,12 @@ union de saint gall brut grand cru blanc de blancs millesime|2012|750,Union de S
 union de saint gall brut grand cru blanc de blancs|NV|750,Union de Saint-Gall Brut Grand Cru Blanc de Blancs,NV,750,49,Wine-Searcher average retail,ws_vintage,2026-08-24,0
 union de saint gall extra brut grand cru blanc de blancs|NV|750,Union de Saint-Gall Extra Brut Grand Cru Blanc de Blancs,NV,750,49,"Wine-Searcher average retail, all-vintage",ws_allvintage,2026-09-07,0
 union de saint gall grand cru orpale blanc de blancs|2004|750,Union de Saint-Gall Grand Cru Orpale Blanc de Blancs,2004,750,210,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-09-07,0
+v testulat brut premier cru cuvee prestige|NV|750,V Testulat Brut Premier Cru Cuvée Préstige,NV,750,,Insufficient data: no Testulat listing found (searched once),insufficient,2026-10-05,0
 valdicava brunello di montalcino|1997|750,Valdicava Brunello di Montalcino,1997,750,429.99,Cask Cartel (US) $429.99 for 1997 Valdicava Brunello 750ml; single retailer,ws_single_retailer,2026-10-05,0
 valdicava brunello di montalcino|2001|750,Valdicava Brunello di Montalcino,2001,750,189,"Retailer listing, vintage-specific, direct name/format match",ws_single_retailer,2026-09-15,0
 valdicava brunello di montalcino|2019|750,Valdicava Brunello di Montalcino,2019,750,,Stage 1: no price figure extracted,insufficient,2026-09-28,0
 valdicava brunello di montalcino|2020|750,Valdicava Brunello di Montalcino,2020,750,113,"US retailers (CA shipping) ~$107-$119/750ml, vintage-specific (2020), midpoint used",ws_vintage,2026-09-28,0
+vallisassoli michelangelo|2019|1500,Vallisassoli Michelangelo,2019,1500,,Insufficient data: no Vallisassoli listing found (searched once),insufficient,2026-10-05,0
 valsacro dioro seleccion j and d rioja|2001|750,Valsacro Dioro Seleccion J & D Rioja,2001,750,75,"Wine-Searcher average retail, vintage-specific (94/100, producer now Vinsacro)",ws_vintage,2026-09-17,0
 vega sicilia alion|2020|750,Vega Sicilia Alion,2020,750,132.0,Wine-Searcher average retail 2020 Vega Sicilia Alion $132/750ml,ws_vintage,2026-09-21,0
 vega sicilia alion|2021|750,Vega Sicilia Alion,2021,750,146.0,Wine-Searcher average retail 2021 Vega Sicilia Alion $146/750ml (individual retailers $108-$120: JJ Buckley $119.94 Saratoga $107.93 so avg skewed by high outliers),ws_vintage,2026-09-21,0
@@ -2479,6 +2591,8 @@ veuve clicquot ponsardin brut|NV|750,Veuve Clicquot Ponsardin Brut,NV,750,76,Win
 veuve clicquot ponsardin extra dry|NV|375,Veuve Clicquot Ponsardin Extra Dry,NV,375,35.81,"saratogawine.com (listed as Yellow Label Brut 375ml), NV exact match",ws_vintage,2026-09-01,0
 veuve clicquot ponsardin rich rose|NV|750,Veuve Clicquot Ponsardin Rich Rose,NV,750,79.0,Wine-Searcher average retail Veuve Clicquot Rich Rose NV $79/750ml,ws_allvintage,2026-09-21,0
 veuve clicquot ponsardin rich|NV|750,Veuve Clicquot Ponsardin Rich,NV,750,65.99,Veuve Clicquot Rich NV 750ml: Wine-Searcher retailer range $54.99-$65.99; direct listings Lisa's $69.99 Caskers $70.99 CWSpirits $74.99; used top of the WS-listed range,ws_single_retailer,2026-09-21,0
+veuve doussot brut blanc de blancs|NV|750,Veuve Doussot Brut Blanc de Blancs,NV,750,,"Insufficient data: no Blanc de Blancs listing found (searched once, cluster query)",insufficient,2026-10-05,0
+veuve doussot grand cuvee brut|NV|750,Veuve Doussot Grand Cuvee Brut,NV,750,,"Insufficient data: only outlier Cask Cartel $109.99 listing, rejected (searched once)",insufficient,2026-10-05,0
 veuve doussot l by vd rose|NV|750,Veuve Doussot L by VD Rose,NV,750,57.0,Wine-Searcher average retail Veuve Doussot L by VD Rose NV ~$57/750ml,ws_allvintage,2026-09-21,0
 vietti barbera d alba scarrone vigna vecchia|2009|1500,Vietti Barbera d'Alba Scarrone Vigna Vecchia,2009,1500,209,"Wine-Searcher average retail, vintage-specific (scaled to magnum)",ws_vintage,2026-08-24,0
 vietti barbera d alba scarrone vigna vecchia|2009|750,Vietti Barbera d'Alba Scarrone Vigna Vecchia,2009,750,95,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
@@ -2507,6 +2621,8 @@ vignobles mayard chateauneuf du pape la crau de ma mere|2009|750,Vignobles Mayar
 vincent and francois jouard chassagne montrachet les chaumees clos de la truffiere v v|2003|750,Vincent & Francois Jouard Chassagne Montrachet Les Chaumees Clos de la Truffiere V.V.,2003,750,125,"Wine-Searcher average retail, all-vintage (88/100 for 2003)",ws_allvintage,2026-09-17,0
 vincent and francois jouard chassagne montrachet les chaumees clos de la truffiere v v|2023|750,Vincent & Francois Jouard Chassagne Montrachet Les Chaumees Clos de la Truffiere V.V.,2023,750,,"Insufficient data - searched, only GBP pricing found",insufficient,2026-10-05,0
 vincent and francois jouard chassagne montrachet les chenevottes vieilles vignes|2023|750,Vincent & Francois Jouard Chassagne Montrachet Les Chenevottes Vieilles Vignes,2023,750,,"Insufficient data - searched, only GBP pricing found",insufficient,2026-10-05,0
+vincent and sophie morey chassagne montrachet les baudines|2019|750,Vincent & Sophie Morey Chassagne-Montrachet Les Baudines,2019,750,99.99,GoodPour US retailer Vincent & Sophie Morey Chassagne-Montrachet 1er Cru Baudines 750ml $99.99; vintage not stated on listing,ws_allvintage,2026-10-05,0
+vincent dureuil janthial rully vauvry|2020|750,Vincent Dureuil-Janthial Rully Vauvry,2020,750,,Insufficient data: no Vauvry listing found (searched once),insufficient,2026-10-05,0
 vincent girardin puligny montrachet vieilles vignes|2022|750,Vincent Girardin Puligny-Montrachet Vieilles Vignes,2022,750,148.0,Wine-Searcher average retail 2022 Vincent Girardin Puligny-Montrachet Vieilles Vignes ~$148-150/750ml (Total Wine $142.47),ws_vintage,2026-09-21,0
 vincent girardin santenay la comme|2006|750,Vincent Girardin Santenay La Comme,2006,750,,"Insufficient data - only a different Blanc variant found, not the red La Comme 2006",insufficient,2026-09-15,0
 vincent girardin santenay les gravieres|1996|750,Vincent Girardin Santenay Les Gravieres,1996,750,,"Insufficient data - no pricing found for the 1996 vintage; only recent vintages (e.g. 2022) listed, too distant to substitute as adjacent",insufficient,2026-09-07,0
@@ -2516,6 +2632,8 @@ virginie de valandraud blanc|2024|750,Virginie de Valandraud Blanc,2024,750,40,"
 virginie de valandraud|2016|750,Virginie de Valandraud,2016,750,65.0,Wine-Searcher average retail 2016 Virginie de Valandraud $65/750ml,ws_vintage,2026-09-21,0
 virna di borgogno barolo noi|2018|750,Virna di Borgogno Barolo Noi,2018,750,40,"Wine-Searcher average retail, vintage-specific",ws_vintage,2026-08-24,0
 virna di borgogno barolo sarmassa|2013|1500,Virna di Borgogno Barolo Sarmassa,2013,1500,,"Insufficient data - searched, results were Roberto Voerzio (different producer)",insufficient,2026-10-05,0
+vite colte barolo riserva essenze|2008|1500,Vite Colte Barolo Riserva Essenze,2008,1500,,Insufficient data: no Essenze 2008 1.5L price found (searched once),insufficient,2026-10-05,0
+viuva jose gomes da silva and filhos colares reserva tinto|1967|650,Viuva José Gomes da Silva & Filhos Colares Reserva Tinto,1967,650,,Insufficient data: only GBP prices (searched once),insufficient,2026-10-05,0
 voerzio martini barolo cerequio|2018|750,Voerzio Martini Barolo Cerequio,2018,750,,"Insufficient data - searched, results were Roberto Voerzio (different producer)",insufficient,2026-10-05,0
 voerzio martini barolo monvigliero|2018|750,Voerzio Martini Barolo Monvigliero,2018,750,,"Insufficient data - searched, no Voerzio Martini Monvigliero price found",insufficient,2026-10-05,0
 walter lodali barolo bricco ambrogio|2019|750,Walter Lodali Barolo Bricco Ambrogio,2019,750,,candidate retailer pages showed no price or were blocked (out of stock),insufficient,2026-09-01,0
@@ -2550,8 +2668,10 @@ xavier vignon chateauneuf du pape la reserve vii ix x|NV|1500,Xavier Vignon Chat
 y lancelot wanner brut grand cru chardonnay reserve|NV|750,Y. Lancelot-Wanner Brut Grand Cru Chardonnay Reserve,NV,750,32,"Wine-Searcher average retail (€30/750ml converted to USD), all-vintage",ws_allvintage,2026-09-07,0
 yves cuilleron cote rotie lieu dit bonnivieres|2019|750,Yves Cuilleron Côte-Rôtie Lieu-dit Bonnivieres,2019,750,72,"Single retailer listing (Millesima), vintage-specific",ws_single_retailer,2026-08-24,0
 zenato amarone della valpolicella classico|2016|750,Zenato Amarone della Valpolicella Classico,2016,750,,Stage 1: no price figure returned,insufficient,2026-09-28,0
+zenato valpolicella superiore ripassa|2005|750,Zenato Valpolicella Superiore Ripassa,2005,750,,Insufficient data: no 2005 price; only current Costco vintage (searched once),insufficient,2026-10-05,0
 zind humbrecht gewurztraminer|2020|750,Zind-Humbrecht Gewurztraminer,2020,750,40,"Estimate from general knowledge (base-tier Zind-Humbrecht Gewurztraminer, e.g. Turckheim bottling)",estimate,2026-08-24,0
 zind humbrecht pinot gris rangen de thann clos st urbain|1996|750,Zind-Humbrecht Pinot Gris Rangen de Thann Clos St. Urbain,1996,750,,No 1996 price at any source; only current-vintage average $125; searched twice; no reliable price found,insufficient,2026-09-21,0
 zind humbrecht pinot gris rangen de thann clos st urbain|2021|750,Zind-Humbrecht Pinot Gris Rangen de Thann Clos St. Urbain,2021,750,125.0,Wine-Searcher average retail Zind-Humbrecht Pinot Gris Rangen de Thann Clos St Urbain $125/750ml (2021 page not vintage-tied; Woodland Hills $104.95 on sale from $140),ws_allvintage,2026-09-21,0
 zind humbrecht riesling brand turckheim|1990|750,Zind-Humbrecht Riesling Brand Turckheim,1990,750,,"only the Vendange Tardive (late harvest) bottling was found in market, not a match for our dry lot",insufficient,2026-09-01,0
 zind humbrecht tokay pinot gris heimbourg turckheim selection des grains nobles|2000|375,Zind-Humbrecht Tokay Pinot Gris Heimbourg Turckheim Selection des Grains Nobles,2000,375,55,"Wine-Searcher average price $110/750ml across vintages, not clearly 2000-specific, scaled x0.5 for 375ml half-bottle",ws_allvintage,2026-09-28,0
+zind humbrecht tokay pinot gris hunawihr clos windsbuhl|1993|375,Zind-Humbrecht Tokay Pinot Gris Hunawihr Clos Windsbuhl,1993,375,,Insufficient data: no 1993 375ml price; only 1994 750ml (searched twice),insufficient,2026-10-05,0
