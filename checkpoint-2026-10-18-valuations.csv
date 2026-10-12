@@ -1,0 +1,319 @@
+id,wine,vintage,format,wine_type,region,country_code,reserve,market,source,source_type
+10912895,Domaine Huet Vouvray Le Haut-Lieu Sec,2019,750ml,White,"France, Loire Valley, Vouvray",FR,45,40,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10912788,Château Canon,2020,750ml,Red,"France, Bordeaux, St.-Émilion",FR,145,230,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage
+10914583,Luce della Vite Toscana Luce,2021,750ml,Red,"Italy, Tuscany",IT,80,99.95,Tarzana Wine & Spirits lists Luce 2021 (the flagship not Lucente) at $99.95 (single retailer),ws_single_retailer
+10912768,Chateau de Beaucastel Châteauneuf-du-Pape,2010,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,135,122.5,"Wine-Searcher, $110-$135/750ml range, vintage-specific (2010), plain rouge, midpoint used",ws_vintage
+10920340,Monteverro Tinata,2018,750ml,Red,"Italy, Tuscany",IT,75,186,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10914109,Romano Dal Forno Valpolicella Superiore,2018,750ml,Red,"Italy, Veneto",IT,95,153.0,Wine-Searcher 2018 vintage page for Dal Forno Vigneto Monte Lodoletta Valpolicella Superiore (the estate's only Valpolicella Superiore; auction name omits the vineyard),ws_vintage
+10914875,Château Leoville-Barton,2023,750ml,Red,"France, Bordeaux, St.-Julien",FR,95,114,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10914819,Veuve Clicquot Ponsardin Brut Rosé,NV,750ml,Sparkling,"France, Champagne",FR,50,67.4,"saratogawine.com, NV exact match",ws_vintage
+10914676,Veuve Clicquot Ponsardin Brut Rosé,NV,750ml,Sparkling,"France, Champagne",FR,50,67.4,"saratogawine.com, NV exact match",ws_vintage
+10914829,Benjamin Rothschild & Vega Sicilia Rioja Macan,2020,750ml,Red,"Spain, Rioja",ES,80,109.99,Total Wine lists Vega Sicilia & Rothschild Macan 2020 at $109.99 (single retailer; the $60 Wine-Searcher figure is for Macan Clasico a different wine),ws_single_retailer
+10914838,Fattoria Petrolo Vigna Boggina C Riserva,2021,750ml,Red,"Italy, Tuscany, Val d’Arno di Sopra",IT,45,75.0,US listing of Petrolo Boggina C 2021 at $75.00 (SF Wine Trading lists $89.94); lower used,ws_single_retailer
+10914848,Moet et Chandon Brut Imperial,NV,750ml,Sparkling,"France, Champagne",FR,35,49.99,"marketviewliquor.com, NV exact match",ws_vintage
+10920268,Moet et Chandon Brut Imperial,NV,750ml,Sparkling,"France, Champagne",FR,35,49.99,"marketviewliquor.com, NV exact match",ws_vintage
+10912775,Lopez de Heredia Rioja Vina Bosconia Reserva,2009,750ml,Red,"Spain, Rioja",ES,45,36.99,"Zachys Wine & Liquor $36.99/750ml, vintage-specific (2009)",ws_vintage
+10914629,Dominio de Calogía Ribera del Duero,2021,750ml,Red,"Spain, Castilla-Leon, Ribera del Duero",ES,60,150.0,Wine-Searcher average retail 2021 Dominio de Calogia Ribera del Duero $150/750ml (critic score 92),ws_vintage
+10920621,Ruinart Brut Rosé,NV,750ml,Sparkling,"France, Champagne",FR,70,112,"Wine-Searcher average retail, US average",ws_vintage
+10912834,Domaine du Pegau Chateauneuf-du-Pape Cuvee Reservee,2010,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,135,127,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10912835,Domaine du Pegau Chateauneuf-du-Pape Cuvee Reservee,2010,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,135,127,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10914068,Podere Poggio Scalette Il Carbonaione,2010,750ml,Red,"Italy, Tuscany, Alta Valle della Greve",IT,65,72,"Wine-Searcher average price (ex-tax) $72/750ml, vintage-specific (2010), 92pt",ws_vintage
+10914727,Domaine du Vieux Telegraphe Châteauneuf-du-Pape,2023,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,80,114,"Wine-Searcher average retail (ex-tax), vintage-specific 2023 page (La Crau, the estate's principal red)",ws_vintage
+10914746,Domaine du Vieux Telegraphe Châteauneuf-du-Pape,2023,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,80,114,"Wine-Searcher average retail (ex-tax), vintage-specific 2023 page (La Crau, the estate's principal red)",ws_vintage
+10914914,Vega Sicilia Alion,2020,750ml,Red,"Spain, Castilla-Leon, Ribera del Duero",ES,130,132.0,Wine-Searcher average retail 2020 Vega Sicilia Alion $132/750ml,ws_vintage
+10913002,Château Pape-Clement,2015,750ml,Red,"France, Bordeaux, Graves",FR,130,141.0,Wine-Searcher average retail 2015 Chateau Pape-Clement $141/750ml (retailers $145-$157),ws_vintage
+10914628,La Rioja Alta Gran Reserva 904 Seleccion Especial,2015,750ml,Red,"Spain, Rioja",ES,85,108.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2015 page (904 Seleccion Especial)",ws_vintage
+10914702,Veuve Clicquot Ponsardin Rich Rose,NV,750ml,Sparkling,"France, Champagne",FR,55,79.0,Wine-Searcher average retail Veuve Clicquot Rich Rose NV $79/750ml,ws_allvintage
+10914735,Domaine Grand Veneur Châteauneuf-du-Pape Vieilles Vignes,2022,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,40,139.99,Yiannis Wine lists 2022 Domaine Grand Veneur CdP Vieilles Vignes at $139.99 (fetched; Total Wine $149.99 and Wine-Searcher avg $146 corroborate; JJ Buckley 2021 $89.94 is a different vintage); lowest exact-vintage retailer used,ws_single_retailer
+10920378,Lopez de Heredia Rioja Vina Tondonia Reserva,2012,750ml,Red,"Spain, Rioja",ES,60,65.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2012 page (Vina Tondonia Reserva red)",ws_vintage
+10921314,Bodegas Morca Garnaca Touran,2018,750ml,Red,"Spain, Aragon, Campo De Borja",ES,80,140,"Wine-Searcher average retail, vintage-specific 2018 page (Total Wine CA $129.99-$144.99)",ws_vintage
+10914588,Il Poggione Brunello di Montalcino,2019,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,55,90.0,"Wine-Searcher average retail (ex-tax) $90, all-vintage average for Il Poggione Brunello di Montalcino; 2019 is a recent release of the same cuvee",ws_allvintage
+10914886,Joseph Perrier Cuvee Royale Brut Rose,NV,750ml,Sparkling,"France, Champagne",FR,30,75.0,"Wine-Searcher average retail (ex-tax), NV Joseph Perrier Cuvee Royale Brut Rose page",ws_allvintage
+10921153,Château Pontet-Canet,2011,750ml,Red,"France, Bordeaux, Pauillac",FR,105,158,"Wine-Searcher average price (ex-tax) $158/750ml, vintage-specific (2011)",ws_vintage
+10914655,Le Chemin du Roi Brut,NV,375ml,Sparkling,"France, Champagne",FR,30,79.94,"saratogawine.com, NV exact match, exact 375ml format",ws_vintage
+10914772,Canalicchio di Sopra Brunello di Montalcino,2019,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,55,67.99,Zachys lists Canalicchio di Sopra Brunello 2019 at $67.99 (Wine-Searcher avg $108 conflicts and is not used; conservative),ws_single_retailer
+10914661,Grattamacco Bolgheri Superiore Grattamacco,2021,750ml,Red,"Italy, Tuscany, Bolgheri",IT,85,99.99,Zachys lists Grattamacco Bolgheri Superiore 2021 at $99.99 (case pricing $80-$82 elsewhere),ws_single_retailer
+10914598,Grattamacco Bolgheri Superiore Grattamacco,2021,750ml,Red,"Italy, Tuscany, Bolgheri",IT,85,99.99,Zachys lists Grattamacco Bolgheri Superiore 2021 at $99.99 (case pricing $80-$82 elsewhere),ws_single_retailer
+10913066,Lopez de Heredia Rioja Vina Tondonia Reserva,2001,750ml,Red,"Spain, Rioja",ES,120,145,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10914677,Masi Costasera Amarone della Valpolicella Classico,2017,750ml,Red,"Italy, Veneto, Amarone della Valpolicella",IT,40,64.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2017 page",ws_vintage
+10914678,Masi Costasera Amarone della Valpolicella Classico,2017,750ml,Red,"Italy, Veneto, Amarone della Valpolicella",IT,40,64.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2017 page",ws_vintage
+10914803,Masi Costasera Amarone della Valpolicella Classico,2017,750ml,Red,"Italy, Veneto, Amarone della Valpolicella",IT,40,64.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2017 page",ws_vintage
+10912779,La Rioja Alta Gran Reserva 904,2007,750ml,Red,"Spain, Rioja",ES,145,135,"Wine-Searcher, ~$135/750ml, vintage-specific (2007), 93pt WS / 97pt JS",ws_vintage
+10913238,Domaine Robert Chevillon Nuits-Saint-Georges Vieilles Vignes,2022,750ml,Red,"France, Burgundy, Côte d'Or",FR,60,113,"Wine-Searcher average price $113/750ml, vintage-specific (2022), 88pt",ws_vintage
+10913077,Faustino I Tinto Gran Reserva,2001,750ml,Red,"Spain, Rioja",ES,60,127,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10914631,Dominio de Calogía Ribera del Duero,2019,750ml,Red,"Spain, Castilla-Leon, Ribera del Duero",ES,45,150.0,Wine-Searcher average retail Dominio de Calogia Ribera del Duero ~$150/750ml (RoomBox lists the 2019 at $152.48; UK Vinissimus GBP 101),ws_vintage
+10914861,Veuve Clicquot Ponsardin Rich,NV,750ml,Sparkling,"France, Champagne",FR,40,65.99,Veuve Clicquot Rich NV 750ml: Wine-Searcher retailer range $54.99-$65.99; direct listings Lisa's $69.99 Caskers $70.99 CWSpirits $74.99; used top of the WS-listed range,ws_single_retailer
+10914840,Masi Costasera Amarone della Valpolicella Classico,2020,750ml,Red,"Italy, Veneto, Amarone della Valpolicella",IT,35,68.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage
+10914590,Rotem & Mounir Saouma Chateauneuf du Pape Blanc Magis,2021,750ml,White,"France, Rhône Valley, Southern Rhône",FR,100,157.0,Wine-Searcher price on 2021 vintage page (all-vintage avg $148),ws_vintage
+10920276,Luciano Sandrone Barolo Le Vigne,2017,750ml,Red,"Italy, Piedmont, Barolo",IT,90,140.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2017 page",ws_vintage
+10914754,Bodegas Pintia Toro Pintia,2020,750ml,Red,"Spain, Castilla-Leon, Toro",ES,90,112,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page (Vega Sicilia Pintia)",ws_vintage
+10913145,E. Guigal Hermitage,2000,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,85,99.0,"cellaraiders.com, exact vintage match",ws_vintage
+10912778,Trimbach Riesling Cuvee Frederic-Emile,2016,750ml,White,"France, Alsace",FR,95,104.0,Wine-Searcher average retail ~$104/750ml for F E Trimbach Cuvee Frederic Emile (2016 page returned; average not explicitly vintage-tied),ws_allvintage
+10912844,Trimbach Riesling Cuvee Frederic-Emile,2016,750ml,White,"France, Alsace",FR,95,104.0,Wine-Searcher average retail ~$104/750ml for F E Trimbach Cuvee Frederic Emile (2016 page returned; average not explicitly vintage-tied),ws_allvintage
+10921144,Château Leoville-Poyferre,2016,750ml,Red,"France, Bordeaux, St.-Julien",FR,130,146,"Wine-Searcher average price (ex-tax) $146/750ml, vintage-specific (2016)",ws_vintage
+10914897,Louis Latour Meursault,2024,750ml,White,"France, Burgundy, Côte d'Or",FR,55,90.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2024 page",ws_vintage
+10914594,Castello di Volpaia Balifico,2020,750ml,Red,"Italy, Tuscany",IT,65,108,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage
+10914769,Château Haut-Bailly,2021,750ml,Red,"France, Bordeaux, Graves",FR,75,134,"Wine-Searcher average retail (ex-tax), vintage-specific 2021 page",ws_vintage
+10913562,Château Charmail,2018,750ml,Red,"France, Bordeaux, Haut-Médoc",FR,50,24.99,"Wine.com retail listing (2016 vintage, adjacent)",ws_adjacent
+10914562,M. Chapoutier Domaine de Bila-Haut Occultum Lapidem,2013,750ml,Red,"France, Languedoc-Roussillon, Cotes du Roussillon",FR,20,35,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10914563,M. Chapoutier Domaine de Bila-Haut Occultum Lapidem,2013,750ml,Red,"France, Languedoc-Roussillon, Cotes du Roussillon",FR,20,35,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10920397,Château Pavie-Macquin,2016,750ml,Red,"France, Bordeaux, St.-Émilion",FR,95,139.0,US retailer $139 for 2016 Pavie-Macquin 750ml (search snippet),ws_single_retailer
+10914652,Taittinger Brut La Francaise,NV,750ml,Sparkling,"France, Champagne",FR,35,65,Wine-Searcher average retail,ws_vintage
+10914905,Taittinger Brut La Francaise,NV,750ml,Sparkling,"France, Champagne",FR,35,65,Wine-Searcher average retail,ws_vintage
+10914737,Chateau de Beaucastel Châteauneuf-du-Pape,2023,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,85,108,"Wine-Searcher average retail (ex-tax), vintage-specific 2023 page",ws_vintage
+10920023,G.D. Vajra Barolo Bricco delle Viole,2016,750ml,Red,"Italy, Piedmont, Barolo",IT,120,104,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10920024,G.D. Vajra Barolo Bricco delle Viole,2016,750ml,Red,"Italy, Piedmont, Barolo",IT,120,104,"Wine-Searcher average retail, vintage-specific",ws_vintage
+10913235,Marques de Riscal Rioja Gran Reserva 150 Aniversario,2017,750ml,Red,"Spain, Rioja",ES,75,112.0,"Wine-Searcher average retail (ex-tax), all-vintage average for Marques de Riscal 150th Aniversario Gran Reserva; 2017 same cuvee, not vintage-tied",ws_allvintage
+10914626,Château Guillot Clauzel,2019,750ml,Red,"France, Bordeaux, Pomerol",FR,55,99.0,Wine-Searcher average retail Chateau Guillot Clauzel $99/750ml US (not tied to 2019),ws_allvintage
+10913078,Lopez de Heredia Rioja Vina Bosconia Reserva,2004,750ml,Red,"Spain, Rioja",ES,65,210,"Wine-Searcher average price $210/750ml, vintage-specific (2004)",ws_vintage
+10920342,Luce della Vite Toscana Luce,2022,750ml,Red,"Italy, Tuscany",IT,50,120.0,Wine-Searcher average retail Tenuta Luce Luce Toscana ~$120/750ml (not tied to 2022; the 2021 retails at $99.95),ws_allvintage
+10914605,Luce della Vite Toscana Luce,2022,750ml,Red,"Italy, Tuscany",IT,50,120.0,Wine-Searcher average retail Tenuta Luce Luce Toscana ~$120/750ml (not tied to 2022; the 2021 retails at $99.95),ws_allvintage
+10914606,Luce della Vite Toscana Luce,2022,750ml,Red,"Italy, Tuscany",IT,50,120.0,Wine-Searcher average retail Tenuta Luce Luce Toscana ~$120/750ml (not tied to 2022; the 2021 retails at $99.95),ws_allvintage
+10914771,Masi Costasera Amarone della Valpolicella Classico,2019,750ml,Red,"Italy, Veneto, Amarone della Valpolicella",IT,35,69.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2019 page",ws_vintage
+10914804,Masi Costasera Amarone della Valpolicella Classico,2018,750ml,Red,"Italy, Veneto, Amarone della Valpolicella",IT,40,70.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2018 page",ws_vintage
+10914592,Bacci Dimarco,2021,750ml,Red,"Italy, Tuscany",IT,25,,"Insufficient data - single-retailer snippet ($124.99) implausibly far above the $25 reserve; unverified, withdrawn from deals",insufficient
+10914591,Bacci Dimarco,2021,750ml,Red,"Italy, Tuscany",IT,25,,"Insufficient data - single-retailer snippet ($124.99) implausibly far above the $25 reserve; unverified, withdrawn from deals",insufficient
+10912874,Chateau la Nerthe Châteauneuf-du-Pape,2020,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,45,68,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage
+10914630,Dominio de Calogía Ribera del Duero,2020,750ml,Red,"Spain, Castilla-Leon, Ribera del Duero",ES,45,150.0,Wine-Searcher average retail Dominio de Calogia Ribera del Duero ~$150/750ml (not tied to 2020; RoomBox lists the 2019 at $152.48),ws_allvintage
+10914701,Mouzon-Leroux & Fils Grand Cru L'Atavique Tradition,NV,750ml,Sparkling,"France, Champagne",FR,40,67.99,Flatiron Wines lists Mouzon-Leroux L'Atavique Tradition NV at $67.99 (WS avg $83 and other retailers $52.95-$68 conflict; mid-range list price used),ws_single_retailer
+10914714,Terralsole Brunello di Montalcino Riserva,2012,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,55,110.0,Wine-Searcher 2012 vintage price (~$110) for Terralsole Riserva,ws_vintage
+10920271,Castellare di Castellina I Sodi di San Niccolò,2020,750ml,Red,"Italy, Tuscany",IT,65,134,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage
+10914866,Château Valandraud,2021,750ml,Red,"France, Bordeaux, St.-Émilion",FR,115,148,"Wine-Searcher average retail (ex-tax), vintage-specific 2021 page",ws_vintage
+10914641,Bertani Amarone della Valpolicella Classico,2015,750ml,Red,"Italy, Veneto, Amarone della Valpolicella",IT,115,149,"Wine-Searcher average retail (ex-tax), vintage-specific 2015 page",ws_vintage
+10913069,Lopez de Heredia Rioja Vina Tondonia Reserva,2010,750ml,Red,"Spain, Rioja",ES,75,68,"Wine-Searcher average price $68/750ml across vintages, not clearly 2010-specific",ws_allvintage
+10914752,Perrier-Jouet Grand Brut (Label #7),NV,750ml,Sparkling,"France, Champagne",FR,40,64,"Wine-Searcher average retail, USA average",ws_vintage
+10914809,Perrier-Jouet Grand Brut (Label #7),NV,750ml,Sparkling,"France, Champagne",FR,40,64,"Wine-Searcher average retail, USA average",ws_vintage
+10914662,Marchesi di Frescobaldi Castelgiocondo Brunello di Montalcino Riserva,2019,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,75,122.0,Wine-Searcher average retail Castelgiocondo Brunello Riserva (Ripe al Convento) ~$122/750ml (Hi-Time lists the 2019 at $136.99); lot taken as that Riserva,ws_allvintage
+10920013,F.lli Alessandria Barolo Monvigliero,2013,750ml,Red,"Italy, Piedmont, Barolo",IT,80,63.95,"Liquors Inc (Berkshires, MA) $63.95/750ml, vintage-specific (2013), 94pt",ws_single_retailer
+10920631,Château Montrose,2008,750ml,Red,"France, Bordeaux, St.-Estephe",FR,115,149,"Wine-Searcher average retail (ex-tax), vintage-specific 2008 page",ws_vintage
+10914575,Veuve Clicquot Ponsardin Brut,NV,750ml,Sparkling,"France, Champagne",FR,40,76,Wine-Searcher average retail (Yellow Label Brut NV),ws_vintage
+10914576,Veuve Clicquot Ponsardin Brut,NV,750ml,Sparkling,"France, Champagne",FR,40,76,Wine-Searcher average retail (Yellow Label Brut NV),ws_vintage
+10920267,Veuve Clicquot Ponsardin Brut,NV,750ml,Sparkling,"France, Champagne",FR,40,76,Wine-Searcher average retail (Yellow Label Brut NV),ws_vintage
+10914917,Veuve Clicquot Ponsardin Brut,NV,750ml,Sparkling,"France, Champagne",FR,40,76,Wine-Searcher average retail (Yellow Label Brut NV),ws_vintage
+10914596,Fontodi Chianti Classico Gran Selezione Vigna del Sorbo,2020,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,55,125.0,"Wine-Searcher average retail (ex-tax), vintage-specific 2020 page",ws_vintage
+10920275,Château Montrose,2014,750ml,Red,"France, Bordeaux, St.-Estephe",FR,130,189,"Wine-Searcher average retail (ex-tax), vintage-specific 2014 page",ws_vintage
+10920380,Famille Isabel Ferrando Châteauneuf-du-Pape Saint Préfert,2020,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,50,103.0,Wine-Searcher average retail Famille Isabel Ferrando Saint Prefert Chateauneuf-du-Pape $103/750ml (Heritage Cellar lists the 2020 at $105),ws_allvintage
+10920284,Henriot Souverain Brut,NV,750ml,Sparkling,"France, Champagne",FR,35,58,"Wine-Searcher average retail, NV",ws_allvintage
+10914672,Pieve Santa Restituta (Gaja) Brunello di Montalcino,2020,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,70,114.0,"Wine-Searcher average retail (ex-tax), all-vintage average for Gaja Pieve Santa Restituta Brunello; 2020 recent release",ws_allvintage
+10914818,Moet et Chandon Brut Imperial Rose,NV,750ml,Sparkling,"France, Champagne",FR,50,66.99,"totalwine.com, NV exact match",ws_vintage
+10920591,Albert Bichot Red Bordeaux Table Wine,1969,750ml,Red,"France, Bordeaux, Margaux",FR,50,50.0,Estimate from general knowledge of collector-grade wine prices (not sourced): 1969 Bichot Bordeaux table wine; no listing found,estimate
+10913240,Albert Morot Beaune Aigrots,2022,750ml,Red,"France, Burgundy, Côte d'Or",FR,55,73.0,Wine-Searcher average retail 2022 Albert Morot Beaune Les Aigrots Rouge (extended search snippet),ws_vintage
+10920017,Aldo Conterno Barolo Bussia Cicala,2011,750ml,Red,"Italy, Piedmont, Barolo",IT,130,178.0,Wine-Searcher average retail 2011 Poderi Aldo Conterno Bussia Cicala,ws_vintage
+10920015,Aldo Conterno Barolo Bussia Cicala,2012,750ml,Red,"Italy, Piedmont, Barolo",IT,125,150.0,Wine-Searcher average retail 2012 Poderi Aldo Conterno Bussia Cicala,ws_vintage
+10920016,Aldo Conterno Barolo Bussia Cicala,2013,750ml,Red,"Italy, Piedmont, Barolo",IT,140,134.0,Wine-Searcher retailer range $119-$149 for 2013 Conterno Cicala; midpoint used,ws_vintage
+10920018,Aldo Conterno Barolo Bussia Cicala,2022,750ml,Red,"Italy, Piedmont, Barolo",IT,115,158.0,Wine-Searcher average retail 2022 Poderi Aldo Conterno Bussia Cicala,ws_vintage
+10920019,Aldo Conterno Barolo Bussia Colonnello,2013,750ml,Red,"Italy, Piedmont, Barolo",IT,125,139.0,Wine-Searcher average retail 2013 Poderi Aldo Conterno Colonnello,ws_vintage
+10913618,Allegrini Palazzo della Torre,2009,750ml,Red,"Italy, Veneto, Veronese",IT,20,19.0,Wine-Searcher average retail 2009 Allegrini Palazzo della Torre,ws_vintage
+10921225,Altesino Brunello di Montalcino,2012,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,70,65.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Altesino Brunello 2012 base; WS only showed Riserva ($115) which was rejected as cuvee mismatch,estimate
+10921224,Altesino Brunello di Montalcino,2012,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,70,65.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Altesino Brunello 2012 base; WS only showed Riserva ($115) which was rejected as cuvee mismatch,estimate
+10921174,Altesino Brunello di Montalcino,2015,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,60,72.0,Wine-Searcher average retail 2015 Altesino Brunello di Montalcino,ws_vintage
+10914071,Anne-Sophie Dubois Fleurie L'Alchimiste,2020,750ml,Red,"France, Beaujolais, Fleurie",FR,25,29.0,Wine-Searcher average retail 2020 Anne-Sophie Dubois Fleurie l'Alchimiste,ws_vintage
+10914070,Anne-Sophie Dubois Fleurie L'Alchimiste,2022,750ml,Red,"France, Beaujolais, Fleurie",FR,35,33.0,Wine-Searcher retailer prices $30-$35 for 2022 Dubois Fleurie l'Alchimiste; midpoint,ws_vintage
+10912639,Antichi Vigneti di Cantalupo Ghemme Collis Breclemae,2013,750ml,Red,"Italy, Piedmont, Ghemme",IT,40,70.0,Estimate from general knowledge of collector-grade wine prices (not sourced): 2013 Cantalupo Collis Breclemae; anchored on 2016 avg $65,estimate
+10912640,Antichi Vigneti di Cantalupo Ghemme Collis Breclemae,2016,750ml,Red,"Italy, Piedmont, Ghemme",IT,50,65.0,Wine-Searcher average retail 2016 Antichi Vigneti di Cantalupo Collis Breclemae,ws_vintage
+10920020,Antoine Jobard Meursault,2021,750ml,White,"France, Burgundy, Côte d'Or",FR,105,120.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Jobard village Meursault 2021; WS showed only Blagny 1er ($290),estimate
+10913102,Antoine Jobard Saint Aubin Sur Le Sentier du Clou,2016,750ml,White,"France, Burgundy, Côte d'Or",FR,65,164.0,Wine-Searcher all-vintage average Antoine Jobard Sur le Sentier du Clou,ws_allvintage
+10913641,Antonella Corda Cannonau di Sardegna,2021,750ml,Red,"Italy, Sardinia, Cannonau di Sardegna",IT,20,29.0,Wine-Searcher all-vintage average Antonella Corda Cannonau di Sardegna GBP22 converted to USD,ws_allvintage
+10914098,AR.PE.PE. Valtellina Superiore - Grumello Sant'Antonio Riserva,2013,750ml,Red,"Italy, Lombardy, Valtellina Superiore",IT,140,82.0,Wine-Searcher average retail 2013 Ar.Pe.Pe. Grumello Sant'Antonio Riserva,ws_vintage
+10914611,Argiano Brunello di Montalcino,2020,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,60,80.0,Wine-Searcher retailer prices $74.50-$89.99 for 2020 Argiano Brunello; midpoint,ws_vintage
+10913669,Argiolas Cannonau di Sardegna Costera,2014,750ml,Red,"Italy, Sardinia, Cannonau di Sardegna",IT,20,17.0,Wine-Searcher all-vintage average Argiolas Costera Cannonau di Sardegna,ws_allvintage
+10913605,Argiolas Vermentino di Sardegna  IS Argiolas,2020,750ml,White,"Italy, Sardinia, Vermentino di Sardegna",IT,20,23.0,Wine-Searcher all-vintage average Argiolas Is Argiolas Vermentino di Sardegna,ws_allvintage
+10913604,Argiolas Vermentino di Sardegna  IS Argiolas,2020,750ml,White,"Italy, Sardinia, Vermentino di Sardegna",IT,20,23.0,Wine-Searcher all-vintage average Argiolas Is Argiolas Vermentino di Sardegna,ws_allvintage
+10913035,Artadi Rioja El Carretil,2016,750ml,Red,"Spain, Rioja",ES,145,227.0,Wine-Searcher average retail 2016 Artadi El Carretil,ws_vintage
+10912848,Artadi Rioja Vinas de Gain,2001,750ml,Red,"Spain, Rioja",ES,50,38.0,Wine-Searcher all-vintage average Artadi Vinas de Gain,ws_allvintage
+10912849,Artadi Rioja Vinas de Gain,2005,750ml,Red,"Spain, Rioja",ES,50,35.0,Wine-Searcher all-vintage average Artadi Vinas de Gain,ws_allvintage
+10914889,Au Pied du Mont Chauve Meursault,2020,750ml,White,"France, Burgundy, Côte d'Or",FR,55,110.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Au Pied du Mont Chauve Meursault 2020; no listing found,estimate
+10914136,Auguste Clape Cornas,2019,750ml,Red,"France, Rhône Valley, Northern Rhône",FR,130,193.0,Wine-Searcher average retail 2019 Domaine Auguste Clape Cornas,ws_vintage
+10913226,Ayala Brut Chateau d'Ay Blanc de Blancs,1976,750ml,Sparkling,"France, Champagne",FR,150,150.0,Estimate from general knowledge of collector-grade wine prices (not sourced): 1976 Ayala Brut Chateau d'Ay Blanc de Blancs; no listing,estimate
+10913831,Bader-Mimeur Chateau de Chassagne Montrachet Chassagne-Montrachet,2014,750ml,Red,"France, Burgundy, Côte d'Or",FR,45,60.0,Wine-Searcher 2014 Bader-Mimeur Chateau de Chassagne-Montrachet Rouge listed ~$60,ws_vintage
+10912847,Baron de Magana,2007,750ml,Red,"Spain, Navarra",ES,20,40.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Baron de Magana 2007 Navarra; no price in snippet,estimate
+10914644,Barone Ricasoli Chianti Classico Gran Selezione Gaiole Colledila,2020,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,50,91.0,Wine-Searcher average retail Barone Ricasoli Colledila Gran Selezione 2020,ws_vintage
+10914580,Barone Ricasoli Chianti Classico Gran Selezione Gaiole Colledila,2021,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,55,94.0,Wine-Searcher average retail 2021 Barone Ricasoli Colledila,ws_vintage
+10914710,Barone Ricasoli Chianti Classico Gran Selezione Gaiole Colledila,2021,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,55,94.0,Wine-Searcher average retail 2021 Barone Ricasoli Colledila,ws_vintage
+10914610,Barone Ricasoli Chianti Classico Gran Selezione Roncicone,2021,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,55,94.0,Wine-Searcher average retail 2021 Barone Ricasoli Roncicone,ws_vintage
+10914041,Bastian Wolber (Laisse Tomber) Gamay,2022,750ml,Red,France,FR,50,74.0,Wine-Searcher all-vintage average Bastian Wolber Laisse Tomber Gamay,ws_allvintage
+10914042,Bastian Wolber (Laisse Tomber) Gamay,2023,750ml,Red,France,FR,50,74.0,Wine-Searcher all-vintage average Bastian Wolber Laisse Tomber Gamay,ws_allvintage
+10914129,Bastian Wolber (Laisse Tomber) Sur les Rails,2023,750ml,Red,France,FR,60,55.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Wolber Sur les Rails 2023; no listing found,estimate
+10913723,Bellini Amarone della Valpolicella Classico,2012,1.5ltr,Red,"Italy, Veneto, Amarone della Valpolicella",IT,50,110.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Bellini (Villabellini) Amarone 2012 magnum; ~$50 per 750ml x2.2,estimate
+10913729,Bellini Amarone della Valpolicella Classico,2013,750ml,Red,"Italy, Veneto, Amarone della Valpolicella",IT,20,50.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Bellini (Villabellini) Amarone Classico 2013; no price in snippet,estimate
+10913748,Benito Ferrara Greco di Tufo Vigna Cicogna,2014,750ml,White,"Italy, Campania, Greco di Tufo",IT,20,36.0,Wine-Searcher all-vintage average Benito Ferrara Vigna Cicogna Greco di Tufo,ws_allvintage
+10913755,Benito Ferrara Greco di Tufo Vigna Cicogna,2014,750ml,White,"Italy, Campania, Greco di Tufo",IT,20,36.0,Wine-Searcher all-vintage average Benito Ferrara Vigna Cicogna Greco di Tufo,ws_allvintage
+10914753,Benjamin Rothschild & Vega Sicilia Rioja Macan,2019,750ml,Red,"Spain, Rioja",ES,75,100.0,Wine-Searcher retailer range $80-$125 for 2019 Macan; midpoint,ws_vintage
+10920393,Bernard Dugat-Py Monthelie Tres Vielles Vignes,2020,750ml,Red,"France, Burgundy, Côte d'Or",FR,85,119.0,Wine-Searcher average retail 2020 Dugat-Py Monthelie Tres Vieilles Vignes,ws_vintage
+10913606,Bertrand-Gabriel Vigouroux Bourgogne-Aligoté,2016,750ml,White,"France, Burgundy, Bourgogne Aligoté",FR,20,25.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Vigouroux Bourgogne Aligote 2016; no listing,estimate
+10913732,Biecher & Schaal Riesling Schoenenbourg,2015,750ml,White,"France, Alsace, Schoenenbourg",FR,20,45.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Biecher & Schaal Riesling Schoenenbourg Grand Cru 2015; no price found,estimate
+10913087,Bodegas Aalto Ribera del Duero,2015,750ml,Red,"Spain, Castilla-Leon, Ribera del Duero",ES,55,55.0,Wine-Searcher average retail 2015 Bodegas Aalto,ws_vintage
+10913617,Bodegas Altanza Rioja Lealtanza Artistas Españoles Goya Reserva,2008,750ml,Red,"Spain, Rioja",ES,40,55.0,Wine-Searcher price ~$53-57 Altanza Lealtanza Goya Reserva,ws_allvintage
+10913602,Bodegas Altanza Rioja Reserva Lealtanza,2010,750ml,Red,"Spain, Rioja",ES,25,49.0,Wine-Searcher average retail 2010 Altanza Seleccion Especial Reserva (formerly Lealtanza),ws_vintage
+10913612,Bodegas Altanza Rioja Seleccion Especial Reserva,2010,750ml,Red,"Spain, Rioja",ES,30,49.0,Wine-Searcher average retail 2010 Altanza Seleccion Especial Reserva,ws_vintage
+10913668,Bodegas Altanza Rioja Seleccion Especial Reserva,2010,750ml,Red,"Spain, Rioja",ES,30,49.0,Wine-Searcher average retail 2010 Altanza Seleccion Especial Reserva,ws_vintage
+10913041,Bodegas Corral Rioja Gran Reserva,1976,750ml,Red,"Spain, Rioja",ES,135,210.0,Wine-Searcher average retail 1976 Bodegas Corral Don Jacobo Gran Reserva,ws_vintage
+10914909,Bodegas El Nido El Nido,2021,750ml,Red,"Spain, The Levant, Jumilla",ES,115,190.0,Wine-Searcher retailer range $180-$200 for 2021 El Nido; midpoint,ws_vintage
+10921313,Bodegas Morca Garnaca Touran,2020,750ml,Red,"Spain, Aragon, Campo De Borja",ES,70,135.0,Wine-Searcher average retail Bodegas Morca Touran (all vintages),ws_allvintage
+10913084,Bodegas Muga Rioja Prado Enea Gran Reserva,2010,750ml,Red,"Spain, Rioja",ES,140,120.0,Wine-Searcher average retail 2010 Muga Prado Enea Gran Reserva,ws_vintage
+10913042,Bodegas Muga Rioja Prado Enea Gran Reserva,2010,750ml,Red,"Spain, Rioja",ES,140,120.0,Wine-Searcher average retail 2010 Muga Prado Enea Gran Reserva,ws_vintage
+10913053,Bodegas Muga Rioja Torre Muga,2014,750ml,Red,"Spain, Rioja",ES,90,138.0,Wine-Searcher average retail 2014 Muga Torre Muga,ws_vintage
+10913083,Bodegas Muga Rioja Torre Muga,2014,750ml,Red,"Spain, Rioja",ES,90,138.0,Wine-Searcher average retail 2014 Muga Torre Muga,ws_vintage
+10920498,Bodegas Muga Rioja Torre Muga,2015,750ml,Red,"Spain, Rioja",ES,100,150.0,Wine-Searcher average retail 2015 Muga Torre Muga,ws_vintage
+10913054,Bodegas Muga Rioja Torre Muga,2015,750ml,Red,"Spain, Rioja",ES,100,150.0,Wine-Searcher average retail 2015 Muga Torre Muga,ws_vintage
+10921249,Bodegas Triton Vino De La Tierra De Castilla Y Leon Rejon,2015,750ml,Red,"Spain, Castilla-Leon",ES,30,42.0,Wine-Searcher average retail 2015 Bodegas Triton (Tridente) Rejon,ws_vintage
+10912780,Bodegas Vinicola Real 200 Monges Reserva Seleccion Especial,2004,750ml,Red,"Spain, Rioja",ES,80,115.0,Wine-Searcher average retail 2004 Vinicola Real 200 Monges Reserva Seleccion Especial,ws_vintage
+10913363,Bollinger Special Cuvee,NV,1.5ltr,Sparkling,"France, Champagne",FR,110,178.0,Wine-Searcher average Bollinger Special Cuvee NV 750ml $81 scaled x2.2 for magnum,ws_allvintage
+10920282,Boroli Barolo La Brunella,2017,750ml,Red,"Italy, Piedmont, Barolo",IT,45,118.0,Wine-Searcher retail $115-$120 for 2017 Boroli Barolo Brunella,ws_vintage
+10920004,Boscarelli De Ferrari,1985,750ml,Red,"Italy, Tuscany, Vino Nobile di Montepulciano",IT,150,120.0,"Estimate from general knowledge of collector-grade wine prices (not sourced): Boscarelli De Ferrari 1985; WS only showed regular Vino Nobile 1985 ($242), rejected as different wine",estimate
+10921328,Brancaia Maremma Toscana Ilatraia,2013,750ml,Red,"Italy, Tuscany",IT,40,73.0,Wine-Searcher price 2013 Brancaia Ilatraia,ws_vintage
+10914868,Brigaldara Amarone della Valpolicella Case Vecie,2016,750ml,Red,"Italy, Veneto, Amarone della Valpolicella",IT,60,118.0,Wine-Searcher average retail 2016 Brigaldara Case Vecie Amarone,ws_vintage
+10913692,Brunelli Amarone della Valpolicella Classico Campo Del Titari Riserva,2010,750ml,Red,"Italy, Veneto, Amarone della Valpolicella",IT,60,150.0,Wine-Searcher all-vintage average Brunelli Campo del Titari Riserva,ws_allvintage
+10913206,Campo Viejo Rioja Reserva,1994,750ml,Red,"Spain, Rioja",ES,25,40.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Campo Viejo Rioja Reserva 1994; no listing,estimate
+10913289,Canalicchio di Sopra Brunello di Montalcino,2010,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,85,110.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Canalicchio di Sopra Brunello 2010 base; WS showed only Riserva ($188+) rejected as cuvee mismatch,estimate
+10913290,Canalicchio di Sopra Brunello di Montalcino,2010,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,85,110.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Canalicchio di Sopra Brunello 2010 base; WS showed only Riserva ($188+) rejected as cuvee mismatch,estimate
+10921274,Canalicchio di Sopra Brunello di Montalcino,2016,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,80,120.0,Wine-Searcher 2016 Canalicchio di Sopra Brunello CA retail $82-$119 (avg listed $156); conservative $120,ws_vintage
+10914913,Canalicchio di Sopra Brunello di Montalcino,2018,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,65,100.0,"Estimate from general knowledge of collector-grade wine prices (not sourced): Canalicchio di Sopra Brunello 2018; only a single $360 retailer listing found, treated as outlier",estimate
+10914713,Canalicchio di Sopra Brunello di Montalcino,2020,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,60,108.0,Wine-Searcher average retail 2020 Canalicchio di Sopra Brunello,ws_vintage
+10913368,Cantina di Negrar Grand Signoria Amarone della Valpolicella Classico,2011,750ml,Red,"Italy, Veneto, Amarone della Valpolicella",IT,40,50.0,Wine-Searcher all-vintage average Cantina di Negrar Grand Signoria Amarone,ws_allvintage
+10921265,Cantina di Soave Amarone della Valpolicella Rocca Alata,2004,750ml,Red,"Italy, Veneto, Amarone della Valpolicella",IT,30,45.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Cantina di Soave Rocca Alata Amarone 2004; no price,estimate
+10913075,Cantina Terlan Alto Adige Terlano Pinot Bianco Vorberg Riserva,2016,750ml,White,"Italy, Alto Adige",IT,50,41.0,Wine-Searcher average retail 2016 Terlan Vorberg Pinot Bianco Riserva,ws_vintage
+10914125,Cantine Lonardo (Contrade di Taurasi) Taurasi Coste,2011,750ml,Red,"Italy, Campania, Taurasi",IT,35,69.0,Wine-Searcher average retail 2011 Contrade di Taurasi Coste,ws_vintage
+10913707,Capichera Vermentino di Sardegna Lintori,2021,750ml,White,"Italy, Sardinia, Vermentino di Sardegna",IT,20,35.0,Wine-Searcher CA retailer San Mateo $35 Capichera Lintori 2021,ws_single_retailer
+10921329,Casa di Monte Chianti,2020,750ml,Red,"Italy, Tuscany, Chianti",IT,15,11.0,Wine-Searcher price 2020 Casa di Monte Chianti,ws_vintage
+10913636,Casado Morales Rioja Alavesa Eme,2010,750ml,Red,"Spain, Rioja",ES,20,50.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Casado Morales Eme 2010; no price found,estimate
+10913615,Casado Morales Rioja Alavesa Gran Reserva,2004,750ml,Red,"Spain, Rioja",ES,30,45.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Casado Morales Gran Reserva 2004; no price found,estimate
+10921259,Casanova di Neri Brunello di Montalcino Tenuta Nuova,2011,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,90,190.0,Wine-Searcher average retail 2011 Casanova di Neri Tenuta Nuova,ws_vintage
+10921258,Casanova di Neri Brunello di Montalcino Tenuta Nuova,2015,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,105,180.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Casanova di Neri Tenuta Nuova 2015 (99pt Suckling); no price in snippet,estimate
+10914775,Casanova di Neri Brunello di Montalcino Tenuta Nuova,2021,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,85,170.0,Wine-Searcher average retail 2021 Casanova di Neri Tenuta Nuova,ws_vintage
+10914612,Casanova di Neri Brunello di Montalcino,2018,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,55,70.0,"Estimate from general knowledge of collector-grade wine prices (not sourced): Casanova di Neri Brunello (white label) 2018; WS showed only Tenuta Nuova ($140), rejected as cuvee mismatch",estimate
+10920269,Cascina Adelaide Barolo Riserva Per Elen,2013,750ml,Red,"Italy, Piedmont, Barolo",IT,50,138.0,Wine-Searcher price ~$137-140 Cascina Adelaide Per Elen Riserva,ws_allvintage
+10913785,Cascina Ballarin Barolo Tre Ciabot,2010,750ml,Red,"Italy, Piedmont, Barolo",IT,40,38.0,Wine-Searcher average retail Cascina Ballarin Tre Ciabot,ws_allvintage
+10920468,Castello di Volpaia Chianti Classico Riserva,2016,750ml,Red,"Italy, Tuscany, Chianti Classico",IT,55,50.0,Wine-Searcher average retail 2016 Castello di Volpaia Chianti Classico Riserva,ws_vintage
+10913355,Castello Romitorio Brunello di Montalcino,2010,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,65,75.0,"Estimate from general knowledge of collector-grade wine prices (not sourced): Castello Romitorio Brunello 2010 base; WS showed only Riserva, rejected",estimate
+10913350,Castiglion del Bosco Brunello Di Montalcino Millecento Riserva,2005,1.5ltr,Red,"Italy, Tuscany, Brunello di Montalcino",IT,145,450.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Castiglion del Bosco Millecento Riserva 2005 magnum; ~$230 per 750ml recent vintages x2.2,estimate
+10913399,Cavalleri Franciacorta Brut Blanc de Blancs,NV,750ml,Sparkling,"Italy, Lombardy, Franciacorta",IT,25,45.0,Wine-Searcher $44.98 Cavalleri Blanc de Blancs Brut Nature NV (variant of target),ws_adjacent
+10920028,Cavallotto Barolo Bricco Boschis,2010,750ml,Red,"Italy, Piedmont, Barolo",IT,115,135.0,Wine-Searcher average retail 2010 Cavallotto Bricco Boschis,ws_vintage
+10920005,Cavallotto Barolo Riserva Bricco Boschis Vigna San Giuseppe,2018,750ml,Red,"Italy, Piedmont, Barolo",IT,130,189.0,Wine-Searcher average retail 2018 Cavallotto Bricco Boschis Vigna San Giuseppe Riserva,ws_vintage
+10913637,Cave de Tain l'Hermitage Crozes- Hermitage Les Hauts d'Eole Selection Parcellaire Blanc,2021,750ml,White,"France, Rhône Valley, Northern Rhône",FR,20,24.0,Wine-Searcher average retail Cave de Tain Les Hauts d'Eole Blanc,ws_allvintage
+10913651,Cave des Grands Crus Blancs Mâcon-Vinzelles,2021,750ml,White,"France, Burgundy, Mâconnais",FR,20,15.0,Wine-Searcher average retail Cave des Grands Crus Blancs Macon-Vinzelles,ws_allvintage
+10913694,Cave des Grands Crus Blancs Mâcon-Vinzelles,2021,750ml,White,"France, Burgundy, Mâconnais",FR,20,15.0,Wine-Searcher average retail Cave des Grands Crus Blancs Macon-Vinzelles,ws_allvintage
+10913749,Cave des Grands Crus Blancs Pouilly-Loche Guiblets,2022,750ml,White,"France, Burgundy, Mâconnais",FR,20,28.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Cave des Grands Crus Blancs Pouilly-Loche Guiblets 2022; no price found,estimate
+10913632,Cellier des Princes Chateauneuf du Pape Cuvee Sainte Vierge,2012,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,25,50.0,Wine-Searcher CA listing ~$55 incl tax for 2012 Cellier des Princes CdP,ws_single_retailer
+10914143,Cellier Saint Benoit Arbois Pupillin Viandris Chardonnay,2022,750ml,White,"France, Jura, Arbois",FR,75,85.0,"Estimate from general knowledge of collector-grade wine prices (not sourced): Cellier Saint Benoit Viandris Chardonnay 2022 (Parker 95, tiny production); no price in snippet",estimate
+10914093,Cellier Saint Benoit Chardonnay Arbois Pupillin La Marcette,2022,750ml,White,"France, Jura, Arbois",FR,60,92.0,Wine-Searcher average retail Cellier Saint Benoit La Marcette Chardonnay (2022 listed),ws_vintage
+10914149,Cellier Saint Benoit Chardonnay Arbois Pupillin La Marcette,2023,750ml,White,"France, Jura, Arbois",FR,60,92.0,Wine-Searcher average retail Cellier Saint Benoit La Marcette Chardonnay,ws_allvintage
+10913379,Ceretto Barolo Brunate,2010,750ml,Red,"Italy, Piedmont, Barolo",IT,105,186.0,Wine-Searcher average retail 2010 Ceretto Bricco Rocche Brunate,ws_vintage
+10913369,Ceretto Barolo Prapò,2010,750ml,Red,"Italy, Piedmont, Barolo",IT,100,120.0,Wine-Searcher cases of 2010 Ceretto Prapo ~$120 per 750ml (all-vintage avg ~$160),ws_single_retailer
+10913370,Ceretto Barolo Prapò,2010,750ml,Red,"Italy, Piedmont, Barolo",IT,100,120.0,Wine-Searcher cases of 2010 Ceretto Prapo ~$120 per 750ml (all-vintage avg ~$160),ws_single_retailer
+10914023,Cesare Bussolo Barolo Fossati,2020,750ml,Red,"Italy, Piedmont, Barolo",IT,100,168.0,Wine-Searcher vintage table 2020 Cesare Bussolo Fossati,ws_vintage
+10914051,Cesare Bussolo Barolo La Serra,2020,750ml,Red,"Italy, Piedmont, Barolo",IT,90,149.0,Wine-Searcher average retail Cesare Bussolo La Serra,ws_allvintage
+10913109,Champy Volnay Taillepieds,2010,750ml,Red,"France, Burgundy, Côte d'Or",FR,70,132.0,Wine-Searcher average retail 2010 Maison Champy Volnay Taillepieds,ws_vintage
+10920415,Chandon de Briailles Pernand-Vergelesses Ile des Vergelesses,2019,750ml,Red,"France, Burgundy, Côte d'Or",FR,70,121.0,Wine-Searcher price 2019 Chandon de Briailles Ile des Vergelesses,ws_vintage
+10913034,Chartogne-Taillet Extra Brut Les Barres Blanc de Noirs,NV,750ml,Sparkling,"France, Champagne",FR,140,125.0,"Estimate from general knowledge of collector-grade wine prices (not sourced): Chartogne-Taillet Les Barres BdN NV; WS all-vintage $230 average is dominated by dated cuvees, treated as not applicable to NV",estimate
+10920283,Château Beausejour (Duffau Lagarrosse),2019,750ml,Red,"France, Bordeaux, St.-Émilion",FR,95,164.0,Wine-Searcher price 2019 Chateau Beausejour (Duffau-Lagarrosse),ws_vintage
+10914781,Château Beychevelle,2023,750ml,Red,"France, Bordeaux, St.-Julien",FR,95,90.0,Wine-Searcher CA retailers $84-$95 for 2023 Beychevelle; midpoint,ws_vintage
+10913055,Château Branaire-Ducru,2003,750ml,Red,"France, Bordeaux, St.-Julien",FR,75,142.0,Wine-Searcher average retail 2003 Chateau Branaire-Ducru,ws_vintage
+10913522,Château Camensac,1989,750ml,Red,"France, Bordeaux, Haut-Médoc",FR,40,45.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau de Camensac 1989; no price found,estimate
+10914756,Château Canon-La-Gaffeliere,2016,750ml,Red,"France, Bordeaux, St.-Émilion",FR,80,120.0,Wine-Searcher average retail 2016 Chateau Canon la Gaffeliere,ws_vintage
+10914634,Château Canon,2017,750ml,Red,"France, Bordeaux, St.-Émilion",FR,95,124.0,Wine-Searcher average retail 2017 Chateau Canon,ws_vintage
+10913603,Château Cantemerle,2015,750ml,Red,"France, Bordeaux, Haut-Médoc",FR,45,54.0,Wine-Searcher average retail 2015 Chateau Cantemerle,ws_vintage
+10913844,Château Chantelune,2015,750ml,Red,"France, Bordeaux, Margaux",FR,30,25.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau Chantelune 2015 (Margaux); no price in snippet,estimate
+10913845,Château Chantelune,2015,750ml,Red,"France, Bordeaux, Margaux",FR,30,25.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau Chantelune 2015 (Margaux); no price in snippet,estimate
+10912757,Château Clinet,2015,750ml,Red,"France, Bordeaux, Pomerol",FR,100,166.0,Wine-Searcher average retail 2015 Chateau Clinet,ws_vintage
+10914857,Château Clinet,2017,750ml,Red,"France, Bordeaux, Pomerol",FR,75,126.0,Wine-Searcher average retail 2017 Chateau Clinet,ws_vintage
+10914856,Château Clinet,2021,750ml,Red,"France, Bordeaux, Pomerol",FR,95,110.0,Wine-Searcher CA retailers $99-$121 for 2021 Clinet; midpoint,ws_vintage
+10913609,Chateau d'Aydie Madiran Odé d'Aydie,2014,750ml,Red,"France, Southwest France, Madiran",FR,20,15.0,Wine-Searcher average retail Chateau d'Aydie Ode d'Aydie,ws_allvintage
+10913610,Chateau d'Aydie Madiran Odé d'Aydie,2015,750ml,Red,"France, Southwest France, Madiran",FR,20,15.0,Wine-Searcher average retail Chateau d'Aydie Ode d'Aydie,ws_allvintage
+10913193,Château de Barbe Blanche,2009,750ml,Red,"France, Bordeaux, Lussac-St.-Emilion",FR,20,30.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau de Barbe Blanche 2009 Lussac-St-Emilion; WS snippet showed $70 which looks like an outlier,estimate
+10912850,Château de l'Ou Vin de Pays des Côtes Catalanes Secret de Schistes,2011,750ml,Red,"France, Languedoc-Roussillon, Côtes Catalanes",FR,35,40.0,Wine-Searcher price 2011 Chateau de l'Ou Secret de Schistes (avg $37),ws_vintage
+10921254,Chateau de la Font du Loup Châteauneuf-du-Pape Blanc,2020,750ml,White,"France, Rhône Valley, Southern Rhône",FR,40,69.0,Wine-Searcher price Chateau de la Font du Loup CdP Blanc,ws_allvintage
+10913741,Chateau de Santenay Bourgogne Haut Cotes de Beaune Clos de la Chaise Dieu Blanc,2014,750ml,White,"France, Burgundy, Côte d'Or",FR,20,30.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau de Santenay Clos de la Chaise Dieu Blanc 2014; no price found,estimate
+10920327,Château des Tuileries,1970,750ml,Red,"France, Bordeaux",FR,35,60.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau des Tuileries 1970; no listing found,estimate
+10913389,Château du Tertre (Bordeaux),2015,750ml,Red,"France, Bordeaux",FR,15,71.0,Wine-Searcher average retail 2015 Chateau du Tertre,ws_vintage
+10913390,Château du Tertre (Bordeaux),2015,750ml,Red,"France, Bordeaux",FR,15,71.0,Wine-Searcher average retail 2015 Chateau du Tertre,ws_vintage
+10913703,Château du Val d'Or,2010,750ml,Red,"France, Bordeaux, St.-Émilion",FR,20,35.0,Wine-Searcher average retail Chateau du Val d'Or,ws_allvintage
+10920596,Château Ducru-Beaucaillou,1997,750ml,Red,"France, Bordeaux, St.-Julien",FR,135,187.0,Wine-Searcher average retail 1997 Chateau Ducru-Beaucaillou,ws_vintage
+10913670,Château Fargueirol Châteauneuf-du-Pape Cuvee Antonin,2015,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,25,33.0,Wine-Searcher average retail 2015 Chateau Fargueirol CdP Cuvee Antonin,ws_vintage
+10920476,Château Fleur Cardinale,2001,750ml,Red,"France, Bordeaux, St.-Émilion",FR,35,50.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau Fleur Cardinale 2001; no price found,estimate
+10914779,Château Grand-Puy-Lacoste,2015,750ml,Red,"France, Bordeaux, Pauillac",FR,70,105.0,Wine-Searcher average retail 2015 Chateau Grand-Puy-Lacoste,ws_vintage
+10914729,Château Grand-Puy-Lacoste,2017,750ml,Red,"France, Bordeaux, Pauillac",FR,70,120.0,Wine-Searcher average retail 2017 Chateau Grand-Puy-Lacoste,ws_vintage
+10914789,Château Grand-Puy-Lacoste,2019,750ml,Red,"France, Bordeaux, Pauillac",FR,60,100.0,Wine-Searcher average retail 2019 Chateau Grand-Puy-Lacoste,ws_vintage
+10913656,Château Guiraud G,2015,750ml,Red,"France, Bordeaux",FR,20,15.0,Wine-Searcher average Le G de Chateau Guiraud Blanc Sec (EUR13 converted),ws_allvintage
+10913598,Château Guiraud G,2015,750ml,Red,"France, Bordeaux",FR,20,15.0,Wine-Searcher average Le G de Chateau Guiraud Blanc Sec (EUR13 converted),ws_allvintage
+10914773,Château Haut-Bailly,2023,750ml,Red,"France, Bordeaux, Graves",FR,90,140.0,"Wine-Searcher 2023 Chateau Haut-Bailly: avg $154, retailers $120-$125; conservative $140",ws_vintage
+10914774,Château Haut-Bailly,2023,750ml,Red,"France, Bordeaux, Graves",FR,90,140.0,"Wine-Searcher 2023 Chateau Haut-Bailly: avg $154, retailers $120-$125; conservative $140",ws_vintage
+10920322,Château Haut Brisson La Reserve,2007,750ml,Red,"France, Bordeaux, St.-Émilion",FR,30,63.0,Wine-Searcher all-vintage average Chateau Haut Brisson La Reserve,ws_allvintage
+10920316,Château Haut Brisson La Reserve,2008,750ml,Red,"France, Bordeaux, St.-Émilion",FR,30,63.0,Wine-Searcher all-vintage average Chateau Haut Brisson La Reserve,ws_allvintage
+10920287,Château Haut Brisson La Reserve,2008,750ml,Red,"France, Bordeaux, St.-Émilion",FR,30,63.0,Wine-Searcher all-vintage average Chateau Haut Brisson La Reserve,ws_allvintage
+10913711,Château Haut Gravet Grand Chemin,2015,750ml,Red,"France, Bordeaux, St.-Émilion",FR,20,40.0,Wine-Searcher all-vintage average Chateau Haut-Gravet Grand Chemin,ws_allvintage
+10920368,Château Haut Segottes,2022,750ml,Red,"France, Bordeaux, St.-Émilion",FR,25,45.0,Wine-Searcher retailers $40-$45 for 2022 Chateau Haut Segottes,ws_vintage
+10926556,Château Joanin Becot,2020,750ml,Red,"France, Bordeaux, Cotes de Castillon",FR,25,30.0,Wine-Searcher average retail 2020 Chateau Joanin Becot,ws_vintage
+10913647,Château l'Annonciation,2012,750ml,Red,"France, Bordeaux, St.-Émilion",FR,20,45.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau de l'Annonciation 2012; anchored on 2015 avg $49,estimate
+10913648,Château l'Annonciation,2015,750ml,Red,"France, Bordeaux, St.-Émilion",FR,20,49.0,Wine-Searcher average retail 2015 Chateau de l'Annonciation,ws_vintage
+10921323,Château La Cabanne,2016,750ml,Red,"France, Bordeaux, Pomerol",FR,40,70.0,Wine-Searcher average retail 2016 Chateau La Cabanne,ws_vintage
+10921322,Château La Cabanne,2018,750ml,Red,"France, Bordeaux, Pomerol",FR,40,74.0,Wine-Searcher average retail 2018 Chateau La Cabanne,ws_vintage
+10913339,Château La Couronne,2014,750ml,Red,"France, Bordeaux, St.-Émilion",FR,20,25.0,Wine-Searcher price ~$25 2014 La Couronne,ws_vintage
+10913239,Chateau La Fleur des Rouzes,2021,750ml,Red,"France, Bordeaux, Pomerol",FR,25,36.0,Wine-Searcher average retail 2021 Chateau La Fleur des Rouzes,ws_vintage
+10913190,Château La Fleur (St. Emilion),1988,750ml,Red,"France, Bordeaux, St.-Émilion",FR,55,52.0,Wine-Searcher average retail 1988 Chateau La Fleur (St-Emilion),ws_vintage
+10919988,Château La Lagune,1982,750ml,Red,"France, Bordeaux, Haut-Médoc",FR,130,205.0,Wine-Searcher average retail 1982 Chateau La Lagune,ws_vintage
+10913040,Château La Mondotte,1996,750ml,Red,"France, Bordeaux, St.-Émilion",FR,125,232.0,Wine-Searcher average retail 1996 La Mondotte,ws_vintage
+10913565,Château Labégorce,2017,750ml,Red,"France, Bordeaux, Margaux",FR,30,46.0,Wine-Searcher average retail 2017 Chateau Labegorce,ws_vintage
+10913722,Château Laffitte-Carcasset,2010,1.5ltr,Red,"France, Bordeaux, St.-Estephe",FR,60,90.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Laffitte-Carcasset 2010 magnum; anchored on Wine Enthusiast $40 per 750ml x2.2,estimate
+10920528,Château Langoa-Barton,2016,750ml,Red,"France, Bordeaux, St.-Julien",FR,55,70.0,Wine-Searcher average retail 2016 Chateau Langoa-Barton,ws_vintage
+10913047,Château Larcis-Ducasse,2016,750ml,Red,"France, Bordeaux, St.-Émilion",FR,100,115.0,Wine-Searcher CA retailers $86-$163 for 2016 Larcis-Ducasse; central $115,ws_vintage
+10912761,Château Larcis-Ducasse,2018,750ml,Red,"France, Bordeaux, St.-Émilion",FR,95,100.0,Wine-Searcher retailers $78-$120 for 2018 Larcis-Ducasse; central $100,ws_vintage
+10914859,Château Larcis-Ducasse,2021,750ml,Red,"France, Bordeaux, St.-Émilion",FR,80,121.0,Wine-Searcher average retail 2021 Chateau Larcis-Ducasse,ws_vintage
+10914056,Château Le Puy Rose-Marie,2023,750ml,Rose,France,FR,60,79.0,Wine-Searcher average retail 2023 Chateau le Puy Rose-Marie,ws_vintage
+10919992,Château Leoville-Barton,1995,750ml,Red,"France, Bordeaux, St.-Julien",FR,130,233.0,Wine-Searcher average retail 1995 Chateau Leoville Barton,ws_vintage
+10914860,Château Leoville-Barton,2022,750ml,Red,"France, Bordeaux, St.-Julien",FR,90,115.0,Wine-Searcher average retail 2022 Chateau Leoville Barton,ws_vintage
+10920430,Château Leoville-Las-Cases,1987,750ml,Red,"France, Bordeaux, St.-Julien",FR,150,160.0,"Estimate from general knowledge of collector-grade wine prices (not sourced): Leoville-Las-Cases 1987 (weak vintage, 88pt); no price in snippet",estimate
+10913294,Château Les Marechaux,2012,750ml,Red,"France, Bordeaux, Cotes de Blaye",FR,15,16.0,Wine-Searcher average Chateau Marechaux Bordeaux Superieur,ws_allvintage
+10920272,Château Lynch-Bages,2017,750ml,Red,"France, Bordeaux, Pauillac",FR,125,183.0,Wine-Searcher average retail 2017 Chateau Lynch-Bages,ws_vintage
+10920371,Château Malartic-Lagraviere,2021,750ml,Red,"France, Bordeaux, Graves",FR,65,50.0,Wine-Searcher price 2021 Chateau Malartic-Lagraviere (red),ws_vintage
+10921272,Chateau Maucoil Châteauneuf-du-Pape Privilege,2016,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,30,61.0,Wine-Searcher average retail 2016 Chateau Maucoil CdP Cuvee Privilege,ws_vintage
+10913721,Chateau Mont-Redon Châteauneuf-du-Pape,2010,1.5ltr,Red,"France, Rhône Valley, Southern Rhône",FR,60,130.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Mont-Redon CdP 2010 magnum; ~$60 per 750ml x2.2,estimate
+10914669,Château Pavie-Macquin,2023,750ml,Red,"France, Bordeaux, St.-Émilion",FR,85,90.0,Wine-Searcher listing $90 for 2023 Chateau Pavie Macquin,ws_vintage
+10913237,Château Petit Village Le Petit,2021,750ml,Red,"France, Bordeaux, Pomerol",FR,45,40.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Le Petit (Jardin de Petit-Village) 2021 second wine; WS snippet mixed with Petit Village grand vin,estimate
+10913003,Château Pichon-Longueville Baron,2015,750ml,Red,"France, Bordeaux, Pauillac",FR,150,204.0,Wine-Searcher average retail 2015 Chateau Pichon-Longueville Baron,ws_vintage
+10920407,Château Pichon-Longueville Baron,2021,750ml,Red,"France, Bordeaux, Pauillac",FR,140,157.0,Wine-Searcher average retail 2021 Chateau Pichon-Longueville Baron,ws_vintage
+10913050,Château Pierre 1er,2018,750ml,Red,"France, Bordeaux, St.-Émilion",FR,20,28.0,Wine-Searcher all-vintage average Chateau Pierre 1er (Croix Figeac),ws_allvintage
+10913515,Château Plagnac,1990,750ml,Red,"France, Bordeaux, Médoc",FR,25,35.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau Plagnac 1990; no price found,estimate
+10913519,Château Plagnac,1990,750ml,Red,"France, Bordeaux, Médoc",FR,25,35.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau Plagnac 1990; no price found,estimate
+10920495,Château Poesia,2019,750ml,Red,"France, Bordeaux, St.-Émilion",FR,25,42.0,Wine-Searcher average retail 2019 Chateau Poesia,ws_vintage
+10921152,Château Pontet-Canet,2012,750ml,Red,"France, Bordeaux, Pauillac",FR,95,137.0,Wine-Searcher average retail 2012 Chateau Pontet-Canet (USA),ws_vintage
+10921151,Château Pontet-Canet,2013,750ml,Red,"France, Bordeaux, Pauillac",FR,80,120.0,Wine-Searcher 2013 Pontet-Canet: avg $158 but individual bottles $50-$88; conservative $120,ws_vintage
+10913006,Château Pontet-Canet,2015,750ml,Red,"France, Bordeaux, Pauillac",FR,125,152.0,Wine-Searcher average retail 2015 Chateau Pontet-Canet,ws_vintage
+10921195,Château Pontet-Canet,2019,750ml,Red,"France, Bordeaux, Pauillac",FR,95,120.0,"Wine-Searcher 2019 Pontet-Canet: retailers $89-$99 per 750ml, avg $158; conservative $120",ws_vintage
+10913130,Château Poujeaux,2009,1.5ltr,Red,"France, Bordeaux, Haut-Médoc",FR,80,174.0,Wine-Searcher average 2009 Chateau Poujeaux $79 per 750ml scaled x2.2 for magnum,ws_vintage
+10912855,Chateau Pradeaux Bandol,2002,750ml,Red,"France, Provence, Bandol",FR,50,70.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau Pradeaux Bandol 2002; no price in snippet,estimate
+10919993,Château Prieure-Lichine,1982,750ml,Red,"France, Bordeaux, Margaux",FR,80,144.0,Wine-Searcher average retail 1982 Chateau Prieure-Lichine,ws_vintage
+10913490,Château Puy Blanquet,1983,750ml,Red,"France, Bordeaux, St.-Émilion",FR,25,93.0,Wine-Searcher average retail 1983 Chateau Puy Blanquet,ws_vintage
+10920408,Château Rauzan-Segla,2020,750ml,Red,"France, Bordeaux, Margaux",FR,95,131.0,Wine-Searcher average retail 2020 Chateau Rauzan-Segla,ws_vintage
+10914742,Chateau Saint Cosme Gigondas Les Claux,2023,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,60,136.0,Wine-Searcher average retail Chateau de Saint Cosme Gigondas Le Claux,ws_allvintage
+10913220,Château Siran,1978,750ml,Red,"France, Bordeaux, Margaux",FR,45,55.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau Siran 1978; no price found,estimate
+10913830,Château Sixtine Châteauneuf-du-Pape Blanc,2015,750ml,White,"France, Rhône Valley, Southern Rhône",FR,30,70.0,Wine-Searcher average retail Chateau Sixtine CdP Blanc,ws_allvintage
+10914912,Château Smith-Haut-Lafitte Blanc,2022,750ml,White,"France, Bordeaux, Graves",FR,130,195.0,Wine-Searcher average retail 2022 Chateau Smith Haut Lafitte Blanc,ws_vintage
+10920279,Château Smith-Haut-Lafitte Blanc,2022,750ml,White,"France, Bordeaux, Graves",FR,130,195.0,Wine-Searcher average retail 2022 Chateau Smith Haut Lafitte Blanc,ws_vintage
+10914911,Château Smith-Haut-Lafitte Blanc,2023,750ml,White,"France, Bordeaux, Graves",FR,130,158.0,Wine-Searcher average retail 2023 Chateau Smith Haut Lafitte Blanc,ws_vintage
+10920517,Château Smith-Haut-Lafitte Le Petit Haut Lafitte,2016,750ml,Red,"France, Bordeaux, Graves",FR,40,49.0,Wine-Searcher average retail 2016 Le Petit Smith Haut Lafitte,ws_vintage
+10914734,Château Smith-Haut-Lafitte,2017,750ml,Red,"France, Bordeaux, Graves",FR,85,127.0,Wine-Searcher average retail 2017 Chateau Smith Haut Lafitte,ws_vintage
+10914668,Château Smith-Haut-Lafitte,2021,750ml,Red,"France, Bordeaux, Graves",FR,100,105.0,Wine-Searcher retailers $82-$130 for 2021 Smith Haut Lafitte; midpoint,ws_vintage
+10914778,Château Talbot,2022,750ml,Red,"France, Bordeaux, St.-Julien",FR,55,90.0,Wine-Searcher average retail 2022 Chateau Talbot,ws_vintage
+10913224,Château Tour Guillotin,1980,3.0ltr,Red,"France, Bordeaux, Puisseguin-St.-Emilion",FR,100,150.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Tour Guillotin 1980 3.0L; 1979 750ml avg $83 on WS scaled for 3L format,estimate
+10914665,Château Troplong-Mondot,2020,750ml,Red,"France, Bordeaux, St.-Émilion",FR,90,170.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Troplong-Mondot 2020 (Decanter 100pt); no WS price in snippet,estimate
+10920383,Château Troplong-Mondot,2022,750ml,Red,"France, Bordeaux, St.-Émilion",FR,115,128.0,Wine-Searcher CA retailers $114-$142 for 2022 Troplong Mondot; midpoint,ws_vintage
+10914670,Château Troplong-Mondot,2022,750ml,Red,"France, Bordeaux, St.-Émilion",FR,115,128.0,Wine-Searcher CA retailers $114-$142 for 2022 Troplong Mondot; midpoint,ws_vintage
+10914780,Château Valandraud,2017,750ml,Red,"France, Bordeaux, St.-Émilion",FR,100,140.0,Wine-Searcher CA retailers $124-$162 for 2017 Valandraud; midpoint,ws_vintage
+10920310,Château Victoria,1967,750ml,Red,"France, Bordeaux, Haut-Médoc",FR,30,40.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau Victoria 1967; no listing found,estimate
+10920311,Château Victoria,1967,750ml,Red,"France, Bordeaux, Haut-Médoc",FR,30,40.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau Victoria 1967; no listing found,estimate
+10920025,Ciacci Piccolomini d'Aragona Brunello di Montalcino Vigna Pianrosso,2001,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,95,99.0,Wine-Searcher price ~$99 for 2001 Ciacci Piccolomini Pianrosso,ws_vintage
+10913681,Citille di Sopra Brunello di Montalcino Riserva,2010,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,50,66.0,Wine-Searcher price $66 Citille di Sopra Brunello Riserva (2010 vintage listing),ws_allvintage
+10913682,Citille di Sopra Brunello di Montalcino,2010,750ml,Red,"Italy, Tuscany, Brunello di Montalcino",IT,40,81.0,Wine-Searcher average retail Citille di Sopra Brunello di Montalcino,ws_allvintage
+10913383,Clerico Barolo Pajana,2009,750ml,Red,"Italy, Piedmont, Barolo",IT,55,129.0,Wine-Searcher average USA price 2009 Domenico Clerico Pajana,ws_vintage
+10913295,Clerico Barolo,2011,750ml,Red,"Italy, Piedmont, Barolo",IT,40,85.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Clerico Barolo 2011 (entry cuvee); WS showed single-vineyard cuvees only (Ciabot Mentin $105),estimate
+10914854,Clos d'Uza Cabernet Sauvignon,2018,750ml,Red,"France, Bordeaux, Graves",FR,75,25.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Clos d'Uza Cabernet Sauvignon 2018 (Graves); no listing found,estimate
+10913709,Clos de l'Oratoire Des Papes Châteauneuf-du-Pape Blanc,2013,750ml,White,"France, Rhône Valley, Southern Rhône",FR,30,69.0,Wine-Searcher price range $64-$74 Clos de l'Oratoire des Papes CdP Blanc,ws_allvintage
+10913714,Clos de l'Oratoire Des Papes Châteauneuf-du-Pape Blanc,2014,750ml,White,"France, Rhône Valley, Southern Rhône",FR,35,69.0,Wine-Searcher price range $64-$74 Clos de l'Oratoire des Papes CdP Blanc,ws_allvintage
+10914659,Clos de l'Oratoire Des Papes Chateauneuf Du Pape Les Choregies,2015,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,55,150.0,Wine-Searcher average retail 2015 Clos de l'Oratoire des Papes Les Choregies (CA retailer $139.99),ws_vintage
+10914022,Clos de la Roilette Fleurie Cuvee Tardive,2023,750ml,Red,"France, Beaujolais, Fleurie",FR,25,33.0,Wine-Searcher retailers $30-$36 for 2023 Clos de la Roilette Fleurie Cuvee Tardive,ws_vintage
+10912901,Clos del Rey Côtes du Roussillon Villages,2007,750ml,Red,"France, Languedoc-Roussillon, Cotes du Roussillon",FR,25,20.0,Estimate from general knowledge of collector-grade wine prices (not sourced): Clos del Rey Cotes du Roussillon Villages 2007; WS showed sister cuvees $19-$25,estimate
+10919991,Clos des Papes Châteauneuf-du-Pape,2001,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,85,165.0,"Wine-Searcher 2001 Clos des Papes: avg $186, retailers $150-$158; conservative $165",ws_vintage
+10912832,Clos des Papes Châteauneuf-du-Pape,2018,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,75,85.0,Wine-Searcher 2018 Clos des Papes: CA retailers $73-$90; central $85,ws_vintage
+10920461,Clos des Papes Châteauneuf-du-Pape,2022,750ml,Red,"France, Rhône Valley, Southern Rhône",FR,95,80.0,Wine-Searcher 2022 Clos des Papes: cases $69-$85 per 750ml; central $80,ws_vintage
+10914776,Clos Fourtet,2015,750ml,Red,"France, Bordeaux, St.-Émilion",FR,110,130.0,Wine-Searcher 2015 Clos Fourtet: avg $163 but cases $75/bottle; conservative $130,ws_vintage
