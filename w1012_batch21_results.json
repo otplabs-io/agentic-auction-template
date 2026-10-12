@@ -1,0 +1,114 @@
+[
+ {
+  "wine": "Uccelliera Brunello di Montalcino",
+  "vintage": "2007",
+  "format": "750ml",
+  "price": 119.0,
+  "source": "Wine-Searcher price 2007 Uccelliera Brunello ($113-$119)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Uccelliera Brunello di Montalcino",
+  "vintage": "2006",
+  "format": "750ml",
+  "price": 113.0,
+  "source": "Wine-Searcher 2007 Uccelliera Brunello $113-$119 (low end) applied to 2006",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Passopisciaro Contrada Rampante",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 64.0,
+  "source": "Wine-Searcher average Passopisciaro Contrada Rampante $64",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Galardi Terra di Lavoro",
+  "vintage": "2009",
+  "format": "750ml",
+  "price": 93.0,
+  "source": "Wine-Searcher average, 2009 Galardi Terra di Lavoro",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Vina Sastre Pago de Santa Cruz Gran Reserva",
+  "vintage": "2011",
+  "format": "750ml",
+  "price": 93.0,
+  "source": "Wine-Searcher listing 2011 Vina Sastre Pago de Santa Cruz GR $92.99",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Roger Sabon Chateauneuf Du Pape Blanc Cuvee Renaissance",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 45.0,
+  "source": "Wine-Searcher average Roger Sabon CdP Renaissance Blanc $45",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Domaine des Pierres S\u00e8ches (Sylvain Gauthier) Saint-Joseph Blanc",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 25.0,
+  "source": "Wine-Searcher listing 2018 Pierres Seches Saint-Joseph Blanc $25",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Les Vins de Vienne Saint-Joseph L'Elouede Blanc",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 32.0,
+  "source": "Wine-Searcher average Les Vins de Vienne Saint-Joseph L'Elouede Blanc $32",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Zind-Humbrecht Muscat Goldert Gueberschwihr",
+  "vintage": "2000",
+  "format": "750ml",
+  "price": 69.0,
+  "source": "Wine-Searcher average Zind-Humbrecht Muscat Goldert $69 (2000 not isolated)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Domaine du Chateau de Pierreclos M\u00e2con-Pierreclos",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 32.0,
+  "source": "Wine-Searcher price Chateau de Pierreclos Macon-Pierreclos $32",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Espectacle Montsant",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 120.0,
+  "source": "Wine-Searcher price 2021 Espectacle del Montsant $120",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Feudi Di San Marzano Sessantanni Primitivo di Manduria Old Vines",
+  "vintage": "2004",
+  "format": "750ml",
+  "price": 37.0,
+  "source": "Wine-Searcher average Feudi di San Marzano Sessantanni $37",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Fattoria Poggiopiano Rosso di Sera",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 82.0,
+  "source": "Wine-Searcher average Poggiopiano Rosso di Sera $82",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Enrico Pierazzuoli Cantagallo Chianti Montalbano Riserva",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 32.0,
+  "source": "Wine-Searcher average Cantagallo Chianti Montalbano Riserva $32",
+  "source_type": "ws_allvintage"
+ }
+]

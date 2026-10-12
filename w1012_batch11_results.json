@@ -1,0 +1,98 @@
+[
+ {
+  "wine": "Domaine Besson Chablis Vaillons",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 27.0,
+  "source": "Wine-Searcher average, vintage-specific 2018 Besson Vaillons 1er Cru",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Domaine Besson Chablis Vaillons",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 38.0,
+  "source": "Wine-Searcher retailer listing 2019 Besson Vaillons $37.99 ex tax",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Domaine Besson Chablis Vaillons",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 30.0,
+  "source": "Interpolated from Wine-Searcher Besson Vaillons 2018 ($27) and 2019 ($38); 2016 not shown",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Domaine Besson Chablis Vaillons",
+  "vintage": "2017",
+  "format": "750ml",
+  "price": 30.0,
+  "source": "Interpolated from Wine-Searcher Besson Vaillons 2018 ($27) and 2019 ($38); 2017 not shown",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Domaine Alain Voge Cornas Les Chailles",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 64.0,
+  "source": "Wine-Searcher average price Voge Cornas Les Chailles (all-vintage) $64",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Domaine Alain Voge Cornas Vieilles Vignes",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 92.0,
+  "source": "Wine-Searcher average, vintage-specific 2018 Voge Cornas Vieilles Vignes",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Delas Freres Hermitage Blanc Domaine Des Tourettes",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 115.0,
+  "source": "Wine-Searcher average for Delas Hermitage Blanc Domaine des Tourettes $115 (all-vintage)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Domaine de Montille Beaune Les Gr\u00e8ves",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 99.0,
+  "source": "Wine-Searcher 2021 retailer listings $80-$99.17; top of range used (avg all-vintage $118)",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Do Ferreiro Albarino Cepas Vellas",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 78.0,
+  "source": "Wine-Searcher average, 2022 Do Ferreiro Cepas Vellas (retail $74.95-$79)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Domaine de la Mordoree Chateauneuf du Pape Cuvee de la Reine des Bois",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 89.0,
+  "source": "Wine-Searcher 2021 retailer listings $67.50-$89 (all-vintage avg $125); upper listing used",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Domaine de la Mordoree Lirac Cuvee de la Reine des Bois",
+  "vintage": "2005",
+  "format": "750ml",
+  "price": 27.0,
+  "source": "Wine-Searcher average, 2005 Mordoree Lirac Reine des Bois",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Domaine Damien Laureau Savennieres Le Bel Ouvrage",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 78.0,
+  "source": "Wine-Searcher average Laureau Savennieres Bel Ouvrage $78",
+  "source_type": "ws_allvintage"
+ }
+]

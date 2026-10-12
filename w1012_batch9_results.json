@@ -1,0 +1,122 @@
+[
+ {
+  "wine": "Ciacci Piccolomini d'Aragona Brunello di Montalcino Vigna Pianrosso",
+  "vintage": "2001",
+  "format": "750ml",
+  "price": 99.0,
+  "source": "Wine-Searcher price ~$99 for 2001 Ciacci Piccolomini Pianrosso",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Citille di Sopra Brunello di Montalcino Riserva",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 66.0,
+  "source": "Wine-Searcher price $66 Citille di Sopra Brunello Riserva (2010 vintage listing)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Citille di Sopra Brunello di Montalcino",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 81.0,
+  "source": "Wine-Searcher average retail Citille di Sopra Brunello di Montalcino",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Clerico Barolo Pajana",
+  "vintage": "2009",
+  "format": "750ml",
+  "price": 129.0,
+  "source": "Wine-Searcher average USA price 2009 Domenico Clerico Pajana",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Clerico Barolo",
+  "vintage": "2011",
+  "format": "750ml",
+  "price": 85.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Clerico Barolo 2011 (entry cuvee); WS showed single-vineyard cuvees only (Ciabot Mentin $105)",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Clos d'Uza Cabernet Sauvignon",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 25.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Clos d'Uza Cabernet Sauvignon 2018 (Graves); no listing found",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Clos de l'Oratoire Des Papes Ch\u00e2teauneuf-du-Pape Blanc",
+  "vintage": "2013",
+  "format": "750ml",
+  "price": 69.0,
+  "source": "Wine-Searcher price range $64-$74 Clos de l'Oratoire des Papes CdP Blanc",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Clos de l'Oratoire Des Papes Ch\u00e2teauneuf-du-Pape Blanc",
+  "vintage": "2014",
+  "format": "750ml",
+  "price": 69.0,
+  "source": "Wine-Searcher price range $64-$74 Clos de l'Oratoire des Papes CdP Blanc",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Clos de l'Oratoire Des Papes Chateauneuf Du Pape Les Choregies",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 150.0,
+  "source": "Wine-Searcher average retail 2015 Clos de l'Oratoire des Papes Les Choregies (CA retailer $139.99)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Clos de la Roilette Fleurie Cuvee Tardive",
+  "vintage": "2023",
+  "format": "750ml",
+  "price": 33.0,
+  "source": "Wine-Searcher retailers $30-$36 for 2023 Clos de la Roilette Fleurie Cuvee Tardive",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Clos del Rey C\u00f4tes du Roussillon Villages",
+  "vintage": "2007",
+  "format": "750ml",
+  "price": 20.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Clos del Rey Cotes du Roussillon Villages 2007; WS showed sister cuvees $19-$25",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Clos des Papes Ch\u00e2teauneuf-du-Pape",
+  "vintage": "2001",
+  "format": "750ml",
+  "price": 165.0,
+  "source": "Wine-Searcher 2001 Clos des Papes: avg $186, retailers $150-$158; conservative $165",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Clos des Papes Ch\u00e2teauneuf-du-Pape",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 85.0,
+  "source": "Wine-Searcher 2018 Clos des Papes: CA retailers $73-$90; central $85",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Clos des Papes Ch\u00e2teauneuf-du-Pape",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 80.0,
+  "source": "Wine-Searcher 2022 Clos des Papes: cases $69-$85 per 750ml; central $80",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Clos Fourtet",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 130.0,
+  "source": "Wine-Searcher 2015 Clos Fourtet: avg $163 but cases $75/bottle; conservative $130",
+  "source_type": "ws_vintage"
+ }
+]

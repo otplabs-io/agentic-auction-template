@@ -1,0 +1,226 @@
+[
+ {
+  "wine": "Casa di Monte Chianti",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 11.0,
+  "source": "Wine-Searcher price 2020 Casa di Monte Chianti",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Casado Morales Rioja Alavesa Eme",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 50.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Casado Morales Eme 2010; no price found",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Casado Morales Rioja Alavesa Gran Reserva",
+  "vintage": "2004",
+  "format": "750ml",
+  "price": 45.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Casado Morales Gran Reserva 2004; no price found",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Casanova di Neri Brunello di Montalcino Tenuta Nuova",
+  "vintage": "2011",
+  "format": "750ml",
+  "price": 190.0,
+  "source": "Wine-Searcher average retail 2011 Casanova di Neri Tenuta Nuova",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Casanova di Neri Brunello di Montalcino Tenuta Nuova",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 180.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Casanova di Neri Tenuta Nuova 2015 (99pt Suckling); no price in snippet",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Casanova di Neri Brunello di Montalcino Tenuta Nuova",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 170.0,
+  "source": "Wine-Searcher average retail 2021 Casanova di Neri Tenuta Nuova",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Casanova di Neri Brunello di Montalcino",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 70.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Casanova di Neri Brunello (white label) 2018; WS showed only Tenuta Nuova ($140), rejected as cuvee mismatch",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Cascina Adelaide Barolo Riserva Per Elen",
+  "vintage": "2013",
+  "format": "750ml",
+  "price": 138.0,
+  "source": "Wine-Searcher price ~$137-140 Cascina Adelaide Per Elen Riserva",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Cascina Ballarin Barolo Tre Ciabot",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 38.0,
+  "source": "Wine-Searcher average retail Cascina Ballarin Tre Ciabot",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Castello di Volpaia Chianti Classico Riserva",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 50.0,
+  "source": "Wine-Searcher average retail 2016 Castello di Volpaia Chianti Classico Riserva",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Castello Romitorio Brunello di Montalcino",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 75.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Castello Romitorio Brunello 2010 base; WS showed only Riserva, rejected",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Castiglion del Bosco Brunello Di Montalcino Millecento Riserva",
+  "vintage": "2005",
+  "format": "1.5ltr",
+  "price": 450.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Castiglion del Bosco Millecento Riserva 2005 magnum; ~$230 per 750ml recent vintages x2.2",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Cavalleri Franciacorta Brut Blanc de Blancs",
+  "vintage": "NV",
+  "format": "750ml",
+  "price": 45.0,
+  "source": "Wine-Searcher $44.98 Cavalleri Blanc de Blancs Brut Nature NV (variant of target)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Cavallotto Barolo Bricco Boschis",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 135.0,
+  "source": "Wine-Searcher average retail 2010 Cavallotto Bricco Boschis",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Cavallotto Barolo Riserva Bricco Boschis Vigna San Giuseppe",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 189.0,
+  "source": "Wine-Searcher average retail 2018 Cavallotto Bricco Boschis Vigna San Giuseppe Riserva",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Cave de Tain l'Hermitage Crozes- Hermitage Les Hauts d'Eole Selection Parcellaire Blanc",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 24.0,
+  "source": "Wine-Searcher average retail Cave de Tain Les Hauts d'Eole Blanc",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Cave des Grands Crus Blancs M\u00e2con-Vinzelles",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 15.0,
+  "source": "Wine-Searcher average retail Cave des Grands Crus Blancs Macon-Vinzelles",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Cave des Grands Crus Blancs Pouilly-Loche Guiblets",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 28.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Cave des Grands Crus Blancs Pouilly-Loche Guiblets 2022; no price found",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Cellier des Princes Chateauneuf du Pape Cuvee Sainte Vierge",
+  "vintage": "2012",
+  "format": "750ml",
+  "price": 50.0,
+  "source": "Wine-Searcher CA listing ~$55 incl tax for 2012 Cellier des Princes CdP",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Cellier Saint Benoit Arbois Pupillin Viandris Chardonnay",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 85.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Cellier Saint Benoit Viandris Chardonnay 2022 (Parker 95, tiny production); no price in snippet",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Cellier Saint Benoit Chardonnay Arbois Pupillin La Marcette",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 92.0,
+  "source": "Wine-Searcher average retail Cellier Saint Benoit La Marcette Chardonnay (2022 listed)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Cellier Saint Benoit Chardonnay Arbois Pupillin La Marcette",
+  "vintage": "2023",
+  "format": "750ml",
+  "price": 92.0,
+  "source": "Wine-Searcher average retail Cellier Saint Benoit La Marcette Chardonnay",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Ceretto Barolo Brunate",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 186.0,
+  "source": "Wine-Searcher average retail 2010 Ceretto Bricco Rocche Brunate",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ceretto Barolo Prap\u00f2",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 120.0,
+  "source": "Wine-Searcher cases of 2010 Ceretto Prapo ~$120 per 750ml (all-vintage avg ~$160)",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Cesare Bussolo Barolo Fossati",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 168.0,
+  "source": "Wine-Searcher vintage table 2020 Cesare Bussolo Fossati",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Cesare Bussolo Barolo La Serra",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 149.0,
+  "source": "Wine-Searcher average retail Cesare Bussolo La Serra",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Champy Volnay Taillepieds",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 132.0,
+  "source": "Wine-Searcher average retail 2010 Maison Champy Volnay Taillepieds",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Chandon de Briailles Pernand-Vergelesses Ile des Vergelesses",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 121.0,
+  "source": "Wine-Searcher price 2019 Chandon de Briailles Ile des Vergelesses",
+  "source_type": "ws_vintage"
+ }
+]

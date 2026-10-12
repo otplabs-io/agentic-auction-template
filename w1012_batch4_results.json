@@ -1,0 +1,210 @@
+[
+ {
+  "wine": "Bodegas Altanza Rioja Reserva Lealtanza",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 49.0,
+  "source": "Wine-Searcher average retail 2010 Altanza Seleccion Especial Reserva (formerly Lealtanza)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Bodegas Altanza Rioja Seleccion Especial Reserva",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 49.0,
+  "source": "Wine-Searcher average retail 2010 Altanza Seleccion Especial Reserva",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Bodegas Corral Rioja Gran Reserva",
+  "vintage": "1976",
+  "format": "750ml",
+  "price": 210.0,
+  "source": "Wine-Searcher average retail 1976 Bodegas Corral Don Jacobo Gran Reserva",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Bodegas El Nido El Nido",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 190.0,
+  "source": "Wine-Searcher retailer range $180-$200 for 2021 El Nido; midpoint",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Bodegas Morca Garnaca Touran",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 135.0,
+  "source": "Wine-Searcher average retail Bodegas Morca Touran (all vintages)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Bodegas Muga Rioja Prado Enea Gran Reserva",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 120.0,
+  "source": "Wine-Searcher average retail 2010 Muga Prado Enea Gran Reserva",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Bodegas Muga Rioja Torre Muga",
+  "vintage": "2014",
+  "format": "750ml",
+  "price": 138.0,
+  "source": "Wine-Searcher average retail 2014 Muga Torre Muga",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Bodegas Muga Rioja Torre Muga",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 150.0,
+  "source": "Wine-Searcher average retail 2015 Muga Torre Muga",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Bodegas Triton Vino De La Tierra De Castilla Y Leon Rejon",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 42.0,
+  "source": "Wine-Searcher average retail 2015 Bodegas Triton (Tridente) Rejon",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Bodegas Vinicola Real 200 Monges Reserva Seleccion Especial",
+  "vintage": "2004",
+  "format": "750ml",
+  "price": 115.0,
+  "source": "Wine-Searcher average retail 2004 Vinicola Real 200 Monges Reserva Seleccion Especial",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Bollinger Special Cuvee",
+  "vintage": "NV",
+  "format": "1.5ltr",
+  "price": 178.0,
+  "source": "Wine-Searcher average Bollinger Special Cuvee NV 750ml $81 scaled x2.2 for magnum",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Boroli Barolo La Brunella",
+  "vintage": "2017",
+  "format": "750ml",
+  "price": 118.0,
+  "source": "Wine-Searcher retail $115-$120 for 2017 Boroli Barolo Brunella",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Boscarelli De Ferrari",
+  "vintage": "1985",
+  "format": "750ml",
+  "price": 120.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Boscarelli De Ferrari 1985; WS only showed regular Vino Nobile 1985 ($242), rejected as different wine",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Brancaia Maremma Toscana Ilatraia",
+  "vintage": "2013",
+  "format": "750ml",
+  "price": 73.0,
+  "source": "Wine-Searcher price 2013 Brancaia Ilatraia",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Brigaldara Amarone della Valpolicella Case Vecie",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 118.0,
+  "source": "Wine-Searcher average retail 2016 Brigaldara Case Vecie Amarone",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Brunelli Amarone della Valpolicella Classico Campo Del Titari Riserva",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 150.0,
+  "source": "Wine-Searcher all-vintage average Brunelli Campo del Titari Riserva",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Campo Viejo Rioja Reserva",
+  "vintage": "1994",
+  "format": "750ml",
+  "price": 40.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Campo Viejo Rioja Reserva 1994; no listing",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Canalicchio di Sopra Brunello di Montalcino",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 110.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Canalicchio di Sopra Brunello 2010 base; WS showed only Riserva ($188+) rejected as cuvee mismatch",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Canalicchio di Sopra Brunello di Montalcino",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 120.0,
+  "source": "Wine-Searcher 2016 Canalicchio di Sopra Brunello CA retail $82-$119 (avg listed $156); conservative $120",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Canalicchio di Sopra Brunello di Montalcino",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 100.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Canalicchio di Sopra Brunello 2018; only a single $360 retailer listing found, treated as outlier",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Canalicchio di Sopra Brunello di Montalcino",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 108.0,
+  "source": "Wine-Searcher average retail 2020 Canalicchio di Sopra Brunello",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Cantina di Negrar Grand Signoria Amarone della Valpolicella Classico",
+  "vintage": "2011",
+  "format": "750ml",
+  "price": 50.0,
+  "source": "Wine-Searcher all-vintage average Cantina di Negrar Grand Signoria Amarone",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Cantina di Soave Amarone della Valpolicella Rocca Alata",
+  "vintage": "2004",
+  "format": "750ml",
+  "price": 45.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Cantina di Soave Rocca Alata Amarone 2004; no price",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Cantina Terlan Alto Adige Terlano Pinot Bianco Vorberg Riserva",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 41.0,
+  "source": "Wine-Searcher average retail 2016 Terlan Vorberg Pinot Bianco Riserva",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Cantine Lonardo (Contrade di Taurasi) Taurasi Coste",
+  "vintage": "2011",
+  "format": "750ml",
+  "price": 69.0,
+  "source": "Wine-Searcher average retail 2011 Contrade di Taurasi Coste",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Capichera Vermentino di Sardegna Lintori",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 35.0,
+  "source": "Wine-Searcher CA retailer San Mateo $35 Capichera Lintori 2021",
+  "source_type": "ws_single_retailer"
+ }
+]

@@ -1,0 +1,122 @@
+[
+ {
+  "wine": "Domaine du Pegau Chateauneuf-du-Pape Cuvee Reservee",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 90.0,
+  "source": "Wine-Searcher 2020 Pegau CdP Cuvee Reservee retailer listings $72.50-$99.99; ~$90 used",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Domaine du Vieux Telegraphe Ch\u00e2teauneuf-du-Pape",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 61.0,
+  "source": "Wine-Searcher 2016 Vieux Telegraphe CdP listings $53-$61; top used (conservative)",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Domaine Gerard Charvin Ch\u00e2teauneuf-du-Pape",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 70.0,
+  "source": "Wine-Searcher 2020 Charvin CdP case listings ~$70/bottle (pre-arrival); conservative",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Domaine Grand Veneur Chateauneuf du Pape Les Origines",
+  "vintage": "2017",
+  "format": "750ml",
+  "price": 74.0,
+  "source": "Wine-Searcher average, vintage-specific 2017 Grand Veneur Les Origines",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Domaine Huet Vouvray Clos du Bourg Sec",
+  "vintage": "2014",
+  "format": "750ml",
+  "price": 50.0,
+  "source": "Wine-Searcher average Huet Clos du Bourg Sec $50 (not vintage-tied)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Domaine Tempier Bandol Tourtine",
+  "vintage": "2023",
+  "format": "750ml",
+  "price": 101.0,
+  "source": "Wine-Searcher average ~$101 for 2023 Tempier Tourtine (K&L listing $70)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Dominio de Pingus Flor de Pingus",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 127.0,
+  "source": "Wine-Searcher average (ex-tax), vintage-specific 2020 Flor de Pingus",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "E. Guigal Cote-Rotie Chateau d'Ampuis",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 183.0,
+  "source": "Wine-Searcher average, vintage-specific 2019 Guigal Chateau d'Ampuis",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Fattoria Petrolo Torrione",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 38.0,
+  "source": "Wine-Searcher average, vintage-specific 2021 Petrolo Torrione",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Fontodi Chianti Classico Gran Selezione Vigna del Sorbo",
+  "vintage": "2013",
+  "format": "750ml",
+  "price": 119.0,
+  "source": "Wine-Searcher average, 2013 Fontodi Vigna del Sorbo GS",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Fontodi Chianti Classico Gran Selezione Vigna del Sorbo",
+  "vintage": "2017",
+  "format": "750ml",
+  "price": 85.0,
+  "source": "Saratoga Wine/retail listings $84-$86 for 2017 Fontodi Vigna del Sorbo",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Francois Cotat Sancerre La Grande Cote",
+  "vintage": "2012",
+  "format": "750ml",
+  "price": 96.0,
+  "source": "Wine-Searcher all-vintage average Cotat La Grande Cote $96 (2012 not shown; 2018 is $145)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Francois Cotat Sancerre La Grande Cote",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 145.0,
+  "source": "Wine-Searcher average, vintage-specific 2018 Cotat La Grande Cote",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Francois Cotat Sancerre Les Monts Damn\u00e9s",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 116.0,
+  "source": "Wine-Searcher average, vintage-specific 2018 Cotat Monts Damnes",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Elio Grasso Barolo Ginestra Vigna Casa Mate",
+  "vintage": "2005",
+  "format": "750ml",
+  "price": 108.0,
+  "source": "Wine-Searcher average Elio Grasso Ginestra Casa Mate $108 (2005 not isolated)",
+  "source_type": "ws_allvintage"
+ }
+]

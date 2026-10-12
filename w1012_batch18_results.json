@@ -1,0 +1,122 @@
+[
+ {
+  "wine": "Nicolas Joly Savennieres Clos De La Coulee De Serrant",
+  "vintage": "2014",
+  "format": "750ml",
+  "price": 150.0,
+  "source": "Wine-Searcher 2023 Clos de la Coulee de Serrant retail $150-$177 (low end) applied to 2014 (adjacent)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Marchesi di Barolo Barolo Cannubi",
+  "vintage": "2014",
+  "format": "750ml",
+  "price": 145.0,
+  "source": "Wine-Searcher average Marchesi di Barolo Cannubi $145 (2014 listings)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Luigi Einaudi Barolo Cannubi",
+  "vintage": "1999",
+  "format": "750ml",
+  "price": 87.0,
+  "source": "Wine-Searcher average Poderi Luigi Einaudi Nei Cannubi $87 (1999 not isolated)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Palacios Remondo Rioja Placet Valtomelloso",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 50.0,
+  "source": "Wine-Searcher average, 2022 Palacios Remondo Placet Valtomelloso",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Mas Doix Costers de Vinyes Velles Priorat",
+  "vintage": "2002",
+  "format": "750ml",
+  "price": 177.0,
+  "source": "Wine-Searcher pre-arrival case listing 2006 Doix Costers de Vinyes Velles $176.67/btl applied to 2002 (adjacent; single listing)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Marques de Murrieta Rioja Capellan\u00eda Gran Reserva Blanco",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 89.0,
+  "source": "Wine-Searcher 2018 Murrieta Capellania Blanco GR $89-$99 (low end) applied to 2019",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Pierre Yves Colin-Morey Bourgogne Chardonnay",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 120.0,
+  "source": "Wine-Searcher average (ex-tax), 2019 PYCM Bourgogne Chardonnay",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Raymond Usseglio Chateauneuf du Pape Cuvee Imperiale",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 83.0,
+  "source": "Wine-Searcher average, 2020 Raymond Usseglio CdP Cuvee Imperiale",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Robert Goulley Chablis Vosgros",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 25.0,
+  "source": "Wine-Searcher average Goulley Vosgros 1er Cru $25",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Sylvain Cathiard Bourgogne Hautes-C\u00f4tes de Nuits Rouge",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 95.0,
+  "source": "Wine-Searcher average, 2022 Cathiard Bourgogne Hautes-Cotes de Nuits",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Sylvain Pataille Bourgogne Aligot\u00e9 Charmes aux Pr\u00eatres",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 76.0,
+  "source": "Wine-Searcher 2022 Pataille Aligote Charme aux Pretres $76 applied to 2020",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Maison Stephan C\u00f4te-R\u00f4tie Les Binardes",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 115.0,
+  "source": "Wine-Searcher average, 2019 Maison Stephan Cote-Rotie Les Binardes",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Maison Les Alexandrins Crozes-Hermitage Blanc",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 31.0,
+  "source": "Wine-Searcher average Les Alexandrins Crozes-Hermitage Blanc $31",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Marchesi Antinori Chianti Classico Marchese Antinori Riserva",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 50.0,
+  "source": "Wine-Searcher 2021 Marchese Antinori Riserva retail $49.99-$68.99 (low end)",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Pieve Santa Restituta (Gaja) Brunello di Montalcino",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 112.0,
+  "source": "Wine-Searcher average, 2019 Gaja Pieve Santa Restituta Brunello",
+  "source_type": "ws_vintage"
+ }
+]

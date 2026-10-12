@@ -1,0 +1,170 @@
+[
+ {
+  "wine": "Valdicava Madonna del Piano Brunello di Montalcino Riserva",
+  "vintage": "2013",
+  "format": "750ml",
+  "price": 251.0,
+  "source": "Wine-Searcher average (ex-tax), vintage-specific 2013 Valdicava Madonna del Piano Riserva",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Terralsole Brunello di Montalcino Riserva",
+  "vintage": "2013",
+  "format": "750ml",
+  "price": 106.0,
+  "source": "Wine-Searcher Terralsole Riserva 2013 price $106",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Terralsole Brunello di Montalcino Riserva",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 126.0,
+  "source": "Wine-Searcher Terralsole Riserva 2015 price $126",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Terralsole Brunello di Montalcino Vigna Fonte Lattaia",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 92.0,
+  "source": "Wine-Searcher average Terralsole Vigna Fonte Lattaia $92",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Terralsole Brunello di Montalcino",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 100.0,
+  "source": "Wine-Searcher average, 2018 Terralsole Brunello",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Vincent Girardin Meursault Les Vieilles Vignes",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 100.0,
+  "source": "Wine-Searcher 2022 Girardin Meursault VV retail $99.99-$122.99; low end used",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Vincent Girardin Chassagne-Montrachet Vieilles Vignes",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 109.0,
+  "source": "Wine-Searcher average, 2022 Girardin Chassagne-Montrachet VV",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Vincent Girardin Puligny-Montrachet Vieilles Vignes",
+  "vintage": "2023",
+  "format": "750ml",
+  "price": 130.0,
+  "source": "Wine-Searcher 2023 Girardin Puligny VV retail $129.99-$139.99",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Yves Cuilleron Condrieu Les Chaillets",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 57.0,
+  "source": "Wine-Searcher average, 2022 Cuilleron Condrieu Les Chaillets",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Yves Cuilleron C\u00f4te-R\u00f4tie Lieu-dit Bonnivieres",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 90.0,
+  "source": "Wine-Searcher average, 2020 Cuilleron Cote-Rotie Bonnivieres",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Romano Dal Forno Valpolicella Superiore Vigneto Monte Lodoletta",
+  "vintage": "2007",
+  "format": "750ml",
+  "price": 159.0,
+  "source": "Wine-Searcher average Dal Forno Monte Lodoletta $159 (2007 not isolated)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Tinazzi Ca de Rocchi Amarone Della Valpolicella Classico La Bastia",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 39.0,
+  "source": "Wine-Searcher 2013 Tinazzi La Bastia average $39 applied to 2010 (adjacent)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Tinazzi Ca de Rocchi Amarone Della Valpolicella Classico La Bastia",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 39.0,
+  "source": "Wine-Searcher 2013 Tinazzi La Bastia average $39 applied to 2015 (adjacent)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Tinazzi Ca de Rocchi Amarone Della Valpolicella Classico La Bastia",
+  "vintage": "2017",
+  "format": "750ml",
+  "price": 39.0,
+  "source": "Wine-Searcher 2013 Tinazzi La Bastia average $39 applied to 2017 (adjacent)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Tenuta San Guido Guidalberto",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 64.0,
+  "source": "Wine-Searcher price 2022 Guidalberto",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Tenuta San Guido Guidalberto",
+  "vintage": "2024",
+  "format": "750ml",
+  "price": 77.0,
+  "source": "Wine-Searcher price 2024 Guidalberto",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Tua Rita Redigaffi",
+  "vintage": "2003",
+  "format": "750ml",
+  "price": 250.0,
+  "source": "Wine-Searcher Tua Rita Redigaffi 2022 $251 / 2024 $249 applied to 2003 (adjacent; older vintage)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Tenuta di Biserno Il Pino",
+  "vintage": "2012",
+  "format": "750ml",
+  "price": 79.0,
+  "source": "Wine-Searcher 2024 Il Pino di Biserno $79 applied to 2012 (adjacent)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "San Filippo Brunello di Montalcino Le Lucere",
+  "vintage": "2007",
+  "format": "750ml",
+  "price": 44.0,
+  "source": "Wine-Searcher listing San Filippo Le Lucere 2007 $44",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Vietti Barolo Castiglione",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 76.0,
+  "source": "Wine-Searcher 2015 Vietti Castiglione average $76 applied to 2010 (adjacent)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Trimbach Riesling Cuvee Frederic-Emile",
+  "vintage": "2011",
+  "format": "750ml",
+  "price": 107.0,
+  "source": "Wine-Searcher average, 2011 Trimbach Cuvee Frederic Emile",
+  "source_type": "ws_vintage"
+ }
+]

@@ -1,0 +1,146 @@
+[
+ {
+  "wine": "Clos Fourtet",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 110.0,
+  "source": "Wine-Searcher average retail, vintage-specific 2021 (vintage comparison table; page text also showed $136, conservative figure used)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Clos Fourtet",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 130.0,
+  "source": "Wine-Searcher average retail, vintage-specific 2022 (vintage table $130; page text also showed $136)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Clos Mogador Priorat Gratallops",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 75.0,
+  "source": "Retail listings for 2021 Clos Mogador Priorat: $72.50-$77 per 750ml (Grand Cru Direct, Chicago Wine Co, SommPicks) via Wine-Searcher",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Clos Rene",
+  "vintage": "2014",
+  "format": "750ml",
+  "price": 44.0,
+  "source": "Wine-Searcher average retail (ex-tax), vintage-specific 2014",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Clos Saint Michel Ch\u00e2teauneuf-du-Pape Blanc",
+  "vintage": "2017",
+  "format": "750ml",
+  "price": 46.0,
+  "source": "Wine-Searcher listing $45.99 for Mousset Clos Saint Michel Blanc; not tied to 2017 (all-vintage grain)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Clos Saint Michel Ch\u00e2teauneuf-du-Pape Grand Vin",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 115.0,
+  "source": "Wine-Searcher retailer listing 2020 Mousset Clos St Michel CdP Grand Vin $114.99 (Bellevue WA)",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Comtes Lafon Volnay-Champans",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 201.0,
+  "source": "Wine-Searcher average price Comtes Lafon Volnay Champans $201 (all-vintage; 2015 not shown separately)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Contino Rioja Gran Reserva",
+  "vintage": "2017",
+  "format": "750ml",
+  "price": 70.0,
+  "source": "Wine-Searcher average retail (ex-tax), vintage-specific 2017 Contino Gran Reserva",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Domaine De Chevalier",
+  "vintage": "2009",
+  "format": "750ml",
+  "price": 136.0,
+  "source": "Wine-Searcher average retail (ex-tax), vintage-specific 2009",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Domaine De Chevalier",
+  "vintage": "2012",
+  "format": "750ml",
+  "price": 81.0,
+  "source": "Wine-Searcher average retail (ex-tax), vintage-specific 2012",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Domaine De Chevalier",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 105.0,
+  "source": "Wine-Searcher average retail (ex-tax), vintage-specific 2015",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Domaine De Chevalier",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 100.0,
+  "source": "Wine-Searcher average retail (ex-tax), vintage-specific 2016",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Domaine De Chevalier",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 92.0,
+  "source": "Wine-Searcher average retail (ex-tax), vintage-specific 2021",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Domaine Adrien Besson Chablis Les Clos",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 68.0,
+  "source": "Wine-Searcher average for Besson Les Clos Chablis GC 2020 ($68) applied to 2016 (adjacent vintage)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Domaine Adrien Besson Chablis Mont de Milieu",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 42.0,
+  "source": "Wine-Searcher all-vintage average, Besson Mont de Milieu 1er Cru",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Domaine Adrien Besson Chablis Mont de Milieu",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 42.0,
+  "source": "Wine-Searcher all-vintage average, Besson Mont de Milieu 1er Cru",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Domaine Adrien Besson Chablis Montmains",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 35.0,
+  "source": "Wine-Searcher all-vintage average, Besson Montmains 1er Cru",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Domaine Besson Chablis Montmains",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 35.0,
+  "source": "Wine-Searcher all-vintage average, Besson Montmains 1er Cru",
+  "source_type": "ws_allvintage"
+ }
+]

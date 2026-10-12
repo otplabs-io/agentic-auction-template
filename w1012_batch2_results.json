@@ -1,0 +1,98 @@
+[
+ {
+  "wine": "Altesino Brunello di Montalcino",
+  "vintage": "2012",
+  "format": "750ml",
+  "price": 65.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Altesino Brunello 2012 base; WS only showed Riserva ($115) which was rejected as cuvee mismatch",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Altesino Brunello di Montalcino",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 72.0,
+  "source": "Wine-Searcher average retail 2015 Altesino Brunello di Montalcino",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Anne-Sophie Dubois Fleurie L'Alchimiste",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 29.0,
+  "source": "Wine-Searcher average retail 2020 Anne-Sophie Dubois Fleurie l'Alchimiste",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Anne-Sophie Dubois Fleurie L'Alchimiste",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 33.0,
+  "source": "Wine-Searcher retailer prices $30-$35 for 2022 Dubois Fleurie l'Alchimiste; midpoint",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Antichi Vigneti di Cantalupo Ghemme Collis Breclemae",
+  "vintage": "2013",
+  "format": "750ml",
+  "price": 70.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): 2013 Cantalupo Collis Breclemae; anchored on 2016 avg $65",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Antichi Vigneti di Cantalupo Ghemme Collis Breclemae",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 65.0,
+  "source": "Wine-Searcher average retail 2016 Antichi Vigneti di Cantalupo Collis Breclemae",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Antoine Jobard Meursault",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 120.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Jobard village Meursault 2021; WS showed only Blagny 1er ($290)",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Antoine Jobard Saint Aubin Sur Le Sentier du Clou",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 164.0,
+  "source": "Wine-Searcher all-vintage average Antoine Jobard Sur le Sentier du Clou",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Antonella Corda Cannonau di Sardegna",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 29.0,
+  "source": "Wine-Searcher all-vintage average Antonella Corda Cannonau di Sardegna GBP22 converted to USD",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "AR.PE.PE. Valtellina Superiore - Grumello Sant'Antonio Riserva",
+  "vintage": "2013",
+  "format": "750ml",
+  "price": 82.0,
+  "source": "Wine-Searcher average retail 2013 Ar.Pe.Pe. Grumello Sant'Antonio Riserva",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Argiano Brunello di Montalcino",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 80.0,
+  "source": "Wine-Searcher retailer prices $74.50-$89.99 for 2020 Argiano Brunello; midpoint",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Argiolas Cannonau di Sardegna Costera",
+  "vintage": "2014",
+  "format": "750ml",
+  "price": 17.0,
+  "source": "Wine-Searcher all-vintage average Argiolas Costera Cannonau di Sardegna",
+  "source_type": "ws_allvintage"
+ }
+]

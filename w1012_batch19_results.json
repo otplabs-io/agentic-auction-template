@@ -1,0 +1,130 @@
+[
+ {
+  "wine": "Tenuta Delle Terre Nere Etna Rosso La Vigna Di Don Peppino Prephylloxera",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 186.0,
+  "source": "Wine-Searcher average, vintage-specific 2022 Terre Nere Prephylloxera La Vigna di Don Peppino",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Tement Morillon STK Zieregg",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 61.0,
+  "source": "Wine-Searcher average, vintage-specific 2019 Tement Zieregg Morillon",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Tement Berghausen Grassnitzberg Sauvignon Blanc Reserve",
+  "vintage": "2017",
+  "format": "750ml",
+  "price": 36.0,
+  "source": "Wine-Searcher 2019 Tement Grassnitzberg SB $36 applied to 2017 (adjacent)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Thibaud Boudignon Savennieres Clos de la Hutte",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 126.0,
+  "source": "Wine-Searcher average, vintage-specific 2018 Boudignon Clos de la Hutte",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Veuve Fourny & Fils Ros\u00e9 de Saign\u00e9e",
+  "vintage": "NV",
+  "format": "750ml",
+  "price": 81.0,
+  "source": "Wine-Searcher average Veuve Fourny Rose de Saignee NV",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Tenuta Argentiera Bolgheri Superiore",
+  "vintage": "2017",
+  "format": "750ml",
+  "price": 127.0,
+  "source": "Wine-Searcher average Argentiera Bolgheri Superiore $127",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Tenute Loacker Corte Pavone Brunello di Montalcino",
+  "vintage": "2009",
+  "format": "750ml",
+  "price": 81.0,
+  "source": "Wine-Searcher average Loacker Corte Pavone Brunello $81 (2009 listed)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Tenute Loacker Corte Pavone Brunello di Montalcino",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 81.0,
+  "source": "Wine-Searcher average Loacker Corte Pavone Brunello $81 (2010 listed; 91 pts)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Vite Colte Barolo del Comune di Barolo Essenze",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 55.0,
+  "source": "Wine-Searcher average, 2015 Vite Colte Essenze Barolo Riserva",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Terredora Di Paolo Greco di Tufo Loggia della Serra",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 15.0,
+  "source": "Wine-Searcher retail listing 2018 Terredora Greco di Tufo Loggia della Serra $14.60",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Terredora Di Paolo Taurasi Pago dei Fusi",
+  "vintage": "2008",
+  "format": "750ml",
+  "price": 56.0,
+  "source": "Wine-Searcher average Terredora Taurasi Pago dei Fusi $56",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Yves Cuilleron Saint-Joseph Lyseras Blanc",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 40.0,
+  "source": "Wine-Searcher retail ~$40 for 2021 Cuilleron Saint-Joseph Lyseras Blanc",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Domaine de la Motte Chablis Beauroy",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 33.0,
+  "source": "Wine-Searcher retail $33-$34 de la Motte Chablis 1er Cru Beauroy",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Crous St. Martin Ch\u00e2teauneuf-du-Pape Hommage \u00e1 I'an 1879",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 28.0,
+  "source": "Wine-Searcher average, 2016 Crous St Martin CdP Hommage 1879",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Crous St. Martin Ch\u00e2teauneuf-du-Pape Hommage \u00e1 I'an 1879",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 28.0,
+  "source": "Wine-Searcher 2016 Crous St Martin CdP Hommage average $28 applied to 2015",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Domaine des Escaravailles Cotes du Rhone Villages Rasteau Heritage 1924",
+  "vintage": "2023",
+  "format": "750ml",
+  "price": 28.0,
+  "source": "Wine-Searcher 2022 Escaravailles Rasteau Heritage 1924 $28 applied to 2023",
+  "source_type": "ws_adjacent"
+ }
+]

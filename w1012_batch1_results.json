@@ -1,0 +1,66 @@
+[
+ {
+  "wine": "Albert Bichot Red Bordeaux Table Wine",
+  "vintage": "1969",
+  "format": "750ml",
+  "price": 50.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): 1969 Bichot Bordeaux table wine; no listing found",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Albert Morot Beaune Aigrots",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 73.0,
+  "source": "Wine-Searcher average retail 2022 Albert Morot Beaune Les Aigrots Rouge (extended search snippet)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Aldo Conterno Barolo Bussia Cicala",
+  "vintage": "2011",
+  "format": "750ml",
+  "price": 178.0,
+  "source": "Wine-Searcher average retail 2011 Poderi Aldo Conterno Bussia Cicala",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Aldo Conterno Barolo Bussia Cicala",
+  "vintage": "2012",
+  "format": "750ml",
+  "price": 150.0,
+  "source": "Wine-Searcher average retail 2012 Poderi Aldo Conterno Bussia Cicala",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Aldo Conterno Barolo Bussia Cicala",
+  "vintage": "2013",
+  "format": "750ml",
+  "price": 134.0,
+  "source": "Wine-Searcher retailer range $119-$149 for 2013 Conterno Cicala; midpoint used",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Aldo Conterno Barolo Bussia Cicala",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 158.0,
+  "source": "Wine-Searcher average retail 2022 Poderi Aldo Conterno Bussia Cicala",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Aldo Conterno Barolo Bussia Colonnello",
+  "vintage": "2013",
+  "format": "750ml",
+  "price": 139.0,
+  "source": "Wine-Searcher average retail 2013 Poderi Aldo Conterno Colonnello",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Allegrini Palazzo della Torre",
+  "vintage": "2009",
+  "format": "750ml",
+  "price": 19.0,
+  "source": "Wine-Searcher average retail 2009 Allegrini Palazzo della Torre",
+  "source_type": "ws_vintage"
+ }
+]

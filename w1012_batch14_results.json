@@ -1,0 +1,194 @@
+[
+ {
+  "wine": "Gaja Barolo Dagromis",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 251.0,
+  "source": "Wine-Searcher 2014 Gaja Dagromis average $251 applied to 2010 (adjacent vintage)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Gaja Ca'Marcanda Vistamare",
+  "vintage": "2024",
+  "format": "750ml",
+  "price": 67.0,
+  "source": "Wine-Searcher 2024 Gaja Vistamare retail listings $58.88-$75.99; midpoint",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Girolamo Russo Etna Rosso A Rina",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 35.0,
+  "source": "Wine-Searcher average Girolamo Russo a Rina Etna Rosso $34-36 (all-vintage)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Girolamo Russo Etna Rosso A Rina",
+  "vintage": "2024",
+  "format": "750ml",
+  "price": 35.0,
+  "source": "Wine-Searcher average Girolamo Russo a Rina Etna Rosso $34-36 (all-vintage)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Girolamo Russo Etna Rosso San Lorenzo",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 81.0,
+  "source": "Wine-Searcher 2022 Russo San Lorenzo $81 applied to 2021 (adjacent)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Girolamo Russo Etna Rosso Feudo di Mezzo",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 83.0,
+  "source": "Woodland Hills Wine Co listing 2020 Russo Feudo di Mezzo $83 via Wine-Searcher",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Girolamo Russo Etna Bianco Nerina",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 50.0,
+  "source": "Wine-Searcher listing 2022 Russo Nerina Etna Bianco $49.97",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Le Macchiole Paleo",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 182.0,
+  "source": "Wine-Searcher average, vintage-specific 2019 Le Macchiole Paleo",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Le Macchiole Paleo",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 171.0,
+  "source": "Wine-Searcher average, vintage-specific 2021 Le Macchiole Paleo",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Grattamacco Bolgheri Superiore Grattamacco",
+  "vintage": "2011",
+  "format": "750ml",
+  "price": 102.0,
+  "source": "Wine-Searcher Grattamacco Bolgheri Superiore 2016 ($103)/2019 ($101) applied to 2011",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Il Poggione Brunello di Montalcino",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 87.0,
+  "source": "Wine-Searcher 2010 Il Poggione Brunello retail listings $74-$100; midpoint",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Gosset Brut Excellence",
+  "vintage": "NV",
+  "format": "750ml",
+  "price": 52.0,
+  "source": "Wine-Searcher average Gosset Brut Excellence NV $52",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Gosset Grand Rose",
+  "vintage": "NV",
+  "format": "750ml",
+  "price": 76.0,
+  "source": "Wine-Searcher average Gosset Grand Rose NV $76",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Lanson Brut Black Label",
+  "vintage": "NV",
+  "format": "750ml",
+  "price": 45.0,
+  "source": "Wine-Searcher retail Lanson Black Label NV $44.99",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Jacques Carillon Puligny-Montrachet Les Perri\u00e8res",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 241.0,
+  "source": "Wine-Searcher average (ex-tax), 2018 J. Carillon Puligny Perrieres",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Gravner Ribolla",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 133.0,
+  "source": "Wine-Searcher 2015 Gravner Ribolla listings $132.99-$182.29; low end used",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Giuseppe Quintarelli Bianco Secco Ca' Del Merlo",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 63.0,
+  "source": "Wine-Searcher average Quintarelli Bianco Secco Ca del Merlo $63 (2022 not isolated)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Josef Jamek Liebenberg Gruner Veltliner Smaragd",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 55.0,
+  "source": "Wine-Searcher listing 2020 Jamek Liebenberg GV Smaragd $54.95",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Josef Jamek Ried Achleiten",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 50.0,
+  "source": "Wine-Searcher listing 2020 Jamek Achleiten GV Smaragd $49.95",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "La Rioja Alta Vina Ardanza Rioja Reserva",
+  "vintage": "2009",
+  "format": "750ml",
+  "price": 93.0,
+  "source": "Wine-Searcher average, vintage-specific 2009 Vina Ardanza Reserva",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Le Vieux Donjon Ch\u00e2teauneuf-du-Pape",
+  "vintage": "2012",
+  "format": "750ml",
+  "price": 83.0,
+  "source": "Wine-Searcher average, vintage-specific 2012 Le Vieux Donjon CdP",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Les Vins de Vienne Condrieu La Chambee",
+  "vintage": "2014",
+  "format": "750ml",
+  "price": 69.0,
+  "source": "Wine-Searcher average Les Vins de Vienne Condrieu La Chambee $69",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Les Vins de Vienne Condrieu La Chambee",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 69.0,
+  "source": "Wine-Searcher average Les Vins de Vienne Condrieu La Chambee $69",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Les Vins de Vienne Condrieu La Chambee",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 69.0,
+  "source": "Wine-Searcher average Les Vins de Vienne Condrieu La Chambee $69",
+  "source_type": "ws_allvintage"
+ }
+]

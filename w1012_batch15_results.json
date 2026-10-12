@@ -1,0 +1,146 @@
+[
+ {
+  "wine": "Lopez de Heredia Rioja Vina Tondonia Reserva",
+  "vintage": "2011",
+  "format": "750ml",
+  "price": 58.0,
+  "source": "Wine-Searcher 2011 Lopez de Heredia Tondonia Reserva (red) retail ~$55-$60",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Louis Latour Corton-Charlemagne",
+  "vintage": "2006",
+  "format": "750ml",
+  "price": 225.0,
+  "source": "Wine-Searcher Latour Corton-Charlemagne: 2016 avg $256, 2020 pre-arrival $200-$250; midpoint applied to 2006 (adjacent, older vintage)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Louis Latour Corton-Charlemagne",
+  "vintage": "2009",
+  "format": "750ml",
+  "price": 225.0,
+  "source": "Wine-Searcher Latour Corton-Charlemagne: 2016 avg $256, 2020 pre-arrival $200-$250; midpoint applied to 2009 (adjacent)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Louis Latour Meursault",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 98.0,
+  "source": "Wine-Searcher 2020 Louis Latour Meursault retail $94.43-$101.95",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Louis Latour Pouilly Fuisse",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 36.0,
+  "source": "Wine-Searcher average Louis Latour Pouilly-Fuisse $36",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Marchesi Antinori Guado Al Tasso",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 170.0,
+  "source": "Wine-Searcher average (ex-tax), vintage-specific 2022 Guado al Tasso",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Mazzei Siepi",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 115.0,
+  "source": "Wine-Searcher average, vintage-specific 2021 Mazzei Siepi",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Prager Achleiten Riesling Smaragd",
+  "vintage": "2013",
+  "format": "750ml",
+  "price": 130.0,
+  "source": "Westgarth Wines listing 2013 Prager Achleiten Riesling Smaragd $130 via Wine-Searcher",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Prager Klaus Riesling Smaragd",
+  "vintage": "2013",
+  "format": "750ml",
+  "price": 158.0,
+  "source": "Westgarth Wines listing 2013 Prager Klaus Riesling Smaragd $158.33 via Wine-Searcher",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Nikolaihof Steinriesler Riesling",
+  "vintage": "2004",
+  "format": "750ml",
+  "price": 180.0,
+  "source": "Wine-Searcher listing 2004 Nikolaihof Steinriesler $179.99",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Pio Cesare Barolo",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 83.0,
+  "source": "Wine-Searcher average, vintage-specific 2019 Pio Cesare Barolo",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Pio Cesare Barbaresco Il Bricco",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 117.0,
+  "source": "Wine-Searcher 2021 Pio Cesare Il Bricco retail $117.41-$130.32; low end used",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Luciano Sandrone Nebbiolo d'Alba Valmaggiore",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 48.0,
+  "source": "Wine.com listing 2022 Sandrone Valmaggiore $47.99 via Wine-Searcher",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Passopisciaro Contrada Chiappemacine",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 70.0,
+  "source": "Wine-Searcher 2021 Passopisciaro Chiappemacine retail $66.67-$73",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Raul P\u00e9rez Bierzo Ultreia La Vitoriana",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 42.0,
+  "source": "Wine-Searcher average, vintage-specific 2021 Raul Perez La Vitoriana",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Raul P\u00e9rez La Vizcaina El Rapolao Lomas De Valtuille",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 44.0,
+  "source": "Wine-Searcher average, vintage-specific 2020 Raul Perez El Rapolao",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Pascal Cotat Sancerre Chavignol La Grande Cote",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 96.0,
+  "source": "Wine-Searcher average Pascal Cotat La Grande Cote $96 (SF listing $64)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Pierre Yves Colin-Morey Santenay Les Gravieres",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 91.0,
+  "source": "Wine-Searcher average (ex-tax) 2020 PYCM Santenay Gravieres",
+  "source_type": "ws_vintage"
+ }
+]

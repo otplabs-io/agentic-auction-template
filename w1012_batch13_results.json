@@ -1,0 +1,106 @@
+[
+ {
+  "wine": "Emidio Pepe Trebbiano d'Abruzzo",
+  "vintage": "2012",
+  "format": "750ml",
+  "price": 154.0,
+  "source": "Wine-Searcher average Emidio Pepe Trebbiano d'Abruzzo $154 (current vintages; 2012 not isolated)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Faiveley Gevrey-Chambertin Les Cazetiers",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 180.0,
+  "source": "2020 Faiveley Cazetiers retail listings $150-$291 (J.J. Buckley $179.94, K&L $149.99); ~$180 central",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Domaine Le Clos du Caillou Cotes du Rhone Cuvee Unique Vieilles Vignes",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 23.0,
+  "source": "Wine-Searcher retail $20.99-$24.95 (2022) for Clos du Caillou CdR Vieilles Vignes Cuvee Unique",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Domaine Santa Duc Ch\u00e2teauneuf-du-Pape Habemus Papam",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 61.0,
+  "source": "Wine-Searcher average Santa Duc Habemus Papam $61",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Domaine Pascal & Mireille Renaud Pouilly-Fuisse Cuvee Vieilles Vignes",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 49.0,
+  "source": "Wine-Searcher average, vintage-specific 2021 Renaud Pouilly-Fuisse VV",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Domaine Pascal & Mireille Renaud Pouilly-Fuisse Vers Cras",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 40.0,
+  "source": "Wine-Searcher average, vintage-specific 2021 Renaud Vers Cras",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Domaine Antoine Sanzay Saumur Les Essarts",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 40.0,
+  "source": "Wine-Searcher price 2021 Sanzay Saumur Blanc Les Essarts",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "F.lli Alessandria Barolo Monvigliero",
+  "vintage": "2014",
+  "format": "1.5ltr",
+  "price": 220.0,
+  "source": "Barolo Monvigliero 2014 750ml $100 (Wine-Searcher) x2.2 for 1.5L magnum; size mismatch scaled",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ernest Meurgey-Perron Charmes-Chambertin",
+  "vintage": "2013",
+  "format": "750ml",
+  "price": 199.0,
+  "source": "Wine-Searcher average Meurgey-Perron Charmes-Chambertin GC $199 (all-vintage)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Domaine Tour Saint Michel Ch\u00e2teauneuf-du-Pape Cuv\u00e9e du Lion",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 47.0,
+  "source": "Wine-Searcher average, 2015 Tour Saint-Michel Cuvee du Lion",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Domaine du Vieux Lazaret Ch\u00e2teauneuf-du-Pape",
+  "vintage": "2011",
+  "format": "750ml",
+  "price": 80.0,
+  "source": "Wine-Searcher 2015 Vieux Lazaret CdP average $80, applied to 2011 (adjacent vintage)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Domaine du Grand Montmirail Gigondas Cuvee Vieilles Vignes",
+  "vintage": "2013",
+  "format": "750ml",
+  "price": 35.0,
+  "source": "Wine-Searcher 2015 Grand Montmirail Gigondas VV average $35 applied to 2013",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Domaine du Grand Montmirail Gigondas Le Coteau de Mon R\u00eave",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 38.0,
+  "source": "Wine-Searcher range $30-$46 for Grand Montmirail Gigondas; midpoint",
+  "source_type": "ws_allvintage"
+ }
+]

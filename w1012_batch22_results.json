@@ -1,0 +1,130 @@
+[
+ {
+  "wine": "Valdicava Brunello di Montalcino",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 181.0,
+  "source": "Wine-Searcher average (ex-tax), 2016 Valdicava Brunello di Montalcino (retail $160-$186)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Valdicava Brunello di Montalcino",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 181.0,
+  "source": "Wine-Searcher 2016 Valdicava Brunello $181 applied to 2015 (adjacent)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Gaja Ca'Marcanda Promis",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 62.0,
+  "source": "US retail listings $59.99-$69.99 for 2021 Gaja Ca'Marcanda Promis (Total Wine $59.99)",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Gaja Ca'Marcanda Promis",
+  "vintage": "2014",
+  "format": "750ml",
+  "price": 62.0,
+  "source": "US retail ~$60-$65 for 2021 Promis applied to 2014 (adjacent)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Marchesi Antinori Tignanello",
+  "vintage": "2023",
+  "format": "750ml",
+  "price": 177.0,
+  "source": "Wine-Searcher average (ex-tax), 2023 Tignanello (retail $150-$200)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Tenuta Dell'Ornellaia Le Serre Nuove",
+  "vintage": "2014",
+  "format": "750ml",
+  "price": 90.0,
+  "source": "Wine-Searcher average, 2014 Le Serre Nuove dell'Ornellaia",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Tenuta Dell'Ornellaia Le Serre Nuove",
+  "vintage": "2012",
+  "format": "750ml",
+  "price": 90.0,
+  "source": "Wine-Searcher 2014 Le Serre Nuove $90 applied to 2012 (adjacent)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Domaine Didier Dagueneau Pouilly Fume Pur Sang",
+  "vintage": "2003",
+  "format": "750ml",
+  "price": 256.0,
+  "source": "Wine-Searcher 2003 Dagueneau Pur Sang listed $256-$316; low end used",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Domaine De Chevalier (Blanc)",
+  "vintage": "2009",
+  "format": "750ml",
+  "price": 143.0,
+  "source": "Wine-Searcher average, 2009 Domaine de Chevalier Blanc",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Etienne Sauzet Puligny Montrachet",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 136.0,
+  "source": "Wine-Searcher average, 2022 Sauzet Puligny-Montrachet (retail $118-$140)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "William Fevre Chablis Les Clos",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 160.0,
+  "source": "2020 Fevre Les Clos retail $140-$235 (K&L $139.99, Saratoga $155.61); ~$160 used",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "William Fevre Chablis Les Clos",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 160.0,
+  "source": "2020 Fevre Les Clos retail ~$160 applied to 2018 (adjacent)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Marcel Lapierre Morgon",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 46.0,
+  "source": "Wine-Searcher average, 2022 Lapierre Morgon (retail $38-$51)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Lamblin & Fils Chablis Fourchaume",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 60.0,
+  "source": "Wine Enthusiast/retail listing $60 for 2018 Lamblin Fourchaumes 1er Cru",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Domaine La Barroche Ch\u00e2teauneuf-du-Pape Julien Barrot",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 64.0,
+  "source": "Wine-Searcher average, 2020 La Barroche CdP Julien Barrot (retail $60-$75)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Pierre Morey Meursault",
+  "vintage": "2011",
+  "format": "750ml",
+  "price": 122.0,
+  "source": "Wine-Searcher average Domaine Pierre Morey Meursault $122 (2011 not isolated)",
+  "source_type": "ws_allvintage"
+ }
+]

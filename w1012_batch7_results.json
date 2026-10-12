@@ -1,0 +1,242 @@
+[
+ {
+  "wine": "Ch\u00e2teau Haut-Bailly",
+  "vintage": "2023",
+  "format": "750ml",
+  "price": 140.0,
+  "source": "Wine-Searcher 2023 Chateau Haut-Bailly: avg $154, retailers $120-$125; conservative $140",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Haut Brisson La Reserve",
+  "vintage": "2007",
+  "format": "750ml",
+  "price": 63.0,
+  "source": "Wine-Searcher all-vintage average Chateau Haut Brisson La Reserve",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Haut Brisson La Reserve",
+  "vintage": "2008",
+  "format": "750ml",
+  "price": 63.0,
+  "source": "Wine-Searcher all-vintage average Chateau Haut Brisson La Reserve",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Haut Gravet Grand Chemin",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 40.0,
+  "source": "Wine-Searcher all-vintage average Chateau Haut-Gravet Grand Chemin",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Haut Segottes",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 45.0,
+  "source": "Wine-Searcher retailers $40-$45 for 2022 Chateau Haut Segottes",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Joanin Becot",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 30.0,
+  "source": "Wine-Searcher average retail 2020 Chateau Joanin Becot",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau l'Annonciation",
+  "vintage": "2012",
+  "format": "750ml",
+  "price": 45.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau de l'Annonciation 2012; anchored on 2015 avg $49",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Ch\u00e2teau l'Annonciation",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 49.0,
+  "source": "Wine-Searcher average retail 2015 Chateau de l'Annonciation",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau La Cabanne",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 70.0,
+  "source": "Wine-Searcher average retail 2016 Chateau La Cabanne",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau La Cabanne",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 74.0,
+  "source": "Wine-Searcher average retail 2018 Chateau La Cabanne",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau La Couronne",
+  "vintage": "2014",
+  "format": "750ml",
+  "price": 25.0,
+  "source": "Wine-Searcher price ~$25 2014 La Couronne",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Chateau La Fleur des Rouzes",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 36.0,
+  "source": "Wine-Searcher average retail 2021 Chateau La Fleur des Rouzes",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau La Fleur (St. Emilion)",
+  "vintage": "1988",
+  "format": "750ml",
+  "price": 52.0,
+  "source": "Wine-Searcher average retail 1988 Chateau La Fleur (St-Emilion)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau La Lagune",
+  "vintage": "1982",
+  "format": "750ml",
+  "price": 205.0,
+  "source": "Wine-Searcher average retail 1982 Chateau La Lagune",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau La Mondotte",
+  "vintage": "1996",
+  "format": "750ml",
+  "price": 232.0,
+  "source": "Wine-Searcher average retail 1996 La Mondotte",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Lab\u00e9gorce",
+  "vintage": "2017",
+  "format": "750ml",
+  "price": 46.0,
+  "source": "Wine-Searcher average retail 2017 Chateau Labegorce",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Laffitte-Carcasset",
+  "vintage": "2010",
+  "format": "1.5ltr",
+  "price": 90.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Laffitte-Carcasset 2010 magnum; anchored on Wine Enthusiast $40 per 750ml x2.2",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Ch\u00e2teau Langoa-Barton",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 70.0,
+  "source": "Wine-Searcher average retail 2016 Chateau Langoa-Barton",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Larcis-Ducasse",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 115.0,
+  "source": "Wine-Searcher CA retailers $86-$163 for 2016 Larcis-Ducasse; central $115",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Larcis-Ducasse",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 100.0,
+  "source": "Wine-Searcher retailers $78-$120 for 2018 Larcis-Ducasse; central $100",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Larcis-Ducasse",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 121.0,
+  "source": "Wine-Searcher average retail 2021 Chateau Larcis-Ducasse",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Le Puy Rose-Marie",
+  "vintage": "2023",
+  "format": "750ml",
+  "price": 79.0,
+  "source": "Wine-Searcher average retail 2023 Chateau le Puy Rose-Marie",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Leoville-Barton",
+  "vintage": "1995",
+  "format": "750ml",
+  "price": 233.0,
+  "source": "Wine-Searcher average retail 1995 Chateau Leoville Barton",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Leoville-Barton",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 115.0,
+  "source": "Wine-Searcher average retail 2022 Chateau Leoville Barton",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Leoville-Las-Cases",
+  "vintage": "1987",
+  "format": "750ml",
+  "price": 160.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Leoville-Las-Cases 1987 (weak vintage, 88pt); no price in snippet",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Ch\u00e2teau Les Marechaux",
+  "vintage": "2012",
+  "format": "750ml",
+  "price": 16.0,
+  "source": "Wine-Searcher average Chateau Marechaux Bordeaux Superieur",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Lynch-Bages",
+  "vintage": "2017",
+  "format": "750ml",
+  "price": 183.0,
+  "source": "Wine-Searcher average retail 2017 Chateau Lynch-Bages",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Malartic-Lagraviere",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 50.0,
+  "source": "Wine-Searcher price 2021 Chateau Malartic-Lagraviere (red)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Chateau Maucoil Ch\u00e2teauneuf-du-Pape Privilege",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 61.0,
+  "source": "Wine-Searcher average retail 2016 Chateau Maucoil CdP Cuvee Privilege",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Chateau Mont-Redon Ch\u00e2teauneuf-du-Pape",
+  "vintage": "2010",
+  "format": "1.5ltr",
+  "price": 130.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Mont-Redon CdP 2010 magnum; ~$60 per 750ml x2.2",
+  "source_type": "estimate"
+ }
+]

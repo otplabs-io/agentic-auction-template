@@ -1,0 +1,242 @@
+[
+ {
+  "wine": "Ch\u00e2teau Pavie-Macquin",
+  "vintage": "2023",
+  "format": "750ml",
+  "price": 90.0,
+  "source": "Wine-Searcher listing $90 for 2023 Chateau Pavie Macquin",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Petit Village Le Petit",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 40.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Le Petit (Jardin de Petit-Village) 2021 second wine; WS snippet mixed with Petit Village grand vin",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Ch\u00e2teau Pichon-Longueville Baron",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 204.0,
+  "source": "Wine-Searcher average retail 2015 Chateau Pichon-Longueville Baron",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Pichon-Longueville Baron",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 157.0,
+  "source": "Wine-Searcher average retail 2021 Chateau Pichon-Longueville Baron",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Pierre 1er",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 28.0,
+  "source": "Wine-Searcher all-vintage average Chateau Pierre 1er (Croix Figeac)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Plagnac",
+  "vintage": "1990",
+  "format": "750ml",
+  "price": 35.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau Plagnac 1990; no price found",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Ch\u00e2teau Poesia",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 42.0,
+  "source": "Wine-Searcher average retail 2019 Chateau Poesia",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Pontet-Canet",
+  "vintage": "2012",
+  "format": "750ml",
+  "price": 137.0,
+  "source": "Wine-Searcher average retail 2012 Chateau Pontet-Canet (USA)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Pontet-Canet",
+  "vintage": "2013",
+  "format": "750ml",
+  "price": 120.0,
+  "source": "Wine-Searcher 2013 Pontet-Canet: avg $158 but individual bottles $50-$88; conservative $120",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Pontet-Canet",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 152.0,
+  "source": "Wine-Searcher average retail 2015 Chateau Pontet-Canet",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Pontet-Canet",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 120.0,
+  "source": "Wine-Searcher 2019 Pontet-Canet: retailers $89-$99 per 750ml, avg $158; conservative $120",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Poujeaux",
+  "vintage": "2009",
+  "format": "1.5ltr",
+  "price": 174.0,
+  "source": "Wine-Searcher average 2009 Chateau Poujeaux $79 per 750ml scaled x2.2 for magnum",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Chateau Pradeaux Bandol",
+  "vintage": "2002",
+  "format": "750ml",
+  "price": 70.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau Pradeaux Bandol 2002; no price in snippet",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Ch\u00e2teau Prieure-Lichine",
+  "vintage": "1982",
+  "format": "750ml",
+  "price": 144.0,
+  "source": "Wine-Searcher average retail 1982 Chateau Prieure-Lichine",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Puy Blanquet",
+  "vintage": "1983",
+  "format": "750ml",
+  "price": 93.0,
+  "source": "Wine-Searcher average retail 1983 Chateau Puy Blanquet",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Rauzan-Segla",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 131.0,
+  "source": "Wine-Searcher average retail 2020 Chateau Rauzan-Segla",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Chateau Saint Cosme Gigondas Les Claux",
+  "vintage": "2023",
+  "format": "750ml",
+  "price": 136.0,
+  "source": "Wine-Searcher average retail Chateau de Saint Cosme Gigondas Le Claux",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Siran",
+  "vintage": "1978",
+  "format": "750ml",
+  "price": 55.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau Siran 1978; no price found",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Ch\u00e2teau Sixtine Ch\u00e2teauneuf-du-Pape Blanc",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 70.0,
+  "source": "Wine-Searcher average retail Chateau Sixtine CdP Blanc",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Smith-Haut-Lafitte Blanc",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 195.0,
+  "source": "Wine-Searcher average retail 2022 Chateau Smith Haut Lafitte Blanc",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Smith-Haut-Lafitte Blanc",
+  "vintage": "2023",
+  "format": "750ml",
+  "price": 158.0,
+  "source": "Wine-Searcher average retail 2023 Chateau Smith Haut Lafitte Blanc",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Smith-Haut-Lafitte Le Petit Haut Lafitte",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 49.0,
+  "source": "Wine-Searcher average retail 2016 Le Petit Smith Haut Lafitte",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Smith-Haut-Lafitte",
+  "vintage": "2017",
+  "format": "750ml",
+  "price": 127.0,
+  "source": "Wine-Searcher average retail 2017 Chateau Smith Haut Lafitte",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Smith-Haut-Lafitte",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 105.0,
+  "source": "Wine-Searcher retailers $82-$130 for 2021 Smith Haut Lafitte; midpoint",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Talbot",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 90.0,
+  "source": "Wine-Searcher average retail 2022 Chateau Talbot",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Tour Guillotin",
+  "vintage": "1980",
+  "format": "3.0ltr",
+  "price": 150.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Tour Guillotin 1980 3.0L; 1979 750ml avg $83 on WS scaled for 3L format",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Ch\u00e2teau Troplong-Mondot",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 170.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Troplong-Mondot 2020 (Decanter 100pt); no WS price in snippet",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Ch\u00e2teau Troplong-Mondot",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 128.0,
+  "source": "Wine-Searcher CA retailers $114-$142 for 2022 Troplong Mondot; midpoint",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Valandraud",
+  "vintage": "2017",
+  "format": "750ml",
+  "price": 140.0,
+  "source": "Wine-Searcher CA retailers $124-$162 for 2017 Valandraud; midpoint",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Victoria",
+  "vintage": "1967",
+  "format": "750ml",
+  "price": 40.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau Victoria 1967; no listing found",
+  "source_type": "estimate"
+ }
+]

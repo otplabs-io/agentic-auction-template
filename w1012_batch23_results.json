@@ -1,0 +1,98 @@
+[
+ {
+  "wine": "Contino Rioja Graciano",
+  "vintage": "2017",
+  "format": "750ml",
+  "price": 112.0,
+  "source": "Wine-Searcher average Contino Graciano $112 (single retailer 2017 $151.99)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Delas Freres Hermitage Domaine des Tourettes",
+  "vintage": "2009",
+  "format": "750ml",
+  "price": 98.0,
+  "source": "Wine-Searcher average (ex-tax), 2009 Delas Hermitage Domaine des Tourettes ($98-$108; retail $95-$130)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Contucci Vino Nobile di Montepulciano",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 41.0,
+  "source": "Wine-Searcher average (ex-tax) 2010 Contucci Vino Nobile $41",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Corte dei Venti Brunello di Montalcino",
+  "vintage": "2009",
+  "format": "750ml",
+  "price": 75.0,
+  "source": "Retail Corte dei Venti Brunello $53-$75 (WS avg $88); 2009 not isolated",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Giacomo Brezza & Figli Barolo Bricco Sarmassa",
+  "vintage": "2007",
+  "format": "750ml",
+  "price": 100.0,
+  "source": "Average ~$100 for Brezza Bricco Sarmassa 2007 (one retailer $184); lower figure used",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Fumanelli Amarone della Valpolicella Classico",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 84.0,
+  "source": "Saratoga Wine listing 2018 Fumanelli Amarone $84",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Domaine Adrien Besson Chablis",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 27.0,
+  "source": "Wine-Searcher average Domaine Besson Chablis $27 (retail $33)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Tenuta Dell'Ornellaia Le Volte",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 31.0,
+  "source": "Wine-Searcher average (ex-tax), 2015 Le Volte dell'Ornellaia",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Sylla Sebaste Barolo",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 54.0,
+  "source": "Wine-Searcher average Sylla Sebaste Barolo $54",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Clos Saint Michel Ch\u00e2teauneuf-du-Pape",
+  "vintage": "2023",
+  "format": "1.5ltr",
+  "price": 99.0,
+  "source": "750ml 2023 Clos St Michel CdP $44.99 (Total Wine) x2.2 for 1.5L magnum; size mismatch scaled",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Vincent Lumpp Givry La Grande Berge",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 45.0,
+  "source": "Retail $44.99-$49.99 for 2022 Lumpp Givry 1er Cru La Grande Berge Blanc",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Quinta do Noval Douro Touriga Nacional",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 48.0,
+  "source": "Wine-Searcher average (ex-tax), 2016 Quinta do Noval Touriga Nacional Douro",
+  "source_type": "ws_vintage"
+ }
+]

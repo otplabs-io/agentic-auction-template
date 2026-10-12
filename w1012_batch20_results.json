@@ -1,0 +1,122 @@
+[
+ {
+  "wine": "San Rustico Amarone Della Valpolicella Classico Vigneti Del Gaso",
+  "vintage": "2009",
+  "format": "750ml",
+  "price": 126.0,
+  "source": "Wine-Searcher average San Rustico Vigneti del Gaso Amarone $126",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Santa Sofia Amarone della Valpolicella Classico",
+  "vintage": "2011",
+  "format": "750ml",
+  "price": 64.0,
+  "source": "Wine-Searcher average Santa Sofia Amarone Classico $64",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Monte Zovo Amarone Della Valpolicella",
+  "vintage": "2012",
+  "format": "750ml",
+  "price": 54.0,
+  "source": "Wine-Searcher average Monte Zovo Amarone Classico $54",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Masi Amarone Della Valpolicella Classico Ser\u00e8go Alighieri Vaio Armaron",
+  "vintage": "2008",
+  "format": "750ml",
+  "price": 139.0,
+  "source": "Wine-Searcher price 2008 Masi Serego Alighieri Vaio Armaron",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Giuseppe Campagnola Amarone della Valpolicella Classico",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 37.0,
+  "source": "Wine-Searcher average Giuseppe Campagnola Amarone Classico $37",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Giuseppe Campagnola Amarone della Valpolicella Classico",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 37.0,
+  "source": "Wine-Searcher average Giuseppe Campagnola Amarone Classico $37",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Perrier-Jouet Blason Rose Brut",
+  "vintage": "NV",
+  "format": "750ml",
+  "price": 68.0,
+  "source": "Wine-Searcher retail Perrier-Jouet Blason Rose NV $57.49-$79.99; midpoint",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Nicolas Feuillatte Palmes d'Or Brut",
+  "vintage": "1998",
+  "format": "750ml",
+  "price": 150.0,
+  "source": "Wine-Searcher listing 1998 Nicolas Feuillatte Palmes d'Or $149.99 (millesime avg $200)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Mastroberardino Taurasi Radici Riserva",
+  "vintage": "2008",
+  "format": "750ml",
+  "price": 217.0,
+  "source": "Wine-Searcher average, vintage-specific 2008 Mastroberardino Radici Riserva",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Prince Poniatowski Vouvray Aigle Blanc",
+  "vintage": "1998",
+  "format": "750ml",
+  "price": 85.0,
+  "source": "Wine-Searcher average Prince Poniatowski Vouvray Aigle Blanc $85",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Prince Poniatowski Vouvray Clos Baudoin",
+  "vintage": "1990",
+  "format": "750ml",
+  "price": 75.0,
+  "source": "Rare Wine Co listing 1990 Prince Poniatowski Vouvray Clos Baudoin $74.95 via Wine-Searcher (Wine-Searcher labels it Moelleux)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Quinta do Vallado Douro Touriga Nacional",
+  "vintage": "2012",
+  "format": "750ml",
+  "price": 30.0,
+  "source": "Wine-Searcher average Quinta do Vallado Touriga Nacional $30",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Pavillon Rouge du Margaux",
+  "vintage": "2005",
+  "format": "375ml",
+  "price": 207.0,
+  "source": "Wine-Searcher 2005 Pavillon Rouge du Margaux avg $377/750ml x0.55 for 375ml half bottle (size mismatch scaled)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Sette Ponti Toscana Oreno",
+  "vintage": "2023",
+  "format": "750ml",
+  "price": 80.0,
+  "source": "Wine-Searcher 2023 Sette Ponti Oreno retail $79.99-$84.99",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Poggio San Polo Brunello di Montalcino Riserva",
+  "vintage": "2006",
+  "format": "750ml",
+  "price": 218.0,
+  "source": "Wine-Searcher average Poggio San Polo Brunello Riserva $218",
+  "source_type": "ws_allvintage"
+ }
+]

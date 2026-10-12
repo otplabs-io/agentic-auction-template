@@ -1,0 +1,226 @@
+[
+ {
+  "wine": "Chartogne-Taillet Extra Brut Les Barres Blanc de Noirs",
+  "vintage": "NV",
+  "format": "750ml",
+  "price": 125.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Chartogne-Taillet Les Barres BdN NV; WS all-vintage $230 average is dominated by dated cuvees, treated as not applicable to NV",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Ch\u00e2teau Beausejour (Duffau Lagarrosse)",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 164.0,
+  "source": "Wine-Searcher price 2019 Chateau Beausejour (Duffau-Lagarrosse)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Beychevelle",
+  "vintage": "2023",
+  "format": "750ml",
+  "price": 90.0,
+  "source": "Wine-Searcher CA retailers $84-$95 for 2023 Beychevelle; midpoint",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Branaire-Ducru",
+  "vintage": "2003",
+  "format": "750ml",
+  "price": 142.0,
+  "source": "Wine-Searcher average retail 2003 Chateau Branaire-Ducru",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Camensac",
+  "vintage": "1989",
+  "format": "750ml",
+  "price": 45.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau de Camensac 1989; no price found",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Ch\u00e2teau Canon-La-Gaffeliere",
+  "vintage": "2016",
+  "format": "750ml",
+  "price": 120.0,
+  "source": "Wine-Searcher average retail 2016 Chateau Canon la Gaffeliere",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Canon",
+  "vintage": "2017",
+  "format": "750ml",
+  "price": 124.0,
+  "source": "Wine-Searcher average retail 2017 Chateau Canon",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Cantemerle",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 54.0,
+  "source": "Wine-Searcher average retail 2015 Chateau Cantemerle",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Chantelune",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 25.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau Chantelune 2015 (Margaux); no price in snippet",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Ch\u00e2teau Clinet",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 166.0,
+  "source": "Wine-Searcher average retail 2015 Chateau Clinet",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Clinet",
+  "vintage": "2017",
+  "format": "750ml",
+  "price": 126.0,
+  "source": "Wine-Searcher average retail 2017 Chateau Clinet",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Clinet",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 110.0,
+  "source": "Wine-Searcher CA retailers $99-$121 for 2021 Clinet; midpoint",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Chateau d'Aydie Madiran Od\u00e9 d'Aydie",
+  "vintage": "2014",
+  "format": "750ml",
+  "price": 15.0,
+  "source": "Wine-Searcher average retail Chateau d'Aydie Ode d'Aydie",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Chateau d'Aydie Madiran Od\u00e9 d'Aydie",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 15.0,
+  "source": "Wine-Searcher average retail Chateau d'Aydie Ode d'Aydie",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Ch\u00e2teau de Barbe Blanche",
+  "vintage": "2009",
+  "format": "750ml",
+  "price": 30.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau de Barbe Blanche 2009 Lussac-St-Emilion; WS snippet showed $70 which looks like an outlier",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Ch\u00e2teau de l'Ou Vin de Pays des C\u00f4tes Catalanes Secret de Schistes",
+  "vintage": "2011",
+  "format": "750ml",
+  "price": 40.0,
+  "source": "Wine-Searcher price 2011 Chateau de l'Ou Secret de Schistes (avg $37)",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Chateau de la Font du Loup Ch\u00e2teauneuf-du-Pape Blanc",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 69.0,
+  "source": "Wine-Searcher price Chateau de la Font du Loup CdP Blanc",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Chateau de Santenay Bourgogne Haut Cotes de Beaune Clos de la Chaise Dieu Blanc",
+  "vintage": "2014",
+  "format": "750ml",
+  "price": 30.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau de Santenay Clos de la Chaise Dieu Blanc 2014; no price found",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Ch\u00e2teau des Tuileries",
+  "vintage": "1970",
+  "format": "750ml",
+  "price": 60.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau des Tuileries 1970; no listing found",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Ch\u00e2teau du Tertre (Bordeaux)",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 71.0,
+  "source": "Wine-Searcher average retail 2015 Chateau du Tertre",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau du Val d'Or",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 35.0,
+  "source": "Wine-Searcher average retail Chateau du Val d'Or",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Ducru-Beaucaillou",
+  "vintage": "1997",
+  "format": "750ml",
+  "price": 187.0,
+  "source": "Wine-Searcher average retail 1997 Chateau Ducru-Beaucaillou",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Fargueirol Ch\u00e2teauneuf-du-Pape Cuvee Antonin",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 33.0,
+  "source": "Wine-Searcher average retail 2015 Chateau Fargueirol CdP Cuvee Antonin",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Fleur Cardinale",
+  "vintage": "2001",
+  "format": "750ml",
+  "price": 50.0,
+  "source": "Estimate from general knowledge of collector-grade wine prices (not sourced): Chateau Fleur Cardinale 2001; no price found",
+  "source_type": "estimate"
+ },
+ {
+  "wine": "Ch\u00e2teau Grand-Puy-Lacoste",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 105.0,
+  "source": "Wine-Searcher average retail 2015 Chateau Grand-Puy-Lacoste",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Grand-Puy-Lacoste",
+  "vintage": "2017",
+  "format": "750ml",
+  "price": 120.0,
+  "source": "Wine-Searcher average retail 2017 Chateau Grand-Puy-Lacoste",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Grand-Puy-Lacoste",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 100.0,
+  "source": "Wine-Searcher average retail 2019 Chateau Grand-Puy-Lacoste",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Ch\u00e2teau Guiraud G",
+  "vintage": "2015",
+  "format": "750ml",
+  "price": 15.0,
+  "source": "Wine-Searcher average Le G de Chateau Guiraud Blanc Sec (EUR13 converted)",
+  "source_type": "ws_allvintage"
+ }
+]

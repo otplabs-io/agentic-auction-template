@@ -1,0 +1,122 @@
+[
+ {
+  "wine": "Lamblin & Fils Chablis Vaillon",
+  "vintage": "2017",
+  "format": "750ml",
+  "price": 43.0,
+  "source": "Wine-Searcher average Lamblin Chablis 1er Cru Vaillon $43 (2017 not isolated)",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Francois Cotat Sancerre Les Monts Damn\u00e9s",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 116.0,
+  "source": "Wine-Searcher 2018 F. Cotat Monts Damnes $116 applied to 2021 (adjacent; 2021 scored 96)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Francois Cotat Sancerre Les Monts Damn\u00e9s",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 116.0,
+  "source": "Wine-Searcher 2018 F. Cotat Monts Damnes $116 applied to 2022 (adjacent)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Francois Chidaine Montlouis sur Loire Les Bournais",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 53.0,
+  "source": "Wine-Searcher average Chidaine Montlouis Les Bournais $53",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Francois Mikulski Pommard",
+  "vintage": "2021",
+  "format": "750ml",
+  "price": 85.0,
+  "source": "Wine-Searcher 2021 Mikulski Pommard retail $84.94-$99.99; low end used",
+  "source_type": "ws_single_retailer"
+ },
+ {
+  "wine": "Francois Gaunoux Meursault Clos des Meix Chavaux",
+  "vintage": "2013",
+  "format": "750ml",
+  "price": 86.0,
+  "source": "Wine-Searcher average, 2013 Gaunoux Meursault Clos de Meix Chavaux Monopole",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Fontanafredda Barolo Paiagallo La Villa",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 106.0,
+  "source": "Wine-Searcher average Fontanafredda Paiagallo Vigna la Villa $106",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Costa di Bussia (Tenuta Arnulfo) Barolo Campo dei Buoi",
+  "vintage": "2010",
+  "format": "750ml",
+  "price": 44.0,
+  "source": "Wine-Searcher average Costa di Bussia Campo dei Buoi $44",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Lisini Brunello di Montalcino Ugolaia",
+  "vintage": "2007",
+  "format": "750ml",
+  "price": 82.0,
+  "source": "Wine-Searcher 2006 Lisini Ugolaia average $82 applied to 2007 (pre-arrival listing $105)",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Gustave Lorentz Riesling Altenberg de Bergheim Vieilles Vignes",
+  "vintage": "2011",
+  "format": "750ml",
+  "price": 52.0,
+  "source": "Wine-Searcher 2016 Lorentz Riesling VV Altenberg de Bergheim $52 applied to 2011",
+  "source_type": "ws_adjacent"
+ },
+ {
+  "wine": "Domaine de Saint-Prefert Chateauneuf du Pape Auguste Favier Reserve",
+  "vintage": "2019",
+  "format": "750ml",
+  "price": 96.0,
+  "source": "Wine-Searcher average St Prefert CdP Auguste Favier Reserve $96",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Famille Isabel Ferrando Ch\u00e2teauneuf-du-Pape Saint Pr\u00e9fert",
+  "vintage": "2022",
+  "format": "750ml",
+  "price": 103.0,
+  "source": "Wine-Searcher average 2022 Famille Isabel Ferrando Saint Prefert CdP",
+  "source_type": "ws_vintage"
+ },
+ {
+  "wine": "Domaine des Senechaux Ch\u00e2teauneuf-du-Pape Blanc",
+  "vintage": "2018",
+  "format": "750ml",
+  "price": 75.0,
+  "source": "Wine-Searcher average Domaine des Senechaux CdP Blanc $75",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "E. Guigal Ch\u00e2teau de Nalys Ch\u00e2teauneuf-du-Pape Blanc",
+  "vintage": "2020",
+  "format": "750ml",
+  "price": 99.0,
+  "source": "Wine-Searcher average Guigal Chateau de Nalys CdP Blanc $99",
+  "source_type": "ws_allvintage"
+ },
+ {
+  "wine": "Domaine Sylvain Langoureau Puligny-Montrachet Les Chalumeaux",
+  "vintage": "2023",
+  "format": "750ml",
+  "price": 113.0,
+  "source": "Wine-Searcher global average (Sept 2026), 2023 Langoureau Puligny Les Chalumaux",
+  "source_type": "ws_vintage"
+ }
+]
