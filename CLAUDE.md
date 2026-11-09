@@ -78,6 +78,13 @@ One sheet named **`List View`**. Rows 1–2 are titles; header is on **row 3**; 
 
 No critic-score column and no wine-type column. If the file doesn't match this shape, say so and ask for the correct export rather than guessing.
 
+**Subregion comes from the lot's own page, not the export.** The export's `Region` (and the listing's region facets) stop at about three levels, and for Burgundy the third is just "Côte d'Or", so the dashboard's Subregion column comes out blank or useless. Each lot's page, `https://www.winebid.com/BuyWine/Item/<Item ID>`, shows the full REGION path (2 to 6 levels, e.g. `France, Burgundy, Côte d'Or, Côte de Nuits, Gevrey-Chambertin`). It opens with a plain `WebFetch`, no sign-in and no bot check. After deals are chosen, fetch the page for every deal and unvalued lot (one page at a time; the site rate-limits parallel fetches) and rebuild `region_path` as `[country, region, subregion]`:
+- Subregion is the leaf of the page path, except for `Burgundy, Côte d'Or` paths, where it is the village (5th level), since the leaf can be a single vineyard.
+- If the page path skips the export's region (e.g. `Austria, Kamptal` for a lot listed under Niederösterreich), keep the export's region and use the page's leaf as subregion.
+- Fold spelling variants to one form per subregion (`Gevrey Chambertin` → `Gevrey-Chambertin`), preferring the spelling with accents and hyphens.
+- When the page itself stops at region (common for Champagne, Tuscany), leave subregion empty; don't guess one.
+Do this before Step 6 so personal-pick matching sees the subregion. See `known-limits.md`.
+
 ## Step 1 — Screen
 
 Apply in order; report how many drop at each stage.
@@ -308,7 +315,7 @@ Field notes:
 - `wine_type` — required on every deal **and** every unvalued lot. Unaccented (`Rose`, never `Rosé`) so it survives a URL hash and CSV round-trip; the dashboard renders the accent. Exactly one value, no blanks, no "Unknown".
 - `personal_pick` / `pick_reason` — required on every deal and unvalued lot (Step 6). `pick_reason` is `""` when `personal_pick` is `false`, and a specific, non-empty explanation when `true` — never a generic "you might like this."
 - `pct_below` — decimal, measured on `buyer_price`. Schema 1 measured it on the reserve and schema 2 had no `wine_type`, which is why both are rejected outright rather than reinterpreted.
-- `region_path` — mirrors the export faithfully; only trim whitespace and normalize diacritic variants (Rhone → Rhône). Impose no canonical hierarchy.
+- `region_path` — `[country, region, subregion]`. Country and region mirror the export; subregion comes from the lot's item page (see Input format). Only trim whitespace and normalize diacritic and hyphen variants (Rhone → Rhône, Gevrey Chambertin → Gevrey-Chambertin). Impose no other canonical hierarchy. `region_raw` holds the full page path.
 - `country_code` — ISO 3166-1 alpha-2 from `region_path[0]`.
 - `source_type` — `ws_vintage`, `ws_adjacent`, `ws_allvintage`, `ws_single_retailer`, `auction`, `estimate`, `insufficient`. **`estimate` is the real-world-vs-memory flag:** it means the price came from the analyst's general knowledge, not from a retailer/auction page. The builder requires an `estimate` row's `source` to say "estimate". The dashboard shows `≈$X est.` on every such market price, labels the Market-source filter "Estimate from memory (not sourced)", offers a **Hide estimated prices** shortcut, and adds a **Price basis** column ("Sourced market price" / "Estimate (from memory)") to the Deals CSV.
 - `vintage` may be `null` for NV lots; the dashboard renders NV. Common in Sparkling, not a data gap.
